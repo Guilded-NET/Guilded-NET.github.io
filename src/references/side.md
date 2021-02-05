@@ -1,4 +1,4 @@
 # Links
-- [Guilded.NET](./references/Guilded.NET)
-- [Guilded.NET.Objects](./references/Guilded.NET.Objects)
-- [Guilded.NET.API](./references/Guilded.NET.API)
+- [Guilded.NET](https://www.fuget.org/packages/Guilded.NET/0.0.11)
+- [Guilded.NET.Objects](https://www.fuget.org/packages/Guilded.NET.Objects)
+- [Guilded.NET.API](https://www.fuget.org/packages/Guilded.NET.API/)
