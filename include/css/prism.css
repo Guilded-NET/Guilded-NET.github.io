@@ -33,15 +33,12 @@ pre code {
     hyphens: none;
 }
 
-.token.comment,
-.token.block-comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
+span.c1 {
     color: #8b8983;
 }
 
-.token.punctuation {
+.token.punctuation,
+span.p {
     color: #ff8074;
 }
 
@@ -57,7 +54,8 @@ pre code {
 
 .token.boolean,
 .token.number,
-.token.function {
+.token.function,
+span.nf {
     color: #f5c79c;
 }
 
@@ -73,7 +71,8 @@ pre code {
 .token.important,
 .token.atrule,
 .token.keyword,
-.token.builtin {
+.token.builtin,
+span.k {
     color: #ffa346;
 }
 
@@ -81,7 +80,8 @@ pre code {
 .token.char,
 .token.attr-value,
 .token.regex,
-.token.variable {
+.token.variable,
+span.s {
     color: #aee96e;
 }
 
