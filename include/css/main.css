@@ -151,11 +151,11 @@ body {
 .mainBody, .sideInfo {
     background-color: var(--background-level-2);
     border-radius: var(--smaller-space-size);
-    margin: var(--smaller-space-size);
+    margin: var(--default-space-size);
     float: right;
 }
 .mainBody {
-    width: 75%;
+    width: 100%;
 }
 .sideInfo {
     width: 20%;
