@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guilded.NET Docs - {{ page.title | escape }}</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/main/assets/IconWhiteOutline.png">
+    <!-- HTML encoding -->
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta property="og:site_name" content="Guilded.NET" />
+    <meta property="og:determiner" content="the" />
+    <meta property="og:title" content="Guilded.NET - {{ page.title | escape }}" />
+    <meta property="og:description" content="Guilded.NET website for documentation and information." />
+    <meta property="og:thumbnail"
+        content="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/main/assets/IconWhiteOutline.png" />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/main/assets/IconWhiteOutline.png" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="theme-color" content="#f5bc1e" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <!-- Adds all of the styling of the website -->
+    <link rel="stylesheet" type="text/css" href="include/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="include/css/documentation.css" />
+    <link rel="stylesheet" type="text/css" href="include/css/reference.css" />
+    <link rel="stylesheet" type="text/css" href="include/css/prism.css" />
+    <!-- Adds all of the libraries -->
+    <link rel="stylesheet" href="include/css/fa.css">
+</head>
+
+<body>
+    <!-- Top of the page -->
+    <div class="pageTop">
+        <div class="pageTopInner">
+            <div class="pageDisplay">
+                <img href="/index"
+                    src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/main/assets/BannerWhite.png" />
+                <div class="navigation">
+                    <a title="Guides" href="/guides"><i class="fas fa-book-open"></i></a>
+                    <a title="References" href="/references"><i class="fas fa-book"></i></a>
+                    <a title="Github" href="https://github.com/Guilded-NET"><i class="fab fa-github"></i></a>
+                    <a title="Guilded Discussions" href="https://www.guilded.gg/guilded-api/groups/aDk5j9Jz/channels/8c247143-2009-415b-ab99-97912c0685bc/announcements"><i class="fab fa-guilded"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The main body of the page -->
+    <div class="documentBody">
+        <div class="mainBody">
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
