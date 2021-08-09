@@ -17,7 +17,7 @@ pre code {
     display: block;
     overflow-x: auto;
     font-size: 0.8rem;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family: Consolas, 'Ubuntu Mono', monospace;
     text-align: left;
     white-space: pre;
     word-spacing: normal;
@@ -33,6 +33,31 @@ pre code {
     hyphens: none;
 }
 
+/* Toolbar */
+.code-toolbar {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.code-toolbar .toolbar {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+/* Language */
+.code-toolbar .toolbar .toolbar-item:first-child {
+    position: relative;
+    top: 0.5rem;
+}
+.code-toolbar .toolbar .toolbar-item:first-child span {
+    background-color: #1c8bf3;
+    border-radius: 0.3rem;
+    font-size: 0.8em;
+
+    padding: 0.15rem;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+}
+
+.token.comment,
 span.c1 {
     color: #8b8983;
 }

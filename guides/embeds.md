@@ -10,22 +10,19 @@ Embeds are simple and easy to use. It does not take much effort to learn to use 
 
 We will first make a basic embed which has a description, a title and few fields.
 First, we need to make a new embed. To make it, simply do `Embed embed = new Embed()`. Then, add a title to it using `.SetTitle("Title here")`
-```cs
-Embed embed = new Embed()
-    .SetTitle("Super cool embed");
-```
+<pre><code class="language-cs">Embed embed = new Embed()
+    .SetTitle("Super cool embed");</code></pre>
 Now we have created an embed. To send it, simply use `Message.Generate(embed)`, and it will generate a message with that embed.
-```cs
-// We create an embed with a title `Super cool embed`
+
+<pre><code class="language-cs">// We create an embed with a title `Super cool embed`
 Embed embed = new Embed()
     .SetTitle("Super cool embed");
 // We send embed we have created
 await messageCreated.RespondAsync(
     Message.Generate(embed)
-);
-```
-Launch the bot and use the command where embed was created in, and it should send this:
+);</code></pre>
 
+Launch the bot and use the command where embed was created in, and it should send this:
 <div class="gembed">
     <div class="gembed-inner">
         <div class="gembed-wrapper">
@@ -35,18 +32,15 @@ Launch the bot and use the command where embed was created in, and it should sen
         </div>
     </div>
 </div>
-
 Now we also need to add a description and fields. Adding a description is very similar to adding a title. To add a description, use `.SetDescription("Description here")`.
-```cs
-// We create an embed with a title `Super cool embed`
+<pre><code class="language-cs">// We create an embed with a title `Super cool embed`
 Embed embed = new Embed()
     .SetTitle("Super cool embed")
     .SetDescription("Hello!");
 // We send embed we have created
 await messageCreated.RespondAsync(
     Message.Generate(embed)
-);
-```
+);</code></pre>
 Use the command again and it should output this:
 
 <div class="gembed">
@@ -64,8 +58,7 @@ Fields are a bit different. Fields require you both a title and a description, c
 
 To add a field, use `.AddField("Title of the field", "Description of a field")` to make a normal field or `.AddField("Title of the field", "Description of a field", true)` to make an inline field.
 
-```cs
-// We create an embed with a title `Super cool embed`
+<pre><code class="language-cs">// We create an embed with a title `Super cool embed`
 Embed embed = new Embed()
     .SetTitle("Super cool embed")
     .SetDescription("Hello!")
@@ -75,8 +68,7 @@ Embed embed = new Embed()
 // We send embed we have created
 await messageCreated.RespondAsync(
     Message.Generate(embed)
-);
-```
+);</code></pre>
 
 This is how your embed should look:
 
@@ -129,8 +121,7 @@ We can also add footers and authors to our embed. Footer has both a text and an 
     <p> If you are using properties like `ProfilePicture` and `ProfileBanner`, you don't need to use `new Uri(...)`, because `ProfilePicture` and `ProfileBanner` are URI, not strings. You only need to use `new Uri(str)`.</p>
 </blockquote>
 
-```cs
-// Get user which used this command
+<pre><code class="language-cs">// Get user which used this command
 User author = await messageCreated.GetAuthorAsync();
 // Create an embed
 Embed embed = new Embed()
@@ -143,8 +134,7 @@ Embed embed = new Embed()
 // Send embed we have created
 await messageCreated.RespondAsync(
     Message.Generate(embed)
-);
-```
+);</code></pre>
 It should appear like this:
 
 <div class="gembed">
@@ -196,8 +186,7 @@ Adding an author is also similar to adding a footer. The only difference is that
 
 We are going to create same author as footer, but also add a link to their profile.
 
-```cs
-// Get user which used this command
+<pre><code class="language-cs">// Get user which used this command
 User author = await messageCreated.GetAuthorAsync();
 // Create an embed
 Embed embed = new Embed()
@@ -214,8 +203,7 @@ Embed embed = new Embed()
 // Send embed we have created
 await messageCreated.RespondAsync(
     Message.Generate(embed)
-);
-```
+);</code></pre>
 
 Output:
 
@@ -276,8 +264,7 @@ Output:
 
 Adding an image and a thumbnail is pretty simple. All you need to do is use `.SetThumbnail(new Uri("link_here"))` to add a thumbnail and/or use `.SetImage(new Uri("link_here"))` to add an image.
 
-```cs
-// Get user which used this command
+<pre><code class="language-cs">// Get user which used this command
 User author = await messageCreated.GetAuthorAsync();
 // Create an embed
 Embed embed = new Embed()
@@ -296,8 +283,7 @@ Embed embed = new Embed()
 // Send embed we have created
 await messageCreated.RespondAsync(
     Message.Generate(embed)
-);
-```
+);</code></pre>
 
 This will set thumbnail as a profile picture and image as a profile banner.
 
