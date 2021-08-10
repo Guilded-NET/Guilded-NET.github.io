@@ -1,5 +1,48 @@
 @import "./base"
-    
+
+
+.chat-preview
+    border: 1px solid rgba(white, 0.1)
+    // Spacing
+    padding: $spacing-3 0rem
+    border-radius: $small-radius
+    // Scrollbar
+    max-height: 25rem
+    overflow-y: auto
+    // A message in a chat
+    &-message
+        display: flex
+        flex-direction: row
+
+        padding: $spacing-3
+        
+        cursor: pointer
+        // Make it darker on hover
+        &:hover
+            background-color: var(--background-level-3)
+
+.preview
+    // The icon of the user
+    &-avatar
+        margin-right: $spacing-1
+        user-select: none
+    &-icon
+        width: 2.5rem
+        height: 2.5rem
+        border-radius: 100%
+    // The name and timestamp
+    &-header
+        user-select: none
+        .preview-name
+            font-weight: bolder
+            &:hover
+                text-decoration: underline solid 1px
+        .preview-timestamp
+            font-size: 0.8em
+            color: var(--foreground-level-2)
+            // Add a space before itself
+            margin-left: $spacing-1
+
 /*
  * --- Embeds ---
  */
@@ -47,7 +90,7 @@
     &-img, &-author-icon, &-footer-icon
         width: 1.3rem
         height: 1.3rem
-    &-footer-icon
+    &-footer-icon &-img
         border-radius: 50%
     // Content area
     &-wrapper
