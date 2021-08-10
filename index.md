@@ -6,7 +6,7 @@ title: Home
 
 Guilded.NET is an API wrapper for [Guilded](https://guilded.gg). Guilded.NET allows you to interact with API easily. It uses .NET, so be sure to install it before using it.
 
-<blockquote class="note-block">
+<blockquote class="note">
     <p> It's currently using undocumented and unsupported API. Guilded developers will not help you in any way, shape or form.</p>
 </blockquote>
 

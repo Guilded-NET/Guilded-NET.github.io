@@ -109,7 +109,7 @@ This is how your embed should look:
     </div>
 </div>
 
-<blockquote class="success-block">
+<blockquote class="success">
     <p>Now we have successfully created an embed with a description, a title and few fields.</p>
 </blockquote>
 
@@ -117,7 +117,7 @@ This is how your embed should look:
 
 We can also add footers and authors to our embed. Footer has both a text and an optional icon. To add a footer without an icon, use `.SetFooter("Text here")`. If you want to add an icon to it, use `.SetFooter("Text here", new Uri("icon_url_here"))`. We will be using a footer with our name and our icon. But to get our name and icon, we need to get message author. This can be done by using `await messageCreated.GetAuthorAsync()`.
 
-<blockquote class="warning-block">
+<blockquote class="warning">
     <p> If you are using properties like `ProfilePicture` and `ProfileBanner`, you don't need to use `new Uri(...)`, because `ProfilePicture` and `ProfileBanner` are URI, not strings. You only need to use `new Uri(str)`.</p>
 </blockquote>
 

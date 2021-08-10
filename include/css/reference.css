@@ -263,7 +263,6 @@
     font-weight: bolder;
     color: var(--foreground-level-1);
     padding: var(--tiny-space-size);
-    border-bottom: var(--header-border);
 }
 /* Points */
 .reference-points {

@@ -1,0 +1,24 @@
+:root {
+    /* Server list */
+    --background-level-0: #191b1f;
+    /* Group list */
+    --background-level-1: #1e2025;
+    /* Channel list */
+    --background-level-2: #292b32;
+    /* Member list */
+    --background-level-3: #33343d;
+    /* Chat area */
+    --background-level-4: #373944;
+
+    /* Channel selected */
+    --background-level-2-highlight: #373943;
+    /* Message text area */
+    --background-level-3-input: #4d4e58;
+    /* Threaded message background */
+    --background-level-3-thread: #4f515d;
+
+    --foreground-level-0: white;
+    --foreground-level-1: #ececec;
+    --foreground-level-2: #a3a3ac;
+    --foreground-level-3: #66676f;
+}

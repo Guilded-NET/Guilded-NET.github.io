@@ -1,0 +1,113 @@
+@import "./base"
+    
+pre > code
+    // Content
+    background-color: var(--background-level-2)
+    color: #cdc9c1
+    // Font and text
+    white-space: pre
+    word-spacing: normal
+    word-break: normal
+    word-wrap: normal
+
+    font-family: $font-code
+    font-size: 0.8rem
+    text-align: left
+    // Spacing
+    padding-left: $spacing-2 $spacing-1
+    line-height: 1.5
+    // Make tab same as 4 spaces
+    -moz-tab-size: 4
+    -o-tab-size: 4
+    tab-size: 4
+    // Misc
+    display: block
+    overflow-x: auto
+    -webkit-hyphens: none
+    -moz-hyphens: none
+    -ms-hyphens: none
+    hyphens: none
+
+// Toolbar and content wrapper
+.code-toolbar
+    display: flex
+    flex-direction: column-reverse
+    // Toolbar
+    .toolbar
+        padding-left: 0.6rem
+        padding-right: 0.6rem
+        // Language
+        .toolbar-item:first-child
+            position: relative
+            top: 0.5rem
+            // The label
+            span
+                background-color: $event-sky
+                border-radius: $small-radius
+                font-size: 0.8em
+
+                padding: 0.15rem 0.35rem
+
+// Comments and block comments
+.token.comment,
+span.c1
+    color: #8b8983
+// Dots, commas
+.token.punctuation,
+span.p
+    color: #ff8074
+
+.token.deleted
+    color: #d96c75
+// Functions, namespaces and attributes
+.token.function-name,
+.token.namespace,
+.token.attr-name
+    color: #ffd471
+// Values
+.token.function,
+.token.boolean,
+.token.number,
+span.nf
+    color: #f5c79c
+// Properties, names, symbols
+.token.class-name,
+.token.property,
+.token.constant,
+.token.symbol,
+.token.tag
+    color: #009FEC
+// Keywords, built-in and selectors
+.token.important,
+.token.selector,
+.token.builtin,
+.token.keyword,
+.token.atrule,
+span.k
+    color: #ffa346
+// Regex, characters, strings, regex
+.token.attr-value,
+.token.variable,
+.token.string,
+.token.regex,
+.token.char,
+span.s
+    color: #aee96e
+// Operators
+.token.operator,
+.token.entity,
+.token.url
+    color: #cdc9c1
+// !important and Markdown bold
+.token.important,
+.token.bold
+    font-weight: bold
+// Italic text
+.token.italic
+    font-style: italic
+// Entity
+.token.entity
+    cursor: help
+// Inserted
+.token.inserted
+    color: #d19e9e

@@ -1,0 +1,109 @@
+@import "./base"
+
+
+/*
+ * --- Normal text ---
+ */
+
+// Change the colour and font of headers
+h1, h2, h3, h4, h5, h6
+    color: var(--foreground-level-1)
+    font-family: $font-header
+    // Make it yellow for the titles
+    strong
+        color: $gilded-full
+
+// Change line height for inline code
+p, li
+    line-height: 1.4rem
+
+// Links
+a[href]
+    text-decoration: none
+    // Semi-gilded normally
+    &, &:visited, &:focus, &:active
+        color: $gilded-bright
+    // White on hover
+    &:hover
+        color: white
+/*
+ * --- Formatting ---
+ */
+
+blockquote
+    // Spacing
+    margin: $spacing-1 0
+    padding: $spacing-0
+    padding-left: $spacing-1
+    border-radius: $medium-radius
+
+    // Side
+    border-left: 0.2rem solid $gilded-full
+    border-left-color: $gilded-full
+
+    // Misc
+    display: flex
+    align-items: center
+
+    line-height: 1.4rem
+    background-color: #00000009
+
+    // For log blocks
+    &.info, &.note, &.caution, &.warning, &.success
+        // Add an icon
+        &::before
+            font-weight: 900
+            font-style: normal
+            font-variant: normal
+            text-rendering: auto
+            font-family: "Font Awesome 5 Free"
+
+            display: inline-block
+            margin-right: $spacing-1
+            line-height: 1
+    // Log block colours
+    &.caution
+        border-left-color: $event-red
+        &::before
+            color: $event-red
+            content: "\f057"
+    &.warning
+        border-left-color: $event-yellow
+        &::before
+            color: $event-yellow
+            content: "\f06a"
+    &.success
+        border-left-color: $event-green
+        &::before
+            color: $event-green
+            content: "\f058"
+    &.info
+        border-left-color: $event-sky
+        &::before
+            color: $event-sky
+            content: "\f05a"
+    &.note
+        border-left-color: $event-purple
+        &::before
+            color: $event-purple
+            content: "\f138"
+
+// Remove code block spacing
+pre
+    margin: 0
+    padding: 0
+    overflow: auto
+code
+    font-family: $font-code
+    color: var(--foreground-level-3)
+    background-color: var(--background-level-1)
+    // Inline code
+    :not(pre) > &
+        line-break: strict
+        white-space: pre-wrap
+        border-radius: $tiny-radius
+        padding: 0.05rem $spacing-2
+
+
+table tbody tr td
+    padding-right: 0.8rem

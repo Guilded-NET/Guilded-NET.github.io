@@ -1,0 +1,88 @@
+@import "./base"
+    
+/*
+ * --- Embeds ---
+ */
+
+// Top level
+.gembed
+    // Display
+    display: inline-block
+    overflow: hidden
+
+    // Borders
+    border: 0.05rem solid
+    border-color: #FFFFFF12
+    border-radius: $medium-radius
+
+    // Content
+    background-color: var(--background-level-2)
+
+    // Inner area
+    &-inner
+        border-left: 0.2rem solid
+        border-left-color: #ececec
+    // The footer and author of the embed
+    &-author, &-footer
+        display: block
+        overflow: auto
+        padding: $spacing-1
+        // Body of them
+        div
+            display: inline
+            float: left
+            margin: $spacing-0
+    // Only footer
+    &-footer
+        background-color: var(--background-level-1)
+        color: #BBBBBB
+    // Side thumbnail
+    &-thumbnail
+        flex: 1 1 auto
+        // Make sure it's always square
+        img
+            width: 8rem
+            height: 8rem
+    // Small icons
+    &-img, &-author-icon, &-footer-icon
+        width: 1.3rem
+        height: 1.3rem
+    // Content area
+    &-wrapper
+        display: flex
+        flex-direction: row
+        flex-wrap: column wrap
+        box-sizing: border-box
+    // Titles
+    &-title, &-field-title
+        margin-bottom: 0.2rem
+    &-author-text, &-title
+        font-weight: bolder
+    // Title and description
+    &-body
+        padding: $spacing-1
+    // Fields
+    &-field
+        width: 100%
+        padding-top: $spacing-1
+        padding-bottom: $spacing-1
+        flex: 0 0 auto
+        // Field container
+        &s
+            display: inline-flex
+            flex-wrap: wrap
+            flex-direction: row
+            justify-content: space-between
+            padding-top: $spacing-1
+            padding-bottom: $spacing-1
+        // Inline field
+        &-inline
+            width: 33%
+            flex: auto auto auto
+        // Content
+        &-title, &-body
+            display: block
+    // Image
+    &-image-block img
+        max-width: 30rem
+        max-height: 15rem

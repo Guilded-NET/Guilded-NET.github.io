@@ -2,7 +2,7 @@
 title: Creating a bot
 ---
 
-<blockquote class="note-block">
+<blockquote class="note">
     <p>It is recommend to learn the basics of C# before making a bot based on Guilded.NET.</p>
 </blockquote>
 
