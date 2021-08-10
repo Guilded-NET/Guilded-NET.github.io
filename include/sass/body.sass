@@ -4,20 +4,17 @@
  * --- Body ---
  */
 
-body
-    background-color: var(--background-level-2)
-    color: var(--foreground-level-2)
-    font-family: $font-normal
-    margin: 0
-    width: 100%
+body, html
     height: 100%
+    width: 100%
+    margin: 0
     padding: 0
 
 // Scrollbar
 *
     // Firefox scrollbar
     scrollbar-width: auto
-    scrollbar-color: transparent var(--background-level-1)
+    scrollbar-color: var(--background-level-1) transparent
 
     // Chromium/Blink and Webkit scrollbar
     &::-webkit-scrollbar
@@ -29,6 +26,12 @@ body
         &-thumb
             background-color: var(--background-level-1)
             border-radius: 1rem
+body
+    background-color: var(--background-level-2)
+    color: var(--foreground-level-1)
+    font-family: $font-normal
+    scrollbar-color: var(--background-level-1) var(--background-level-4)
+
 
 /*
  * --- Topbar ---
@@ -36,31 +39,35 @@ body
 
 // Page navigation
 .navigation
-    background-color: var(--background-level-1)
+    background-color: var(--background-level-4)
     color: var(--foreground-level-1)
     vertical-align: top
     width: 100%
+    font-size: 1.1rem
+    border-bottom: 1px solid rgba(white, 0.1)
     // Inner area of the navigation
     &-inner
-        padding: var(--default-space-size)
+        padding: $spacing-1
     // Image display area
     &-display
-        padding-bottom: var(--smaller-space-size)
-        border-bottom: 1px solid white
         img
             cursor: pointer
             width: 10%
     // Navigation button list
     &-buttons
         float: right
+        padding: $spacing-1
         // A button
         a
             margin-left: $spacing-0
             margin-right: $spacing-0
             // The button states
             &, &[href], &[href]:visited, &[href]:active
-                color: white
-                fill: white
+                color: var(--foreground-level-2)
+                fill: var(--foreground-level-2)
+            &:hover, &[href]:hover
+                color: var(--foreground-level-1)
+                fill: var(--foreground-level-1)
 
 /*
  * --- Content ---
