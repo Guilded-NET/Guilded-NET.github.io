@@ -13,10 +13,10 @@
     // Borders
     border: 0.05rem solid
     border-color: #FFFFFF12
-    border-radius: $medium-radius
+    border-radius: $tiny-radius
 
     // Content
-    background-color: var(--background-level-2)
+    background-color: var(--background-level-3)
 
     // Inner area
     &-inner
@@ -34,8 +34,8 @@
             margin: $spacing-0
     // Only footer
     &-footer
-        background-color: var(--background-level-1)
-        color: #BBBBBB
+        background-color: var(--background-level-2)
+        color: var(--foreground-level-2)
     // Side thumbnail
     &-thumbnail
         flex: 1 1 auto
@@ -47,6 +47,8 @@
     &-img, &-author-icon, &-footer-icon
         width: 1.3rem
         height: 1.3rem
+    &-footer-icon
+        border-radius: 50%
     // Content area
     &-wrapper
         display: flex
@@ -56,7 +58,7 @@
     // Titles
     &-title, &-field-title
         margin-bottom: 0.2rem
-    &-author-text, &-title
+    &-author-text, &-title, &-field-title
         font-weight: bolder
     // Title and description
     &-body
