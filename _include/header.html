@@ -1,0 +1,31 @@
+<head>
+    <title>Guilded.NET Docs - {{ page.title | escape }}</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/IconWhiteOutline.png">
+    <!-- HTML encoding -->
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta property="og:site_name" content="Guilded.NET" />
+    <meta property="og:determiner" content="the" />
+    <meta property="og:title" content="Guilded.NET - {{ page.title | escape }}" />
+    <meta property="og:description" content="Guilded.NET website for documentation and information." />
+    <meta property="og:thumbnail"
+        content="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/IconWhiteOutline.png" />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/IconWhiteOutline.png" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="theme-color" content="#f5bc1e" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <!-- Adds all of the styling of the website -->
+    <link rel="stylesheet" type="text/css" href="/include/css/body.css" />
+    <link rel="stylesheet" type="text/css" href="/include/css/code.css" />
+    <link rel="stylesheet" type="text/css" href="/include/css/text.css" />
+    {% if page.preview %}
+    <link rel="stylesheet" type="text/css" href="/include/css/preview.css" />
+    {% endif %}
+    {% if page.references %}
+    <link rel="stylesheet" type="text/css" href="/include/css/reference.css" />
+    {% endif %}
+    <!-- Adds all of the libraries -->
+    <link rel="stylesheet" href="/include/css/fa.css">
+    <script src="/include/js/prism.js" type="text/javascript"></script>
+    <link id="doc-theme" rel="stylesheet" type="text/css" href="/include/css/theme-guilded.css" />
+</head>

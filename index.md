@@ -6,6 +6,11 @@ title: Home
 
 Guilded.NET is an API wrapper for [Guilded](https://guilded.gg) based on .NET.
 
+<blockquote class="info">
+    <p>Guilded.NET documentation uses Guilded colours and replicates some of the Guilded styles. All credits go to them.</p>
+    <p>Guilded.NET documentation uses Font Awesome as its icon pack. All credits go to them.</p>
+</blockquote>
+
 > ## Used libraries
 > - **NewtonSoft.Json**: for Guilded JSON
 > - **RestSharp**: for REST client

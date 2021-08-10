@@ -32,13 +32,13 @@ a[href]
 
 blockquote
     // Spacing
-    margin: $spacing-1 0
+    margin: $spacing-4 0
     padding: $spacing-0
-    padding-left: $spacing-1
-    border-radius: $medium-radius
+    padding-left: $spacing-3
+    border-radius: $small-radius
 
     // Side
-    border-left: 0.2rem solid $gilded-full
+    border-left: $small-radius solid $gilded-full
     border-left-color: $gilded-full
 
     // Misc
@@ -49,41 +49,38 @@ blockquote
     &.info, &.note, &.caution, &.warning, &.success
         // Add an icon
         &::before
-            font-weight: 900
-            font-style: normal
-            font-variant: normal
-            text-rendering: auto
-            font-family: "Font Awesome 5 Free"
+            @include include-fa('\f059')
 
             display: inline-block
             margin-right: $spacing-1
+            margin-top: $spacing-1
             line-height: 1
     // Log block colours
     &.caution
         border-left-color: $event-red
         &::before
             color: $event-red
-            content: "\f057"
+            content: "\f057 Caution:"
     &.warning
         border-left-color: $event-yellow
         &::before
             color: $event-yellow
-            content: "\f06a"
+            content: "\f06a Warning:"
     &.success
         border-left-color: $event-green
         &::before
             color: $event-green
-            content: "\f058"
+            content: "\f058 Success:"
     &.info
         border-left-color: $event-sky
         &::before
             color: $event-sky
-            content: "\f05a"
+            content: "\f05a Info:"
     &.note
         border-left-color: $event-purple
         &::before
             color: $event-purple
-            content: "\f138"
+            content: "\f138 Note:"
 
 // Remove code block spacing
 pre
@@ -91,7 +88,7 @@ pre
     padding: 0
     overflow: auto
 code
-    font-family: $font-code
+    font-family: monospace
     color: var(--foreground-level-1)
     background-color: var(--background-level-2)
     // Inline code

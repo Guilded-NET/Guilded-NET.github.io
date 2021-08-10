@@ -1,0 +1,92 @@
+@import "./base"
+    
+.body-list
+    // Type search
+    &-search
+        padding: $spacing-0
+    // Type list
+    &-items
+        color: var(--foreground-level-2)
+        // Override header colour
+        h5
+            color: var(--foreground-level-2)
+
+/*
+ * --- Search ---
+ */
+
+.list-search-wrapper
+    // Display
+    background-color: var(--background-level-4)
+    border: 1px solid rgba(white, 0.1)
+    @include default-transition(background-color)
+    // Spacing
+    padding: $spacing-1 - 0.1rem
+    border-radius: 1rem
+    // Make the icon aligned with the input
+    display: flex
+    flex-direction: row
+    // Icon
+    &::before
+        @include include-fa('\f002')
+        color: var(--foreground-level-2)
+        fill: var(--foreground-level-2)
+        // Add a space after it
+        margin-right: $spacing-1
+// The search input
+#list-search
+    outline: 0
+    border: 0
+    padding: 0
+    width: 100%
+    background-color: transparent
+    color: var(--foreground-level-1)
+    &::placeholder
+        color: var(--foreground-level-2)
+
+/*
+ * --- Items ---
+ */
+
+.list
+    &-body
+        margin: 0
+    &-item
+        display: block
+        // Spacing
+        padding: $spacing-1 $spacing-2
+        border-radius: $tiny-radius
+        // Make sure it's always grey
+        &,
+        &[href],
+        &[href]:focus,
+        &[href]:active,
+        &[href]:visited
+            color: var(--foreground-level-2)
+        // Add a background on hover and whiter text
+        &:hover, &[href]:hover
+            color: var(--foreground-level-1)
+            background-color: var(--background-level-2-highlight)
+        // Add an icon to the item
+        &::before
+            @include include-fa('\f292')
+            color: var(--foreground-level-2)
+            fill: var(--foreground-level-2)
+            // Add a space after it
+            margin-right: $spacing-1
+        &[obj="class"]::before
+            content: '\f24d'
+        &[obj="struct"]::before
+            content: '\f0e8'
+        &[obj="module"]::before
+            content: '\f24d'
+        &[obj="interface"]::before
+            content: '\f7d3'
+            font-weight: 400
+            font-family: "Font Awesome 5 Brands", "Font Awesome 5", sans-serif
+        &[obj="abstract"]::before
+            content: '\f24d'
+        &[obj="enum"]::before
+            content: '\f542'
+        &[obj="delegate"]::before
+            content: '\f1b2'

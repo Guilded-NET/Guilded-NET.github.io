@@ -27,7 +27,7 @@ body, html
             background-color: var(--background-level-1)
             border-radius: 1rem
 body
-    background-color: var(--background-level-2)
+    background-color: var(--background-level-4)
     color: var(--foreground-level-1)
     font-family: $font-normal
     overflow: hidden
@@ -37,7 +37,7 @@ body
 
 
 /*
- * --- Topbar ---
+ * --- Top bar ---
  */
 
 // Page navigation
@@ -82,12 +82,13 @@ body
         overflow: hidden
         display: flex
         width: 100%
+        height: 100%
     // The list of types and namespaces
     &-list
-        float: right
         width: 25%
         z-index: 9
         background-color: var(--background-level-2)
+        padding: $spacing-1
     // The document itself
     &-document
         width: 100%

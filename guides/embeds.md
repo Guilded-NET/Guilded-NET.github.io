@@ -1,5 +1,6 @@
 ---
 title: Making embeds
+preview: true
 ---
 
 # Embeds
