@@ -30,7 +30,7 @@ body
     background-color: var(--background-level-2)
     color: var(--foreground-level-1)
     font-family: $font-normal
-    scrollbar-color: var(--background-level-1) var(--background-level-4)
+    overflow: hidden
 
 
 /*
@@ -78,6 +78,7 @@ body
     &-wrapper
         overflow: hidden
         display: flex
+        overflow: hidden
     // The list of types and namespaces
     &-list
         float: right
@@ -87,7 +88,7 @@ body
     // The document itself
     &-document
         background-color: var(--background-level-4)
-        float: right
+        overflow: scroll
     &-content
         width: 100%
         padding: $spacing-1
