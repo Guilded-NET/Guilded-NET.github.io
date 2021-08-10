@@ -11,7 +11,7 @@ preview: true
         <div class="preview-content">
             <div class="preview-header">
                 <span class="preview-name">Example Bot</span>
-                <span class="preview-timestamp">11:55pm</span>
+                <span class="preview-timestamp">9:55pm</span>
             </div>
             <div class="preview-message">
                 <div class="gembed">
