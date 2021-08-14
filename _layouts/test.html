@@ -4,7 +4,7 @@ layout: base
 ---
 <div>
     {% for post in site.categories.references %}
-        <a>{% post.name %} - {% post.title %}</a>
+        <a>{{ post.name }} - {{ post.title }}</a>
     {% endfor %}
 </div>
 <script>
