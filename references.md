@@ -1,7 +1,5 @@
 ---
 title: References
-layout: reference
-references: true
 ---
 
 # References
