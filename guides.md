@@ -1,5 +1,6 @@
 ---
 title: Guides
+layout: home
 ---
 
 # Guides
