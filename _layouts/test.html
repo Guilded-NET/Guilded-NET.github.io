@@ -2,14 +2,17 @@
 title: Testo
 layout: base
 ---
-<div>
-    {% for category in site %}
-        <a>{{ category }}</a>
+<!--
+    Site:
+    {% for item in site %}
+        {{ item }}
     {% endfor %}
-</div>
-<script>
-    console.log(`{{ page }}`)
-</script>
+    Categories:
+    {% for category in site.categories %}
+        {{ category }}
+    {% endfor %}
+    Start(0-9): '{{ page.path | slice: 0, 9 }}'
+-->
 <div class="body-document">
     <div class="body-content">
         {{ content }}
