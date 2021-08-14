@@ -3,14 +3,12 @@ title: Testo
 layout: base
 ---
 <div>
-    {% for post in site.categories.references %}
-        <a>{{ post.name }} - {{ post.title }}</a>
+    {% for category in site.categories %}
+        <a>{{ category }}</a>
     {% endfor %}
 </div>
 <script>
-    {% if page.categories.first == "references" %}
-        console.log('This is references page')
-    {% endif %}
+    console.log(`{{ page.categories }}`)
 </script>
 <div class="body-document">
     <div class="body-content">
