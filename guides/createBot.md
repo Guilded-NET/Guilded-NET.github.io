@@ -1,5 +1,6 @@
 ---
 title: Creating a bot
+layout: home
 ---
 
 <blockquote class="note">
