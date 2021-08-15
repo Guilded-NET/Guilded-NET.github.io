@@ -1,6 +1,6 @@
 // Store search bar and searchable types
 const search = document.getElementById('list-search')
-const items = document.querySelectorAll('.body-list-items .list-namespace .list-item')
+const items = document.querySelectorAll('.body-list-items .list-category .list-item')
 // Prepare lowercase version of the items instead of doing it over and over again
 // Doesn't influence performance much, but eh
 items.forEach(item =>

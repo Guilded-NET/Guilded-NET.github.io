@@ -34,7 +34,6 @@
         @include include-fa('\f002')
         color: var(--foreground-level-2)
         fill: var(--foreground-level-2)
-        // Add a space after it
         margin-right: $spacing-1
 // The search input
 #list-search
@@ -72,24 +71,21 @@
             background-color: var(--background-level-2-highlight)
         // Add an icon to the item
         &::before
-            @include include-fa('\f292')
+            @include include-fa('\f02d')
             color: var(--foreground-level-2)
             fill: var(--foreground-level-2)
             // Add a space after it
             margin-right: $spacing-1
-        &[obj="class"]::before
+        &.list-class::before
             content: '\f24d'
-        &[obj="struct"]::before
+        &.list-struct::before
             content: '\f0e8'
-        &[obj="module"]::before
+        &.list-module::before
             content: '\f24d'
-        &[obj="interface"]::before
+        &.list-interface::before
             content: '\f7d3'
             font-weight: 400
-            font-family: "Font Awesome 5 Brands", "Font Awesome 5", sans-serif
-        &[obj="abstract"]::before
-            content: '\f24d'
-        &[obj="enum"]::before
+        &.list-enum::before
             content: '\f542'
-        &[obj="delegate"]::before
+        &.list-delegate::before
             content: '\f1b2'
