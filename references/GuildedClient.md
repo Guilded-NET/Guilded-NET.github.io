@@ -69,6 +69,7 @@ Derived
 | [Prepared](GuildedClient_Prepared.md 'Guilded.NET.GuildedClient.Prepared') | An event when the client is prepared.<br/> |
 | [Welcome](GuildedClient_Welcome.md 'Guilded.NET.GuildedClient.Welcome') | An event when WebSocket receives a welcome.<br/> |
 | [XpAdded](GuildedClient_XpAdded.md 'Guilded.NET.GuildedClient.XpAdded') | When a list of users get certain amount of XP.<br/> |
+
 #### See Also
 - [GuildedBotClient](GuildedBotClient.md 'Guilded.NET.GuildedBotClient')
 - [Guilded.NET.Base.BaseGuildedClient](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
