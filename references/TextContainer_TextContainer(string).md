@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer.md 'Guilded.NET.Base.Chat.TextContainer')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
 ## TextContainer.TextContainer(string) Constructor
-Creates a new [TextContainer](TextContainer.md 'Guilded.NET.Base.Chat.TextContainer') based on [content](TextContainer_TextContainer(string).md#Guilded_NET_Base_Chat_TextContainer_TextContainer(string)_content 'Guilded.NET.Base.Chat.TextContainer.TextContainer(string).content') that will be converted to a singular leaf.  
+Creates a new [TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer') based on [content](TextContainer_TextContainer(string)#Guilded_NET_Base_Chat_TextContainer_TextContainer(string)_content 'Guilded.NET.Base.Chat.TextContainer.TextContainer(string).content') that will be converted to a singular leaf.  
 ```csharp
 public TextContainer(string content);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_TextContainer_TextContainer(string)_content'></a>
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

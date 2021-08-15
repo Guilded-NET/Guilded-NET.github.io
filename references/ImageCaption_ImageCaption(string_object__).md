@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ImageCaption](ImageCaption.md 'Guilded.NET.Base.Chat.ImageCaption')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ImageCaption](ImageCaption 'Guilded.NET.Base.Chat.ImageCaption')
 ## ImageCaption.ImageCaption(string, object[]) Constructor
 A message explaining an image.  
 ```csharp
 public ImageCaption(string format, params object[] args);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_ImageCaption_ImageCaption(string_object__)_format'></a>
 `format` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Teams](Guilded_NET_Base.md#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
 ## SectionType Enum
 The type of a team section.  
 ```csharp
 public enum SectionType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Teams_SectionType_Audit'></a>
 `Audit` 1  
@@ -27,6 +29,7 @@ A list of people's applications to join the server.
 `Subscriptions` 4  
 A place to support a team you like.  
   
+
 #### See Also
-- [ChannelType](ChannelType.md 'Guilded.NET.Base.Teams.ChannelType')
-- [TeamType](TeamType.md 'Guilded.NET.Base.Teams.TeamType')
+- [ChannelType](ChannelType 'Guilded.NET.Base.Teams.ChannelType')
+- [TeamType](TeamType 'Guilded.NET.Base.Teams.TeamType')

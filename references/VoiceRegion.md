@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Teams](Guilded_NET_Base.md#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
 ## VoiceRegion Enum
 A region where voice channel's server is located.  
 ```csharp
 public enum VoiceRegion
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Teams_VoiceRegion_APSydney'></a>
 `APSydney` 3  

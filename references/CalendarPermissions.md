@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## CalendarPermissions Enum
 Event/calendar channel permissions.  
 ```csharp
 public enum CalendarPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_CalendarPermissions_All'></a>
 `All` 31  

@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Embeds](Guilded_NET_Base.md#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed.md 'Guilded.NET.Base.Embeds.Embed')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.WithField(string, object, bool) Method
 Adds a field to this embed.  
 ```csharp
 public Guilded.NET.Base.Embeds.Embed WithField(string title, object description, bool inline=false);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Embeds_Embed_WithField(string_object_bool)_title'></a>
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
@@ -18,6 +20,7 @@ The description of the field
 `inline` [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
 If this field should be inline
   
+
 #### Returns
-[Embed](Embed.md 'Guilded.NET.Base.Embeds.Embed')  
+[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
 This

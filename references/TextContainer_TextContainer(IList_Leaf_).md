@@ -1,12 +1,14 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer.md 'Guilded.NET.Base.Chat.TextContainer')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
 ## TextContainer.TextContainer(IList&lt;Leaf&gt;) Constructor
-Creates a new [TextContainer](TextContainer.md 'Guilded.NET.Base.Chat.TextContainer') based on given list of [Leaf](Leaf.md 'Guilded.NET.Base.Chat.Leaf') instances.  
+Creates a new [TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer') based on given list of [Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf') instances.  
 ```csharp
 public TextContainer(System.Collections.Generic.IList<Guilded.NET.Base.Chat.Leaf> leaves);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_TextContainer_TextContainer(System_Collections_Generic_IList_Guilded_NET_Base_Chat_Leaf_)_leaves'></a>
-`leaves` [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Leaf](Leaf.md 'Guilded.NET.Base.Chat.Leaf')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')  
+`leaves` [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')  
 The list of leaves this text container holds
   

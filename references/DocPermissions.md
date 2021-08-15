@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## DocPermissions Enum
 Permissions of document/doc channel.  
 ```csharp
 public enum DocPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_DocPermissions_All'></a>
 `All` 15  

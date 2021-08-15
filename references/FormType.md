@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Forms](Guilded_NET_Base.md#Guilded_NET_Base_Forms 'Guilded.NET.Base.Forms')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Forms](index#Guilded_NET_Base_Forms 'Guilded.NET.Base.Forms')
 ## FormType Enum
 Type of the form(form, poll)  
 ```csharp
 public enum FormType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Forms_FormType_Form'></a>
 `Form` 0  

@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base](Guilded_NET_Base.md#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter.md 'Guilded.NET.Base.IdConverter')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
 ## IdConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
-Reads the given JSON object as [GId](GId.md 'Guilded.NET.Base.GId') or [FormId](FormId.md 'Guilded.NET.Base.FormId').  
+Reads the given JSON object as [GId](GId 'Guilded.NET.Base.GId') or [FormId](FormId 'Guilded.NET.Base.FormId').  
 ```csharp
 public override object ReadJson(JsonReader reader, System.Type objectType, object existingValue, JsonSerializer serializer);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_IdConverter_ReadJson(JsonReader_System_Type_object_JsonSerializer)_reader'></a>
 `reader` [Newtonsoft.Json.JsonReader](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonReader 'Newtonsoft.Json.JsonReader')  
@@ -22,6 +24,7 @@ The previous value of the property being converted
 `serializer` [Newtonsoft.Json.JsonSerializer](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonSerializer 'Newtonsoft.Json.JsonSerializer')  
 The serializer that is deserializing the object
   
+
 #### Returns
 [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
-[GId](GId.md 'Guilded.NET.Base.GId') | [FormId](FormId.md 'Guilded.NET.Base.FormId')
+[GId](GId 'Guilded.NET.Base.GId') | [FormId](FormId 'Guilded.NET.Base.FormId')

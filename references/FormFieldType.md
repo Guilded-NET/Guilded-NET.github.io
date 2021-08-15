@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Forms](Guilded_NET_Base.md#Guilded_NET_Base_Forms 'Guilded.NET.Base.Forms')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Forms](index#Guilded_NET_Base_Forms 'Guilded.NET.Base.Forms')
 ## FormFieldType Enum
 What type of form field it is.  
 ```csharp
 public enum FormFieldType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Forms_FormFieldType_Checkboxes'></a>
 `Checkboxes` 3  
@@ -13,7 +15,7 @@ A list of items with checkboxes. Multiple can be checked.
   
 <a name='Guilded_NET_Base_Forms_FormFieldType_Dropdown'></a>
 `Dropdown` 4  
-A dropdown of all items which can be selected. One can be selected. Similar to [Radios](FormFieldType.md#Guilded_NET_Base_Forms_FormFieldType_Radios 'Guilded.NET.Base.Forms.FormFieldType.Radios').  
+A dropdown of all items which can be selected. One can be selected. Similar to [Radios](FormFieldType#Guilded_NET_Base_Forms_FormFieldType_Radios 'Guilded.NET.Base.Forms.FormFieldType.Radios').  
   
 <a name='Guilded_NET_Base_Forms_FormFieldType_Radios'></a>
 `Radios` 2  

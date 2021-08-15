@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## XPPermissions Enum
 Permissions related to XP and levels.  
 ```csharp
 public enum XPPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_XPPermissions_All'></a>
 `All` 1  

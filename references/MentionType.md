@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## MentionType Enum
 What kind of mention it is.  
 ```csharp
 public enum MentionType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Chat_MentionType_Everyone'></a>
 `Everyone` 2  
@@ -23,6 +25,7 @@ Mention of a specific person or a member.
 `Role` 3  
 Mentions everyone in a specific role.  
   
+
 #### See Also
-- [MemberMention](MemberMention.md 'Guilded.NET.Base.Chat.MemberMention')
-- [MemberMentionData](MemberMentionData.md 'Guilded.NET.Base.Chat.MemberMentionData')
+- [MemberMention](MemberMention 'Guilded.NET.Base.Chat.MemberMention')
+- [MemberMentionData](MemberMentionData 'Guilded.NET.Base.Chat.MemberMentionData')

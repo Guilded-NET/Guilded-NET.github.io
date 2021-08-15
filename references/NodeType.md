@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## NodeType Enum
 Type of the node.  
 ```csharp
 public enum NodeType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Chat_NodeType_BlockQuoteContainer'></a>
 `BlockQuoteContainer` 0  
@@ -99,6 +101,7 @@ Dotted/bulleted list.
 `WebhookMessage` 2  
 Customizable version of the embed.  
   
+
 #### See Also
-- [Node](Node.md 'Guilded.NET.Base.Chat.Node')
-- [ContainerNode&lt;T&gt;](ContainerNode_T_.md 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;')
+- [Node](Node 'Guilded.NET.Base.Chat.Node')
+- [ContainerNode&lt;T&gt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;')

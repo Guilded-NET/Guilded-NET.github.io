@@ -1,10 +1,12 @@
-#### [Guilded.NET](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET](Guilded_NET_Base.md#Guilded_NET 'Guilded.NET').[GuildedClient](GuildedClient.md 'Guilded.NET.GuildedClient')
+
+#### [Guilded.NET](index 'index')
+### [Guilded.NET](index#Guilded_NET 'Guilded.NET').[GuildedClient](GuildedClient 'Guilded.NET.GuildedClient')
 ## GuildedClient.HandleSocketMessages(object, GuildedEvent) Method
 When the socket message event is invoked.  
 ```csharp
 protected void HandleSocketMessages(object o, Guilded.NET.Base.Events.GuildedEvent message);
 ```
+
 #### Parameters
 <a name='Guilded_NET_GuildedClient_HandleSocketMessages(object_Guilded_NET_Base_Events_GuildedEvent)_o'></a>
 `o` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  

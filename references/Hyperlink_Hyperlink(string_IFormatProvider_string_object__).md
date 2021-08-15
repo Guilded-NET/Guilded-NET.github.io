@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Hyperlink](Hyperlink.md 'Guilded.NET.Base.Chat.Hyperlink')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Hyperlink](Hyperlink 'Guilded.NET.Base.Chat.Hyperlink')
 ## Hyperlink.Hyperlink(string, IFormatProvider, string, object[]) Constructor
 A piece of text that references a link.  
 ```csharp
 public Hyperlink(string href, System.IFormatProvider provider, string format, params object[] args);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_Hyperlink_Hyperlink(string_System_IFormatProvider_string_object__)_href'></a>
 `href` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

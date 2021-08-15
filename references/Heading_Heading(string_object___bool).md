@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Heading](Heading.md 'Guilded.NET.Base.Chat.Heading')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Heading](Heading 'Guilded.NET.Base.Chat.Heading')
 ## Heading.Heading(string, object[], bool) Constructor
 A large or a small title.  
 ```csharp
 public Heading(string format, object[] args, bool isLarge);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_Heading_Heading(string_object___bool)_format'></a>
 `format` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

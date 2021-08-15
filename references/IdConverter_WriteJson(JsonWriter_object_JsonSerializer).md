@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base](Guilded_NET_Base.md#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter.md 'Guilded.NET.Base.IdConverter')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
 ## IdConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
 Writes given object as JSON.  
 ```csharp
 public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_IdConverter_WriteJson(JsonWriter_object_JsonSerializer)_writer'></a>
 `writer` [Newtonsoft.Json.JsonWriter](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonWriter 'Newtonsoft.Json.JsonWriter')  

@@ -1,5 +1,6 @@
-#### [Guilded.NET](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET](Guilded_NET_Base.md#Guilded_NET 'Guilded.NET').[GuildedClient](GuildedClient.md 'Guilded.NET.GuildedClient')
+
+#### [Guilded.NET](index 'index')
+### [Guilded.NET](index#Guilded_NET 'Guilded.NET').[GuildedClient](GuildedClient 'Guilded.NET.GuildedClient')
 ## GuildedClient.Dispose() Method
 Disposes the bot.  
 ```csharp

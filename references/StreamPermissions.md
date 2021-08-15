@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## StreamPermissions Enum
 Permissions for streaming/stream channel.  
 ```csharp
 public enum StreamPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_StreamPermissions_AddStream'></a>
 `AddStream` 1  

@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Content](Guilded_NET_Base.md#Guilded_NET_Base_Content 'Guilded.NET.Base.Content')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Content](index#Guilded_NET_Base_Content 'Guilded.NET.Base.Content')
 ## MediaType Enum
 What kind of media this is.  
 ```csharp
 public enum MediaType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Content_MediaType_Image'></a>
 `Image` 0  

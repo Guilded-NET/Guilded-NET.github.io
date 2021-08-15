@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Image](Image.md 'Guilded.NET.Base.Chat.Image')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Image](Image 'Guilded.NET.Base.Chat.Image')
 ## Image.Image(Uri, string) Constructor
 An image file in a message.  
 ```csharp
 public Image(System.Uri src, string caption);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_Image_Image(System_Uri_string)_src'></a>
 `src` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')  

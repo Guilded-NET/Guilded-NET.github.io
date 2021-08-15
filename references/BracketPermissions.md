@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## BracketPermissions Enum
 All of the bracket permissions for team tournaments.  
 ```csharp
 public enum BracketPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_BracketPermissions_All'></a>
 `All` 3  

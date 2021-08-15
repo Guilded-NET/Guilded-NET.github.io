@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Users](Guilded_NET_Base.md#Guilded_NET_Base_Users 'Guilded.NET.Base.Users').[User](User.md 'Guilded.NET.Base.Users.User')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Users](index#Guilded_NET_Base_Users 'Guilded.NET.Base.Users').[User](User 'Guilded.NET.Base.Users.User')
 ## User.ServiceEmail Property
 Publicly available email.  
 ```csharp
 public string ServiceEmail { get; set; }
 ```
+
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 Email?

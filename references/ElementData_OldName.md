@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ElementData](ElementData.md 'Guilded.NET.Base.Chat.ElementData')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ElementData](ElementData 'Guilded.NET.Base.Chat.ElementData')
 ## ElementData.OldName Property
 The old name of the channel.  
 ```csharp
 public string OldName { get; set; }
 ```
+
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 Name?

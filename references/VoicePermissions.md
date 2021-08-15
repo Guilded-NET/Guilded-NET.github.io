@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## VoicePermissions Enum
 Voice chat/channel permissions.  
 ```csharp
 public enum VoicePermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_VoicePermissions_AddVoice'></a>
 `AddVoice` 1  

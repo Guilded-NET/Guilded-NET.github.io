@@ -1,14 +1,15 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Content](Guilded_NET_Base.md#Guilded_NET_Base_Content 'Guilded.NET.Base.Content')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Content](index#Guilded_NET_Base_Content 'Guilded.NET.Base.Content')
 ## ForumReply Class
 A reply to a forum post.  
 ```csharp
 public class ForumReply : Guilded.NET.Base.Content.ContentReply
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.NET.Base.BaseObject') &#129106; [ClientObject](ClientObject.md 'Guilded.NET.Base.ClientObject') &#129106; [Reply](Reply.md 'Guilded.NET.Base.Content.Reply') &#129106; [ChannelReply](ChannelReply.md 'Guilded.NET.Base.Content.ChannelReply') &#129106; [Guilded.NET.Base.Content.ContentReply&lt;](ContentReply_T_.md 'Guilded.NET.Base.Content.ContentReply&lt;T&gt;')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](ContentReply_T_.md 'Guilded.NET.Base.Content.ContentReply&lt;T&gt;') &#129106; [ContentReply](ContentReply.md 'Guilded.NET.Base.Content.ContentReply') &#129106; ForumReply  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#129106; [Reply](Reply 'Guilded.NET.Base.Content.Reply') &#129106; [ChannelReply](ChannelReply 'Guilded.NET.Base.Content.ChannelReply') &#129106; [Guilded.NET.Base.Content.ContentReply&lt;](ContentReply_T_ 'Guilded.NET.Base.Content.ContentReply&lt;T&gt;')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](ContentReply_T_ 'Guilded.NET.Base.Content.ContentReply&lt;T&gt;') &#129106; [ContentReply](ContentReply 'Guilded.NET.Base.Content.ContentReply') &#129106; ForumReply  
 
 | Properties | |
 | :--- | :--- |
-| [CreatedByBot](ForumReply_CreatedByBot.md 'Guilded.NET.Base.Content.ForumReply.CreatedByBot') | What bot created the reply.<br/> |
-| [RepliesTo](ForumReply_RepliesTo.md 'Guilded.NET.Base.Content.ForumReply.RepliesTo') | To what it is replying. If it's not replying to anyone, it gives ID of the post.<br/> |
+| [CreatedByBot](ForumReply_CreatedByBot 'Guilded.NET.Base.Content.ForumReply.CreatedByBot') | What bot created the reply.<br/> |
+| [RepliesTo](ForumReply_RepliesTo 'Guilded.NET.Base.Content.ForumReply.RepliesTo') | To what it is replying. If it's not replying to anyone, it gives ID of the post.<br/> |

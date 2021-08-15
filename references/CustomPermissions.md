@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## CustomPermissions Enum
 Permissions which allow you to customize things, such as nicknames and emotes.  
 ```csharp
 public enum CustomPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_CustomPermissions_All'></a>
 `All` 49  

@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Teams](Guilded_NET_Base.md#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
 ## TeamType Enum
 A type of a team(clan, community, guild, etc.).  
 ```csharp
 public enum TeamType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Teams_TeamType_Clan'></a>
 `Clan` 3  
@@ -31,6 +33,7 @@ public enum TeamType
 <a name='Guilded_NET_Base_Teams_TeamType_Team'></a>
 `Team` 0  
   
+
 #### See Also
-- [ChannelType](ChannelType.md 'Guilded.NET.Base.Teams.ChannelType')
-- [SectionType](SectionType.md 'Guilded.NET.Base.Teams.SectionType')
+- [ChannelType](ChannelType 'Guilded.NET.Base.Teams.ChannelType')
+- [SectionType](SectionType 'Guilded.NET.Base.Teams.SectionType')

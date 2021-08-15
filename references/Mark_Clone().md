@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Mark](Mark.md 'Guilded.NET.Base.Chat.Mark')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Mark](Mark 'Guilded.NET.Base.Chat.Mark')
 ## Mark.Clone() Method
 Creates a new mark with similar properties.  
 ```csharp
 public object Clone();
 ```
+
 #### Returns
 [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
 Mark

@@ -1,10 +1,12 @@
-#### [Guilded.NET](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET](Guilded_NET_Base.md#Guilded_NET 'Guilded.NET').[GuildedClient](GuildedClient.md 'Guilded.NET.GuildedClient')
+
+#### [Guilded.NET](index 'index')
+### [Guilded.NET](index#Guilded_NET 'Guilded.NET').[GuildedClient](GuildedClient 'Guilded.NET.GuildedClient')
 ## GuildedClient.DeleteMessageAsync(Guid, Guid) Method
 Deletes a specified message.  
 ```csharp
 public override System.Threading.Tasks.Task DeleteMessageAsync(System.Guid channelId, System.Guid messageId);
 ```
+
 #### Parameters
 <a name='Guilded_NET_GuildedClient_DeleteMessageAsync(System_Guid_System_Guid)_channelId'></a>
 `channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')  
@@ -14,8 +16,10 @@ The identifier of the parent channel
 `messageId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')  
 The identifier of the message to delete
   
+
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
+
 #### Exceptions
 [Guilded.NET.Base.GuildedException](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.GuildedException 'Guilded.NET.Base.GuildedException')  
 When the client receives an error from Guilded API

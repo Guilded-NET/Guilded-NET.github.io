@@ -1,12 +1,14 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatEmote](ChatEmote.md 'Guilded.NET.Base.Chat.ChatEmote')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatEmote](ChatEmote 'Guilded.NET.Base.Chat.ChatEmote')
 ## ChatEmote.ChatEmote(EmoteInfo) Constructor
 A small inline image that represents an emotion or a meme.  
 ```csharp
 public ChatEmote(Guilded.NET.Base.EmoteInfo emote);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_ChatEmote_ChatEmote(Guilded_NET_Base_EmoteInfo)_emote'></a>
-`emote` [EmoteInfo](EmoteInfo.md 'Guilded.NET.Base.EmoteInfo')  
+`emote` [EmoteInfo](EmoteInfo 'Guilded.NET.Base.EmoteInfo')  
 The info of the emote to use
   

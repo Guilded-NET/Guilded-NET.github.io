@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## ElementType Enum
 Type of the message object.  
 ```csharp
 public enum ElementType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Chat_ElementType_Block'></a>
 `Block` 0  
@@ -35,9 +37,10 @@ A text object which contains leafs.
 `Value` 5  
 Message content which can be found in messages, statuses, forum posts, profile posts.  
   
+
 #### See Also
-- [ChatElement](ChatElement.md 'Guilded.NET.Base.Chat.ChatElement')
-- [Leaf](ElementType.md#Guilded_NET_Base_Chat_ElementType_Leaf 'Guilded.NET.Base.Chat.ElementType.Leaf')
-- [TextContainer](TextContainer.md 'Guilded.NET.Base.Chat.TextContainer')
-- [Node](Node.md 'Guilded.NET.Base.Chat.Node')
-- [Paragraph](Paragraph.md 'Guilded.NET.Base.Chat.Paragraph')
+- [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement')
+- [Leaf](ElementType#Guilded_NET_Base_Chat_ElementType_Leaf 'Guilded.NET.Base.Chat.ElementType.Leaf')
+- [TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
+- [Node](Node 'Guilded.NET.Base.Chat.Node')
+- [Paragraph](Paragraph 'Guilded.NET.Base.Chat.Paragraph')

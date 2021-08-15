@@ -1,10 +1,12 @@
-#### [Guilded.NET](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Converters](Guilded_NET_Base.md#Guilded_NET_Converters 'Guilded.NET.Converters').[ContentConverter](ContentConverter.md 'Guilded.NET.Converters.ContentConverter')
+
+#### [Guilded.NET](index 'index')
+### [Guilded.NET.Converters](index#Guilded_NET_Converters 'Guilded.NET.Converters').[ContentConverter](ContentConverter 'Guilded.NET.Converters.ContentConverter')
 ## ContentConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
 Reads the given JSON object as [Guilded.NET.Base.Content.Reply](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.Content.Reply 'Guilded.NET.Base.Content.Reply'), [Guilded.NET.Base.Forms.FormField](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.Forms.FormField 'Guilded.NET.Base.Forms.FormField') or [Guilded.NET.Base.BaseChannel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.BaseChannel 'Guilded.NET.Base.BaseChannel').  
 ```csharp
 public override object ReadJson(JsonReader reader, System.Type objectType, object existingValue, JsonSerializer serializer);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Converters_ContentConverter_ReadJson(JsonReader_System_Type_object_JsonSerializer)_reader'></a>
 `reader` [Newtonsoft.Json.JsonReader](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonReader 'Newtonsoft.Json.JsonReader')  
@@ -22,6 +24,7 @@ The previous value of the property being converted
 `serializer` [Newtonsoft.Json.JsonSerializer](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonSerializer 'Newtonsoft.Json.JsonSerializer')  
 The serializer that is deserializing the object
   
+
 #### Returns
 [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
 [Guilded.NET.Base.Content.Reply](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.Content.Reply 'Guilded.NET.Base.Content.Reply') | [Guilded.NET.Base.Forms.FormField](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.Forms.FormField 'Guilded.NET.Base.Forms.FormField') | [Guilded.NET.Base.BaseChannel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.BaseChannel 'Guilded.NET.Base.BaseChannel')

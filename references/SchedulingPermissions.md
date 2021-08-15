@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## SchedulingPermissions Enum
 Permissions for scheduling channel.  
 ```csharp
 public enum SchedulingPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_SchedulingPermissions_All'></a>
 `All` 11  

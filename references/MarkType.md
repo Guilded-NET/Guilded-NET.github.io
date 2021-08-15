@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## MarkType Enum
-The type of formatting for [Mark](Mark.md 'Guilded.NET.Base.Chat.Mark') used in [Leaf](Leaf.md 'Guilded.NET.Base.Chat.Leaf').  
+The type of formatting for [Mark](Mark 'Guilded.NET.Base.Chat.Mark') used in [Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf').  
 ```csharp
 public enum MarkType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Chat_MarkType_Bold'></a>
 `Bold` 2  
@@ -17,7 +19,7 @@ Puts a piece of text in a small inline code container.
   
 <a name='Guilded_NET_Base_Chat_MarkType_InlineCodeLegacy'></a>
 `InlineCodeLegacy` 5  
-Puts a piece of text in a small inline code container. Older version of [InlineCode](MarkType.md#Guilded_NET_Base_Chat_MarkType_InlineCode 'Guilded.NET.Base.Chat.MarkType.InlineCode').  
+Puts a piece of text in a small inline code container. Older version of [InlineCode](MarkType#Guilded_NET_Base_Chat_MarkType_InlineCode 'Guilded.NET.Base.Chat.MarkType.InlineCode').  
   
 <a name='Guilded_NET_Base_Chat_MarkType_Italic'></a>
 `Italic` 3  
@@ -35,6 +37,7 @@ A line which goes over a piece of text.
 `Underline` 1  
 A line which goes below a piece of text.  
   
+
 #### See Also
-- [Leaf](Leaf.md 'Guilded.NET.Base.Chat.Leaf')
-- [Mark](Mark.md 'Guilded.NET.Base.Chat.Mark')
+- [Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf')
+- [Mark](Mark 'Guilded.NET.Base.Chat.Mark')

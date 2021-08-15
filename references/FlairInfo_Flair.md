@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Users](Guilded_NET_Base.md#Guilded_NET_Base_Users 'Guilded.NET.Base.Users').[FlairInfo](FlairInfo.md 'Guilded.NET.Base.Users.FlairInfo')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Users](index#Guilded_NET_Base_Users 'Guilded.NET.Base.Users').[FlairInfo](FlairInfo 'Guilded.NET.Base.Users.FlairInfo')
 ## FlairInfo.Flair Property
 Type of this flair.  
 ```csharp
 public string Flair { get; set; }
 ```
+
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 Flair type

@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Embeds](Guilded_NET_Base.md#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedField](EmbedField.md 'Guilded.NET.Base.Embeds.EmbedField')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')
 ## EmbedField.EmbedField(string, string, bool) Constructor
 A field in an embed.  
 ```csharp
 public EmbedField(string name, string value, bool inline=false);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Embeds_EmbedField_EmbedField(string_string_bool)_name'></a>
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

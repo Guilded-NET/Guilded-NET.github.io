@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base.md#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## AnnounPermissions Enum
 Permissions related to announcement channel(and Overview channel, if it's CreateAnnouncements).  
 ```csharp
 public enum AnnounPermissions
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Permissions_AnnounPermissions_All'></a>
 `All` 7  

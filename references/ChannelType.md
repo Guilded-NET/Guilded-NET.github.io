@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Teams](Guilded_NET_Base.md#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
 ## ChannelType Enum
 Represents types of Guilded channels.  
 ```csharp
 public enum ChannelType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Teams_ChannelType_Announcement'></a>
 `Announcement` 5  
@@ -51,6 +53,7 @@ A channel where you can send messages, talk and stream games, or anything else.
 `Voice` 1  
 A channel where you can send messages and talk with your voice.  
   
+
 #### See Also
-- [SectionType](SectionType.md 'Guilded.NET.Base.Teams.SectionType')
-- [TeamType](TeamType.md 'Guilded.NET.Base.Teams.TeamType')
+- [SectionType](SectionType 'Guilded.NET.Base.Teams.SectionType')
+- [TeamType](TeamType 'Guilded.NET.Base.Teams.TeamType')

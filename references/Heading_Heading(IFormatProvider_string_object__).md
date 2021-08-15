@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Heading](Heading.md 'Guilded.NET.Base.Chat.Heading')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Heading](Heading 'Guilded.NET.Base.Chat.Heading')
 ## Heading.Heading(IFormatProvider, string, object[]) Constructor
 A large or a small title.  
 ```csharp
 public Heading(System.IFormatProvider provider, string format, params object[] args);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_Heading_Heading(System_IFormatProvider_string_object__)_provider'></a>
 `provider` [System.IFormatProvider](https://docs.microsoft.com/en-us/dotnet/api/System.IFormatProvider 'System.IFormatProvider')  

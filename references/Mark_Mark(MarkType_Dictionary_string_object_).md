@@ -1,13 +1,15 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Mark](Mark.md 'Guilded.NET.Base.Chat.Mark')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Mark](Mark 'Guilded.NET.Base.Chat.Mark')
 ## Mark.Mark(MarkType, Dictionary&lt;string,object&gt;) Constructor
-Creates a new formatting [Mark](Mark.md 'Guilded.NET.Base.Chat.Mark') based on given [MarkType](MarkType.md 'Guilded.NET.Base.Chat.MarkType').  
+Creates a new formatting [Mark](Mark 'Guilded.NET.Base.Chat.Mark') based on given [MarkType](MarkType 'Guilded.NET.Base.Chat.MarkType').  
 ```csharp
 public Mark(Guilded.NET.Base.Chat.MarkType type, System.Collections.Generic.Dictionary<string,object> data);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_Mark_Mark(Guilded_NET_Base_Chat_MarkType_System_Collections_Generic_Dictionary_string_object_)_type'></a>
-`type` [MarkType](MarkType.md 'Guilded.NET.Base.Chat.MarkType')  
+`type` [MarkType](MarkType 'Guilded.NET.Base.Chat.MarkType')  
 The type of the formatting
   
 <a name='Guilded_NET_Base_Chat_Mark_Mark(Guilded_NET_Base_Chat_MarkType_System_Collections_Generic_Dictionary_string_object_)_data'></a>

@@ -1,12 +1,14 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer.md 'Guilded.NET.Base.Chat.TextContainer')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
 ## TextContainer.TextContainer(Leaf[]) Constructor
-Creates a new [TextContainer](TextContainer.md 'Guilded.NET.Base.Chat.TextContainer') based on given array of [Leaf](Leaf.md 'Guilded.NET.Base.Chat.Leaf') instances.  
+Creates a new [TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer') based on given array of [Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf') instances.  
 ```csharp
 public TextContainer(params Guilded.NET.Base.Chat.Leaf[] leaves);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_TextContainer_TextContainer(Guilded_NET_Base_Chat_Leaf__)_leaves'></a>
-`leaves` [Leaf](Leaf.md 'Guilded.NET.Base.Chat.Leaf')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')  
+`leaves` [Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')  
 The array of leaves this text container holds
   

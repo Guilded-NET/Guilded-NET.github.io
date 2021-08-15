@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base](Guilded_NET_Base.md#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient.md 'Guilded.NET.Base.BaseGuildedClient')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.ExecuteRequest(Uri, Method, object, bool, IDictionary&lt;string,string&gt;, IDictionary&lt;string,string&gt;) Method
 Sends a request to Guilded.  
 ```csharp
 public System.Threading.Tasks.Task<IRestResponse<object>> ExecuteRequest(System.Uri resource, Method method, object body=null, bool encodeQuery=true, System.Collections.Generic.IDictionary<string,string> query=null, System.Collections.Generic.IDictionary<string,string> headers=null);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_BaseGuildedClient_ExecuteRequest(System_Uri_Method_object_bool_System_Collections_Generic_IDictionary_string_string__System_Collections_Generic_IDictionary_string_string_)_resource'></a>
 `resource` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')  
@@ -30,11 +32,13 @@ The dictionary of queries and their values
 `headers` [System.Collections.Generic.IDictionary&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IDictionary-2 'System.Collections.Generic.IDictionary`2')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[,](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IDictionary-2 'System.Collections.Generic.IDictionary`2')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IDictionary-2 'System.Collections.Generic.IDictionary`2')  
 The dictionary of headers and their values
   
+
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[RestSharp.IRestResponse](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.IRestResponse 'RestSharp.IRestResponse')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
 Request response
+
 #### Exceptions
-[GuildedException](GuildedException.md 'Guilded.NET.Base.GuildedException')  
+[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
 When the client receives an error from Guilded API
 ### Remarks
 Sends a request to Guilded API and returns response as [RestSharp.IRestResponse&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.IRestResponse-1 'RestSharp.IRestResponse`1') type. This automatically picks up on any errors received.  

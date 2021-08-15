@@ -1,10 +1,12 @@
-#### [Guilded.NET](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Converters](Guilded_NET_Base.md#Guilded_NET_Converters 'Guilded.NET.Converters').[ContentConverter](ContentConverter.md 'Guilded.NET.Converters.ContentConverter')
+
+#### [Guilded.NET](index 'index')
+### [Guilded.NET.Converters](index#Guilded_NET_Converters 'Guilded.NET.Converters').[ContentConverter](ContentConverter 'Guilded.NET.Converters.ContentConverter')
 ## ContentConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
 Writes given object as JSON.  
 ```csharp
 public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Converters_ContentConverter_WriteJson(JsonWriter_object_JsonSerializer)_writer'></a>
 `writer` [Newtonsoft.Json.JsonWriter](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonWriter 'Newtonsoft.Json.JsonWriter')  

@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatListItem](ChatListItem.md 'Guilded.NET.Base.Chat.ChatListItem')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatListItem](ChatListItem 'Guilded.NET.Base.Chat.ChatListItem')
 ## ChatListItem.ChatListItem(IFormatProvider, string, object[]) Constructor
 An item of an ordered or unordered list.  
 ```csharp
 public ChatListItem(System.IFormatProvider provider, string format, params object[] args);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Chat_ChatListItem_ChatListItem(System_IFormatProvider_string_object__)_provider'></a>
 `provider` [System.IFormatProvider](https://docs.microsoft.com/en-us/dotnet/api/System.IFormatProvider 'System.IFormatProvider')  

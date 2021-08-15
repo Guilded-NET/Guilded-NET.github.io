@@ -1,11 +1,13 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Chat](Guilded_NET_Base.md#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## SystemMessageType Enum
 A type of the system message.  
 ```csharp
 public enum SystemMessageType
 
 ```
+
 #### Fields
 <a name='Guilded_NET_Base_Chat_SystemMessageType_AutoArchiveDisabled'></a>
 `AutoArchiveDisabled` 1  
@@ -99,7 +101,8 @@ User has started a normal voice call.
 `VoiceGroupInvite` 16  
 User got invited into a voice group.  
   
+
 #### See Also
-- [BaseMessage](BaseMessage.md 'Guilded.NET.Base.Chat.BaseMessage')
-- [Message](Message.md 'Guilded.NET.Base.Chat.Message')
-- [MessageType](MessageType.md 'Guilded.NET.Base.Chat.MessageType')
+- [BaseMessage](BaseMessage 'Guilded.NET.Base.Chat.BaseMessage')
+- [Message](Message 'Guilded.NET.Base.Chat.Message')
+- [MessageType](MessageType 'Guilded.NET.Base.Chat.MessageType')

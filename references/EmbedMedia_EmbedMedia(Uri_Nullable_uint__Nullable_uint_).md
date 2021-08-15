@@ -1,10 +1,12 @@
-#### [Guilded.NET.Base](Guilded_NET_Base.md 'Guilded.NET.Base')
-### [Guilded.NET.Base.Embeds](Guilded_NET_Base.md#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedMedia](EmbedMedia.md 'Guilded.NET.Base.Embeds.EmbedMedia')
+
+#### [Guilded.NET.Base](index 'index')
+### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
 ## EmbedMedia.EmbedMedia(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;) Constructor
 The image or the thumbnail image in an embed.  
 ```csharp
 public EmbedMedia(System.Uri url, System.Nullable<uint> width=null, System.Nullable<uint> height=null);
 ```
+
 #### Parameters
 <a name='Guilded_NET_Base_Embeds_EmbedMedia_EmbedMedia(System_Uri_System_Nullable_uint__System_Nullable_uint_)_url'></a>
 `url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')  
