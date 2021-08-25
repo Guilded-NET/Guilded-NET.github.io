@@ -69,6 +69,7 @@ pre > code
 .token.atrule,
 .token.keyword,
 .token.deleted,
+.token.operator,
 .token.important,
 .token.attr-value
     color: #ef3b7d
@@ -80,12 +81,19 @@ pre > code
 .token.attr-name
     color: #e6d06c
 
+// Brackets in interpolation
+.token.interpolation > .token.punctuation
+    color: #e69041
+
+// Constants
 .token.number,
 .token.boolean
     color: #a77afe
 
+.nc,
 .token.regex,
-.token.statement
+.token.statement,
+.token.class-name
     color: #76d9e6
 
 .n,
@@ -93,13 +101,17 @@ pre > code
 .token.placeholder
     color: #fff
 
-.nc,
+.token.named-parameter
+    color: #fd971f
+
+.f,
+.fn,
+.token.function,
 .token.inserted,
 .token.selector
     color: #a6e22d
 
 .p,
-.token.operator,
 .token.punctuation
     color: #bebec5
 
