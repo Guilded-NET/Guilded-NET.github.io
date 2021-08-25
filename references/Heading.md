@@ -12,17 +12,15 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 Big heading
 
 ```csharp
-  
-            Heading heading = new Heading("Title here");  
-            ```
-
+Heading heading = new Heading("Title here");  
+```
 
 Small heading
 
 ```csharp
-  
-            Heading heading = new Heading("Sub-title here", false);  
-            ```
+Heading heading = new Heading("Sub-title here", false);  
+```
+
 ### Remarks
 A title that is either small or big.  
 
