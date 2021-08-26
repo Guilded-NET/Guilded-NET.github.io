@@ -3,9 +3,9 @@ title: Creating a bot
 layout: home
 ---
 
-<blockquote class="note">
-    <p>It is recommend to learn the basics of C# before making a bot based on Guilded.NET.</p>
-</blockquote>
+> It is recommend to learn the basics of C# before making a bot based on Guilded.NET.</p>
+{: .note}
+
 
 Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
 

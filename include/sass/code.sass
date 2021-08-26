@@ -16,7 +16,6 @@ pre > code
     // Spacing
     padding: $spacing-2 $spacing-1
     line-height: 1.5
-    border-radius: $small-radius
     // Make tab same as 4 spaces
     -moz-tab-size: 4
     -o-tab-size: 4
@@ -29,10 +28,19 @@ pre > code
     -ms-hyphens: none
     hyphens: none
 
+// If it doesn't have a toolbar, add a padding to it
+:not(.code-toolbar) > pre > code
+    border-radius: $small-radius
+
 // Toolbar and content wrapper
 .code-toolbar
     display: flex
     flex-direction: column-reverse
+    
+    // Add global radius
+    border-radius: $small-radius
+    overflow: hidden
+
     // Toolbar
     .toolbar
         padding-left: 0.6rem
@@ -50,6 +58,18 @@ pre > code
                 color: white
 
                 padding: 0.10rem 0.35rem
+        // Anything else
+        .toolbar-item:not(:first-child)
+            padding: 0.8rem
+            font-size: 0.8em
+
+            background-color: var(--background-level-1)
+            color: var(--foreground-level-2)
+
+            overflow: hidden
+            border-top-left-radius: $small-radius
+            border-top-right-radius: $small-radius
+
 
 /*
  * This theme is based on Prism.js Xonokai

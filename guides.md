@@ -10,7 +10,6 @@ This is the place where all guides and tutorials will be stored. From how to get
 # Getting Started
 
 - [Creating a bot](guides/createBot)
-- [Making commands](guides/makingCommands)
 
 # Guides
 

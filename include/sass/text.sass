@@ -99,6 +99,31 @@ code
         padding: 0.05rem $spacing-0
         font-size: 1.1em
 
+// Tables
+table
+    border-spacing: 0
+    border: solid 1px var(--background-level-1)
+
+    // Rounding
+    overflow: hidden
+    border-radius: $small-radius
+
+    // Add spacing before and after it
+    margin-top: $spacing-2
+    margin-bottom: $spacing-2
+    // Heading
+    thead tr
+        background-color: var(--background-level-2)
+    // Body rows
+    tbody tr:nth-child(even)
+        background-color: var(--background-level-3)
+    // Any row item
+    th, td
+        padding: $spacing-1
+        // Non-first child
+        &:not(:first-child)
+            border-left: solid 1px var(--background-level-1)
+
 
 table tbody tr td
     padding-right: 0.8rem
