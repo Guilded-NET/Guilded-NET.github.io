@@ -4,6 +4,8 @@ layout: docs
 preview: true
 ---
 
+# How to use: Embeds
+
 Embeds are generally used to display the preview of certain content or a link, but they can be used as content itself that doesn't preview anything.
 
 ## Content and Custom embeds

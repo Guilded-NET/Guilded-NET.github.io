@@ -3,6 +3,8 @@ title: Creating a bot
 layout: docs
 ---
 
+# Getting Started: Creating a bot
+
 > It is recommend to learn the basics of C# before making a bot based on Guilded.NET.</p>
 {: .note}
 
