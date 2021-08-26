@@ -303,4 +303,4 @@ Embed embed = new Embed
 
 ### The end
 
-There is more to custom embeds than mentioned here. [Custom embed reference page](/references/Embed) contains all of the other information necessary, such as how to set a thumbnail, or the side colour of the embed.
+There is more to custom embeds than mentioned here. [Custom embed reference page](/references/Embed) contains all of the other information necessary, such as how to set a thumbnail or an image.
