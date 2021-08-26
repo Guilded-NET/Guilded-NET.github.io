@@ -1,5 +1,5 @@
+@use "sass:list"
 @import "./base"
-
 
 /*
  * --- Normal text ---
@@ -60,27 +60,28 @@ blockquote
         border-left-color: $event-red
         &::before
             color: $event-red
-            content: "\f057 Caution:"
+            // Because SASS escapes it
+            content: '\f057' + ' ' + 'Caution:'
     &.warning
         border-left-color: $event-yellow
         &::before
             color: $event-yellow
-            content: "\f06a Warning:"
+            content: '\f06a' + ' ' + 'Warning:'
     &.success
         border-left-color: $event-green
         &::before
             color: $event-green
-            content: "\f058 Success:"
+            content: '\f058' + ' ' + 'Success:'
     &.info
         border-left-color: $event-sky
         &::before
             color: $event-sky
-            content: "\f05a Info:"
+            content: '\f05a' + ' ' + 'Info:'
     &.note
         border-left-color: $event-purple
         &::before
             color: $event-purple
-            content: "\f138 Note:"
+            content: '\f138' + ' ' + 'Note:'
 
 // Remove code block spacing
 pre
@@ -97,7 +98,6 @@ code
         white-space: pre-wrap
         border-radius: $tiny-radius
         padding: 0.05rem $spacing-0
-        font-size: 1.1em
 
 // Tables
 table
