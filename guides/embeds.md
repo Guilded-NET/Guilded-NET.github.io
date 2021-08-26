@@ -1,5 +1,6 @@
 ---
 title: Making embeds
+layout: docs
 preview: true
 ---
 
@@ -15,9 +16,7 @@ Custom embeds are similar to content embeds in terms of how they look, but they 
 
 ## Creating a content embed
 
-### *Namespaces*
-
-**Required namespaces:**
+### *Required namespaces*
 
 | Namespace          | Description                                                   |
 |--------------------|---------------------------------------------------------------|
@@ -43,18 +42,18 @@ This will post the embed with the URL we gave it, which will then be displayed b
 
 ## Creating a custom embed
 
-### *Namespaces*
-
-**Required namespaces:**
+### *Required namespaces*
 
 | Namespace          | Description                                                                        |
 |--------------------|------------------------------------------------------------------------------------|
 | Guilded.NET.Chat   | [MessageContent](/references/MessageContent) or [ChatEmbed](/references/ChatEmbed) |
 | Guilded.NET.Embeds | [Embed](/references/Embed)                                                         |
 | System             | [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri)                      |
+| System.Drawing     | [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color)          |
 
 ```cs
 using System;
+using System.Drawing;
 using Guilded.NET.Chat;
 using Guilded.NET.Embeds;
 ```
@@ -103,7 +102,7 @@ await client.CreateMessageAsync(channelId, new MessageContent(embed));
 await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 ```
 {: .line-numbers}
-
+<br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
@@ -146,7 +145,7 @@ Embed embed = new Embed { Title = "Title", "Description. This is not a field." }
     .WithField("Field #3", "This field is inline too!", inline: true);
 ```
 {: .line-numbers}
-
+<br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
@@ -209,7 +208,7 @@ Embed embed = new Embed("The description of the embed.")
     .WithFooter("The footer text", iconUrl);
 ```
 {: .line-numbers}
-
+<br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
@@ -251,3 +250,57 @@ Embed embed = new Embed("The description of the embed.")
     </div>
 </div>
 
+### Setting side colour
+
+Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for side-colours. Alpha channel of the colours is filtered out, meaning, it ignores the transparency you provide to the colour(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
+
+It works on defined colours:
+```cs
+Embed embed = new Embed
+{
+    Title = "Title",
+    Description = "Description",
+    Color = Color.Red
+};
+```
+{: .line-numbers}
+
+And custom colours:
+```cs
+Embed embed = new Embed
+{
+    Title = "Title",
+    Description = "Description",
+}.WithColor(0xFF0000);
+```
+{: .line-numbers}
+<br/>
+<div class="chat-preview">
+    <div class="chat-preview-message">
+        <div class="preview-avatar">
+            <img class="preview-icon" src="https://img.guildedcdn.com/asset/DefaultUserAvatars/profile_5.png"/>
+        </div>
+        <div class="preview-content">
+            <div class="preview-header">
+                <span class="preview-name">Example Bot</span>
+                <span class="preview-timestamp">9:55pm</span>
+            </div>
+            <div class="preview-message">
+                <div class="gembed">
+                    <div class="gembed-inner" style="border-left-color: red;">
+                        <div class="gembed-wrapper">
+                            <div class="gembed-body">
+                                <div class="gembed-title"><a>Title</a></div>
+                                <div class="gembed-description"><a>Description</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+### The end
+
+There is more to custom embeds than mentioned here. [Custom embed reference page](/references/Embed) contains all of the other information necessary, such as how to set a thumbnail, or the side colour of the embed.
