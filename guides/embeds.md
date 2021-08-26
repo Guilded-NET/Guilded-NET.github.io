@@ -6,15 +6,15 @@ preview: true
 
 # How to use: Embeds
 
-Embeds are generally used to display the preview of certain content or a link, but they can be used as content itself that doesn't preview anything.
+Embeds are generally used to display the preview of certain content or a link, but they can be used as content itself.
 
 ## Content and Custom embeds
 
-There are 2 kinds of embeds, [content embeds](/references/ContentEmbed) and [custom/rich embeds](/references/ChatEmbed).
+There are 2 kinds of embeds, [content embeds](/references/ContentEmbed) and [custom embeds](/references/ChatEmbed)(may also be called rich embeds).
 
-Content embeds are used to automatically generate a preview of a link. If let's say you give content embed to fetch your website, it will pull metadata and OpenGraph metadata from your website and hands the data out to Guilded client, which does whatever it wants to do with the data(display it or do something else with it). Content embeds are generally only found in documents, forum posts, forum replies and alike. Messages do not contain content embed nodes, although they are still displayed after any hyperlink. Content embeds can look like shared message as well, if its URL is from Guilded, or even like a team invite.
+Content embeds are used to automatically generate a preview of a link. If, let's say you give content embed to fetch your website, then it will pull metadata and OpenGraph metadata from your website and hands out the data to Guilded client, which does whatever it wants to do with the data(display it or do anything else). Content embed nodes are generally only found in documents, forum posts, forum replies and alike, but not messages(they still get displayed below if you have a hyperlink in your message). Content embeds may differ in design, unlike custom embeds(website embeds vs share feature vs server invite).
 
-Custom embeds are similar to content embeds in terms of how they look, but they are fully customizable, meaning, you can set custom colour of the side border, add fields you want, etc. They are generally mostly used for webhooks to display events/new content or for bots to have a fancy output that is more understandable from a glance. Content embeds cannot look like shared messages or team invites as of now.
+Custom embeds are similar to content website embeds in terms of how they look, but they are fully customizable, meaning, you can set custom colour of the side border, add fields you want, etc. They are generally mostly used for webhooks to display events/new content or for bots to have a fancy output that is more understandable from a glance. Content embeds cannot look like shared messages or team invites as of now.
 
 ## Creating a content embed
 
@@ -36,11 +36,13 @@ Creating a content embed is as simple as giving it a link and posting it:
 
 ```cs
 ContentEmbed embed = new ContentEmbed("https://guilded.gg/");
-await client.CreateMessageAsync(channelId, embed);
+await client.CreateForumThreadAsync(channelId, "Title", embed);
 ```
 {: .line-numbers}
 
 This will post the embed with the URL we gave it, which will then be displayed by the Guilded client automatically.
+
+There isn't much to content embeds other than that.
 
 ## Creating a custom embed
 
@@ -91,6 +93,8 @@ Embed embed = new Embed()
 ```
 {: .line-numbers}
 
+These can be generally combined and does not necessarily be a style of how you use embeds.
+
 > Building methods are not fully complete and might change in the near future
 {: .warning}
 
@@ -138,13 +142,13 @@ await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 
 ### Fields
 
-Fields are pretty simple. They also generally have a title(name) and a description(value) just like embed, but there can be multiple of them and they can be optionally inline. To make it inline, add `true` as a third argument, or `inline: true`.
+Fields are pretty simple. They also have a title(name) and a description(value) just like embeds, but there can be multiple of them and they can be optionally inline. To make a field inline, add `true` as a third argument.
 
 ```cs
-Embed embed = new Embed { Title = "Title", "Description. This is not a field." }
+Embed embed = new Embed { Title = "Title", Description = "Description. This is not a field." }
     .WithField("Field #1", "The value of the field")
     .WithField("Field #2", "This field is inline", true)
-    .WithField("Field #3", "This field is inline too!", inline: true);
+    .WithField("Field #3", "This field is inline too!", true);
 ```
 {: .line-numbers}
 <br/>
@@ -202,10 +206,10 @@ Embed embed = new Embed { Title = "Title", "Description. This is not a field." }
 
 ### Authors and Footers
 
-Embeds have more than descriptions, titles and fields. They can also have an author, which appears at the top, and a footer, which appears at the bottom. Both author and footer have a text and an icon, but author can also hold a hyperlink in its name.
+Embeds have more than descriptions, titles and fields. They can also have an author, which appears at the top, and a footer, which appears at the bottom. Both authors and footers have a text and an icon, but author can also hold a hyperlink in its name.
 
 ```cs
-Embed embed = new Embed("The description of the embed.")
+Embed embed = new Embed { Description = "The description of the embed." }
     .WithAuthor("The name of the author", iconUrl, new Uri("https://guilded.gg/"))
     .WithFooter("The footer text", iconUrl);
 ```
@@ -254,9 +258,9 @@ Embed embed = new Embed("The description of the embed.")
 
 ### Setting side colour
 
-Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for side-colours. Alpha channel of the colours is filtered out, meaning, it ignores the transparency you provide to the colour(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
+Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for colour of the left border. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
 
-It works on defined colours:
+With a defined colour:
 ```cs
 Embed embed = new Embed
 {
