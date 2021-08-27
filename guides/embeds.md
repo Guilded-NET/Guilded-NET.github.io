@@ -38,7 +38,6 @@ Creating a content embed is as simple as giving it a link and posting it:
 ContentEmbed embed = new ContentEmbed("https://guilded.gg/");
 await client.CreateForumThreadAsync(channelId, "Title", embed);
 ```
-{: .line-numbers}
 
 This will post the embed with the URL we gave it, which will then be displayed by the Guilded client automatically.
 
@@ -69,7 +68,6 @@ With Guilded.NET, there are several ways to create custom embeds. One of them is
 ```cs
 Embed embed = new Embed("The title of the embed", "The description/contents of it", "Footer text at the bottom");
 ```
-{: .line-numbers}
 
 You can also use it through object initializer/by setting embed's properties:
 
@@ -81,7 +79,6 @@ Embed embed = new Embed
     Footer = new EmbedFooter("The bottom/footer text of the embed")
 };
 ```
-{: .line-numbers}
 
 ... Or through building methods:
 
@@ -91,7 +88,6 @@ Embed embed = new Embed()
     .WithDescription("Description here")
     .WithField("New field's title", "New field's description");
 ```
-{: .line-numbers}
 
 These can be generally combined and does not necessarily be a style of how you use embeds.
 
@@ -107,7 +103,6 @@ await client.CreateMessageAsync(channelId, new MessageContent(embed));
 // OR
 await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 ```
-{: .line-numbers}
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
@@ -150,7 +145,6 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
     .WithField("Field #2", "This field is inline", true)
     .WithField("Field #3", "This field is inline too!", true);
 ```
-{: .line-numbers}
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
@@ -213,7 +207,6 @@ Embed embed = new Embed { Description = "The description of the embed." }
     .WithAuthor("The name of the author", iconUrl, new Uri("https://guilded.gg/"))
     .WithFooter("The footer text", iconUrl);
 ```
-{: .line-numbers}
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
@@ -269,7 +262,6 @@ Embed embed = new Embed
     Color = Color.Red
 };
 ```
-{: .line-numbers}
 
 And custom colours:
 ```cs
@@ -279,7 +271,6 @@ Embed embed = new Embed
     Description = "Description",
 }.WithColor(0xFF0000);
 ```
-{: .line-numbers}
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
