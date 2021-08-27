@@ -112,11 +112,11 @@ await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
-            <img class="preview-icon" src="https://img.guildedcdn.com/asset/DefaultUserAvatars/profile_5.png"/>
+            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
         </div>
         <div class="preview-content">
             <div class="preview-header">
-                <span class="preview-name">Example Bot</span>
+                <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
             </div>
             <div class="preview-message">
@@ -155,11 +155,11 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
-            <img class="preview-icon" src="https://img.guildedcdn.com/asset/DefaultUserAvatars/profile_5.png"/>
+            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
         </div>
         <div class="preview-content">
             <div class="preview-header">
-                <span class="preview-name">Example Bot</span>
+                <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
             </div>
             <div class="preview-message">
@@ -218,11 +218,11 @@ Embed embed = new Embed { Description = "The description of the embed." }
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
-            <img class="preview-icon" src="https://img.guildedcdn.com/asset/DefaultUserAvatars/profile_5.png"/>
+            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
         </div>
         <div class="preview-content">
             <div class="preview-header">
-                <span class="preview-name">Example Bot</span>
+                <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
             </div>
             <div class="preview-message">
@@ -230,7 +230,7 @@ Embed embed = new Embed { Description = "The description of the embed." }
                     <div class="gembed-inner">
                         <div class="gembed-author">
                             <div class="gembed-author-icon">
-                                <img class="gembed-img" src="https://img.guildedcdn.com/asset/DefaultUserAvatars/profile_5.png"/>
+                                <img class="gembed-img" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
                             </div>
                             <div class="gembed-author-text">
                                 <a href="https://www.guilded.gg/">The name of the author</a>
@@ -243,7 +243,7 @@ Embed embed = new Embed { Description = "The description of the embed." }
                         </div>
                         <div class="gembed-footer">
                             <div class="gembed-footer-icon">
-                                <img class="gembed-img" src="https://img.guildedcdn.com/asset/DefaultUserAvatars/profile_5.png"/>
+                                <img class="gembed-img" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
                             </div>
                             <div class="gembed-footer-text">
                                 <a>The footer text</a>
@@ -284,11 +284,11 @@ Embed embed = new Embed
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
-            <img class="preview-icon" src="https://img.guildedcdn.com/asset/DefaultUserAvatars/profile_5.png"/>
+            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
         </div>
         <div class="preview-content">
             <div class="preview-header">
-                <span class="preview-name">Example Bot</span>
+                <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
             </div>
             <div class="preview-message">
