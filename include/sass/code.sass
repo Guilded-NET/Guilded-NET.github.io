@@ -14,7 +14,7 @@ pre > code
     font-size: 0.8rem
     text-align: left
     // Spacing
-    padding: $spacing-2 $spacing-1
+    padding: $spacing-2 0
     line-height: 1.5
     border-radius: $small-radius
     // Make tab same as 4 spaces
@@ -30,6 +30,23 @@ pre > code
     hyphens: none
 
     font-family: 'Fira Code', monospace
+
+    // Each line in code block
+    & > codeline
+        display: block
+        padding-right: $spacing-2
+        // If it's highlighted, make it darker
+        &.highlighted
+            background-color: var(--background-level-1)
+        // Add index before each line
+        counter-increment: linenum
+        &::before
+            content: counter(linenum)
+            color: var(--foreground-level-2)
+            
+            margin-right: $spacing-3
+            padding-left: $spacing-2
+
 
 // Toolbar and content wrapper
 .code-toolbar
