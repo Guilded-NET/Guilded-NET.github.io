@@ -5,7 +5,7 @@ layout: docs
 
 # Getting Started: Creating a bot
 
-> It is recommend to learn the basics of C# before making a bot based on Guilded.NET.</p>
+> It is recommend to learn the basics of C# before making a bot based on Guilded.NET.
 {: .note}
 
 Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
