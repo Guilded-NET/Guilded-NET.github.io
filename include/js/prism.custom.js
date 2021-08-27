@@ -4,7 +4,7 @@ const langNames = {none:"Plain text",plain:"Plain text",plaintext:"Plain text",t
 // Add custom lines, not the weird ones at the end of the code
 Prism.hooks.add('linenums', elem => {
     // Make sure it has no lines already
-    if(elem.querySelector('codeline')) return
+    if(elem.firstElementChild == void 0 || elem.firstElementChild.tagName !== 'CODELINE') return
 
     const inner = elem.innerHTML
     // Leave it empty to not add repetition

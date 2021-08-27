@@ -47,29 +47,20 @@ pre > code
             margin-right: $spacing-3
             padding-left: $spacing-2
 
-
-// Toolbar and content wrapper
-.code-toolbar
-    display: flex
-    flex-direction: column-reverse
-
-    // Toolbar
-    .toolbar
-        padding-left: 0.6rem
-        padding-right: 0.6rem
-        // Language
-        .toolbar-item:first-child
-            position: relative
-            top: 0.5rem
-            user-select: none
-            // The label
-            span
-                background-color: $event-sky
-                border-radius: $small-radius
-                font-size: 0.8em
-                color: white
-
-                padding: 0.10rem 0.35rem
+// Language
+codeblock .code-lang
+    // Position
+    position: relative
+    top: 0.5rem
+    margin-left: $spacing-2
+    // Display
+    background-color: $event-sky
+    border-radius: $small-radius
+    font-size: 0.8em
+    color: white
+    // Misc
+    user-select: none
+    padding: 0.10rem 0.35rem
 
 
 /*
