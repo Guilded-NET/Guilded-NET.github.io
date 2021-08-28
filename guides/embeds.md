@@ -113,6 +113,7 @@ await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
             <div class="preview-header">
                 <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
+                <span class="preview-badge">BOT</span>
             </div>
             <div class="preview-message">
                 <div class="gembed">
@@ -155,6 +156,7 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
             <div class="preview-header">
                 <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
+                <span class="preview-badge">BOT</span>
             </div>
             <div class="preview-message">
                 <div class="gembed">
@@ -217,6 +219,7 @@ Embed embed = new Embed { Description = "The description of the embed." }
             <div class="preview-header">
                 <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
+                <span class="preview-badge">BOT</span>
             </div>
             <div class="preview-message">
                 <div class="gembed">
@@ -281,6 +284,7 @@ Embed embed = new Embed
             <div class="preview-header">
                 <span class="preview-name">Guilded.NET Bot</span>
                 <span class="preview-timestamp">9:55pm</span>
+                <span class="preview-badge">BOT</span>
             </div>
             <div class="preview-message">
                 <div class="gembed">

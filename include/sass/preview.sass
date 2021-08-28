@@ -24,7 +24,7 @@
 .preview
     // The icon of the user
     &-avatar
-        margin-right: $spacing-1
+        margin-right: $spacing-2
         user-select: none
     &-icon
         width: 2.5rem
@@ -33,6 +33,9 @@
     // The name and timestamp
     &-header
         user-select: none
+        // Space after each item
+        span
+            margin-right: $spacing-1
         .preview-name
             font-weight: bolder
             &:hover
@@ -40,8 +43,15 @@
         .preview-timestamp
             font-size: 0.8em
             color: var(--foreground-level-2)
-            // Add a space before itself
-            margin-left: $spacing-1
+            // Add a space before and after itself
+        .preview-badge
+            padding: $spacing-0 / 2 $spacing-0 * 1.5
+            border-radius: $tiny-radius
+            background-color: #575964
+
+            font-size: 0.7em
+            text-transform: uppercase
+            text-shadow: 0 0 2px black
 
 /*
  * --- Embeds ---

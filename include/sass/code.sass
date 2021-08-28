@@ -16,7 +16,6 @@ pre > code
     // Spacing
     padding: $spacing-2 0
     line-height: 1.5
-    border-radius: $small-radius
     // Make tab same as 4 spaces
     -moz-tab-size: 4
     -o-tab-size: 4
@@ -47,20 +46,36 @@ pre > code
             margin-right: $spacing-3
             padding-left: $spacing-2
 
-// Language
-codeblock .code-lang
-    // Position
-    position: relative
-    top: 0.5rem
-    margin-left: $spacing-2
-    // Display
-    background-color: $event-sky
-    border-radius: $small-radius
-    font-size: 0.8em
-    color: white
-    // Misc
-    user-select: none
-    padding: 0.10rem 0.35rem
+codeblock
+    // Language name label at the top of the codeblock
+    .code-lang
+        // Position
+        position: relative
+        top: 0.3rem
+        margin-left: $spacing-2
+        // Display
+        background-color: $event-sky
+        border-radius: $small-radius
+        font-size: 0.8em
+        color: white
+        // Misc
+        user-select: none
+        padding: 0.10rem 0.35rem
+    .code-header
+        background-color: var(--background-level-1)
+        padding: $spacing-2 $spacing-3
+        // Add default text styling
+        color: var(--foreground-level-2)
+        font-size: 0.9em
+        // Data in the header
+        .code-data-label
+            color: var(--foreground-level-3)
+        .code-data-value
+            color: var(--foreground-level-2)
+    // Add rounding to all of the content, including header/caption
+    .code-content
+        overflow: hidden
+        border-radius: $small-radius
 
 
 /*
