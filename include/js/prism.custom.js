@@ -3,18 +3,17 @@ const langNames = {none:"Plain text",plain:"Plain text",plaintext:"Plain text",t
 
 // Add custom lines, not the weird ones at the end of the code
 Prism.hooks.add('linenums', e => {
-    const el = e.element
-    console.log('Linenums', el, e)
+    const elem = e.element
     // Make sure it has no lines already
     if(elem.firstElementChild == void 0 || elem.firstElementChild.tagName !== 'CODELINE') return
 
     const inner = e.highlightedCode
     // Leave it empty to not add repetition
-    el.innerHTML = ''
+    elem.innerHTML = ''
     // Split the contents by newlines
     const lines = inner.split('\n')
     // Get highlighted line
-    const highlighted = el.attributes['data-highlight'] ? el.attributes['data-highlight'].value.split(',') : []
+    const highlighted = elem.attributes['data-highlight'] ? elem.attributes['data-highlight'].value.split(',') : []
     // Get each line in the contents
     for(let i in lines) {
         const line = lines[i]
@@ -25,7 +24,7 @@ Prism.hooks.add('linenums', e => {
         if(highlighted.includes(i))
             lineElem.classList.add('highlighted')
         // Append it to the code block
-        el.appendChild(lineElem)
+        elem.appendChild(lineElem)
     }
 })
 // Add language and filename support instead of default one
@@ -45,7 +44,7 @@ Prism.hooks.add('codewrapper', e => {
     lang.classList.add('code-lang')
     lang.innerHTML = langNames[e.language]
     // Add everything to the wrapper
-    header.appendChild(lang)
+    wrapper.appendChild(lang)
     wrapper.appendChild(header)
     // Wrap around the code
     base.parentElement.insertBefore(wrapper, base)
