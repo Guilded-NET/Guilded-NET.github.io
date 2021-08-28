@@ -5,7 +5,7 @@ const langNames = {none:"Plain text",plain:"Plain text",plaintext:"Plain text",t
 Prism.hooks.add('linenums', e => {
     const elem = e.element
     // Make sure it has no lines already
-    if(elem.firstElementChild == void 0 || elem.firstElementChild.tagName !== 'CODELINE') return
+    if(elem.firstElementChild != void 0 && elem.firstElementChild.tagName !== 'CODELINE') return
 
     const inner = e.highlightedCode
     // Leave it empty to not add repetition
@@ -29,16 +29,26 @@ Prism.hooks.add('linenums', e => {
 })
 // Add language and filename support instead of default one
 Prism.hooks.add('codewrapper', e => {
-    const el = e.element
+    const elem = e.element
     // Make sure it's the code block that's being wrapped around, not Prism.js inline code
-    if(el.parentElement.tagName !== 'PRE') return
+    if(elem.parentElement.tagName !== 'PRE') return
     // Determine what to wrap around
-    const base = el.parentElement
+    const base = elem.parentElement
     // Create wrapper for it
     const wrapper = document.createElement('codeblock')
     // Header above the code block
     const header = document.createElement('div')
     header.classList.add('code-header')
+    // If filename has been given, append it to the header
+    if(elem.attributes['data-filename']) {
+        const filename = elem.attributes['data-filename'].value
+        // Create element for it
+        const file = document.createElement('div')
+        file.classList.add('code-filename')
+        file.innerHTML = `<span class="code-data-label">File:</span> <span class="code-data-value">${filename}</span>`
+        // And append it
+        header.appendChild(file)
+    }
     // Language label shown above the 
     const lang = document.createElement('span')
     lang.classList.add('code-lang')
