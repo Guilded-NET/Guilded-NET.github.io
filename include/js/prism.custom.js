@@ -5,7 +5,7 @@ const langNames = {none:"Plain text",plain:"Plain text",plaintext:"Plain text",t
 Prism.hooks.add('linenums', e => {
     const elem = e.element
     // Make sure it has no lines already
-    if(elem.firstElementChild != void 0 && elem.firstElementChild.tagName !== 'CODELINE') return
+    if(elem.firstElementChild != void 0 && elem.firstElementChild.tagName === 'CODELINE') return
 
     const inner = e.highlightedCode
     // Leave it empty to not add repetition
