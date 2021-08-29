@@ -80,13 +80,13 @@ Embed embed = new Embed
 };
 ```
 
-... Or through building methods:
+... Or with methods:
 
 ```cs
 Embed embed = new Embed()
-    .WithTitle("Title here")
-    .WithDescription("Description here")
-    .WithField("New field's title", "New field's description");
+    .SetTitle("Title here")
+    .SetDescription("Description here")
+    .AddField("New field's title", "New field's description");
 ```
 
 These can be generally combined and does not necessarily be a style of how you use embeds.
@@ -142,9 +142,9 @@ Fields are pretty simple. They also have a title(name) and a description(value) 
 
 ```cs
 Embed embed = new Embed { Title = "Title", Description = "Description. This is not a field." }
-    .WithField("Field #1", "The value of the field")
-    .WithField("Field #2", "This field is inline", true)
-    .WithField("Field #3", "This field is inline too!", true);
+    .AddField("Field #1", "The value of the field")
+    .AddField("Field #2", "This field is inline", true)
+    .AddField("Field #3", "This field is inline too!", true);
 ```
 <br/>
 <div class="chat-preview">
@@ -206,8 +206,8 @@ Embeds have more than descriptions, titles and fields. They can also have an aut
 
 ```cs
 Embed embed = new Embed { Description = "The description of the embed." }
-    .WithAuthor("The name of the author", iconUrl, new Uri("https://guilded.gg/"))
-    .WithFooter("The footer text", iconUrl);
+    .SetAuthor("The name of the author", iconUrl, new Uri("https://guilded.gg/"))
+    .SetFooter("The footer text", iconUrl);
 ```
 <br/>
 <div class="chat-preview">
@@ -272,7 +272,7 @@ Embed embed = new Embed
 {
     Title = "Title",
     Description = "Description",
-}.WithColor(0xFF0000);
+}.SetColor(0xFF0000);
 ```
 <br/>
 <div class="chat-preview">

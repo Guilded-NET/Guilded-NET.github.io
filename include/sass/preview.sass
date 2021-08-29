@@ -1,5 +1,5 @@
+@use "sass:math"
 @import "./base"
-
 
 .chat-preview
     border: 1px solid rgba(white, 0.1)
@@ -45,7 +45,7 @@
             color: var(--foreground-level-2)
             // Add a space before and after itself
         .preview-badge
-            padding: $spacing-0 / 2 $spacing-0 * 1.5
+            padding: math.div($spacing-0, 2) $spacing-0 * 1.5
             border-radius: $tiny-radius
             background-color: #575964
 
