@@ -20,10 +20,11 @@ Since API isn't public yet, you need to create a new account that is going to be
 
 ### Installing
 
-Type `dotnet new -i Guilded.NET.Templates` and templates should appear in `dotnet new`.
+Type `dotnet new -i Guilded.NET.Templates`[^2] and templates should appear in `dotnet new`.
 
 Now you should be able to see new templates in `dotnet new`
-[^2]: [Guilded.NET Templates GitHub](https://github.com/Guilded-NET/Guilded.NET.Templates)
+
+[^2]: Guilded.NET Templates [GitHub](https://github.com/Guilded-NET/Guilded.NET.Templates), [NuGet](https://nuget.org/packages/Guilded.NET.Templates)
 
 ## Creating new project
 

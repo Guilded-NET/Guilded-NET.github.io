@@ -91,9 +91,6 @@ Embed embed = new Embed()
 
 These can be generally combined and does not necessarily be a style of how you use embeds.
 
-> Building methods are not fully complete and might change in the near future
-{: .warning}
-
 > Full reference of every property, constructor and method can be found [here](/references/Embed).
 {: .note}
 
