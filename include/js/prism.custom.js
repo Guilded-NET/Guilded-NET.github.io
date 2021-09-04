@@ -4,9 +4,9 @@ const langNames = {none:"Plain text",plain:"Plain text",plaintext:"Plain text",t
 // Gets attribute value as array
 function getArrayAttribute(elem, attr) {
     // Get either the value of the element or its parent
-    const attr = elem.attributes[attr] || elem.parentElement.attributes[attr] || "";
+    const value = elem.attributes[attr] || elem.parentElement.attributes[attr] || "";
     // Split the value by `,`
-    return attr.split(',')
+    return value.split(',')
 }
 
 // TODO: Fix some mess
