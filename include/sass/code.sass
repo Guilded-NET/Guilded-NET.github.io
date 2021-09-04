@@ -54,17 +54,17 @@ pre > code
         // Change colours based on highlight
         &.highlighted
             background-color: rgba($highlighted, 0.1)
+            border-left: 0.1rem solid $highlighted
             &::before
                 color: $highlighted
                 // Add a line to the left side
                 padding-left: $spacing-2
-                border-left: 0.1rem solid $highlighted
         &.inserted
             background-color: rgba($inserted, 0.1)
             &::before
                 content: '+'
                 color: $inserted
-        &.highlighted
+        &.deleted
             background-color: rgba($deleted, 0.1)
             &::before
                 content: '-'

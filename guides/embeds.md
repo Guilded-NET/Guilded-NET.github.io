@@ -253,7 +253,7 @@ Embed embed = new Embed { Description = "The description of the embed." }
 
 Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for colour of the left border. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
 
-With a defined colour:
+You can use built-in colours as well, such as [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.red), which will be rendered as defined:
 ```cs
 Embed embed = new Embed
 {
@@ -262,8 +262,9 @@ Embed embed = new Embed
     Color = Color.Red
 };
 ```
+{: data-insert="4"}
 
-And custom colours:
+Custom colours are allowed as well, by using [`Embed.WithColor(int color)`](/references/Embed_WithColor(int)) or [`Embed.WithColor(int r, int g, int b)`](/references/Embed_WithColor(int_int_int)).
 ```cs
 Embed embed = new Embed
 {
@@ -271,6 +272,7 @@ Embed embed = new Embed
     Description = "Description",
 }.SetColor(0xFF0000);
 ```
+{: data-insert="4"}
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
