@@ -1,5 +1,9 @@
 @import "./base"
-    
+
+$inserted: #a6e22d
+$highlighted: #e2a92d
+$deleted: #ef3b7d
+
 pre > code
     // Content
     background-color: var(--background-level-2)
@@ -34,17 +38,37 @@ pre > code
     & > codeline
         display: block
         padding-right: $spacing-2
-        // If it's highlighted, make it darker
-        &.highlighted
-            background-color: var(--background-level-1)
         // Add index before each line
-        counter-increment: linenum
+        &:not(.deleted)
+            counter-increment: linenum
         &::before
             content: counter(linenum)
-            color: var(--foreground-level-2)
+            color: var(--foreground-level-3)
+
+            // Make sure additional digit doesn't push the text to the side a little
+            width: 1rem
+            text-align: right
             
             margin-right: $spacing-3
-            padding-left: $spacing-2
+            padding-left: $spacing-2 + 0.1rem
+        // Change colours based on highlight
+        &.highlighted
+            background-color: rgba($highlighted, 0.1)
+            &::before
+                color: $highlighted
+                // Add a line to the left side
+                padding-left: $spacing-2
+                border-left: 0.1rem solid $highlighted
+        &.inserted
+            background-color: rgba($inserted, 0.1)
+            &::before
+                content: '+'
+                color: $inserted
+        &.highlighted
+            background-color: rgba($deleted, 0.1)
+            &::before
+                content: '-'
+                color: $deleted
 
 codeblock
     // Language name label at the top of the codeblock
@@ -99,7 +123,7 @@ codeblock
 .token.operator,
 .token.important,
 .token.attr-value
-    color: #ef3b7d
+    color: $deleted
 
 .s,
 .token.url,
@@ -136,7 +160,7 @@ codeblock
 .token.function,
 .token.inserted,
 .token.selector
-    color: #a6e22d
+    color: $inserted
 
 .p,
 .token.class-name .token.punctuation,
