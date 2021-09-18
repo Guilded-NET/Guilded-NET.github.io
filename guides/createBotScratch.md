@@ -14,20 +14,20 @@ Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
 
 ## Installing Guilded.NET
 
-First of all, we must create a directory/folder where the bot is stored. Make a new directory and give it whatever name you want(PascalCase is preferred), like <q>JoesBot</q>, <q>GatoBot</q>, <q>CoolBot</q> or anything else.
+First of all, you must create a directory/folder where the bot is stored. Make a new directory and give it whatever name you want(PascalCase is preferred), like <q>JoesBot</q>, <q>GatoBot</q>, <q>CoolBot</q> or anything else.
 
 After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up that directory using your preferred terminal or console(CMD, Git Bash, XFCE Terminal, GNOME Terminal, Konsole, etc.). Write `dotnet new console`(`console` can be replaced with your preferred template) and it should generate a fresh project for you.
 
 > Make sure not to close your terminal/console for the next step.
 {: .note}
 
-Now, we need to install Guilded.NET. Type `dotnet add package Guilded.NET` and `Guilded.NET` dependency should be added to your project. Now we'll need to run our bot.
+Install Guilded.NET. Type `dotnet add package Guilded.NET` and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
 
-## Configuring our bot
+## Configuring your bot
 
-Now we'll need to define prefix and an authentication token for our bot. You can use either constants or configuration files for that, but we'll use a configuration file.
+Now we'll need to define prefix and an authentication token for your bot. You can use either constants or configuration files for that, but we'll use a configuration file.
 
-Create a new directory <q>config</q> and there, create a new file <q>config.json</q>. Create a property `auth` and property `prefix`, where our authentication token and prefix will be stored:
+Create a new directory <q>config</q> and there, create a new file <q>config.json</q>. Create a property `auth` and property `prefix`, where your authentication token and prefix will be stored:
 
 ```json
 {
@@ -40,7 +40,7 @@ Create a new directory <q>config</q> and there, create a new file <q>config.json
 > <q>config</q> directory and <q>config.json</q> file are not mandatory to be named exactly that. You could name it whatever you want, but you'll need to reference it in your code by the name you gave it.
 {: .note}
 
-Now we'll need to make sure our project won't forget about <q>config</q> folder while compiling itself. To do that, add `<ItemGroup>`{: .language-xml} with `<Content>`{: .language-xml} referencing our config directory in `<Project>`{: .language-xml} from <q>ProjectName.csproj</q> file:
+Now we'll need to make sure your project won't forget about <q>config</q> folder while compiling itself. To do that, add `<ItemGroup>`{: .language-xml} with `<Content>`{: .language-xml} referencing your config directory in `<Project>`{: .language-xml} from <q>ProjectName.csproj</q> file:
 
 ```xml
 <ItemGroup>
@@ -53,7 +53,7 @@ Now we'll need to make sure our project won't forget about <q>config</q> folder 
 
 This should include whole <q>config</q> directory.
 
-We can now use it in our code:
+We can now use it in your code:
 
 ```csharp
 // At the very top
@@ -67,7 +67,7 @@ using Newtonsoft.Json.Linq;
 // static void Main()
 // ...
 
-// To get our auth and prefix properties in config/config.json
+// To get auth and prefix properties in config/config.json
 JObject config = JObject.Parse(File.ReadAllText("./config/config.json"));
 
 string auth   = config.Value<string>("auth"),
@@ -75,7 +75,7 @@ string auth   = config.Value<string>("auth"),
 ```
 {: data-filename="Program.cs"}
 
-This should allow you to use authentication token and prefix you provided. Now we can use it in our bot:
+This should allow you to use authentication token and prefix you provided. Now you can use it in your bot:
 
 ```csharp
 // At the very top
@@ -92,11 +92,11 @@ using Newtonsoft.Json.Linq;
 using GuildedBotClient client = new(auth);
 ```
 
-Now launching our project using `dotnet run` should not do anything. That is because we aren't connecting to Guilded. This will be covered in another part.
+Now launching your project using `dotnet run` should not do anything. That is because we aren't connecting to Guilded. This will be covered in another part.
 
 ## Connecting to Guilded
 
-We can connect to Guilded using `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once we use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will immediately disconnect. This problem can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd> <kbd>C</kbd> to close the program.
+We can connect to Guilded using `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once you use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will immediately disconnect. This problem can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd> <kbd>C</kbd> to close the program.
 
 ```csharp
 // At the very top
@@ -131,7 +131,7 @@ RunAsync(client).GetAwaiter().GetResult();
 > Make sure to not put anything below `await Task.Delay(-1)`{: .language-csharp}, as it will never run.
 {: .warning}
 
-You can also subscribe to `Prepared` or `Connected` events to see that our bot has indeed connected.
+You can also subscribe to `Prepared` or `Connected` events to see that your bot has indeed connected.
 
 ```csharp
 // At the very top
