@@ -21,4 +21,10 @@
     --foreground-level-1: #AAAAAA;
     --foreground-level-2: #727272;
     --foreground-level-3: #626262;
+    --foreground-link: #d6a284;
+    --foreground-link-hover: #d4b3a4;
+}
+
+.navigation {
+    background-color: var(--background-level-2);
 }

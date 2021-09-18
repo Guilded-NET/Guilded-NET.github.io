@@ -21,4 +21,6 @@
     --foreground-level-1: #ececec;
     --foreground-level-2: #a3a3ac;
     --foreground-level-3: #66676f;
+    --foreground-link: #FEF0B9;
+    --foreground-link-hover: white;
 }

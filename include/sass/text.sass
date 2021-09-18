@@ -22,10 +22,15 @@ a[href]
     text-decoration: none
     // Semi-gilded normally
     &, &:visited, &:focus, &:active
-        color: $gilded-bright
+        color: var(--foreground-link)
+        // If it holds code, make it coloured too
+        code
+            color: var(--foreground-link)
     // White on hover
     &:hover
-        color: white
+        color: var(--foreground-link-hover)
+        code
+            color: var(--foreground-link-hover)
 /*
  * --- Formatting ---
  */
