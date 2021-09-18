@@ -92,7 +92,7 @@ Embed embed = new Embed()
 These can be generally combined and does not necessarily be a style of how you use embeds.
 
 > Full reference of every property, constructor and method can be found [here](/references/Embed).
-> {: .note}
+{: .note}
 
 And then you can send the embed by creating a message content wrapped around it:
 
@@ -102,7 +102,6 @@ await client.CreateMessageAsync(channelId, new MessageContent(embed));
 await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 ```
 
-<br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
@@ -146,7 +145,6 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
     .AddField("Field #3", "This field is inline too!", true);
 ```
 
-<br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
@@ -210,7 +208,6 @@ Embed embed = new Embed { Description = "The description of the embed." }
     .SetFooter("The footer text", iconUrl);
 ```
 
-<br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">
@@ -267,10 +264,9 @@ Embed embed = new Embed
     Color = Color.Red
 };
 ```
-
 {: data-insert="4"}
 
-Custom colours are allowed as well, by using [`Embed.WithColor(int color)`](</references/Embed_WithColor(int)>) or [`Embed.WithColor(int r, int g, int b)`](</references/Embed_WithColor(int_int_int)>).
+Custom colours are allowed as well, by using [`Embed.WithColor(int rgba)`{: .language-csharp}](/references/Embed_WithColor(int)>) or [`Embed.WithColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_WithColor(int_int_int)>).
 
 ```csharp
 Embed embed = new Embed
@@ -279,9 +275,7 @@ Embed embed = new Embed
     Description = "Description",
 }.SetColor(0xFF0000);
 ```
-
 {: data-insert="4"}
-<br/>
 
 <div class="chat-preview">
     <div class="chat-preview-message">

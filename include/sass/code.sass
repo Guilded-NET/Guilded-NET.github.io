@@ -108,27 +108,35 @@ codeblock
 .token.namespace
     opacity: .8
 
-.c,
-.token.cdata,
-.token.prolog,
+.token.comment,
 .token.doctype,
-.token.comment
+.token.prolog,
+.token.cdata,
+.c
     color: #6f705e
 
-.k,
-.token.atrule,
-.token.keyword,
-.token.deleted,
-.token.operator,
+code.language-markup .token.attr-value .token.attr-equals,
+code.language-markup .token.attr-equals,
+.token.attr-value .token.attr-equals,
+code.language-markup .token.tag,
+.token.attr-equals,
 .token.important,
-.token.attr-value
+.token.operator,
+.token.deleted,
+.token.keyword,
+.token.atrule,
+.token.tag,
+.k
     color: $deleted
 
-.s,
-.token.url,
-.token.string,
+code.language-markup .token.attr-value .token.punctuation:not(.attr-equals),
+.token.attr-value .token.punctuation:not(.attr-equals),
+code.language-markup .token.attr-value,
+.token.attr-value,
 .token.entity,
-.token.attr-name
+.token.string,
+.token.url,
+.s
     color: #e6d06c
 
 // Brackets in interpolation
@@ -136,34 +144,42 @@ codeblock
     color: #e69041
 
 // Constants
-.token.number,
-.token.boolean
+.token.boolean,
+.token.number
     color: #a77afe
 
-.nc,
-.token.regex,
+code.language-markup .token.script .token.keyword,
+code.language-markup .token.script,
+code.language-markup .token.style,
+.token.script .token.keyword,
+.token.class-name,
 .token.statement,
-.token.class-name
+.token.script,
+.token.regex,
+.token.style,
+.nc
     color: #76d9e6
 
-.n,
+.token.placeholder,
 .token.variable,
-.token.placeholder
+.n
     color: #fff
 
 .token.named-parameter
     color: #fd971f
 
-.f,
-.fn,
+code.language-markup .token.attr-name,
+.token.attr-name,
 .token.function,
 .token.inserted,
-.token.selector
+.token.selector,
+.fn,
+.f
     color: $inserted
 
-.p,
+.token.punctuation:not(.named-parameter),
 .token.class-name .token.punctuation,
-.token.punctuation:not(.named-parameter)
+.p
     color: #bebec5
 
 .token.bold,
@@ -176,25 +192,6 @@ codeblock
 
 .token.italic
     font-style: italic
-
-code.language-markup
-    color: #f9f9f9
-
-code.language-markup .token.tag
-    color: #ef3b7d
-
-code.language-markup .token.attr-name
-    color: #a6e22d
-
-code.language-markup .token.attr-value
-    color: #e6d06c
-
-code.language-markup .token.style,
-code.language-markup .token.script
-    color: #76d9e6
-
-code.language-markup .token.script .token.keyword
-    color: #76d9e6
 
 /* Line highlight plugin */
 pre[class*="language-"][data-line]

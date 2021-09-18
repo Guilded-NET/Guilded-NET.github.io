@@ -7,7 +7,7 @@
 
 // Change the colour and font of headers
 h1, h2, h3, h4, h5, h6
-    color: var(--foreground-level-1)
+    color: var(--foreground-level-0)
     font-family: $font-header
     // Make it yellow for the titles
     strong
@@ -87,6 +87,11 @@ blockquote
         &::before
             color: $event-green
             content: '\f138' + ' ' + 'Note:'
+    // Remove that big spacing in a block quote
+    p:first-child
+        margin-top: $spacing-1
+    p:last-child
+        margin-bottom: $spacing-1
 
 // Remove code block spacing
 pre
@@ -103,6 +108,26 @@ code
         white-space: pre-wrap
         border-radius: $tiny-radius
         padding: 0.05rem $spacing-0
+
+// Tag-based
+q
+    &::before, &::after
+        opacity: 50%
+        line-height: 0
+
+        font-size: 2em
+        font-family: monospace
+kbd
+    background-color: var(--background-level-2)
+
+    margin: 0 $spacing-0
+    padding: $spacing-0 - .05rem $spacing-1 - 0.1rem
+    border-radius: $tiny-radius
+
+    font-size: 0.8em
+    font-weight: bold
+    font-family: $font-normal
+    text-transform: capitalize
 
 // Tables
 table

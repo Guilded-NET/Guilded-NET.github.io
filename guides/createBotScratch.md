@@ -19,13 +19,11 @@ First of all, we must create a directory/folder where the bot is stored. Make a 
 After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up that directory using your preferred terminal or console(CMD, Git Bash, XFCE Terminal, GNOME Terminal, Konsole, etc.). Write `dotnet new console`(`console` can be replaced with your preferred template) and it should generate a fresh project for you.
 
 > Make sure not to close your terminal/console for the next step.
-
 {: .note}
 
 Now, we need to install Guilded.NET. Type `dotnet add package Guilded.NET` and `Guilded.NET` dependency should be added to your project. Now we'll need to run our bot.
 
 > You can now close your terminal/console
-
 {: .note}
 
 ## Configuring our bot
@@ -40,11 +38,9 @@ Create a new directory <q>config</q> and there, create a new file <q>config.json
   "prefix": "!"
 }
 ```
-
 {: data-filename="config.json"}
 
 > <q>config</q> directory and <q>config.json</q> file are not mandatory to be named exactly that. You could name it whatever you want, but you'll need to reference it in your code by the name you gave it.
-
 {: .note}
 
 Now we'll need to make sure our project won't forget about <q>config</q> folder while compiling itself. To do that, add `<ItemGroup>`{: .language-xml} with `<Content>`{: .language-xml} referencing our config directory in `<Project>`{: .language-xml} from <q>ProjectName.csproj</q> file:
@@ -56,7 +52,6 @@ Now we'll need to make sure our project won't forget about <q>config</q> folder 
     </Content>
 </ItemGroup>
 ```
-
 {: data-filename="ProjectName.csproj"}
 
 This should include whole <q>config</q> directory.
@@ -69,7 +64,6 @@ using System.IO;
 
 using Newtonsoft.Json.Linq;
 ```
-
 {: data-insert="1,3"}
 
 ```csharp
@@ -82,7 +76,6 @@ JObject config = JObject.Parse(File.ReadAllText("./config/config.json"));
 string auth   = config.Value<string>("auth"),
        prefix = config.Value<string>("prefix");
 ```
-
 {: data-filename="Program.cs"}
 
 This should allow you to use authentication token and prefix you provided. Now we can use it in our bot:
@@ -95,7 +88,6 @@ using Guilded.NET;
 
 using Newtonsoft.Json.Linq;
 ```
-
 {: data-insert="3"}
 
 ```csharp
@@ -107,7 +99,7 @@ Now launching our project using `dotnet run` should not do anything. That is bec
 
 ## Connecting to Guilded
 
-We can connect to Guilded using `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once we use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will immediately disconnect. This problem can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd> + <kbd>C</kbd> to close the program.
+We can connect to Guilded using `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once we use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will immediately disconnect. This problem can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd> <kbd>C</kbd> to close the program.
 
 ```csharp
 // At the very top
@@ -118,7 +110,6 @@ using Guilded.NET;
 
 using Newtonsoft.Json;
 ```
-
 {: data-insert="2"}
 
 ```csharp
@@ -130,7 +121,6 @@ static async Task RunAsync(GuildedBotClient client)
     await Task.Delay(-1);
 }
 ```
-
 {: data-filename="Program.cs"}
 
 Now use the defined method in the Main method:
@@ -142,7 +132,6 @@ RunAsync(client).GetAwaiter().GetResult();
 ```
 
 > Make sure to not put anything below `await Task.Delay(-1)`{: .language-csharp}, as it will never run.
-
 {: .warning}
 
 You can also subscribe to `Prepared` or `Connected` events to see that our bot has indeed connected.
@@ -157,7 +146,6 @@ using Guilded.NET;
 
 using Newtonsoft.Json;
 ```
-
 {: data-insert="1"}
 
 ```csharp
