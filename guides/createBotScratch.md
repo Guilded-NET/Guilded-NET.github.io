@@ -96,7 +96,7 @@ Now launching your project using `dotnet run` should not do anything. That is be
 
 ## Connecting to Guilded
 
-We can connect to Guilded using `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once you use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will immediately disconnect. This problem can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd> <kbd>C</kbd> to close the program.
+To connect to Guilded, you can use `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once you use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will be immediately disconnected. It can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd> <kbd>C</kbd> to close the program.
 
 ```csharp
 // At the very top

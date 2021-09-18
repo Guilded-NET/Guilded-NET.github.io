@@ -80,7 +80,7 @@ Prism.hooks.add('codewrapper', e => {
     const header = document.createElement('div')
     header.classList.add('code-header')
 
-    const filename = getAttribute(elem)
+    const filename = getAttribute(elem, 'data-filename')
     if (filename) {
         // "File: Filename" element
         const file = document.createElement('div')
