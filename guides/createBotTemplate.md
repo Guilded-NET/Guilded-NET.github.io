@@ -3,9 +3,10 @@ title: Creating a bot
 layout: docs
 ---
 
-# Getting Started: Creating a bot
+# Getting Started: Creating a bot from template
 
 > It is recommend to learn the basics of C# before making a bot based on Guilded.NET.
+
 {: .note}
 
 Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
@@ -35,3 +36,13 @@ Now you should be able to see new templates in `dotnet new`
 5. Change `config/config.json` file and write email & password of your user bot.
 
 Now launch it with `dotnet run`. It should say that you have successfully logged in. Write `!ping` into the chat and the bot should respond.
+
+## Commands
+
+```bash
+dotnet new -i Guilded.NET.Templates
+mkdir ProjectName && cd ProjectName
+dotnet new guilded.net.client
+# Open up ./config/config.json
+dotnet run
+```

@@ -18,14 +18,14 @@ Custom embeds are similar to content website embeds in terms of how they look, b
 
 ## Creating a content embed
 
-### *Required namespaces*
+### _Required namespaces_
 
-| Namespace          | Description                                                   |
-|--------------------|---------------------------------------------------------------|
-| Guilded.NET.Chat   | [ContentEmbed](/references/ContentEmbed)                      |
-| System             | [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri) |
+| Namespace        | Description                                                   |
+| ---------------- | ------------------------------------------------------------- |
+| Guilded.NET.Chat | [ContentEmbed](/references/ContentEmbed)                      |
+| System           | [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri) |
 
-```cs
+```csharp
 using System;
 using Guilded.NET.Chat;
 ```
@@ -34,7 +34,7 @@ using Guilded.NET.Chat;
 
 Creating a content embed is as simple as giving it a link and posting it:
 
-```cs
+```csharp
 ContentEmbed embed = new ContentEmbed("https://guilded.gg/");
 await client.CreateForumThreadAsync(channelId, "Title", embed);
 ```
@@ -45,16 +45,16 @@ There isn't much to content embeds other than that.
 
 ## Creating a custom embed
 
-### *Required namespaces*
+### _Required namespaces_
 
 | Namespace          | Description                                                                        |
-|--------------------|------------------------------------------------------------------------------------|
+| ------------------ | ---------------------------------------------------------------------------------- |
 | Guilded.NET.Chat   | [MessageContent](/references/MessageContent) or [ChatEmbed](/references/ChatEmbed) |
 | Guilded.NET.Embeds | [Embed](/references/Embed)                                                         |
 | System             | [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri)                      |
 | System.Drawing     | [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color)          |
 
-```cs
+```csharp
 using System;
 using System.Drawing;
 using Guilded.NET.Chat;
@@ -65,13 +65,13 @@ using Guilded.NET.Embeds;
 
 With Guilded.NET, there are several ways to create custom embeds. One of them is to use constructors:
 
-```cs
+```csharp
 Embed embed = new Embed("The title of the embed", "The description/contents of it", "Footer text at the bottom");
 ```
 
 You can also use it through object initializer/by setting embed's properties:
 
-```cs
+```csharp
 Embed embed = new Embed
 {
     Title = "This is the title of the embed",
@@ -82,7 +82,7 @@ Embed embed = new Embed
 
 ... Or with methods:
 
-```cs
+```csharp
 Embed embed = new Embed()
     .SetTitle("Title here")
     .SetDescription("Description here")
@@ -92,14 +92,16 @@ Embed embed = new Embed()
 These can be generally combined and does not necessarily be a style of how you use embeds.
 
 > Full reference of every property, constructor and method can be found [here](/references/Embed).
-{: .note}
+> {: .note}
 
 And then you can send the embed by creating a message content wrapped around it:
-```cs
+
+```csharp
 await client.CreateMessageAsync(channelId, new MessageContent(embed));
 // OR
 await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 ```
+
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
@@ -137,12 +139,13 @@ await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 
 Fields are pretty simple. They also have a title(name) and a description(value) just like embeds, but there can be multiple of them and they can be optionally inline. To make a field inline, add `true` as a third argument.
 
-```cs
+```csharp
 Embed embed = new Embed { Title = "Title", Description = "Description. This is not a field." }
     .AddField("Field #1", "The value of the field")
     .AddField("Field #2", "This field is inline", true)
     .AddField("Field #3", "This field is inline too!", true);
 ```
+
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
@@ -201,11 +204,12 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
 
 Embeds have more than descriptions, titles and fields. They can also have an author, which appears at the top, and a footer, which appears at the bottom. Both authors and footers have a text and an icon, but author can also hold a hyperlink in its name.
 
-```cs
+```csharp
 Embed embed = new Embed { Description = "The description of the embed." }
     .SetAuthor("The name of the author", iconUrl, new Uri("https://guilded.gg/"))
     .SetFooter("The footer text", iconUrl);
 ```
+
 <br/>
 <div class="chat-preview">
     <div class="chat-preview-message">
@@ -254,7 +258,8 @@ Embed embed = new Embed { Description = "The description of the embed." }
 Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for colour of the left border. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
 
 You can use built-in colours as well, such as [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.red), which will be rendered as defined:
-```cs
+
+```csharp
 Embed embed = new Embed
 {
     Title = "Title",
@@ -262,18 +267,22 @@ Embed embed = new Embed
     Color = Color.Red
 };
 ```
+
 {: data-insert="4"}
 
-Custom colours are allowed as well, by using [`Embed.WithColor(int color)`](/references/Embed_WithColor(int)) or [`Embed.WithColor(int r, int g, int b)`](/references/Embed_WithColor(int_int_int)).
-```cs
+Custom colours are allowed as well, by using [`Embed.WithColor(int color)`](</references/Embed_WithColor(int)>) or [`Embed.WithColor(int r, int g, int b)`](</references/Embed_WithColor(int_int_int)>).
+
+```csharp
 Embed embed = new Embed
 {
     Title = "Title",
     Description = "Description",
 }.SetColor(0xFF0000);
 ```
+
 {: data-insert="4"}
 <br/>
+
 <div class="chat-preview">
     <div class="chat-preview-message">
         <div class="preview-avatar">

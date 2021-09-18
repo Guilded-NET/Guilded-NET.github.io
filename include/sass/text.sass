@@ -72,20 +72,20 @@ blockquote
         &::before
             color: $event-yellow
             content: '\f06a' + ' ' + 'Warning:'
-    &.success
-        border-left-color: $event-green
-        &::before
-            color: $event-green
-            content: '\f058' + ' ' + 'Success:'
+    // &.success
+    //     border-left-color: $event-green
+    //     &::before
+    //         color: $event-green
+    //         content: '\f058' + ' ' + 'Success:'
     &.info
         border-left-color: $event-sky
         &::before
             color: $event-sky
             content: '\f05a' + ' ' + 'Info:'
     &.note
-        border-left-color: $event-purple
+        border-left-color: $event-green
         &::before
-            color: $event-purple
+            color: $event-green
             content: '\f138' + ' ' + 'Note:'
 
 // Remove code block spacing
@@ -94,7 +94,7 @@ pre
     padding: 0
     overflow: auto
 code
-    font-family: 'Courier', monospace
+    font-family: 'Fira Code', 'Courier', Arial, Helvetica, sans-serif
     color: var(--foreground-level-1)
     background-color: var(--background-level-2)
     // Inline code
