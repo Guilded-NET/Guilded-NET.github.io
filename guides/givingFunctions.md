@@ -5,4 +5,4 @@ layout: docs
 
 # Giving bot functions
 
-W.I.P.
+W.I.P., waiting for newer versions

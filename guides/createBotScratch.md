@@ -6,7 +6,7 @@ layout: docs
 # Getting Started: Creating a bot from scratch
 
 > It is recommend to learn the basics of C# before making a bot based on Guilded.NET.
-> {: .note}
+{: .note}
 
 Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
 
@@ -22,9 +22,6 @@ After that, we'll need to create a new C#(or in other .NET language) project. Ma
 {: .note}
 
 Now, we need to install Guilded.NET. Type `dotnet add package Guilded.NET` and `Guilded.NET` dependency should be added to your project. Now we'll need to run our bot.
-
-> You can now close your terminal/console
-{: .note}
 
 ## Configuring our bot
 
