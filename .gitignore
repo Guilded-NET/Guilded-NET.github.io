@@ -1,3 +1,5 @@
 .vscode
 vendor
 *.sh
+package-lock.json
+node_modules

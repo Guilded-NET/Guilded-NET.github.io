@@ -1,0 +1,38 @@
+{
+  "name": "guilded.net.website",
+  "version": "1.0.0",
+  "description": "Guilded.NET API wrapper documentation and references",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilded-NET/Guilded-NET.github.io.git"
+  },
+  "keywords": [
+    "guilded",
+    "net",
+    "api",
+    "wrapper",
+    "docs",
+    "documentation",
+    "references",
+    "page",
+    "site",
+    "website",
+    "library",
+    "guilded.net"
+  ],
+  "author": "IdkGoodName",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guilded-NET/Guilded-NET.github.io/issues"
+  },
+  "homepage": "https://github.com/Guilded-NET/Guilded-NET.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.41.1"
+  }
+}

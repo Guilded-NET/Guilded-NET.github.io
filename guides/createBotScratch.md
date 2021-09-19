@@ -21,7 +21,9 @@ After that, we'll need to create a new C#(or in other .NET language) project. Ma
 > Make sure not to close your terminal/console for the next step.
 {: .note}
 
-Install Guilded.NET. Type `dotnet add package Guilded.NET` and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
+Install Guilded.NET. Type `dotnet add package Guilded.NET`[^2] and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
+
+[^2]: Guilded.NET Templates [GitHub](https://github.com/Guilded-NET/Guilded.NET.Templates), [NuGet](https://nuget.org/packages/Guilded.NET.Templates)
 
 ## Configuring your bot
 
@@ -96,7 +98,7 @@ Now launching your project using `dotnet run` should not do anything. That is be
 
 ## Connecting to Guilded
 
-To connect to Guilded, you can use `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once you use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will be immediately disconnected. It can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd> <kbd>C</kbd> to close the program.
+To connect to Guilded, you can use `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once you use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done. This is a problem because once program will be closed, the bot will be immediately disconnected. It can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd><kbd>C</kbd> to close the program.
 
 ```csharp
 // At the very top
