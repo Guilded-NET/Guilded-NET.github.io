@@ -1,11 +1,16 @@
 <head>
-    <title>Guilded.NET Docs - {{ page.title | page.name | escape }}</title>
+    {% if page.title %}
+        {% assign pageTitle = page.title %}
+    {% else %}
+        {% assign pageTitle = page.name | remove: ".md" %}
+    {% endif %}
+    <title>Guilded.NET Docs - {{ pageTitle | escape }}</title>
     <link rel="icon" href="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png">
     <!-- HTML encoding -->
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta property="og:site_name" content="Guilded.NET" />
     <meta property="og:determiner" content="the" />
-    <meta property="og:title" content="Guilded.NET - {{ page.title | page.name | escape }}" />
+    <meta property="og:title" content="Guilded.NET - {{ pageTitle | escape }}" />
     <meta property="og:description" content="Guilded.NET website for documentation and information." />
     <meta property="og:thumbnail"
         content="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png" />
@@ -24,9 +29,7 @@
     {% if page.preview %}
     <link rel="stylesheet" type="text/css" href="/include/css/preview.css" />
     {% endif %}
-    {% if page.references %}
     <link rel="stylesheet" type="text/css" href="/include/css/reference.css" />
-    {% endif %}
     <link rel="stylesheet" type="text/css" href="/include/css/code.css" />
-    <link id="doc-theme" rel="stylesheet" type="text/css" href="/include/css/theme-guilded.css" />
+    <link id="doc-theme" rel="stylesheet" type="text/css" href="/include/css/theme-dark.css" />
 </head>
