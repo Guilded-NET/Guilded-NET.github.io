@@ -35,10 +35,18 @@ a[href]
  * --- Formatting ---
  */
 
+// Remove that big spacing in a block quote or preview message
+p, blockquote
+    margin: $spacing-1 0
+    &:first-child
+        margin-top: 0
+    &:last-child
+        margin-bottom: 0
+
 blockquote
     // Spacing
     margin: $spacing-4 0
-    padding: $spacing-0
+    padding: $spacing-2
     padding-left: $spacing-3
     border-radius: $small-radius
 
@@ -87,11 +95,6 @@ blockquote
         &::before
             color: $event-green
             content: '\f138' + ' ' + 'Note:'
-    // Remove that big spacing in a block quote
-    p:first-child
-        margin-top: $spacing-1
-    p:last-child
-        margin-bottom: $spacing-1
 
 // Remove code block spacing
 pre

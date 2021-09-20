@@ -16,7 +16,7 @@
         display: flex
         flex-direction: row
 
-        padding: $spacing-3
+        padding: $spacing-1 $spacing-3
 
         cursor: pointer
         // Make it darker on hover
@@ -32,6 +32,9 @@
         width: 2.5rem
         height: 2.5rem
         border-radius: 100%
+    // Name, message, etc.
+    &-content
+        flex: 1
     // The name and timestamp
     &-header
         user-select: none
@@ -47,13 +50,13 @@
             color: var(--foreground-level-2)
             // Add a space before and after itself
         .preview-badge
-            padding: math.div($spacing-0, 2) $spacing-0 * 1.5
+            padding: math.div($spacing-0, 2) $spacing-0
             border-radius: $tiny-radius
             background-color: #575964
 
-            font-size: 0.7em
+            font-size: 0.6em
             text-transform: uppercase
-            text-shadow: 0 0 2px black
+            text-shadow: 0 0 2px #000B
 
 /*
  * --- Embeds ---

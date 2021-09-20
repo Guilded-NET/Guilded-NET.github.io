@@ -266,7 +266,7 @@ Embed embed = new Embed
 ```
 {: data-insert="4"}
 
-Custom colours are allowed as well, by using [`Embed.WithColor(int rgba)`{: .language-csharp}](/references/Embed_WithColor(int)>) or [`Embed.WithColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_WithColor(int_int_int)>).
+Custom colours are allowed as well, by using [`Embed.WithColor(int rgba)`{: .language-csharp}](/references/Embed_WithColor(int)) or [`Embed.WithColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_WithColor(int_int_int)).
 
 ```csharp
 Embed embed = new Embed
