@@ -18,21 +18,15 @@ Custom embeds are similar to content website embeds in terms of how they look, b
 
 ## Creating a content embed
 
-### _Required namespaces_
-
-| Namespace        | Description                                                   |
-| ---------------- | ------------------------------------------------------------- |
-| Guilded.NET.Chat | [ContentEmbed](/references/ContentEmbed)                      |
-| System           | [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri) |
-
-```csharp
-using System;
-using Guilded.NET.Chat;
-```
-
 ### Basics
 
 Creating a content embed is as simple as giving it a link and posting it:
+
+```csharp
+// At the very top of the file
+using Guilded.NET.Base.Chat;
+```
+{: data-insert="1"}
 
 ```csharp
 ContentEmbed embed = new ContentEmbed("https://guilded.gg/");
@@ -45,25 +39,15 @@ There isn't much to content embeds other than that.
 
 ## Creating a custom embed
 
-### _Required namespaces_
-
-| Namespace          | Description                                                                        |
-| ------------------ | ---------------------------------------------------------------------------------- |
-| Guilded.NET.Chat   | [MessageContent](/references/MessageContent) or [ChatEmbed](/references/ChatEmbed) |
-| Guilded.NET.Embeds | [Embed](/references/Embed)                                                         |
-| System             | [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri)                      |
-| System.Drawing     | [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color)          |
-
-```csharp
-using System;
-using System.Drawing;
-using Guilded.NET.Chat;
-using Guilded.NET.Embeds;
-```
-
 ### Basics
 
 With Guilded.NET, there are several ways to create custom embeds. One of them is to use constructors:
+
+```csharp
+// At the top of the file
+using Guilded.NET.Base.Embeds;
+```
+{: data-insert="1"}
 
 ```csharp
 Embed embed = new Embed("The title of the embed", "The description/contents of it", "Footer text at the bottom");
@@ -95,6 +79,13 @@ These can be generally combined and does not necessarily be a style of how you u
 {: .note}
 
 And then you can send the embed by creating a message content wrapped around it:
+
+```csharp
+// At the very top of the file
+using Guilded.NET.Base.Chat;
+using Guilded.NET.Base.Embeds;
+```
+{: data-insert="1"}
 
 ```csharp
 await client.CreateMessageAsync(channelId, new MessageContent(embed));
@@ -203,6 +194,15 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
 Embeds have more than descriptions, titles and fields. They can also have an author, which appears at the top, and a footer, which appears at the bottom. Both authors and footers have a text and an icon, but author can also hold a hyperlink in its name.
 
 ```csharp
+// At the very top of the file
+using System;
+
+using Guilded.NET.Base.Chat;
+using Guilded.NET.Base.Embeds;
+```
+{: data-insert="1"}
+
+```csharp
 Embed embed = new Embed { Description = "The description of the embed." }
     .SetAuthor("The name of the author", iconUrl, new Uri("https://guilded.gg/"))
     .SetFooter("The footer text", iconUrl);
@@ -255,6 +255,16 @@ Embed embed = new Embed { Description = "The description of the embed." }
 Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for colour of the left border. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
 
 You can use built-in colours as well, such as [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.red), which will be rendered as defined:
+
+```csharp
+// At the very top of the file
+using System;
+using System.Drawing;
+
+using Guilded.NET.Base.Chat;
+using Guilded.NET.Base.Embeds;
+```
+{: data-insert="2"}
 
 ```csharp
 Embed embed = new Embed

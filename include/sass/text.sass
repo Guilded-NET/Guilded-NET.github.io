@@ -1,3 +1,4 @@
+@use "sass:math"
 @import "../base/variables"
 @import "../base/fa"
 
@@ -15,7 +16,7 @@ h1, h2, h3, h4, h5, h6
 
 // Change line height for inline code
 p, li
-    line-height: 1.4rem
+    line-height: 1.3rem
 
 // Links
 a[href]
@@ -134,31 +135,31 @@ kbd
 
 // Tables
 table
-    border-spacing: 0
-    border: solid 1px var(--background-level-1)
+    border-spacing: 0 math.div($spacing-0, 2)
 
     // Rounding
     overflow: hidden
-    border-radius: $small-radius
 
     // Add spacing before and after it
     margin-top: $spacing-2
     margin-bottom: $spacing-2
+    font-size: 0.8em
     // Heading
     thead tr
-        background-color: var(--background-level-2)
+        //background-color: var(--background-level-2)
+        color: var(--foreground-level-2)
     // Body rows
-    tbody tr:nth-child(even)
+    tbody
+        border-radius: $small-radius
+    tbody tr
         background-color: var(--background-level-3)
     // Any row item
     th, td
         padding: $spacing-1
-        // Non-first child
-        &:not(:first-child)
-            border-left: solid 1px var(--background-level-1)
 
 // Referenced foonotes
 .footnotes
+    margin-top: $spacing-4
     border-top: 2px solid var(--background-level-1)
 
 table tbody tr td
