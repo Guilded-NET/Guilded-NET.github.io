@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
 ## EmbedMedia.Width Property
-The width of the image.  
+The width of the image/video.  
 ```csharp
 public System.Nullable<uint> Width { get; set; }
 ```

@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.CreateListItemAsync(Guid, string, string) Method
-Creates a new list item in a list channel.  
+Creates a list item.  
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.NET.Base.Content.ListItem> CreateListItemAsync(System.Guid channelId, string message, string note=null);
 ```
@@ -27,19 +27,8 @@ List item created
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
-### Example
-Without a note:
-
-```csharp
-  
-            await client.CreateListItemAsync(channelId, "Reach 100 servers");  
-            ```
-
-
-With a note:
-
-```csharp
-  
-            await client.CreateListItemAsync(channelId, "Reach 100 servers", "Reach 100 or more servers with a bot.");  
-            ```
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
+### Remarks
+Creates a new list item in list/task channel.

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## MatchmakingPermissions Enum
 Tournament and scrims permissions.  
 ```csharp
@@ -20,6 +20,10 @@ Allows you to create matchmaking scrims
 <a name='Guilded_NET_Base_Permissions_MatchmakingPermissions_CreateTournaments'></a>
 `CreateTournaments` 16  
 Allows you to register the server for tournaments  
+  
+<a name='Guilded_NET_Base_Permissions_MatchmakingPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_MatchmakingPermissions_RegisterForTournaments'></a>
 `RegisterForTournaments` 4  

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ContentEmbed](ContentEmbed 'Guilded.NET.Base.Chat.ContentEmbed')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ContentEmbed](ContentEmbed 'Guilded.NET.Base.Chat.ContentEmbed')
 ## ContentEmbed.ContentEmbed(Uri, IList&lt;TextContainer&gt;) Constructor
 Block that tells information about a link.  
 ```csharp

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.ExecuteRequest(Uri, Method, object, bool, IDictionary&lt;string,string&gt;, IDictionary&lt;string,string&gt;) Method
 Sends a request to Guilded.  
 ```csharp
@@ -39,6 +39,12 @@ Request response
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+When [resource](BaseGuildedClient_ExecuteRequest(Uri_Method_object_bool_IDictionary_string_string__IDictionary_string_string_)#Guilded_NET_Base_BaseGuildedClient_ExecuteRequest(System_Uri_Method_object_bool_System_Collections_Generic_IDictionary_string_string__System_Collections_Generic_IDictionary_string_string_)_resource 'Guilded.NET.Base.BaseGuildedClient.ExecuteRequest(System.Uri, Method, object, bool, System.Collections.Generic.IDictionary&lt;string,string&gt;, System.Collections.Generic.IDictionary&lt;string,string&gt;).resource') refers to an invalid endpoint
 ### Remarks
-Sends a request to Guilded API and returns response as [RestSharp.IRestResponse&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.IRestResponse-1 'RestSharp.IRestResponse`1') type. This automatically picks up on any errors received.  
+Sends a request to Guilded API and returns response as [RestSharp.IRestResponse&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.IRestResponse-1 'RestSharp.IRestResponse`1') type.
+
+
+
+Any errors received will be thrown.

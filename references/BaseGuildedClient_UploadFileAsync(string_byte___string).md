@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.UploadFileAsync(string, byte[], string) Method
 Uploads a file to Guilded.  
 ```csharp
@@ -27,8 +27,11 @@ File URL
 
 #### Exceptions
 [System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
-When [filename](BaseGuildedClient_UploadFileAsync(string_byte___string)#Guilded_NET_Base_BaseGuildedClient_UploadFileAsync(string_byte___string)_filename 'Guilded.NET.Base.BaseGuildedClient.UploadFileAsync(string, byte[], string).filename') is empty or null
+When [filename](BaseGuildedClient_UploadFileAsync(string_byte___string)#Guilded_NET_Base_BaseGuildedClient_UploadFileAsync(string_byte___string)_filename 'Guilded.NET.Base.BaseGuildedClient.UploadFileAsync(string, byte[], string).filename') is empty or [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
 ### Remarks
-Uploads any image, text or document file to Guilded with content type as [contentType](BaseGuildedClient_UploadFileAsync(string_byte___string)#Guilded_NET_Base_BaseGuildedClient_UploadFileAsync(string_byte___string)_contentType 'Guilded.NET.Base.BaseGuildedClient.UploadFileAsync(string, byte[], string).contentType').  
+Uploads any image, text or document file to Guilded with content type as [contentType](BaseGuildedClient_UploadFileAsync(string_byte___string)#Guilded_NET_Base_BaseGuildedClient_UploadFileAsync(string_byte___string)_contentType 'Guilded.NET.Base.BaseGuildedClient.UploadFileAsync(string, byte[], string).contentType').
+
+
+
+The new image uploaded to Guilded will be received as [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') return value.

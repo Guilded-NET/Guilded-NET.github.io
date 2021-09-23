@@ -1,12 +1,12 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams').[IPermission](IPermission 'Guilded.NET.Base.Teams.IPermission')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[IPermission](IPermission 'Guilded.NET.Base.Permissions.IPermission')
 ## IPermission.DenyPermissions Property
-Denied permissions.  
+All of the denied permissions.  
 ```csharp
 Guilded.NET.Base.Permissions.PermissionList DenyPermissions { get; set; }
 ```
 
 #### Property Value
 [PermissionList](PermissionList 'Guilded.NET.Base.Permissions.PermissionList')
-Permissions
+Disallowed permissions

@@ -1,26 +1,26 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## CodeLine Class
 A line of code in [CodeContainer](CodeContainer 'Guilded.NET.Base.Chat.CodeContainer').  
 ```csharp
 public class CodeLine : Guilded.NET.Base.Chat.ContainerNode<Guilded.NET.Base.Chat.TextContainer, Guilded.NET.Base.Chat.CodeLine>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; [Node](Node 'Guilded.NET.Base.Chat.Node') &#129106; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[CodeLine](CodeLine 'Guilded.NET.Base.Chat.CodeLine')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#129106; CodeLine  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; [Node](Node 'Guilded.NET.Base.Chat.Node') &#x27A1; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[CodeLine](CodeLine 'Guilded.NET.Base.Chat.CodeLine')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#x27A1; CodeLine  
 ### Example
 Using code line in code container:
 
 ```csharp
   
-            CodeLine[] lines = new CodeLine[]  
-            {  
-                new CodeLine("using System;"),  
-                new CodeLine(new TextContainer("using System.Linq;")),  
-                new CodeLine(new Leaf("using"), new Leaf(" "), new Leaf("System.Collections.Generic"), new Leaf(";"))  
-            };  
-            CodeContainer code = new CodeContainer("csharp", lines);  
-            ```
+CodeLine[] lines = new CodeLine[]  
+{  
+    new CodeLine("using System;"),  
+    new CodeLine(new TextContainer("using System.Linq;")),  
+    new CodeLine(new Leaf("using"), new Leaf(" "), new Leaf("System.Collections.Generic"), new Leaf(";"))  
+};  
+CodeContainer code = new CodeContainer("csharp", lines);  
+```
 ### Remarks
 A line in a code container.  
 

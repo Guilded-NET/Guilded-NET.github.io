@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Divider](Divider 'Guilded.NET.Base.Chat.Divider')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Divider](Divider 'Guilded.NET.Base.Chat.Divider')
 ## Divider.ToString() Method
 Converts divider to its Markdown equivalent.  
 ```csharp

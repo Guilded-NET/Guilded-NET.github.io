@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams').[ChannelPermission](ChannelPermission 'Guilded.NET.Base.Teams.ChannelPermission')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[ChannelPermission](ChannelPermission 'Guilded.NET.Base.Permissions.ChannelPermission')
 ## ChannelPermission.TeamId Property
 Id of the team this permission's channel is in.  
 ```csharp

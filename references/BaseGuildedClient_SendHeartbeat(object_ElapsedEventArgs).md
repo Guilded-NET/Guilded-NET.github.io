@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.SendHeartbeat(object, ElapsedEventArgs) Method
 Sends a heartbeat.  
 ```csharp
@@ -17,4 +17,4 @@ Who invoked the event
 Arguments of the timer's elapsed event
   
 ### Remarks
-Sends a heartbeat through all WebSocket clients in [Websockets](BaseGuildedClient_Websockets 'Guilded.NET.Base.BaseGuildedClient.Websockets') dictionary.   
+Sends a heartbeat through all WebSocket clients in [Websockets](BaseGuildedClient_Websockets 'Guilded.NET.Base.BaseGuildedClient.Websockets') dictionary.

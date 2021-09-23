@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.RemoveMembershipAsync(GId, GId) Method
 Removes a member from the group.  
 ```csharp
@@ -22,8 +22,12 @@ The identifier of the member to remove
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
-### Example
-```csharp
-await client.RemoveMembershipAsync(group.Id, message.CreatedBy);  
-```
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
+### Remarks
+Removes a member of [memberId](BaseGuildedClient_RemoveMembershipAsync(GId_GId)#Guilded_NET_Base_BaseGuildedClient_RemoveMembershipAsync(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_memberId 'Guilded.NET.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.NET.Base.GId, Guilded.NET.Base.GId).memberId') from the group [groupId](BaseGuildedClient_RemoveMembershipAsync(GId_GId)#Guilded_NET_Base_BaseGuildedClient_RemoveMembershipAsync(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_groupId 'Guilded.NET.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.NET.Base.GId, Guilded.NET.Base.GId).groupId').
+
+
+
+This disallows member of [memberId](BaseGuildedClient_RemoveMembershipAsync(GId_GId)#Guilded_NET_Base_BaseGuildedClient_RemoveMembershipAsync(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_memberId 'Guilded.NET.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.NET.Base.GId, Guilded.NET.Base.GId).memberId') to interact or see the group [groupId](BaseGuildedClient_RemoveMembershipAsync(GId_GId)#Guilded_NET_Base_BaseGuildedClient_RemoveMembershipAsync(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_groupId 'Guilded.NET.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.NET.Base.GId, Guilded.NET.Base.GId).groupId')

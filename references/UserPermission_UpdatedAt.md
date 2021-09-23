@@ -1,14 +1,14 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams').[UserPermission](UserPermission 'Guilded.NET.Base.Teams.UserPermission')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[UserPermission](UserPermission 'Guilded.NET.Base.Permissions.UserPermission')
 ## UserPermission.UpdatedAt Property
-Date when this permission was last updated.  
+The date when this permission was updated.  
 ```csharp
 public System.Nullable<System.DateTime> UpdatedAt { get; set; }
 ```
 
 #### Property Value
 [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
-Nullable date
+Date
 
-Implements [UpdatedAt](IPermission_UpdatedAt 'Guilded.NET.Base.Teams.IPermission.UpdatedAt')  
+Implements [UpdatedAt](IPermission_UpdatedAt 'Guilded.NET.Base.Permissions.IPermission.UpdatedAt')  

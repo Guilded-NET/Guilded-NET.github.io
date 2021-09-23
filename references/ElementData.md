@@ -1,13 +1,13 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## ElementData Class
 An additional data of a [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement').  
 ```csharp
 public class ElementData : Guilded.NET.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; ElementData  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; ElementData  
 
 | Properties | |
 | :--- | :--- |
@@ -22,7 +22,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Mention](ElementData_Mention 'Guilded.NET.Base.Chat.ElementData.Mention') | The information about the mention that was used.<br/> |
 | [NewName](ElementData_NewName 'Guilded.NET.Base.Chat.ElementData.NewName') | The new name of the channel.<br/> |
 | [OldName](ElementData_OldName 'Guilded.NET.Base.Chat.ElementData.OldName') | The old name of the channel.<br/> |
-| [OriginatingContentType](ElementData_OriginatingContentType 'Guilded.NET.Base.Chat.ElementData.OriginatingContentType') | The type of the first ancestor channel of the thread.<br/> |
 | [OriginatingUrl](ElementData_OriginatingUrl 'Guilded.NET.Base.Chat.ElementData.OriginatingUrl') | The link of the message thread originates from.<br/> |
 | [OwnerId](ElementData_OwnerId 'Guilded.NET.Base.Chat.ElementData.OwnerId') | The owner of the action.<br/> |
 | [PostId](ElementData_PostId 'Guilded.NET.Base.Chat.ElementData.PostId') | The identifier of the post reply header is replying to.<br/> |

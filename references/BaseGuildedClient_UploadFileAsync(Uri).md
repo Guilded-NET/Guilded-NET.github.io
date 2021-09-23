@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.UploadFileAsync(Uri) Method
 Uploads a file to Guilded.  
 ```csharp
@@ -19,6 +19,9 @@ File URL
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
 ### Remarks
-Uploads a file from link [url](BaseGuildedClient_UploadFileAsync(Uri)#Guilded_NET_Base_BaseGuildedClient_UploadFileAsync(System_Uri)_url 'Guilded.NET.Base.BaseGuildedClient.UploadFileAsync(System.Uri).url') to Guilded.  
+Uploads an image from link [url](BaseGuildedClient_UploadFileAsync(Uri)#Guilded_NET_Base_BaseGuildedClient_UploadFileAsync(System_Uri)_url 'Guilded.NET.Base.BaseGuildedClient.UploadFileAsync(System.Uri).url') to Guilded.
+
+
+
+The new image uploaded to Guilded will be received as [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') return value.

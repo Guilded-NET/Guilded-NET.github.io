@@ -1,13 +1,13 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## PermissionList Class
 A list of role or user permissions.  
 ```csharp
 public class PermissionList : Guilded.NET.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; PermissionList  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; PermissionList  
 
 | Properties | |
 | :--- | :--- |
@@ -27,13 +27,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Streams](PermissionList_Streams 'Guilded.NET.Base.Permissions.PermissionList.Streams') | Permissions related to streaming channel.<br/> |
 | [Voice](PermissionList_Voice 'Guilded.NET.Base.Permissions.PermissionList.Voice') | Represents voice channel permissions.<br/> |
 | [Xp](PermissionList_Xp 'Guilded.NET.Base.Permissions.PermissionList.Xp') | Permissions related to member XP and levels.<br/> |
-
-| Methods | |
-| :--- | :--- |
-| [Concat(Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](PermissionList_Concat(Nullable_uint__Nullable_uint_) 'Guilded.NET.Base.Permissions.PermissionList.Concat(System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;)') | Used to concat and check 2 enum values.<br/> |
-| [Concat&lt;T&gt;(Nullable&lt;T&gt;, Nullable&lt;T&gt;)](PermissionList_Concat_T_(Nullable_T__Nullable_T_) 'Guilded.NET.Base.Permissions.PermissionList.Concat&lt;T&gt;(System.Nullable&lt;T&gt;, System.Nullable&lt;T&gt;)') | Used to concat and check 2 enum values.<br/> |
-| [Substract(Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](PermissionList_Substract(Nullable_uint__Nullable_uint_) 'Guilded.NET.Base.Permissions.PermissionList.Substract(System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;)') | Substracts second enum value from first.<br/> |
-| [Substract&lt;T&gt;(Nullable&lt;T&gt;, Nullable&lt;T&gt;)](PermissionList_Substract_T_(Nullable_T__Nullable_T_) 'Guilded.NET.Base.Permissions.PermissionList.Substract&lt;T&gt;(System.Nullable&lt;T&gt;, System.Nullable&lt;T&gt;)') | Substracts second enum value from first.<br/> |
 
 | Operators | |
 | :--- | :--- |

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## ReplyHeaderType Enum
 A type of the reply header.  
 ```csharp
@@ -19,5 +19,5 @@ A normal reply header.
   
 
 #### See Also
-- [MessageType](MessageType 'Guilded.NET.Base.Chat.MessageType')
+- [MessageType](MessageType 'Guilded.NET.Base.Content.MessageType')
 - [MentionType](MentionType 'Guilded.NET.Base.Chat.MentionType')

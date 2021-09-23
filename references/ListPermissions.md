@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## ListPermissions Enum
 List channel's permissions.  
 ```csharp
@@ -32,6 +32,10 @@ All of the manage permissions combined.
 <a name='Guilded_NET_Base_Permissions_ListPermissions_ManageListItems'></a>
 `ManageListItems` 4  
 Allows you to edit list item messages by others and move list items to other channels  
+  
+<a name='Guilded_NET_Base_Permissions_ListPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_ListPermissions_RemoveListItems'></a>
 `RemoveListItems` 8  

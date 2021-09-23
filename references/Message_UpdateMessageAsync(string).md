@@ -1,30 +1,31 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Message](Message 'Guilded.NET.Base.Chat.Message')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Content](Guilded_NET_Base#Guilded_NET_Base_Content 'Guilded.NET.Base.Content').[Message](Message 'Guilded.NET.Base.Content.Message')
 ## Message.UpdateMessageAsync(string) Method
 Updates the contents of the message.  
 ```csharp
-public System.Threading.Tasks.Task<Guilded.NET.Base.Chat.Message> UpdateMessageAsync(string content);
+public System.Threading.Tasks.Task<Guilded.NET.Base.Content.Message> UpdateMessageAsync(string content);
 ```
 
 #### Parameters
-<a name='Guilded_NET_Base_Chat_Message_UpdateMessageAsync(string)_content'></a>
+<a name='Guilded_NET_Base_Content_Message_UpdateMessageAsync(string)_content'></a>
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-The new content of the message in Markdown plain text
+The contents of the message in Markdown plain text
   
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.NET.Base.Chat.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.NET.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
 Message edited
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When the given content only consists of whitespace or is null
+When the [content](Message_UpdateMessageAsync(string)#Guilded_NET_Base_Content_Message_UpdateMessageAsync(string)_content 'Guilded.NET.Base.Content.Message.UpdateMessageAsync(string).content') only consists of whitespace or is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
 [System.ArgumentOutOfRangeException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentOutOfRangeException 'System.ArgumentOutOfRangeException')  
-When the contents of the message are above the message limit of 4000 characters
-### Example
-```csharp
-await message.UpdateMessageAsync("Edited message");  
-```
+When the [content](Message_UpdateMessageAsync(string)#Guilded_NET_Base_Content_Message_UpdateMessageAsync(string)_content 'Guilded.NET.Base.Content.Message.UpdateMessageAsync(string).content') is above the message limit of 4000 characters
+### Remarks
+Edits the message if the specified message is from the client.  
+This does not work if the client is not the creator of the message.

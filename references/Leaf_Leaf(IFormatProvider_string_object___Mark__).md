@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf')
 ## Leaf.Leaf(IFormatProvider, string, object[], Mark[]) Constructor
 Creates a new [Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf') instance with content as formatted string with formatting [formatting](Leaf_Leaf(IFormatProvider_string_object___Mark__)#Guilded_NET_Base_Chat_Leaf_Leaf(System_IFormatProvider_string_object___Guilded_NET_Base_Chat_Mark__)_formatting 'Guilded.NET.Base.Chat.Leaf.Leaf(System.IFormatProvider, string, object[], Guilded.NET.Base.Chat.Mark[]).formatting').  
 ```csharp

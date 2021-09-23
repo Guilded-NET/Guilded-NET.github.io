@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
 ## IdConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
 Writes given object as JSON.  
 ```csharp

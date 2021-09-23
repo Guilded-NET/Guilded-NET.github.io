@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[GId](GId 'Guilded.NET.Base.GId')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[GId](GId 'Guilded.NET.Base.GId')
 ## GId.ToString() Method
-Returns string representation of [GId](GId 'Guilded.NET.Base.GId') instance.  
+Returns the string representation of this [GId](GId 'Guilded.NET.Base.GId') instance.  
 ```csharp
 public override string ToString();
 ```

@@ -1,8 +1,8 @@
 
-#### [Guilded.NET](index 'index')
-### [Guilded.NET.Converters](index#Guilded_NET_Converters 'Guilded.NET.Converters').[RichTextConverter](RichTextConverter 'Guilded.NET.Converters.RichTextConverter')
+#### [Guilded.NET](Guilded_NET 'Guilded_NET')
+### [Guilded.NET.Converters](Guilded_NET#Guilded_NET_Converters 'Guilded.NET.Converters').[RichTextConverter](RichTextConverter 'Guilded.NET.Converters.RichTextConverter')
 ## RichTextConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
-Reads the given JSON object as [Guilded.NET.Base.Chat.ChatElement](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.Chat.ChatElement 'Guilded.NET.Base.Chat.ChatElement').  
+Reads the given JSON object as [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement').  
 ```csharp
 public override object ReadJson(JsonReader reader, System.Type objectType, object existingValue, JsonSerializer serializer);
 ```
@@ -27,4 +27,4 @@ The serializer that is deserializing the object
 
 #### Returns
 [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
-[Guilded.NET.Base.Chat.ChatElement](https://docs.microsoft.com/en-us/dotnet/api/Guilded.NET.Base.Chat.ChatElement 'Guilded.NET.Base.Chat.ChatElement')
+[ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement')

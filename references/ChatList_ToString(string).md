@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatList](ChatList 'Guilded.NET.Base.Chat.ChatList')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatList](ChatList 'Guilded.NET.Base.Chat.ChatList')
 ## ChatList.ToString(string) Method
 Converts [ChatList](ChatList 'Guilded.NET.Base.Chat.ChatList') to its Markdown equivalent.  
 ```csharp

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChannelMentionData](ChannelMentionData 'Guilded.NET.Base.Chat.ChannelMentionData')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChannelMentionData](ChannelMentionData 'Guilded.NET.Base.Chat.ChannelMentionData')
 ## ChannelMentionData.ChannelMentionData(string, Guid) Constructor
 Information about the channel mentioned.  
 ```csharp

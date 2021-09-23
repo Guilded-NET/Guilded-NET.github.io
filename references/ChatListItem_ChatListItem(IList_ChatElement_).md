@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatListItem](ChatListItem 'Guilded.NET.Base.Chat.ChatListItem')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatListItem](ChatListItem 'Guilded.NET.Base.Chat.ChatListItem')
 ## ChatListItem.ChatListItem(IList&lt;ChatElement&gt;) Constructor
 An item of an ordered or unordered list.  
 ```csharp

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## Leaf Class
 A piece of text with formatting in a paragraph or any other node.  
 ```csharp
@@ -8,7 +8,7 @@ public class Leaf : Guilded.NET.Base.Chat.ChatElement,
 System.ICloneable
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; Leaf  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; Leaf  
 
 Implements [System.ICloneable](https://docs.microsoft.com/en-us/dotnet/api/System.ICloneable 'System.ICloneable')  
 
@@ -43,6 +43,8 @@ Implements [System.ICloneable](https://docs.microsoft.com/en-us/dotnet/api/Syste
 
 | Methods | |
 | :--- | :--- |
+| [Add(Mark)](Leaf_Add(Mark) 'Guilded.NET.Base.Chat.Leaf.Add(Guilded.NET.Base.Chat.Mark)') | Adds a mark to the leaf.<br/> |
+| [Add(MarkType)](Leaf_Add(MarkType) 'Guilded.NET.Base.Chat.Leaf.Add(Guilded.NET.Base.Chat.MarkType)') | Adds a mark to the leaf.<br/> |
 | [Clone()](Leaf_Clone() 'Guilded.NET.Base.Chat.Leaf.Clone()') | Creates a new leaf with similar properties.<br/> |
 | [Clone(string)](Leaf_Clone(string) 'Guilded.NET.Base.Chat.Leaf.Clone(string)') | Creates a new leaf with similar properties.<br/> |
 | [Contains(char, StringComparison)](Leaf_Contains(char_StringComparison) 'Guilded.NET.Base.Chat.Leaf.Contains(char, System.StringComparison)') | Returns whether leaf's text has specificed character.<br/> |
@@ -54,8 +56,8 @@ Implements [System.ICloneable](https://docs.microsoft.com/en-us/dotnet/api/Syste
 | [EndsWith(string, bool, CultureInfo)](Leaf_EndsWith(string_bool_CultureInfo) 'Guilded.NET.Base.Chat.Leaf.EndsWith(string, bool, System.Globalization.CultureInfo)') | Returns whether the leaf's text ends with given string.<br/> |
 | [EndsWith(string, StringComparison)](Leaf_EndsWith(string_StringComparison) 'Guilded.NET.Base.Chat.Leaf.EndsWith(string, System.StringComparison)') | Returns whether the leaf's text ends with given string.<br/> |
 | [EndsWith(string)](Leaf_EndsWith(string) 'Guilded.NET.Base.Chat.Leaf.EndsWith(string)') | Returns whether the leaf's text ends with given string.<br/> |
-| [IsNullOrEmpty(Leaf)](Leaf_IsNullOrEmpty(Leaf) 'Guilded.NET.Base.Chat.Leaf.IsNullOrEmpty(Guilded.NET.Base.Chat.Leaf)') | Gets whether the leaf itself, the text is null or is empty.<br/> |
-| [IsNullOrWhiteSpace(Leaf)](Leaf_IsNullOrWhiteSpace(Leaf) 'Guilded.NET.Base.Chat.Leaf.IsNullOrWhiteSpace(Guilded.NET.Base.Chat.Leaf)') | Gets whether the leaf itself, the text is null, is empty or only has whitespace characters.<br/> |
+| [IsNullOrEmpty(Leaf)](Leaf_IsNullOrEmpty(Leaf) 'Guilded.NET.Base.Chat.Leaf.IsNullOrEmpty(Guilded.NET.Base.Chat.Leaf)') | Gets whether the leaf itself, the text is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null') or is empty.<br/> |
+| [IsNullOrWhiteSpace(Leaf)](Leaf_IsNullOrWhiteSpace(Leaf) 'Guilded.NET.Base.Chat.Leaf.IsNullOrWhiteSpace(Guilded.NET.Base.Chat.Leaf)') | Gets whether the leaf itself, the text is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), is empty or only has whitespace characters.<br/> |
 | [Split(char, int, StringSplitOptions)](Leaf_Split(char_int_StringSplitOptions) 'Guilded.NET.Base.Chat.Leaf.Split(char, int, System.StringSplitOptions)') | Splits a leaf by separator and creates clone sub-leaves.<br/> |
 | [Split(char, StringSplitOptions)](Leaf_Split(char_StringSplitOptions) 'Guilded.NET.Base.Chat.Leaf.Split(char, System.StringSplitOptions)') | Splits a leaf by separator and creates clone sub-leaves.<br/> |
 | [Split(char[], int, StringSplitOptions)](Leaf_Split(char___int_StringSplitOptions) 'Guilded.NET.Base.Chat.Leaf.Split(char[], int, System.StringSplitOptions)') | Splits a leaf by separator and creates clone sub-leaves.<br/> |
@@ -69,10 +71,12 @@ Implements [System.ICloneable](https://docs.microsoft.com/en-us/dotnet/api/Syste
 | [StartsWith(string, StringComparison)](Leaf_StartsWith(string_StringComparison) 'Guilded.NET.Base.Chat.Leaf.StartsWith(string, System.StringComparison)') | Returns whether the leaf's text starts with given string.<br/> |
 | [StartsWith(string)](Leaf_StartsWith(string) 'Guilded.NET.Base.Chat.Leaf.StartsWith(string)') | Returns whether the leaf's text starts with given string.<br/> |
 | [ToString()](Leaf_ToString() 'Guilded.NET.Base.Chat.Leaf.ToString()') | Returns the text of the leaf with the string equivalent to leaf's formatting.<br/> |
-| [With(Mark)](Leaf_With(Mark) 'Guilded.NET.Base.Chat.Leaf.With(Guilded.NET.Base.Chat.Mark)') | Adds a mark to the leaf.<br/> |
-| [With(MarkType)](Leaf_With(MarkType) 'Guilded.NET.Base.Chat.Leaf.With(Guilded.NET.Base.Chat.MarkType)') | Adds a mark to the leaf.<br/> |
 
 #### See Also
+- [MarkType](MarkType 'Guilded.NET.Base.Chat.MarkType')
+- [Mark](Mark 'Guilded.NET.Base.Chat.Mark')
+- [Node](Node 'Guilded.NET.Base.Chat.Node')
+- [ContainerNode&lt;T&gt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;')
 - [MarkType](MarkType 'Guilded.NET.Base.Chat.MarkType')
 - [Mark](Mark 'Guilded.NET.Base.Chat.Mark')
 - [Node](Node 'Guilded.NET.Base.Chat.Node')

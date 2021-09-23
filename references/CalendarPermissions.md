@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## CalendarPermissions Enum
 Event/calendar channel permissions.  
 ```csharp
@@ -32,6 +32,10 @@ All of the manage permissions combined.
 <a name='Guilded_NET_Base_Permissions_CalendarPermissions_ManageEvents'></a>
 `ManageEvents` 4  
 Allows you to update events created by others and move them to other channel  
+  
+<a name='Guilded_NET_Base_Permissions_CalendarPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_CalendarPermissions_RemoveEvents'></a>
 `RemoveEvents` 8  

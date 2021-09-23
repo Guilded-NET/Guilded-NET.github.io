@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.InitWebsocket(GuildedEvent) Method
 Initializes a new WebSocket client.  
 ```csharp
@@ -26,3 +26,7 @@ Creates a new WebSocket client and adds it to [Websockets](BaseGuildedClient_Web
 
 
 If [event](BaseGuildedClient_InitWebsocket(GuildedEvent)#Guilded_NET_Base_BaseGuildedClient_InitWebsocket(Guilded_NET_Base_Events_GuildedEvent)_event 'Guilded.NET.Base.BaseGuildedClient.InitWebsocket(Guilded.NET.Base.Events.GuildedEvent).event') is passed, it gets all of the events that occurred after that message.
+
+#### See Also
+- [ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent')
+- [InitWebsocket(string, Uri)](BaseGuildedClient_InitWebsocket(string_Uri) 'Guilded.NET.Base.BaseGuildedClient.InitWebsocket(string, System.Uri)')

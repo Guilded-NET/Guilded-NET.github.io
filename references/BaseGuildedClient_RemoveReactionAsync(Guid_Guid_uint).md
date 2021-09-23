@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.RemoveReactionAsync(Guid, Guid, uint) Method
 Removes a reaction from a message.  
 ```csharp
@@ -26,8 +26,8 @@ The identifier of the emote to remove
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
-### Example
-```csharp
-await client.RemoveReactionAsync(channelId, messageId, 90002569);  
-```
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
+### Remarks
+Remove a reaction of identifier [emoteId](BaseGuildedClient_RemoveReactionAsync(Guid_Guid_uint)#Guilded_NET_Base_BaseGuildedClient_RemoveReactionAsync(System_Guid_System_Guid_uint)_emoteId 'Guilded.NET.Base.BaseGuildedClient.RemoveReactionAsync(System.Guid, System.Guid, uint).emoteId') from [messageId](BaseGuildedClient_RemoveReactionAsync(Guid_Guid_uint)#Guilded_NET_Base_BaseGuildedClient_RemoveReactionAsync(System_Guid_System_Guid_uint)_messageId 'Guilded.NET.Base.BaseGuildedClient.RemoveReactionAsync(System.Guid, System.Guid, uint).messageId').

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## FormPermissions Enum
 Form and poll permissions.  
 ```csharp
@@ -20,6 +20,10 @@ A simple permission combination allowing writing permissions and reading permiss
 <a name='Guilded_NET_Base_Permissions_FormPermissions_FormResponses'></a>
 `FormResponses` 2  
 Allows you to view all form responses  
+  
+<a name='Guilded_NET_Base_Permissions_FormPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_FormPermissions_PollResults'></a>
 `PollResults` 16  

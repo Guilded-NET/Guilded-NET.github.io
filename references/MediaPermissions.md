@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## MediaPermissions Enum
 Permissions related to media channel.  
 ```csharp
@@ -28,6 +28,10 @@ All of the manage permissions combined.
 <a name='Guilded_NET_Base_Permissions_MediaPermissions_ManageMedia'></a>
 `ManageMedia` 4  
 Allows you to edit media created by others and move media items to other channels  
+  
+<a name='Guilded_NET_Base_Permissions_MediaPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_MediaPermissions_RemoveMedia'></a>
 `RemoveMedia` 8  

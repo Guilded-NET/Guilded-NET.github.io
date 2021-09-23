@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseEmote](BaseEmote 'Guilded.NET.Base.BaseEmote')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseEmote](BaseEmote 'Guilded.NET.Base.BaseEmote')
 ## BaseEmote.Apng Property
-URL to emote's APNG(Animated PNG) file.  
+The source URL to emote's APNG(Animated PNG) file.  
 ```csharp
 public System.Uri Apng { get; set; }
 ```

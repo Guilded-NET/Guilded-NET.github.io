@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## DocPermissions Enum
 Permissions of document/doc channel.  
 ```csharp
@@ -28,6 +28,10 @@ All of the manage permissions combined.
 <a name='Guilded_NET_Base_Permissions_DocPermissions_ManageDocs'></a>
 `ManageDocs` 4  
 Allows you to update docs created by others and move them to other channels  
+  
+<a name='Guilded_NET_Base_Permissions_DocPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_DocPermissions_RemoveDocs'></a>
 `RemoveDocs` 8  

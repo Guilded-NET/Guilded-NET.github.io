@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatListItem](ChatListItem 'Guilded.NET.Base.Chat.ChatListItem')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatListItem](ChatListItem 'Guilded.NET.Base.Chat.ChatListItem')
 ## ChatListItem.ToString(bool, string, int) Method
 Converts [ChatListItem](ChatListItem 'Guilded.NET.Base.Chat.ChatListItem') to its string equivalent with bullet prefix.  
 ```csharp

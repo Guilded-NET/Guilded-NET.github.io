@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[MemberMention](MemberMention 'Guilded.NET.Base.Chat.MemberMention')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[MemberMention](MemberMention 'Guilded.NET.Base.Chat.MemberMention')
 ## MemberMention.MemberMention(MemberMentionData) Constructor
 A mention of a member/the members.  
 ```csharp

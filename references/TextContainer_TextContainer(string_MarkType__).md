@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
 ## TextContainer.TextContainer(string, MarkType[]) Constructor
 Creates a new [TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer') based on [content](TextContainer_TextContainer(string_MarkType__)#Guilded_NET_Base_Chat_TextContainer_TextContainer(string_Guilded_NET_Base_Chat_MarkType__)_content 'Guilded.NET.Base.Chat.TextContainer.TextContainer(string, Guilded.NET.Base.Chat.MarkType[]).content') and formatting [formatting](TextContainer_TextContainer(string_MarkType__)#Guilded_NET_Base_Chat_TextContainer_TextContainer(string_Guilded_NET_Base_Chat_MarkType__)_formatting 'Guilded.NET.Base.Chat.TextContainer.TextContainer(string, Guilded.NET.Base.Chat.MarkType[]).formatting') that will be converted to a singular leaf.  
 ```csharp

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams').[UserPermission](UserPermission 'Guilded.NET.Base.Teams.UserPermission')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[UserPermission](UserPermission 'Guilded.NET.Base.Permissions.UserPermission')
 ## UserPermission.UserId Property
 ID of the user.  
 ```csharp

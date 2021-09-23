@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.AddRoleAsync(GId, uint) Method
 Adds a role to the given user.  
 ```csharp
@@ -22,8 +22,12 @@ The identifier of the role to add
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
-### Example
-```csharp
-await client.AddRoleAsync(message.CreatedBy, 100000000);  
-```
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
+### Remarks
+Gives a member of [memberId](BaseGuildedClient_AddRoleAsync(GId_uint)#Guilded_NET_Base_BaseGuildedClient_AddRoleAsync(Guilded_NET_Base_GId_uint)_memberId 'Guilded.NET.Base.BaseGuildedClient.AddRoleAsync(Guilded.NET.Base.GId, uint).memberId') the role of [roleId](BaseGuildedClient_AddRoleAsync(GId_uint)#Guilded_NET_Base_BaseGuildedClient_AddRoleAsync(Guilded_NET_Base_GId_uint)_roleId 'Guilded.NET.Base.BaseGuildedClient.AddRoleAsync(Guilded.NET.Base.GId, uint).roleId') if permissions are met.
+
+
+
+If they hold the role of [roleId](BaseGuildedClient_AddRoleAsync(GId_uint)#Guilded_NET_Base_BaseGuildedClient_AddRoleAsync(Guilded_NET_Base_GId_uint)_roleId 'Guilded.NET.Base.BaseGuildedClient.AddRoleAsync(Guilded.NET.Base.GId, uint).roleId'), then nothing happens.

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## GeneralPermissions Enum
 General server/team management permissions.  
 ```csharp
@@ -44,6 +44,10 @@ Allows you to create new webhooks and edit or delete existing ones
 <a name='Guilded_NET_Base_Permissions_GeneralPermissions_MentionEveryoneHere'></a>
 `MentionEveryoneHere` 8192  
 Allows you to use @everyone and @here mentions  
+  
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_GeneralPermissions_UpdateServer'></a>
 `UpdateServer` 4  

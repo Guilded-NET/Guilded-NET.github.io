@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[FormId](FormId 'Guilded.NET.Base.FormId')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[FormId](FormId 'Guilded.NET.Base.FormId')
 ## FormId.ToString() Method
-Returns string representation of [FormId](FormId 'Guilded.NET.Base.FormId') instance.  
+Returns the string representation of this [FormId](FormId 'Guilded.NET.Base.FormId') instance.  
 ```csharp
 public override string ToString();
 ```

@@ -1,22 +1,21 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds')
 ## Embed Class
-The data of the message embed.  
+A custom content embed that represents any kind of information.  
 ```csharp
 public class Embed : Guilded.NET.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; Embed  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; Embed  
 ### Example
-```csharp
-Embed embed = new Embed  
-{  
-    Title = "Title here",  
-    Description = "Description here",  
-    Footer = new EmbedFooter("Footer text")  
-};  
-```
+Embeds can be created using constructors, object initializers and fluent interface methods.
+
+s  
+
+
+This example showcases mixing object initializer along with constructor parameters:
+
 ```csharp
   
 Embed embed = new Embed(thumbnail: imageUrl)  
@@ -25,45 +24,68 @@ Embed embed = new Embed(thumbnail: imageUrl)
     Description = "Description here"  
 };  
 ```
-```csharp
-  
-Embed embed = new Embed("Title here", "Description here", "Footer text here");  
-```
+
+
+The example below showcases using fluent interface methods:
+
 ```csharp
   
 Embed embed = new Embed()  
-    .WithTitle("Title here")  
-    .WithDescription("Description here")  
-    .WithFooter("Footer text here");  
+    .SetTitle("Title here")  
+    .SetDescription("Description here")  
+    .SetFooter("Footer text here");  
 ```
 ### Remarks
-One of the embeds for [ChatEmbed](ChatEmbed 'Guilded.NET.Base.Chat.ChatEmbed').  
+Represents a custom/rich embed that represents some kind of information.
+
+
+
+[Message](Message 'Guilded.NET.Base.Content.Message') instance can hold more than 1 embed.
+
+
+
+This is usually used in Webhooks to provide an information about  
+a new post or any event that occurred. It can also be used for displaying  
+results from a bot or used as a content instead of plain Markdown.
+
+
+
+All properties can be set in custom embed apart from [Provider](Embed_Provider 'Guilded.NET.Base.Embeds.Embed.Provider'),  
+which can only be received when fetching information about a link.
+
+
+
+Embeds may look something like quote blocks, but more customizable with fields, footers, etc.
 
 | Constructors | |
 | :--- | :--- |
-| [Embed()](Embed_Embed() 'Guilded.NET.Base.Embeds.Embed.Embed()') | The data of the message embed.<br/> |
-| [Embed(EmbedField[])](Embed_Embed(EmbedField__) 'Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[])') | The data of the message embed.<br/> |
-| [Embed(string, EmbedField[])](Embed_Embed(string_EmbedField__) 'Guilded.NET.Base.Embeds.Embed.Embed(string, Guilded.NET.Base.Embeds.EmbedField[])') | The data of the message embed.<br/> |
-| [Embed(string, EmbedMedia)](Embed_Embed(string_EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.Embed(string, Guilded.NET.Base.Embeds.EmbedMedia)') | The data of the message embed.<br/> |
-| [Embed(string, string, EmbedField[])](Embed_Embed(string_string_EmbedField__) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedField[])') | The data of the message embed.<br/> |
-| [Embed(string, string, EmbedFooter, DateTime)](Embed_Embed(string_string_EmbedFooter_DateTime) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime)') | The data of the message embed.<br/> |
-| [Embed(string, string, EmbedFooter)](Embed_Embed(string_string_EmbedFooter) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter)') | The data of the message embed.<br/> |
-| [Embed(string, string, EmbedMedia)](Embed_Embed(string_string_EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedMedia)') | The data of the message embed.<br/> |
-| [Embed(string, string, string)](Embed_Embed(string_string_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, string)') | The data of the message embed.<br/> |
-| [Embed(string, string, IList&lt;EmbedField&gt;)](Embed_Embed(string_string_IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | The data of the message embed.<br/> |
-| [Embed(string, string, Uri)](Embed_Embed(string_string_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, System.Uri)') | The data of the message embed.<br/> |
-| [Embed(string, string)](Embed_Embed(string_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string)') | The data of the message embed.<br/> |
-| [Embed(string, IList&lt;EmbedField&gt;)](Embed_Embed(string_IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | The data of the message embed.<br/> |
-| [Embed(string, Uri, string, EmbedFooter, DateTime)](Embed_Embed(string_Uri_string_EmbedFooter_DateTime) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime)') | The data of the message embed.<br/> |
-| [Embed(string, Uri, string, EmbedFooter)](Embed_Embed(string_Uri_string_EmbedFooter) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter)') | The data of the message embed.<br/> |
-| [Embed(string, Uri, string, EmbedMedia)](Embed_Embed(string_Uri_string_EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia)') | The data of the message embed.<br/> |
-| [Embed(string, Uri, string, string)](Embed_Embed(string_Uri_string_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string)') | The data of the message embed.<br/> |
-| [Embed(string, Uri, string, Uri)](Embed_Embed(string_Uri_string_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, System.Uri)') | The data of the message embed.<br/> |
-| [Embed(string, Uri, string)](Embed_Embed(string_Uri_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string)') | The data of the message embed.<br/> |
-| [Embed(string, Uri)](Embed_Embed(string_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri)') | The data of the message embed.<br/> |
-| [Embed(string)](Embed_Embed(string) 'Guilded.NET.Base.Embeds.Embed.Embed(string)') | The data of the message embed.<br/> |
-| [Embed(IList&lt;EmbedField&gt;)](Embed_Embed(IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.Embed(System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | The data of the message embed.<br/> |
-| [Embed(Uri, Uri, Uri)](Embed_Embed(Uri_Uri_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(System.Uri, System.Uri, System.Uri)') | The data of the message embed.<br/> |
+| [Embed()](Embed_Embed() 'Guilded.NET.Base.Embeds.Embed.Embed()') | Creates a new empty instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed').<br/> |
+| [Embed(EmbedField[])](Embed_Embed(EmbedField__) 'Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[])') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with array of fields [fields](Embed_Embed(EmbedField__)#Guilded_NET_Base_Embeds_Embed_Embed(Guilded_NET_Base_Embeds_EmbedField__)_fields 'Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[]).fields').<br/> |
+| [Embed(int, int, int)](Embed_Embed(int_int_int) 'Guilded.NET.Base.Embeds.Embed.Embed(int, int, int)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with channels<br/>[red](Embed_Embed(int_int_int)#Guilded_NET_Base_Embeds_Embed_Embed(int_int_int)_red 'Guilded.NET.Base.Embeds.Embed.Embed(int, int, int).red'), [green](Embed_Embed(int_int_int)#Guilded_NET_Base_Embeds_Embed_Embed(int_int_int)_green 'Guilded.NET.Base.Embeds.Embed.Embed(int, int, int).green') and [blue](Embed_Embed(int_int_int)#Guilded_NET_Base_Embeds_Embed_Embed(int_int_int)_blue 'Guilded.NET.Base.Embeds.Embed.Embed(int, int, int).blue') of [Color](Embed_Color 'Guilded.NET.Base.Embeds.Embed.Color') property.<br/> |
+| [Embed(int)](Embed_Embed(int) 'Guilded.NET.Base.Embeds.Embed.Embed(int)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with colour [argb](Embed_Embed(int)#Guilded_NET_Base_Embeds_Embed_Embed(int)_argb 'Guilded.NET.Base.Embeds.Embed.Embed(int).argb').<br/> |
+| [Embed(string, EmbedField[])](Embed_Embed(string_EmbedField__) 'Guilded.NET.Base.Embeds.Embed.Embed(string, Guilded.NET.Base.Embeds.EmbedField[])') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with array of fields [fields](Embed_Embed(string_EmbedField__)#Guilded_NET_Base_Embeds_Embed_Embed(string_Guilded_NET_Base_Embeds_EmbedField__)_fields 'Guilded.NET.Base.Embeds.Embed.Embed(string, Guilded.NET.Base.Embeds.EmbedField[]).fields').<br/> |
+| [Embed(string, EmbedMedia)](Embed_Embed(string_EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.Embed(string, Guilded.NET.Base.Embeds.EmbedMedia)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_Guilded_NET_Base_Embeds_EmbedMedia)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, Guilded.NET.Base.Embeds.EmbedMedia).image').<br/> |
+| [Embed(string, string, EmbedField[])](Embed_Embed(string_string_EmbedField__) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedField[])') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with array of fields [fields](Embed_Embed(string_string_EmbedField__)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedField__)_fields 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedField[]).fields').<br/> |
+| [Embed(string, string, EmbedFooter, DateTime)](Embed_Embed(string_string_EmbedFooter_DateTime) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed_Embed(string_string_EmbedFooter_DateTime)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedFooter_System_DateTime)_footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime).footer') and title [title](Embed_Embed(string_string_EmbedFooter_DateTime)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedFooter_System_DateTime)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime).title').<br/> |
+| [Embed(string, string, EmbedFooter)](Embed_Embed(string_string_EmbedFooter) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed_Embed(string_string_EmbedFooter)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedFooter)_footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter).footer') and title [title](Embed_Embed(string_string_EmbedFooter)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedFooter)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter).title').<br/> |
+| [Embed(string, string, EmbedMedia)](Embed_Embed(string_string_EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedMedia)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedMedia)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedMedia).image') and title [title](Embed_Embed(string_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedMedia)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedMedia).title').<br/> |
+| [Embed(string, string, string)](Embed_Embed(string_string_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, string)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed_Embed(string_string_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_string)_footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, string).footer') and title [title](Embed_Embed(string_string_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_string)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, string).title').<br/> |
+| [Embed(string, string, IList&lt;EmbedField&gt;)](Embed_Embed(string_string_IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with list of fields [fields](Embed_Embed(string_string_IList_EmbedField_)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_System_Collections_Generic_IList_Guilded_NET_Base_Embeds_EmbedField_)_fields 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;).fields').<br/> |
+| [Embed(string, string, Uri)](Embed_Embed(string_string_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, System.Uri)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_string_Uri)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_System_Uri)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, System.Uri).image') and title [title](Embed_Embed(string_string_Uri)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_System_Uri)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, System.Uri).title').<br/> |
+| [Embed(string, string)](Embed_Embed(string_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, string)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with title [title](Embed_Embed(string_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_string)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string).title').<br/> |
+| [Embed(string, IList&lt;EmbedField&gt;)](Embed_Embed(string_IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with list of fields [fields](Embed_Embed(string_IList_EmbedField_)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Collections_Generic_IList_Guilded_NET_Base_Embeds_EmbedField_)_fields 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;).fields').<br/> |
+| [Embed(string, Uri, string, EmbedFooter, DateTime)](Embed_Embed(string_Uri_string_EmbedFooter_DateTime) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed_Embed(string_Uri_string_EmbedFooter_DateTime)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedFooter_System_DateTime)_footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime).footer') and title [title](Embed_Embed(string_Uri_string_EmbedFooter_DateTime)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedFooter_System_DateTime)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime).title').<br/> |
+| [Embed(string, Uri, string, EmbedFooter)](Embed_Embed(string_Uri_string_EmbedFooter) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed_Embed(string_Uri_string_EmbedFooter)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedFooter)_footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter).footer') and title [title](Embed_Embed(string_Uri_string_EmbedFooter)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedFooter)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedFooter).title').<br/> |
+| [Embed(string, Uri, string, EmbedMedia)](Embed_Embed(string_Uri_string_EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_Uri_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia).image') and title [title](Embed_Embed(string_Uri_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia).title').<br/> |
+| [Embed(string, Uri, string, string)](Embed_Embed(string_Uri_string_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed_Embed(string_Uri_string_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_string)_footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string).footer') and title [title](Embed_Embed(string_Uri_string_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_string)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string).title').<br/> |
+| [Embed(string, Uri, string, Uri)](Embed_Embed(string_Uri_string_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, System.Uri)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_Uri_string_Uri)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_System_Uri)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, System.Uri).image') and title [title](Embed_Embed(string_Uri_string_Uri)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_System_Uri)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, System.Uri).title').<br/> |
+| [Embed(string, Uri, string)](Embed_Embed(string_Uri_string) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with title [title](Embed_Embed(string_Uri_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string).title') and URL [url](Embed_Embed(string_Uri_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string)_url 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string).url').<br/> |
+| [Embed(string, Uri)](Embed_Embed(string_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_Uri)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri).image').<br/> |
+| [Embed(string)](Embed_Embed(string) 'Guilded.NET.Base.Embeds.Embed.Embed(string)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with description [description](Embed_Embed(string)#Guilded_NET_Base_Embeds_Embed_Embed(string)_description 'Guilded.NET.Base.Embeds.Embed.Embed(string).description').<br/> |
+| [Embed(IList&lt;EmbedField&gt;)](Embed_Embed(IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.Embed(System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with list of fields [fields](Embed_Embed(IList_EmbedField_)#Guilded_NET_Base_Embeds_Embed_Embed(System_Collections_Generic_IList_Guilded_NET_Base_Embeds_EmbedField_)_fields 'Guilded.NET.Base.Embeds.Embed.Embed(System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;).fields').<br/> |
+| [Embed(Color)](Embed_Embed(Color) 'Guilded.NET.Base.Embeds.Embed.Embed(System.Drawing.Color)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with colour [color](Embed_Embed(Color)#Guilded_NET_Base_Embeds_Embed_Embed(System_Drawing_Color)_color 'Guilded.NET.Base.Embeds.Embed.Embed(System.Drawing.Color).color').<br/> |
+| [Embed(Uri, Uri, Uri)](Embed_Embed(Uri_Uri_Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(System.Uri, System.Uri, System.Uri)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with given parameters converted to [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia').<br/> |
+| [Embed(Uri)](Embed_Embed(Uri) 'Guilded.NET.Base.Embeds.Embed.Embed(System.Uri)') | Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with URL [url](Embed_Embed(Uri)#Guilded_NET_Base_Embeds_Embed_Embed(System_Uri)_url 'Guilded.NET.Base.Embeds.Embed.Embed(System.Uri).url').<br/> |
 
 | Properties | |
 | :--- | :--- |
@@ -75,38 +97,38 @@ One of the embeds for [ChatEmbed](ChatEmbed 'Guilded.NET.Base.Chat.ChatEmbed').
 | [Image](Embed_Image 'Guilded.NET.Base.Embeds.Embed.Image') | The image of the embed.<br/> |
 | [Provider](Embed_Provider 'Guilded.NET.Base.Embeds.Embed.Provider') | The provider of the embed.<br/> |
 | [Thumbnail](Embed_Thumbnail 'Guilded.NET.Base.Embeds.Embed.Thumbnail') | The thumbnail image of the embed.<br/> |
-| [Timestamp](Embed_Timestamp 'Guilded.NET.Base.Embeds.Embed.Timestamp') | The timestamp of the embed footer.<br/> |
+| [Timestamp](Embed_Timestamp 'Guilded.NET.Base.Embeds.Embed.Timestamp') | The timestamp of the embed.<br/> |
 | [Title](Embed_Title 'Guilded.NET.Base.Embeds.Embed.Title') | The title of the embed.<br/> |
 | [Url](Embed_Url 'Guilded.NET.Base.Embeds.Embed.Url') | The URL of the embed.<br/> |
 | [Video](Embed_Video 'Guilded.NET.Base.Embeds.Embed.Video') | The video of the embed.<br/> |
 
 | Methods | |
 | :--- | :--- |
-| [WithAuthor(EmbedAuthor)](Embed_WithAuthor(EmbedAuthor) 'Guilded.NET.Base.Embeds.Embed.WithAuthor(Guilded.NET.Base.Embeds.EmbedAuthor)') | Sets author to this embed.<br/> |
-| [WithAuthor(string, Uri, Uri)](Embed_WithAuthor(string_Uri_Uri) 'Guilded.NET.Base.Embeds.Embed.WithAuthor(string, System.Uri, System.Uri)') | Sets author to this embed.<br/> |
-| [WithColor(int, int, int)](Embed_WithColor(int_int_int) 'Guilded.NET.Base.Embeds.Embed.WithColor(int, int, int)') | Sets the colour of the embed.<br/> |
-| [WithColor(int)](Embed_WithColor(int) 'Guilded.NET.Base.Embeds.Embed.WithColor(int)') | Sets the colour of the embed.<br/> |
-| [WithColor(Color)](Embed_WithColor(Color) 'Guilded.NET.Base.Embeds.Embed.WithColor(System.Drawing.Color)') | Sets the colour of the embed.<br/> |
-| [WithDescription(object)](Embed_WithDescription(object) 'Guilded.NET.Base.Embeds.Embed.WithDescription(object)') | Sets the description of the embed.<br/> |
-| [WithDescription(string, object[])](Embed_WithDescription(string_object__) 'Guilded.NET.Base.Embeds.Embed.WithDescription(string, object[])') | Sets the description of the embed.<br/> |
-| [WithDescription(string)](Embed_WithDescription(string) 'Guilded.NET.Base.Embeds.Embed.WithDescription(string)') | Sets the description of the embed.<br/> |
-| [WithDescription(IFormatProvider, string, object[])](Embed_WithDescription(IFormatProvider_string_object__) 'Guilded.NET.Base.Embeds.Embed.WithDescription(System.IFormatProvider, string, object[])') | Sets the description of the embed.<br/> |
-| [WithField(EmbedField)](Embed_WithField(EmbedField) 'Guilded.NET.Base.Embeds.Embed.WithField(Guilded.NET.Base.Embeds.EmbedField)') | Adds a field to this embed.<br/> |
-| [WithField(string, object, bool)](Embed_WithField(string_object_bool) 'Guilded.NET.Base.Embeds.Embed.WithField(string, object, bool)') | Adds a field to this embed.<br/> |
-| [WithField(string, string, bool)](Embed_WithField(string_string_bool) 'Guilded.NET.Base.Embeds.Embed.WithField(string, string, bool)') | Adds a field to this embed.<br/> |
-| [WithFields(EmbedField[])](Embed_WithFields(EmbedField__) 'Guilded.NET.Base.Embeds.Embed.WithFields(Guilded.NET.Base.Embeds.EmbedField[])') | Adds fields to this embed.<br/> |
-| [WithFields(IList&lt;EmbedField&gt;)](Embed_WithFields(IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.WithFields(System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | Adds fields to this embed.<br/> |
-| [WithFooter(EmbedFooter)](Embed_WithFooter(EmbedFooter) 'Guilded.NET.Base.Embeds.Embed.WithFooter(Guilded.NET.Base.Embeds.EmbedFooter)') | Adds the footer to this embed.<br/> |
-| [WithFooter(object, Uri)](Embed_WithFooter(object_Uri) 'Guilded.NET.Base.Embeds.Embed.WithFooter(object, System.Uri)') | Adds the footer to this embed.<br/> |
-| [WithFooter(string, Uri)](Embed_WithFooter(string_Uri) 'Guilded.NET.Base.Embeds.Embed.WithFooter(string, System.Uri)') | Adds the footer to this embed.<br/> |
-| [WithImage(EmbedMedia)](Embed_WithImage(EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.WithImage(Guilded.NET.Base.Embeds.EmbedMedia)') | Sets the image of the embed.<br/> |
-| [WithImage(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed_WithImage(Uri_Nullable_uint__Nullable_uint_) 'Guilded.NET.Base.Embeds.Embed.WithImage(System.Uri, System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;)') | Sets the image of the embed.<br/> |
-| [WithThumbnail(EmbedMedia)](Embed_WithThumbnail(EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.WithThumbnail(Guilded.NET.Base.Embeds.EmbedMedia)') | Sets the thumbnail of the embed.<br/> |
-| [WithThumbnail(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed_WithThumbnail(Uri_Nullable_uint__Nullable_uint_) 'Guilded.NET.Base.Embeds.Embed.WithThumbnail(System.Uri, System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;)') | Sets the thumbnail of the embed.<br/> |
-| [WithTimestamp()](Embed_WithTimestamp() 'Guilded.NET.Base.Embeds.Embed.WithTimestamp()') | Sets the timestamp of the embed to current time.<br/> |
-| [WithTimestamp(DateTime)](Embed_WithTimestamp(DateTime) 'Guilded.NET.Base.Embeds.Embed.WithTimestamp(System.DateTime)') | Sets the timestamp of the embed.<br/> |
-| [WithTitle(string)](Embed_WithTitle(string) 'Guilded.NET.Base.Embeds.Embed.WithTitle(string)') | Sets embed's title name and URL.<br/> |
-| [WithUrl(Uri)](Embed_WithUrl(Uri) 'Guilded.NET.Base.Embeds.Embed.WithUrl(System.Uri)') | Sets the URL of the title in the embed.<br/> |
+| [AddField(EmbedField)](Embed_AddField(EmbedField) 'Guilded.NET.Base.Embeds.Embed.AddField(Guilded.NET.Base.Embeds.EmbedField)') | Adds one [field](Embed_AddField(EmbedField)#Guilded_NET_Base_Embeds_Embed_AddField(Guilded_NET_Base_Embeds_EmbedField)_field 'Guilded.NET.Base.Embeds.Embed.AddField(Guilded.NET.Base.Embeds.EmbedField).field') to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [AddField(string, object, bool)](Embed_AddField(string_object_bool) 'Guilded.NET.Base.Embeds.Embed.AddField(string, object, bool)') | Adds a new [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField') instance to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [AddField(string, string, bool)](Embed_AddField(string_string_bool) 'Guilded.NET.Base.Embeds.Embed.AddField(string, string, bool)') | Adds a new [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField') instance to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [AddFields(EmbedField[])](Embed_AddFields(EmbedField__) 'Guilded.NET.Base.Embeds.Embed.AddFields(Guilded.NET.Base.Embeds.EmbedField[])') | Adds [fields](Embed_AddFields(EmbedField__)#Guilded_NET_Base_Embeds_Embed_AddFields(Guilded_NET_Base_Embeds_EmbedField__)_fields 'Guilded.NET.Base.Embeds.Embed.AddFields(Guilded.NET.Base.Embeds.EmbedField[]).fields') to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [AddFields(IList&lt;EmbedField&gt;)](Embed_AddFields(IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.AddFields(System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | Adds [fields](Embed_AddFields(IList_EmbedField_)#Guilded_NET_Base_Embeds_Embed_AddFields(System_Collections_Generic_IList_Guilded_NET_Base_Embeds_EmbedField_)_fields 'Guilded.NET.Base.Embeds.Embed.AddFields(System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;).fields') to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetAuthor(EmbedAuthor)](Embed_SetAuthor(EmbedAuthor) 'Guilded.NET.Base.Embeds.Embed.SetAuthor(Guilded.NET.Base.Embeds.EmbedAuthor)') | Sets [Author](Embed_Author 'Guilded.NET.Base.Embeds.Embed.Author') as [author](Embed_SetAuthor(EmbedAuthor)#Guilded_NET_Base_Embeds_Embed_SetAuthor(Guilded_NET_Base_Embeds_EmbedAuthor)_author 'Guilded.NET.Base.Embeds.Embed.SetAuthor(Guilded.NET.Base.Embeds.EmbedAuthor).author') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetAuthor(string, Uri, Uri)](Embed_SetAuthor(string_Uri_Uri) 'Guilded.NET.Base.Embeds.Embed.SetAuthor(string, System.Uri, System.Uri)') | Sets [Author](Embed_Author 'Guilded.NET.Base.Embeds.Embed.Author') as given parameters of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetColor(int, int, int)](Embed_SetColor(int_int_int) 'Guilded.NET.Base.Embeds.Embed.SetColor(int, int, int)') | Sets [Color](Embed_Color 'Guilded.NET.Base.Embeds.Embed.Color') as a new [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetColor(int)](Embed_SetColor(int) 'Guilded.NET.Base.Embeds.Embed.SetColor(int)') | Sets [Color](Embed_Color 'Guilded.NET.Base.Embeds.Embed.Color') as a new [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetColor(Color)](Embed_SetColor(Color) 'Guilded.NET.Base.Embeds.Embed.SetColor(System.Drawing.Color)') | Sets [Color](Embed_Color 'Guilded.NET.Base.Embeds.Embed.Color') as [color](Embed_SetColor(Color)#Guilded_NET_Base_Embeds_Embed_SetColor(System_Drawing_Color)_color 'Guilded.NET.Base.Embeds.Embed.SetColor(System.Drawing.Color).color') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetDescription(object)](Embed_SetDescription(object) 'Guilded.NET.Base.Embeds.Embed.SetDescription(object)') | Sets [Description](Embed_Description 'Guilded.NET.Base.Embeds.Embed.Description') as [description](Embed_SetDescription(object)#Guilded_NET_Base_Embeds_Embed_SetDescription(object)_description 'Guilded.NET.Base.Embeds.Embed.SetDescription(object).description') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetDescription(string, object[])](Embed_SetDescription(string_object__) 'Guilded.NET.Base.Embeds.Embed.SetDescription(string, object[])') | Sets [Description](Embed_Description 'Guilded.NET.Base.Embeds.Embed.Description') as [format](Embed_SetDescription(string_object__)#Guilded_NET_Base_Embeds_Embed_SetDescription(string_object__)_format 'Guilded.NET.Base.Embeds.Embed.SetDescription(string, object[]).format') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetDescription(string)](Embed_SetDescription(string) 'Guilded.NET.Base.Embeds.Embed.SetDescription(string)') | Sets [Description](Embed_Description 'Guilded.NET.Base.Embeds.Embed.Description') as [description](Embed_SetDescription(string)#Guilded_NET_Base_Embeds_Embed_SetDescription(string)_description 'Guilded.NET.Base.Embeds.Embed.SetDescription(string).description') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetDescription(IFormatProvider, string, object[])](Embed_SetDescription(IFormatProvider_string_object__) 'Guilded.NET.Base.Embeds.Embed.SetDescription(System.IFormatProvider, string, object[])') | Sets [Description](Embed_Description 'Guilded.NET.Base.Embeds.Embed.Description') as [format](Embed_SetDescription(IFormatProvider_string_object__)#Guilded_NET_Base_Embeds_Embed_SetDescription(System_IFormatProvider_string_object__)_format 'Guilded.NET.Base.Embeds.Embed.SetDescription(System.IFormatProvider, string, object[]).format') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetFooter(EmbedFooter)](Embed_SetFooter(EmbedFooter) 'Guilded.NET.Base.Embeds.Embed.SetFooter(Guilded.NET.Base.Embeds.EmbedFooter)') | Sets [Footer](Embed_Footer 'Guilded.NET.Base.Embeds.Embed.Footer') as [footer](Embed_SetFooter(EmbedFooter)#Guilded_NET_Base_Embeds_Embed_SetFooter(Guilded_NET_Base_Embeds_EmbedFooter)_footer 'Guilded.NET.Base.Embeds.Embed.SetFooter(Guilded.NET.Base.Embeds.EmbedFooter).footer') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetFooter(object, Uri)](Embed_SetFooter(object_Uri) 'Guilded.NET.Base.Embeds.Embed.SetFooter(object, System.Uri)') | Sets [Footer](Embed_Footer 'Guilded.NET.Base.Embeds.Embed.Footer') as new [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetFooter(string, Uri)](Embed_SetFooter(string_Uri) 'Guilded.NET.Base.Embeds.Embed.SetFooter(string, System.Uri)') | Sets [Footer](Embed_Footer 'Guilded.NET.Base.Embeds.Embed.Footer') as new [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetImage(EmbedMedia)](Embed_SetImage(EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.SetImage(Guilded.NET.Base.Embeds.EmbedMedia)') | Sets [Image](Embed_Image 'Guilded.NET.Base.Embeds.Embed.Image') as [media](Embed_SetImage(EmbedMedia)#Guilded_NET_Base_Embeds_Embed_SetImage(Guilded_NET_Base_Embeds_EmbedMedia)_media 'Guilded.NET.Base.Embeds.Embed.SetImage(Guilded.NET.Base.Embeds.EmbedMedia).media') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetImage(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed_SetImage(Uri_Nullable_uint__Nullable_uint_) 'Guilded.NET.Base.Embeds.Embed.SetImage(System.Uri, System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;)') | Sets [Image](Embed_Image 'Guilded.NET.Base.Embeds.Embed.Image') as a new [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetThumbnail(EmbedMedia)](Embed_SetThumbnail(EmbedMedia) 'Guilded.NET.Base.Embeds.Embed.SetThumbnail(Guilded.NET.Base.Embeds.EmbedMedia)') | Sets [Thumbnail](Embed_Thumbnail 'Guilded.NET.Base.Embeds.Embed.Thumbnail') as [media](Embed_SetThumbnail(EmbedMedia)#Guilded_NET_Base_Embeds_Embed_SetThumbnail(Guilded_NET_Base_Embeds_EmbedMedia)_media 'Guilded.NET.Base.Embeds.Embed.SetThumbnail(Guilded.NET.Base.Embeds.EmbedMedia).media') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetThumbnail(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed_SetThumbnail(Uri_Nullable_uint__Nullable_uint_) 'Guilded.NET.Base.Embeds.Embed.SetThumbnail(System.Uri, System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;)') | Sets [Thumbnail](Embed_Thumbnail 'Guilded.NET.Base.Embeds.Embed.Thumbnail') as a new [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetTimestamp()](Embed_SetTimestamp() 'Guilded.NET.Base.Embeds.Embed.SetTimestamp()') | Sets [Timestamp](Embed_Timestamp 'Guilded.NET.Base.Embeds.Embed.Timestamp') as [System.DateTime.Now](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime.Now 'System.DateTime.Now') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetTimestamp(DateTime)](Embed_SetTimestamp(DateTime) 'Guilded.NET.Base.Embeds.Embed.SetTimestamp(System.DateTime)') | Sets [Timestamp](Embed_Timestamp 'Guilded.NET.Base.Embeds.Embed.Timestamp') as [time](Embed_SetTimestamp(DateTime)#Guilded_NET_Base_Embeds_Embed_SetTimestamp(System_DateTime)_time 'Guilded.NET.Base.Embeds.Embed.SetTimestamp(System.DateTime).time') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetTitle(string)](Embed_SetTitle(string) 'Guilded.NET.Base.Embeds.Embed.SetTitle(string)') | Sets [Title](Embed_Title 'Guilded.NET.Base.Embeds.Embed.Title') as [title](Embed_SetTitle(string)#Guilded_NET_Base_Embeds_Embed_SetTitle(string)_title 'Guilded.NET.Base.Embeds.Embed.SetTitle(string).title') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [SetUrl(Uri)](Embed_SetUrl(Uri) 'Guilded.NET.Base.Embeds.Embed.SetUrl(System.Uri)') | Sets [Url](Embed_Url 'Guilded.NET.Base.Embeds.Embed.Url') as [url](Embed_SetUrl(Uri)#Guilded_NET_Base_Embeds_Embed_SetUrl(System_Uri)_url 'Guilded.NET.Base.Embeds.Embed.SetUrl(System.Uri).url') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
 
 #### See Also
 - [ChatEmbed](ChatEmbed 'Guilded.NET.Base.Chat.ChatEmbed')

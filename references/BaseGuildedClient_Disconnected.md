@@ -1,11 +1,20 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.Disconnected Event
-Event when client disconnects from Guilded.  
+An event when client gets disconnected  
 ```csharp
 public event Disconnected;
 ```
 
 #### Event Type
 [System.EventHandler](https://docs.microsoft.com/en-us/dotnet/api/System.EventHandler 'System.EventHandler')
+### Remarks
+An event that occurs once Guilded client disconnects from Guilded.
+
+
+
+This usually occurs once [DisconnectAsync()](BaseGuildedClient_DisconnectAsync() 'Guilded.NET.Base.BaseGuildedClient.DisconnectAsync()') is called and no errors get thrown.
+
+#### See Also
+- [ConnectAsync()](BaseGuildedClient_ConnectAsync() 'Guilded.NET.Base.BaseGuildedClient.ConnectAsync()')

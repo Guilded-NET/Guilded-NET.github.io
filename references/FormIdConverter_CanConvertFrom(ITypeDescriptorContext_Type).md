@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[FormIdConverter](FormIdConverter 'Guilded.NET.Base.FormIdConverter')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[FormIdConverter](FormIdConverter 'Guilded.NET.Base.FormIdConverter')
 ## FormIdConverter.CanConvertFrom(ITypeDescriptorContext, Type) Method
 Whether the type can be converted to [FormId](FormId 'Guilded.NET.Base.FormId').  
 ```csharp

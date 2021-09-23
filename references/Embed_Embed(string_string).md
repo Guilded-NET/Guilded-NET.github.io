@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.Embed(string, string) Constructor
-The data of the message embed.  
+Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with title [title](Embed_Embed(string_string)#Guilded_NET_Base_Embeds_Embed_Embed(string_string)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string).title').  
 ```csharp
 public Embed(string title, string description);
 ```

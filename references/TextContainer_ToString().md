@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
 ## TextContainer.ToString() Method
 Gets string equivalents of all leaves and joins them together.  
 ```csharp

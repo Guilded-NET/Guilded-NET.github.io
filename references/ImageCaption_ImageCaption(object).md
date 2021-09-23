@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ImageCaption](ImageCaption 'Guilded.NET.Base.Chat.ImageCaption')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ImageCaption](ImageCaption 'Guilded.NET.Base.Chat.ImageCaption')
 ## ImageCaption.ImageCaption(object) Constructor
 A message explaining an image.  
 ```csharp

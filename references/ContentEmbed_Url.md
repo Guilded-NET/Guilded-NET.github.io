@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ContentEmbed](ContentEmbed 'Guilded.NET.Base.Chat.ContentEmbed')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ContentEmbed](ContentEmbed 'Guilded.NET.Base.Chat.ContentEmbed')
 ## ContentEmbed.Url Property
 The link that the content embed references.  
 ```csharp

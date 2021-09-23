@@ -1,28 +1,28 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## MarkdownText Class
 A piece of Markdown text.  
 ```csharp
 public class MarkdownText : Guilded.NET.Base.Chat.ContainerNode<Guilded.NET.Base.Chat.TextContainer, Guilded.NET.Base.Chat.MarkdownText>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; [Node](Node 'Guilded.NET.Base.Chat.Node') &#129106; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[MarkdownText](MarkdownText 'Guilded.NET.Base.Chat.MarkdownText')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#129106; MarkdownText  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; [Node](Node 'Guilded.NET.Base.Chat.Node') &#x27A1; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[MarkdownText](MarkdownText 'Guilded.NET.Base.Chat.MarkdownText')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#x27A1; MarkdownText  
 ### Example
 With lines(requires at least 2 strings):
 
 ```csharp
   
-            MarkdownText markdown = new MarkdownText("> Quote block", "", "Paragraph here");  
-            ```
+MarkdownText markdown = new MarkdownText("> Quote block", "", "Paragraph here");  
+```
 
 
 Without lines:
 
 ```csharp
   
-            MarkdownText markdown = new MarkdownText("> Quote Block\n\nParagraph here");  
-            ```
+MarkdownText markdown = new MarkdownText("> Quote Block\n\nParagraph here");  
+```
 ### Remarks
 A node for converting given string to Markdown.  
 
@@ -38,8 +38,8 @@ A node for converting given string to Markdown.
 
 | Methods | |
 | :--- | :--- |
-| [WithText(Leaf[])](MarkdownText_WithText(Leaf__) 'Guilded.NET.Base.Chat.MarkdownText.WithText(Guilded.NET.Base.Chat.Leaf[])') | Adds a text container based on given leaves.<br/> |
-| [WithText(string)](MarkdownText_WithText(string) 'Guilded.NET.Base.Chat.MarkdownText.WithText(string)') | Adds a text container based on given string.<br/> |
+| [AddText(Leaf[])](MarkdownText_AddText(Leaf__) 'Guilded.NET.Base.Chat.MarkdownText.AddText(Guilded.NET.Base.Chat.Leaf[])') | Adds a text container based on given leaves.<br/> |
+| [AddText(string)](MarkdownText_AddText(string) 'Guilded.NET.Base.Chat.MarkdownText.AddText(string)') | Adds a text container based on given string.<br/> |
 
 #### See Also
 - [Paragraph](Paragraph 'Guilded.NET.Base.Chat.Paragraph')

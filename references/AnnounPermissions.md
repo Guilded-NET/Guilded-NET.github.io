@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## AnnounPermissions Enum
 Permissions related to announcement channel(and Overview channel, if it's CreateAnnouncements).  
 ```csharp
@@ -28,6 +28,10 @@ All of the manage permissions combined.
 <a name='Guilded_NET_Base_Permissions_AnnounPermissions_ManageAnnouncements'></a>
 `ManageAnnouncements` 4  
 Allows you to delete announcements by other members or pin any announcement  
+  
+<a name='Guilded_NET_Base_Permissions_AnnounPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_AnnounPermissions_ViewAnnouncements'></a>
 `ViewAnnouncements` 2  

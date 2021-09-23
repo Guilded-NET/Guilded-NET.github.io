@@ -1,6 +1,6 @@
 
-#### [Guilded.NET](index 'index')
-### [Guilded.NET.Converters](index#Guilded_NET_Converters 'Guilded.NET.Converters').[HexColorConverter](HexColorConverter 'Guilded.NET.Converters.HexColorConverter')
+#### [Guilded.NET](Guilded_NET 'Guilded_NET')
+### [Guilded.NET.Converters](Guilded_NET#Guilded_NET_Converters 'Guilded.NET.Converters').[HexColorConverter](HexColorConverter 'Guilded.NET.Converters.HexColorConverter')
 ## HexColorConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
 Reads the given JSON object as [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color').  
 ```csharp

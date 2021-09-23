@@ -1,10 +1,10 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[MessageRoot&lt;T&gt;](MessageRoot_T_ 'Guilded.NET.Base.Chat.MessageRoot&lt;T&gt;')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[MessageRoot&lt;T&gt;](MessageRoot_T_ 'Guilded.NET.Base.Chat.MessageRoot&lt;T&gt;')
 ## MessageRoot&lt;T&gt;.MessageRoot(ElementType) Constructor
 The contents of messages, list items, etc. based on rich text markup.  
 ```csharp
-public MessageRoot(Guilded.NET.Base.Chat.ElementType type);
+protected MessageRoot(Guilded.NET.Base.Chat.ElementType type);
 ```
 
 #### Parameters

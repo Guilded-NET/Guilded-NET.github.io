@@ -1,10 +1,10 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.UpdateMessageAsync(Guid, Guid, MessageContent) Method
 Updates the contents of the message.  
 ```csharp
-public abstract System.Threading.Tasks.Task<Guilded.NET.Base.Chat.Message> UpdateMessageAsync(System.Guid channelId, System.Guid messageId, Guilded.NET.Base.Chat.MessageContent content);
+public abstract System.Threading.Tasks.Task<Guilded.NET.Base.Content.Message> UpdateMessageAsync(System.Guid channelId, System.Guid messageId, Guilded.NET.Base.Chat.MessageContent content);
 ```
 
 #### Parameters
@@ -22,13 +22,19 @@ The new content of the message in rich text markup
   
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.NET.Base.Chat.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Message edited
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.NET.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Message updated
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
-### Example
-```csharp
-await client.UpdateMessageAsync(channelId, messageId, new MessageContent("Edited message"));  
-```
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
+### Remarks
+Edits the message [messageId](BaseGuildedClient_UpdateMessageAsync(Guid_Guid_MessageContent)#Guilded_NET_Base_BaseGuildedClient_UpdateMessageAsync(System_Guid_System_Guid_Guilded_NET_Base_Chat_MessageContent)_messageId 'Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, Guilded.NET.Base.Chat.MessageContent).messageId') if the specified message is from  
+the client. This does not work if the client is not the creator of the message.
+
+<blockquote class="warning">  
+    Rich text markup will be removed from use eventually and only be used internally  
+    in Guilded API  
+</blockquote>

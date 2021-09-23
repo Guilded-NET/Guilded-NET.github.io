@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## SchedulingPermissions Enum
 Permissions for scheduling channel.  
 ```csharp
@@ -28,6 +28,10 @@ Allows you to remove availabilities created by others
 <a name='Guilded_NET_Base_Permissions_SchedulingPermissions_Manage'></a>
 `Manage` 8  
 All of the manage permissions combined.  
+  
+<a name='Guilded_NET_Base_Permissions_SchedulingPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_SchedulingPermissions_ViewSchedules'></a>
 `ViewSchedules` 2  

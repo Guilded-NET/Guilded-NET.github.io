@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[PermissionList](PermissionList 'Guilded.NET.Base.Permissions.PermissionList')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[PermissionList](PermissionList 'Guilded.NET.Base.Permissions.PermissionList')
 ## PermissionList.Customization Property
 Permissions related to name and emote customization.  
 ```csharp

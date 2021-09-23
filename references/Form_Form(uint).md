@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Form](Form 'Guilded.NET.Base.Chat.Form')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Form](Form 'Guilded.NET.Base.Chat.Form')
 ## Form.Form(uint) Constructor
 A form or a poll that can be used to submit applications or be used for voting.  
 ```csharp

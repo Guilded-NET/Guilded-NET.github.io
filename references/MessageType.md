@@ -1,23 +1,32 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Content](Guilded_NET_Base#Guilded_NET_Base_Content 'Guilded.NET.Base.Content')
 ## MessageType Enum
-If the message is a normal message or a system message.  
+The type of the message created or updated.  
 ```csharp
 public enum MessageType
 
 ```
 
 #### Fields
-<a name='Guilded_NET_Base_Chat_MessageType_Default'></a>
+<a name='Guilded_NET_Base_Content_MessageType_Default'></a>
 `Default` 0  
-A normal message written by someone.  
+A plain message that holds [Content](Message_Content 'Guilded.NET.Base.Content.Message.Content').
+
+
+
+This can be created by anyone.
   
-<a name='Guilded_NET_Base_Chat_MessageType_System'></a>
+<a name='Guilded_NET_Base_Content_MessageType_System'></a>
 `System` 1  
-A message written by the system(e.g., when channel gets renamed).  
+A system event that is created once some action is done.
+
+
+
+This can't be created by anyone and only occurs if certain actions happen.
   
+### Remarks
+Defines the type of a [Message](Message 'Guilded.NET.Base.Content.Message') instance. Currently only [Default](MessageType#Guilded_NET_Base_Content_MessageType_Default 'Guilded.NET.Base.Content.MessageType.Default') and [System](MessageType#Guilded_NET_Base_Content_MessageType_System 'Guilded.NET.Base.Content.MessageType.System') are available.
 
 #### See Also
-- [BaseMessage](BaseMessage 'Guilded.NET.Base.Chat.BaseMessage')
-- [Message](Message 'Guilded.NET.Base.Chat.Message')
+- [Message](Message 'Guilded.NET.Base.Content.Message')

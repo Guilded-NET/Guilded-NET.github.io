@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## ContainerNode&lt;T&gt; Class
 Node that holds other nodes and message objects.  
 ```csharp
@@ -14,7 +14,7 @@ public class ContainerNode<T> : Guilded.NET.Base.Chat.ContainerNode<Guilded.NET.
 The child-type of container node
   
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; [Node](Node 'Guilded.NET.Base.Chat.Node') &#129106; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[T](ContainerNode_T_#Guilded_NET_Base_Chat_ContainerNode_T__T 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.T')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#129106; ContainerNode&lt;T&gt;  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; [Node](Node 'Guilded.NET.Base.Chat.Node') &#x27A1; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[T](ContainerNode_T_#Guilded_NET_Base_Chat_ContainerNode_T__T 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.T')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#x27A1; ContainerNode&lt;T&gt;  
 
 Derived  
 &#8627; [ChatEmbed](ChatEmbed 'Guilded.NET.Base.Chat.ChatEmbed')  
@@ -36,20 +36,16 @@ Derived
 
 | Methods | |
 | :--- | :--- |
-| [WithEmote(BaseEmote)](ContainerNode_T__WithEmote(BaseEmote) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithEmote(Guilded.NET.Base.BaseEmote)') | Adds an emote to the node list.<br/> |
-| [WithEmote(EmoteInfo)](ContainerNode_T__WithEmote(EmoteInfo) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithEmote(Guilded.NET.Base.EmoteInfo)') | Adds an emote to the node list.<br/> |
-| [WithMention(bool)](ContainerNode_T__WithMention(bool) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(bool)') | Adds an @everyone or @here mention.<br/> |
-| [WithMention(ChannelMentionData)](ContainerNode_T__WithMention(ChannelMentionData) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(Guilded.NET.Base.Chat.ChannelMentionData)') | Adds a channel mention based on given data.<br/> |
-| [WithMention(MemberMentionData)](ContainerNode_T__WithMention(MemberMentionData) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(Guilded.NET.Base.Chat.MemberMentionData)') | Adds a member mention based on given data.<br/> |
-| [WithMention(Member, Nullable&lt;Color&gt;)](ContainerNode_T__WithMention(Member_Nullable_Color_) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(Guilded.NET.Base.Teams.Member, System.Nullable&lt;System.Drawing.Color&gt;)') | Adds a member mention based on given member and their colour.<br/> |
-| [WithMention(TeamChannel)](ContainerNode_T__WithMention(TeamChannel) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(Guilded.NET.Base.Teams.TeamChannel)') | Adds a channel mention for the given channel.<br/> |
-| [WithMention(TeamRole)](ContainerNode_T__WithMention(TeamRole) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(Guilded.NET.Base.Teams.TeamRole)') | Adds a role mention based on given role.<br/> |
-| [WithMention(BaseUser)](ContainerNode_T__WithMention(BaseUser) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(Guilded.NET.Base.Users.BaseUser)') | Adds a user mention based on given user.<br/> |
-| [WithMention(string, Guid)](ContainerNode_T__WithMention(string_Guid) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithMention(string, System.Guid)') | Adds a channel mention based on given name and identifier.<br/> |
-| [WithText(Leaf[])](ContainerNode_T__WithText(Leaf__) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithText(Guilded.NET.Base.Chat.Leaf[])') | Adds a text container based on given leaves.<br/> |
-| [WithText(string, Mark[])](ContainerNode_T__WithText(string_Mark__) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithText(string, Guilded.NET.Base.Chat.Mark[])') | Adds a text container based on given string.<br/> |
-| [WithText(string, MarkType[])](ContainerNode_T__WithText(string_MarkType__) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithText(string, Guilded.NET.Base.Chat.MarkType[])') | Adds a text container based on given string.<br/> |
-| [WithText(string)](ContainerNode_T__WithText(string) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.WithText(string)') | Adds a text container based on given string.<br/> |
+| [AddEmote(BaseEmote)](ContainerNode_T__AddEmote(BaseEmote) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddEmote(Guilded.NET.Base.BaseEmote)') | Adds an emote to the node list.<br/> |
+| [AddEmote(EmoteInfo)](ContainerNode_T__AddEmote(EmoteInfo) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddEmote(Guilded.NET.Base.EmoteInfo)') | Adds an emote to the node list.<br/> |
+| [AddMention(bool)](ContainerNode_T__AddMention(bool) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddMention(bool)') | Adds an @everyone or @here mention.<br/> |
+| [AddMention(ChannelMentionData)](ContainerNode_T__AddMention(ChannelMentionData) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddMention(Guilded.NET.Base.Chat.ChannelMentionData)') | Adds a channel mention based on given data.<br/> |
+| [AddMention(MemberMentionData)](ContainerNode_T__AddMention(MemberMentionData) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddMention(Guilded.NET.Base.Chat.MemberMentionData)') | Adds a member mention based on given data.<br/> |
+| [AddMention(string, Guid)](ContainerNode_T__AddMention(string_Guid) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddMention(string, System.Guid)') | Adds a channel mention based on given name and identifier.<br/> |
+| [AddText(Leaf[])](ContainerNode_T__AddText(Leaf__) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddText(Guilded.NET.Base.Chat.Leaf[])') | Adds a text container based on given leaves.<br/> |
+| [AddText(string, Mark[])](ContainerNode_T__AddText(string_Mark__) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddText(string, Guilded.NET.Base.Chat.Mark[])') | Adds a text container based on given string.<br/> |
+| [AddText(string, MarkType[])](ContainerNode_T__AddText(string_MarkType__) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddText(string, Guilded.NET.Base.Chat.MarkType[])') | Adds a text container based on given string.<br/> |
+| [AddText(string)](ContainerNode_T__AddText(string) 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;.AddText(string)') | Adds a text container based on given string.<br/> |
 
 #### See Also
 - [Node](Node 'Guilded.NET.Base.Chat.Node')

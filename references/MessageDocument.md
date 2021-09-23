@@ -1,13 +1,13 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## MessageDocument Class
 The document of the content containing all of the nodes and information.  
 ```csharp
 public class MessageDocument : Guilded.NET.Base.Chat.MessageRoot<Guilded.NET.Base.Chat.MessageDocument>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; [Guilded.NET.Base.Chat.MessageRoot&lt;](MessageRoot_T_ 'Guilded.NET.Base.Chat.MessageRoot&lt;T&gt;')[MessageDocument](MessageDocument 'Guilded.NET.Base.Chat.MessageDocument')[&gt;](MessageRoot_T_ 'Guilded.NET.Base.Chat.MessageRoot&lt;T&gt;') &#129106; MessageDocument  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; [Guilded.NET.Base.Chat.MessageRoot&lt;](MessageRoot_T_ 'Guilded.NET.Base.Chat.MessageRoot&lt;T&gt;')[MessageDocument](MessageDocument 'Guilded.NET.Base.Chat.MessageDocument')[&gt;](MessageRoot_T_ 'Guilded.NET.Base.Chat.MessageRoot&lt;T&gt;') &#x27A1; MessageDocument  
 
 | Constructors | |
 | :--- | :--- |
@@ -37,12 +37,12 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Methods | |
 | :--- | :--- |
-| [Share(string)](MessageDocument_Share(string) 'Guilded.NET.Base.Chat.MessageDocument.Share(string)') | Adds an URL in the message share list.<br/> |
-| [Share(IList&lt;Uri&gt;)](MessageDocument_Share(IList_Uri_) 'Guilded.NET.Base.Chat.MessageDocument.Share(System.Collections.Generic.IList&lt;System.Uri&gt;)') | Adds the list of URLs in the message share list.<br/> |
-| [Share(Uri)](MessageDocument_Share(Uri) 'Guilded.NET.Base.Chat.MessageDocument.Share(System.Uri)') | Adds an URL in the message share list.<br/> |
+| [Add(Node)](MessageDocument_Add(Node) 'Guilded.NET.Base.Chat.MessageDocument.Add(Guilded.NET.Base.Chat.Node)') | Adds a node to the message document.<br/> |
+| [Add(IList&lt;Node&gt;)](MessageDocument_Add(IList_Node_) 'Guilded.NET.Base.Chat.MessageDocument.Add(System.Collections.Generic.IList&lt;Guilded.NET.Base.Chat.Node&gt;)') | Adds a list of nodes to the message document.<br/> |
+| [AddShare(string)](MessageDocument_AddShare(string) 'Guilded.NET.Base.Chat.MessageDocument.AddShare(string)') | Adds [url](MessageDocument_AddShare(string)#Guilded_NET_Base_Chat_MessageDocument_AddShare(string)_url 'Guilded.NET.Base.Chat.MessageDocument.AddShare(string).url') as an [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') to shared URL list.<br/> |
+| [AddShare(IList&lt;Uri&gt;)](MessageDocument_AddShare(IList_Uri_) 'Guilded.NET.Base.Chat.MessageDocument.AddShare(System.Collections.Generic.IList&lt;System.Uri&gt;)') | Adds a list of shared URLs from [urls](MessageDocument_AddShare(IList_Uri_)#Guilded_NET_Base_Chat_MessageDocument_AddShare(System_Collections_Generic_IList_System_Uri_)_urls 'Guilded.NET.Base.Chat.MessageDocument.AddShare(System.Collections.Generic.IList&lt;System.Uri&gt;).urls').<br/> |
+| [AddShare(Uri)](MessageDocument_AddShare(Uri) 'Guilded.NET.Base.Chat.MessageDocument.AddShare(System.Uri)') | Adds [url](MessageDocument_AddShare(Uri)#Guilded_NET_Base_Chat_MessageDocument_AddShare(System_Uri)_url 'Guilded.NET.Base.Chat.MessageDocument.AddShare(System.Uri).url') to shared URL list.<br/> |
 | [ToString()](MessageDocument_ToString() 'Guilded.NET.Base.Chat.MessageDocument.ToString()') | Converts all nodes to string and joins them together.<br/> |
-| [With(Node)](MessageDocument_With(Node) 'Guilded.NET.Base.Chat.MessageDocument.With(Guilded.NET.Base.Chat.Node)') | Adds a node to the message document.<br/> |
-| [With(IList&lt;Node&gt;)](MessageDocument_With(IList_Node_) 'Guilded.NET.Base.Chat.MessageDocument.With(System.Collections.Generic.IList&lt;Guilded.NET.Base.Chat.Node&gt;)') | Adds a list of nodes to the message document.<br/> |
 
 #### See Also
 - [BlockQuote](BlockQuote 'Guilded.NET.Base.Chat.BlockQuote')

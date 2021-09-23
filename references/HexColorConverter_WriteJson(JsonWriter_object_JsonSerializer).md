@@ -1,6 +1,6 @@
 
-#### [Guilded.NET](index 'index')
-### [Guilded.NET.Converters](index#Guilded_NET_Converters 'Guilded.NET.Converters').[HexColorConverter](HexColorConverter 'Guilded.NET.Converters.HexColorConverter')
+#### [Guilded.NET](Guilded_NET 'Guilded_NET')
+### [Guilded.NET.Converters](Guilded_NET#Guilded_NET_Converters 'Guilded.NET.Converters').[HexColorConverter](HexColorConverter 'Guilded.NET.Converters.HexColorConverter')
 ## HexColorConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
 Writes given object as JSON.  
 ```csharp

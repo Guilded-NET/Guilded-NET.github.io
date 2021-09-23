@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## ContainerNode&lt;T,R&gt; Class
 Node that holds other nodes and message objects.  
 ```csharp
@@ -19,7 +19,7 @@ The type of children of [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.
 The child-type of container node
   
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; [Node](Node 'Guilded.NET.Base.Chat.Node') &#129106; ContainerNode&lt;T,R&gt;  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; [Node](Node 'Guilded.NET.Base.Chat.Node') &#x27A1; ContainerNode&lt;T,R&gt;  
 
 Derived  
 &#8627; [BlockQuote](BlockQuote 'Guilded.NET.Base.Chat.BlockQuote')  
@@ -52,15 +52,15 @@ Derived
 
 | Methods | |
 | :--- | :--- |
+| [Add(IEnumerable&lt;T&gt;)](ContainerNode_T_R__Add(IEnumerable_T_) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Add(System.Collections.Generic.IEnumerable&lt;T&gt;)') | Adds a node to [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list.<br/> |
+| [Add(T)](ContainerNode_T_R__Add(T) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Add(T)') | Adds a node to [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list.<br/> |
+| [Remove(int, int)](ContainerNode_T_R__Remove(int_int) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Remove(int, int)') | Removes a list of nodes from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on index.<br/> |
+| [Remove(int)](ContainerNode_T_R__Remove(int) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Remove(int)') | Removes a node from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on index.<br/> |
+| [Remove(Index, Index)](ContainerNode_T_R__Remove(Index_Index) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Remove(System.Index, System.Index)') | Removes a list of nodes from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on indices.<br/> |
+| [Remove(Index)](ContainerNode_T_R__Remove(Index) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Remove(System.Index)') | Removes a node from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on index.<br/> |
+| [Remove(Range)](ContainerNode_T_R__Remove(Range) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Remove(System.Range)') | Removes a list of nodes from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on range.<br/> |
+| [Remove(T)](ContainerNode_T_R__Remove(T) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Remove(T)') | Removes a node from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list.<br/> |
 | [ToString()](ContainerNode_T_R__ToString() 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.ToString()') | Gets string equivalent of node's children and joins them.<br/> |
-| [With(IEnumerable&lt;T&gt;)](ContainerNode_T_R__With(IEnumerable_T_) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.With(System.Collections.Generic.IEnumerable&lt;T&gt;)') | Adds a node to [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list.<br/> |
-| [With(T)](ContainerNode_T_R__With(T) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.With(T)') | Adds a node to [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list.<br/> |
-| [Without(int, int)](ContainerNode_T_R__Without(int_int) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Without(int, int)') | Removes a list of nodes from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on index.<br/> |
-| [Without(int)](ContainerNode_T_R__Without(int) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Without(int)') | Removes a node from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on index.<br/> |
-| [Without(Index, Index)](ContainerNode_T_R__Without(Index_Index) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Without(System.Index, System.Index)') | Removes a list of nodes from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on indices.<br/> |
-| [Without(Index)](ContainerNode_T_R__Without(Index) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Without(System.Index)') | Removes a node from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on index.<br/> |
-| [Without(Range)](ContainerNode_T_R__Without(Range) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Without(System.Range)') | Removes a list of nodes from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list based on range.<br/> |
-| [Without(T)](ContainerNode_T_R__Without(T) 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Without(T)') | Removes a node from [Nodes](ContainerNode_T_R__Nodes 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;.Nodes') list.<br/> |
 
 #### See Also
 - [ContainerNode&lt;T&gt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;')

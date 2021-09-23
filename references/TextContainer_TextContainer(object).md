@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
 ## TextContainer.TextContainer(object) Constructor
 Creates a new [TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer') with content as [content](TextContainer_TextContainer(object)#Guilded_NET_Base_Chat_TextContainer_TextContainer(object)_content 'Guilded.NET.Base.Chat.TextContainer.TextContainer(object).content') as a string.  
 ```csharp

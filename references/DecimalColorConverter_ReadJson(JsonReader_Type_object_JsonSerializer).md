@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[DecimalColorConverter](DecimalColorConverter 'Guilded.NET.Base.DecimalColorConverter')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[DecimalColorConverter](DecimalColorConverter 'Guilded.NET.Base.DecimalColorConverter')
 ## DecimalColorConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
 Reads the given JSON object as [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color').  
 ```csharp

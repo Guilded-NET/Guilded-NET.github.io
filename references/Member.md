@@ -1,23 +1,24 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Teams](Guilded_NET_Base#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams')
 ## Member Class
-A member in member list.  
+A member in a member list.  
 ```csharp
 public class Member : Guilded.NET.Base.ClientObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#129106; Member  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#x27A1; Member  
+### Remarks
+Defines a normal or updated team member.
 
 | Properties | |
 | :--- | :--- |
-| [Badges](Member_Badges 'Guilded.NET.Base.Teams.Member.Badges') | A list of global badges this user has.<br/> |
-| [DisplayName](Member_DisplayName 'Guilded.NET.Base.Teams.Member.DisplayName') | Gets a nickname if it exists. Else, it gets a username.<br/> |
-| [Id](Member_Id 'Guilded.NET.Base.Teams.Member.Id') | User ID of this member.<br/> |
-| [IsAdmin](Member_IsAdmin 'Guilded.NET.Base.Teams.Member.IsAdmin') | If this user is an admin of the server. This is seems to be true when the member is an owner of the team.<br/> |
-| [MembershipRole](Member_MembershipRole 'Guilded.NET.Base.Teams.Member.MembershipRole') | A membership of this member. NOTE: If this value isn't null or admin, please contact Guilded.NET developer about this.<br/> |
-| [Name](Member_Name 'Guilded.NET.Base.Teams.Member.Name') | The name of this user.<br/> |
+| [Id](Member_Id 'Guilded.NET.Base.Teams.Member.Id') | The identifier of this member.<br/> |
 | [Nickname](Member_Nickname 'Guilded.NET.Base.Teams.Member.Nickname') | A nickname of this member.<br/> |
-| [Presence](Member_Presence 'Guilded.NET.Base.Teams.Member.Presence') | A presence of this user.<br/> |
-| [ProfilePicture](Member_ProfilePicture 'Guilded.NET.Base.Teams.Member.ProfilePicture') | A profile picture of this user.<br/> |
-| [Roles](Member_Roles 'Guilded.NET.Base.Teams.Member.Roles') | A list of roles this user has.<br/> |
+
+| Methods | |
+| :--- | :--- |
+| [GetSocialLinkAsync(SocialLinkType)](Member_GetSocialLinkAsync(SocialLinkType) 'Guilded.NET.Base.Teams.Member.GetSocialLinkAsync(Guilded.NET.Base.Users.SocialLinkType)') | Gets member's social links.<br/> |
+
+#### See Also
+- [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.NET.Base.Events.MemberUpdatedEvent')

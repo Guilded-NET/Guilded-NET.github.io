@@ -1,32 +1,32 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## BlockQuote Class
 A quote of someone's text.  
 ```csharp
 public class BlockQuote : Guilded.NET.Base.Chat.ContainerNode<Guilded.NET.Base.Chat.LineQuote, Guilded.NET.Base.Chat.BlockQuote>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; [Node](Node 'Guilded.NET.Base.Chat.Node') &#129106; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[LineQuote](LineQuote 'Guilded.NET.Base.Chat.LineQuote')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[BlockQuote](BlockQuote 'Guilded.NET.Base.Chat.BlockQuote')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#129106; BlockQuote  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; [Node](Node 'Guilded.NET.Base.Chat.Node') &#x27A1; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[LineQuote](LineQuote 'Guilded.NET.Base.Chat.LineQuote')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[BlockQuote](BlockQuote 'Guilded.NET.Base.Chat.BlockQuote')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#x27A1; BlockQuote  
 ### Example
 Quote block with strings:
 
 ```csharp
   
-            BlockQuote quote = new BlockQuote("Quote line #1", "Quote line #2");  
-            ```
+BlockQuote quote = new BlockQuote("Quote line #1", "Quote line #2");  
+```
 
 
 Quote block with quote lines:
 
 ```csharp
   
-            BlockQuote quote = new BlockQuote  
-            (  
-                new LineQuote("Quote line #1"),  
-                new LineQuote("Quote line #2")  
-            );  
-            ```
+BlockQuote quote = new BlockQuote  
+(  
+    new LineQuote("Quote line #1"),  
+    new LineQuote("Quote line #2")  
+);  
+```
 
 | Constructors | |
 | :--- | :--- |

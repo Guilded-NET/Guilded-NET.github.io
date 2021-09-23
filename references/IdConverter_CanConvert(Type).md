@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
 ## IdConverter.CanConvert(Type) Method
 Returns whether the converter supports converting the given type.  
 ```csharp

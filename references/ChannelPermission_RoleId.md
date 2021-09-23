@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams').[ChannelPermission](ChannelPermission 'Guilded.NET.Base.Teams.ChannelPermission')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[ChannelPermission](ChannelPermission 'Guilded.NET.Base.Permissions.ChannelPermission')
 ## ChannelPermission.RoleId Property
-ID of the role this permission was assigned to.  
+ID of the permission's role.  
 ```csharp
 public ulong RoleId { get; set; }
 ```

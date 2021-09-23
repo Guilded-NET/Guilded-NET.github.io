@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Node](Node 'Guilded.NET.Base.Chat.Node')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Node](Node 'Guilded.NET.Base.Chat.Node')
 ## Node.Node(NodeType, ElementType) Constructor
 Represents a node part of message content tree.  
 ```csharp

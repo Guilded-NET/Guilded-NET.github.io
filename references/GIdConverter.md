@@ -1,13 +1,13 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base')
 ## GIdConverter Class
 Converts a value to [GId](GId 'Guilded.NET.Base.GId') where it is expected.  
 ```csharp
 public class GIdConverter : System.ComponentModel.TypeConverter
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.ComponentModel.TypeConverter](https://docs.microsoft.com/en-us/dotnet/api/System.ComponentModel.TypeConverter 'System.ComponentModel.TypeConverter') &#129106; GIdConverter  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [System.ComponentModel.TypeConverter](https://docs.microsoft.com/en-us/dotnet/api/System.ComponentModel.TypeConverter 'System.ComponentModel.TypeConverter') &#x27A1; GIdConverter  
 
 | Methods | |
 | :--- | :--- |

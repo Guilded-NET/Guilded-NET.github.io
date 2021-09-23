@@ -1,13 +1,13 @@
 
-#### [Guilded.NET](index 'index')
-### [Guilded.NET.Converters](index#Guilded_NET_Converters 'Guilded.NET.Converters')
+#### [Guilded.NET](Guilded_NET 'Guilded_NET')
+### [Guilded.NET.Converters](Guilded_NET#Guilded_NET_Converters 'Guilded.NET.Converters')
 ## HexColorConverter Class
-Converts colour to hex.  
+Converts colour to hex for roles.  
 ```csharp
 public class HexColorConverter
 ```
 
-Inheritance [Newtonsoft.Json.JsonConverter](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonConverter 'Newtonsoft.Json.JsonConverter') &#129106; HexColorConverter  
+Inheritance [Newtonsoft.Json.JsonConverter](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonConverter 'Newtonsoft.Json.JsonConverter') &#x27A1; HexColorConverter  
 
 | Properties | |
 | :--- | :--- |

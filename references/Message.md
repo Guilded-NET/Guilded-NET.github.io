@@ -1,41 +1,76 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Content](Guilded_NET_Base#Guilded_NET_Base_Content 'Guilded.NET.Base.Content')
 ## Message Class
 A message posted in the chat.  
 ```csharp
-public class Message : Guilded.NET.Base.Chat.BaseMessage
+public class Message : Guilded.NET.Base.Content.ChannelContent<System.Guid>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#129106; [BaseMessage](BaseMessage 'Guilded.NET.Base.Chat.BaseMessage') &#129106; Message  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#x27A1; [Guilded.NET.Base.Content.ChannelContent&lt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;') &#x27A1; Message  
+### Remarks
+An existing/a cached message that can be found in a chat.
+
+
+
+This message type can be found in:
+
+<list type="bullet">  
+  <item>  
+    <description>  
+      <see cref="M:Guilded.NET.Base.BaseGuildedClient.GetMessagesAsync(System.Guid,System.UInt32)"/>  
+    </description>  
+  </item>  
+  <item>  
+    <description>  
+      <see cref="M:Guilded.NET.Base.BaseGuildedClient.GetMessageAsync(System.Guid,System.Guid)"/>  
+    </description>  
+  </item>  
+  <item>  
+    <description>  
+      <see cref="T:Guilded.NET.Base.Events.MessageCreatedEvent"/>  
+    </description>  
+  </item>  
+  <item>  
+    <description>  
+      <see cref="T:Guilded.NET.Base.Events.MessageUpdatedEvent"/>  
+    </description>  
+  </item>  
+  <item>  
+    <description>A return value from message creation and updating methods.</description>  
+  </item>  
+</list>
 
 | Properties | |
 | :--- | :--- |
-| [ByBot](Message_ByBot 'Guilded.NET.Base.Chat.Message.ByBot') | Gets whether the message was created by a bot or webhook.<br/> |
-| [Content](Message_Content 'Guilded.NET.Base.Chat.Message.Content') | The contents of this message as a Markdown string.<br/> |
-| [CreatedAt](Message_CreatedAt 'Guilded.NET.Base.Chat.Message.CreatedAt') | The date of when this message was posted.<br/> |
-| [CreatedBy](Message_CreatedBy 'Guilded.NET.Base.Chat.Message.CreatedBy') | The identifier of the author of this message.<br/> |
-| [CreatedByBot](Message_CreatedByBot 'Guilded.NET.Base.Chat.Message.CreatedByBot') | The identifier of the bot that posted this message.<br/> |
-| [CreatedByWebhook](Message_CreatedByWebhook 'Guilded.NET.Base.Chat.Message.CreatedByWebhook') | The identifier of the webhook that posted this message.<br/> |
-| [UpdatedAt](Message_UpdatedAt 'Guilded.NET.Base.Chat.Message.UpdatedAt') | The date of when this message was edited.<br/> |
+| [Content](Message_Content 'Guilded.NET.Base.Content.Message.Content') | The contents of the message.<br/> |
+| [IsPrivate](Message_IsPrivate 'Guilded.NET.Base.Content.Message.IsPrivate') | Whether the reply is private.<br/> |
+| [IsReply](Message_IsReply 'Guilded.NET.Base.Content.Message.IsReply') | Whether the specified message is a reply<br/> |
+| [ReplyMessageIds](Message_ReplyMessageIds 'Guilded.NET.Base.Content.Message.ReplyMessageIds') | Which messages it is replying to.<br/> |
+| [Type](Message_Type 'Guilded.NET.Base.Content.Message.Type') | The type of the message.<br/> |
+| [UpdatedAt](Message_UpdatedAt 'Guilded.NET.Base.Content.Message.UpdatedAt') | The date of when the message was updated.<br/> |
 
 | Methods | |
 | :--- | :--- |
-| [AddReactionAsync(uint)](Message_AddReactionAsync(uint) 'Guilded.NET.Base.Chat.Message.AddReactionAsync(uint)') | Add a reaction to this message.<br/> |
-| [DeleteMessageAsync()](Message_DeleteMessageAsync() 'Guilded.NET.Base.Chat.Message.DeleteMessageAsync()') | Deletes this message.<br/> |
-| [Of(BaseUser)](Message_Of(BaseUser) 'Guilded.NET.Base.Chat.Message.Of(Guilded.NET.Base.Users.BaseUser)') | Gets whether this message was posted by the given user.<br/> |
-| [RemoveReactionAsync(uint)](Message_RemoveReactionAsync(uint) 'Guilded.NET.Base.Chat.Message.RemoveReactionAsync(uint)') | Removes a reaction from this message.<br/> |
-| [ToString()](Message_ToString() 'Guilded.NET.Base.Chat.Message.ToString()') | Converts the content of this message to Markdown representation of it.<br/> |
-| [UpdateMessageAsync(MessageContent)](Message_UpdateMessageAsync(MessageContent) 'Guilded.NET.Base.Chat.Message.UpdateMessageAsync(Guilded.NET.Base.Chat.MessageContent)') | Updates the contents of the message.<br/> |
-| [UpdateMessageAsync(object)](Message_UpdateMessageAsync(object) 'Guilded.NET.Base.Chat.Message.UpdateMessageAsync(object)') | Updates the contents of the message.<br/> |
-| [UpdateMessageAsync(string, object[])](Message_UpdateMessageAsync(string_object__) 'Guilded.NET.Base.Chat.Message.UpdateMessageAsync(string, object[])') | Updates the contents of the message.<br/> |
-| [UpdateMessageAsync(string)](Message_UpdateMessageAsync(string) 'Guilded.NET.Base.Chat.Message.UpdateMessageAsync(string)') | Updates the contents of the message.<br/> |
-| [UpdateMessageAsync(IFormatProvider, string, object[])](Message_UpdateMessageAsync(IFormatProvider_string_object__) 'Guilded.NET.Base.Chat.Message.UpdateMessageAsync(System.IFormatProvider, string, object[])') | Updates the contents of the message.<br/> |
+| [AddReactionAsync(uint)](Message_AddReactionAsync(uint) 'Guilded.NET.Base.Content.Message.AddReactionAsync(uint)') | Adds a reaction to a message.<br/> |
+| [CreateMessageAsync(MessageContent, bool, Guid[])](Message_CreateMessageAsync(MessageContent_bool_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent, bool, System.Guid[])') | Creates a message in a chat.<br/> |
+| [CreateMessageAsync(MessageContent, Guid[])](Message_CreateMessageAsync(MessageContent_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent, System.Guid[])') | Creates a message in a chat.<br/> |
+| [CreateMessageAsync(MessageContent)](Message_CreateMessageAsync(MessageContent) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent)') | Creates a message in a chat.<br/> |
+| [CreateMessageAsync(string, bool, Guid[])](Message_CreateMessageAsync(string_bool_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string, bool, System.Guid[])') | Creates a message in a chat.<br/> |
+| [CreateMessageAsync(string, Guid[])](Message_CreateMessageAsync(string_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string, System.Guid[])') | Creates a message in a chat.<br/> |
+| [CreateMessageAsync(string)](Message_CreateMessageAsync(string) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string)') | Creates a message in a chat.<br/> |
+| [DeleteMessageAsync()](Message_DeleteMessageAsync() 'Guilded.NET.Base.Content.Message.DeleteMessageAsync()') | Deletes a specified message.<br/> |
+| [RemoveReactionAsync(uint)](Message_RemoveReactionAsync(uint) 'Guilded.NET.Base.Content.Message.RemoveReactionAsync(uint)') | Removes a reaction from a message.<br/> |
+| [ReplyAsync(MessageContent, bool)](Message_ReplyAsync(MessageContent_bool) 'Guilded.NET.Base.Content.Message.ReplyAsync(Guilded.NET.Base.Chat.MessageContent, bool)') | Replies to the message in the chat.<br/> |
+| [ReplyAsync(MessageContent)](Message_ReplyAsync(MessageContent) 'Guilded.NET.Base.Content.Message.ReplyAsync(Guilded.NET.Base.Chat.MessageContent)') | Replies to the message in the chat.<br/> |
+| [ReplyAsync(string, bool)](Message_ReplyAsync(string_bool) 'Guilded.NET.Base.Content.Message.ReplyAsync(string, bool)') | Replies to the message in the chat.<br/> |
+| [ReplyAsync(string)](Message_ReplyAsync(string) 'Guilded.NET.Base.Content.Message.ReplyAsync(string)') | Replies to the message in the chat.<br/> |
+| [UpdateMessageAsync(MessageContent)](Message_UpdateMessageAsync(MessageContent) 'Guilded.NET.Base.Content.Message.UpdateMessageAsync(Guilded.NET.Base.Chat.MessageContent)') | Updates the contents of the message.<br/> |
+| [UpdateMessageAsync(string)](Message_UpdateMessageAsync(string) 'Guilded.NET.Base.Content.Message.UpdateMessageAsync(string)') | Updates the contents of the message.<br/> |
 
 #### See Also
-- [MessageContent](MessageContent 'Guilded.NET.Base.Chat.MessageContent')
-- [Paragraph](Paragraph 'Guilded.NET.Base.Chat.Paragraph')
-- [ContainerNode&lt;T&gt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;')
-- [Node](Node 'Guilded.NET.Base.Chat.Node')
+- [ListItem](ListItem 'Guilded.NET.Base.Content.ListItem')
+- [ForumThread](ForumThread 'Guilded.NET.Base.Content.ForumThread')
 - [MessageCreatedEvent](MessageCreatedEvent 'Guilded.NET.Base.Events.MessageCreatedEvent')
 - [MessageUpdatedEvent](MessageUpdatedEvent 'Guilded.NET.Base.Events.MessageUpdatedEvent')
+- [MessageContent](MessageContent 'Guilded.NET.Base.Chat.MessageContent')

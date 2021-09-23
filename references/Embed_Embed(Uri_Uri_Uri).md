@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.Embed(Uri, Uri, Uri) Constructor
-The data of the message embed.  
+Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with given parameters converted to [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia').  
 ```csharp
 public Embed(System.Uri image=null, System.Uri video=null, System.Uri thumbnail=null);
 ```

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatEmbed](ChatEmbed 'Guilded.NET.Base.Chat.ChatEmbed')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatEmbed](ChatEmbed 'Guilded.NET.Base.Chat.ChatEmbed')
 ## ChatEmbed.ChatEmbed(Embed[]) Constructor
 An element that contains embeds.  
 ```csharp

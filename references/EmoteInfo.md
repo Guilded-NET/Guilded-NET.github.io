@@ -1,13 +1,13 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base')
 ## EmoteInfo Class
-The information about an emote in emote node.  
+The information about an emote in [ChatEmote](ChatEmote 'Guilded.NET.Base.Chat.ChatEmote').  
 ```csharp
 public class EmoteInfo : Guilded.NET.Base.ClientObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#129106; EmoteInfo  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#x27A1; EmoteInfo  
 
 | Constructors | |
 | :--- | :--- |
@@ -21,8 +21,8 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Methods | |
 | :--- | :--- |
-| [Equals(object)](EmoteInfo_Equals(object) 'Guilded.NET.Base.EmoteInfo.Equals(object)') | Checks if object is equal to this emote info.<br/> |
-| [GetHashCode()](EmoteInfo_GetHashCode() 'Guilded.NET.Base.EmoteInfo.GetHashCode()') | Gets hashcode of this object.<br/> |
+| [Equals(object)](EmoteInfo_Equals(object) 'Guilded.NET.Base.EmoteInfo.Equals(object)') | Returns whether this and [obj](EmoteInfo_Equals(object)#Guilded_NET_Base_EmoteInfo_Equals(object)_obj 'Guilded.NET.Base.EmoteInfo.Equals(object).obj') are equal to each other.<br/> |
+| [GetHashCode()](EmoteInfo_GetHashCode() 'Guilded.NET.Base.EmoteInfo.GetHashCode()') | Gets a hashcode of this object.<br/> |
 
 #### See Also
 - [Emote](Emote 'Guilded.NET.Base.Emote')

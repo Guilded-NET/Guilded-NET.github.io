@@ -1,67 +1,67 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## Paragraph Class
 A line of text in a message.  
 ```csharp
 public class Paragraph : Guilded.NET.Base.Chat.ContainerNode<Guilded.NET.Base.Chat.Paragraph>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#129106; [Node](Node 'Guilded.NET.Base.Chat.Node') &#129106; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[Paragraph](Paragraph 'Guilded.NET.Base.Chat.Paragraph')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#129106; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;')[Paragraph](Paragraph 'Guilded.NET.Base.Chat.Paragraph')[&gt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;') &#129106; Paragraph  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement') &#x27A1; [Node](Node 'Guilded.NET.Base.Chat.Node') &#x27A1; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[ChatElement](ChatElement 'Guilded.NET.Base.Chat.ChatElement')[,](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;')[Paragraph](Paragraph 'Guilded.NET.Base.Chat.Paragraph')[&gt;](ContainerNode_T_R_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T,R&gt;') &#x27A1; [Guilded.NET.Base.Chat.ContainerNode&lt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;')[Paragraph](Paragraph 'Guilded.NET.Base.Chat.Paragraph')[&gt;](ContainerNode_T_ 'Guilded.NET.Base.Chat.ContainerNode&lt;T&gt;') &#x27A1; Paragraph  
 ### Example
 Fully text-based paragraph:
 
 ```csharp
   
-            Paragraph para = new Paragraph("Hello!");  
-            ```
+Paragraph para = new Paragraph("Hello!");  
+```
 
 
 Paragraph with mentions:
 
 ```csharp
   
-            Paragraph para = new Paragraph  
-            (  
-                new TextContainer("Hello, "),  
-                new MemberMention(user),  
-                new TextContainer("!")  
-            );  
-            ```
+Paragraph para = new Paragraph  
+(  
+    new TextContainer("Hello, "),  
+    new MemberMention(user),  
+    new TextContainer("!")  
+);  
+```
 
 
 Simple text with formatting:
 
 ```csharp
   
-            Paragraph para = new Paragraph("DO NOT BREAK RULES", MarkType.Bold, MarkType.Underline);  
-            ```
+Paragraph para = new Paragraph("DO NOT BREAK RULES", MarkType.Bold, MarkType.Underline);  
+```
 
 
 Escaping given arguments:
 
 ```csharp
   
-            Paragraph para = new Paragraph  
-            (  
-                new Leaf("Invalid argument "),  
-                // We do not need to escape \, *, ~, _ or | in this case,  
-                // because this is not Markdown plain text  
-                new Leaf(arg, MarkType.InlineCode),    
-                new Leaf(".")  
-            );  
-            ```
+Paragraph para = new Paragraph  
+(  
+    new Leaf("Invalid argument "),  
+    // We do not need to escape \, *, ~, _ or | in this case,  
+    // because this is not Markdown plain text  
+    new Leaf(arg, MarkType.InlineCode),  
+    new Leaf(".")  
+);  
+```
 
 
 Building paragraph:
 
 ```csharp
   
-            Paragraph para = new Paragraph()  
-                .WithText("Hello there, ")  
-                .WithMention(user)  
-                .WithText("!");  
-            ```
+Paragraph para = new Paragraph()  
+    .AddText("Hello there, ")  
+    .AddMention(user)  
+    .AddText("!");  
+```
 
 | Constructors | |
 | :--- | :--- |

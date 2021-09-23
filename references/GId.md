@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base')
 ## GId Struct
 The identifier for Guilded teams, users, etc.  
 ```csharp
@@ -9,6 +9,47 @@ System.IEquatable<Guilded.NET.Base.GId>
 ```
 
 Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[GId](GId 'Guilded.NET.Base.GId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
+### Example
+The list of random Guilded identifiers:
+
+```none
+  
+R40Mp0Wd  
+Ann6LewA  
+Abcdefg7  
+UasJs5I  
+QiW0kBN  
+Ga9aSd3  
+```
+### Remarks
+The identifier of various Guilded objects.
+
+
+
+Guilded identifier is 8 characters in length and  
+consists of digits, uppercase letters and lowercase letters.
+
+
+
+This can be found in:
+
+<list type="bullet">  
+  <item>  
+    <description>Users, members, friends</description>  
+  </item>  
+  <item>  
+    <description>Servers/teams</description>  
+  </item>  
+  <item>  
+    <description>Groups, tournaments</description>  
+  </item>  
+  <item>  
+    <description>Invites, invite links</description>  
+  </item>  
+  <item>  
+    <description>Announcements</description>  
+  </item>  
+</list>
 
 | Constructors | |
 | :--- | :--- |
@@ -16,16 +57,16 @@ Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/S
 
 | Methods | |
 | :--- | :--- |
-| [Check(string)](GId_Check(string) 'Guilded.NET.Base.GId.Check(string)') | Checks if given string is in correct format.<br/> |
-| [Equals(GId)](GId_Equals(GId) 'Guilded.NET.Base.GId.Equals(Guilded.NET.Base.GId)') | Checks if given ID is equal to this ID.<br/> |
-| [Equals(object)](GId_Equals(object) 'Guilded.NET.Base.GId.Equals(object)') | Checks if given object is equal to this ID.<br/> |
-| [GetHashCode()](GId_GetHashCode() 'Guilded.NET.Base.GId.GetHashCode()') | Gets identifier's hashcode.<br/> |
-| [ToString()](GId_ToString() 'Guilded.NET.Base.GId.ToString()') | Returns string representation of [GId](GId 'Guilded.NET.Base.GId') instance.<br/> |
+| [Check(string)](GId_Check(string) 'Guilded.NET.Base.GId.Check(string)') | Checks if [str](GId_Check(string)#Guilded_NET_Base_GId_Check(string)_str 'Guilded.NET.Base.GId.Check(string).str') is in the correct [FormId](FormId 'Guilded.NET.Base.FormId') format.<br/> |
+| [Equals(GId)](GId_Equals(GId) 'Guilded.NET.Base.GId.Equals(Guilded.NET.Base.GId)') | Returns whether this [GId](GId 'Guilded.NET.Base.GId') instance and [other](GId_Equals(GId)#Guilded_NET_Base_GId_Equals(Guilded_NET_Base_GId)_other 'Guilded.NET.Base.GId.Equals(Guilded.NET.Base.GId).other') are equal.<br/> |
+| [Equals(object)](GId_Equals(object) 'Guilded.NET.Base.GId.Equals(object)') | Returns whether this [GId](GId 'Guilded.NET.Base.GId') instance and [obj](GId_Equals(object)#Guilded_NET_Base_GId_Equals(object)_obj 'Guilded.NET.Base.GId.Equals(object).obj') are equal.<br/> |
+| [GetHashCode()](GId_GetHashCode() 'Guilded.NET.Base.GId.GetHashCode()') | Gets a hashcode of this object.<br/> |
+| [ToString()](GId_ToString() 'Guilded.NET.Base.GId.ToString()') | Returns the string representation of this [GId](GId 'Guilded.NET.Base.GId') instance.<br/> |
 
 | Operators | |
 | :--- | :--- |
-| [operator ==(GId, GId)](GId_operator(GId_GId) 'Guilded.NET.Base.GId.op_Equality(Guilded.NET.Base.GId, Guilded.NET.Base.GId)') | Checks if given [GId](GId 'Guilded.NET.Base.GId')s are the same.<br/> |
-| [operator !=(GId, GId)](GId_operator!(GId_GId) 'Guilded.NET.Base.GId.op_Inequality(Guilded.NET.Base.GId, Guilded.NET.Base.GId)') | Checks if given [GId](GId 'Guilded.NET.Base.GId')s are the same.<br/> |
+| [operator ==(GId, GId)](GId_operator(GId_GId) 'Guilded.NET.Base.GId.op_Equality(Guilded.NET.Base.GId, Guilded.NET.Base.GId)') | Returns whether [id0](GId_operator(GId_GId)#Guilded_NET_Base_GId_op_Equality(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_id0 'Guilded.NET.Base.GId.op_Equality(Guilded.NET.Base.GId, Guilded.NET.Base.GId).id0') and [id1](GId_operator(GId_GId)#Guilded_NET_Base_GId_op_Equality(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_id1 'Guilded.NET.Base.GId.op_Equality(Guilded.NET.Base.GId, Guilded.NET.Base.GId).id1') are equal.<br/> |
+| [operator !=(GId, GId)](GId_operator!(GId_GId) 'Guilded.NET.Base.GId.op_Inequality(Guilded.NET.Base.GId, Guilded.NET.Base.GId)') | Returns whether [id0](GId_operator!(GId_GId)#Guilded_NET_Base_GId_op_Inequality(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_id0 'Guilded.NET.Base.GId.op_Inequality(Guilded.NET.Base.GId, Guilded.NET.Base.GId).id0') and [id1](GId_operator!(GId_GId)#Guilded_NET_Base_GId_op_Inequality(Guilded_NET_Base_GId_Guilded_NET_Base_GId)_id1 'Guilded.NET.Base.GId.op_Inequality(Guilded.NET.Base.GId, Guilded.NET.Base.GId).id1') are not equal.<br/> |
 
 #### See Also
 - [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')

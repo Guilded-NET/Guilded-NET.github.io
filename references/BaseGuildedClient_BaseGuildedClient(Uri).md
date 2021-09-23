@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.BaseGuildedClient(Uri) Constructor
-A base for Guilded client.  
+Creates default settings for [BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')'s child types.  
 ```csharp
 protected BaseGuildedClient(System.Uri apiUrl);
 ```
@@ -15,6 +15,6 @@ URL of Guilded API
 
 #### Exceptions
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When apiurl or socketurl are null
-[System.UriFormatException](https://docs.microsoft.com/en-us/dotnet/api/System.UriFormatException 'System.UriFormatException')  
-When apiurl or socketurl are invalid
+When [apiUrl](BaseGuildedClient_BaseGuildedClient(Uri)#Guilded_NET_Base_BaseGuildedClient_BaseGuildedClient(System_Uri)_apiUrl 'Guilded.NET.Base.BaseGuildedClient.BaseGuildedClient(System.Uri).apiUrl') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
+### Remarks
+Inititates REST client and serializer settings.

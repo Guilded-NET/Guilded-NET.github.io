@@ -1,13 +1,13 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat')
 ## ChatElement Class
-The base type for message element, such as [Node](Node 'Guilded.NET.Base.Chat.Node')s.  
+The base type for message elements, such as [Node](Node 'Guilded.NET.Base.Chat.Node') type.  
 ```csharp
 public abstract class ChatElement : Guilded.NET.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; ChatElement  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; ChatElement  
 
 Derived  
 &#8627; [Leaf](Leaf 'Guilded.NET.Base.Chat.Leaf')  

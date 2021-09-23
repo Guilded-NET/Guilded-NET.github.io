@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[CodeContainer](CodeContainer 'Guilded.NET.Base.Chat.CodeContainer')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[CodeContainer](CodeContainer 'Guilded.NET.Base.Chat.CodeContainer')
 ## CodeContainer.Language Property
 The language this codeblock is highlighted as.  
 ```csharp

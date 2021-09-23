@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[MessageContent](MessageContent 'Guilded.NET.Base.Chat.MessageContent')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[MessageContent](MessageContent 'Guilded.NET.Base.Chat.MessageContent')
 ## MessageContent.Nodes Property
 Gets the list of nodes of the document.  
 ```csharp

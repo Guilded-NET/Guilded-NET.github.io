@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[GId](GId 'Guilded.NET.Base.GId')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[GId](GId 'Guilded.NET.Base.GId')
 ## GId.GId(string) Constructor
 The identifier for Guilded teams, users, etc.  
 ```csharp

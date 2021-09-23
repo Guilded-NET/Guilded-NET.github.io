@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ElementData](ElementData 'Guilded.NET.Base.Chat.ElementData')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ElementData](ElementData 'Guilded.NET.Base.Chat.ElementData')
 ## ElementData.CreatedBy Property
 Who created the post reply header is replying to or who did the action system message is referring to.  
 ```csharp

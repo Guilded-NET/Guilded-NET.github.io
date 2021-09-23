@@ -1,12 +1,18 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Message](Message 'Guilded.NET.Base.Chat.Message')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Content](Guilded_NET_Base#Guilded_NET_Base_Content 'Guilded.NET.Base.Content').[Message](Message 'Guilded.NET.Base.Content.Message')
 ## Message.Content Property
-The contents of this message as a Markdown string.  
+The contents of the message.  
 ```csharp
 public string Content { get; set; }
 ```
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
-Content
+Content in Markdown
+### Remarks
+The contents of the message in Markdown format.
+
+
+
+This includes images and videos, which are in the format of `![](source_url)`.

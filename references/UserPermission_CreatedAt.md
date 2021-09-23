@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Teams](index#Guilded_NET_Base_Teams 'Guilded.NET.Base.Teams').[UserPermission](UserPermission 'Guilded.NET.Base.Teams.UserPermission')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions').[UserPermission](UserPermission 'Guilded.NET.Base.Permissions.UserPermission')
 ## UserPermission.CreatedAt Property
-Date when this permission was created.  
+The date when this permission was created.  
 ```csharp
 public System.DateTime CreatedAt { get; set; }
 ```
@@ -11,4 +11,4 @@ public System.DateTime CreatedAt { get; set; }
 [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
 Date
 
-Implements [CreatedAt](IPermission_CreatedAt 'Guilded.NET.Base.Teams.IPermission.CreatedAt')  
+Implements [CreatedAt](IPermission_CreatedAt 'Guilded.NET.Base.Permissions.IPermission.CreatedAt')  

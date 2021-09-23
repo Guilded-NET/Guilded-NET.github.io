@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
 ## EmbedAuthor.EmbedAuthor(string, Uri, Uri) Constructor
-The author of the embed.  
+Creates a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') with optional URL [url](EmbedAuthor_EmbedAuthor(string_Uri_Uri)#Guilded_NET_Base_Embeds_EmbedAuthor_EmbedAuthor(string_System_Uri_System_Uri)_url 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, System.Uri, System.Uri).url').  
 ```csharp
 public EmbedAuthor(string name, System.Uri iconUrl=null, System.Uri url=null);
 ```
@@ -20,3 +20,7 @@ The URL to author's icon
 `url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')  
 The URL that author links
   
+
+#### Exceptions
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+[name](EmbedAuthor_EmbedAuthor(string_Uri_Uri)#Guilded_NET_Base_Embeds_EmbedAuthor_EmbedAuthor(string_System_Uri_System_Uri)_name 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, System.Uri, System.Uri).name') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace

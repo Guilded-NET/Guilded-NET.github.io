@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
 ## EmbedMedia.EmbedMedia(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;) Constructor
-The image or the thumbnail image in an embed.  
+Creates a new instance of [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia') with optional size parameters.  
 ```csharp
 public EmbedMedia(System.Uri url, System.Nullable<uint> width=null, System.Nullable<uint> height=null);
 ```

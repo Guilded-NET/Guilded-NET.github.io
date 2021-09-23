@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## ForumPermissions Enum
 Permissions of forum channel.  
 ```csharp
@@ -36,6 +36,10 @@ All of the manage permissions combined.
 <a name='Guilded_NET_Base_Permissions_ForumPermissions_ManageTopics'></a>
 `ManageTopics` 8  
 Allows you to remove topics and replies by others, or move them to other channels  
+  
+<a name='Guilded_NET_Base_Permissions_ForumPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_ForumPermissions_ReadForums'></a>
 `ReadForums` 2  

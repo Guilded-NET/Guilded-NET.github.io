@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[GIdConverter](GIdConverter 'Guilded.NET.Base.GIdConverter')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[GIdConverter](GIdConverter 'Guilded.NET.Base.GIdConverter')
 ## GIdConverter.CanConvertFrom(ITypeDescriptorContext, Type) Method
 Whether the type can be converted to [GId](GId 'Guilded.NET.Base.GId').  
 ```csharp

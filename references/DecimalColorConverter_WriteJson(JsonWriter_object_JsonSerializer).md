@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[DecimalColorConverter](DecimalColorConverter 'Guilded.NET.Base.DecimalColorConverter')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[DecimalColorConverter](DecimalColorConverter 'Guilded.NET.Base.DecimalColorConverter')
 ## DecimalColorConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
 Writes given object as JSON.  
 ```csharp

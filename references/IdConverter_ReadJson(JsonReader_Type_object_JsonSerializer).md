@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[IdConverter](IdConverter 'Guilded.NET.Base.IdConverter')
 ## IdConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
 Reads the given JSON object as [GId](GId 'Guilded.NET.Base.GId') or [FormId](FormId 'Guilded.NET.Base.FormId').  
 ```csharp

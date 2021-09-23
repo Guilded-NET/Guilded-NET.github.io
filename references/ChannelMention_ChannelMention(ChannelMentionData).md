@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChannelMention](ChannelMention 'Guilded.NET.Base.Chat.ChannelMention')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChannelMention](ChannelMention 'Guilded.NET.Base.Chat.ChannelMention')
 ## ChannelMention.ChannelMention(ChannelMentionData) Constructor
 A mention of a team channel.  
 ```csharp

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[FormId](FormId 'Guilded.NET.Base.FormId')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[FormId](FormId 'Guilded.NET.Base.FormId')
 ## FormId.FormId(string) Constructor
 The identifier for forms and media uploads.  
 ```csharp

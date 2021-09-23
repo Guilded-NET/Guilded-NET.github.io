@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer')
 ## TextContainer.TextContainer(string, object[], MarkType[]) Constructor
 Creates a new [TextContainer](TextContainer 'Guilded.NET.Base.Chat.TextContainer') with content as a formatting string and leaf formatting [formatting](TextContainer_TextContainer(string_object___MarkType__)#Guilded_NET_Base_Chat_TextContainer_TextContainer(string_object___Guilded_NET_Base_Chat_MarkType__)_formatting 'Guilded.NET.Base.Chat.TextContainer.TextContainer(string, object[], Guilded.NET.Base.Chat.MarkType[]).formatting').  
 ```csharp

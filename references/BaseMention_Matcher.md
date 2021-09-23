@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[BaseMention](BaseMention 'Guilded.NET.Base.Chat.BaseMention')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[BaseMention](BaseMention 'Guilded.NET.Base.Chat.BaseMention')
 ## BaseMention.Matcher Property
 Mention as a string.  
 ```csharp

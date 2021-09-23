@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## CustomPermissions Enum
 Permissions which allow you to customize things, such as nicknames and emotes.  
 ```csharp
@@ -24,4 +24,8 @@ Allows the creation and management of server emoji
 <a name='Guilded_NET_Base_Permissions_CustomPermissions_ManageNicknames'></a>
 `ManageNicknames` 32  
 Members with this permission can change the nickname of others.  
+  
+<a name='Guilded_NET_Base_Permissions_CustomPermissions_None'></a>
+`None` 0  
+No given permissions.  
   

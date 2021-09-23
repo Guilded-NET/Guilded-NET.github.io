@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Embeds](index#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.Embed(string, string, EmbedFooter, DateTime) Constructor
-The data of the message embed.  
+Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed_Embed(string_string_EmbedFooter_DateTime)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedFooter_System_DateTime)_footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime).footer') and title [title](Embed_Embed(string_string_EmbedFooter_DateTime)#Guilded_NET_Base_Embeds_Embed_Embed(string_string_Guilded_NET_Base_Embeds_EmbedFooter_System_DateTime)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, string, Guilded.NET.Base.Embeds.EmbedFooter, System.DateTime).title').  
 ```csharp
 public Embed(string title, string description, Guilded.NET.Base.Embeds.EmbedFooter footer, System.DateTime timestamp);
 ```

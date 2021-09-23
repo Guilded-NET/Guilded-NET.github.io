@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[GId](GId 'Guilded.NET.Base.GId')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[GId](GId 'Guilded.NET.Base.GId')
 ## GId.GetHashCode() Method
-Gets identifier's hashcode.  
+Gets a hashcode of this object.  
 ```csharp
 public override int GetHashCode();
 ```

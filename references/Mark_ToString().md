@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Mark](Mark 'Guilded.NET.Base.Chat.Mark')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[Mark](Mark 'Guilded.NET.Base.Chat.Mark')
 ## Mark.ToString() Method
 Returns this mark's formatting prefix/postfix.  
 ```csharp

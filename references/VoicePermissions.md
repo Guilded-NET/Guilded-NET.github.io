@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## VoicePermissions Enum
 Voice chat/channel permissions.  
 ```csharp
@@ -48,6 +48,10 @@ Allows you to move members to other voice rooms
 <a name='Guilded_NET_Base_Permissions_VoicePermissions_MuteMembers'></a>
 `MuteMembers` 128  
 Allows you to mute members in voice chats  
+  
+<a name='Guilded_NET_Base_Permissions_VoicePermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_VoicePermissions_PrioritySpeaker'></a>
 `PrioritySpeaker` 32  

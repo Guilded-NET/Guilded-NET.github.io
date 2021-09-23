@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## ChatPermissions Enum
 Chat/text channel related permissions.  
 ```csharp
@@ -32,6 +32,10 @@ Allows you to delete chat messages by other members or pin any message
 <a name='Guilded_NET_Base_Permissions_ChatPermissions_ManageThreads'></a>
 `ManageThreads` 64  
 Allows you to archive and restore threads  
+  
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_ChatPermissions_ReadMessages'></a>
 `ReadMessages` 2  

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET](index 'index')
-### [Guilded.NET.Converters](index#Guilded_NET_Converters 'Guilded.NET.Converters').[RichTextConverter](RichTextConverter 'Guilded.NET.Converters.RichTextConverter')
+#### [Guilded.NET](Guilded_NET 'Guilded_NET')
+### [Guilded.NET.Converters](Guilded_NET#Guilded_NET_Converters 'Guilded.NET.Converters').[RichTextConverter](RichTextConverter 'Guilded.NET.Converters.RichTextConverter')
 ## RichTextConverter.CanWrite Property
 If this converter can write.  
 ```csharp

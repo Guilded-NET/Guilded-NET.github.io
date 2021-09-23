@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatList](ChatList 'Guilded.NET.Base.Chat.ChatList')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ChatList](ChatList 'Guilded.NET.Base.Chat.ChatList')
 ## ChatList.IsOrdered Property
-Whether the list is with numbers or with bullets.   
+Whether the list is with numbers or with bullets.  
 ```csharp
 public bool IsOrdered { get; }
 ```

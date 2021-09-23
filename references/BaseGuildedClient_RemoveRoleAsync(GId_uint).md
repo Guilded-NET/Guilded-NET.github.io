@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
 ## BaseGuildedClient.RemoveRoleAsync(GId, uint) Method
 Removes a role from the given user.  
 ```csharp
@@ -22,8 +22,12 @@ The identifier of the role to remove
 
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
-When the client receives an error from Guilded API
-### Example
-```csharp
-await client.RemoveRoleAsync(message.CreatedBy, 100000000);  
-```
+[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
+### Remarks
+Removes a role of [roleId](BaseGuildedClient_RemoveRoleAsync(GId_uint)#Guilded_NET_Base_BaseGuildedClient_RemoveRoleAsync(Guilded_NET_Base_GId_uint)_roleId 'Guilded.NET.Base.BaseGuildedClient.RemoveRoleAsync(Guilded.NET.Base.GId, uint).roleId') from the member of [memberId](BaseGuildedClient_RemoveRoleAsync(GId_uint)#Guilded_NET_Base_BaseGuildedClient_RemoveRoleAsync(Guilded_NET_Base_GId_uint)_memberId 'Guilded.NET.Base.BaseGuildedClient.RemoveRoleAsync(Guilded.NET.Base.GId, uint).memberId') if permissions are met.
+
+
+
+If they don't hold a role of [roleId](BaseGuildedClient_RemoveRoleAsync(GId_uint)#Guilded_NET_Base_BaseGuildedClient_RemoveRoleAsync(Guilded_NET_Base_GId_uint)_roleId 'Guilded.NET.Base.BaseGuildedClient.RemoveRoleAsync(Guilded.NET.Base.GId, uint).roleId'), then nothing happens.

@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Permissions](index#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## RecruitmentPermissions Enum
 All of the permissions related to applications and recruiting.  
 ```csharp
@@ -32,6 +32,10 @@ All of the manage permissions combined.
 <a name='Guilded_NET_Base_Permissions_RecruitmentPermissions_ModifyStatus'></a>
 `ModifyStatus` 32  
 Allows you to modify the Find Player status for server listing card  
+  
+<a name='Guilded_NET_Base_Permissions_RecruitmentPermissions_None'></a>
+`None` 0  
+No given permissions.  
   
 <a name='Guilded_NET_Base_Permissions_RecruitmentPermissions_ViewApplications'></a>
 `ViewApplications` 2  

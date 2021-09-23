@@ -1,6 +1,6 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Chat](index#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ElementData](ElementData 'Guilded.NET.Base.Chat.ElementData')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Chat](Guilded_NET_Base#Guilded_NET_Base_Chat 'Guilded.NET.Base.Chat').[ElementData](ElementData 'Guilded.NET.Base.Chat.ElementData')
 ## ElementData.PostId Property
 The identifier of the post reply header is replying to.  
 ```csharp

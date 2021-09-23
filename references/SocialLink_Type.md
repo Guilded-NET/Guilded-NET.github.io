@@ -1,12 +1,12 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base.Users](index#Guilded_NET_Base_Users 'Guilded.NET.Base.Users').[SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base.Users](Guilded_NET_Base#Guilded_NET_Base_Users 'Guilded.NET.Base.Users').[SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink')
 ## SocialLink.Type Property
-Social media's name.  
+The type of social link it is.  
 ```csharp
-public string Type { get; set; }
+public Guilded.NET.Base.Users.SocialLinkType Type { get; set; }
 ```
 
 #### Property Value
-[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
-Social media name
+[SocialLinkType](SocialLinkType 'Guilded.NET.Base.Users.SocialLinkType')
+Social link platform

@@ -1,8 +1,8 @@
 
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](index#Guilded_NET_Base 'Guilded.NET.Base').[BaseEmote](BaseEmote 'Guilded.NET.Base.BaseEmote')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[BaseEmote](BaseEmote 'Guilded.NET.Base.BaseEmote')
 ## BaseEmote.Name Property
-Name of the emote.  
+The name of the emote.  
 ```csharp
 public string Name { get; set; }
 ```
