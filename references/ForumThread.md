@@ -9,7 +9,7 @@ public class ForumThread : Guilded.NET.Base.Content.ChannelContent<uint>
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#x27A1; [Guilded.NET.Base.Content.ChannelContent&lt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;') &#x27A1; ForumThread  
 ### Remarks
-A forum post/thread in forums.
+A forum post/thread in forums that holds [Content](ForumThread_Content 'Guilded.NET.Base.Content.ForumThread.Content') and a short [Title](ForumThread_Title 'Guilded.NET.Base.Content.ForumThread.Title').
 
 
 

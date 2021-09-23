@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.AddField(EmbedField) Method
-Adds one [field](Embed_AddField(EmbedField)#Guilded_NET_Base_Embeds_Embed_AddField(Guilded_NET_Base_Embeds_EmbedField)_field 'Guilded.NET.Base.Embeds.Embed.AddField(Guilded.NET.Base.Embeds.EmbedField).field') to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.  
+Adds the given field to the embed.  
 ```csharp
 public Guilded.NET.Base.Embeds.Embed AddField(Guilded.NET.Base.Embeds.EmbedField field);
 ```
@@ -10,20 +10,19 @@ public Guilded.NET.Base.Embeds.Embed AddField(Guilded.NET.Base.Embeds.EmbedField
 #### Parameters
 <a name='Guilded_NET_Base_Embeds_Embed_AddField(Guilded_NET_Base_Embeds_EmbedField)_field'></a>
 `field` [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')  
-A field to be added
+A field to add
   
 
 #### Returns
 [Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-This
+Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+
+#### Exceptions
+[System.OverflowException](https://docs.microsoft.com/en-us/dotnet/api/System.OverflowException 'System.OverflowException')  
+When the combined field list exceeds max field limit of `25`
 ### Remarks
-If [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') will be set as a list with one field [field](Embed_AddField(EmbedField)#Guilded_NET_Base_Embeds_Embed_AddField(Guilded_NET_Base_Embeds_EmbedField)_field 'Guilded.NET.Base.Embeds.Embed.AddField(Guilded.NET.Base.Embeds.EmbedField).field').
+Adds the [field](Embed_AddField(EmbedField)#Guilded_NET_Base_Embeds_Embed_AddField(Guilded_NET_Base_Embeds_EmbedField)_field 'Guilded.NET.Base.Embeds.Embed.AddField(Guilded.NET.Base.Embeds.EmbedField).field') parameter to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property.
 
 
 
-If [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property has a value, [field](Embed_AddField(EmbedField)#Guilded_NET_Base_Embeds_Embed_AddField(Guilded_NET_Base_Embeds_EmbedField)_field 'Guilded.NET.Base.Embeds.Embed.AddField(Guilded.NET.Base.Embeds.EmbedField).field') will be added to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields').
-
-
-
-The max field limit per embed is 25. If 25 field limit is exceeded,  
-[System.OverflowException](https://docs.microsoft.com/en-us/dotnet/api/System.OverflowException 'System.OverflowException') will be thrown.
+The max field limit per embed is 25. If 25 field limit is exceeded, [System.OverflowException](https://docs.microsoft.com/en-us/dotnet/api/System.OverflowException 'System.OverflowException') will be thrown.

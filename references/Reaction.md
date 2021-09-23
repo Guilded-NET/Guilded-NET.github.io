@@ -9,7 +9,7 @@ public class Reaction : Guilded.NET.Base.ClientObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#x27A1; Reaction  
 ### Remarks
-Defines a react in [ChannelContent&lt;T&gt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;').
+Defines a reaction in [ChannelContent&lt;T&gt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;'). Currently doesn't hold the count of all reactions, nor return all reacting users.
 
 | Properties | |
 | :--- | :--- |
@@ -26,6 +26,4 @@ Defines a react in [ChannelContent&lt;T&gt;](ChannelContent_T_ 'Guilded.NET.Base
 | [GetHashCode()](Reaction_GetHashCode() 'Guilded.NET.Base.Content.Reaction.GetHashCode()') | Gets a hashcode of this object.<br/> |
 
 #### See Also
-- [Emote](Emote 'Guilded.NET.Base.Emote')
 - [Message](Message 'Guilded.NET.Base.Content.Message')
-- [ChatEmote](ChatEmote 'Guilded.NET.Base.Chat.ChatEmote')

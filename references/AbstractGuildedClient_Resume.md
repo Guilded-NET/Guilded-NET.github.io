@@ -10,13 +10,7 @@ public System.IObservable<Guilded.NET.Base.Events.ResumeEvent> Resume { get; }
 #### Property Value
 [System.IObservable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')[ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')
 ### Remarks
-[ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent') only occurs if last event message identifier  
-is passed to the WebSocket in `guilded-last-message-id` header.
-
-
-
-This event is only received after all events are given to the client  
-and normal events are being received again.
+[ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent') only occurs if last event message identifier is passed to the WebSocket in `guilded-last-message-id` header. This event is only received after all events are given to the client and normal events are being received again.
 
 
 

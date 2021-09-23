@@ -27,19 +27,13 @@ Derived
 | Methods | |
 | :--- | :--- |
 | [AddReactionAsync(uint)](MessageEvent_AddReactionAsync(uint) 'Guilded.NET.Base.Events.MessageEvent.AddReactionAsync(uint)') | Adds a reaction to a message.<br/> |
-| [CreateMessageAsync(MessageContent, bool, Guid[])](MessageEvent_CreateMessageAsync(MessageContent_bool_Guid__) 'Guilded.NET.Base.Events.MessageEvent.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent, bool, System.Guid[])') | Creates a message in a chat.<br/> |
-| [CreateMessageAsync(MessageContent, Guid[])](MessageEvent_CreateMessageAsync(MessageContent_Guid__) 'Guilded.NET.Base.Events.MessageEvent.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent, System.Guid[])') | Creates a message in a chat.<br/> |
-| [CreateMessageAsync(MessageContent)](MessageEvent_CreateMessageAsync(MessageContent) 'Guilded.NET.Base.Events.MessageEvent.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent)') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(string, bool, Guid[])](MessageEvent_CreateMessageAsync(string_bool_Guid__) 'Guilded.NET.Base.Events.MessageEvent.CreateMessageAsync(string, bool, System.Guid[])') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(string, Guid[])](MessageEvent_CreateMessageAsync(string_Guid__) 'Guilded.NET.Base.Events.MessageEvent.CreateMessageAsync(string, System.Guid[])') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(string)](MessageEvent_CreateMessageAsync(string) 'Guilded.NET.Base.Events.MessageEvent.CreateMessageAsync(string)') | Creates a message in a chat.<br/> |
 | [DeleteMessageAsync()](MessageEvent_DeleteMessageAsync() 'Guilded.NET.Base.Events.MessageEvent.DeleteMessageAsync()') | Deletes a specified message.<br/> |
 | [RemoveReactionAsync(uint)](MessageEvent_RemoveReactionAsync(uint) 'Guilded.NET.Base.Events.MessageEvent.RemoveReactionAsync(uint)') | Removes a reaction from a message.<br/> |
-| [ReplyAsync(MessageContent, bool)](MessageEvent_ReplyAsync(MessageContent_bool) 'Guilded.NET.Base.Events.MessageEvent.ReplyAsync(Guilded.NET.Base.Chat.MessageContent, bool)') | Replies to the message in the chat.<br/> |
-| [ReplyAsync(MessageContent)](MessageEvent_ReplyAsync(MessageContent) 'Guilded.NET.Base.Events.MessageEvent.ReplyAsync(Guilded.NET.Base.Chat.MessageContent)') | Replies to the message in the chat.<br/> |
 | [ReplyAsync(string, bool)](MessageEvent_ReplyAsync(string_bool) 'Guilded.NET.Base.Events.MessageEvent.ReplyAsync(string, bool)') | Replies to the message in the chat.<br/> |
 | [ReplyAsync(string)](MessageEvent_ReplyAsync(string) 'Guilded.NET.Base.Events.MessageEvent.ReplyAsync(string)') | Replies to the message in the chat.<br/> |
-| [UpdateMessageAsync(MessageContent)](MessageEvent_UpdateMessageAsync(MessageContent) 'Guilded.NET.Base.Events.MessageEvent.UpdateMessageAsync(Guilded.NET.Base.Chat.MessageContent)') | Updates the contents of the message.<br/> |
 | [UpdateMessageAsync(string)](MessageEvent_UpdateMessageAsync(string) 'Guilded.NET.Base.Events.MessageEvent.UpdateMessageAsync(string)') | Updates the contents of the message.<br/> |
 
 #### See Also

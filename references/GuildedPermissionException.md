@@ -9,13 +9,7 @@ public sealed class GuildedPermissionException : Guilded.NET.Base.GuildedExcepti
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#x27A1; [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') &#x27A1; GuildedPermissionException  
 ### Remarks
-An exception thrown by Guilded API when request is invalid.
-
-
-
-This is caused if you are trying to access or do an action that requires permissions,  
-but you don't have them. This can only be fixed by getting said permissions by a server staff  
-and is usually not controlled by you.
+An exception thrown by Guilded API when request is invalid. This is caused if you are trying to access or do an action that requires permissions, but you don't have them. This can only be fixed by getting said permissions by a server staff and is usually not controlled by you.
 
 | Constructors | |
 | :--- | :--- |

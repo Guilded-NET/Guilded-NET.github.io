@@ -9,11 +9,7 @@ public class EmbedMedia : Guilded.NET.Base.BaseObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; EmbedMedia  
 ### Remarks
-Represents an image, a thumbnail or a video in an embed.
-
-
-
-Provides both a way to set image's URL and its dimensions
+Represents an image, a thumbnail or a video in an embed that can have its defined dimensions with [Width](EmbedMedia_Width 'Guilded.NET.Base.Embeds.EmbedMedia.Width') and [Height](EmbedMedia_Height 'Guilded.NET.Base.Embeds.EmbedMedia.Height') properties.
 
 | Constructors | |
 | :--- | :--- |
@@ -27,6 +23,5 @@ Provides both a way to set image's URL and its dimensions
 
 #### See Also
 - [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter')
-- [EmbedProvider](EmbedProvider 'Guilded.NET.Base.Embeds.EmbedProvider')
 - [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
 - [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')

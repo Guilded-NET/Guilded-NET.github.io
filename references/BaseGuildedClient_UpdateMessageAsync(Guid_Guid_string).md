@@ -35,8 +35,7 @@ When the [content](BaseGuildedClient_UpdateMessageAsync(Guid_Guid_string)#Guilde
 [System.ArgumentOutOfRangeException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentOutOfRangeException 'System.ArgumentOutOfRangeException')  
 When the [content](BaseGuildedClient_UpdateMessageAsync(Guid_Guid_string)#Guilded_NET_Base_BaseGuildedClient_UpdateMessageAsync(System_Guid_System_Guid_string)_content 'Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, string).content') is above the message limit of 4000 characters
 ### Remarks
-Edits the message [messageId](BaseGuildedClient_UpdateMessageAsync(Guid_Guid_string)#Guilded_NET_Base_BaseGuildedClient_UpdateMessageAsync(System_Guid_System_Guid_string)_messageId 'Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, string).messageId'), if the specified message is from  
-the client. This does not work if the client is not the creator of the message.
+Edits the message [messageId](BaseGuildedClient_UpdateMessageAsync(Guid_Guid_string)#Guilded_NET_Base_BaseGuildedClient_UpdateMessageAsync(System_Guid_System_Guid_string)_messageId 'Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, string).messageId'), if the specified message is from the client. This does not work if the client is not the creator of the message.
 
 
 

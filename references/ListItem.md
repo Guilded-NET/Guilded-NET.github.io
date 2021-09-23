@@ -8,6 +8,12 @@ public class ListItem : Guilded.NET.Base.Content.ChannelContent<System.Guid>
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#x27A1; [Guilded.NET.Base.Content.ChannelContent&lt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](ChannelContent_T_ 'Guilded.NET.Base.Content.ChannelContent&lt;T&gt;') &#x27A1; ListItem  
+### Remarks
+A list item in a list channel that has [Message](ListItem_Message 'Guilded.NET.Base.Content.ListItem.Message') and optionally [Note](ListItem_Note 'Guilded.NET.Base.Content.ListItem.Note').
+
+
+
+It can only be found as a return value when creating a list item.
 
 | Properties | |
 | :--- | :--- |

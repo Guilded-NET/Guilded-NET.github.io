@@ -9,8 +9,7 @@ public class MessageDeletedEvent.MessageDeleted : Guilded.NET.Base.BaseObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; MessageDeleted  
 ### Remarks
-A no longer existing message that was deleted/removed  
-by an author of this message or by a server staff.
+A no longer existing message that was deleted/removed by an author of this message or by a server staff.
 
 | Properties | |
 | :--- | :--- |

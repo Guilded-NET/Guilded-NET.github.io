@@ -9,12 +9,7 @@ public class RolesUpdatedEvent : Guilded.NET.Base.BaseObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; RolesUpdatedEvent  
 ### Remarks
-An event that occurs once role holder either loses a role or receives it.
-
-
-
-This event does not give a list of lost/received events or give a previous role  
-list, so previous role list must be cached, if necessary.
+An event that occurs once role holder either loses a role or receives it. This event does not give a list of lost/received events or give a previous role list, so previous role list must be cached, if necessary.
 
 
 

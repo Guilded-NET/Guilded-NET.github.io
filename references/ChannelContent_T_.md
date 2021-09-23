@@ -20,12 +20,7 @@ Derived
 &#8627; [ListItem](ListItem 'Guilded.NET.Base.Content.ListItem')  
 &#8627; [Message](Message 'Guilded.NET.Base.Content.Message')  
 ### Remarks
-Defines the base type for all channel contents.
-
-
-
-This is not the base type for deleted channel content, as they hold minimal information  
-about deleted content.
+Defines the base type for all channel contents, apart from deleted ones.
 
 | Properties | |
 | :--- | :--- |

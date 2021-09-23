@@ -9,15 +9,7 @@ public class XpAddedEvent : Guilded.NET.Base.BaseObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; XpAddedEvent  
 ### Remarks
-An event that occurs once [Amount](XpAddedEvent_Amount 'Guilded.NET.Base.Events.XpAddedEvent.Amount') XP is given to [Users](XpAddedEvent_Users 'Guilded.NET.Base.Events.XpAddedEvent.Users').
-
-
-
-This can be given to a couple users, instead of it being restricted to one user.
-
-
-
-[XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent') can only occur in teams, including tournaments.
+An event that occurs once [Amount](XpAddedEvent_Amount 'Guilded.NET.Base.Events.XpAddedEvent.Amount') XP is given to [Users](XpAddedEvent_Users 'Guilded.NET.Base.Events.XpAddedEvent.Users'). This can be given to a couple users, instead of it being restricted to one user. [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent') can only occur in teams and tournaments.
 
 
 

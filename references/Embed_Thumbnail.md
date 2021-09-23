@@ -15,5 +15,4 @@ An image that represents a thumbnail.
 
 
 
-This is displayed as image at the right of the embed  
-and as square in the official Guilded app.
+This is displayed as image at the right of the embed and as square in the official Guilded app.

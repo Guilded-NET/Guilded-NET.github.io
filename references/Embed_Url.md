@@ -15,5 +15,4 @@ Defines the URL to the content this embed displays.
 
 
 
-This is displayed as [Title](Embed_Title 'Guilded.NET.Base.Embeds.Embed.Title') but as a hyperlink  
-that links this URL by the Guilded official app.
+This is displayed as [Title](Embed_Title 'Guilded.NET.Base.Embeds.Embed.Title') but as a hyperlink that links this URL by the Guilded official app.

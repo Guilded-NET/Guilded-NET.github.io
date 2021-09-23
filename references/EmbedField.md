@@ -9,15 +9,7 @@ public class EmbedField : Guilded.NET.Base.BaseObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; EmbedField  
 ### Remarks
-Displays a field with its own description/value and title/name.
-
-
-
-Fields can be both inline and blocks.
-
-
-
-They are only inline if [Inline](EmbedField_Inline 'Guilded.NET.Base.Embeds.EmbedField.Inline') parameter is [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool').
+Displays a field with its own description/value and title/name. Fields can be both inline and blocks. They are only inline if [Inline](EmbedField_Inline 'Guilded.NET.Base.Embeds.EmbedField.Inline') parameter is [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool').
 
 | Constructors | |
 | :--- | :--- |
@@ -31,6 +23,5 @@ They are only inline if [Inline](EmbedField_Inline 'Guilded.NET.Base.Embeds.Embe
 
 #### See Also
 - [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter')
-- [EmbedProvider](EmbedProvider 'Guilded.NET.Base.Embeds.EmbedProvider')
 - [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
 - [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')

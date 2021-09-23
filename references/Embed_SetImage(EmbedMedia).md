@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.SetImage(EmbedMedia) Method
-Sets [Image](Embed_Image 'Guilded.NET.Base.Embeds.Embed.Image') as [media](Embed_SetImage(EmbedMedia)#Guilded_NET_Base_Embeds_Embed_SetImage(Guilded_NET_Base_Embeds_EmbedMedia)_media 'Guilded.NET.Base.Embeds.Embed.SetImage(Guilded.NET.Base.Embeds.EmbedMedia).media') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.  
+Sets the embed image as the given parameter.  
 ```csharp
 public Guilded.NET.Base.Embeds.Embed SetImage(Guilded.NET.Base.Embeds.EmbedMedia media);
 ```
@@ -15,4 +15,4 @@ The media to use as an image
 
 #### Returns
 [Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-This
+Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance

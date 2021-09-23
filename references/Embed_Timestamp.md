@@ -15,5 +15,4 @@ The [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTim
 
 
 
-This is usually displayed in the [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') by clients  
-like Guilded official client, but may be displayed elsewhere in other clients.
+This is usually displayed in the [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') by clients like Guilded official client, but may be displayed elsewhere in other clients.

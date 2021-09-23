@@ -16,18 +16,9 @@ The list of random Guilded identifiers:
   
 R40Mp0Wd  
 Ann6LewA  
-Abcdefg7  
-UasJs5I  
-QiW0kBN  
-Ga9aSd3  
 ```
 ### Remarks
-The identifier of various Guilded objects.
-
-
-
-Guilded identifier is 8 characters in length and  
-consists of digits, uppercase letters and lowercase letters.
+The identifier of various Guilded objects. Guilded identifier is 8 characters in length and consists of digits, uppercase letters and lowercase letters.
 
 
 

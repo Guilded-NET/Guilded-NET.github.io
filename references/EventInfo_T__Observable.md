@@ -13,12 +13,8 @@ public System.IObservable<T> Observable { get; }
 
 Implements [Observable](IEventInfo_T__Observable 'Guilded.NET.IEventInfo&lt;T&gt;.Observable')  
 ### Remarks
-An observable that can be subscribed to.
+An observable that can be subscribed to. The received event will be of type [T](EventInfo_T_#Guilded_NET_EventInfo_T__T 'Guilded.NET.EventInfo&lt;T&gt;.T').
 
 
 
-The received event will be of type [T](EventInfo_T_#Guilded_NET_EventInfo_T__T 'Guilded.NET.EventInfo&lt;T&gt;.T').
-
-
-
-This relies on [Subject](EventInfo_T__Subject 'Guilded.NET.EventInfo&lt;T&gt;.Subject') subject.
+This relies on [Subject](EventInfo_T__Subject 'Guilded.NET.EventInfo&lt;T&gt;.Subject').

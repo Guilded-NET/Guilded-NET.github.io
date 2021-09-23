@@ -25,11 +25,7 @@ Embed embed = new Embed
 await client.CreateMessageAsync(channelId, new ChatEmbed(embed));  
 ```
 ### Remarks
-Defines an author of the quoting message or anything else.
-
-
-
-The [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') feature has following properties:
+Defines an author of the quoting message or anything else. The [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') feature has following properties:
 
 | Constructors | |
 | :--- | :--- |
@@ -43,6 +39,5 @@ The [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') feature has
 
 #### See Also
 - [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter')
-- [EmbedProvider](EmbedProvider 'Guilded.NET.Base.Embeds.EmbedProvider')
 - [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')
 - [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')

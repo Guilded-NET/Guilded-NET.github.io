@@ -9,11 +9,7 @@ public class GuildedWebsocketException : System.Exception
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#x27A1; GuildedWebsocketException  
 ### Remarks
-An error that occurs involving WebSockets.
-
-
-
-This error can occur in these different ways:
+An error that occurs involving WebSockets. This error can occur in these different ways:
 
 <list type="bullet">  
   <item>  

@@ -53,19 +53,13 @@ This message type can be found in:
 | Methods | |
 | :--- | :--- |
 | [AddReactionAsync(uint)](Message_AddReactionAsync(uint) 'Guilded.NET.Base.Content.Message.AddReactionAsync(uint)') | Adds a reaction to a message.<br/> |
-| [CreateMessageAsync(MessageContent, bool, Guid[])](Message_CreateMessageAsync(MessageContent_bool_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent, bool, System.Guid[])') | Creates a message in a chat.<br/> |
-| [CreateMessageAsync(MessageContent, Guid[])](Message_CreateMessageAsync(MessageContent_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent, System.Guid[])') | Creates a message in a chat.<br/> |
-| [CreateMessageAsync(MessageContent)](Message_CreateMessageAsync(MessageContent) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(Guilded.NET.Base.Chat.MessageContent)') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(string, bool, Guid[])](Message_CreateMessageAsync(string_bool_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string, bool, System.Guid[])') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(string, Guid[])](Message_CreateMessageAsync(string_Guid__) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string, System.Guid[])') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(string)](Message_CreateMessageAsync(string) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string)') | Creates a message in a chat.<br/> |
 | [DeleteMessageAsync()](Message_DeleteMessageAsync() 'Guilded.NET.Base.Content.Message.DeleteMessageAsync()') | Deletes a specified message.<br/> |
 | [RemoveReactionAsync(uint)](Message_RemoveReactionAsync(uint) 'Guilded.NET.Base.Content.Message.RemoveReactionAsync(uint)') | Removes a reaction from a message.<br/> |
-| [ReplyAsync(MessageContent, bool)](Message_ReplyAsync(MessageContent_bool) 'Guilded.NET.Base.Content.Message.ReplyAsync(Guilded.NET.Base.Chat.MessageContent, bool)') | Replies to the message in the chat.<br/> |
-| [ReplyAsync(MessageContent)](Message_ReplyAsync(MessageContent) 'Guilded.NET.Base.Content.Message.ReplyAsync(Guilded.NET.Base.Chat.MessageContent)') | Replies to the message in the chat.<br/> |
 | [ReplyAsync(string, bool)](Message_ReplyAsync(string_bool) 'Guilded.NET.Base.Content.Message.ReplyAsync(string, bool)') | Replies to the message in the chat.<br/> |
 | [ReplyAsync(string)](Message_ReplyAsync(string) 'Guilded.NET.Base.Content.Message.ReplyAsync(string)') | Replies to the message in the chat.<br/> |
-| [UpdateMessageAsync(MessageContent)](Message_UpdateMessageAsync(MessageContent) 'Guilded.NET.Base.Content.Message.UpdateMessageAsync(Guilded.NET.Base.Chat.MessageContent)') | Updates the contents of the message.<br/> |
 | [UpdateMessageAsync(string)](Message_UpdateMessageAsync(string) 'Guilded.NET.Base.Content.Message.UpdateMessageAsync(string)') | Updates the contents of the message.<br/> |
 
 #### See Also
@@ -73,4 +67,3 @@ This message type can be found in:
 - [ForumThread](ForumThread 'Guilded.NET.Base.Content.ForumThread')
 - [MessageCreatedEvent](MessageCreatedEvent 'Guilded.NET.Base.Events.MessageCreatedEvent')
 - [MessageUpdatedEvent](MessageUpdatedEvent 'Guilded.NET.Base.Events.MessageUpdatedEvent')
-- [MessageContent](MessageContent 'Guilded.NET.Base.Chat.MessageContent')

@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.SetFooter(object, Uri) Method
-Sets [Footer](Embed_Footer 'Guilded.NET.Base.Embeds.Embed.Footer') as new [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.  
+Sets the footer as the given parameters.  
 ```csharp
 public Guilded.NET.Base.Embeds.Embed SetFooter(object text, System.Uri iconUrl=null);
 ```
@@ -19,7 +19,6 @@ The icon of the footer
 
 #### Returns
 [Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-This
+Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
 ### Remarks
-Creates a new instance of [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') with text [text](Embed_SetFooter(object_Uri)#Guilded_NET_Base_Embeds_Embed_SetFooter(object_System_Uri)_text 'Guilded.NET.Base.Embeds.Embed.SetFooter(object, System.Uri).text')  
-and icon [iconUrl](Embed_SetFooter(object_Uri)#Guilded_NET_Base_Embeds_Embed_SetFooter(object_System_Uri)_iconUrl 'Guilded.NET.Base.Embeds.Embed.SetFooter(object, System.Uri).iconUrl') and sets it to [Footer](Embed_Footer 'Guilded.NET.Base.Embeds.Embed.Footer').
+Sets [Footer](Embed_Footer 'Guilded.NET.Base.Embeds.Embed.Footer') as a new instance of [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') made from given parameters. The text will be set as string equivalent to [text](Embed_SetFooter(object_Uri)#Guilded_NET_Base_Embeds_Embed_SetFooter(object_System_Uri)_text 'Guilded.NET.Base.Embeds.Embed.SetFooter(object, System.Uri).text').

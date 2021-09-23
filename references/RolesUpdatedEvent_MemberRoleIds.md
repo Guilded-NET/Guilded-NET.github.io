@@ -4,11 +4,11 @@
 ## RolesUpdatedEvent.MemberRoleIds Property
 The list of receiving/losing member and current roles.  
 ```csharp
-public System.Collections.Generic.IList<Guilded.NET.Base.Teams.MemberRoles> MemberRoleIds { get; set; }
+public System.Collections.Generic.IList<Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated> MemberRoleIds { get; set; }
 ```
 
 #### Property Value
-[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[MemberRoles](MemberRoles 'Guilded.NET.Base.Teams.MemberRoles')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')
+[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[RolesUpdated](RolesUpdatedEvent_RolesUpdated 'Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')
 Member and role definition
 ### Remarks
 The list of user and their current role list in IDs.

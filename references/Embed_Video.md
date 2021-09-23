@@ -11,4 +11,8 @@ public Guilded.NET.Base.Embeds.EmbedMedia Video { get; set; }
 [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
 Media?
 ### Remarks
-A video that will appear in the embed.  
+A video that will appear in the embed.
+
+
+
+This is displayed as a video that appears at the bottom of the embed and above a footer in the official Guilded app.

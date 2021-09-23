@@ -29,6 +29,7 @@ There is not much to be used here. It is recommended to use [GuildedBotClient](G
 | Properties | |
 | :--- | :--- |
 | [GuildedEvents](AbstractGuildedClient_GuildedEvents 'Guilded.NET.AbstractGuildedClient.GuildedEvents') | A dictionary of Guilded events.<br/> |
+| [MemberUpdated](AbstractGuildedClient_MemberUpdated 'Guilded.NET.AbstractGuildedClient.MemberUpdated') | An event that occurs once a member gets updated.<br/> |
 | [MessageCreated](AbstractGuildedClient_MessageCreated 'Guilded.NET.AbstractGuildedClient.MessageCreated') | An event that occurs once someone creates a message.<br/> |
 | [MessageDeleted](AbstractGuildedClient_MessageDeleted 'Guilded.NET.AbstractGuildedClient.MessageDeleted') | An event that occurs once someone deletes a message.<br/> |
 | [MessageUpdated](AbstractGuildedClient_MessageUpdated 'Guilded.NET.AbstractGuildedClient.MessageUpdated') | An event that occurs once someone edits a message.<br/> |
@@ -46,13 +47,8 @@ There is not much to be used here. It is recommended to use [GuildedBotClient](G
 | [AddXpAsync(GId, short)](AbstractGuildedClient_AddXpAsync(GId_short) 'Guilded.NET.AbstractGuildedClient.AddXpAsync(Guilded.NET.Base.GId, short)') | Adds XP to the given user.<br/> |
 | [AttachRoleLevelAsync(uint, long)](AbstractGuildedClient_AttachRoleLevelAsync(uint_long) 'Guilded.NET.AbstractGuildedClient.AttachRoleLevelAsync(uint, long)') | Attaches amount of XP required to a role.<br/> |
 | [ConnectAsync()](AbstractGuildedClient_ConnectAsync() 'Guilded.NET.AbstractGuildedClient.ConnectAsync()') | Connects this client to Guilded.<br/> |
-| [CreateForumThreadAsync(Guid, string, MessageContent)](AbstractGuildedClient_CreateForumThreadAsync(Guid_string_MessageContent) 'Guilded.NET.AbstractGuildedClient.CreateForumThreadAsync(System.Guid, string, Guilded.NET.Base.Chat.MessageContent)') | Creates a forum thread.<br/> |
 | [CreateForumThreadAsync(Guid, string, string)](AbstractGuildedClient_CreateForumThreadAsync(Guid_string_string) 'Guilded.NET.AbstractGuildedClient.CreateForumThreadAsync(System.Guid, string, string)') | Creates a forum thread.<br/> |
-| [CreateListItemAsync(Guid, MessageContent, MessageContent)](AbstractGuildedClient_CreateListItemAsync(Guid_MessageContent_MessageContent) 'Guilded.NET.AbstractGuildedClient.CreateListItemAsync(System.Guid, Guilded.NET.Base.Chat.MessageContent, Guilded.NET.Base.Chat.MessageContent)') | Creates a list item.<br/> |
 | [CreateListItemAsync(Guid, string, string)](AbstractGuildedClient_CreateListItemAsync(Guid_string_string) 'Guilded.NET.AbstractGuildedClient.CreateListItemAsync(System.Guid, string, string)') | Creates a list item.<br/> |
-| [CreateMessageAsync(Guid, MessageContent, bool, Guid[])](AbstractGuildedClient_CreateMessageAsync(Guid_MessageContent_bool_Guid__) 'Guilded.NET.AbstractGuildedClient.CreateMessageAsync(System.Guid, Guilded.NET.Base.Chat.MessageContent, bool, System.Guid[])') | Creates a message in a chat.<br/> |
-| [CreateMessageAsync(Guid, MessageContent, Guid[])](AbstractGuildedClient_CreateMessageAsync(Guid_MessageContent_Guid__) 'Guilded.NET.AbstractGuildedClient.CreateMessageAsync(System.Guid, Guilded.NET.Base.Chat.MessageContent, System.Guid[])') | Creates a message in a chat.<br/> |
-| [CreateMessageAsync(Guid, MessageContent)](AbstractGuildedClient_CreateMessageAsync(Guid_MessageContent) 'Guilded.NET.AbstractGuildedClient.CreateMessageAsync(System.Guid, Guilded.NET.Base.Chat.MessageContent)') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(Guid, string, bool, Guid[])](AbstractGuildedClient_CreateMessageAsync(Guid_string_bool_Guid__) 'Guilded.NET.AbstractGuildedClient.CreateMessageAsync(System.Guid, string, bool, System.Guid[])') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(Guid, string, Guid[])](AbstractGuildedClient_CreateMessageAsync(Guid_string_Guid__) 'Guilded.NET.AbstractGuildedClient.CreateMessageAsync(System.Guid, string, System.Guid[])') | Creates a message in a chat.<br/> |
 | [CreateMessageAsync(Guid, string)](AbstractGuildedClient_CreateMessageAsync(Guid_string) 'Guilded.NET.AbstractGuildedClient.CreateMessageAsync(System.Guid, string)') | Creates a message in a chat.<br/> |
@@ -63,12 +59,11 @@ There is not much to be used here. It is recommended to use [GuildedBotClient](G
 | [GetMessageAsync(Guid, Guid)](AbstractGuildedClient_GetMessageAsync(Guid_Guid) 'Guilded.NET.AbstractGuildedClient.GetMessageAsync(System.Guid, System.Guid)') | Gets a message in a specific channel.<br/> |
 | [GetMessagesAsync(Guid, uint)](AbstractGuildedClient_GetMessagesAsync(Guid_uint) 'Guilded.NET.AbstractGuildedClient.GetMessagesAsync(System.Guid, uint)') | Gets messages with a specific limit.<br/> |
 | [GetSocialLinkAsync(GId, SocialLinkType)](AbstractGuildedClient_GetSocialLinkAsync(GId_SocialLinkType) 'Guilded.NET.AbstractGuildedClient.GetSocialLinkAsync(Guilded.NET.Base.GId, Guilded.NET.Base.Users.SocialLinkType)') | Gets user's social links.<br/> |
-| [OnSocketMessage(GuildedEvent)](AbstractGuildedClient_OnSocketMessage(GuildedEvent) 'Guilded.NET.AbstractGuildedClient.OnSocketMessage(Guilded.NET.Base.Events.GuildedEvent)') | When the socket message event is invoked.<br/> |
+| [OnSocketMessage(GuildedSocketMessage)](AbstractGuildedClient_OnSocketMessage(GuildedSocketMessage) 'Guilded.NET.AbstractGuildedClient.OnSocketMessage(Guilded.NET.Base.Events.GuildedSocketMessage)') | When the socket message event is invoked.<br/> |
 | [RemoveMembershipAsync(GId, GId)](AbstractGuildedClient_RemoveMembershipAsync(GId_GId) 'Guilded.NET.AbstractGuildedClient.RemoveMembershipAsync(Guilded.NET.Base.GId, Guilded.NET.Base.GId)') | Removes a member from the group.<br/> |
 | [RemoveReactionAsync(Guid, Guid, uint)](AbstractGuildedClient_RemoveReactionAsync(Guid_Guid_uint) 'Guilded.NET.AbstractGuildedClient.RemoveReactionAsync(System.Guid, System.Guid, uint)') | Removes a reaction from a message.<br/> |
 | [RemoveReactionAsync(Guid, uint, uint)](AbstractGuildedClient_RemoveReactionAsync(Guid_uint_uint) 'Guilded.NET.AbstractGuildedClient.RemoveReactionAsync(System.Guid, uint, uint)') | Removes a reaction from the content.<br/> |
 | [RemoveRoleAsync(GId, uint)](AbstractGuildedClient_RemoveRoleAsync(GId_uint) 'Guilded.NET.AbstractGuildedClient.RemoveRoleAsync(Guilded.NET.Base.GId, uint)') | Removes a role from the given user.<br/> |
-| [UpdateMessageAsync(Guid, Guid, MessageContent)](AbstractGuildedClient_UpdateMessageAsync(Guid_Guid_MessageContent) 'Guilded.NET.AbstractGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, Guilded.NET.Base.Chat.MessageContent)') | Updates the contents of the message.<br/> |
 | [UpdateMessageAsync(Guid, Guid, string)](AbstractGuildedClient_UpdateMessageAsync(Guid_Guid_string) 'Guilded.NET.AbstractGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, string)') | Updates the contents of the message.<br/> |
 | [UpdateNicknameAsync(GId, string)](AbstractGuildedClient_UpdateNicknameAsync(GId_string) 'Guilded.NET.AbstractGuildedClient.UpdateNicknameAsync(Guilded.NET.Base.GId, string)') | Updates member's nickname.<br/> |
 

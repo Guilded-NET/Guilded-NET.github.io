@@ -9,11 +9,7 @@ public sealed class GuildedResourceException : Guilded.NET.Base.GuildedException
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#x27A1; [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') &#x27A1; GuildedResourceException  
 ### Remarks
-An exception thrown by Guilded API when the request has invalid path.
-
-
-
-This has these leading causes:
+An exception thrown by Guilded API when the request has invalid path. This has these leading causes:
 
 <list type="bullet">  
   <item>  

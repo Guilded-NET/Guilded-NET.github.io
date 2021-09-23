@@ -15,5 +15,4 @@ The display colour of the embed.
 
 
 
-This is displayed as left-side border in the official Guilded client,  
-but may be displayed differently in other clients.
+This is displayed as left-side border in the official Guilded client, but may be displayed differently in other clients.

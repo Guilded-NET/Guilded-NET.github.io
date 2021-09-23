@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.SetFooter(EmbedFooter) Method
-Sets [Footer](Embed_Footer 'Guilded.NET.Base.Embeds.Embed.Footer') as [footer](Embed_SetFooter(EmbedFooter)#Guilded_NET_Base_Embeds_Embed_SetFooter(Guilded_NET_Base_Embeds_EmbedFooter)_footer 'Guilded.NET.Base.Embeds.Embed.SetFooter(Guilded.NET.Base.Embeds.EmbedFooter).footer') of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.  
+Sets the footer as the given parameter.  
 ```csharp
 public Guilded.NET.Base.Embeds.Embed SetFooter(Guilded.NET.Base.Embeds.EmbedFooter footer);
 ```
@@ -15,4 +15,4 @@ The footer to set
 
 #### Returns
 [Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-This
+Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance

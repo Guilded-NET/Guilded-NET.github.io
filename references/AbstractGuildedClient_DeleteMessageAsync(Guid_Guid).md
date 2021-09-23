@@ -26,5 +26,4 @@ The identifier of the message to delete
 [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
 [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
 ### Remarks
-Removes the message of identifier [messageId](AbstractGuildedClient_DeleteMessageAsync(Guid_Guid)#Guilded_NET_AbstractGuildedClient_DeleteMessageAsync(System_Guid_System_Guid)_messageId 'Guilded.NET.AbstractGuildedClient.DeleteMessageAsync(System.Guid, System.Guid).messageId'), whether it be from the client or  
-another user.
+Removes the message of identifier [messageId](AbstractGuildedClient_DeleteMessageAsync(Guid_Guid)#Guilded_NET_AbstractGuildedClient_DeleteMessageAsync(System_Guid_System_Guid)_messageId 'Guilded.NET.AbstractGuildedClient.DeleteMessageAsync(System.Guid, System.Guid).messageId'), whether it be from the client or another user.

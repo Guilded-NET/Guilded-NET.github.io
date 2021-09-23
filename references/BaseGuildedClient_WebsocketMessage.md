@@ -4,11 +4,11 @@
 ## BaseGuildedClient.WebsocketMessage Property
 An event when WebSocket receives a message.  
 ```csharp
-protected System.IObservable<Guilded.NET.Base.Events.GuildedEvent> WebsocketMessage { get; }
+protected System.IObservable<Guilded.NET.Base.Events.GuildedSocketMessage> WebsocketMessage { get; }
 ```
 
 #### Property Value
-[System.IObservable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')[GuildedEvent](GuildedEvent 'Guilded.NET.Base.Events.GuildedEvent')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')
+[System.IObservable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')[GuildedSocketMessage](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')
 
 #### Exceptions
 [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException')  

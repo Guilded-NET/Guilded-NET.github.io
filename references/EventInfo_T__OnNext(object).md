@@ -15,8 +15,4 @@ The next received value
 
 Implements [OnNext(object)](IEventInfo_T__OnNext(object) 'Guilded.NET.IEventInfo&lt;T&gt;.OnNext(object)')  
 ### Remarks
-Notifies all [Observable](EventInfo_T__Observable 'Guilded.NET.EventInfo&lt;T&gt;.Observable')'s observers.
-
-
-
-Invokes [Subject](EventInfo_T__Subject 'Guilded.NET.EventInfo&lt;T&gt;.Subject')'s [System.Reactive.Subjects.Subject&lt;&gt;.OnNext(@0)](https://docs.microsoft.com/en-us/dotnet/api/System.Reactive.Subjects.Subject-1.OnNext#System_Reactive_Subjects_Subject_1_OnNext__0_ 'System.Reactive.Subjects.Subject`1.OnNext(`0)') method.
+Notifies all [Observable](EventInfo_T__Observable 'Guilded.NET.EventInfo&lt;T&gt;.Observable')'s observers. Invokes [Subject](EventInfo_T__Subject 'Guilded.NET.EventInfo&lt;T&gt;.Subject')'s [System.Reactive.Subjects.Subject&lt;&gt;.OnNext(@0)](https://docs.microsoft.com/en-us/dotnet/api/System.Reactive.Subjects.Subject-1.OnNext#System_Reactive_Subjects_Subject_1_OnNext__0_ 'System.Reactive.Subjects.Subject`1.OnNext(`0)') method.

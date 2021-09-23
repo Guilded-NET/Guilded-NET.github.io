@@ -13,8 +13,4 @@ public void OnError(System.Exception exception);
 The next received exception/error
   
 ### Remarks
-Notifies all [Observable](EventInfo_T__Observable 'Guilded.NET.EventInfo&lt;T&gt;.Observable')'s observers with an error.
-
-
-
-Invokes [Subject](EventInfo_T__Subject 'Guilded.NET.EventInfo&lt;T&gt;.Subject')'s [System.Reactive.Subjects.Subject&lt;&gt;.OnError(System.Exception)](https://docs.microsoft.com/en-us/dotnet/api/System.Reactive.Subjects.Subject-1.OnError#System_Reactive_Subjects_Subject_1_OnError_System_Exception_ 'System.Reactive.Subjects.Subject`1.OnError(System.Exception)') method.
+Notifies all [Observable](EventInfo_T__Observable 'Guilded.NET.EventInfo&lt;T&gt;.Observable')'s observers with an error. Invokes [Subject](EventInfo_T__Subject 'Guilded.NET.EventInfo&lt;T&gt;.Subject')'s [System.Reactive.Subjects.Subject&lt;&gt;.OnError(System.Exception)](https://docs.microsoft.com/en-us/dotnet/api/System.Reactive.Subjects.Subject-1.OnError#System_Reactive_Subjects_Subject_1_OnError_System_Exception_ 'System.Reactive.Subjects.Subject`1.OnError(System.Exception)') method.

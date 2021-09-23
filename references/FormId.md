@@ -20,11 +20,7 @@ r-7289920-2930323
 r-4598392-4859302  
 ```
 ### Remarks
-The form identifier.
-
-
-
-This can only be found in forms(form fields specifically) and media upload progress tracking.
+The form identifier. This can only be found in forms(form fields specifically) and media upload progress tracking.
 
 | Constructors | |
 | :--- | :--- |

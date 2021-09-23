@@ -13,8 +13,4 @@ Type
 
 Implements [ArgumentType](IEventInfo_T__ArgumentType 'Guilded.NET.IEventInfo&lt;T&gt;.ArgumentType')  
 ### Remarks
-The type of the event that will be received.
-
-
-
-Relies on [T](EventInfo_T_#Guilded_NET_EventInfo_T__T 'Guilded.NET.EventInfo&lt;T&gt;.T') type.
+The type of the event that will be received. Relies on [T](EventInfo_T_#Guilded_NET_EventInfo_T__T 'Guilded.NET.EventInfo&lt;T&gt;.T') type.

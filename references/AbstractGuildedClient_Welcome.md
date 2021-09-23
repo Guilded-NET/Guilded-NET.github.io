@@ -14,8 +14,7 @@ This event is received once WebSocket (re)connects to Guilded.
 
 
 
-[WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has  
-connected to Guilded or that the events from Guilded are being received.
+[WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.
 
 
 

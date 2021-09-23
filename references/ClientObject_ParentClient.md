@@ -15,10 +15,8 @@ The parent client that deserialized this object.
 
 
 
-This is initiated via internal OnDeserialized method and only available  
-after deserialization, but not during it.
+This is initiated via internal OnDeserialized method and only available after deserialization, but not during it.
 
 
 
-[ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') is used to provide methods to objects, such as  
-[CreateMessageAsync(string)](Message_CreateMessageAsync(string) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string)'), which rely on built-in client methods.
+[ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') is used to provide methods to objects, such as [CreateMessageAsync(string)](Message_CreateMessageAsync(string) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string)'), which rely on built-in client methods.

@@ -15,5 +15,4 @@ An image that will appear in the embed.
 
 
 
-This is displayed as an image that appears at the bottom of the embed and  
-above a footer in the official Guilded app.
+This is displayed as an image that appears at the bottom of the embed and above a footer in the official Guilded app.

@@ -11,8 +11,4 @@ System.Type ArgumentType { get; }
 [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type')
 Type
 ### Remarks
-The type of the event that will be received.
-
-
-
-Relies on [T](IEventInfo_T_#Guilded_NET_IEventInfo_T__T 'Guilded.NET.IEventInfo&lt;T&gt;.T') type.
+The type of the event that will be received. Relies on [T](IEventInfo_T_#Guilded_NET_IEventInfo_T__T 'Guilded.NET.IEventInfo&lt;T&gt;.T') type.

@@ -10,7 +10,7 @@ public T Deserialize<T>(string json);
 #### Type parameters
 <a name='Guilded_NET_Base_BaseGuildedClient_Deserialize_T_(string)_T'></a>
 `T`  
-Returning type
+The type of deserialized instance
   
 
 #### Parameters
@@ -23,8 +23,7 @@ Raw JSON to deserialize
 [T](BaseGuildedClient_Deserialize_T_(string)#Guilded_NET_Base_BaseGuildedClient_Deserialize_T_(string)_T 'Guilded.NET.Base.BaseGuildedClient.Deserialize&lt;T&gt;(string).T')  
 Deserialized object
 ### Remarks
-Deserializes given JSON file/text using [GuildedSerializer](BaseGuildedClient_GuildedSerializer 'Guilded.NET.Base.BaseGuildedClient.GuildedSerializer').
+Deserializes given JSON file/text using [GuildedSerializer](BaseGuildedClient_GuildedSerializer 'Guilded.NET.Base.BaseGuildedClient.GuildedSerializer'). Use this if you want to deserialize Guilded response or WebSocket message.
 
-
-
-Use this if you want to deserialize Guilded response or WebSocket message.
+#### See Also
+- [Serialize(object)](BaseGuildedClient_Serialize(object) 'Guilded.NET.Base.BaseGuildedClient.Serialize(object)')

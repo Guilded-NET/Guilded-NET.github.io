@@ -15,18 +15,11 @@ Derived
 &#8627; [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException')  
 &#8627; [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
 ### Remarks
-A base exception type for Guilded.
+A base exception type for Guilded. This should not usually be thrown and instead, children types of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') should be thrown instead. If you see it get thrown, this is most likely due to internal server error or some kind of other unknown exception.
 
 
 
-This should not usually be thrown and instead, children types of  
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') should be thrown instead. If you see it get thrown, this is  
-most likely due to internal server error or some kind of other unknown exception.
-
-
-
-If you get internal server error, make sure you are doing everything right as  
-documented or noted.
+If you get internal server error, make sure you are doing everything right as documented or noted.
 
 | Constructors | |
 | :--- | :--- |

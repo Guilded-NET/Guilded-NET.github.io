@@ -9,13 +9,7 @@ public sealed class GuildedAuthorizationException : Guilded.NET.Base.GuildedExce
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#x27A1; [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') &#x27A1; GuildedAuthorizationException  
 ### Remarks
-An exception thrown by Guilded API when the request is invalid.
-
-
-
-This is caused if you are trying to connect to Guilded or do an action with invalid  
-or expired authentication token. The only solution is to create a new authentication  
-token and use it instead.
+An exception thrown by Guilded API when the request is invalid. This is caused if you are trying to connect to Guilded or do an action with invalid or expired authentication token. The only solution is to create a new authentication token and use it instead.
 
 | Constructors | |
 | :--- | :--- |

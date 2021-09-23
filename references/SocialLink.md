@@ -9,7 +9,7 @@ public class SocialLink : Guilded.NET.Base.BaseObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; SocialLink  
 ### Remarks
-Defines what platforms this user has linked to, such as [Twitch](SocialLinkType#Guilded_NET_Base_Users_SocialLinkType_Twitch 'Guilded.NET.Base.Users.SocialLinkType.Twitch').
+Defines what platforms this user has linked to, such as [Twitch](SocialLinkType#Guilded_NET_Base_Users_SocialLinkType_Twitch 'Guilded.NET.Base.Users.SocialLinkType.Twitch') and provides information about them.
 
 | Properties | |
 | :--- | :--- |

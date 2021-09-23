@@ -11,8 +11,4 @@ protected System.Timers.Timer HeartbeatTimer { get; set; }
 [System.Timers.Timer](https://docs.microsoft.com/en-us/dotnet/api/System.Timers.Timer 'System.Timers.Timer')
 Timer
 ### Remarks
-A timer that sends a heartbeat through WebSockets to Guilded.
-
-
-
-This ensures that WebSockets are still connected to Guilded.
+A timer that sends a heartbeat through WebSockets to Guilded. This ensures that WebSockets are still connected to Guilded.

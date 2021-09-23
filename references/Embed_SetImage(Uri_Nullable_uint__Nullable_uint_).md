@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
 ## Embed.SetImage(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;) Method
-Sets [Image](Embed_Image 'Guilded.NET.Base.Embeds.Embed.Image') as a new [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia') instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.  
+Sets the embed image as the given parameters.  
 ```csharp
 public Guilded.NET.Base.Embeds.Embed SetImage(System.Uri url, System.Nullable<uint> width=null, System.Nullable<uint> height=null);
 ```
@@ -23,8 +23,6 @@ The height of the image
 
 #### Returns
 [Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-This
+Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
 ### Remarks
-Creates a new instance of [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia') with source URL [url](Embed_SetImage(Uri_Nullable_uint__Nullable_uint_)#Guilded_NET_Base_Embeds_Embed_SetImage(System_Uri_System_Nullable_uint__System_Nullable_uint_)_url 'Guilded.NET.Base.Embeds.Embed.SetImage(System.Uri, System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;).url'),  
-height [height](Embed_SetImage(Uri_Nullable_uint__Nullable_uint_)#Guilded_NET_Base_Embeds_Embed_SetImage(System_Uri_System_Nullable_uint__System_Nullable_uint_)_height 'Guilded.NET.Base.Embeds.Embed.SetImage(System.Uri, System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;).height') and width [width](Embed_SetImage(Uri_Nullable_uint__Nullable_uint_)#Guilded_NET_Base_Embeds_Embed_SetImage(System_Uri_System_Nullable_uint__System_Nullable_uint_)_width 'Guilded.NET.Base.Embeds.Embed.SetImage(System.Uri, System.Nullable&lt;uint&gt;, System.Nullable&lt;uint&gt;).width')  
-and sets it to [Image](Embed_Image 'Guilded.NET.Base.Embeds.Embed.Image')
+Sets [Image](Embed_Image 'Guilded.NET.Base.Embeds.Embed.Image') as a new instance of [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia') made from given parameter.

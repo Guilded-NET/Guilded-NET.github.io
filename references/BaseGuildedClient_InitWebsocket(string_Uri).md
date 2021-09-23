@@ -33,4 +33,4 @@ If [lastMessageId](BaseGuildedClient_InitWebsocket(string_Uri)#Guilded_NET_Base_
 
 #### See Also
 - [ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent')
-- [InitWebsocket(GuildedEvent)](BaseGuildedClient_InitWebsocket(GuildedEvent) 'Guilded.NET.Base.BaseGuildedClient.InitWebsocket(Guilded.NET.Base.Events.GuildedEvent)')
+- [InitWebsocket(GuildedSocketMessage)](BaseGuildedClient_InitWebsocket(GuildedSocketMessage) 'Guilded.NET.Base.BaseGuildedClient.InitWebsocket(Guilded.NET.Base.Events.GuildedSocketMessage)')

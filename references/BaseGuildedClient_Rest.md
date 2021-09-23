@@ -11,7 +11,7 @@ protected internal IRestClient Rest { get; set; }
 [RestSharp.IRestClient](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.IRestClient 'RestSharp.IRestClient')
 Rest client
 ### Remarks
-The REST client that is used for all Guilded requests by Guilded.NET.  
+The REST client that is used to send requests to Guilded API.
 
 #### See Also
 - [Websocket](https://docs.microsoft.com/en-us/dotnet/api/Websocket 'Websocket')

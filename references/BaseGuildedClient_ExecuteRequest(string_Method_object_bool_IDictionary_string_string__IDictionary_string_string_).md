@@ -40,11 +40,9 @@ Request response
 #### Exceptions
 [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')  
 [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')  
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')  
+[GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException')  
 [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')  
 When [resource](BaseGuildedClient_ExecuteRequest(string_Method_object_bool_IDictionary_string_string__IDictionary_string_string_)#Guilded_NET_Base_BaseGuildedClient_ExecuteRequest(string_Method_object_bool_System_Collections_Generic_IDictionary_string_string__System_Collections_Generic_IDictionary_string_string_)_resource 'Guilded.NET.Base.BaseGuildedClient.ExecuteRequest(string, Method, object, bool, System.Collections.Generic.IDictionary&lt;string,string&gt;, System.Collections.Generic.IDictionary&lt;string,string&gt;).resource') refers to an invalid endpoint
 ### Remarks
-Sends a request to Guilded API and returns response as [RestSharp.IRestResponse&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.IRestResponse-1 'RestSharp.IRestResponse`1') type.
-
-
-
-Any errors received will be thrown.
+Sends a request to Guilded API and returns response as [RestSharp.IRestResponse&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.IRestResponse-1 'RestSharp.IRestResponse`1') type. Any errors received will be thrown.

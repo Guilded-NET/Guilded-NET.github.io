@@ -20,5 +20,4 @@
 | Classes | |
 | :--- | :--- |
 | [HexColorConverter](HexColorConverter 'Guilded.NET.Converters.HexColorConverter') | Converts colour to hex for roles.<br/> |
-| [RichTextConverter](RichTextConverter 'Guilded.NET.Converters.RichTextConverter') | Converts JSON to rich text markup objects.<br/> |
   

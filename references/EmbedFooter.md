@@ -9,12 +9,7 @@ public class EmbedFooter : Guilded.NET.Base.BaseObject
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; EmbedFooter  
 ### Remarks
-The bottom area of an embed that provides further information about anything.
-
-
-
-Footers can also have timestamps, but that can be used by setting [Timestamp](Embed_Timestamp 'Guilded.NET.Base.Embeds.Embed.Timestamp') property. Timestamps are  
-not officially part of footers, but that's the most common way they are displayed by the clients and official Guilded app.
+The bottom area of an embed that defines a side information about something, such as post likes. Footers can also have timestamps, but that can be used by setting [Timestamp](Embed_Timestamp 'Guilded.NET.Base.Embeds.Embed.Timestamp') property. Timestamps are not officially part of footers, but that's the way it is displayed.
 
 | Constructors | |
 | :--- | :--- |
@@ -26,7 +21,6 @@ not officially part of footers, but that's the most common way they are displaye
 | [Text](EmbedFooter_Text 'Guilded.NET.Base.Embeds.EmbedFooter.Text') | The description of the footer.<br/> |
 
 #### See Also
-- [EmbedProvider](EmbedProvider 'Guilded.NET.Base.Embeds.EmbedProvider')
 - [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
 - [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')
 - [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')

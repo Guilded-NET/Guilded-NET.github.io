@@ -15,4 +15,4 @@ A dictionary of all supported Guilded events, containing their event names and i
 
 
 
-Use this if you need to support events that Guilded.NET does not.
+You can add more events to this dictionary if Guilded.NET does not support certain events.

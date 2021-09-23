@@ -15,4 +15,4 @@ Gets the identifier of the last received event message that was passed in `guild
 
 
 
-You can get the identifier of the event message by using [MessageId](GuildedEvent_MessageId 'Guilded.NET.Base.Events.GuildedEvent.MessageId') property from events.
+You can get the identifier of the event message by using [MessageId](GuildedSocketMessage_MessageId 'Guilded.NET.Base.Events.GuildedSocketMessage.MessageId') property from events.

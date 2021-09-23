@@ -10,15 +10,14 @@ public string Serialize(object obj);
 #### Parameters
 <a name='Guilded_NET_Base_BaseGuildedClient_Serialize(object)_obj'></a>
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
-Object to serialize
+The parameter to serialize
   
 
 #### Returns
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
 Serialized object
 ### Remarks
-Serializes given object to JSON using [GuildedSerializer](BaseGuildedClient_GuildedSerializer 'Guilded.NET.Base.BaseGuildedClient.GuildedSerializer').
+Serializes given object to JSON using [GuildedSerializer](BaseGuildedClient_GuildedSerializer 'Guilded.NET.Base.BaseGuildedClient.GuildedSerializer'). Use this if you want to send REST request or WebSocket message.
 
-
-
-Use this if you want to send REST request or WebSocket message.
+#### See Also
+- [Deserialize&lt;T&gt;(string)](BaseGuildedClient_Deserialize_T_(string) 'Guilded.NET.Base.BaseGuildedClient.Deserialize&lt;T&gt;(string)')
