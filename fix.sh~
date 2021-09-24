@@ -1,4 +1,0 @@
-# Pattern to fix filess
-pattern="s/#### /\n#### /g; s/🡒/➡/g; s/&#129106/&#x27A1/g; s/            //g"
-# fixes all files in ./references
-find ./references -name "*.md" -exec sed -i -e "$pattern" {} \;

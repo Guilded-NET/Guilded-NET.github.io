@@ -32,7 +32,7 @@ Now you should be able to see new templates in `dotnet new`
 2. Create new folder for your bot. Use the name of your bot. E.g., `JoesBot`, `EpicBot`, `DungeonBot`, `BirdBot`, `CatBot`.
 3. Go to that folder in your terminal.
 4. Type `dotnet new guilded.net.client`. It will use the name of your folder. If you want to name it other way, use `dotnet new guilded.net.client -n NameOfTheBot`
-5. Change `config/config.json` file and write email & password of your user bot.
+5. Change `config/config.json` file and add your bot's authentication token.
 
 Now launch it with `dotnet run`. It should say that you have successfully logged in. Write `!ping` into the chat and the bot should respond.
 
