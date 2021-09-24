@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## ListPermissions Enum
-List channel's permissions.  
+Permissions related to lists.  
 ```csharp
 public enum ListPermissions
 
@@ -49,3 +49,5 @@ Allows you to reorder list items
 `ViewListItems` 2  
 Allows you to view list items  
   
+### Remarks
+Defines permissions related to lists/tasks in list channels.

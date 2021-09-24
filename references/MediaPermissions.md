@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## MediaPermissions Enum
-Permissions related to media channel.  
+Permissions related to media.  
 ```csharp
 public enum MediaPermissions
 
@@ -41,3 +41,5 @@ Allows you to remove media created by others
 `SeeMedia` 2  
 Allows you to see media  
   
+### Remarks
+Defines permissions related to media in media channels.

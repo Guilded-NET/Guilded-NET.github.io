@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## XPPermissions Enum
-Permissions related to XP and levels.  
+Permissions related to XP.  
 ```csharp
 public enum XPPermissions
 
@@ -25,3 +25,5 @@ Allows you to manage XP on server members
 `None` 0  
 No given permissions.  
   
+### Remarks
+Defines permissions related to XP & levels.

@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base')
 ## GId Struct
-The identifier for Guilded teams, users, etc.  
+An identifier for Guilded teams, users, etc.  
 ```csharp
 public struct GId :
 System.IEquatable<Guilded.NET.Base.GId>

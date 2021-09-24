@@ -2,7 +2,8 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## BotPermissions Enum
-Permissions for managing bots and flowbots.  
+Permissions related to bots.  
+ 
 ```csharp
 public enum BotPermissions
 
@@ -23,3 +24,5 @@ can create bots to work around their role's existing permissions.
 `None` 0  
 No given permissions.  
   
+### Remarks
+Defines permissions for flowbots related things.

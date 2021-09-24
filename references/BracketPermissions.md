@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## BracketPermissions Enum
-All of the bracket permissions for team tournaments.  
+Permissions related to brackets.  
 ```csharp
 public enum BracketPermissions
 
@@ -25,3 +25,5 @@ Allows you to report match scores on behalf of your server
 `ViewBrackets` 2  
 Allows you to view tournament brackets  
   
+### Remarks
+Defines permissions for tournament bracket related things.

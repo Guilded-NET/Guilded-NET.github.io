@@ -23,9 +23,6 @@ Derived
 &#8627; [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')  
 &#8627; [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')  
 &#8627; [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent')  
-&#8627; [ChannelPermission](ChannelPermission 'Guilded.NET.Base.Permissions.ChannelPermission')  
-&#8627; [PermissionList](PermissionList 'Guilded.NET.Base.Permissions.PermissionList')  
-&#8627; [UserPermission](UserPermission 'Guilded.NET.Base.Permissions.UserPermission')  
 &#8627; [SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink')  
 ### Remarks
 Provides a base for all Guilded.NET objects.

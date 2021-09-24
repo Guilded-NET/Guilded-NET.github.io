@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## CustomPermissions Enum
-Permissions which allow you to customize things, such as nicknames and emotes.  
+Permissions related to customization.  
 ```csharp
 public enum CustomPermissions
 
@@ -29,3 +29,5 @@ Members with this permission can change the nickname of others.
 `None` 0  
 No given permissions.  
   
+### Remarks
+Defines permissions related to nickname and emoji customizations.

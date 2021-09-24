@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[GuildedUrl](GuildedUrl 'Guilded.NET.Base.GuildedUrl')
 ## GuildedUrl.Api Field
-The URL for performing REST-related things on Guilded.  
+The URL to Guilded's API.  
 ```csharp
 public static readonly Uri Api;
 ```

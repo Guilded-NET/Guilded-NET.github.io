@@ -11,36 +11,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 ### Remarks
 An existing/a cached message that can be found in a chat.
 
-
-
-This message type can be found in:
-
-<list type="bullet">  
-  <item>  
-    <description>  
-      <see cref="M:Guilded.NET.Base.BaseGuildedClient.GetMessagesAsync(System.Guid,System.UInt32)"/>  
-    </description>  
-  </item>  
-  <item>  
-    <description>  
-      <see cref="M:Guilded.NET.Base.BaseGuildedClient.GetMessageAsync(System.Guid,System.Guid)"/>  
-    </description>  
-  </item>  
-  <item>  
-    <description>  
-      <see cref="T:Guilded.NET.Base.Events.MessageCreatedEvent"/>  
-    </description>  
-  </item>  
-  <item>  
-    <description>  
-      <see cref="T:Guilded.NET.Base.Events.MessageUpdatedEvent"/>  
-    </description>  
-  </item>  
-  <item>  
-    <description>A return value from message creation and updating methods.</description>  
-  </item>  
-</list>
-
 | Properties | |
 | :--- | :--- |
 | [Content](Message_Content 'Guilded.NET.Base.Content.Message.Content') | The contents of the message.<br/> |

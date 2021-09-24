@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## GeneralPermissions Enum
-General server/team management permissions.  
+Permissions related to servers.  
 ```csharp
 public enum GeneralPermissions
 
@@ -53,3 +53,5 @@ No given permissions.
 `UpdateServer` 4  
 Allows you to update server's settings  
   
+### Remarks
+Defines permissions related to server management.

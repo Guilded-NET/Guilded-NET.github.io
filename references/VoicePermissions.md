@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## VoicePermissions Enum
-Voice chat/channel permissions.  
+Permissions related to voice.  
 ```csharp
 public enum VoicePermissions
 
@@ -69,3 +69,5 @@ Allows you to use voice activity input mode from voice chaats
 `Whisper` 2048  
 Allows you to direct your voice to specific users  
   
+### Remarks
+Defines permissions related to voice and voice rooms.

@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## FormPermissions Enum
-Form and poll permissions.  
+Permissions related to forms & polls.  
 ```csharp
 public enum FormPermissions
 
@@ -29,3 +29,5 @@ No given permissions.
 `PollResults` 16  
 Allows you to view all poll results  
   
+### Remarks
+Defines permissions related to forms & polls.

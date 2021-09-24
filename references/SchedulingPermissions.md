@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## SchedulingPermissions Enum
-Permissions for scheduling channel.  
+Permissions related to scheduling.  
 ```csharp
 public enum SchedulingPermissions
 
@@ -37,3 +37,5 @@ No given permissions.
 `ViewSchedules` 2  
 Allows you to view server member's schedule  
   
+### Remarks
+Defines permissions related to availability in scheduling channels.

@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## StreamPermissions Enum
-Permissions for streaming/stream channel.  
+Permissions related to streaming.  
 ```csharp
 public enum StreamPermissions
 
@@ -37,3 +37,5 @@ Allows you to send message in stream channel
 `ViewStreams` 2  
 Allows you to view streams  
   
+### Remarks
+Defines permissions related to streaming channels.

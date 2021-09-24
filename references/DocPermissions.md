@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## DocPermissions Enum
-Permissions of document/doc channel.  
+Permissions related to documents.  
 ```csharp
 public enum DocPermissions
 
@@ -41,3 +41,5 @@ Allows you to remove docs created by others
 `ViewDocs` 2  
 Allows you to view docs  
   
+### Remarks
+Defines permissions related to documents.

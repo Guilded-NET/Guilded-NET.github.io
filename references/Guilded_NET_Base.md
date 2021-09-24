@@ -17,14 +17,14 @@
 | [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException') | A permission exception thrown by Guilded API.<br/> |
 | [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException') | A bad request exception thrown by Guilded API.<br/> |
 | [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException') | A resource exception thrown by Guilded API.<br/> |
-| [GuildedUrl](GuildedUrl 'Guilded.NET.Base.GuildedUrl') | The list of URLs for Guilded services.<br/> |
+| [GuildedUrl](GuildedUrl 'Guilded.NET.Base.GuildedUrl') | Defines a list of URLs to Guilded services.<br/> |
 | [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException') | An error received from Guilded WebSocket.<br/> |
 | [IdConverter](IdConverter 'Guilded.NET.Base.IdConverter') | Converts [GId](GId 'Guilded.NET.Base.GId') to string or vice versa in a JSON.<br/> |
 
 | Structs | |
 | :--- | :--- |
-| [FormId](FormId 'Guilded.NET.Base.FormId') | The identifier for forms and media uploads.<br/> |
-| [GId](GId 'Guilded.NET.Base.GId') | The identifier for Guilded teams, users, etc.<br/> |
+| [FormId](FormId 'Guilded.NET.Base.FormId') | An identifier for forms and media uploads.<br/> |
+| [GId](GId 'Guilded.NET.Base.GId') | An identifier for Guilded teams, users, etc.<br/> |
   
 <a name='Guilded_NET_Base_Content'></a>
 ## Guilded.NET.Base.Content Namespace
@@ -78,36 +78,26 @@
 <a name='Guilded_NET_Base_Permissions'></a>
 ## Guilded.NET.Base.Permissions Namespace
 
-| Classes | |
-| :--- | :--- |
-| [ChannelPermission](ChannelPermission 'Guilded.NET.Base.Permissions.ChannelPermission') | Represents permission in a channel.<br/> |
-| [PermissionList](PermissionList 'Guilded.NET.Base.Permissions.PermissionList') | A list of role or user permissions.<br/> |
-| [UserPermission](UserPermission 'Guilded.NET.Base.Permissions.UserPermission') | Represents user permissions in the channel.<br/> |
-
-| Interfaces | |
-| :--- | :--- |
-| [IPermission](IPermission 'Guilded.NET.Base.Permissions.IPermission') | Interface for user and role permissions.<br/> |
-
 | Enums | |
 | :--- | :--- |
-| [AnnounPermissions](AnnounPermissions 'Guilded.NET.Base.Permissions.AnnounPermissions') | Permissions related to announcement channel(and Overview channel, if it's CreateAnnouncements).<br/> |
-| [BotPermissions](BotPermissions 'Guilded.NET.Base.Permissions.BotPermissions') | Permissions for managing bots and flowbots.<br/> |
-| [BracketPermissions](BracketPermissions 'Guilded.NET.Base.Permissions.BracketPermissions') | All of the bracket permissions for team tournaments.<br/> |
-| [CalendarPermissions](CalendarPermissions 'Guilded.NET.Base.Permissions.CalendarPermissions') | Event/calendar channel permissions.<br/> |
-| [ChatPermissions](ChatPermissions 'Guilded.NET.Base.Permissions.ChatPermissions') | Chat/text channel related permissions.<br/> |
-| [CustomPermissions](CustomPermissions 'Guilded.NET.Base.Permissions.CustomPermissions') | Permissions which allow you to customize things, such as nicknames and emotes.<br/> |
-| [DocPermissions](DocPermissions 'Guilded.NET.Base.Permissions.DocPermissions') | Permissions of document/doc channel.<br/> |
-| [FormPermissions](FormPermissions 'Guilded.NET.Base.Permissions.FormPermissions') | Form and poll permissions.<br/> |
-| [ForumPermissions](ForumPermissions 'Guilded.NET.Base.Permissions.ForumPermissions') | Permissions of forum channel.<br/> |
-| [GeneralPermissions](GeneralPermissions 'Guilded.NET.Base.Permissions.GeneralPermissions') | General server/team management permissions.<br/> |
-| [ListPermissions](ListPermissions 'Guilded.NET.Base.Permissions.ListPermissions') | List channel's permissions.<br/> |
-| [MatchmakingPermissions](MatchmakingPermissions 'Guilded.NET.Base.Permissions.MatchmakingPermissions') | Tournament and scrims permissions.<br/> |
-| [MediaPermissions](MediaPermissions 'Guilded.NET.Base.Permissions.MediaPermissions') | Permissions related to media channel.<br/> |
-| [RecruitmentPermissions](RecruitmentPermissions 'Guilded.NET.Base.Permissions.RecruitmentPermissions') | All of the permissions related to applications and recruiting.<br/> |
-| [SchedulingPermissions](SchedulingPermissions 'Guilded.NET.Base.Permissions.SchedulingPermissions') | Permissions for scheduling channel.<br/> |
-| [StreamPermissions](StreamPermissions 'Guilded.NET.Base.Permissions.StreamPermissions') | Permissions for streaming/stream channel.<br/> |
-| [VoicePermissions](VoicePermissions 'Guilded.NET.Base.Permissions.VoicePermissions') | Voice chat/channel permissions.<br/> |
-| [XPPermissions](XPPermissions 'Guilded.NET.Base.Permissions.XPPermissions') | Permissions related to XP and levels.<br/> |
+| [AnnounPermissions](AnnounPermissions 'Guilded.NET.Base.Permissions.AnnounPermissions') | Permissions related to announcements.<br/> |
+| [BotPermissions](BotPermissions 'Guilded.NET.Base.Permissions.BotPermissions') | Permissions related to bots.<br/>  |
+| [BracketPermissions](BracketPermissions 'Guilded.NET.Base.Permissions.BracketPermissions') | Permissions related to brackets.<br/> |
+| [CalendarPermissions](CalendarPermissions 'Guilded.NET.Base.Permissions.CalendarPermissions') | Permissions related to calendar.<br/> |
+| [ChatPermissions](ChatPermissions 'Guilded.NET.Base.Permissions.ChatPermissions') | Permissions related to chat.<br/> |
+| [CustomPermissions](CustomPermissions 'Guilded.NET.Base.Permissions.CustomPermissions') | Permissions related to customization.<br/> |
+| [DocPermissions](DocPermissions 'Guilded.NET.Base.Permissions.DocPermissions') | Permissions related to documents.<br/> |
+| [FormPermissions](FormPermissions 'Guilded.NET.Base.Permissions.FormPermissions') | Permissions related to forms & polls.<br/> |
+| [ForumPermissions](ForumPermissions 'Guilded.NET.Base.Permissions.ForumPermissions') | Permissions related to forums.<br/> |
+| [GeneralPermissions](GeneralPermissions 'Guilded.NET.Base.Permissions.GeneralPermissions') | Permissions related to servers.<br/> |
+| [ListPermissions](ListPermissions 'Guilded.NET.Base.Permissions.ListPermissions') | Permissions related to lists.<br/> |
+| [MatchmakingPermissions](MatchmakingPermissions 'Guilded.NET.Base.Permissions.MatchmakingPermissions') | Permissions related to matchmaking.<br/> |
+| [MediaPermissions](MediaPermissions 'Guilded.NET.Base.Permissions.MediaPermissions') | Permissions related to media.<br/> |
+| [RecruitmentPermissions](RecruitmentPermissions 'Guilded.NET.Base.Permissions.RecruitmentPermissions') | Permissions related to recruiting.<br/> |
+| [SchedulingPermissions](SchedulingPermissions 'Guilded.NET.Base.Permissions.SchedulingPermissions') | Permissions related to scheduling.<br/> |
+| [StreamPermissions](StreamPermissions 'Guilded.NET.Base.Permissions.StreamPermissions') | Permissions related to streaming.<br/> |
+| [VoicePermissions](VoicePermissions 'Guilded.NET.Base.Permissions.VoicePermissions') | Permissions related to voice.<br/> |
+| [XPPermissions](XPPermissions 'Guilded.NET.Base.Permissions.XPPermissions') | Permissions related to XP.<br/> |
   
 <a name='Guilded_NET_Base_Teams'></a>
 ## Guilded.NET.Base.Teams Namespace

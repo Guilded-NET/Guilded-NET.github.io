@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## CalendarPermissions Enum
-Event/calendar channel permissions.  
+Permissions related to calendar.  
 ```csharp
 public enum CalendarPermissions
 
@@ -45,3 +45,5 @@ Allows you to remove events created by others
 `ViewEvents` 2  
 Allows you to view events  
   
+### Remarks
+Defines permissions for calendar and event related things.

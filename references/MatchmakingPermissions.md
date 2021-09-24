@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## MatchmakingPermissions Enum
-Tournament and scrims permissions.  
+Permissions related to matchmaking.  
 ```csharp
 public enum MatchmakingPermissions
 
@@ -29,3 +29,5 @@ No given permissions.
 `RegisterForTournaments` 4  
 Allows you to use the server to create and manage tournaments  
   
+### Remarks
+Defines permissions related to tournaments & scrims.

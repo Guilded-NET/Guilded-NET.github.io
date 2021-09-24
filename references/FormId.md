@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base')
 ## FormId Struct
-The identifier for forms and media uploads.  
+An identifier for forms and media uploads.  
 ```csharp
 public struct FormId :
 System.IEquatable<Guilded.NET.Base.FormId>

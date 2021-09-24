@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## AnnounPermissions Enum
-Permissions related to announcement channel(and Overview channel, if it's CreateAnnouncements).  
+Permissions related to announcements.  
 ```csharp
 public enum AnnounPermissions
 
@@ -37,3 +37,5 @@ No given permissions.
 `ViewAnnouncements` 2  
 Allows you to view announcements  
   
+### Remarks
+Defines permissions for announcement related things.

@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## RecruitmentPermissions Enum
-All of the permissions related to applications and recruiting.  
+Permissions related to recruiting.  
 ```csharp
 public enum RecruitmentPermissions
 
@@ -41,3 +41,5 @@ No given permissions.
 `ViewApplications` 2  
 Allows you to view server and game applications  
   
+### Remarks
+Defines permissions related to recruiting in applications.

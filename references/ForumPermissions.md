@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## ForumPermissions Enum
-Permissions of forum channel.  
+Permissions related to forums.  
 ```csharp
 public enum ForumPermissions
 
@@ -49,3 +49,5 @@ Allows you to read forums
 `StickyTopics` 16  
 Allows you to sticky a topic  
   
+### Remarks
+Defines permissions related to forums.

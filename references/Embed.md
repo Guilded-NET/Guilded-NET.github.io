@@ -84,7 +84,7 @@ Represents a custom/rich embed that represents some kind of information. This is
 | Methods | |
 | :--- | :--- |
 | [AddField(EmbedField)](Embed_AddField(EmbedField) 'Guilded.NET.Base.Embeds.Embed.AddField(Guilded.NET.Base.Embeds.EmbedField)') | Adds the given field to the embed.<br/> |
-| [AddField(string, object, bool)](Embed_AddField(string_object_bool) 'Guilded.NET.Base.Embeds.Embed.AddField(string, object, bool)') | Adds a new [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField') instance to [Fields](Embed_Fields 'Guilded.NET.Base.Embeds.Embed.Fields') property of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance.<br/> |
+| [AddField(string, object, bool)](Embed_AddField(string_object_bool) 'Guilded.NET.Base.Embeds.Embed.AddField(string, object, bool)') | Adds the given field to the embed.<br/> |
 | [AddField(string, string, bool)](Embed_AddField(string_string_bool) 'Guilded.NET.Base.Embeds.Embed.AddField(string, string, bool)') | Adds the given field to the embed.<br/> |
 | [AddFields(EmbedField[])](Embed_AddFields(EmbedField__) 'Guilded.NET.Base.Embeds.Embed.AddFields(Guilded.NET.Base.Embeds.EmbedField[])') | Adds the given fields to the embed.<br/> |
 | [AddFields(IList&lt;EmbedField&gt;)](Embed_AddFields(IList_EmbedField_) 'Guilded.NET.Base.Embeds.Embed.AddFields(System.Collections.Generic.IList&lt;Guilded.NET.Base.Embeds.EmbedField&gt;)') | Adds the given fields to the embed.<br/> |

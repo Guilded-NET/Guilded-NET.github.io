@@ -12,11 +12,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 Implements [System.IDisposable](https://docs.microsoft.com/en-us/dotnet/api/System.IDisposable 'System.IDisposable')  
 ### Remarks
-A base that adds a layer to Guilded API wrapping.
-
-
-
-This is a base for all Guilded clients.
+The base that adds a layer to Guilded API wrapping. This is used in all Guilded.NET clients.
 
 | Constructors | |
 | :--- | :--- |

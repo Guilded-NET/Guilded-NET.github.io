@@ -2,7 +2,7 @@
 #### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## ChatPermissions Enum
-Chat/text channel related permissions.  
+Permissions related to chat.  
 ```csharp
 public enum ChatPermissions
 
@@ -49,3 +49,5 @@ Allows you to send chat messages
 `SendThreadMessages` 32  
 Allows you to reply to threads in the channel  
   
+### Remarks
+Defines permissions for chat & text related things.
