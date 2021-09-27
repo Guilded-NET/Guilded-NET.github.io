@@ -1,6 +1,6 @@
 <div class="gembed" {% if include.colour %} style="border-left-color: {{ include.color }};" {% endif %}>
     {% if include.author_name %}
-    <div class="gembed-author">
+    <header class="gembed-author">
         {% if include.author_icon %}
         <div class="gembed-author-icon">
             <img class="gembed-img" src="{{ include.author_icon }}"/>
@@ -9,7 +9,7 @@
         <div class="gembed-author-text">
             <a href="https://www.guilded.gg/">{{ include.author_name }}</a>
         </div>
-    </div>
+    </header>
     {% endif %}
     <div class="gembed-wrapper">
         <div class="gembed-body">
@@ -22,9 +22,9 @@
             </div>
             {% endif %}
             {% if include.fields %}
-            <div class="gembed-fields">
+            <section class="gembed-fields">
                 {{ include.fields }}
-            </div>
+            </section>
             {% endif %}
         </div>
     </div>
@@ -36,7 +36,7 @@
         </div>
         {% endif %}
         <div class="gembed-footer-text">
-            <a>{{ include.footer_text }}</a>
+            <span>{{ include.footer_text }}</span>
         </div>
     </footer>
     {% endif %}

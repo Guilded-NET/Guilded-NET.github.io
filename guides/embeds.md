@@ -94,12 +94,13 @@ await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 ```
 
 {% capture embeds0 %}
-{% include c_embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
+    {% include c_embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
 {% endcapture %}
 {% capture messages0 %}
-{% include c_message.html other=embeds0 %}
+    {% include c_message.html other=embeds0 %}
 {% endcapture %}
 {% include c_preview.html content=messages0 %}
+
 
 ### Fields
 
@@ -113,17 +114,18 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
 ```
 
 {% capture fields1 %}
-{% include c_field.html name="Field #1" value="The value of the field" %}
-{% include c_field.html name="Field #2" value="This field is inline" %}
-{% include c_field.html name="Field #3" value="This field is inline too" %}
+    {% include c_field.html name="Field #1" value="The value of the field" %}
+    {% include c_field.html name="Field #2" value="This field is inline" %}
+    {% include c_field.html name="Field #3" value="This field is inline too" %}
 {% endcapture %}
 {% capture embeds1 %}
-{% include c_embed.html title="Title" description="Description. This is not a field" fields=fields1 %}
+    {% include c_embed.html title="Title" description="Description. This is not a field" fields=fields1 %}
 {% endcapture %}
 {% capture messages1 %}
-{% include c_message.html other=embeds1 %}
+    {% include c_message.html other=embeds1 %}
 {% endcapture %}
 {% include c_preview.html content=messages1 %}
+
 
 ### Authors and Footers
 
