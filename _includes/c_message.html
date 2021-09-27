@@ -1,0 +1,22 @@
+{% if include.name %}
+    {% assign name = include.name %}
+{% else %}
+    {% assign name = "Guilded.NET Bot" %}
+{% endif %}
+<div class="chat-preview-message">
+    <div class="preview-avatar">
+        <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
+    </div>
+    <div class="preview-content">
+        <div class="preview-header">
+            <span class="preview-name">{{ include.name }}</span>
+            <span class="preview-timestamp">9:55pm</span>
+            {% unless include.isUser %}
+            <span class="preview-badge">BOT</span>
+            {% endunless %}
+        </div>
+        <div class="preview-message" markdown="1">
+            {{ include.content }}
+        </div>
+    </div>
+</div>

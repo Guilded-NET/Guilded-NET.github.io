@@ -60,7 +60,7 @@ Embed embed = new Embed
 {
     Title = "This is the title of the embed",
     Description = "Description",
-    Footer = new EmbedFooter("The bottom/footer text of the embed")
+    Footer = new EmbedFooter("The footer text of the embed")
 };
 ```
 
@@ -93,37 +93,13 @@ await client.CreateMessageAsync(channelId, new MessageContent(embed));
 await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 ```
 
-<div class="chat-preview">
-    <div class="chat-preview-message">
-        <div class="preview-avatar">
-            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
-        </div>
-        <div class="preview-content">
-            <div class="preview-header">
-                <span class="preview-name">Guilded.NET Bot</span>
-                <span class="preview-timestamp">9:55pm</span>
-                <span class="preview-badge">BOT</span>
-            </div>
-            <div class="preview-message">
-                <div class="gembed">
-                    <div class="gembed-inner">
-                        <div class="gembed-wrapper">
-                            <div class="gembed-body">
-                                <div class="gembed-title"><a>This is the title of the embed</a></div>
-                                <div class="gembed-description"><a>Description</a></div>
-                            </div>
-                        </div>
-                        <div class="gembed-footer">
-                            <div class="gembed-footer-text">
-                                <a>The footer/bottom text of the embed</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{% capture embeds0 %}
+    {% include c_embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
+{% endcapture %}
+{% capture messages0 %}
+    {% include c_message.html content=embeds0 %}
+{% endcapture %}
+{% include c_preview.html content=messages0 %}
 
 ### Fields
 
