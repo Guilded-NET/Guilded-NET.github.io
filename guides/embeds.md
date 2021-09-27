@@ -146,47 +146,13 @@ Embed embed = new Embed { Description = "The description of the embed." }
     .SetFooter("The footer text", iconUrl);
 ```
 
-<div class="chat-preview">
-    <div class="chat-preview-message">
-        <div class="preview-avatar">
-            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
-        </div>
-        <div class="preview-content">
-            <div class="preview-header">
-                <span class="preview-name">Guilded.NET Bot</span>
-                <span class="preview-timestamp">9:55pm</span>
-                <span class="preview-badge">BOT</span>
-            </div>
-            <div class="preview-message">
-                <div class="gembed">
-                    <div class="gembed-inner">
-                        <div class="gembed-author">
-                            <div class="gembed-author-icon">
-                                <img class="gembed-img" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
-                            </div>
-                            <div class="gembed-author-text">
-                                <a href="https://www.guilded.gg/">The name of the author</a>
-                            </div>
-                        </div>
-                        <div class="gembed-wrapper">
-                            <div class="gembed-body">
-                                <div class="gembed-description"><a>The description of the embed</a></div>
-                            </div>
-                        </div>
-                        <div class="gembed-footer">
-                            <div class="gembed-footer-icon">
-                                <img class="gembed-img" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
-                            </div>
-                            <div class="gembed-footer-text">
-                                <a>The footer text</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{% capture embeds2 %}
+    {% include c_embed.html author_name="The name of the author" author_icon="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png" description="The description of the embed" footer_text="The footer text" footer_icon="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png" %}
+{% endcapture %}
+{% capture messages2 %}
+    {% include c_message.html other=embeds2 %}
+{% endcapture %}
+{% include c_preview.html content=messages2 %}
 
 ### Setting side colour
 
@@ -225,32 +191,13 @@ Embed embed = new Embed
 ```
 {: data-insert="4"}
 
-<div class="chat-preview">
-    <div class="chat-preview-message">
-        <div class="preview-avatar">
-            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
-        </div>
-        <div class="preview-content">
-            <div class="preview-header">
-                <span class="preview-name">Guilded.NET Bot</span>
-                <span class="preview-timestamp">9:55pm</span>
-                <span class="preview-badge">BOT</span>
-            </div>
-            <div class="preview-message">
-                <div class="gembed">
-                    <div class="gembed-inner" style="border-left-color: red;">
-                        <div class="gembed-wrapper">
-                            <div class="gembed-body">
-                                <div class="gembed-title"><a>Title</a></div>
-                                <div class="gembed-description"><a>Description</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{% capture embeds3 %}
+    {% include c_embed.html title="Title" description="Description" colour="#FF0000" %}
+{% endcapture %}
+{% capture messages3 %}
+    {% include c_message.html other=embeds3 %}
+{% endcapture %}
+{% include c_preview.html content=messages3 %}
 
 ### The end
 

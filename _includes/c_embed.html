@@ -7,7 +7,7 @@
         </div>
         {% endif %}
         <div class="gembed-author-text">
-            <a href="https://www.guilded.gg/">{{ include.author_name }}</a>
+            <a {% if include.author_link %} href="https://www.guilded.gg/" {% endif %}>{{ include.author_name }}</a>
         </div>
     </header>
     {% endif %}
@@ -16,9 +16,9 @@
             {% if include.title %}
             <h4 class="gembed-title">{{ include.title }}</h4>
             {% endif %}
-            <!-- if include.description
-            <div class="gembed-description" markdown="1">include.description</div>
-            endif -->
+            {% if include.description %}
+            <div class="gembed-description">{{ include.description }}</div>
+            {% endif %}
             {% if include.fields %}
             <section class="gembed-fields">{{ include.fields }}</section>
             {% endif %}
