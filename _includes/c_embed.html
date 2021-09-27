@@ -13,15 +13,15 @@
     {% endif %}
     <div class="gembed-wrapper">
         <div class="gembed-body">
-            <!-- if include.title
-            <h4 class="gembed-title">include.title</h4>
-            endif
-            if include.description
+            {% if include.title %}
+            <h4 class="gembed-title">{{ include.title }}</h4>
+            {% endif %}
+            <!-- if include.description
             <div class="gembed-description" markdown="1">include.description</div>
-            endif
-            if include.fields
-            <section class="gembed-fields">include.fields</section>
             endif -->
+            {% if include.fields %}
+            <section class="gembed-fields">{{ include.fields }}</section>
+            {% endif %}
         </div>
     </div>
     {% if include.footer_text %}
