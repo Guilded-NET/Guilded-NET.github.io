@@ -94,10 +94,10 @@ await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 ```
 
 {% capture embeds0 %}
-    {% include c_embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
+{% include c_embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
 {% endcapture %}
 {% capture messages0 %}
-    {% include c_message.html content=embeds0 %}
+{% include c_message.html other=embeds0 %}
 {% endcapture %}
 {% include c_preview.html content=messages0 %}
 
@@ -112,58 +112,18 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
     .AddField("Field #3", "This field is inline too!", true);
 ```
 
-<div class="chat-preview">
-    <div class="chat-preview-message">
-        <div class="preview-avatar">
-            <img class="preview-icon" src="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png"/>
-        </div>
-        <div class="preview-content">
-            <div class="preview-header">
-                <span class="preview-name">Guilded.NET Bot</span>
-                <span class="preview-timestamp">9:55pm</span>
-                <span class="preview-badge">BOT</span>
-            </div>
-            <div class="preview-message">
-                <div class="gembed">
-                    <div class="gembed-inner">
-                        <div class="gembed-wrapper">
-                            <div class="gembed-body">
-                                <div class="gembed-title"><a>Title</a></div>
-                                <div class="gembed-description"><a>Description. This is not a field.</a></div>
-                                <div class="gembed-fields">
-                                    <div class="gembed-field gembed-field">
-                                        <div class="gembed-field-title">
-                                            <a>Field #1</a>
-                                        </div>
-                                        <div class="gembed-field-body">
-                                            <a>The value of the field</a>
-                                        </div>
-                                    </div>
-                                    <div class="gembed-field gembed-field-inline">
-                                        <div class="gembed-field-title">
-                                            <a>Field #2</a>
-                                        </div>
-                                        <div class="gembed-field-body">
-                                            <a>This field is inline</a>
-                                        </div>
-                                    </div>
-                                    <div class="gembed-field gembed-field-inline">
-                                        <div class="gembed-field-title">
-                                            <a>Field #3</a>
-                                        </div>
-                                        <div class="gembed-field-body">
-                                            <a>This field is inline too!</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{% capture fields1 %}
+{% include c_field.html name="Field #1" value="The value of the field" %}
+{% include c_field.html name="Field #2" value="This field is inline" %}
+{% include c_field.html name="Field #3" value="This field is inline too" %}
+{% endcapture %}
+{% capture embeds1 %}
+{% include c_embed.html title="Title" description="Description. This is not a field" fields=fields1 %}
+{% endcapture %}
+{% capture messages1 %}
+{% include c_message.html other=embeds1 %}
+{% endcapture %}
+{% include c_preview.html content=messages1 %}
 
 ### Authors and Footers
 
