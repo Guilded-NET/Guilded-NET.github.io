@@ -17,9 +17,7 @@
         </div>
         <div class="preview-message">
             {% if include.content %}
-            <div class="preview-plaintext" markdown="1">
-                {{ include.content }}
-            </div>
+            <div class="preview-plaintext" markdown="1">{{ include.content }}</div>
             {% endif %}
             {% if include.other %}
             {{ include.other }}
