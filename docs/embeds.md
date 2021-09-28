@@ -16,27 +16,6 @@ Content embeds are used to automatically generate a preview of a link. If, let's
 
 Custom embeds are similar to content website embeds in terms of how they look, but they are fully customizable, meaning, you can set custom colour of the side border, add fields you want, etc. They are generally mostly used for webhooks to display events/new content or for bots to have a fancy output that is more understandable from a glance. Content embeds cannot look like shared messages or team invites as of now.
 
-## Creating a content embed
-
-### Basics
-
-Creating a content embed is as simple as giving it a link and posting it:
-
-```csharp
-// At the very top of the file
-using Guilded.NET.Base.Chat;
-```
-{: data-insert="1"}
-
-```csharp
-ContentEmbed embed = new ContentEmbed("https://guilded.gg/");
-await client.CreateForumThreadAsync(channelId, "Title", embed);
-```
-
-This will post the embed with the URL we gave it, which will then be displayed by the Guilded client automatically.
-
-There isn't much to content embeds other than that.
-
 ## Creating a custom embed
 
 ### Basics
@@ -115,8 +94,8 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
 
 {% capture fields1 %}
     {% include c_field.html name="Field #1" value="The value of the field" %}
-    {% include c_field.html name="Field #2" value="This field is inline" %}
-    {% include c_field.html name="Field #3" value="This field is inline too" %}
+    {% include c_field.html name="Field #2" value="This field is inline" inline="1" %}
+    {% include c_field.html name="Field #3" value="This field is inline too" inline="1" %}
 {% endcapture %}
 {% capture embeds1 %}
     {% include c_embed.html title="Title" description="Description. This is not a field" fields=fields1 %}
