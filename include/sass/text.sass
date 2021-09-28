@@ -155,18 +155,26 @@ table
 
     font-size: 0.8em
     // Heading
-    thead tr
-        color: var(--foreground-level-2)
+    thead
+        tr
+            color: var(--foreground-level-2)
     // Body rows
     tbody
         border-radius: $small-radius
-    tbody tr
-        background-color: var(--background-level-3)
+        tr
+            background-color: var(--background-level-3)
+            td
+                padding-right: 0.8rem
     // Any row item
     th, td
         padding: $spacing-1
+    // Checkmark, crossmark table
+    .fa-checkmark
+        color: $event-green
+    .fa-times
+        color: $event-red
 
-img
+.body-content img
     // Don't make it go beyond the bounds
     max-width: 75%
     // Make it center-aligned
@@ -179,5 +187,3 @@ img
     margin-top: $spacing-4
     border-top: 2px solid var(--background-level-2s)
 
-table tbody tr td
-    padding-right: 0.8rem
