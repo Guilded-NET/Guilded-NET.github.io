@@ -6,12 +6,12 @@ layout: home
 ![Banner](https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Banner.png)
 
 
-# What is **Guilded.NET**{: .text-gilded}?
+# What is **Guilded.NET**?
 
 Guilded.NET is an open-source unofficial API wrapper for [Guilded](https://guilded.gg/) written on .NET platform. It tries to integrate as many Guilded API features as possible, while also maintaining the usability and ease of use for the developers.
 
-- To get started with **Guilded.NET**{: .text-gilded}, check out [documentation page](/docs).
-- To see all **Guilded.NET**{: .text-gilded} references, check out [reference page](/references).
+- To get started with **Guilded.NET**, check out [documentation page](/docs).
+- To see all **Guilded.NET** references, check out [reference page](/references).
 
 ## Links
 - [NuGet](https://www.nuget.org/packages/Guilded.NET/)
