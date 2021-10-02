@@ -26,70 +26,79 @@ $deleted: #ef3b7d
 code
     font-family: 'Fira Code', monospace
 
-pre > code
-    // Content
-    background-color: var(--background-level-2)
-    color: var(--foreground-level-1)
-    // Font and text
-    white-space: pre
-    word-spacing: normal
-    word-break: normal
-    word-wrap: normal
+    // Inline code
+    :not(pre) > &
+        border-radius: $tiny-radius
+        padding: 0.05rem $spacing-0
 
-    font-family: monospace
-    font-size: 0.8rem
-    text-align: left
-    // Spacing
-    padding: $spacing-2 0
-    line-height: 1.5
-    // Make tab same as 4 spaces
-    -moz-tab-size: 4
-    -o-tab-size: 4
-    tab-size: 4
-    // Misc
-    display: block
-    overflow-x: auto
-    -webkit-hyphens: none
-    -moz-hyphens: none
-    -ms-hyphens: none
-    hyphens: none
+        line-break: strict
+        white-space: pre-wrap
+        font-size: 0.9em
+    // Code block
+    pre > &
+        // Content
+        background-color: var(--background-level-2)
+        color: var(--foreground-level-1)
+        // Font and text
+        white-space: pre
+        word-spacing: normal
+        word-break: normal
+        word-wrap: normal
 
-    // Each line in code block
-    & > codeline
+        font-size: 0.8rem
+        text-align: left
+        // Spacing
+        padding: $spacing-2 0
+        line-height: 1.5
+        // Make tab same as 4 spaces
+        -moz-tab-size: 4
+        -o-tab-size: 4
+        tab-size: 4
+        // Misc
         display: block
-        padding-right: $spacing-2
-        // Add index before each line
-        &:not(.deleted)
-            counter-increment: linenum
-        &::before
-            content: counter(linenum)
-            color: var(--foreground-level-3)
+        overflow-x: auto
+        -webkit-hyphens: none
+        -moz-hyphens: none
+        -ms-hyphens: none
+        hyphens: none
 
-            // Make sure additional digit doesn't push the text to the side a little
-            width: 1rem
-            text-align: right
+        // Each line in code block
+        & > codeline
+            display: block
+            padding-right: $spacing-2
+            // Add index before each line
+            &:not(.deleted)
+                counter-increment: linenum
+            &::before
+                content: counter(linenum)
+                color: var(--foreground-level-3)
 
-            margin-right: $spacing-3
-            padding-left: $spacing-2 + 0.1rem
-        // Change colours based on highlight
-        &.highlighted
-            background-color: rgba($highlighted, 0.1)
-            border-left: 0.1rem solid $highlighted
-            &::before
-                color: $highlighted
-                // Add a line to the left side
-                padding-left: $spacing-2
-        &.inserted
-            background-color: rgba($inserted, 0.1)
-            &::before
-                content: '+'
-                color: $inserted
-        &.deleted
-            background-color: rgba($deleted, 0.1)
-            &::before
-                content: '-'
-                color: $deleted
+                // Make sure additional digit doesn't push the text to the side a little
+                width: 1rem
+                text-align: right
 
+                margin-right: $spacing-3
+                padding-left: $spacing-2 + 0.1rem
+            // Change colours based on highlight
+            &.highlighted
+                background-color: rgba($highlighted, 0.1)
+                border-left: 0.1rem solid $highlighted
+                &::before
+                    color: $highlighted
+                    // Add a line to the left side
+                    padding-left: $spacing-2
+            &.inserted
+                background-color: rgba($inserted, 0.1)
+                &::before
+                    content: '+'
+                    color: $inserted
+            &.deleted
+                background-color: rgba($deleted, 0.1)
+                &::before
+                    content: '-'
+                    color: $deleted
+
+// Code block wrapper
 codeblock
     // Language name label at the top of the codeblock
     .code-lang
