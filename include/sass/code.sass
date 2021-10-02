@@ -4,6 +4,25 @@ $inserted: #a6e22d
 $highlighted: #e2a92d
 $deleted: #ef3b7d
 
+@font-face
+    font-family: 'Fira Code'
+    src: url(/include/webfonts/FiraCode-Bold.ttf) format('truetype')
+    src: url(/include/webfonts/FiraCode-Regular.woff2) format('woff2'), url(/include/webfonts/FiraCode-Regular.woff) format('woff'), url(/include/webfonts/FiraCode-Regular.ttf) format('truetype')
+@font-face
+    font-family: 'Fira Code'
+    src: url(/include/webfonts/FiraCode-Bold.ttf) format('truetype')
+    src: url(/include/webfonts/FiraCode-SemiBold.woff2) format('woff2'), url(/include/webfonts/FiraCode-SemiBold.woff) format('woff'), url(/include/webfonts/FiraCode-SemiBold.ttf) format('truetype')
+         
+    font-weight: bold
+@font-face
+    font-family: 'Fira Code'
+    src: url(/include/webfonts/FiraCode-Bold.ttf) format('truetype')
+    src: url(/include/webfonts/FiraCode-Bold.woff2) format('woff2'), url(/include/webfonts/FiraCode-Bold.woff) format('woff'), url(/include/webfonts/FiraCode-Bold.ttf) format('truetype')
+    font-weight: bolder
+
+code
+    font-family: 'Fira Code', monospace
+
 pre > code
     // Content
     background-color: var(--background-level-2)
@@ -31,8 +50,6 @@ pre > code
     -moz-hyphens: none
     -ms-hyphens: none
     hyphens: none
-
-    font-family: 'Fira Code', monospace
 
     // Each line in code block
     & > codeline
