@@ -13,5 +13,5 @@ layout: docs
 - **Getting Started**
     - [Creating bots from scratch](./createBotScratch)
     - [Creating bots from a template](./createBotTemplate)
-- **Using Features**
+- **Using Guilded.NET Features**
     - [Embeds](./embeds)

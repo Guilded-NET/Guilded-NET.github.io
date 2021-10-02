@@ -31,10 +31,10 @@ Now you should be able to see new templates in `dotnet new`
 1. Open up your terminal
 2. Create new folder for your bot. Use the name of your bot. E.g., `JoesBot`, `EpicBot`, `DungeonBot`, `BirdBot`, `CatBot`.
 3. Go to that folder in your terminal.
-4. Type `dotnet new guilded.net.client`. It will use the name of your folder. If you want to name it other way, use `dotnet new guilded.net.client -n NameOfTheBot`
+4. Type `dotnet new guilded.net.client`{: .language-bash}. It will use the name of your folder. If you want to name it other way, use `dotnet new guilded.net.client -n NameOfTheBot`{: .language-bash}
 5. Change `config/config.json` file and add your bot's authentication token.
 
-Now launch it with `dotnet run`. It should say that you have successfully logged in. Write `!ping` into the chat and the bot should respond.
+Now launch it with `dotnet run`{: .language-bash}. It should say that you have successfully logged in. Write <q>!ping</q> into the chat and the bot should respond.
 
 ## Commands
 
@@ -45,3 +45,7 @@ dotnet new guilded.net.client
 # Open up ./config/config.json
 dotnet run
 ```
+
+## Understanding the code
+
+[Creating from scratch](./createBotScratch) page explains the code and goes over how to make the bot from scratch instead of the template. It is recommended to check it out if you don't understand the generated code.
