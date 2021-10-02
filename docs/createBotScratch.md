@@ -156,4 +156,4 @@ client.Connected += (o, e) => Console.WriteLine("I have connected");
 
 Now type `dotnet run` and it should both output <q>I have connected</q> and be online.
 
-The bot won't do anything apart from connecting to Guilded, but if you want it to have commands, go to next part, [Giving bot functions](/guides/automatingBots), where we'll provide various functions to the bot, such as commands.
+The bot won't do anything apart from connecting to Guilded, but if you want it to have commands, go to next part, [Giving bot functions](./givingFunctions), where we'll provide various functions to the bot, such as commands.
