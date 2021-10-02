@@ -16,12 +16,12 @@ Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
 
 First of all, you must create a directory/folder where the bot is stored. Make a new directory and give it whatever name you want(PascalCase is preferred), like <q>JoesBot</q>, <q>GatoBot</q>, <q>CoolBot</q> or anything else.
 
-After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up that directory using your preferred terminal or console(CMD, Git Bash, XFCE Terminal, GNOME Terminal, Konsole, etc.). Write `dotnet new console`(`console` can be replaced with your preferred template) and it should generate a fresh project for you.
+After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up that directory using your preferred terminal or console(CMD, Git Bash, XFCE Terminal, GNOME Terminal, Konsole, etc.). Write `dotnet new console`{: .language-shell}(`console` can be replaced with your preferred template) and it should generate a fresh project for you.
 
 > Make sure not to close your terminal/console for the next step.
-{: .note}
+{: .warning}
 
-Install Guilded.NET. Type `dotnet add package Guilded.NET`[^2] and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
+Install Guilded.NET. Type `dotnet add package Guilded.NET`{: .language-shell}[^2] and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
 
 [^2]: Guilded.NET Templates [GitHub](https://github.com/Guilded-NET/Guilded.NET.Templates), [NuGet](https://nuget.org/packages/Guilded.NET.Templates)
 
