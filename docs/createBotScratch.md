@@ -16,12 +16,12 @@ Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
 
 First of all, you must create a directory/folder where the bot is stored. Make a new directory and give it whatever name you want(PascalCase is preferred), like <q>JoesBot</q>, <q>GatoBot</q>, <q>CoolBot</q> or anything else.
 
-After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up that directory using your preferred terminal or console(CMD, Git Bash, XFCE Terminal, GNOME Terminal, Konsole, etc.). Write `dotnet new console`{: .language-shell}(`console` can be replaced with your preferred template) and it should generate a fresh project for you.
+After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up the newly created directory using your preferred terminal/console. Write `dotnet new console`{: .language-shell}(`console` can be replaced with your preferred template) and it should generate a fresh project for you.
 
 > Make sure not to close your terminal/console for the next step.
 {: .warning}
 
-Install Guilded.NET. Type `dotnet add package Guilded.NET`{: .language-shell}[^2] and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
+Install Guilded.NET by typing `dotnet add package Guilded.NET`{: .language-shell}[^2] and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
 
 [^2]: Guilded.NET Templates [GitHub](https://github.com/Guilded-NET/Guilded.NET.Templates), [NuGet](https://nuget.org/packages/Guilded.NET.Templates)
 
@@ -42,20 +42,22 @@ Create a new directory <q>config</q> and there, create a new file <q>config.json
 > <q>config</q> directory and <q>config.json</q> file are not mandatory to be named exactly that. You could name it whatever you want, but you'll need to reference it in your code by the name you gave it.
 {: .note}
 
-Now we'll need to make sure your project won't forget about <q>config</q> folder while compiling itself. To do that, add `<ItemGroup>`{: .language-xml} with `<Content>`{: .language-xml} referencing your config directory in `<Project>`{: .language-xml} from <q>ProjectName.csproj</q> file:
+Now we'll need to make sure your project won't forget about <q>config</q> folder while compiling itself. Add `<ItemGroup>`{: .language-xml} with `<Content>`{: .language-xml} referencing your config directory in `<Project>`{: .language-xml}:
 
 ```xml
+<!-- ... Other stuff ... -->
 <ItemGroup>
     <Content Include="config/*">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
 </ItemGroup>
+<!-- ... Other stuff ... -->
 ```
 {: data-filename="ProjectName.csproj"}
 
 This should include whole <q>config</q> directory.
 
-We can now use it in your code:
+You can now use it in your code:
 
 ```csharp
 // At the very top
@@ -94,11 +96,13 @@ using Newtonsoft.Json.Linq;
 using GuildedBotClient client = new(auth);
 ```
 
-Now launching your project using `dotnet run` should not do anything. That is because we aren't connecting to Guilded. This will be covered in another part.
+Now launching your project using `dotnet run` should not do anything, because client is not connecting to Guilded yet.
 
 ## Connecting to Guilded
 
-To connect to Guilded, you can use `await client.ConnectAsync()`{: .language-csharp} asynchronous method. There is one problem though, once you use `await client.ConnectAsync()`{: .language-csharp}, the bot will connect to Guilded and program will close seeing that it's done, which will make the bot disconnect. It can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd><kbd>C</kbd> to close the program.
+To connect to Guilded, you can use `await client.ConnectAsync()`{: .language-csharpharp}. There is one problem though. Once you use `await client.ConnectAsync()`{: .language-csharpharp}, the bot will connect to Guilded and program will close seeing that it's done, which will make the bot disconnect. This can be solved by using `await Task.Delay(-1)`{: .language-csharpharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd><kbd>C</kbd> to close the program.
+
+We'll define new asynchronous method called `RunAsync` to run the bot:
 
 ```csharp
 // At the very top
@@ -122,7 +126,7 @@ static async Task RunAsync(GuildedBotClient client)
 ```
 {: data-filename="Program.cs"}
 
-Now use the defined method in the Main method:
+Now that we have defined `RunAsync`, we can use it in `Main`:
 
 ```csharp
 // static void Main()
@@ -130,10 +134,10 @@ Now use the defined method in the Main method:
 RunAsync(client).GetAwaiter().GetResult();
 ```
 
-> Make sure to not put anything below `await Task.Delay(-1)`{: .language-csharp}, as it will never run.
+> Make sure to not put anything below `await Task.Delay(-1)`{: .language-csharpharp}, as it will never run.
 {: .warning}
 
-You can also subscribe to `Prepared` or `Connected` events to see that your bot has indeed connected.
+You can also subscribe to `Prepared` or `Connected` events to see that your bot has indeed connected:
 
 ```csharp
 // At the very top
@@ -148,12 +152,10 @@ using Newtonsoft.Json;
 {: data-insert="1"}
 
 ```csharp
-// Below using GuildedBotClient client = ...;
+// Below   using GuildedBotClient client = ...;
 client.Connected += (o, e) => Console.WriteLine("I have connected");
 ```
 
-## Done
+Now type `dotnet run` and it should both output <q>I have connected</q> and become online.
 
-Now type `dotnet run` and it should both output <q>I have connected</q> and be online.
-
-The bot won't do anything apart from connecting to Guilded, but if you want it to have commands, go to next part, [Giving bot functions](./givingFunctions), where we'll provide various functions to the bot, such as commands.
+The bot won't do anything apart from connecting to Guilded, but if you want it to have commands, go to next document, [Giving bot functions](./givingFunctions), where we will be giving commands to the bot.
