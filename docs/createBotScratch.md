@@ -8,28 +8,23 @@ layout: docs
 > It is recommend to learn the basics of C# before making a bot based on Guilded.NET.
 {: .note}
 
-Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
-
-[^1]: Download [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0), [.NET 6](https://dotnet.microsoft.com/download/dotnet/6.0)
+Make sure you installed [.NET SDK](https://dotnet.microsoft.com/download/dotnet). .NET 5 or above are recommended.
 
 ## Installing Guilded.NET
 
 First of all, you must create a directory/folder where the bot is stored. Make a new directory and give it whatever name you want(PascalCase is preferred), like <q>JoesBot</q>, <q>GatoBot</q>, <q>CoolBot</q> or anything else.
 
-After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up the newly created directory using your preferred terminal/console. Write `dotnet new console`{: .language-shell}(`console` can be replaced with your preferred template) and it should generate a fresh project for you.
+After that, we'll need to create a new C#(or in other .NET language) project. Make sure you have MSBuild and dotnet tools installed(both of which are bundled together in .NET SDK by default). Go to/open up the newly created directory using your preferred terminal/console. Write `dotnet new console`(any other template works as well) and it should generate a fresh project for you.
 
-> Make sure not to close your terminal/console for the next step.
-{: .warning}
-
-Install Guilded.NET by typing `dotnet add package Guilded.NET`{: .language-shell}[^2] and `Guilded.NET` dependency should be added to your project. Now we'll need to run your bot.
-
-[^2]: Guilded.NET Templates [GitHub](https://github.com/Guilded-NET/Guilded.NET.Templates), [NuGet](https://nuget.org/packages/Guilded.NET.Templates)
+Install Guilded.NET by typing [`dotnet add package Guilded.NET`](https://github.com/Guilded-NET/Guilded.NET.Templates) and Guilded.NET dependency should be added to your project. Now we'll need to run your bot.
 
 ## Configuring your bot
 
 Now we'll need to define prefix and an authentication token for your bot. You can use either constants or configuration files for that, but we'll use a configuration file.
 
-Create a new directory <q>config</q> and there, create a new file <q>config.json</q>. Create a property `auth` and property `prefix`, where your authentication token and prefix will be stored:
+The name of the directory, the file and even properties in the file can be whatever you want to name it, but make sure it is referenced in your code. We'll use <q>config/config.json</q> in this documentation.
+
+Let's create a new directory <q>config</q> and there, create a new file <q>config.json</q>. Create a property `auth` and property `prefix`, where your authentication token and prefix will be stored:
 
 ```json
 {
@@ -39,10 +34,11 @@ Create a new directory <q>config</q> and there, create a new file <q>config.json
 ```
 {: data-filename="config.json"}
 
-> <q>config</q> directory and <q>config.json</q> file are not mandatory to be named exactly that. You could name it whatever you want, but you'll need to reference it in your code by the name you gave it.
-{: .note}
+As required by JSON's syntax[^1], make sure the token you are pasting is between quotation marks `"string of text here"`.
 
-Now we'll need to make sure your project won't forget about <q>config</q> folder while compiling itself. Add `<ItemGroup>`{: .language-xml} with `<Content>`{: .language-xml} referencing your config directory in `<Project>`{: .language-xml}:
+[^1]: [MDN JSON article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON#examples)
+
+Now we'll need to make sure your project won't forget about <q>config</q> folder while compiling itself. Add `<ItemGroup>`{: .language-xml}:
 
 ```xml
 <!-- ... Other stuff ... -->
@@ -55,7 +51,7 @@ Now we'll need to make sure your project won't forget about <q>config</q> folder
 ```
 {: data-filename="ProjectName.csproj"}
 
-This should include whole <q>config</q> directory.
+This should include whole config directory.
 
 You can now use it in your code:
 
@@ -100,9 +96,9 @@ Now launching your project using `dotnet run` should not do anything, because cl
 
 ## Connecting to Guilded
 
-To connect to Guilded, you can use `await client.ConnectAsync()`{: .language-csharpharp}. There is one problem though. Once you use `await client.ConnectAsync()`{: .language-csharpharp}, the bot will connect to Guilded and program will close seeing that it's done, which will make the bot disconnect. This can be solved by using `await Task.Delay(-1)`{: .language-csharpharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd><kbd>C</kbd> to close the program.
+To connect to Guilded, you can use [ConnectAsync](/references/BaseGuildedClient_ConnectAsync()). There is one problem though. Once you use it, the bot will connect to Guilded and program will close seeing that it's done, which will make the bot disconnect. This can be solved by using `await Task.Delay(-1)`{: .language-csharp}, which will keep the program running and not close it while the connection with Guilded is still online. It will still keep the bot running even if the bot has disconnected from Guilded, so you'll need to use <kbd>CTRL</kbd><kbd>C</kbd> to close the program.
 
-We'll define new asynchronous method called `RunAsync` to run the bot:
+We'll define new asynchronous method to run the bot:
 
 ```csharp
 // At the very top
@@ -126,7 +122,7 @@ static async Task RunAsync(GuildedBotClient client)
 ```
 {: data-filename="Program.cs"}
 
-Now that we have defined `RunAsync`, we can use it in `Main`:
+Now that we have defined it, we can use it in main method:
 
 ```csharp
 // static void Main()
@@ -134,10 +130,10 @@ Now that we have defined `RunAsync`, we can use it in `Main`:
 RunAsync(client).GetAwaiter().GetResult();
 ```
 
-> Make sure to not put anything below `await Task.Delay(-1)`{: .language-csharpharp}, as it will never run.
+> Make sure to not put anything below `await Task.Delay(-1)`{: .language-csharp}, as it will never run.
 {: .warning}
 
-You can also subscribe to `Prepared` or `Connected` events to see that your bot has indeed connected:
+You can also subscribe to [Prepared](/references/AbstractGuildedClient_Prepared) or [Connected](/references/BaseGuildedClient_Connected) events to see that your bot has indeed connected:
 
 ```csharp
 // At the very top
@@ -152,7 +148,7 @@ using Newtonsoft.Json;
 {: data-insert="1"}
 
 ```csharp
-// Below   using GuildedBotClient client = ...;
+// Below `using GuildedBotClient client = ...;`
 client.Connected += (o, e) => Console.WriteLine("I have connected");
 ```
 

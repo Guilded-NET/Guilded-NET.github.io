@@ -8,41 +8,55 @@ layout: docs
 > It is recommend to learn the basics of C# before making a bot based on Guilded.NET.
 {: .note}
 
-Make sure you installed .NET SDK[^1]. .NET 5 or above[^1] are recommended.
-
-[^1]: Download [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0), [.NET 6](https://dotnet.microsoft.com/download/dotnet/6.0)
+Make sure you installed [.NET SDK](https://dotnet.microsoft.com/download/dotnet). .NET 5+ is recommended.
 
 ## Creating a new bot
 
-Since API isn't public yet, you need to create a new account that is going to be user-bot.
-
-## Installing .NET Core template
+Make sure to create an auth token for your bot for this tutorial.
 
 ### Installing
 
-Type `dotnet new -i Guilded.NET.Templates`[^2] and templates should appear in `dotnet new`.
+Type [`dotnet new -i Guilded.NET.Templates`](https://nuget.org/packages/Guilded.NET.Templates) and templates should appear in `dotnet new`.
 
 Now you should be able to see new templates in `dotnet new`
 
-[^2]: Guilded.NET Templates [GitHub](https://github.com/Guilded-NET/Guilded.NET.Templates), [NuGet](https://nuget.org/packages/Guilded.NET.Templates)
-
 ## Creating new project
 
-1. Open up your terminal
-2. Create new folder for your bot. Use the name of your bot. E.g., `JoesBot`, `EpicBot`, `DungeonBot`, `BirdBot`, `CatBot`.
-3. Go to that folder in your terminal.
-4. Type `dotnet new guilded.net.client`{: .language-shell}. It will use the name of your folder. If you want to name it other way, use `dotnet new guilded.net.client -n NameOfTheBot`{: .language-shell}
-5. Change `config/config.json` file and add your bot's authentication token.
+Create a new folder with the name of your bot(PascalCase preferred, `JoesBot`, `EpicBot`, `DungeonBot`, etc.). Open up the folder with your terminal/console(`cd path/to/the/bot/folder`{: .language-bash}). Type `dotnet new guilded.net.client` and it will automatically create a bot project with the name being the name of the folder. If you want to name it other way, use `dotnet new guilded.net.client -n NameOfTheBot`{: .language-shell}.
 
-Now launch it with `dotnet run`{: .language-shell}. It should say that you have successfully logged in. Write <q>!ping</q> into the chat and the bot should respond.
+Now we have a program containing bot. Make sure to edit `config/config.json` and replace auth property's value with your token:
 
-## Commands
+```json
+{
+    "auth": "secret",
+    "prefix": "!"
+}
+```
+{: data-filename="config.json"}
+
+Changed to:
+
+```json
+{
+    "auth": "your_auth_token_here",
+    "prefix": "!"
+}
+```
+{: data-filename="config.json"}
+
+As required by JSON's syntax[^1], make sure the token you are pasting is between quotation marks `"string of text here"`.
+
+[^1]: [MDN article about JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON#examples)
+
+You can now launch the bot using `dotnet run`. Wait for it to say <q>I have successfully logged in!</q> and type <q>!ping</q> in the channel where your bot can see. The bot should respond with <q>Pong!</q>.
+
+If you want a set of commands that quickly sum up the above tutorial:
 
 ```shell
 dotnet new -i Guilded.NET.Templates
 mkdir ProjectName && cd ProjectName
 dotnet new guilded.net.client
-# Open up ./config/config.json
+# Open up ./config/config.json with emacs, nano, vim, VSC, VS, notepad or any other file or code editor
 dotnet run
 ```
 

@@ -18,7 +18,7 @@ client.MessageCreated
 ```
 {: data-filename="Program.cs"}
 
-Now anytime any user, bot or webhook posts a message, our client will write <q>Received message with content: message here</q> in the console. We can now use [`ReplyAsync(string)`{: .language-csharpharp}](/references/MessageEvent_ReplyAsync(string)) to reply to the received message:
+Now anytime any user, bot or webhook posts a message, our client will write <q>Received message with content: message here</q> in the console. We can now use [`ReplyAsync(string)`{: .language-csharp}](/references/MessageEvent_ReplyAsync(string)) to reply to the received message:
 
 ```csharp
 client.MessageCreated
