@@ -1,4 +1,4 @@
-<div class="gembed" {% if include.colour %} style="border-left-color: {{ include.color }};" {% endif %}>
+<div class="gembed" {% if include.colour %} style="border-left-color: {{ include.colour }};" {% endif %}>
     {% if include.author_name %}
     <header class="gembed-author">
         {% if include.author_icon %}
@@ -6,9 +6,7 @@
             <img class="gembed-img" src="{{ include.author_icon }}"/>
         </div>
         {% endif %}
-        <div class="gembed-author-text">
-            <a {% if include.author_link %} href="https://www.guilded.gg/" {% endif %}>{{ include.author_name }}</a>
-        </div>
+        <a class="gembed-author-text" {% if include.author_link %} href="https://www.guilded.gg/" {% endif %}>{{ include.author_name }}</a>
     </header>
     {% endif %}
     <div class="gembed-wrapper">
@@ -22,7 +20,17 @@
             {% if include.fields %}
             <section class="gembed-fields">{{ include.fields }}</section>
             {% endif %}
+            {% if include.image %}
+            <div class="gembed-image-block">
+                <img class="gembed-img" src="{{ include.image }}" alt="Embed Image" />
+            </div>
+            {% endif %}
         </div>
+        {% if include.thumbnail %}
+        <div class="gembed-thumbnail">
+            <img class="gembed-img" src="{{ include.thumbnail }}" alt="Embed Thumbnail" />
+        </div>
+        {% endif %}
     </div>
     {% if include.footer_text %}
     <footer class="gembed-footer">
@@ -31,9 +39,7 @@
             <img class="gembed-img" src="{{ include.footer_icon }}"/>
         </div>
         {% endif %}
-        <div class="gembed-footer-text">
-            <span>{{ include.footer_text }}</span>
-        </div>
+        <span class="gembed-footer-text">{{ include.footer_text }}</span>
     </footer>
     {% endif %}
 </div>

@@ -61,7 +61,7 @@ blockquote
     background-color: rgba(black, 0.15)
 
     // For log blocks
-    &.info, &.note, &.caution, &.warning, &.success
+    &.info, &.note, &.caution, &.warning, &.tip
         // Add an icon
         &::before
             @include include-fa('\f059')
@@ -82,11 +82,11 @@ blockquote
         &::before
             color: $event-yellow
             content: '\f06a' + ' ' + 'Warning:'
-    // &.success
-    //     border-left-color: $event-green
-    //     &::before
-    //         color: $event-green
-    //         content: '\f058' + ' ' + 'Success:'
+    &.tip
+        border-left-color: $event-cyan
+        &::before
+            color: $event-cyan
+            content: '\f0eb' + ' ' + 'Tip:'
     &.info
         border-left-color: $event-sky
         &::before
@@ -96,7 +96,8 @@ blockquote
         border-left-color: $event-green
         &::before
             color: $event-green
-            content: '\f138' + ' ' + 'Note:'
+            content: '\f08d' + ' ' + 'Note:'
+            //content: '\f138' + ' ' + 'Note:'
 
 // Remove code block spacing
 pre

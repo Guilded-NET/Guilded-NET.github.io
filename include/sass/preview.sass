@@ -81,29 +81,33 @@
     border-left-color: #ececec
     // The footer and author of the embed
     &-author, &-footer
-        display: block
+        display: flex
         overflow: auto
+        line-height: 1.5em
         padding: $spacing-1
-        // Body of them
-        div
-            display: inline
-            float: left
-            margin: $spacing-0
-    // Only footer
+        flex-direction: row
+
+        &-icon
+            margin-right: $spacing-1
+
     &-footer
         background-color: var(--background-level-2)
         color: var(--foreground-level-2)
-    // Side thumbnail
+
     &-thumbnail
         flex: 1 1 auto
+        padding: $spacing-3
         // Make sure it's always square
         img
-            width: 8rem
-            height: 8rem
+            width: 9rem
+            height: 9rem
     // Small icons
-    &-img, &-author-icon, &-footer-icon
+    &-author-icon, &-footer-icon
         width: 1.3rem
         height: 1.3rem
+        & .gembed-img
+            width: 1.3rem
+            height: 1.3rem
     &-footer-icon &-img
         border-radius: 50%
     // Content area
@@ -114,7 +118,7 @@
         box-sizing: border-box
     // Titles
     &-title, &-field-title
-        margin-bottom: 0.2rem
+        margin-bottom: $spacing-0
     &-author-text, &-title, &-field-title
         font-weight: bolder
         margin-top: 0
@@ -145,4 +149,4 @@
     // Image
     &-image-block img
         max-width: 30rem
-        max-height: 15rem
+        max-height: 10rem
