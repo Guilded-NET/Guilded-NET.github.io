@@ -37,6 +37,17 @@ a[href]
  * --- Formatting ---
  */
 
+.body-content > img,
+.body-content p > img,
+.body-content blockquote > img
+    // Don't make it go beyond the bounds
+    max-width: 75%
+
+    // Make it center-aligned
+    display: block
+    margin-left: auto
+    margin-right: auto
+
 // Remove that big spacing in a block quote or preview message
 p, blockquote
     margin: $spacing-1 0
@@ -47,57 +58,73 @@ p, blockquote
 
 blockquote
     // Spacing
-    margin: $spacing-4 0
-    padding: $spacing-2
-    padding-left: $spacing-3
+    margin: $spacing-5 0
+    padding: $spacing-2 $spacing-4
     border-radius: $small-radius
 
-    // Side
-    border-left: $small-radius solid $gilded-full
-    border-left-color: $gilded-full
 
     // Misc
-    line-height: 1.4rem
+    line-height: $spacing-4
     background-color: rgba(black, 0.15)
 
+    // Side bar
+    border-left: solid $small-radius $gilded-full
     // For log blocks
-    &.info, &.note, &.caution, &.warning, &.tip
+    &.note, &.tip, &.warning, &.caution, &.important, &.implement, &.inherit,
+    &.security, &.security-note, &.caller, &.language-csharp, &.language-fsharp,
+    &.language-vbnet
+        border-left: none
         // Add an icon
         &::before
             @include include-fa('\f059')
 
-            display: inline-block
-            margin-right: $spacing-1
-            margin-top: $spacing-1
+            margin: $spacing-1 0
+            display: block
             line-height: 1
-    // Log block colours
-    &.caution
-        border-left-color: $event-red
-        &::before
-            color: $event-red
-            // Because SASS escapes it
-            content: '\f057' + ' ' + 'Caution:'
-    &.warning
-        border-left-color: $event-yellow
-        &::before
-            color: $event-yellow
-            content: '\f06a' + ' ' + 'Warning:'
-    &.tip
-        border-left-color: $event-cyan
-        &::before
-            color: $event-cyan
-            content: '\f0eb' + ' ' + 'Tip:'
-    &.info
-        border-left-color: $event-sky
-        &::before
-            color: $event-sky
-            content: '\f05a' + ' ' + 'Info:'
-    &.note
-        border-left-color: $event-green
-        &::before
-            color: $event-green
-            content: '\f08d' + ' ' + 'Note:'
-            //content: '\f138' + ' ' + 'Note:'
+    // Basic blockquote types
+    &.note::before
+        color: $event-green
+        // Because SASS escapes it
+        content: '\f138' + ' ' + 'Note:'
+    &.tip::before
+        color: $event-cyan
+        content: '\f0eb' + ' ' + 'Tip:'
+    &.warning::before
+        color: $event-yellow
+        content: '\f06a' + ' ' + 'Warning:'
+    &.caution::before
+        color: $event-red
+        content: '\f057' + ' ' + 'Caution:'
+    &.important::before
+        color: $event-red
+        content: '\f05a' + ' ' + 'Important:'
+    // Other
+    &.implement::before
+        color: $event-cyan
+        content: '\f35a' + ' ' + 'Implementing:'
+    &.inherit::before
+        color: $event-sky
+        content: '\f35a' + ' ' + 'Inheriting:'
+    &.security::before
+        color: $event-sky
+        content: '\f3ed' + ' ' + 'Security:'
+    &.security-note::before
+        color: $event-purple
+        content: '\f3ed' + ' ' + 'Security note:'
+    &.caller::before
+        color: $event-purple
+        content: '\f0e7' + ' ' + 'Calling:'
+    // Language
+    &.language-csharp::before
+        color: $event-green
+        content: '\f02d' + ' ' + 'C# only:'
+    &.language-fsharp::before
+        color: $event-purple
+        content: '\f02d' + ' ' + 'F# only:'
+    &.language-vbnet::before
+        color: $event-sky
+        content: '\f02d' + ' ' + 'VB.NET only:'
+    
 
 // Remove code block spacing
 pre
@@ -111,7 +138,8 @@ code
 // Tag-based
 q
     &::before, &::after
-        opacity: 50%
+        color: rgba(243, 212, 88, 0.3)
+        // Don't push the current line of text slightly below
         line-height: 0
 
         font-size: 2em
@@ -156,29 +184,19 @@ table
         padding: $spacing-1
     // Checkmark, crossmark table
     .fa-check
-        color: $event-green
+        color: $condition-good
     .fa-question
         color: $event-sky
     .fa-slash
         color: $event-yellow
         transform: rotate(20deg)
     .fa-times
-        color: $event-red
+        color: $condition-bad
 
-.body-content > img,
-.body-content p > img,
-.body-content blockquote > img
-    // Don't make it go beyond the bounds
-    max-width: 75%
-
-    // Make it center-aligned
-    display: block
-    margin-left: auto
-    margin-right: auto
 
 // Referenced foonotes
 .footnotes
-    margin-top: $spacing-4
+    margin-top: $spacing-5
 
     border-radius: $medium-radius
     padding: $spacing-1 $spacing-3
