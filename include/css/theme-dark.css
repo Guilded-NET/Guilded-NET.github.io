@@ -12,10 +12,8 @@
 
     /* Channel selected */
     --background-level-2-highlight: #373943;
-    /* Message text area */
-    --background-level-3-input: #4d4e58;
-    /* Threaded message background */
-    --background-level-3-thread: #4f515d;
+    /* <q> highlight */
+    --background-level-4-highlight: #3d3f4a;
 
     --foreground-level-0: white;
     --foreground-level-1: #ececec;

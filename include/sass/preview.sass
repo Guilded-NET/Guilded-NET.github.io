@@ -38,6 +38,8 @@
     // The name and timestamp
     &-header
         user-select: none
+        display: flex
+        flex-direction: row
         // Space after each item
         span
             margin-right: $spacing-1
@@ -48,15 +50,15 @@
         .preview-timestamp
             font-size: 0.8em
             color: var(--foreground-level-2)
-            // Add a space before and after itself
         .preview-badge
             padding: math.div($spacing-0, 2) $spacing-0
             border-radius: $tiny-radius
-            background-color: #575964
+            background-color: rgba(white, 0.1)
+            height: min-content
 
             font-size: 0.6em
+            font-weight: bolder
             text-transform: uppercase
-            text-shadow: 0 0 2px #0006
 
 /*
  * --- Embeds ---
@@ -70,7 +72,7 @@
 
     // Borders
     border: 0.05rem solid
-    border-color: #FFFFFF12
+    border-color: rgba(white, 0.1)
     border-radius: $tiny-radius
 
     // Content

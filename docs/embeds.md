@@ -125,14 +125,6 @@ Embed embed = new Embed { Description = "The description of the embed." }
     .SetFooter("The footer text", iconUrl);
 ```
 
-{% capture embeds2 %}
-    {% include c_embed.html author_name="The name of the author" author_icon="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png" description="The description of the embed" footer_text="The footer text" footer_icon="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png" %}
-{% endcapture %}
-{% capture messages2 %}
-    {% include c_message.html other=embeds2 %}
-{% endcapture %}
-{% include c_preview.html content=messages2 %}
-
 ### Setting side colour
 
 Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for colour of the left border. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
@@ -168,15 +160,6 @@ Embed embed = new Embed
     Description = "Description",
 }.SetColor(0xFF0000);
 ```
-{: data-insert="4"}
-
-{% capture embeds3 %}
-    {% include c_embed.html title="Title" description="Description" colour="#FF0000" %}
-{% endcapture %}
-{% capture messages3 %}
-    {% include c_message.html other=embeds3 %}
-{% endcapture %}
-{% include c_preview.html content=messages3 %}
 
 ### The end
 
