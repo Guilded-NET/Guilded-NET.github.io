@@ -13,7 +13,50 @@ Guilded.NET is an open-source unofficial API wrapper for [Guilded](https://guild
 - To get started with **Guilded.NET**, check out [documentation page](/docs).
 - To see all **Guilded.NET** references, check out [reference page](/references).
 
+## Example
+
+An example of a bot that only responds to ping commands in C# 10:
+
+```json
+// ./config/config.js
+{
+    "auth": "your_auth_token_here",
+    "prefix": "!"
+}
+```
+{: data-filename="config/config.js"}
+```cs
+using System;
+using System.IO;
+using System.Reactive.Linq;
+using System.Threading.Tasks;
+using Guilded.NET;
+using Newtonsoft.Json.Linq;
+
+// Get the configuration values
+JObject config = JObject.Parse(await File.ReadAllTextAsync("./config/config.json").ConfigureAwait(false));
+
+string? auth   = config.Value<string>("auth"),
+        prefix = config.Value<string>("prefix");
+
+using GuildedBotClient client = new(auth);
+
+client.Connected += (_, _) => Console.WriteLine("Connected");
+client.Prepared += (_, _) => Console.WriteLine("Prepared");
+
+// Wait for !ping messages
+client.MessageCreated
+    .Where(msgCreated => msgCreated.Content == prefix + "ping")
+    .Subscribe(async msgCreated => await msgCreated.ReplyAsync("Pong!").ConfigureAwait(false));
+
+await client.ConnectAsync().ConfigureAwait(false);
+// Don't close the program when the bot connects
+await Task.Delay(-1).ConfigureAwait(false);
+```
+{: data-filename="Program.cs"}
+
 ## Links
+- [GitHub](https://github.com/Guilded-NET/Guilded.NET/)
 - [NuGet](https://www.nuget.org/packages/Guilded.NET/)
 - [FuGet](https://www.fuget.org/packages/Guilded.NET/)
 
