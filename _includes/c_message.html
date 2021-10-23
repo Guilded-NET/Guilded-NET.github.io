@@ -9,11 +9,7 @@
             {% else %}
                 {% assign name = "Guilded.NET Bot" %}
             {% endif %}
-            <span class="preview-name">{{ name }}</span>
-            <span class="preview-timestamp">9:55pm</span>
-            {% unless include.isUser %}
-            <span class="preview-badge">BOT</span>
-            {% endunless %}
+            <span class="preview-name">{{ name }}</span><span class="preview-timestamp">9:55pm</span>{% unless include.isUser %}<span class="flair normal">BOT</span>{% endunless %}
         </div>
         <div class="preview-message">
             {% if include.content %}

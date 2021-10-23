@@ -40,6 +40,7 @@
         user-select: none
         display: flex
         flex-direction: row
+        align-items: center
         // Space after each item
         span
             margin-right: $spacing-1
@@ -50,15 +51,6 @@
         .preview-timestamp
             font-size: 0.8em
             color: var(--foreground-level-2)
-        .preview-badge
-            padding: math.div($spacing-0, 2) $spacing-0
-            border-radius: $tiny-radius
-            background-color: rgba(white, 0.1)
-            height: min-content
-
-            font-size: 0.6em
-            font-weight: bolder
-            text-transform: uppercase
 
 /*
  * --- Embeds ---
@@ -69,6 +61,7 @@
     // Display
     display: inline-block
     overflow: hidden
+    margin: $spacing-0 0
 
     // Borders
     border: 0.05rem solid

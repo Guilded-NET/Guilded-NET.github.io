@@ -75,38 +75,3 @@ body
             &:hover, &[href]:hover
                 color: var(--foreground-level-1)
                 fill: var(--foreground-level-1)
-
-/*
- * --- Content ---
- */
-
-.body
-    // Wrapper around the body
-    &-wrapper
-        overflow: hidden
-        display: flex
-        width: 100%
-        height: 100%
-    // The list of types and namespaces
-    &-list
-        width: 25%
-        z-index: 9
-        background-color: var(--background-level-2)
-        padding: $spacing-1
-
-        display: flex
-        flex-direction: column
-        align-items: stretch
-    // The document itself
-    &-document
-        width: 100%
-        background-color: var(--background-level-4)
-        overflow: hidden scroll
-    &-content
-        padding: $spacing-6
-        min-height: 100vh
-    &-footer
-        color: var(--foreground-level-2)
-        background-color: var(--background-level-3)
-        padding: $spacing-5
-        font-size: 0.8em

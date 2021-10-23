@@ -11,11 +11,12 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'include/css/body.css': 'include/sass/body.sass',
+                    'include/css/page.css': 'include/sass/page.sass',
                     'include/css/code.css': 'include/sass/code.sass',
+                    'include/css/text.css': 'include/sass/text.sass',
                     'include/css/preview.css': 'include/sass/preview.sass',
+                    'include/css/document.css': 'include/sass/document.sass',
                     'include/css/reference.css': 'include/sass/reference.sass',
-                    'include/css/text.css': 'include/sass/text.sass'
                 }
             }
         }
