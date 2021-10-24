@@ -56,12 +56,11 @@ This should include whole config directory.
 You can now use it in your code:
 
 ```csharp
-// At the very top
 using System.IO;
 
 using Newtonsoft.Json.Linq;
 ```
-{: data-insert="1,3"}
+{: data-insert="0,2"}
 
 ```csharp
 // static void Main()
@@ -78,14 +77,13 @@ string auth   = config.Value<string>("auth"),
 This should allow you to use authentication token and prefix you provided. Now you can use it in your bot:
 
 ```csharp
-// At the very top
 using System.IO;
 
 using Guilded.NET;
 
 using Newtonsoft.Json.Linq;
 ```
-{: data-insert="3"}
+{: data-insert="2"}
 
 ```csharp
 // Below code auth and prefix definition
@@ -101,7 +99,6 @@ To connect to Guilded, you can use [ConnectAsync](/references/BaseGuildedClient_
 We'll define new asynchronous method to run the bot:
 
 ```csharp
-// At the very top
 using System.IO;
 using System.Threading.Tasks;
 
@@ -109,7 +106,7 @@ using Guilded.NET;
 
 using Newtonsoft.Json;
 ```
-{: data-insert="2"}
+{: data-insert="1"}
 
 ```csharp
 // Below static void Main()
@@ -136,7 +133,6 @@ RunAsync(client).GetAwaiter().GetResult();
 You can also subscribe to [Prepared](/references/AbstractGuildedClient_Prepared) or [Connected](/references/BaseGuildedClient_Connected) events to see that your bot has indeed connected:
 
 ```csharp
-// At the very top
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -145,7 +141,7 @@ using Guilded.NET;
 
 using Newtonsoft.Json;
 ```
-{: data-insert="1"}
+{: data-insert="0"}
 
 ```csharp
 // Below `using GuildedBotClient client = ...;`

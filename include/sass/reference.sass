@@ -71,23 +71,17 @@
         &:hover, &[href]:hover
             color: var(--foreground-level-1)
             background-color: var(--background-level-2-highlight)
-        // // Add an icon to the item
-        // &::before
-        //     @include include-fa('\f02d')
-        //     color: var(--foreground-level-2)
-        //     fill: var(--foreground-level-2)
-        //     // Add a space after it
-        //     margin-right: $spacing-1
-        // &.list-class::before
-        //     content: '\f24d'
-        // &.list-struct::before
-        //     content: '\f0e8'
-        // &.list-module::before
-        //     content: '\f24d'
-        // &.list-interface::before
-        //     content: '\f7d3'
-        //     font-weight: 400
-        // &.list-enum::before
-        //     content: '\f542'
-        // &.list-delegate::before
-        //     content: '\f1b2'
+        // Add an icon to the item
+        .list-start, .list-overview, .list-use
+            &::before
+                @include include-fa('\f02d')
+                color: var(--foreground-level-2)
+                fill: var(--foreground-level-2)
+                // Add a space after it
+                margin-right: $spacing-1
+        &.list-start::before
+            content: '\f114'
+        &.list-overview::before
+            content: '\f46d'
+        &.list-use::before
+            content: '\f0e7'

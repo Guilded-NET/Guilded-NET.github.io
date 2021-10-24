@@ -5,7 +5,7 @@ layout: docs
 
 # Giving bot functions
 
-Well, to no surprise, Guilded bots can do more than connect to Guilded. They can create, update, delete messages, forum threads, etc. and receive various events that Guilded API exposes. Guilded.NET tries to implement every standard Guilded API event and API endpoint, so anything that can be done with Guilded API, should also be in Guilded.NET(although some features might take longer to develop).
+Well, to no surprise, Guilded bots can do more than connect to Guilded. They can create, update, delete messages, forum threads, etc. and receive various events that Guilded API exposes. Guilded.NET tries to implement every standard Guilded API event and API endpoint, so anything that can be done with Guilded API, should also be in Guilded.NET(although some features might take longer to develop). You can check the [Quick Overview: Supported features](/docs/supported) document if you want to know what is supported by Guilded.NET and Guilded API.
 
 ## Creating commands
 
@@ -28,7 +28,6 @@ client.MessageCreated
 Now write <q>Hi!</q> and... the bot replies with <q>Pong!</q> and then spams it while replying to itself. This means we need a condition to check if it's a ping command. You can add an `if` condition in the observer, but we can also use <c>.Where</c> to check it:
 
 ```csharp
-// Make sure to import this at the top of the file:
 using System.Reactive.Linq;
 
 // ... Where we subscribed to Connected and Prepared events
@@ -51,24 +50,9 @@ client.MessageCreated
     });
 ```
 
-Now writing anything that starts with the defined prefix(Guilded.NET documentation will always assume your prefix is `!`, but it can be different in your bot) will make the client write <q>Received command: !command_here</q> in the console. Of course, we could use `.Select` method to fetch [Content](/references/MessageEvent_Content) property for instance:
+Now writing anything that starts with the defined prefix(Guilded.NET documentation will always assume your prefix is `!`, but it can be different in your bot) will make the client write <q>Received command: !command_here</q> in the console.
 
-```csharp
-// Please don't do this in your code, it's an example
-client.MessageCreated
-    .Where(msgCreated => msgCreated.Content.StartsWith(prefix))
-    .Select(msgCreated => msgCreated.Content)
-    .Subscribe(content =>
-    {
-        Console.WriteLine("Received command: {0}", content);
-    });
-```
-
-But the problem is with this code is that `msgCreated` is only defined locally for `.Where` and `.Select`, but we can't fetch it in `.Subscribe`, since we already gave the observer `msgCreated.Content` property through `.Select` method. So at least for this guide, we will be writing everything in `.Subscribe`.
-
-But just remember that `.Select` and `.Where` exist.
-
-So let's get started with fetching the command:
+Now we can fetch the details of the command:
 
 ```csharp
 client.MessageCreated
@@ -76,7 +60,7 @@ client.MessageCreated
     .Subscribe(async msgCreated =>
     {
         // To remove the prefix in the command
-        // !command_name arg0 arg1 -> { "command_name", "arg0", "arg1" }
+        // !command_name arg0 arg1 -> new string[] { "command_name", "arg0", "arg1" }
         string afterPrefix = msgCreated.Content.Substring(prefix.Length);
         string[] split = afterPrefix.Split(' ');
 

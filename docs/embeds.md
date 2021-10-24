@@ -10,29 +10,22 @@ Embeds are generally used to display the preview of certain content or a link, b
 
 ## Content and Custom embeds
 
-There are 2 kinds of embeds, [content embeds](/references/ContentEmbed) and [custom embeds](/references/ChatEmbed)(may also be called rich embeds).
+There are 2 kinds of embeds, content embeds and custom embeds(may also be called rich embeds).
 
-Content embeds are used to automatically generate a preview of a link. If, let's say you give content embed to fetch your website, then it will pull metadata and OpenGraph metadata from your website and hands out the data to Guilded client, which does whatever it wants to do with the data(display it or do anything else). Content embed nodes are generally only found in documents, forum posts, forum replies and alike, but not messages(they still get displayed below if you have a hyperlink in your message). Content embeds may differ in design, unlike custom embeds(website embeds vs share feature vs server invite).
+Content embeds are used to automatically generate a preview of a link. If you add a hyperlink, the Guilded client will pull OpenGraph metadata from the linked website and display the contents according to the fetch data. Content embeds may differ in design, unlike custom embeds(website embeds vs share feature vs server invite).
 
-Custom embeds are similar to content website embeds in terms of how they look, but they are fully customizable, meaning, you can set custom colour of the side border, add fields you want, etc. They are generally mostly used for webhooks to display events/new content or for bots to have a fancy output that is more understandable from a glance. Content embeds cannot look like shared messages or team invites as of now.
+Custom embeds are similar to content website embeds in terms of how they look, but they are fully customizable, meaning, you can set custom colour of the side border, add fields you want, etc. Custom embeds do not require a hyperlink to be added and it can be added freely to a message. They are generally used for webhooks to display events/new content or for bots to have a fancy output that is more understandable from a glance. Content embeds cannot look like shared messages or team invites as of now.
 
 ## Creating a custom embed
 
 ### Basics
 
-With Guilded.NET, there are several ways to create custom embeds. One of them is to use constructors:
+To create an embed, you need to create a new instance of [Embed](/references/Embed). From that point, you can use embed constructor parameters, object initializers or methods to generate content for the embed. As an example:
 
 ```csharp
-// At the top of the file
 using Guilded.NET.Base.Embeds;
 ```
-{: data-insert="1"}
-
-```csharp
-Embed embed = new Embed("The title of the embed", "The description/contents of it", "Footer text at the bottom");
-```
-
-You can also use it through object initializer/by setting embed's properties:
+{: data-insert="0"}
 
 ```csharp
 Embed embed = new Embed
@@ -43,34 +36,14 @@ Embed embed = new Embed
 };
 ```
 
-... Or with methods:
+And then we need to send the embed:
 
 ```csharp
-Embed embed = new Embed()
-    .SetTitle("Title here")
-    .SetDescription("Description here")
-    .AddField("New field's title", "New field's description");
+// Can't send embeds yet, but it will be something like this:
+await client.CreateMessageAsync(channelId, embed).ConfigureAwait(false);
 ```
 
-These can be generally combined and does not necessarily be a style of how you use embeds.
-
-> Full reference of every property, constructor and method can be found [here](/references/Embed).
-{: .note}
-
-And then you can send the embed by creating a message content wrapped around it:
-
-```csharp
-// At the very top of the file
-using Guilded.NET.Base.Chat;
-using Guilded.NET.Base.Embeds;
-```
-{: data-insert="1"}
-
-```csharp
-await client.CreateMessageAsync(channelId, new MessageContent(embed));
-// OR
-await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
-```
+This produces:
 
 {% capture embeds0 %}
     {% include c_embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
@@ -80,6 +53,9 @@ await client.CreateMessageAsync(channelId, new ChatEmbed(embed));
 {% endcapture %}
 {% include c_preview.html content=messages0 %}
 
+Due to design choices, embeds don't need to be built. This may be subject to change, but there is slim chance that will happen.
+
+You can check for full and quick overview of all embed features in [Embed reference page](/references/Embed). This document will only help understand some of the features from this point.
 
 ### Fields
 
@@ -105,19 +81,19 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
 {% endcapture %}
 {% include c_preview.html content=messages1 %}
 
+It is not mandatory to have either the name or the value of the field. Empty string can be passed to either of them and it will not be visible in the embed. Although passing a null will result in an error by Guilded.NET (because Guilded API does it as well).
 
 ### Authors and Footers
 
 Embeds have more than descriptions, titles and fields. They can also have an author, which appears at the top, and a footer, which appears at the bottom. Both authors and footers have a text and an icon, but author can also hold a hyperlink in its name.
 
 ```csharp
-// At the very top of the file
 using System;
 
 using Guilded.NET.Base.Chat;
 using Guilded.NET.Base.Embeds;
 ```
-{: data-insert="1"}
+{: data-insert="0"}
 
 ```csharp
 Embed embed = new Embed { Description = "The description of the embed." }
@@ -132,14 +108,13 @@ Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/sys
 You can use built-in colours as well, such as [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.red), which will be rendered as defined:
 
 ```csharp
-// At the very top of the file
 using System;
 using System.Drawing;
 
 using Guilded.NET.Base.Chat;
 using Guilded.NET.Base.Embeds;
 ```
-{: data-insert="2"}
+{: data-insert="1"}
 
 ```csharp
 Embed embed = new Embed
@@ -151,16 +126,8 @@ Embed embed = new Embed
 ```
 {: data-insert="4"}
 
-Custom colours are allowed as well, by using [`Embed.SetColor(int rgba)`{: .language-csharp}](/references/Embed_SetColor(int)) or [`Embed.SetColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_SetColor(int_int_int)).
-
-```csharp
-Embed embed = new Embed
-{
-    Title = "Title",
-    Description = "Description",
-}.SetColor(0xFF0000);
-```
+Colours are not restricted to pre-defined ones. You can create custom colours using [`Embed.SetColor(int rgba)`{: .language-csharp}](/references/Embed_SetColor(int)) or [`Embed.SetColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_SetColor(int_int_int)) or through other means.
 
 ### The end
 
-There is more to custom embeds than mentioned here. [Custom embed reference page](/references/Embed) contains all of the other information necessary, such as how to set a thumbnail or an image.
+There is more to custom embeds than mentioned here. [Custom embed reference page](/references/Embed) contains all of the other information necessary, such as how to set a thumbnail or an image. It is recommended to check it out if you want to work with embeds.
