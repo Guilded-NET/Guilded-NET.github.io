@@ -62,7 +62,6 @@ blockquote
     padding: $spacing-2 $spacing-4
     border-radius: $small-radius
 
-
     // Misc
     line-height: $spacing-4
     background-color: rgba(black, 0.15)
@@ -70,9 +69,8 @@ blockquote
     // Side bar
     border-left: solid $small-radius $gilded-full
     // For log blocks
-    &.note, &.tip, &.warning, &.caution, &.important, &.implement, &.inherit,
-    &.security, &.security-note, &.caller, &.language-csharp, &.language-fsharp,
-    &.language-vbnet
+    &.note, &.tip, &.warning, &.caution, &.important, &.implement, &.inherit, &.security-note,
+    &.caller, &.language-csharp, &.language-fsharp, &.language-vbnet
         border-left: none
         // Add an icon
         &::before
@@ -101,13 +99,10 @@ blockquote
     // Other
     &.implement::before
         color: $event-cyan
-        content: '\f35a' + ' ' + 'Implementing:'
+        content: '\f101' + ' ' + 'Implementing:'
     &.inherit::before
         color: $event-sky
         content: '\f35a' + ' ' + 'Inheriting:'
-    &.security::before
-        color: $event-sky
-        content: '\f3ed' + ' ' + 'Security:'
     &.security-note::before
         color: $event-purple
         content: '\f3ed' + ' ' + 'Security note:'
