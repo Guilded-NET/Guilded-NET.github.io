@@ -71,17 +71,3 @@
         &:hover, &[href]:hover
             color: var(--foreground-level-1)
             background-color: var(--background-level-2-highlight)
-        // Add an icon to the item
-        .list-start, .list-overview, .list-use
-            &::before
-                @include include-fa('\f02d')
-                color: var(--foreground-level-2)
-                fill: var(--foreground-level-2)
-                // Add a space after it
-                margin-right: $spacing-1
-        &.list-start::before
-            content: '\f114'
-        &.list-overview::before
-            content: '\f46d'
-        &.list-use::before
-            content: '\f0e7'
