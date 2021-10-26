@@ -44,10 +44,6 @@ Changed to:
 ```
 {: data-filename="config.json"}
 
-As required by JSON's syntax[^1], make sure the token you are pasting is between quotation marks `"string of text here"`.
-
-[^1]: [MDN article about JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON#examples)
-
 You can now launch the bot using `dotnet run`. Wait for it to say <q>I have successfully logged in!</q> and type <q>!ping</q> in the channel where your bot can see. The bot should respond with <q>Pong!</q>.
 
 If you want a set of commands that quickly sum up the above tutorial:

@@ -53,7 +53,7 @@ This produces:
 {% endcapture %}
 {% include c_preview.html content=messages0 %}
 
-Due to design choices, embeds don't need to be built. This may be subject to change, but there is slim chance that will happen.
+Due to design choices, embeds don't need to be built. This may be subject to change.
 
 You can check for full and quick overview of all embed features in [Embed reference page](/references/Embed). This document will only help understand some of the features from this point.
 
@@ -85,7 +85,7 @@ It is not mandatory to have either the name or the value of the field. Empty str
 
 ### Authors and Footers
 
-Embeds have more than descriptions, titles and fields. They can also have an author, which appears at the top, and a footer, which appears at the bottom. Both authors and footers have a text and an icon, but author can also hold a hyperlink in its name.
+Embeds have more than descriptions, titles and fields. They can also have an author, which appears at the top, and a footer, which appears at the bottom.
 
 ```csharp
 using System;
@@ -101,11 +101,24 @@ Embed embed = new Embed { Description = "The description of the embed." }
     .SetFooter("The footer text", iconUrl);
 ```
 
+As the name suggests, authors are supposed to represent who made the content. But it isn't restricted to that. The URL of the author can be used to link either the content or the author's profile.
+
+Footers provide mostly side information, such as like, comment count, where it was posted, or it could be a replacement for embed author.
+
+Both footer and an author can have an optional icon, although footer cannot hold a URL. But footers can hold timestamps... Well, sort of. Timestamp's data isn't defined inside a footer, but it is displayed in the footer.
+
+```csharp
+Embed embed = new Embed { Description = "This embed has a timestamp at the bottom" }
+    .SetTimestamp();
+```
+
+If no argument is passed to [`SetTimestamp`](/references/Embed_SetTimestamp(DateTime)), UTC current time will be used instead.
+
 ### Setting side colour
 
-Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) for colour of the left border. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as black instead).
+Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) to set the colour of the embed. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as white instead). Colour is displayed at the left side of the embed and doesn't change any other parts of it.
 
-You can use built-in colours as well, such as [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.red), which will be rendered as defined:
+An example using [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.red) as embed colour:
 
 ```csharp
 using System;
@@ -126,7 +139,7 @@ Embed embed = new Embed
 ```
 {: data-insert="4"}
 
-Colours are not restricted to pre-defined ones. You can create custom colours using [`Embed.SetColor(int rgba)`{: .language-csharp}](/references/Embed_SetColor(int)) or [`Embed.SetColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_SetColor(int_int_int)) or through other means.
+Colours are not restricted to pre-defined ones. You can create custom colours using [`Embed.SetColor(int rgba)`{: .language-csharp}](/references/Embed_SetColor(int)), [`Embed.SetColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_SetColor(int_int_int)) or through other means.
 
 ### The end
 

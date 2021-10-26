@@ -18,7 +18,6 @@ Guilded.NET is an open-source unofficial API wrapper for [Guilded](https://guild
 An example of a bot that only responds to ping commands in C# 10:
 
 ```json
-// ./config/config.js
 {
     "auth": "your_auth_token_here",
     "prefix": "!"

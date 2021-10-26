@@ -34,10 +34,6 @@ Let's create a new directory <q>config</q> and there, create a new file <q>confi
 ```
 {: data-filename="config.json"}
 
-As required by JSON's syntax[^1], make sure the token you are pasting is between quotation marks `"string of text here"`.
-
-[^1]: [MDN JSON article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON#examples)
-
 Now we'll need to make sure your project won't forget about <q>config</q> folder while compiling itself. Add `<ItemGroup>`{: .language-xml}:
 
 ```xml
@@ -126,9 +122,6 @@ Now that we have defined it, we can use it in main method:
 // At the very bottom of Main
 RunAsync(client).GetAwaiter().GetResult();
 ```
-
-> Make sure to not put anything below `await Task.Delay(-1)`{: .language-csharp}, as it will never run.
-{: .warning}
 
 You can also subscribe to [Prepared](/references/AbstractGuildedClient_Prepared) or [Connected](/references/BaseGuildedClient_Connected) events to see that your bot has indeed connected:
 

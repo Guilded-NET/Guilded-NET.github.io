@@ -1,3 +1,8 @@
+---
+title: Supported features
+layout: docs
+---
+
 # Quick Overview: Supported features
 
 | Feature                  |         Guilded API          |            Guilded.NET           |
