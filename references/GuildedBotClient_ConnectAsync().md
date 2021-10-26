@@ -1,17 +1,21 @@
 
-#### [Guilded.NET](Guilded_NET 'Guilded_NET')
+#### [Guilded.NET](Guilded_NET 'Guilded.NET')
 ### [Guilded.NET](Guilded_NET#Guilded_NET 'Guilded.NET').[GuildedBotClient](GuildedBotClient 'Guilded.NET.GuildedBotClient')
 ## GuildedBotClient.ConnectAsync() Method
-Connects to Guilded using [AuthToken](GuildedBotClient_AuthToken 'Guilded.NET.GuildedBotClient.AuthToken').  
+
+Connects to Guilded using defined auth.
 ```csharp
 public override System.Threading.Tasks.Task ConnectAsync();
 ```
 
-#### Returns
-[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
-### Remarks
-Creates a new connection to Guilded using set property [AuthToken](GuildedBotClient_AuthToken 'Guilded.NET.GuildedBotClient.AuthToken').
 
-#### See Also
+#### Returns
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')
+
+### Remarks
+  
+Creates a new connection to Guilded using set property [AuthToken](GuildedBotClient_AuthToken 'Guilded.NET.GuildedBotClient.AuthToken') as an authentication token.
+
+### See Also
 - [ConnectAsync(string)](GuildedBotClient_ConnectAsync(string) 'Guilded.NET.GuildedBotClient.ConnectAsync(string)')
 - [DisconnectAsync()](AbstractGuildedClient_DisconnectAsync() 'Guilded.NET.AbstractGuildedClient.DisconnectAsync()')

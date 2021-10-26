@@ -1,53 +1,78 @@
 
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## ChatPermissions Enum
-Permissions related to chat.  
+
+Permissions related to chat.
 ```csharp
 public enum ChatPermissions
-
 ```
+### Fields
 
-#### Fields
 <a name='Guilded_NET_Base_Permissions_ChatPermissions_All'></a>
-`All` 119  
-All of the permissions combined.  
-  
+`All` 119
+
+All of the permissions combined.
+
 <a name='Guilded_NET_Base_Permissions_ChatPermissions_Basic'></a>
-`Basic` 35  
-A simple permission combination allowing writing permissions and reading permissions.  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_CreateThreads'></a>
-`CreateThreads` 16  
-Allows you to create threads in the channel  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_Manage'></a>
-`Manage` 84  
-All of the manage permissions combined.  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_ManageMessages'></a>
-`ManageMessages` 4  
-Allows you to delete chat messages by other members or pin any message  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_ManageThreads'></a>
-`ManageThreads` 64  
-Allows you to archive and restore threads  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_None'></a>
-`None` 0  
-No given permissions.  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_ReadMessages'></a>
-`ReadMessages` 2  
-Allows you to read chat messages  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_SendMessages'></a>
-`SendMessages` 1  
-Allows you to send chat messages  
-  
-<a name='Guilded_NET_Base_Permissions_ChatPermissions_SendThreadMessages'></a>
-`SendThreadMessages` 32  
-Allows you to reply to threads in the channel  
-  
+`Basic` 35
+
+A simple permission combination allowing writing permissions and reading permissions.
+
 ### Remarks
-Defines permissions for chat & text related things.
+  
+Sets these permissions:  
+- [SendMessages](ChatPermissions#Guilded_NET_Base_Permissions_ChatPermissions_SendMessages 'Guilded.NET.Base.Permissions.ChatPermissions.SendMessages')  
+- [ReadMessages](ChatPermissions#Guilded_NET_Base_Permissions_ChatPermissions_ReadMessages 'Guilded.NET.Base.Permissions.ChatPermissions.ReadMessages')  
+- [SendThreadMessages](ChatPermissions#Guilded_NET_Base_Permissions_ChatPermissions_SendThreadMessages 'Guilded.NET.Base.Permissions.ChatPermissions.SendThreadMessages')
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_CreateThreads'></a>
+`CreateThreads` 16
+
+Allows you to create threads in the channel
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_Manage'></a>
+`Manage` 84
+
+All of the manage permissions combined.
+
+### Remarks
+  
+Sets these permissions:  
+- [ManageMessages](ChatPermissions#Guilded_NET_Base_Permissions_ChatPermissions_ManageMessages 'Guilded.NET.Base.Permissions.ChatPermissions.ManageMessages')  
+- [CreateThreads](ChatPermissions#Guilded_NET_Base_Permissions_ChatPermissions_CreateThreads 'Guilded.NET.Base.Permissions.ChatPermissions.CreateThreads')  
+- [ManageThreads](ChatPermissions#Guilded_NET_Base_Permissions_ChatPermissions_ManageThreads 'Guilded.NET.Base.Permissions.ChatPermissions.ManageThreads')
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_ManageMessages'></a>
+`ManageMessages` 4
+
+Allows you to delete chat messages by other members or pin any message
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_ManageThreads'></a>
+`ManageThreads` 64
+
+Allows you to archive and restore threads
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_None'></a>
+`None` 0
+
+No given permissions.
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_ReadMessages'></a>
+`ReadMessages` 2
+
+Allows you to read chat messages
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_SendMessages'></a>
+`SendMessages` 1
+
+Allows you to send chat messages
+
+<a name='Guilded_NET_Base_Permissions_ChatPermissions_SendThreadMessages'></a>
+`SendThreadMessages` 32
+
+Allows you to reply to threads in the channel
+
+### Remarks
+  
+Defines channel permissions for chat & text related things.

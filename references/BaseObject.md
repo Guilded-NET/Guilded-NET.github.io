@@ -1,13 +1,14 @@
 
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
 ### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base')
 ## BaseObject Class
-The base for all Guilded models.  
+
+The base for all Guilded models.
 ```csharp
 public abstract class BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; BaseObject  
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; BaseObject
 
 Derived  
 &#8627; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject')  
@@ -23,18 +24,16 @@ Derived
 &#8627; [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')  
 &#8627; [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')  
 &#8627; [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent')  
-&#8627; [SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink')  
+&#8627; [SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink')
+
 ### Remarks
-Provides a base for all Guilded.NET objects.
+  
+Provides a base for all Guilded.NET objects. This object can be serialized with [Serialize(JsonSerializer)](BaseObject_Serialize(JsonSerializer) 'Guilded.NET.Base.BaseObject.Serialize(Newtonsoft.Json.JsonSerializer)') or [Serialize(JsonConverter[])](BaseObject_Serialize(JsonConverter__) 'Guilded.NET.Base.BaseObject.Serialize(Newtonsoft.Json.JsonConverter[])') methods.
 
-
-
-This object can be serialized with [Serialize(JsonSerializer)](BaseObject_Serialize(JsonSerializer) 'Guilded.NET.Base.BaseObject.Serialize(JsonSerializer)') or [Serialize(JsonConverter[])](BaseObject_Serialize(JsonConverter__) 'Guilded.NET.Base.BaseObject.Serialize(JsonConverter[])') methods.
+### See Also
+- [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject')
 
 | Methods | |
 | :--- | :--- |
-| [Serialize(JsonConverter[])](BaseObject_Serialize(JsonConverter__) 'Guilded.NET.Base.BaseObject.Serialize(JsonConverter[])') | Returns serialized [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') instance.<br/> |
-| [Serialize(JsonSerializer)](BaseObject_Serialize(JsonSerializer) 'Guilded.NET.Base.BaseObject.Serialize(JsonSerializer)') | Returns serialized [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') instance.<br/> |
-
-#### See Also
-- [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject')
+| [Serialize(JsonConverter[])](BaseObject_Serialize(JsonConverter__) 'Guilded.NET.Base.BaseObject.Serialize(Newtonsoft.Json.JsonConverter[])') | Returns serialized [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') instance. |
+| [Serialize(JsonSerializer)](BaseObject_Serialize(JsonSerializer) 'Guilded.NET.Base.BaseObject.Serialize(Newtonsoft.Json.JsonSerializer)') | Returns serialized [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') instance. |

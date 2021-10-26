@@ -1,57 +1,79 @@
 
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
 ### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
 ## GeneralPermissions Enum
-Permissions related to servers.  
+
+Permissions related to servers.
 ```csharp
 public enum GeneralPermissions
-
 ```
+### Fields
 
-#### Fields
 <a name='Guilded_NET_Base_Permissions_GeneralPermissions_All'></a>
-`All` 31780  
-All of the permissions combined.  
-  
+`All` 31780
+
+All of the permissions combined.
+
 <a name='Guilded_NET_Base_Permissions_GeneralPermissions_InviteMembers'></a>
-`InviteMembers` 16  
-Allows you to directly invite members to the server  
-  
+`InviteMembers` 16
+
+Allows you to directly invite members to the server
+
 <a name='Guilded_NET_Base_Permissions_GeneralPermissions_KickBanMembers'></a>
-`KickBanMembers` 32  
-Allows you to kick or ban members from the server  
-  
+`KickBanMembers` 32
+
+Allows you to kick or ban members from the server
+
 <a name='Guilded_NET_Base_Permissions_GeneralPermissions_Manage'></a>
-`Manage` 23588  
-All of the manage permissions combined.  
-  
-<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageChannels'></a>
-`ManageChannels` 1024  
-Allows you to create new channels and edit or delete existing ones  
-  
-<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageGroups'></a>
-`ManageGroups` 4096  
-Allows you to create new groups and edit or delete existing ones  
-  
-<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageRoles'></a>
-`ManageRoles` 16384  
-Allows you to update the server's roles  
-  
-<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageWebhooks'></a>
-`ManageWebhooks` 2048  
-Allows you to create new webhooks and edit or delete existing ones  
-  
-<a name='Guilded_NET_Base_Permissions_GeneralPermissions_MentionEveryoneHere'></a>
-`MentionEveryoneHere` 8192  
-Allows you to use @everyone and @here mentions  
-  
-<a name='Guilded_NET_Base_Permissions_GeneralPermissions_None'></a>
-`None` 0  
-No given permissions.  
-  
-<a name='Guilded_NET_Base_Permissions_GeneralPermissions_UpdateServer'></a>
-`UpdateServer` 4  
-Allows you to update server's settings  
-  
+`Manage` 23588
+
+All of the manage permissions combined.
+
 ### Remarks
-Defines permissions related to server management.
+  
+Sets these permissions:  
+- [UpdateServer](GeneralPermissions#Guilded_NET_Base_Permissions_GeneralPermissions_UpdateServer 'Guilded.NET.Base.Permissions.GeneralPermissions.UpdateServer')  
+- [KickBanMembers](GeneralPermissions#Guilded_NET_Base_Permissions_GeneralPermissions_KickBanMembers 'Guilded.NET.Base.Permissions.GeneralPermissions.KickBanMembers')  
+- [ManageChannels](GeneralPermissions#Guilded_NET_Base_Permissions_GeneralPermissions_ManageChannels 'Guilded.NET.Base.Permissions.GeneralPermissions.ManageChannels')  
+- [ManageWebhooks](GeneralPermissions#Guilded_NET_Base_Permissions_GeneralPermissions_ManageWebhooks 'Guilded.NET.Base.Permissions.GeneralPermissions.ManageWebhooks')  
+- [ManageGroups](GeneralPermissions#Guilded_NET_Base_Permissions_GeneralPermissions_ManageGroups 'Guilded.NET.Base.Permissions.GeneralPermissions.ManageGroups')  
+- [ManageRoles](GeneralPermissions#Guilded_NET_Base_Permissions_GeneralPermissions_ManageRoles 'Guilded.NET.Base.Permissions.GeneralPermissions.ManageRoles')
+
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageChannels'></a>
+`ManageChannels` 1024
+
+Allows you to create new channels and edit or delete existing ones
+
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageGroups'></a>
+`ManageGroups` 4096
+
+Allows you to create new groups and edit or delete existing ones
+
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageRoles'></a>
+`ManageRoles` 16384
+
+Allows you to update the server's roles
+
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_ManageWebhooks'></a>
+`ManageWebhooks` 2048
+
+Allows you to create new webhooks and edit or delete existing ones
+
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_MentionEveryoneHere'></a>
+`MentionEveryoneHere` 8192
+
+Allows you to use @everyone and @here mentions
+
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_None'></a>
+`None` 0
+
+No given permissions.
+
+<a name='Guilded_NET_Base_Permissions_GeneralPermissions_UpdateServer'></a>
+`UpdateServer` 4
+
+Allows you to update server's settings
+
+### Remarks
+  
+Defines team and channel permissions related to server management.

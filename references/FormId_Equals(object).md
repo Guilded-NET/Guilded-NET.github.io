@@ -1,17 +1,20 @@
 
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
 ### [Guilded.NET.Base](Guilded_NET_Base#Guilded_NET_Base 'Guilded.NET.Base').[FormId](FormId 'Guilded.NET.Base.FormId')
 ## FormId.Equals(object) Method
-Returns whether this [FormId](FormId 'Guilded.NET.Base.FormId') instance and [obj](FormId_Equals(object)#Guilded_NET_Base_FormId_Equals(object)_obj 'Guilded.NET.Base.FormId.Equals(object).obj') are equal.  
+
+Returns whether this [FormId](FormId 'Guilded.NET.Base.FormId') instance and [obj](FormId_Equals(object)#Guilded_NET_Base_FormId_Equals(object)_obj 'Guilded.NET.Base.FormId.Equals(object).obj') are equal.
 ```csharp
 public override bool Equals(object obj);
 ```
 
 #### Parameters
+
 <a name='Guilded_NET_Base_FormId_Equals(object)_obj'></a>
-`obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
+`obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
+
 Another object to compare
-  
+
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

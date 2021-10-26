@@ -1,26 +1,31 @@
 
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded_NET_Base')
+#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
 ### [Guilded.NET.Base.Embeds](Guilded_NET_Base#Guilded_NET_Base_Embeds 'Guilded.NET.Base.Embeds').[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')
-## Embed.Embed(string, Uri, string, EmbedMedia) Constructor
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_Uri_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia).image') and title [title](Embed_Embed(string_Uri_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia).title').  
+## Embed(string, Uri, string, EmbedMedia) Constructor
+
+Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed_Embed(string_Uri_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_image 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia).image') and title [title](Embed_Embed(string_Uri_string_EmbedMedia)#Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, Guilded.NET.Base.Embeds.EmbedMedia).title').
 ```csharp
 public Embed(string title, System.Uri url, string description, Guilded.NET.Base.Embeds.EmbedMedia image);
 ```
 
 #### Parameters
+
 <a name='Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_title'></a>
-`title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
+`title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+
 The title of the embed
-  
+
 <a name='Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_url'></a>
-`url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')  
+`url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
+
 The URL of the embed
-  
+
 <a name='Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_description'></a>
-`description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
+`description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+
 The description text of the embed
-  
+
 <a name='Guilded_NET_Base_Embeds_Embed_Embed(string_System_Uri_string_Guilded_NET_Base_Embeds_EmbedMedia)_image'></a>
-`image` [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')  
+`image` [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+
 The image of the embed
-  
