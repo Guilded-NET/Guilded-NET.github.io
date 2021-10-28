@@ -15,7 +15,8 @@ Opcode
 
 ### Remarks
   
-Opcodes are defined as following:  
+Opcodes are defined as following:
+
 |Opcode|Description|  
 |-|-|  
 |0|An event with data associated.|  
