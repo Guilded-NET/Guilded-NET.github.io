@@ -5,9 +5,6 @@ layout: docs
 
 # Getting Started: Developing the bot
 
-> It is recommend to learn the basics of C# before making a bot based on Guilded.NET.
-{: .note}
-
 ## Installing Guilded.NET
 
 First of all, create a new project. Guilded.NET works with any template.
