@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6
 
 // Change line height for inline code
 p, li
-    line-height: 1.3rem
+    line-height: 1.3em
 
 // Links
 a[href]
@@ -133,7 +133,7 @@ code
 // Tag-based
 q
     border-radius: $tiny-radius
-    padding: 0.05rem $spacing-0
+    padding: 2px $spacing-0
     background-color: var(--background-level-4-highlight)
     &::before, &::after
         opacity: 45%
@@ -146,7 +146,7 @@ kbd
     background-color: var(--background-level-2)
 
     margin: 0 $spacing-0
-    padding: $spacing-0 - .05rem $spacing-1 - 0.1rem
+    padding: $spacing-0 - 2px $spacing-1 - 3px
     border-radius: $tiny-radius
 
     font-size: 0.8em
@@ -176,10 +176,11 @@ table
         tr
             background-color: var(--background-level-3)
             td
-                padding-right: 0.8rem
+                padding-right: 13px
     // Any row item
     th, td
         padding: $spacing-1
+        text-align: left
     // Checkmark, crossmark table
     .fa-check
         color: $condition-good
@@ -199,3 +200,6 @@ table
     border-radius: $medium-radius
     padding: $spacing-1 $spacing-3
     background-color: var(--background-level-3)
+
+    li
+        margin: $spacing-2

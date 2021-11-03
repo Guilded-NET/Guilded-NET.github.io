@@ -29,7 +29,7 @@ code
     // Inline code
     :not(pre) > &
         border-radius: $tiny-radius
-        padding: 0.05rem $spacing-0
+        padding: 1px $spacing-0
 
         line-break: strict
         white-space: pre-wrap
@@ -79,11 +79,11 @@ code
                 display: inline-block
 
                 margin-right: $spacing-3
-                padding-left: $spacing-2 + 0.1rem
+                padding-left: $spacing-2 + 2px
             // Change colours based on highlight
             &.highlighted
                 background-color: rgba($highlighted, 0.1)
-                border-left: 0.1rem solid $highlighted
+                border-left: 2px solid $highlighted
                 &::before
                     color: $highlighted
                     // Add a line to the left side
@@ -105,16 +105,17 @@ codeblock
     .code-lang
         // Position
         position: relative
-        top: 0.3rem
+        top: 5px
         margin-left: $spacing-2
         // Display
         background-color: $event-sky
         border-radius: $small-radius
+        font-weight: bolder
         font-size: 0.8em
         color: white
         // Misc
         user-select: none
-        padding: 0.10rem 0.35rem
+        padding: 1px $spacing-0
     .code-header
         background-color: var(--background-level-1)
         padding: $spacing-2 $spacing-3
@@ -124,6 +125,7 @@ codeblock
         // Data in the header
         .code-data-label
             color: var(--foreground-level-3)
+            user-select: none
         .code-data-value
             color: var(--foreground-level-2)
     // Add rounding to all of the content, including header/caption

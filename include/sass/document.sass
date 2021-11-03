@@ -5,7 +5,7 @@
  */
 
 .flair
-    padding: $spacing-0 - 0.05rem $spacing-0 + 0.05rem
+    padding: $spacing-0 - 1px $spacing-0 + 1px
     border-radius: $tiny-radius
 
     // Fix its height
@@ -47,8 +47,9 @@
         background-color: var(--background-level-4)
         overflow: hidden scroll
     &-content
-        padding: $spacing-6
+        padding: $spacing-6 $spacing-7
         min-height: 100vh
+        text-align: justify
     &-footer
         color: var(--foreground-level-2)
         background-color: var(--background-level-3)
