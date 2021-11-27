@@ -10,6 +10,7 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta property="og:site_name" content="Guilded.NET" />
     <meta property="og:determiner" content="the" />
+    <meta property="og:type" content="article"/>
     <meta property="og:title" content="Guilded.NET - {{ pageTitle | escape }}" />
     <meta property="og:description" content="Guilded.NET website for documentation and information." />
     <meta property="og:thumbnail"
@@ -17,6 +18,12 @@
     <meta property="og:image"
         content="https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png" />
     <meta property="og:locale" content="en_CA" />
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}"/>
+    {% endfor %}
+    {% if page.section %}
+    <meta property="article:section" content="{{ page.section }}"/>
+    {% endif %}
     <meta property="theme-color" content="#672a7a" />
     <meta content="utf-8" http-equiv="encoding" />
     <!-- Adds all of the libraries -->
