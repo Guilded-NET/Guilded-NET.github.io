@@ -1,7 +1,14 @@
 ---
 title: Making embeds
 layout: docs
+description: "Embeds are generally used to display the preview of certain content or a link, but they can be used as content itself."
 preview: true
+tags:
+    - Embeds
+    - Rich Content
+    - Guilded.NET
+    - Docs
+    - C#
 ---
 
 # How to use: Embeds

@@ -1,0 +1,23 @@
+- name: Getting Started
+  docs:
+    - name: Developing bots
+      icon: fas fa-play-circle
+      url : /docs/develop-bot
+    - name: Powering up bot
+      icon: fas fa-bolt
+      url : /docs/powering-bot
+- name: Quick Overview
+  docs:
+    - name: Supported Features
+      icon: fas fa-clipboard-list
+      url : /docs/supported
+- name: How to Use
+  docs:
+    - name: Embeds
+      icon: fas fa-pen
+      url : /docs/embeds
+- name: Resources
+  docs:
+    - name: Message Preview
+      icon: fas fa-eye
+      url : /docs/message-preview

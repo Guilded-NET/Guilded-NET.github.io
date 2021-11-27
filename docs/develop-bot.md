@@ -1,6 +1,11 @@
 ---
 title: Developing the bot
 layout: docs
+tags:
+    - Getting Started
+    - Guilded.NET
+    - Docs
+    - C#
 ---
 
 # Getting Started: Developing the bot
@@ -123,4 +128,4 @@ client.Connected += (o, e) => Console.WriteLine("I have connected");
 
 If the bot has successfully connected it should output <q>I have connected</q> and become online.
 
-The bot won't do anything apart from connecting to Guilded. In [Powering up the bot](./poweringBot) document, we are going to give functionality to our bot with text commands.
+The bot won't do anything apart from connecting to Guilded. In [Powering up the bot](./powering-bot) document, we are going to give functionality to our bot with text commands.
