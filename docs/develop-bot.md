@@ -1,5 +1,4 @@
 ---
-title: Developing the bot
 layout: docs
 tags:
     - Getting Started

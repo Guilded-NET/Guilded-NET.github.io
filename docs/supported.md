@@ -1,5 +1,4 @@
 ---
-title: Supported features
 layout: docs
 description: "Guilded.NET supports most of the provided Guilded API features."
 tags:

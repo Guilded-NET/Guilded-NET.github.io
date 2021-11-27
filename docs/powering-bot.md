@@ -1,5 +1,4 @@
 ---
-title: Powering up the bot
 layout: docs
 description: "Well, to no surprise, Guilded bots scan do more than connect to Guilded. They can update, delete messages, forum threads, etc. and receive various events that Guilded API exposes."
 tags:
@@ -8,7 +7,7 @@ tags:
     - C#
 ---
 
-# Powering up the bot
+# Getting Started: Powering up the bot
 
 Well, to no surprise, Guilded bots can do more than connect to Guilded. They can create, update, delete messages, forum threads, etc. and receive various events that Guilded API exposes. Guilded.NET should have majority of these features implemented, but if you want to check out which indeed are supported, go over to the [Quick Overview: Supported features](/docs/supported) document.
 
