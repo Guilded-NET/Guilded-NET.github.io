@@ -56,6 +56,13 @@ p, blockquote
     &:last-child
         margin-bottom: 0
 
+@mixin blockquote-type($icon, $title, $colour)
+    background-color: rgba($colour, 0.1)
+    border-color: $colour
+    &::before
+        color: $colour
+        content: $icon + ' ' + $title + ':'
+
 blockquote
     // Spacing
     margin: $spacing-5 0
@@ -71,7 +78,7 @@ blockquote
     // For log blocks
     &.note, &.tip, &.warning, &.caution, &.important, &.implement, &.inherit, &.security-note,
     &.caller, &.language-csharp, &.language-fsharp, &.language-vbnet
-        border-left: none
+        border: solid 1px
         // Add an icon
         &::before
             @include include-fa('\f059')
@@ -80,46 +87,33 @@ blockquote
             display: block
             line-height: 1
     // Basic blockquote types
-    &.note::before
-        color: $event-green
-        // Because SASS escapes it
-        content: '\f138' + ' ' + 'Note:'
-    &.tip::before
-        color: $event-cyan
-        content: '\f0eb' + ' ' + 'Tip:'
-    &.warning::before
-        color: $event-yellow
-        content: '\f06a' + ' ' + 'Warning:'
-    &.caution::before
-        color: $event-red
-        content: '\f057' + ' ' + 'Caution:'
-    &.important::before
-        color: $event-red
-        content: '\f05a' + ' ' + 'Important:'
+    &.note
+        @include blockquote-type('\f138', 'Note', $event-green)
+    &.tip
+        @include blockquote-type('\f0eb', 'Tip', $event-cyan)
+    &.warning
+        @include blockquote-type('\f06a', 'Warning', $event-yellow)
+    &.caution
+        @include blockquote-type('\f057', 'Caution', $event-red)
+    &.important
+        @include blockquote-type('\f05a', 'Important', $event-red)
     // Other
-    &.implement::before
-        color: $event-cyan
-        content: '\f101' + ' ' + 'Implementing:'
-    &.inherit::before
-        color: $event-sky
-        content: '\f35a' + ' ' + 'Inheriting:'
-    &.security-note::before
-        color: $event-purple
-        content: '\f3ed' + ' ' + 'Security note:'
-    &.caller::before
-        color: $event-purple
-        content: '\f0e7' + ' ' + 'Calling:'
+    &.implement
+        @include blockquote-type('\f101', 'Implementing', $event-cyan)
+    &.inherit
+        @include blockquote-type('\f35a', 'Inheriting', $event-sky)
+    &.security-note
+        @include blockquote-type('\f3ed', 'Security note', $event-purple)
+    &.caller
+        @include blockquote-type('\f0e7', 'Calling', $event-purple)
     // Language
-    &.language-csharp::before
-        color: $event-green
-        content: '\f02d' + ' ' + 'C# only:'
-    &.language-fsharp::before
-        color: $event-purple
-        content: '\f02d' + ' ' + 'F# only:'
-    &.language-vbnet::before
-        color: $event-sky
-        content: '\f02d' + ' ' + 'VB.NET only:'
-    
+    &.language-csharp
+        @include blockquote-type('\f02d', 'C# only', $event-green)
+    &.language-fsharp
+        @include blockquote-type('\f02d', 'F# only', $event-purple)
+    &.language-vbnet
+        @include blockquote-type('\f02d', 'VB.NET only', $event-sky)
+
 
 // Remove code block spacing
 pre

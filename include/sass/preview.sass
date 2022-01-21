@@ -2,6 +2,81 @@
 
 @import "../base/variables"
 
+/*
+ * --- Input ---
+ */
+
+form
+    padding: 12px 18px
+    background-color: var(--background-level-3)
+    border-radius: 7px
+    border: solid 1px $border-light-0
+    // Form areas
+    h1, h2, h3, h4, h5, h6
+        color: var(--foreground-level-2)
+        margin: 10px 0
+        &:first-child
+            margin-top: 0
+    section
+        padding: 8px 0
+        margin: 6px 0
+    section:first-child
+        padding-top: 0
+        margin-top: 0
+    section:last-child
+        padding-bottom: 0
+        margin-top: 0
+    section:not(section:first-child)
+        border-top: solid 1px $border-light-0
+    fieldset
+        display: flex
+        flex-direction: row
+        padding: 0
+        margin: 3px 0
+        border: none
+        input, textarea
+            flex: 1
+    // Fields
+    textarea
+        resize: vertical
+
+        outline: none
+        padding: 8px
+        border: solid 1px var(--foreground-level-1)
+            radius: 5px
+
+        background-color: transparent
+        color: var(--foreground-level-1)
+        &:hover
+            border-color: $gilded-bright
+        &:focus
+            border-color: $gilded-full
+        &::placeholder
+            color: var(--foreground-level-2)
+    input[type="text"]
+        outline: none
+        padding: 5px
+        border: solid 1px var(--foreground-level-1)
+            radius: 5px
+
+        background-color: transparent
+        color: var(--foreground-level-1)
+        &:hover
+            border-color: $gilded-bright
+        &:focus
+            border-color: $gilded-full
+        &::placeholder
+            color: var(--foreground-level-2)
+    // Field attributes
+    .form-inline
+        flex: 0
+    .form-list &
+        margin: 9px 0
+
+/*
+ * --- Preview ---
+ */
+
 .chat-preview
     border: 1px solid rgba(white, 0.1)
     // Spacing
