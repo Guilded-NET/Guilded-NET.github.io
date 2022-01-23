@@ -1,25 +1,47 @@
-
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
-## StreamPermissions Enum
+---
+title: StreamPermissions
+layout: references
+section: references
+tags:
+  - references
+  - enum
+description: "
 
 Permissions related to streaming.
+
+```csharp
+public enum StreamPermissions
+```"
+---
+
+## StreamPermissions Enum
+###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Permissions`](Guilded.NET.Base.Permissions 'Guilded.NET.Base.Permissions')
+
+Permissions related to streaming.
+
 ```csharp
 public enum StreamPermissions
 ```
+
+### Remarks
+  
+Defines channel permissions related to streaming channels.
 ### Fields
 
-<a name='Guilded_NET_Base_Permissions_StreamPermissions_AddStream'></a>
+<a name='Guilded.NET.Base.Permissions.StreamPermissions.AddStream'></a>
+
 `AddStream` 1
 
 Allows you to add a stream and also talk in the stream channel
 
-<a name='Guilded_NET_Base_Permissions_StreamPermissions_All'></a>
+<a name='Guilded.NET.Base.Permissions.StreamPermissions.All'></a>
+
 `All` 51
 
 All of the permissions combined.
 
-<a name='Guilded_NET_Base_Permissions_StreamPermissions_Basic'></a>
+<a name='Guilded.NET.Base.Permissions.StreamPermissions.Basic'></a>
+
 `Basic` 50
 
 A simple permission combination allowing writing permissions and reading permissions.
@@ -27,16 +49,18 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [ViewStreams](StreamPermissions#Guilded_NET_Base_Permissions_StreamPermissions_ViewStreams 'Guilded.NET.Base.Permissions.StreamPermissions.ViewStreams')  
-- [JoinVoice](StreamPermissions#Guilded_NET_Base_Permissions_StreamPermissions_JoinVoice 'Guilded.NET.Base.Permissions.StreamPermissions.JoinVoice')  
-- [SendMessages](StreamPermissions#Guilded_NET_Base_Permissions_StreamPermissions_SendMessages 'Guilded.NET.Base.Permissions.StreamPermissions.SendMessages')
+- [ViewStreams](StreamPermissions#Guilded.NET.Base.Permissions.StreamPermissions.ViewStreams 'Guilded.NET.Base.Permissions.StreamPermissions.ViewStreams')  
+- [JoinVoice](StreamPermissions#Guilded.NET.Base.Permissions.StreamPermissions.JoinVoice 'Guilded.NET.Base.Permissions.StreamPermissions.JoinVoice')  
+- [SendMessages](StreamPermissions#Guilded.NET.Base.Permissions.StreamPermissions.SendMessages 'Guilded.NET.Base.Permissions.StreamPermissions.SendMessages')
 
-<a name='Guilded_NET_Base_Permissions_StreamPermissions_JoinVoice'></a>
+<a name='Guilded.NET.Base.Permissions.StreamPermissions.JoinVoice'></a>
+
 `JoinVoice` 16
 
 Allows you to talk in stream channel
 
-<a name='Guilded_NET_Base_Permissions_StreamPermissions_Manage'></a>
+<a name='Guilded.NET.Base.Permissions.StreamPermissions.Manage'></a>
+
 `Manage` 0
 
 All of the manage permissions combined.
@@ -45,16 +69,14 @@ All of the manage permissions combined.
   
 No permissions at this moment.
 
-<a name='Guilded_NET_Base_Permissions_StreamPermissions_SendMessages'></a>
+<a name='Guilded.NET.Base.Permissions.StreamPermissions.SendMessages'></a>
+
 `SendMessages` 32
 
 Allows you to send message in stream channel
 
-<a name='Guilded_NET_Base_Permissions_StreamPermissions_ViewStreams'></a>
+<a name='Guilded.NET.Base.Permissions.StreamPermissions.ViewStreams'></a>
+
 `ViewStreams` 2
 
 Allows you to view streams
-
-### Remarks
-  
-Defines channel permissions related to streaming channels.

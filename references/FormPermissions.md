@@ -1,20 +1,41 @@
-
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
-### [Guilded.NET.Base.Permissions](Guilded_NET_Base#Guilded_NET_Base_Permissions 'Guilded.NET.Base.Permissions')
-## FormPermissions Enum
+---
+title: FormPermissions
+layout: references
+section: references
+tags:
+  - references
+  - enum
+description: "
 
 Permissions related to forms & polls.
+
+```csharp
+public enum FormPermissions
+```"
+---
+
+## FormPermissions Enum
+###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Permissions`](Guilded.NET.Base.Permissions 'Guilded.NET.Base.Permissions')
+
+Permissions related to forms & polls.
+
 ```csharp
 public enum FormPermissions
 ```
+
+### Remarks
+  
+Defines team permissions related to forms & polls.
 ### Fields
 
-<a name='Guilded_NET_Base_Permissions_FormPermissions_All'></a>
+<a name='Guilded.NET.Base.Permissions.FormPermissions.All'></a>
+
 `All` 18
 
 All of the permissions combined.
 
-<a name='Guilded_NET_Base_Permissions_FormPermissions_Basic'></a>
+<a name='Guilded.NET.Base.Permissions.FormPermissions.Basic'></a>
+
 `Basic` 16
 
 A simple permission combination allowing writing permissions and reading permissions.
@@ -22,23 +43,22 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [PollResults](FormPermissions#Guilded_NET_Base_Permissions_FormPermissions_PollResults 'Guilded.NET.Base.Permissions.FormPermissions.PollResults')
+- [PollResults](FormPermissions#Guilded.NET.Base.Permissions.FormPermissions.PollResults 'Guilded.NET.Base.Permissions.FormPermissions.PollResults')
 
-<a name='Guilded_NET_Base_Permissions_FormPermissions_FormResponses'></a>
+<a name='Guilded.NET.Base.Permissions.FormPermissions.FormResponses'></a>
+
 `FormResponses` 2
 
 Allows you to view all form responses
 
-<a name='Guilded_NET_Base_Permissions_FormPermissions_None'></a>
+<a name='Guilded.NET.Base.Permissions.FormPermissions.None'></a>
+
 `None` 0
 
 No given permissions.
 
-<a name='Guilded_NET_Base_Permissions_FormPermissions_PollResults'></a>
+<a name='Guilded.NET.Base.Permissions.FormPermissions.PollResults'></a>
+
 `PollResults` 16
 
 Allows you to view all poll results
-
-### Remarks
-  
-Defines team permissions related to forms & polls.

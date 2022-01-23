@@ -1,14 +1,29 @@
-
-#### [Guilded.NET.Base](Guilded_NET_Base 'Guilded.NET.Base')
-### [Guilded.NET.Base.Events](Guilded_NET_Base#Guilded_NET_Base_Events 'Guilded.NET.Base.Events')
-## ResumeEvent Class
+---
+title: ResumeEvent
+layout: references
+section: references
+tags:
+  - references
+  - class
+description: "
 
 Event that occurs when client passes last event message identifier.
+
+```csharp
+public class ResumeEvent : Guilded.NET.Base.BaseObject
+```"
+---
+
+## ResumeEvent Class
+###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Events`](Guilded.NET.Base.Events 'Guilded.NET.Base.Events')
+
+Event that occurs when client passes last event message identifier.
+
 ```csharp
 public class ResumeEvent : Guilded.NET.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#x27A1; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#x27A1; ResumeEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; ResumeEvent
 
 ### Remarks
   
@@ -16,11 +31,15 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
   
 In API, this event has no name but has an event opcode of `2`.
 
-### See Also
-- [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
-- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException')
-- [InitWebsocket(string, Uri)](BaseGuildedClient_InitWebsocket(string_Uri) 'Guilded.NET.Base.BaseGuildedClient.InitWebsocket(string, System.Uri)')
+| Constructors | |
+| :--- | :--- |
+| [ResumeEvent(string)](ResumeEvent.ResumeEvent(string) 'Guilded.NET.Base.Events.ResumeEvent.ResumeEvent(string)') | Creates a new instance of [ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent'). This is currently only used in deserialization. |
 
 | Properties | |
 | :--- | :--- |
-| [MessageId](ResumeEvent_MessageId 'Guilded.NET.Base.Events.ResumeEvent.MessageId') | The identifier of the last received event. |
+| [MessageId](ResumeEvent.MessageId 'Guilded.NET.Base.Events.ResumeEvent.MessageId') | The identifier of the last received event. |
+
+### See Also
+- [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
+- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException')
+- [LastMessageId](BaseGuildedClient.LastMessageId 'Guilded.NET.Base.BaseGuildedClient.LastMessageId')

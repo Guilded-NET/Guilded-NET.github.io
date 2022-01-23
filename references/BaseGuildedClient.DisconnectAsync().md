@@ -1,0 +1,37 @@
+---
+title: DisconnectAsync()
+layout: references
+section: references
+tags:
+  - references
+  - method
+description: "
+
+Disconnects this client from Guilded.
+
+```csharp
+public abstract System.Threading.Tasks.Task DisconnectAsync();
+```"
+---
+
+## BaseGuildedClient.DisconnectAsync() Method
+###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+
+Disconnects this client from Guilded.
+
+```csharp
+public abstract System.Threading.Tasks.Task DisconnectAsync();
+```
+
+### Remarks
+  
+Stops any connections this client has with Guilded.  
+> **Tip:**    
+> See documentation of child types for more information.
+
+#### Returns
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')
+
+### See Also
+- [ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.NET.Base.BaseGuildedClient.ConnectAsync()')
+- [Dispose()](BaseGuildedClient.Dispose() 'Guilded.NET.Base.BaseGuildedClient.Dispose()')

@@ -1,7 +1,6 @@
 ---
 title: Home
 description: 'Guilded.NET is an open-source unofficial API wrapper for Guilded written on .NET platform. It tries to integrate as many Guilded API features sas possible, while also maintaining the usability and ease of use for the developers.'
-layout: home
 tags:
     - Docs
     - Home
