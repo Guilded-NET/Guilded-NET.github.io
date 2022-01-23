@@ -28,7 +28,7 @@ An example of a bot that only responds to ping commands in C# 10:
     "prefix": "!"
 }
 ```
-{: data-filename="config/config.js"}
+{: data-filename="config/config.json"}
 ```cs
 using System;
 using System.IO;

@@ -32,7 +32,7 @@ In your config file, create a property `auth` and property `prefix`, where your 
   "prefix": "!"
 }
 ```
-{: data-filename="config.json"}
+{: data-filename="config/config.json"}
 
 Be sure to make MSBuild not ignore your config folder in your project file:
 
