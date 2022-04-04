@@ -22,7 +22,7 @@ Prism.hooks.add("linenums", e => {
 
     const lines = inner.split("\n");
 
-    const highlightedLineTable = getHighlightLines();
+    const highlightedLineTable = getHighlightLines(elem);
 
     for (let lineNum in lines) {
         const line = lines[lineNum];
