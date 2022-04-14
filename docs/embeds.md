@@ -42,11 +42,10 @@ Embed embed = new Embed
 };
 ```
 
-And then we need to send the embed:
+And now we should theoretically be able to send the embed. However, at this time, that's not possible. There are kind of two ways to send embeds. One is to use unofficially supported rich text markup and the other is to use webhooks. Here, we'll use webhooks, since Guilded.NET does not suppport rich text markup:
 
 ```csharp
-// Can't send embeds yet, but it will be something like this:
-await client.CreateMessageAsync(channelId, embed).ConfigureAwait(false);
+await client.CreateHookMessageAsync(webhookId, webhookToken, embed).ConfigureAwait(false);
 ```
 
 This produces:

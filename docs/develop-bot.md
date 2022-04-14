@@ -122,9 +122,14 @@ using Newtonsoft.Json;
 
 ```csharp
 // Below `using GuildedBotClient client = ...;`
-client.Connected += (o, e) => Console.WriteLine("I have connected");
+client.Prepared
+      .Subscribe(me =>
+          Console.WriteLine("The bot is prepared.\nLogged in as \"{0}\" with the ID \"{1}\"", me.Name, me.Id)
+      );
 ```
 
-If the bot has successfully connected it should output <q>I have connected</q> and become online.
+The main difference is that `Connected` gets connected once the bot is online and can be functional, while `Prepared` is called once the bot is connected and gets additional information, such as `client.Me`. If `Connected` gets called before `Prepared`, the `client.Me` property will always be `null`{: .language-csharp}.
+
+Once the bot successfully connects and does everything it needs, you will be able to see <q>The bot is prepared.</q> in the console.
 
 The bot won't do anything apart from connecting to Guilded. In [Powering up the bot](./powering-bot) document, we are going to give functionality to our bot with text commands.

@@ -50,7 +50,7 @@ client.MessageCreated
 
 Writing <q>Hi!</q> should give you no response from your bot. Now write <q>!ping</q> and the bot should respond with <q>Pong!</q>. We have now set up the most basic command we could make.
 
-We can also use `msgCreated.CreatedAuto` property to check whether the message was created automatically (created by a bot or a webhook) to prevent bots from using the command as well. You can do this by adding `.Where(msgCreated => !msgCreated.CreatedAuto)`{: .language-csharp} to our code, but this is optional.
+At this time, there is no way to detect whether the author of the message is a bot. You can, however, it's possible to check if they are a webhook by checking if [CreatedByWebhook](/references/Message_CreatedByWebhook).
 
 This only allows us to use ping command though, but we definitely want to have more than a ping command. Time to make more commands.
 
