@@ -7,49 +7,39 @@ tags:
   - method
 description: "
 
-Gets a message.
-
-```csharp
-public override System.Threading.Tasks.Task<Guilded.NET.Base.Content.Message> GetMessageAsync(System.Guid channelId, System.Guid messageId);
-```"
+Gets the message."
 ---
 
 ## AbstractGuildedClient.GetMessageAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Gets a message.
+Gets the message.
 
 ```csharp
-public override System.Threading.Tasks.Task<Guilded.NET.Base.Content.Message> GetMessageAsync(System.Guid channelId, System.Guid messageId);
+public override System.Threading.Tasks.Task<Guilded.Base.Content.Message> GetMessageAsync(Guid channel, Guid messageId);
 ```
-
-### Remarks
-  
-Gets the specified message.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.GetMessageAsync(System.Guid,System.Guid).channelId'></a>
+<a name='Guilded.AbstractGuildedClient.GetMessageAsync(Guid,Guid).channel'></a>
 
-`channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
+`channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the parent channel
+The identifier of [the parent channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
-<a name='Guilded.NET.AbstractGuildedClient.GetMessageAsync(System.Guid,System.Guid).messageId'></a>
+<a name='Guilded.AbstractGuildedClient.GetMessageAsync(Guid,Guid).messageId'></a>
 
 `messageId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of message it should get
-
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.NET.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Specified message
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message.md 'Guilded.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+message

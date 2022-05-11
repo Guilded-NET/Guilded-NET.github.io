@@ -7,38 +7,31 @@ tags:
   - class
 description: "
 
-A social media link.
-
-```csharp
-public class SocialLink : Guilded.NET.Base.BaseObject
-```"
+Represents a social media link of a [user](User.md 'Guilded.Base.Users.User')."
 ---
 
 ## SocialLink Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Users`](Guilded.NET.Base.Users 'Guilded.NET.Base.Users')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users.md 'Guilded.Base.Users')
 
-A social media link.
+Represents a social media link of a [user](User.md 'Guilded.Base.Users.User').
 
 ```csharp
-public class SocialLink : Guilded.NET.Base.BaseObject
+public class SocialLink : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; SocialLink
-
-### Remarks
-  
-Defines what platforms this user has linked to, such as [Twitch](SocialLinkType#Guilded.NET.Base.Users.SocialLinkType.Twitch 'Guilded.NET.Base.Users.SocialLinkType.Twitch') and provides information about them.
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; SocialLink
 
 | Constructors | |
 | :--- | :--- |
-| [SocialLink(SocialLinkType, string, string)](SocialLink.SocialLink(SocialLinkType,string,string) 'Guilded.NET.Base.Users.SocialLink.SocialLink(Guilded.NET.Base.Users.SocialLinkType, string, string)') | Creates a new instance of [SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink'). This is currently only used in deserialization. |
+| [SocialLink(SocialLinkType, string, string)](SocialLink.SocialLink(SocialLinkType,string,string).md 'Guilded.Base.Users.SocialLink.SocialLink(Guilded.Base.Users.SocialLinkType, string, string)') | Initializes a new instance of [SocialLink](SocialLink.md 'Guilded.Base.Users.SocialLink') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [Handle](SocialLink.Handle 'Guilded.NET.Base.Users.SocialLink.Handle') | The name or identifier in this social link. |
-| [ServiceId](SocialLink.ServiceId 'Guilded.NET.Base.Users.SocialLink.ServiceId') | The identifier of this social link. |
-| [Type](SocialLink.Type 'Guilded.NET.Base.Users.SocialLink.Type') | The type of social link it is. |
+| [Handle](SocialLink.Handle.md 'Guilded.Base.Users.SocialLink.Handle') | Gets the name, unique identifier or unique tag of the [user](User.md 'Guilded.Base.Users.User') in this social link. |
+| [ServiceId](SocialLink.ServiceId.md 'Guilded.Base.Users.SocialLink.ServiceId') | Gets the unique identifier of the [user](User.md 'Guilded.Base.Users.User') in this social link. |
+| [Type](SocialLink.Type.md 'Guilded.Base.Users.SocialLink.Type') | Gets the type of social link it is. |
 
 ### See Also
-- [Member](Member 'Guilded.NET.Base.Servers.Member')
-- [SocialLinkType](SocialLinkType 'Guilded.NET.Base.Users.SocialLinkType')
+- [User](User.md 'Guilded.Base.Users.User')
+- [UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')
+- [SocialLinkType](SocialLinkType.md 'Guilded.Base.Users.SocialLinkType')

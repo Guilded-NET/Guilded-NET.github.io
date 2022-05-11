@@ -7,24 +7,20 @@ tags:
   - method
 description: "
 
-Returns whether this and [obj](Reaction.Equals(object)#Guilded.NET.Base.Content.Reaction.Equals(object).obj 'Guilded.NET.Base.Content.Reaction.Equals(object).obj') are equal to each other.
-
-```csharp
-public override bool Equals(object? obj);
-```"
+Returns whether this and [obj](Reaction.Equals(object).md#Guilded.Base.Content.Reaction.Equals(object).obj 'Guilded.Base.Content.Reaction.Equals(object).obj') are equal to each other."
 ---
 
 ## Reaction.Equals(object) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.NET.Base.Content.Reaction')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction.md 'Guilded.Base.Content.Reaction')
 
-Returns whether this and [obj](Reaction.Equals(object)#Guilded.NET.Base.Content.Reaction.Equals(object).obj 'Guilded.NET.Base.Content.Reaction.Equals(object).obj') are equal to each other.
+Returns whether this and [obj](Reaction.Equals(object).md#Guilded.Base.Content.Reaction.Equals(object).obj 'Guilded.Base.Content.Reaction.Equals(object).obj') are equal to each other.
 
 ```csharp
 public override bool Equals(object? obj);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Content.Reaction.Equals(object).obj'></a>
+<a name='Guilded.Base.Content.Reaction.Equals(object).obj'></a>
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 

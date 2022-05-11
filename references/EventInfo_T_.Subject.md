@@ -7,22 +7,14 @@ tags:
   - field
 description: "
 
-A subject that will be used as an observable.
-
-```csharp
-protected internal Subject<T> Subject;
-```"
+The subject that will be used for subscribing to this event."
 ---
 
 ## EventInfo<T>.Subject Field
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.NET.EventInfo<T>')
+###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_.md 'Guilded.EventInfo<T>')
 
-A subject that will be used as an observable.
+The subject that will be used for subscribing to this event.
 
 ```csharp
 protected internal Subject<T> Subject;
 ```
-
-### Remarks
-  
-Subject that will be used as an observable in [Observable](EventInfo_T_.Observable 'Guilded.NET.EventInfo<T>.Observable').

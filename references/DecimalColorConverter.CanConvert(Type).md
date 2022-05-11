@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Returns whether the converter supports converting the given type.
-
-```csharp
-public override bool CanConvert(System.Type objectType);
-```"
+Returns whether the converter supports converting the given type."
 ---
 
 ## DecimalColorConverter.CanConvert(Type) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter 'Guilded.NET.Base.DecimalColorConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter.md 'Guilded.Base.DecimalColorConverter')
 
 Returns whether the converter supports converting the given type.
 
@@ -24,7 +20,7 @@ public override bool CanConvert(System.Type objectType);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.DecimalColorConverter.CanConvert(System.Type).objectType'></a>
+<a name='Guilded.Base.DecimalColorConverter.CanConvert(System.Type).objectType'></a>
 
 `objectType` [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type')
 

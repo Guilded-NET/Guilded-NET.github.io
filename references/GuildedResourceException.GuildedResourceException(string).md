@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException').
-
-```csharp
-public GuildedResourceException(string message);
-```"
+Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')."
 ---
 
 ## GuildedResourceException(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-Creates a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException').
+Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException').
 
 ```csharp
 public GuildedResourceException(string message);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedResourceException.GuildedResourceException(string).message'></a>
+<a name='Guilded.Base.GuildedResourceException.GuildedResourceException(string).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

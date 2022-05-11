@@ -7,42 +7,38 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage') with given information.
-
-```csharp
-public GuildedSocketMessage(byte op, string? t, Newtonsoft.Json.Linq.JObject? d, string? s);
-```"
+Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties."
 ---
 
 ## GuildedSocketMessage(byte, string, JObject, string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
 
-Creates a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage') with given information.
+Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties.
 
 ```csharp
 public GuildedSocketMessage(byte op, string? t, Newtonsoft.Json.Linq.JObject? d, string? s);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).op'></a>
+<a name='Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).op'></a>
 
 `op` [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte 'System.Byte')
 
 The opcode of the socket message
 
-<a name='Guilded.NET.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).t'></a>
+<a name='Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).t'></a>
 
 `t` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The name of the event
 
-<a name='Guilded.NET.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).d'></a>
+<a name='Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).d'></a>
 
 `d` [Newtonsoft.Json.Linq.JObject](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.Linq.JObject 'Newtonsoft.Json.Linq.JObject')
 
 The data of the socket message
 
-<a name='Guilded.NET.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).s'></a>
+<a name='Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte,string,Newtonsoft.Json.Linq.JObject,string).s'></a>
 
 `s` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

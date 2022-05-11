@@ -7,41 +7,37 @@ tags:
   - method
 description: "
 
-Sets the url as a given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetUrl(string url);
-```"
+Sets the [url](Embed.Url.md 'Guilded.Base.Embeds.Embed.Url') as the given [value](Embed.SetUrl(string).md#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value')."
 ---
 
 ## Embed.SetUrl(string) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the url as a given parameter.
+Sets the [url](Embed.Url.md 'Guilded.Base.Embeds.Embed.Url') as the given [value](Embed.SetUrl(string).md#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetUrl(string url);
+public Guilded.Base.Embeds.Embed SetUrl(string value);
 ```
 
 ### Remarks
   
-Creates a new [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') instance from [url](Embed.SetUrl(string)#Guilded.NET.Base.Embeds.Embed.SetUrl(string).url 'Guilded.NET.Base.Embeds.Embed.SetUrl(string).url') parameter and sets it to [Url](Embed.Url 'Guilded.NET.Base.Embeds.Embed.Url') property.
+The given [value](Embed.SetUrl(string).md#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value') will be converted to [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri').
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetUrl(string).url'></a>
+<a name='Guilded.Base.Embeds.Embed.SetUrl(string).value'></a>
 
-`url` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+`value` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The URL that title will link
+The value of the [embed's](Embed.md 'Guilded.Base.Embeds.Embed') url
 
 #### Exceptions
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-[url](Embed.SetUrl(string)#Guilded.NET.Base.Embeds.Embed.SetUrl(string).url 'Guilded.NET.Base.Embeds.Embed.SetUrl(string).url') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
+[value](Embed.SetUrl(string).md#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
 
 [System.UriFormatException](https://docs.microsoft.com/en-us/dotnet/api/System.UriFormatException 'System.UriFormatException')  
-[url](Embed.SetUrl(string)#Guilded.NET.Base.Embeds.Embed.SetUrl(string).url 'Guilded.NET.Base.Embeds.Embed.SetUrl(string).url') has bad [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') formatting
+[value](Embed.SetUrl(string).md#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value') has bad [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') formatting
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

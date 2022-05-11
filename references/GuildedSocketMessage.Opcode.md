@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-An operation code that tells about the message.
-
-```csharp
-public byte Opcode { get; }
-```"
+Gets an operation code that tells about the message."
 ---
 
 ## GuildedSocketMessage.Opcode Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
 
-An operation code that tells about the message.
+Gets an operation code that tells about the message.
 
 ```csharp
 public byte Opcode { get; }
@@ -32,10 +28,10 @@ Opcodes are defined as following:
 |An event with data associated.|  
 |An event that occurs once WebSocket connection is established.|  
 |An event that occurs once connection is re-established with passed last event.|  
-|Closing/error frame|  
+|Error|  
   
   
-If [Opcode](GuildedSocketMessage.Opcode 'Guilded.NET.Base.Events.GuildedSocketMessage.Opcode') is received as `8`, [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException') will be received instead of a typical event.
+If [Opcode](GuildedSocketMessage.Opcode.md 'Guilded.Base.Events.GuildedSocketMessage.Opcode') is received as `8`, [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException') will be received instead of a typical event.
 
 #### Property Value
 [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte 'System.Byte')  

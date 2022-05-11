@@ -7,29 +7,25 @@ tags:
   - method
 description: "
 
-Sets the url as the given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetUrl(System.Uri url);
-```"
+Sets the [url](Embed.Url.md 'Guilded.Base.Embeds.Embed.Url') as the given [value](Embed.SetUrl(Uri).md#Guilded.Base.Embeds.Embed.SetUrl(Uri).value 'Guilded.Base.Embeds.Embed.SetUrl(Uri).value')."
 ---
 
 ## Embed.SetUrl(Uri) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the url as the given parameter.
+Sets the [url](Embed.Url.md 'Guilded.Base.Embeds.Embed.Url') as the given [value](Embed.SetUrl(Uri).md#Guilded.Base.Embeds.Embed.SetUrl(Uri).value 'Guilded.Base.Embeds.Embed.SetUrl(Uri).value').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetUrl(System.Uri url);
+public Guilded.Base.Embeds.Embed SetUrl(Uri value);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetUrl(System.Uri).url'></a>
+<a name='Guilded.Base.Embeds.Embed.SetUrl(Uri).value'></a>
 
-`url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
+`value` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
-The URL that title will link
+The value of the [embed's](Embed.md 'Guilded.Base.Embeds.Embed') url
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

@@ -7,24 +7,20 @@ tags:
   - method
 description: "
 
-Checks if [str](HashId.Check(string)#Guilded.NET.Base.HashId.Check(string).str 'Guilded.NET.Base.HashId.Check(string).str') is in the correct [FormId](FormId 'Guilded.NET.Base.FormId') format.
-
-```csharp
-public static bool Check(string str);
-```"
+Returns whether [str](HashId.Check(string).md#Guilded.Base.HashId.Check(string).str 'Guilded.Base.HashId.Check(string).str') is in the correct [HashId](HashId.md 'Guilded.Base.HashId') format."
 ---
 
 ## HashId.Check(string) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.NET.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
 
-Checks if [str](HashId.Check(string)#Guilded.NET.Base.HashId.Check(string).str 'Guilded.NET.Base.HashId.Check(string).str') is in the correct [FormId](FormId 'Guilded.NET.Base.FormId') format.
+Returns whether [str](HashId.Check(string).md#Guilded.Base.HashId.Check(string).str 'Guilded.Base.HashId.Check(string).str') is in the correct [HashId](HashId.md 'Guilded.Base.HashId') format.
 
 ```csharp
-public static bool Check(string str);
+public static bool Check(string? str);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.HashId.Check(string).str'></a>
+<a name='Guilded.Base.HashId.Check(string).str'></a>
 
 `str` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

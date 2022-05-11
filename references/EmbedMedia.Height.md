@@ -7,15 +7,11 @@ tags:
   - property
 description: "
 
-The height of the image/video.
-
-```csharp
-public System.Nullable<uint> Height { get; set; }
-```"
+The height of the image/video."
 ---
 
 ## EmbedMedia.Height Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')
 
 The height of the image/video.
 

@@ -7,48 +7,40 @@ tags:
   - method
 description: "
 
-Deletes the message.
-
-```csharp
-public abstract System.Threading.Tasks.Task DeleteMessageAsync(System.Guid channelId, System.Guid messageId);
-```"
+Deletes a [message](BaseGuildedClient.DeleteMessageAsync(Guid,Guid).md#Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid,Guid).message 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid).message') from a [channel](BaseGuildedClient.DeleteMessageAsync(Guid,Guid).md#Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid,Guid).channel 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid).channel')."
 ---
 
 ## BaseGuildedClient.DeleteMessageAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Deletes the message.
+Deletes a [message](BaseGuildedClient.DeleteMessageAsync(Guid,Guid).md#Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid,Guid).message 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid).message') from a [channel](BaseGuildedClient.DeleteMessageAsync(Guid,Guid).md#Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid,Guid).channel 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid).channel').
 
 ```csharp
-public abstract System.Threading.Tasks.Task DeleteMessageAsync(System.Guid channelId, System.Guid messageId);
+public abstract System.Threading.Tasks.Task DeleteMessageAsync(Guid channel, Guid message);
 ```
-
-### Remarks
-  
-Removes the specified message, whether it be from the client or another user.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.DeleteMessageAsync(System.Guid,System.Guid).channelId'></a>
+<a name='Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid,Guid).channel'></a>
 
-`channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
+`channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
 The identifier of the parent channel
 
-<a name='Guilded.NET.Base.BaseGuildedClient.DeleteMessageAsync(System.Guid,System.Guid).messageId'></a>
+<a name='Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid,Guid).message'></a>
 
-`messageId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
+`message` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
 The identifier of the message to delete
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

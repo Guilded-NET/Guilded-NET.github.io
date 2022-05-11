@@ -7,24 +7,20 @@ tags:
   - method
 description: "
 
-Returns whether this [FormId](FormId 'Guilded.NET.Base.FormId') instance and [obj](FormId.Equals(object)#Guilded.NET.Base.FormId.Equals(object).obj 'Guilded.NET.Base.FormId.Equals(object).obj') are equal.
-
-```csharp
-public override bool Equals(object? obj);
-```"
+Returns whether this [FormId](FormId.md 'Guilded.Base.FormId') instance and [obj](FormId.Equals(object).md#Guilded.Base.FormId.Equals(object).obj 'Guilded.Base.FormId.Equals(object).obj') are equal."
 ---
 
 ## FormId.Equals(object) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.NET.Base.FormId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId.md 'Guilded.Base.FormId')
 
-Returns whether this [FormId](FormId 'Guilded.NET.Base.FormId') instance and [obj](FormId.Equals(object)#Guilded.NET.Base.FormId.Equals(object).obj 'Guilded.NET.Base.FormId.Equals(object).obj') are equal.
+Returns whether this [FormId](FormId.md 'Guilded.Base.FormId') instance and [obj](FormId.Equals(object).md#Guilded.Base.FormId.Equals(object).obj 'Guilded.Base.FormId.Equals(object).obj') are equal.
 
 ```csharp
 public override bool Equals(object? obj);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.FormId.Equals(object).obj'></a>
+<a name='Guilded.Base.FormId.Equals(object).obj'></a>
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 

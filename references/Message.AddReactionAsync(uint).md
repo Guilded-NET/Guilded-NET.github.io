@@ -7,43 +7,35 @@ tags:
   - method
 description: "
 
-Adds a reaction to the message.
-
-```csharp
-public System.Threading.Tasks.Task<Guilded.NET.Base.Content.Reaction> AddReactionAsync(uint emoteId);
-```"
+Adds a [emote](Message.AddReactionAsync(uint).md#Guilded.Base.Content.Message.AddReactionAsync(uint).emote 'Guilded.Base.Content.Message.AddReactionAsync(uint).emote') to a message in a channel."
 ---
 
 ## Message.AddReactionAsync(uint) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Message`](Message 'Guilded.NET.Base.Content.Message')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message.md 'Guilded.Base.Content.Message')
 
-Adds a reaction to the message.
+Adds a [emote](Message.AddReactionAsync(uint).md#Guilded.Base.Content.Message.AddReactionAsync(uint).emote 'Guilded.Base.Content.Message.AddReactionAsync(uint).emote') to a message in a channel.
 
 ```csharp
-public System.Threading.Tasks.Task<Guilded.NET.Base.Content.Reaction> AddReactionAsync(uint emoteId);
+public System.Threading.Tasks.Task<Guilded.Base.Content.Reaction> AddReactionAsync(uint emote);
 ```
-
-### Remarks
-  
-Adds a specified emote as a reaction to the specified message.
 #### Parameters
 
-<a name='Guilded.NET.Base.Content.Message.AddReactionAsync(uint).emoteId'></a>
+<a name='Guilded.Base.Content.Message.AddReactionAsync(uint).emote'></a>
 
-`emoteId` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
+`emote` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the emote to add
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Reaction](Reaction 'Guilded.NET.Base.Content.Reaction')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Reaction](Reaction.md 'Guilded.Base.Content.Reaction')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
 Added reaction

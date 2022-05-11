@@ -7,25 +7,21 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with URL [url](Embed.Embed(Uri)#Guilded.NET.Base.Embeds.Embed.Embed(System.Uri).url 'Guilded.NET.Base.Embeds.Embed.Embed(System.Uri).url').
-
-```csharp
-public Embed(System.Uri url);
-```"
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [url](Embed.Embed(Uri).md#Guilded.Base.Embeds.Embed.Embed(Uri).url 'Guilded.Base.Embeds.Embed.Embed(Uri).url')."
 ---
 
 ## Embed(Uri) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with URL [url](Embed.Embed(Uri)#Guilded.NET.Base.Embeds.Embed.Embed(System.Uri).url 'Guilded.NET.Base.Embeds.Embed.Embed(System.Uri).url').
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [url](Embed.Embed(Uri).md#Guilded.Base.Embeds.Embed.Embed(Uri).url 'Guilded.Base.Embeds.Embed.Embed(Uri).url').
 
 ```csharp
-public Embed(System.Uri url);
+public Embed(Uri url);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(System.Uri).url'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(Uri).url'></a>
 
 `url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
-The URL of the embed
+The URL of the content that embed displays

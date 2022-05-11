@@ -7,45 +7,34 @@ tags:
   - class
 description: "
 
-A member in a member list.
-
-```csharp
-public class Member : Guilded.NET.Base.ClientObject
-```"
+A server member."
 ---
 
 ## Member Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Servers`](Guilded.NET.Base.Servers 'Guilded.NET.Base.Servers')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers.md 'Guilded.Base.Servers')
 
-A member in a member list.
+A server member.
 
 ```csharp
-public class Member : Guilded.NET.Base.ClientObject
+public class Member : Guilded.Base.Servers.MemberSummary<Guilded.Base.Users.User>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.NET.Base.ClientObject') &#129106; Member
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; [Guilded.Base.Servers.MemberSummary&lt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>')[User](User.md 'Guilded.Base.Users.User')[&gt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>') &#129106; Member
 
 ### Remarks
   
-Defines a normal or updated team member.
+The full information about a member in the server.
 
 | Constructors | |
 | :--- | :--- |
-| [Member(HashId, string)](Member.Member(HashId,string) 'Guilded.NET.Base.Servers.Member.Member(Guilded.NET.Base.HashId, string)') | Creates a new instance of [Member](Member 'Guilded.NET.Base.Servers.Member') with specified properties. |
+| [Member(User, IList&lt;uint&gt;, string, DateTime)](Member.Member(User,IList_uint_,string,DateTime).md 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, string, System.DateTime)') | Initializes a new instance of [Member](Member.md 'Guilded.Base.Servers.Member'). |
 
 | Properties | |
 | :--- | :--- |
-| [Id](Member.Id 'Guilded.NET.Base.Servers.Member.Id') | The identifier of this member. |
-| [Nickname](Member.Nickname 'Guilded.NET.Base.Servers.Member.Nickname') | A nickname of this member. |
-
-| Methods | |
-| :--- | :--- |
-| [AddRoleAsync(HashId, uint)](Member.AddRoleAsync(HashId,uint) 'Guilded.NET.Base.Servers.Member.AddRoleAsync(Guilded.NET.Base.HashId, uint)') | Adds a role to the user. |
-| [AddXpAsync(HashId, short)](Member.AddXpAsync(HashId,short) 'Guilded.NET.Base.Servers.Member.AddXpAsync(Guilded.NET.Base.HashId, short)') | Adds XP to the user. |
-| [DeleteNicknameAsync(HashId)](Member.DeleteNicknameAsync(HashId) 'Guilded.NET.Base.Servers.Member.DeleteNicknameAsync(Guilded.NET.Base.HashId)') | Deletes the message. |
-| [GetSocialLinkAsync(HashId, SocialLinkType)](Member.GetSocialLinkAsync(HashId,SocialLinkType) 'Guilded.NET.Base.Servers.Member.GetSocialLinkAsync(Guilded.NET.Base.HashId, Guilded.NET.Base.Users.SocialLinkType)') | Gets the specified user's social links. |
-| [RemoveRoleAsync(HashId, uint)](Member.RemoveRoleAsync(HashId,uint) 'Guilded.NET.Base.Servers.Member.RemoveRoleAsync(Guilded.NET.Base.HashId, uint)') | Removes a role from the user. |
-| [UpdateNicknameAsync(HashId, string)](Member.UpdateNicknameAsync(HashId,string) 'Guilded.NET.Base.Servers.Member.UpdateNicknameAsync(Guilded.NET.Base.HashId, string)') | Updates the member's nickname. |
+| [JoinedAt](Member.JoinedAt.md 'Guilded.Base.Servers.Member.JoinedAt') | Gets the date of when the member joined. |
+| [Nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname') | Gets the set nickname of the user in the server. |
 
 ### See Also
-- [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.NET.Base.Events.MemberUpdatedEvent')
+- [MemberSummary&lt;T&gt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>')
+- [UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')
+- [User](User.md 'Guilded.Base.Users.User')

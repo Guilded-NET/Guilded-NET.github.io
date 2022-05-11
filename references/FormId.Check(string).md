@@ -7,24 +7,20 @@ tags:
   - method
 description: "
 
-Checks if [str](FormId.Check(string)#Guilded.NET.Base.FormId.Check(string).str 'Guilded.NET.Base.FormId.Check(string).str') is in the correct [FormId](FormId 'Guilded.NET.Base.FormId') format.
-
-```csharp
-public static bool Check(string str);
-```"
+Returns whether [str](FormId.Check(string).md#Guilded.Base.FormId.Check(string).str 'Guilded.Base.FormId.Check(string).str') is in the correct [FormId](FormId.md 'Guilded.Base.FormId') format."
 ---
 
 ## FormId.Check(string) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.NET.Base.FormId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId.md 'Guilded.Base.FormId')
 
-Checks if [str](FormId.Check(string)#Guilded.NET.Base.FormId.Check(string).str 'Guilded.NET.Base.FormId.Check(string).str') is in the correct [FormId](FormId 'Guilded.NET.Base.FormId') format.
+Returns whether [str](FormId.Check(string).md#Guilded.Base.FormId.Check(string).str 'Guilded.Base.FormId.Check(string).str') is in the correct [FormId](FormId.md 'Guilded.Base.FormId') format.
 
 ```csharp
 public static bool Check(string str);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.FormId.Check(string).str'></a>
+<a name='Guilded.Base.FormId.Check(string).str'></a>
 
 `str` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

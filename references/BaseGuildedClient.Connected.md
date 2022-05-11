@@ -4,34 +4,30 @@ layout: references
 section: references
 tags:
   - references
-  - event
+  - property
 description: "
 
-An event when client is connected
-
-```csharp
-public event EventHandler Connected;
-```"
+An event when the client gets connected."
 ---
 
-## BaseGuildedClient.Connected Event
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+## BaseGuildedClient.Connected Property
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-An event when client is connected
+An event when the client gets connected.
 
 ```csharp
-public event EventHandler Connected;
+public IObservable<Guilded.Base.BaseGuildedClient> Connected { get; }
 ```
 
 ### Remarks
   
 An event that occurs once Guilded client connects to Guilded.  
   
-This usually occurs once [ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.NET.Base.BaseGuildedClient.ConnectAsync()') is called and no errors get thrown.
+This usually occurs once [ConnectAsync()](BaseGuildedClient.ConnectAsync().md 'Guilded.Base.BaseGuildedClient.ConnectAsync()') is called and no errors get thrown.
 
-#### Event Type
-[System.EventHandler](https://docs.microsoft.com/en-us/dotnet/api/System.EventHandler 'System.EventHandler')
+#### Property Value
+[System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.NET.Base.BaseGuildedClient.ConnectAsync()')
-- [Disconnected](BaseGuildedClient.Disconnected 'Guilded.NET.Base.BaseGuildedClient.Disconnected')
+- [ConnectAsync()](BaseGuildedClient.ConnectAsync().md 'Guilded.Base.BaseGuildedClient.ConnectAsync()')
+- [Disconnected](BaseGuildedClient.Disconnected.md 'Guilded.Base.BaseGuildedClient.Disconnected')

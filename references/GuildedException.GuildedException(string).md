@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException').
-
-```csharp
-public GuildedException(string message);
-```"
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with only a [message](GuildedException.GuildedException(string).md#Guilded.Base.GuildedException.GuildedException(string).message 'Guilded.Base.GuildedException.GuildedException(string).message')."
 ---
 
 ## GuildedException(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException').
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with only a [message](GuildedException.GuildedException(string).md#Guilded.Base.GuildedException.GuildedException(string).message 'Guilded.Base.GuildedException.GuildedException(string).message').
 
 ```csharp
 public GuildedException(string message);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedException.GuildedException(string).message'></a>
+<a name='Guilded.Base.GuildedException.GuildedException(string).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

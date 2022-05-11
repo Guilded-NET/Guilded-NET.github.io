@@ -7,15 +7,11 @@ tags:
   - constructor
 description: "
 
-The identifier for forms and media uploads.
-
-```csharp
-public FormId(string id);
-```"
+The identifier for forms and media uploads."
 ---
 
 ## FormId(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.NET.Base.FormId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId.md 'Guilded.Base.FormId')
 
 The identifier for forms and media uploads.
 
@@ -24,7 +20,7 @@ public FormId(string id);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.FormId.FormId(string).id'></a>
+<a name='Guilded.Base.FormId.FormId(string).id'></a>
 
 `id` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

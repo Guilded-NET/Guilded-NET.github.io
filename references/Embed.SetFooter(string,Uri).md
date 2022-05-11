@@ -7,39 +7,27 @@ tags:
   - method
 description: "
 
-Sets the footer as the given parameters.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetFooter(string text, System.Uri? iconUrl=null);
-```"
+Sets the [footer](Embed.Footer.md 'Guilded.Base.Embeds.Embed.Footer') as the given value."
 ---
 
 ## Embed.SetFooter(string, Uri) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the footer as the given parameters.
+Sets the [footer](Embed.Footer.md 'Guilded.Base.Embeds.Embed.Footer') as the given value.
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetFooter(string text, System.Uri? iconUrl=null);
+public Guilded.Base.Embeds.Embed SetFooter(string text, Uri? icon=null);
 ```
-
-### Remarks
-  
-Sets [Footer](Embed.Footer 'Guilded.NET.Base.Embeds.Embed.Footer') as a new instance of [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') made from given parameters.
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetFooter(string,System.Uri).text'></a>
+<a name='Guilded.Base.Embeds.Embed.SetFooter(string,Uri).text'></a>
 
 `text` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The text of the footer
+<a name='Guilded.Base.Embeds.Embed.SetFooter(string,Uri).icon'></a>
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetFooter(string,System.Uri).iconUrl'></a>
-
-`iconUrl` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
-
-The icon of the footer
+`icon` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

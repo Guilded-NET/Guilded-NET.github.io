@@ -7,22 +7,18 @@ tags:
   - property
 description: "
 
-The type of social link it is.
-
-```csharp
-public Guilded.NET.Base.Users.SocialLinkType Type { get; }
-```"
+Gets the type of social link it is."
 ---
 
 ## SocialLink.Type Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.NET.Base.Users.SocialLink')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink.md 'Guilded.Base.Users.SocialLink')
 
-The type of social link it is.
+Gets the type of social link it is.
 
 ```csharp
-public Guilded.NET.Base.Users.SocialLinkType Type { get; }
+public Guilded.Base.Users.SocialLinkType Type { get; }
 ```
 
 #### Property Value
-[SocialLinkType](SocialLinkType 'Guilded.NET.Base.Users.SocialLinkType')  
+[SocialLinkType](SocialLinkType.md 'Guilded.Base.Users.SocialLinkType')  
 Social link platform

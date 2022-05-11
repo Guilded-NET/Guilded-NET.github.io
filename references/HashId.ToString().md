@@ -7,22 +7,22 @@ tags:
   - method
 description: "
 
-Returns the string representation of this [HashId](HashId 'Guilded.NET.Base.HashId') instance.
-
-```csharp
-public override string ToString();
-```"
+Returns the string representation of [HashId](HashId.md 'Guilded.Base.HashId') instance."
 ---
 
 ## HashId.ToString() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.NET.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
 
-Returns the string representation of this [HashId](HashId 'Guilded.NET.Base.HashId') instance.
+Returns the string representation of [HashId](HashId.md 'Guilded.Base.HashId') instance.
 
 ```csharp
 public override string ToString();
 ```
 
+### Remarks
+  
+The raw string that makes up [HashId](HashId.md 'Guilded.Base.HashId') will be returned.
+
 #### Returns
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-[HashId](HashId 'Guilded.NET.Base.HashId') as string
+[HashId](HashId.md 'Guilded.Base.HashId') as string

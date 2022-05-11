@@ -7,37 +7,33 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink'). This is currently only used in deserialization.
-
-```csharp
-public SocialLink(Guilded.NET.Base.Users.SocialLinkType type, string handle, string? serviceId);
-```"
+Initializes a new instance of [SocialLink](SocialLink.md 'Guilded.Base.Users.SocialLink') from the specified JSON properties."
 ---
 
 ## SocialLink(SocialLinkType, string, string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.NET.Base.Users.SocialLink')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink.md 'Guilded.Base.Users.SocialLink')
 
-Creates a new instance of [SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink'). This is currently only used in deserialization.
+Initializes a new instance of [SocialLink](SocialLink.md 'Guilded.Base.Users.SocialLink') from the specified JSON properties.
 
 ```csharp
-public SocialLink(Guilded.NET.Base.Users.SocialLinkType type, string handle, string? serviceId);
+public SocialLink(Guilded.Base.Users.SocialLinkType type, string? handle, string? serviceId);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Users.SocialLink.SocialLink(Guilded.NET.Base.Users.SocialLinkType,string,string).type'></a>
+<a name='Guilded.Base.Users.SocialLink.SocialLink(Guilded.Base.Users.SocialLinkType,string,string).type'></a>
 
-`type` [SocialLinkType](SocialLinkType 'Guilded.NET.Base.Users.SocialLinkType')
+`type` [SocialLinkType](SocialLinkType.md 'Guilded.Base.Users.SocialLinkType')
 
-The type of the socials linked
+The type of social link it is
 
-<a name='Guilded.NET.Base.Users.SocialLink.SocialLink(Guilded.NET.Base.Users.SocialLinkType,string,string).handle'></a>
+<a name='Guilded.Base.Users.SocialLink.SocialLink(Guilded.Base.Users.SocialLinkType,string,string).handle'></a>
 
 `handle` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name, tag or identifier of the user
+The name, unique identifier or unique tag of the [user](User.md 'Guilded.Base.Users.User') in this social link
 
-<a name='Guilded.NET.Base.Users.SocialLink.SocialLink(Guilded.NET.Base.Users.SocialLinkType,string,string).serviceId'></a>
+<a name='Guilded.Base.Users.SocialLink.SocialLink(Guilded.Base.Users.SocialLinkType,string,string).serviceId'></a>
 
 `serviceId` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The identifier of this social link
+The unique identifier of the [user](User.md 'Guilded.Base.Users.User') in this social link

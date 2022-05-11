@@ -4,30 +4,20 @@ layout: references
 section: references
 tags:
   - references
-  - event
+  - property
 description: "
 
-An event when the client is prepared.
-
-```csharp
-public event EventHandler Prepared;
-```"
+An observable event that occurs once Guilded client has connected and added finishing touches."
 ---
 
-## AbstractGuildedClient.Prepared Event
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+## AbstractGuildedClient.Prepared Property
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-An event when the client is prepared.
+An observable event that occurs once Guilded client has connected and added finishing touches.
 
 ```csharp
-public event EventHandler Prepared;
+public IObservable<Guilded.Base.Users.Me> Prepared { get; }
 ```
 
-### Remarks
-  
-An event that occurs once Guilded client has added finishing touches. You can use this as a signal [Prepared](AbstractGuildedClient.Prepared 'Guilded.NET.AbstractGuildedClient.Prepared') ensures all client functions are properly working and can be used.  
-  
-As of now, this is called at the same time as [Connected](BaseGuildedClient.Connected 'Guilded.NET.Base.BaseGuildedClient.Connected') event.
-
-#### Event Type
-[System.EventHandler](https://docs.microsoft.com/en-us/dotnet/api/System.EventHandler 'System.EventHandler')
+#### Property Value
+[System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')

@@ -7,51 +7,42 @@ tags:
   - method
 description: "
 
-Deletes member's nickname.
-
-```csharp
-public override System.Threading.Tasks.Task DeleteNicknameAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId);
-```"
+Removes [the nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## AbstractGuildedClient.DeleteNicknameAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Deletes member's nickname.
+Removes [the nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
-public override System.Threading.Tasks.Task DeleteNicknameAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId);
+public override System.Threading.Tasks.Task DeleteNicknameAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
 ```
-
-### Remarks
-  
-Removes the specified member's nickname.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.DeleteNicknameAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).serverId'></a>
+<a name='Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The server to modify member in
+The server to modify [member](Member.md 'Guilded.Base.Servers.Member') in
 
-<a name='Guilded.NET.AbstractGuildedClient.DeleteNicknameAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).memberId'></a>
+<a name='Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`member` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The identifier of the member to update
+The identifier of [the member](Member.md 'Guilded.Base.Servers.Member') to update
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
-Nickname
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

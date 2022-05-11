@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates an instance of [MessageContent](MessageContent 'Guilded.NET.Base.Content.MessageContent') with no content.
-
-```csharp
-public MessageContent();
-```"
+Creates an instance of [MessageContent](MessageContent.md 'Guilded.Base.Content.MessageContent') with no content."
 ---
 
 ## MessageContent() Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.NET.Base.Content.MessageContent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent.md 'Guilded.Base.Content.MessageContent')
 
-Creates an instance of [MessageContent](MessageContent 'Guilded.NET.Base.Content.MessageContent') with no content.
+Creates an instance of [MessageContent](MessageContent.md 'Guilded.Base.Content.MessageContent') with no content.
 
 ```csharp
 public MessageContent();

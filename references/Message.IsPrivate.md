@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-Whether the reply is private.
-
-```csharp
-public bool IsPrivate { get; }
-```"
+Gets whether [the reply](Message.IsReply.md 'Guilded.Base.Content.Message.IsReply') or mention is private."
 ---
 
 ## Message.IsPrivate Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Message`](Message 'Guilded.NET.Base.Content.Message')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message.md 'Guilded.Base.Content.Message')
 
-Whether the reply is private.
+Gets whether [the reply](Message.IsReply.md 'Guilded.Base.Content.Message.IsReply') or mention is private.
 
 ```csharp
 public bool IsPrivate { get; }
@@ -25,10 +21,8 @@ public bool IsPrivate { get; }
 
 ### Remarks
   
-Specifies whether the reply is private or not.  
-  
-This can only be [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool') if [ReplyMessageIds](Message.ReplyMessageIds 'Guilded.NET.Base.Content.Message.ReplyMessageIds') has a value.
+This can only be [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool') if [ReplyMessageIds](Message.ReplyMessageIds.md 'Guilded.Base.Content.Message.ReplyMessageIds') has a value or there is an user or role mention in the [Content](Message.Content.md 'Guilded.Base.Content.Message.Content').
 
 #### Property Value
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
-Reply is private
+Message is private

@@ -7,29 +7,25 @@ tags:
   - method
 description: "
 
-Sets the timestamp as the given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetTimestamp(System.DateTime time);
-```"
+Sets the [timestamp](Embed.Timestamp.md 'Guilded.Base.Embeds.Embed.Timestamp') as the given [value](Embed.SetTimestamp(DateTime).md#Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value')."
 ---
 
 ## Embed.SetTimestamp(DateTime) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the timestamp as the given parameter.
+Sets the [timestamp](Embed.Timestamp.md 'Guilded.Base.Embeds.Embed.Timestamp') as the given [value](Embed.SetTimestamp(DateTime).md#Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetTimestamp(System.DateTime time);
+public Guilded.Base.Embeds.Embed SetTimestamp(System.DateTime value);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetTimestamp(System.DateTime).time'></a>
+<a name='Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value'></a>
 
-`time` [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
+`value` [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
 
-The date to be set to
+The timestamp of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

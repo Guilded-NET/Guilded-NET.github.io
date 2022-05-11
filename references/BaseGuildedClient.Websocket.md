@@ -7,15 +7,11 @@ tags:
   - property
 description: "
 
-The WebSocket that will be used by the client.
-
-```csharp
-public Websocket.Client.WebsocketClient Websocket { get; set; }
-```"
+The WebSocket that will be used by the client."
 ---
 
 ## BaseGuildedClient.Websocket Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
 The WebSocket that will be used by the client.
 
@@ -32,4 +28,4 @@ The WebSocket that will be used by the client to receive all Guilded events and 
 Main WebSocket
 
 ### See Also
-- [Rest](BaseGuildedClient.Rest 'Guilded.NET.Base.BaseGuildedClient.Rest')
+- [Rest](BaseGuildedClient.Rest.md 'Guilded.Base.BaseGuildedClient.Rest')

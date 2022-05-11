@@ -7,29 +7,25 @@ tags:
   - method
 description: "
 
-Sets the embed image as the given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetImage(Guilded.NET.Base.Embeds.EmbedMedia media);
-```"
+Sets the [image](Embed.Image.md 'Guilded.Base.Embeds.Embed.Image') as the given [value](Embed.SetImage(EmbedMedia).md#Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia).value 'Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia).value')."
 ---
 
 ## Embed.SetImage(EmbedMedia) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the embed image as the given parameter.
+Sets the [image](Embed.Image.md 'Guilded.Base.Embeds.Embed.Image') as the given [value](Embed.SetImage(EmbedMedia).md#Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia).value 'Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia).value').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetImage(Guilded.NET.Base.Embeds.EmbedMedia media);
+public Guilded.Base.Embeds.Embed SetImage(Guilded.Base.Embeds.EmbedMedia value);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetImage(Guilded.NET.Base.Embeds.EmbedMedia).media'></a>
+<a name='Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia).value'></a>
 
-`media` [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+`value` [EmbedMedia](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')
 
-The media to use as an image
+The value of the [embed's](Embed.md 'Guilded.Base.Embeds.Embed') image
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

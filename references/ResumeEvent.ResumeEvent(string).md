@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent'). This is currently only used in deserialization.
-
-```csharp
-public ResumeEvent(string s);
-```"
+Initializes a new instance of [ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent') from the specified JSON properties."
 ---
 
 ## ResumeEvent(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent')
 
-Creates a new instance of [ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent'). This is currently only used in deserialization.
+Initializes a new instance of [ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent') from the specified JSON properties.
 
 ```csharp
 public ResumeEvent(string s);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Events.ResumeEvent.ResumeEvent(string).s'></a>
+<a name='Guilded.Base.Events.ResumeEvent.ResumeEvent(string).s'></a>
 
 `s` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

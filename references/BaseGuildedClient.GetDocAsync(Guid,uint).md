@@ -7,49 +7,41 @@ tags:
   - method
 description: "
 
-Gets the specified document.
-
-```csharp
-public abstract System.Threading.Tasks.Task<Guilded.NET.Base.Content.Doc> GetDocAsync(System.Guid channelId, uint docId);
-```"
+Gets a [doc](BaseGuildedClient.GetDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.GetDocAsync(Guid,uint).doc 'Guilded.Base.BaseGuildedClient.GetDocAsync(Guid, uint).doc') from a [channel](BaseGuildedClient.GetDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.GetDocAsync(Guid,uint).channel 'Guilded.Base.BaseGuildedClient.GetDocAsync(Guid, uint).channel')."
 ---
 
 ## BaseGuildedClient.GetDocAsync(Guid, uint) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Gets the specified document.
+Gets a [doc](BaseGuildedClient.GetDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.GetDocAsync(Guid,uint).doc 'Guilded.Base.BaseGuildedClient.GetDocAsync(Guid, uint).doc') from a [channel](BaseGuildedClient.GetDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.GetDocAsync(Guid,uint).channel 'Guilded.Base.BaseGuildedClient.GetDocAsync(Guid, uint).channel').
 
 ```csharp
-public abstract System.Threading.Tasks.Task<Guilded.NET.Base.Content.Doc> GetDocAsync(System.Guid channelId, uint docId);
+public abstract System.Threading.Tasks.Task<Guilded.Base.Content.Doc> GetDocAsync(Guid channel, uint doc);
 ```
-
-### Remarks
-  
-Gets the specified document in the provided channel.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.GetDocAsync(System.Guid,uint).channelId'></a>
+<a name='Guilded.Base.BaseGuildedClient.GetDocAsync(Guid,uint).channel'></a>
 
-`channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
+`channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
 The identifier of the parent channel
 
-<a name='Guilded.NET.Base.BaseGuildedClient.GetDocAsync(System.Guid,uint).docId'></a>
+<a name='Guilded.Base.BaseGuildedClient.GetDocAsync(Guid,uint).doc'></a>
 
-`docId` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
+`doc` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the document to get
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc 'Guilded.NET.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc.md 'Guilded.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
 Specified document

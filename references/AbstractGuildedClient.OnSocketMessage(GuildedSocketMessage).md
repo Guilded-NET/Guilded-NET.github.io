@@ -7,29 +7,25 @@ tags:
   - method
 description: "
 
-When the socket message event is invoked.
-
-```csharp
-protected void OnSocketMessage(Guilded.NET.Base.Events.GuildedSocketMessage message);
-```"
+When the socket message event is invoked."
 ---
 
 ## AbstractGuildedClient.OnSocketMessage(GuildedSocketMessage) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
 When the socket message event is invoked.
 
 ```csharp
-protected void OnSocketMessage(Guilded.NET.Base.Events.GuildedSocketMessage message);
+protected void OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage message);
 ```
 
 ### Remarks
   
-Receives and handles received [GuildedSocketMessage](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage') messages.
+Receives and handles received [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage') messages.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.OnSocketMessage(Guilded.NET.Base.Events.GuildedSocketMessage).message'></a>
+<a name='Guilded.AbstractGuildedClient.OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage).message'></a>
 
-`message` [GuildedSocketMessage](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage')
+`message` [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
 
 A message received from a WebSocket

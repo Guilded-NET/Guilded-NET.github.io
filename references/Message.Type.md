@@ -7,26 +7,22 @@ tags:
   - property
 description: "
 
-The type of the message.
-
-```csharp
-public Guilded.NET.Base.Content.MessageType Type { get; }
-```"
+Gets the type of the message."
 ---
 
 ## Message.Type Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Message`](Message 'Guilded.NET.Base.Content.Message')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message.md 'Guilded.Base.Content.Message')
 
-The type of the message.
+Gets the type of the message.
 
 ```csharp
-public Guilded.NET.Base.Content.MessageType Type { get; }
+public Guilded.Base.Content.MessageType Type { get; }
 ```
 
 ### Remarks
   
-Allows message to be determined as a [Default](MessageType#Guilded.NET.Base.Content.MessageType.Default 'Guilded.NET.Base.Content.MessageType.Default') or [System](MessageType#Guilded.NET.Base.Content.MessageType.System 'Guilded.NET.Base.Content.MessageType.System').
+Distinguishes the messages by what content they contain.
 
 #### Property Value
-[MessageType](MessageType 'Guilded.NET.Base.Content.MessageType')  
+[MessageType](MessageType.md 'Guilded.Base.Content.MessageType')  
 Message type

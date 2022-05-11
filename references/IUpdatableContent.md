@@ -7,30 +7,24 @@ tags:
   - interface
 description: "
 
-The content that can be updated.
-
-```csharp
-public interface IUpdatableContent
-```"
+Represents the content that can be updated."
 ---
 
 ## IUpdatableContent Interface
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Content`](Guilded.NET.Base.Content 'Guilded.NET.Base.Content')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content.md 'Guilded.Base.Content')
 
-The content that can be updated.
+Represents the content that can be updated.
 
 ```csharp
 public interface IUpdatableContent
 ```
 
 Derived  
-&#8627; [Doc](Doc 'Guilded.NET.Base.Content.Doc')  
-&#8627; [Message](Message 'Guilded.NET.Base.Content.Message')
-
-### Remarks
-  
-The interface for channel content that can be updated/edited at any time.
+&#8627; [ListItem&lt;T&gt;](ListItem_T_.md 'Guilded.Base.Content.ListItem<T>')  
+&#8627; [ListItemNoteSummary](ListItemNoteSummary.md 'Guilded.Base.Content.ListItemNoteSummary')  
+&#8627; [Message](Message.md 'Guilded.Base.Content.Message')  
+&#8627; [TitledContent](TitledContent.md 'Guilded.Base.Content.TitledContent')
 
 | Properties | |
 | :--- | :--- |
-| [UpdatedAt](IUpdatableContent.UpdatedAt 'Guilded.NET.Base.Content.IUpdatableContent.UpdatedAt') | The date of when the content was updated. |
+| [UpdatedAt](IUpdatableContent.UpdatedAt.md 'Guilded.Base.Content.IUpdatableContent.UpdatedAt') | Gets the date of when the content was edited. |

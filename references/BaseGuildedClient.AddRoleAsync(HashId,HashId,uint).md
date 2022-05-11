@@ -7,56 +7,50 @@ tags:
   - method
 description: "
 
-Adds a role to the user.
-
-```csharp
-public abstract System.Threading.Tasks.Task AddRoleAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, uint roleId);
-```"
+Adds a [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint).md#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') to the user."
 ---
 
 ## BaseGuildedClient.AddRoleAsync(HashId, HashId, uint) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Adds a role to the user.
+Adds a [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint).md#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') to the user.
 
 ```csharp
-public abstract System.Threading.Tasks.Task AddRoleAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, uint roleId);
+public abstract System.Threading.Tasks.Task AddRoleAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, uint role);
 ```
 
 ### Remarks
   
-Gives the specified role to the member.  
-  
-If they hold the specified role, then nothing happens.
+If they hold the specified [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint).md#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddRoleAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,uint).serverId'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The server to modify member in
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddRoleAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,uint).memberId'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).member'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`member` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The identifier of the receiving user
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddRoleAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,uint).roleId'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role'></a>
 
-`roleId` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
+`role` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the role to add
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

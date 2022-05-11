@@ -7,20 +7,16 @@ tags:
   - property
 description: "
 
-The identifier of the server where roles were updated.
-
-```csharp
-public Guilded.NET.Base.HashId ServerId { get; }
-```"
+The identifier of the server where roles were updated."
 ---
 
 ## RolesUpdatedEvent.ServerId Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')
 
 The identifier of the server where roles were updated.
 
 ```csharp
-public Guilded.NET.Base.HashId ServerId { get; }
+public Guilded.Base.HashId ServerId { get; }
 ```
 
 ### Remarks
@@ -28,5 +24,5 @@ public Guilded.NET.Base.HashId ServerId { get; }
 The identifier of the server where the members were given a role or removed from a role.
 
 #### Property Value
-[HashId](HashId 'Guilded.NET.Base.HashId')  
+[HashId](HashId.md 'Guilded.Base.HashId')  
 Server ID

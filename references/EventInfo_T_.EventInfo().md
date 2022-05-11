@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new Guilded event.
-
-```csharp
-public EventInfo();
-```"
+Initializes a new instance of [EventInfo&lt;T&gt;](EventInfo_T_.md 'Guilded.EventInfo<T>')."
 ---
 
 ## EventInfo() Constructor
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.NET.EventInfo<T>')
+###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_.md 'Guilded.EventInfo<T>')
 
-Creates a new Guilded event.
+Initializes a new instance of [EventInfo&lt;T&gt;](EventInfo_T_.md 'Guilded.EventInfo<T>').
 
 ```csharp
 public EventInfo();

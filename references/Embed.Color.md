@@ -7,25 +7,19 @@ tags:
   - property
 description: "
 
-The colour of the embed.
-
-```csharp
-public System.Nullable<System.Drawing.Color> Color { get; set; }
-```"
+Gets the colour of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Color Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-The colour of the embed.
+Gets the colour of the [embed](Embed.md 'Guilded.Base.Embeds.Embed').
 
 ```csharp
-public System.Nullable<System.Drawing.Color> Color { get; set; }
+public System.Nullable<Color> Color { get; set; }
 ```
 
 ### Remarks
-  
-The display colour of the embed.  
   
 This is displayed as left-side border in the official Guilded client, but may be displayed differently in other clients.
 

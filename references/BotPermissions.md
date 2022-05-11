@@ -7,15 +7,11 @@ tags:
   - enum
 description: "
 
-Permissions related to bots.
-
-```csharp
-public enum BotPermissions
-```"
+Permissions related to bots."
 ---
 
 ## BotPermissions Enum
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Permissions`](Guilded.NET.Base.Permissions 'Guilded.NET.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
 
 Permissions related to bots.
 
@@ -28,13 +24,13 @@ public enum BotPermissions
 Defines team permissions for flowbots related things.
 ### Fields
 
-<a name='Guilded.NET.Base.Permissions.BotPermissions.All'></a>
+<a name='Guilded.Base.Permissions.BotPermissions.All'></a>
 
 `All` 1
 
 All of the permissions combined.
 
-<a name='Guilded.NET.Base.Permissions.BotPermissions.ManageBots'></a>
+<a name='Guilded.Base.Permissions.BotPermissions.ManageBots'></a>
 
 `ManageBots` 1
 
@@ -42,7 +38,7 @@ Allows you to create and edit bots for automated workflows.
 NOTE: For now, bots do not enforce permissions. Anyone with this permission  
 can create bots to work around their role's existing permissions.
 
-<a name='Guilded.NET.Base.Permissions.BotPermissions.None'></a>
+<a name='Guilded.Base.Permissions.BotPermissions.None'></a>
 
 `None` 0
 

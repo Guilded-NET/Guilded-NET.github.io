@@ -7,28 +7,22 @@ tags:
   - property
 description: "
 
-The info about updated member.
-
-```csharp
-public Guilded.NET.Base.Servers.Member UserInfo { get; }
-```"
+Gets the properties that have been updated in the member."
 ---
 
 ## MemberUpdatedEvent.UserInfo Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.NET.Base.Events.MemberUpdatedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')
 
-The info about updated member.
+Gets the properties that have been updated in the member.
 
 ```csharp
-public Guilded.NET.Base.Servers.Member UserInfo { get; }
+public Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate UserInfo { get; }
 ```
 
 ### Remarks
   
-Defines an update that the member has received.  
-  
-As of now, this only means [Nickname](Member.Nickname 'Guilded.NET.Base.Servers.Member.Nickname') has been updated.
+As of now, this only means [Nickname](MemberUpdatedEvent.MemberUpdate.Nickname.md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname') has been updated.
 
 #### Property Value
-[Member](Member 'Guilded.NET.Base.Servers.Member')  
+[MemberUpdate](MemberUpdatedEvent.MemberUpdate.md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')  
 Member info

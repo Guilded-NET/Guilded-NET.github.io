@@ -7,53 +7,31 @@ tags:
   - method
 description: "
 
-Sets the thumbnail as the given parameters.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetThumbnail(string url, System.Nullable<uint> width=null, System.Nullable<uint> height=null);
-```"
+Sets the [thumbnail](Embed.Thumbnail.md 'Guilded.Base.Embeds.Embed.Thumbnail') as the given value."
 ---
 
 ## Embed.SetThumbnail(string, Nullable<uint>, Nullable<uint>) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the thumbnail as the given parameters.
+Sets the [thumbnail](Embed.Thumbnail.md 'Guilded.Base.Embeds.Embed.Thumbnail') as the given value.
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetThumbnail(string url, System.Nullable<uint> width=null, System.Nullable<uint> height=null);
+public Guilded.Base.Embeds.Embed SetThumbnail(string url, System.Nullable<uint> width=null, System.Nullable<uint> height=null);
 ```
-
-### Remarks
-  
-Sets [Thumbnail](Embed.Thumbnail 'Guilded.NET.Base.Embeds.Embed.Thumbnail') as a new instance of [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia') made from given parameters.
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).url'></a>
+<a name='Guilded.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).url'></a>
 
 `url` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The source URL of the thumbnail image
-
-<a name='Guilded.NET.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).width'></a>
+<a name='Guilded.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).width'></a>
 
 `width` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The width of the image
-
-<a name='Guilded.NET.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).height'></a>
+<a name='Guilded.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).height'></a>
 
 `height` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The height of the image
-
-#### Exceptions
-
-[System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-[url](Embed.SetThumbnail(string,Nullable_uint_,Nullable_uint_)#Guilded.NET.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).url 'Guilded.NET.Base.Embeds.Embed.SetThumbnail(string, System.Nullable<uint>, System.Nullable<uint>).url') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
-
-[System.UriFormatException](https://docs.microsoft.com/en-us/dotnet/api/System.UriFormatException 'System.UriFormatException')  
-[url](Embed.SetThumbnail(string,Nullable_uint_,Nullable_uint_)#Guilded.NET.Base.Embeds.Embed.SetThumbnail(string,System.Nullable_uint_,System.Nullable_uint_).url 'Guilded.NET.Base.Embeds.Embed.SetThumbnail(string, System.Nullable<uint>, System.Nullable<uint>).url') has bad [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') formatting
-
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

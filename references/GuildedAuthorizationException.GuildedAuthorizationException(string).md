@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException').
-
-```csharp
-public GuildedAuthorizationException(string message);
-```"
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with only a [message](GuildedAuthorizationException.GuildedAuthorizationException(string).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message')."
 ---
 
 ## GuildedAuthorizationException(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException').
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with only a [message](GuildedAuthorizationException.GuildedAuthorizationException(string).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message').
 
 ```csharp
 public GuildedAuthorizationException(string message);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message'></a>
+<a name='Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

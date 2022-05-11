@@ -7,30 +7,26 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException') with inner exception explaining more.
-
-```csharp
-public GuildedRequestException(string message, System.Exception inner);
-```"
+Initializes a new instance of [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException') with an [inner](GuildedRequestException.GuildedRequestException(string,Exception).md#Guilded.Base.GuildedRequestException.GuildedRequestException(string,System.Exception).inner 'Guilded.Base.GuildedRequestException.GuildedRequestException(string, System.Exception).inner') explaining more."
 ---
 
 ## GuildedRequestException(string, Exception) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
 
-Creates a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException') with inner exception explaining more.
+Initializes a new instance of [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException') with an [inner](GuildedRequestException.GuildedRequestException(string,Exception).md#Guilded.Base.GuildedRequestException.GuildedRequestException(string,System.Exception).inner 'Guilded.Base.GuildedRequestException.GuildedRequestException(string, System.Exception).inner') explaining more.
 
 ```csharp
 public GuildedRequestException(string message, System.Exception inner);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedRequestException.GuildedRequestException(string,System.Exception).message'></a>
+<a name='Guilded.Base.GuildedRequestException.GuildedRequestException(string,System.Exception).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedRequestException.GuildedRequestException(string,System.Exception).inner'></a>
+<a name='Guilded.Base.GuildedRequestException.GuildedRequestException(string,System.Exception).inner'></a>
 
 `inner` [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception')
 

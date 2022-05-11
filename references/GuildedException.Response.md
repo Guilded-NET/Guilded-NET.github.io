@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The response that was received from Guilded API.
-
-```csharp
-public RestSharp.RestResponse? Response { get; }
-```"
+Gets the response that was received from Guilded API."
 ---
 
 ## GuildedException.Response Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
-The response that was received from Guilded API.
+Gets the response that was received from Guilded API.
 
 ```csharp
 public RestSharp.RestResponse? Response { get; }

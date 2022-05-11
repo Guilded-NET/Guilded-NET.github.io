@@ -7,25 +7,21 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with array of fields [fields](Embed.Embed(EmbedField[])#Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[]).fields 'Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[]).fields').
-
-```csharp
-public Embed(params Guilded.NET.Base.Embeds.EmbedField[] fields);
-```"
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(EmbedField[]).md#Guilded.Base.Embeds.Embed.Embed(Guilded.Base.Embeds.EmbedField[]).fields 'Guilded.Base.Embeds.Embed.Embed(Guilded.Base.Embeds.EmbedField[]).fields')."
 ---
 
 ## Embed(EmbedField[]) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with array of fields [fields](Embed.Embed(EmbedField[])#Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[]).fields 'Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[]).fields').
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(EmbedField[]).md#Guilded.Base.Embeds.Embed.Embed(Guilded.Base.Embeds.EmbedField[]).fields 'Guilded.Base.Embeds.Embed.Embed(Guilded.Base.Embeds.EmbedField[]).fields').
 
 ```csharp
-public Embed(params Guilded.NET.Base.Embeds.EmbedField[] fields);
+public Embed(params Guilded.Base.Embeds.EmbedField[] fields);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(Guilded.NET.Base.Embeds.EmbedField[]).fields'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(Guilded.Base.Embeds.EmbedField[]).fields'></a>
 
-`fields` [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
+`fields` [EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
-The array of fields in this embed
+The list of fields in this embed

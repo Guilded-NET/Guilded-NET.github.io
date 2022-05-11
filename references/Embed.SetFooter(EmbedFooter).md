@@ -7,29 +7,25 @@ tags:
   - method
 description: "
 
-Sets the footer as the given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetFooter(Guilded.NET.Base.Embeds.EmbedFooter footer);
-```"
+Sets the [footer](Embed.Footer.md 'Guilded.Base.Embeds.Embed.Footer') as the given [value](Embed.SetFooter(EmbedFooter).md#Guilded.Base.Embeds.Embed.SetFooter(Guilded.Base.Embeds.EmbedFooter).value 'Guilded.Base.Embeds.Embed.SetFooter(Guilded.Base.Embeds.EmbedFooter).value')."
 ---
 
 ## Embed.SetFooter(EmbedFooter) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the footer as the given parameter.
+Sets the [footer](Embed.Footer.md 'Guilded.Base.Embeds.Embed.Footer') as the given [value](Embed.SetFooter(EmbedFooter).md#Guilded.Base.Embeds.Embed.SetFooter(Guilded.Base.Embeds.EmbedFooter).value 'Guilded.Base.Embeds.Embed.SetFooter(Guilded.Base.Embeds.EmbedFooter).value').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetFooter(Guilded.NET.Base.Embeds.EmbedFooter footer);
+public Guilded.Base.Embeds.Embed SetFooter(Guilded.Base.Embeds.EmbedFooter value);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetFooter(Guilded.NET.Base.Embeds.EmbedFooter).footer'></a>
+<a name='Guilded.Base.Embeds.Embed.SetFooter(Guilded.Base.Embeds.EmbedFooter).value'></a>
 
-`footer` [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter')
+`value` [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter')
 
-The footer to set
+The footer's content of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

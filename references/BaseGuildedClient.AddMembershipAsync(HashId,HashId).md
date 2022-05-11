@@ -7,50 +7,44 @@ tags:
   - method
 description: "
 
-Adds a member to the group.
-
-```csharp
-public abstract System.Threading.Tasks.Task AddMembershipAsync(Guilded.NET.Base.HashId groupId, Guilded.NET.Base.HashId memberId);
-```"
+Adds the [user](BaseGuildedClient.AddMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') to the [group](BaseGuildedClient.AddMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group')."
 ---
 
 ## BaseGuildedClient.AddMembershipAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Adds a member to the group.
+Adds the [user](BaseGuildedClient.AddMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') to the [group](BaseGuildedClient.AddMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
 
 ```csharp
-public abstract System.Threading.Tasks.Task AddMembershipAsync(Guilded.NET.Base.HashId groupId, Guilded.NET.Base.HashId memberId);
+public abstract System.Threading.Tasks.Task AddMembershipAsync(Guilded.Base.HashId group, Guilded.Base.HashId user);
 ```
 
 ### Remarks
   
-Adds the specified member to the group.  
-  
-This allows the member to see and interact with the specified group.
+This allows the member to interact or see the specified group.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddMembershipAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).groupId'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group'></a>
 
-`groupId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`group` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The identifier of the parent group
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddMembershipAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).memberId'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`user` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The identifier of the member to add
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

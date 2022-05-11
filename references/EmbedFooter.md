@@ -7,39 +7,31 @@ tags:
   - class
 description: "
 
-The footer of an embed.
-
-```csharp
-public class EmbedFooter : Guilded.NET.Base.BaseObject
-```"
+Represents the footer area of an [embed](Embed.md 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## EmbedFooter Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Embeds`](Guilded.NET.Base.Embeds 'Guilded.NET.Base.Embeds')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds.md 'Guilded.Base.Embeds')
 
-The footer of an embed.
+Represents the footer area of an [embed](Embed.md 'Guilded.Base.Embeds.Embed').
 
 ```csharp
-public class EmbedFooter : Guilded.NET.Base.BaseObject
+public class EmbedFooter : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; EmbedFooter
-
-### Remarks
-  
-The bottom area of an embed that defines a side information about something, such as post likes. Footers can also have timestamps, but that can be used by setting [Timestamp](Embed.Timestamp 'Guilded.NET.Base.Embeds.Embed.Timestamp') property. Timestamps are not officially part of footers, but that's the way it is displayed.
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; EmbedFooter
 
 | Constructors | |
 | :--- | :--- |
-| [EmbedFooter(string, string)](EmbedFooter.EmbedFooter(string,string) 'Guilded.NET.Base.Embeds.EmbedFooter.EmbedFooter(string, string)') | Creates a new instance of [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string)#Guilded.NET.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.NET.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text'). |
-| [EmbedFooter(string, Uri)](EmbedFooter.EmbedFooter(string,Uri) 'Guilded.NET.Base.Embeds.EmbedFooter.EmbedFooter(string, System.Uri)') | Creates a new instance of [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,Uri)#Guilded.NET.Base.Embeds.EmbedFooter.EmbedFooter(string,System.Uri).text 'Guilded.NET.Base.Embeds.EmbedFooter.EmbedFooter(string, System.Uri).text'). |
+| [EmbedFooter(string, string)](EmbedFooter.EmbedFooter(string,string).md 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string)') | Initializes a new instance of [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string).md#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text'). |
+| [EmbedFooter(string, Uri)](EmbedFooter.EmbedFooter(string,Uri).md 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, Uri)') | Initializes a new instance of [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,Uri).md#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,Uri).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, Uri).text'). |
 
 | Properties | |
 | :--- | :--- |
-| [IconUrl](EmbedFooter.IconUrl 'Guilded.NET.Base.Embeds.EmbedFooter.IconUrl') | The source URL of footer's icon. |
-| [Text](EmbedFooter.Text 'Guilded.NET.Base.Embeds.EmbedFooter.Text') | The description of the footer. |
+| [IconUrl](EmbedFooter.IconUrl.md 'Guilded.Base.Embeds.EmbedFooter.IconUrl') | The URL to the footer's icon. |
+| [Text](EmbedFooter.Text.md 'Guilded.Base.Embeds.EmbedFooter.Text') | Gets the text contents of the footer. |
 
 ### See Also
-- [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
-- [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')
-- [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+- [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
+- [EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField')
+- [EmbedMedia](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')

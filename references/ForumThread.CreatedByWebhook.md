@@ -7,25 +7,19 @@ tags:
   - property
 description: "
 
-The identifier of the webhook creator of the forum thread.
-
-```csharp
-public System.Nullable<System.Guid> CreatedByWebhook { get; }
-```"
+Gets the identifier of the webhook that created the forum thread."
 ---
 
 ## ForumThread.CreatedByWebhook Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`ForumThread`](ForumThread 'Guilded.NET.Base.Content.ForumThread')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ForumThread`](ForumThread.md 'Guilded.Base.Content.ForumThread')
 
-The identifier of the webhook creator of the forum thread.
+Gets the identifier of the webhook that created the forum thread.
 
 ```csharp
-public System.Nullable<System.Guid> CreatedByWebhook { get; }
+public System.Nullable<Guid> CreatedByWebhook { get; }
 ```
 
 ### Remarks
-  
-The identifier of the webhook that posted created this forum thread.  
 > **Note:**    
 > Currently, only chat messages can be created by Webhooks.
 

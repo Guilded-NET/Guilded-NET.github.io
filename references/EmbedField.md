@@ -7,39 +7,31 @@ tags:
   - class
 description: "
 
-A field in an embed.
-
-```csharp
-public class EmbedField : Guilded.NET.Base.BaseObject
-```"
+Represents a field with its own [title](EmbedField.Name.md 'Guilded.Base.Embeds.EmbedField.Name') in an [embed](Embed.md 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## EmbedField Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Embeds`](Guilded.NET.Base.Embeds 'Guilded.NET.Base.Embeds')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds.md 'Guilded.Base.Embeds')
 
-A field in an embed.
+Represents a field with its own [title](EmbedField.Name.md 'Guilded.Base.Embeds.EmbedField.Name') in an [embed](Embed.md 'Guilded.Base.Embeds.Embed').
 
 ```csharp
-public class EmbedField : Guilded.NET.Base.BaseObject
+public class EmbedField : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; EmbedField
-
-### Remarks
-  
-Displays a field with its own description/value and title/name. Fields can be both inline and blocks. They are only inline if [Inline](EmbedField.Inline 'Guilded.NET.Base.Embeds.EmbedField.Inline') parameter is [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool').
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; EmbedField
 
 | Constructors | |
 | :--- | :--- |
-| [EmbedField(string, string, bool)](EmbedField.EmbedField(string,string,bool) 'Guilded.NET.Base.Embeds.EmbedField.EmbedField(string, string, bool)') | Creates a new instance of [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField'), which is optionally inline. |
+| [EmbedField(string, string, bool)](EmbedField.EmbedField(string,string,bool).md 'Guilded.Base.Embeds.EmbedField.EmbedField(string, string, bool)') | Initializes a new instance of [EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField'), which is optionally inline. |
 
 | Properties | |
 | :--- | :--- |
-| [Inline](EmbedField.Inline 'Guilded.NET.Base.Embeds.EmbedField.Inline') | Whether the field should be inline with other fields. |
-| [Name](EmbedField.Name 'Guilded.NET.Base.Embeds.EmbedField.Name') | The title of the embed. |
-| [Value](EmbedField.Value 'Guilded.NET.Base.Embeds.EmbedField.Value') | The description text of the field. |
+| [Inline](EmbedField.Inline.md 'Guilded.Base.Embeds.EmbedField.Inline') | Gets whether the field should be inline with other fields. |
+| [Name](EmbedField.Name.md 'Guilded.Base.Embeds.EmbedField.Name') | Gets the title of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field. |
+| [Value](EmbedField.Value.md 'Guilded.Base.Embeds.EmbedField.Value') | Gets the text contents of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field. |
 
 ### See Also
-- [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter')
-- [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
-- [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+- [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter')
+- [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
+- [EmbedMedia](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')

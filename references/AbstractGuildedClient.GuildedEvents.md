@@ -7,28 +7,32 @@ tags:
   - property
 description: "
 
-A dictionary of Guilded events.
-
-```csharp
-protected System.Collections.Generic.Dictionary<object,Guilded.NET.IEventInfo<object>> GuildedEvents { get; set; }
-```"
+Gets the dictionary of Guilded events, their names and other event information."
 ---
 
 ## AbstractGuildedClient.GuildedEvents Property
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-A dictionary of Guilded events.
+Gets the dictionary of Guilded events, their names and other event information.
 
 ```csharp
-protected System.Collections.Generic.Dictionary<object,Guilded.NET.IEventInfo<object>> GuildedEvents { get; set; }
+protected Dictionary<object,Guilded.IEventInfo<object>> GuildedEvents { get; set; }
 ```
 
 ### Remarks
   
-A dictionary of all supported Guilded events, containing their event names and information about the event to use.  
-  
 You can add more events to this dictionary if Guilded.NET does not support certain events.
 
 #### Property Value
-[System.Collections.Generic.Dictionary&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2 'System.Collections.Generic.Dictionary`2')[System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')[,](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2 'System.Collections.Generic.Dictionary`2')[Guilded.NET.IEventInfo&lt;](IEventInfo_T_ 'Guilded.NET.IEventInfo<T>')[System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')[&gt;](IEventInfo_T_ 'Guilded.NET.IEventInfo<T>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2 'System.Collections.Generic.Dictionary`2')  
+[System.Collections.Generic.Dictionary](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary 'System.Collections.Generic.Dictionary')  
 Dictionary of events
+
+### See Also
+- [Welcome](AbstractGuildedClient.Welcome.md 'Guilded.AbstractGuildedClient.Welcome')
+- [Resume](AbstractGuildedClient.Resume.md 'Guilded.AbstractGuildedClient.Resume')
+- [MessageCreated](AbstractGuildedClient.MessageCreated.md 'Guilded.AbstractGuildedClient.MessageCreated')
+- [WebhookCreated](AbstractGuildedClient.WebhookCreated.md 'Guilded.AbstractGuildedClient.WebhookCreated')
+- [MemberJoined](AbstractGuildedClient.MemberJoined.md 'Guilded.AbstractGuildedClient.MemberJoined')
+- [ChannelCreated](AbstractGuildedClient.ChannelCreated.md 'Guilded.AbstractGuildedClient.ChannelCreated')
+- [ListItemCreated](AbstractGuildedClient.ListItemCreated.md 'Guilded.AbstractGuildedClient.ListItemCreated')
+- [DocCreated](AbstractGuildedClient.DocCreated.md 'Guilded.AbstractGuildedClient.DocCreated')

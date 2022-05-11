@@ -4,34 +4,30 @@ layout: references
 section: references
 tags:
   - references
-  - event
+  - property
 description: "
 
-An event when client gets disconnected
-
-```csharp
-public event EventHandler Disconnected;
-```"
+An event when the client gets disconnected."
 ---
 
-## BaseGuildedClient.Disconnected Event
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+## BaseGuildedClient.Disconnected Property
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-An event when client gets disconnected
+An event when the client gets disconnected.
 
 ```csharp
-public event EventHandler Disconnected;
+public IObservable<Websocket.Client.DisconnectionInfo> Disconnected { get; }
 ```
 
 ### Remarks
   
 An event that occurs once Guilded client disconnects from Guilded.  
   
-This usually occurs once [DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.NET.Base.BaseGuildedClient.DisconnectAsync()') is called and no errors get thrown.
+This usually occurs once [DisconnectAsync()](BaseGuildedClient.DisconnectAsync().md 'Guilded.Base.BaseGuildedClient.DisconnectAsync()') is called and no errors get thrown, or once an error occurs.
 
-#### Event Type
-[System.EventHandler](https://docs.microsoft.com/en-us/dotnet/api/System.EventHandler 'System.EventHandler')
+#### Property Value
+[System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.NET.Base.BaseGuildedClient.DisconnectAsync()')
-- [Connected](BaseGuildedClient.Connected 'Guilded.NET.Base.BaseGuildedClient.Connected')
+- [DisconnectAsync()](BaseGuildedClient.DisconnectAsync().md 'Guilded.Base.BaseGuildedClient.DisconnectAsync()')
+- [Connected](BaseGuildedClient.Connected.md 'Guilded.Base.BaseGuildedClient.Connected')

@@ -7,45 +7,41 @@ tags:
   - method
 description: "
 
-Sets the author as a given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetAuthor(string name, System.Uri? iconUrl=null, System.Uri? url=null);
-```"
+Sets the [author](Embed.Author.md 'Guilded.Base.Embeds.Embed.Author') as the given author with the given [name](Embed.SetAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).name 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri).name')."
 ---
 
 ## Embed.SetAuthor(string, Uri, Uri) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the author as a given parameter.
+Sets the [author](Embed.Author.md 'Guilded.Base.Embeds.Embed.Author') as the given author with the given [name](Embed.SetAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).name 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri).name').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetAuthor(string name, System.Uri? iconUrl=null, System.Uri? url=null);
+public Guilded.Base.Embeds.Embed SetAuthor(string name, Uri? iconUrl=null, Uri? url=null);
 ```
 
 ### Remarks
   
-Sets [Author](Embed.Author 'Guilded.NET.Base.Embeds.Embed.Author') as a new [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') instance from given parameters.
+The given [name](Embed.SetAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).name 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri).name'), [iconUrl](Embed.SetAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).iconUrl 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri).iconUrl') and [url](Embed.SetAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri).url') will be converted to [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor').
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetAuthor(string,System.Uri,System.Uri).name'></a>
+<a name='Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-Name of the author
+The name of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')'s author
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetAuthor(string,System.Uri,System.Uri).iconUrl'></a>
+<a name='Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).iconUrl'></a>
 
 `iconUrl` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
-URL of the image
+The URL to icon of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')'s author
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetAuthor(string,System.Uri,System.Uri).url'></a>
+<a name='Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).url'></a>
 
 `url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
-URL of the author's name
+The URL of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')'s author
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

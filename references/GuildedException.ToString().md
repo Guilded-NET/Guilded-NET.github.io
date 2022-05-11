@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Returns string representation of the exception thrown.
-
-```csharp
-public override string ToString();
-```"
+Returns string representation of the exception thrown."
 ---
 
 ## GuildedException.ToString() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
 Returns string representation of the exception thrown.
 
@@ -25,4 +21,4 @@ public override string ToString();
 
 #### Returns
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') as string
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException') as string

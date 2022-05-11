@@ -7,15 +7,11 @@ tags:
   - property
 description: "
 
-If this converter can read JSON value.
-
-```csharp
-public override bool CanRead { get; }
-```"
+If this converter can read JSON value."
 ---
 
 ## HexColorConverter.CanRead Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HexColorConverter`](HexColorConverter 'Guilded.NET.Base.HexColorConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HexColorConverter`](HexColorConverter.md 'Guilded.Base.HexColorConverter')
 
 If this converter can read JSON value.
 

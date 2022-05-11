@@ -7,31 +7,24 @@ tags:
   - property
 description: "
 
-An event that occurs once a member gets updated.
-
-```csharp
-public System.IObservable<Guilded.NET.Base.Events.MemberUpdatedEvent> MemberUpdated { get; }
-```"
+Represents an event with the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from [role update](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')."
 ---
 
 ## AbstractGuildedClient.MemberUpdated Property
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-An event that occurs once a member gets updated.
+Represents an event with the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from [role update](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent').
 
 ```csharp
-public System.IObservable<Guilded.NET.Base.Events.MemberUpdatedEvent> MemberUpdated { get; }
+public IObservable<Guilded.Base.Events.MemberUpdatedEvent> MemberUpdated { get; }
 ```
 
-### Remarks
-  
-An event of the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from role update(see [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')).
-
 #### Property Value
-[System.IObservable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')[MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.NET.Base.Events.MemberUpdatedEvent')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')
+[System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')
-- [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent')
-- [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
-- [Member](Member 'Guilded.NET.Base.Servers.Member')
+- [RolesUpdatedEvent](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')
+- [XpAddedEvent](XpAddedEvent.md 'Guilded.Base.Events.XpAddedEvent')
+- [MemberJoinedEvent](MemberJoinedEvent.md 'Guilded.Base.Events.MemberJoinedEvent')
+- [MemberRemovedEvent](MemberRemovedEvent.md 'Guilded.Base.Events.MemberRemovedEvent')
+- [Member](Member.md 'Guilded.Base.Servers.Member')

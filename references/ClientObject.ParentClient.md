@@ -7,26 +7,18 @@ tags:
   - property
 description: "
 
-The parent client that adopts this object.
-
-```csharp
-public Guilded.NET.Base.BaseGuildedClient ParentClient { get; set; }
-```"
+Gets the parent client that adopts [this object](ClientObject.md 'Guilded.Base.ClientObject')."
 ---
 
 ## ClientObject.ParentClient Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`ClientObject`](ClientObject 'Guilded.NET.Base.ClientObject')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ClientObject`](ClientObject.md 'Guilded.Base.ClientObject')
 
-The parent client that adopts this object.
+Gets the parent client that adopts [this object](ClientObject.md 'Guilded.Base.ClientObject').
 
 ```csharp
-public Guilded.NET.Base.BaseGuildedClient ParentClient { get; set; }
+public Guilded.Base.BaseGuildedClient ParentClient { get; set; }
 ```
 
-### Remarks
-  
-The parent client that deserialized this object. This is initiated via internal OnDeserialized method and only available after deserialization, but not during it.
-
 #### Property Value
-[BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')  
+[BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')  
 Client

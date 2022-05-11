@@ -7,25 +7,17 @@ tags:
   - property
 description: "
 
-The identifier of the last event sent.
-
-```csharp
-public string? LastMessageId { get; }
-```"
+Gets the identifier of the last received WebSocket message."
 ---
 
 ## WelcomeEvent.LastMessageId Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
 
-The identifier of the last event sent.
+Gets the identifier of the last received WebSocket message.
 
 ```csharp
 public string? LastMessageId { get; }
 ```
-
-### Remarks
-  
-The identifier of the last message that was received before this event.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

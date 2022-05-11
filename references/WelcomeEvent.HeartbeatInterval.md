@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The duration between heartbeats.
-
-```csharp
-public int HeartbeatInterval { get; }
-```"
+Gets the time duration between heartbeats in milliseconds."
 ---
 
 ## WelcomeEvent.HeartbeatInterval Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
 
-The duration between heartbeats.
+Gets the time duration between heartbeats in milliseconds.
 
 ```csharp
 public int HeartbeatInterval { get; }
@@ -25,7 +21,7 @@ public int HeartbeatInterval { get; }
 
 ### Remarks
   
-The duration between each heartbeat in milliseconds. The value is usually `22500`.
+The value is usually `22500`.
 
 #### Property Value
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

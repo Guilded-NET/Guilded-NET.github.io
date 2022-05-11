@@ -7,56 +7,50 @@ tags:
   - method
 description: "
 
-Removes a role from the user.
-
-```csharp
-public override System.Threading.Tasks.Task RemoveRoleAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, uint roleId);
-```"
+Removes [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint).md#Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') from [the user](User.md 'Guilded.Base.Users.User')."
 ---
 
 ## AbstractGuildedClient.RemoveRoleAsync(HashId, HashId, uint) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Removes a role from the user.
+Removes [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint).md#Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') from [the user](User.md 'Guilded.Base.Users.User').
 
 ```csharp
-public override System.Threading.Tasks.Task RemoveRoleAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, uint roleId);
+public override System.Threading.Tasks.Task RemoveRoleAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, uint role);
 ```
 
 ### Remarks
   
-Removes the specified role from the given member.  
-  
-If they don't hold the specified role, then nothing happens.
+If they don't hold the [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint).md#Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.RemoveRoleAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,uint).serverId'></a>
+<a name='Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The server to modify member in
+The server to modify [member](Member.md 'Guilded.Base.Servers.Member') in
 
-<a name='Guilded.NET.AbstractGuildedClient.RemoveRoleAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,uint).memberId'></a>
+<a name='Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).member'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`member` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The identifier of the losing user
+The identifier of [the losing member](Member.md 'Guilded.Base.Servers.Member')
 
-<a name='Guilded.NET.AbstractGuildedClient.RemoveRoleAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,uint).roleId'></a>
+<a name='Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role'></a>
 
-`roleId` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
+`role` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the role to remove
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

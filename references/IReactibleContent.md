@@ -7,32 +7,22 @@ tags:
   - interface
 description: "
 
-The content that can be reacted on.
-
-```csharp
-public interface IReactibleContent
-```"
+Represents the content that can be reacted on."
 ---
 
 ## IReactibleContent Interface
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Content`](Guilded.NET.Base.Content 'Guilded.NET.Base.Content')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content.md 'Guilded.Base.Content')
 
-The content that can be reacted on.
+Represents the content that can be reacted on.
 
 ```csharp
 public interface IReactibleContent
 ```
 
 Derived  
-&#8627; [Doc](Doc 'Guilded.NET.Base.Content.Doc')  
-&#8627; [ForumThread](ForumThread 'Guilded.NET.Base.Content.ForumThread')  
-&#8627; [Message](Message 'Guilded.NET.Base.Content.Message')
-
-### Remarks
-  
-The content that can have reactions.
+&#8627; [Message](Message.md 'Guilded.Base.Content.Message')  
+&#8627; [TitledContent](TitledContent.md 'Guilded.Base.Content.TitledContent')
 
 | Methods | |
 | :--- | :--- |
-| [AddReactionAsync(uint)](IReactibleContent.AddReactionAsync(uint) 'Guilded.NET.Base.Content.IReactibleContent.AddReactionAsync(uint)') | Adds a reaction to the content. |
-| [RemoveReactionAsync(uint)](IReactibleContent.RemoveReactionAsync(uint) 'Guilded.NET.Base.Content.IReactibleContent.RemoveReactionAsync(uint)') | Removes a reaction from the content. |
+| [AddReactionAsync(uint)](IReactibleContent.AddReactionAsync(uint).md 'Guilded.Base.Content.IReactibleContent.AddReactionAsync(uint)') | Adds a emote to the content in a channel. |

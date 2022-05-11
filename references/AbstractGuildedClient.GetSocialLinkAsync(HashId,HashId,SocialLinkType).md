@@ -7,55 +7,49 @@ tags:
   - method
 description: "
 
-Gets the specified user's social links.
-
-```csharp
-public override System.Threading.Tasks.Task<Guilded.NET.Base.Users.SocialLink> GetSocialLinkAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, Guilded.NET.Base.Users.SocialLinkType linkType);
-```"
+Gets the specified [member](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType).md#Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).member 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType).member') social link based on given [linkType](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType).md#Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).linkType 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType).linkType')."
 ---
 
 ## AbstractGuildedClient.GetSocialLinkAsync(HashId, HashId, SocialLinkType) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Gets the specified user's social links.
+Gets the specified [member](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType).md#Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).member 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType).member') social link based on given [linkType](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType).md#Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).linkType 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType).linkType').
 
 ```csharp
-public override System.Threading.Tasks.Task<Guilded.NET.Base.Users.SocialLink> GetSocialLinkAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, Guilded.NET.Base.Users.SocialLinkType linkType);
+public override System.Threading.Tasks.Task<Guilded.Base.Users.SocialLink> GetSocialLinkAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, Guilded.Base.Users.SocialLinkType linkType);
 ```
 
 ### Remarks
   
-Gets the specified user's social link based on given [linkType](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType)#Guilded.NET.AbstractGuildedClient.GetSocialLinkAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,Guilded.NET.Base.Users.SocialLinkType).linkType 'Guilded.NET.AbstractGuildedClient.GetSocialLinkAsync(Guilded.NET.Base.HashId, Guilded.NET.Base.HashId, Guilded.NET.Base.Users.SocialLinkType).linkType').  
-  
-This does not require any permissions to be given, as it is not team-based.
+This does not require any permissions to be given.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.GetSocialLinkAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,Guilded.NET.Base.Users.SocialLinkType).serverId'></a>
+<a name='Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The server where to fetch user's information
 
-<a name='Guilded.NET.AbstractGuildedClient.GetSocialLinkAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,Guilded.NET.Base.Users.SocialLinkType).memberId'></a>
+<a name='Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).member'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`member` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The identifier of the user
+The identifier of [user](User.md 'Guilded.Base.Users.User')
 
-<a name='Guilded.NET.AbstractGuildedClient.GetSocialLinkAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,Guilded.NET.Base.Users.SocialLinkType).linkType'></a>
+<a name='Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).linkType'></a>
 
-`linkType` [SocialLinkType](SocialLinkType 'Guilded.NET.Base.Users.SocialLinkType')
+`linkType` [SocialLinkType](SocialLinkType.md 'Guilded.Base.Users.SocialLinkType')
 
 The social link to get
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[SocialLink](SocialLink 'Guilded.NET.Base.Users.SocialLink')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-User's social link
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[SocialLink](SocialLink.md 'Guilded.Base.Users.SocialLink')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[Social Link](SocialLink.md 'Guilded.Base.Users.SocialLink')

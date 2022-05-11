@@ -7,15 +7,11 @@ tags:
   - property
 description: "
 
-The message received from the event.
-
-```csharp
-public T Message { get; }
-```"
+The message received from the event."
 ---
 
 ## MessageEvent<T>.Message Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageEvent<T>`](MessageEvent_T_ 'Guilded.NET.Base.Events.MessageEvent<T>')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent<T>`](MessageEvent_T_.md 'Guilded.Base.Events.MessageEvent<T>')
 
 The message received from the event.
 
@@ -24,5 +20,5 @@ public T Message { get; }
 ```
 
 #### Property Value
-[T](MessageEvent_T_#Guilded.NET.Base.Events.MessageEvent_T_.T 'Guilded.NET.Base.Events.MessageEvent<T>.T')  
+[T](MessageEvent_T_.md#Guilded.Base.Events.MessageEvent_T_.T 'Guilded.Base.Events.MessageEvent<T>.T')  
 Message

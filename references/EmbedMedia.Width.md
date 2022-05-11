@@ -7,15 +7,11 @@ tags:
   - property
 description: "
 
-The width of the image/video.
-
-```csharp
-public System.Nullable<uint> Width { get; set; }
-```"
+The width of the image/video."
 ---
 
 ## EmbedMedia.Width Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')
 
 The width of the image/video.
 

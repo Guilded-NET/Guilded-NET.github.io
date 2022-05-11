@@ -7,25 +7,19 @@ tags:
   - property
 description: "
 
-The URL to author's icon.
-
-```csharp
-public System.Uri? IconUrl { get; set; }
-```"
+Gets the URL to author's icon."
 ---
 
 ## EmbedAuthor.IconUrl Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
 
-The URL to author's icon.
+Gets the URL to author's icon.
 
 ```csharp
-public System.Uri? IconUrl { get; set; }
+public Uri? IconUrl { get; set; }
 ```
 
 ### Remarks
-  
-The icon displayed at the left side of author's name.  
   
 Used to display the icon of the content's author.
 

@@ -7,40 +7,32 @@ tags:
   - method
 description: "
 
-Updates the member's nickname.
-
-```csharp
-public override System.Threading.Tasks.Task<string> UpdateNicknameAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, string nickname);
-```"
+Changes [the nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string).md#Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member')."
 ---
 
 ## AbstractGuildedClient.UpdateNicknameAsync(HashId, HashId, string) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Updates the member's nickname.
+Changes [the nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string).md#Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
 
 ```csharp
-public override System.Threading.Tasks.Task<string> UpdateNicknameAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, string nickname);
+public override System.Threading.Tasks.Task<string> UpdateNicknameAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, string nickname);
 ```
-
-### Remarks
-  
-Changes the specified member's nickname. New nickname will be set as [nickname](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string)#Guilded.NET.AbstractGuildedClient.UpdateNicknameAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,string).nickname 'Guilded.NET.AbstractGuildedClient.UpdateNicknameAsync(Guilded.NET.Base.HashId, Guilded.NET.Base.HashId, string).nickname') parameter.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.UpdateNicknameAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,string).serverId'></a>
+<a name='Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The server to modify member in
 
-<a name='Guilded.NET.AbstractGuildedClient.UpdateNicknameAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,string).memberId'></a>
+<a name='Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`member` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The identifier of the member to update
 
-<a name='Guilded.NET.AbstractGuildedClient.UpdateNicknameAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,string).nickname'></a>
+<a name='Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).nickname'></a>
 
 `nickname` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
@@ -48,16 +40,16 @@ The new nickname of the member
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Nickname
+Updated [nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname')

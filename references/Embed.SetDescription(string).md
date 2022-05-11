@@ -7,37 +7,33 @@ tags:
   - method
 description: "
 
-Sets the description as the given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetDescription(string description);
-```"
+Sets the [description](Embed.Description.md 'Guilded.Base.Embeds.Embed.Description') as the given [content](Embed.SetDescription(string).md#Guilded.Base.Embeds.Embed.SetDescription(string).content 'Guilded.Base.Embeds.Embed.SetDescription(string).content')."
 ---
 
 ## Embed.SetDescription(string) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the description as the given parameter.
+Sets the [description](Embed.Description.md 'Guilded.Base.Embeds.Embed.Description') as the given [content](Embed.SetDescription(string).md#Guilded.Base.Embeds.Embed.SetDescription(string).content 'Guilded.Base.Embeds.Embed.SetDescription(string).content').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetDescription(string description);
+public Guilded.Base.Embeds.Embed SetDescription(string content);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetDescription(string).description'></a>
+<a name='Guilded.Base.Embeds.Embed.SetDescription(string).content'></a>
 
-`description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+`content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-Embed's description
+The text contents of the [embed's](Embed.md 'Guilded.Base.Embeds.Embed') description
 
 #### Exceptions
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-[description](Embed.SetDescription(string)#Guilded.NET.Base.Embeds.Embed.SetDescription(string).description 'Guilded.NET.Base.Embeds.Embed.SetDescription(string).description') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
+[content](Embed.SetDescription(string).md#Guilded.Base.Embeds.Embed.SetDescription(string).content 'Guilded.Base.Embeds.Embed.SetDescription(string).content') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
 
 [System.OverflowException](https://docs.microsoft.com/en-us/dotnet/api/System.OverflowException 'System.OverflowException')  
-[description](Embed.SetDescription(string)#Guilded.NET.Base.Embeds.Embed.SetDescription(string).description 'Guilded.NET.Base.Embeds.Embed.SetDescription(string).description') exceeds 4000 character limit
+[content](Embed.SetDescription(string).md#Guilded.Base.Embeds.Embed.SetDescription(string).content 'Guilded.Base.Embeds.Embed.SetDescription(string).content') exceeds 4000 character limit
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

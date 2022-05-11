@@ -7,17 +7,13 @@ tags:
   - field
 description: "
 
-The URL to Guilded's media services.
-
-```csharp
-public static readonly Uri Media;
-```"
+The base URL for Guilded's media API."
 ---
 
 ## GuildedUrl.Media Field
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.NET.Base.GuildedUrl')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl.md 'Guilded.Base.GuildedUrl')
 
-The URL to Guilded's media services.
+The base URL for Guilded's media API.
 
 ```csharp
 public static readonly Uri Media;
@@ -25,4 +21,4 @@ public static readonly Uri Media;
 
 ### Remarks
   
-Provides the URL to Guilded's media services that allow image & video uploads, as well as webhook-related functions.
+Can be used for executing webhooks.

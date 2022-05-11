@@ -7,29 +7,25 @@ tags:
   - method
 description: "
 
-Sets the author as the given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetAuthor(Guilded.NET.Base.Embeds.EmbedAuthor author);
-```"
+Sets the [author](Embed.Author.md 'Guilded.Base.Embeds.Embed.Author') as the given [value](Embed.SetAuthor(EmbedAuthor).md#Guilded.Base.Embeds.Embed.SetAuthor(Guilded.Base.Embeds.EmbedAuthor).value 'Guilded.Base.Embeds.Embed.SetAuthor(Guilded.Base.Embeds.EmbedAuthor).value')."
 ---
 
 ## Embed.SetAuthor(EmbedAuthor) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the author as the given parameter.
+Sets the [author](Embed.Author.md 'Guilded.Base.Embeds.Embed.Author') as the given [value](Embed.SetAuthor(EmbedAuthor).md#Guilded.Base.Embeds.Embed.SetAuthor(Guilded.Base.Embeds.EmbedAuthor).value 'Guilded.Base.Embeds.Embed.SetAuthor(Guilded.Base.Embeds.EmbedAuthor).value').
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetAuthor(Guilded.NET.Base.Embeds.EmbedAuthor author);
+public Guilded.Base.Embeds.Embed SetAuthor(Guilded.Base.Embeds.EmbedAuthor value);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetAuthor(Guilded.NET.Base.Embeds.EmbedAuthor).author'></a>
+<a name='Guilded.Base.Embeds.Embed.SetAuthor(Guilded.Base.Embeds.EmbedAuthor).value'></a>
 
-`author` [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
+`value` [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
 
-Author to be set to
+The author of the content that [embed](Embed.md 'Guilded.Base.Embeds.Embed') represents
 
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

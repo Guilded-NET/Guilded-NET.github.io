@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates default settings for [BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')'s child types with [Api](GuildedUrl.Api 'Guilded.NET.Base.GuildedUrl.Api') as URL.
-
-```csharp
-protected BaseGuildedClient();
-```"
+Creates default settings for [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')'s child types with [Api](GuildedUrl.Api.md 'Guilded.Base.GuildedUrl.Api') as URL."
 ---
 
 ## BaseGuildedClient() Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Creates default settings for [BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')'s child types with [Api](GuildedUrl.Api 'Guilded.NET.Base.GuildedUrl.Api') as URL.
+Creates default settings for [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')'s child types with [Api](GuildedUrl.Api.md 'Guilded.Base.GuildedUrl.Api') as URL.
 
 ```csharp
 protected BaseGuildedClient();
@@ -27,4 +23,4 @@ protected BaseGuildedClient();
   
 Inititates REST client and serializer settings.  
   
-The [Api](GuildedUrl.Api 'Guilded.NET.Base.GuildedUrl.Api') property and [Websocket](GuildedUrl.Websocket 'Guilded.NET.Base.GuildedUrl.Websocket') property URLs will be used by default.
+The [Api](GuildedUrl.Api.md 'Guilded.Base.GuildedUrl.Api') property and [Websocket](GuildedUrl.Websocket.md 'Guilded.Base.GuildedUrl.Websocket') property URLs will be used by default.

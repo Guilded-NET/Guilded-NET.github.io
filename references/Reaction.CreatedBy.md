@@ -7,28 +7,22 @@ tags:
   - property
 description: "
 
-The identifier of the user creator of the reaction.
-
-```csharp
-public Guilded.NET.Base.HashId CreatedBy { get; }
-```"
+Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that created the reaction."
 ---
 
 ## Reaction.CreatedBy Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.NET.Base.Content.Reaction')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction.md 'Guilded.Base.Content.Reaction')
 
-The identifier of the user creator of the reaction.
+Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that created the reaction.
 
 ```csharp
-public Guilded.NET.Base.HashId CreatedBy { get; }
+public Guilded.Base.HashId CreatedBy { get; }
 ```
 
 ### Remarks
   
-The identifier of the user that created this reaction.  
-  
-If webhook or bot created this reaction, the value of this property will be `Ann6LewA`.
+If [a webhook](Webhook.md 'Guilded.Base.Servers.Webhook') created this reaction, the value of this property will be `Ann6LewA`.
 
 #### Property Value
-[HashId](HashId 'Guilded.NET.Base.HashId')  
+[HashId](HashId.md 'Guilded.Base.HashId')  
 User ID

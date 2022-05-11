@@ -7,26 +7,18 @@ tags:
   - property
 description: "
 
-The identifier of the server where member was updated.
-
-```csharp
-public Guilded.NET.Base.HashId ServerId { get; }
-```"
+The identifier of the server where the [member](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated."
 ---
 
 ## MemberUpdatedEvent.ServerId Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.NET.Base.Events.MemberUpdatedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')
 
-The identifier of the server where member was updated.
+The identifier of the server where the [member](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated.
 
 ```csharp
-public Guilded.NET.Base.HashId ServerId { get; }
+public Guilded.Base.HashId ServerId { get; }
 ```
 
-### Remarks
-  
-The identifier of the server where the member was given a new nickname, lost a nickname or any other update occurred.
-
 #### Property Value
-[HashId](HashId 'Guilded.NET.Base.HashId')  
+[HashId](HashId.md 'Guilded.Base.HashId')  
 Server ID

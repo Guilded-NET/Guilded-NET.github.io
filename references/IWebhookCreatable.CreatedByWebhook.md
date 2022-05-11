@@ -7,25 +7,19 @@ tags:
   - property
 description: "
 
-The identifier of the webhook creator of the content.
-
-```csharp
-System.Nullable<System.Guid> CreatedByWebhook { get; }
-```"
+Gets the identifier of the webhook creator of the content."
 ---
 
 ## IWebhookCreatable.CreatedByWebhook Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`IWebhookCreatable`](IWebhookCreatable 'Guilded.NET.Base.Content.IWebhookCreatable')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IWebhookCreatable`](IWebhookCreatable.md 'Guilded.Base.Content.IWebhookCreatable')
 
-The identifier of the webhook creator of the content.
+Gets the identifier of the webhook creator of the content.
 
 ```csharp
-System.Nullable<System.Guid> CreatedByWebhook { get; }
+System.Nullable<Guid> CreatedByWebhook { get; }
 ```
 
 ### Remarks
-  
-The identifier of the webhook that created this content.  
 > **Note:**    
 > Currently, only chat messages can be created by Webhooks.
 

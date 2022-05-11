@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Notifies observers with OnError.
-
-```csharp
-void OnError(System.Exception exception);
-```"
+Notifies observers with OnError."
 ---
 
 ## IEventInfo<T>.OnError(Exception) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_ 'Guilded.NET.IEventInfo<T>')
+###### **Assembly:** `Guilded`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_.md 'Guilded.IEventInfo<T>')
 
 Notifies observers with OnError.
 
@@ -25,10 +21,10 @@ void OnError(System.Exception exception);
 
 ### Remarks
   
-Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.NET.IEventInfo<T>.Observable')'s observers with an error.
+Notifies all [Observable](IEventInfo_T_.Observable.md 'Guilded.IEventInfo<T>.Observable')'s observers with an error.
 #### Parameters
 
-<a name='Guilded.NET.IEventInfo_T_.OnError(System.Exception).exception'></a>
+<a name='Guilded.IEventInfo_T_.OnError(System.Exception).exception'></a>
 
 `exception` [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception')
 

@@ -7,17 +7,13 @@ tags:
   - field
 description: "
 
-The URL to Guilded's API.
-
-```csharp
-public static readonly Uri Api;
-```"
+The base URL for Guilded's API requests."
 ---
 
 ## GuildedUrl.Api Field
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.NET.Base.GuildedUrl')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl.md 'Guilded.Base.GuildedUrl')
 
-The URL to Guilded's API.
+The base URL for Guilded's API requests.
 
 ```csharp
 public static readonly Uri Api;

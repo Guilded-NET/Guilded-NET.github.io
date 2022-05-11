@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Returns whether the converter supports converting the given type.
-
-```csharp
-public override bool CanConvert(System.Type objectType);
-```"
+Returns whether the converter supports converting the given type."
 ---
 
 ## IdConverter.CanConvert(Type) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`IdConverter`](IdConverter 'Guilded.NET.Base.IdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter.md 'Guilded.Base.IdConverter')
 
 Returns whether the converter supports converting the given type.
 
@@ -24,7 +20,7 @@ public override bool CanConvert(System.Type objectType);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.IdConverter.CanConvert(System.Type).objectType'></a>
+<a name='Guilded.Base.IdConverter.CanConvert(System.Type).objectType'></a>
 
 `objectType` [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type')
 

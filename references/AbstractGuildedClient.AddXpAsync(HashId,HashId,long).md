@@ -7,54 +7,46 @@ tags:
   - method
 description: "
 
-Adds XP to the user.
-
-```csharp
-public override System.Threading.Tasks.Task<long> AddXpAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, long amount);
-```"
+Gives [amount](AbstractGuildedClient.AddXpAsync(HashId,HashId,long).md#Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).amount 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long).amount') to the specified [member](AbstractGuildedClient.AddXpAsync(HashId,HashId,long).md#Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).member 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long).member')."
 ---
 
 ## AbstractGuildedClient.AddXpAsync(HashId, HashId, long) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Adds XP to the user.
+Gives [amount](AbstractGuildedClient.AddXpAsync(HashId,HashId,long).md#Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).amount 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long).amount') to the specified [member](AbstractGuildedClient.AddXpAsync(HashId,HashId,long).md#Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).member 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long).member').
 
 ```csharp
-public override System.Threading.Tasks.Task<long> AddXpAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId, long amount);
+public override System.Threading.Tasks.Task<long> AddXpAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, long amount);
 ```
-
-### Remarks
-  
-Gives the specified [amount](AbstractGuildedClient.AddXpAsync(HashId,HashId,long)#Guilded.NET.AbstractGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,long).amount 'Guilded.NET.AbstractGuildedClient.AddXpAsync(Guilded.NET.Base.HashId, Guilded.NET.Base.HashId, long).amount') of XP to the member.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,long).serverId'></a>
+<a name='Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The server to modify member in
+The server to modify [member](Member.md 'Guilded.Base.Servers.Member') in
 
-<a name='Guilded.NET.AbstractGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,long).memberId'></a>
+<a name='Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).member'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`member` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The identifier of the receiving member
+The identifier of [the receiving member](Member.md 'Guilded.Base.Servers.Member')
 
-<a name='Guilded.NET.AbstractGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId,long).amount'></a>
+<a name='Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).amount'></a>
 
 `amount` [System.Int64](https://docs.microsoft.com/en-us/dotnet/api/System.Int64 'System.Int64')
 
-The amount of XP received
+The amount of XP received (values — `[-1000, 1000]`)
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 [System.ArgumentOutOfRangeException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentOutOfRangeException 'System.ArgumentOutOfRangeException')  
 When the amount of XP given exceeds the limit

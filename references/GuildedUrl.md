@@ -7,15 +7,11 @@ tags:
   - class
 description: "
 
-Defines a list of URLs to Guilded services.
-
-```csharp
-public static class GuildedUrl
-```"
+Defines a list of URLs to Guilded services."
 ---
 
 ## GuildedUrl Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base`](Guilded.NET.Base 'Guilded.NET.Base')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base.md 'Guilded.Base')
 
 Defines a list of URLs to Guilded services.
 
@@ -27,9 +23,9 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Api](GuildedUrl.Api 'Guilded.NET.Base.GuildedUrl.Api') | The URL to Guilded's API. |
-| [ImageCdn](GuildedUrl.ImageCdn 'Guilded.NET.Base.GuildedUrl.ImageCdn') | The URL to Guilded's image CDN. |
-| [Media](GuildedUrl.Media 'Guilded.NET.Base.GuildedUrl.Media') | The URL to Guilded's media services. |
-| [MediaFileUpload](GuildedUrl.MediaFileUpload 'Guilded.NET.Base.GuildedUrl.MediaFileUpload') | The URL to upload Guilded's media. |
-| [MediaUrlUpload](GuildedUrl.MediaUrlUpload 'Guilded.NET.Base.GuildedUrl.MediaUrlUpload') | The URL to upload Guilded's media. |
-| [Websocket](GuildedUrl.Websocket 'Guilded.NET.Base.GuildedUrl.Websocket') | The URL to Guilded's websocket. |
+| [Api](GuildedUrl.Api.md 'Guilded.Base.GuildedUrl.Api') | The base URL for Guilded's API requests. |
+| [ImageCdn](GuildedUrl.ImageCdn.md 'Guilded.Base.GuildedUrl.ImageCdn') | The URL to Guilded's image CDN. |
+| [Media](GuildedUrl.Media.md 'Guilded.Base.GuildedUrl.Media') | The base URL for Guilded's media API. |
+| [MediaFileUpload](GuildedUrl.MediaFileUpload.md 'Guilded.Base.GuildedUrl.MediaFileUpload') | The URL for to upload Guilded's media from files. |
+| [MediaUrlUpload](GuildedUrl.MediaUrlUpload.md 'Guilded.Base.GuildedUrl.MediaUrlUpload') | The URL to upload Guilded's media from URLs. |
+| [Websocket](GuildedUrl.Websocket.md 'Guilded.Base.GuildedUrl.Websocket') | The URL to Guilded's WebSockets. |

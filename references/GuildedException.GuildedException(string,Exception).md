@@ -7,30 +7,26 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') with inner exception explaining more.
-
-```csharp
-public GuildedException(string message, System.Exception inner);
-```"
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with an [inner](GuildedException.GuildedException(string,Exception).md#Guilded.Base.GuildedException.GuildedException(string,System.Exception).inner 'Guilded.Base.GuildedException.GuildedException(string, System.Exception).inner') explaining more."
 ---
 
 ## GuildedException(string, Exception) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') with inner exception explaining more.
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with an [inner](GuildedException.GuildedException(string,Exception).md#Guilded.Base.GuildedException.GuildedException(string,System.Exception).inner 'Guilded.Base.GuildedException.GuildedException(string, System.Exception).inner') explaining more.
 
 ```csharp
 public GuildedException(string message, System.Exception inner);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedException.GuildedException(string,System.Exception).message'></a>
+<a name='Guilded.Base.GuildedException.GuildedException(string,System.Exception).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedException.GuildedException(string,System.Exception).inner'></a>
+<a name='Guilded.Base.GuildedException.GuildedException(string,System.Exception).inner'></a>
 
 `inner` [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception')
 

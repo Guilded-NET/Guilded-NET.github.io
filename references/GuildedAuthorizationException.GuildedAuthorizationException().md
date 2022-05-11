@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with default message.
-
-```csharp
-public GuildedAuthorizationException();
-```"
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with a [default message](https://docs.microsoft.com/en-us/dotnet/api/System.Exception.Message 'System.Exception.Message')."
 ---
 
 ## GuildedAuthorizationException() Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with default message.
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with a [default message](https://docs.microsoft.com/en-us/dotnet/api/System.Exception.Message 'System.Exception.Message').
 
 ```csharp
 public GuildedAuthorizationException();
@@ -25,5 +21,8 @@ public GuildedAuthorizationException();
 
 ### Remarks
   
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with default message:  
-> Invalid. Provided authentication token is invalid or expired.
+The message will be rendered as:  
+  
+```csharp  
+Invalid. Provided authentication token is invalid or expired.  
+```

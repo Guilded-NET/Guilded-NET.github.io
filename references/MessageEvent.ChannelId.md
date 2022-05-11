@@ -7,27 +7,17 @@ tags:
   - property
 description: "
 
-The identifier of the channel where the content is.
-
-```csharp
-public System.Guid ChannelId { get; }
-```"
+Gets the identifier of the channel where the content is."
 ---
 
 ## MessageEvent.ChannelId Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.NET.Base.Events.MessageEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent.md 'Guilded.Base.Events.MessageEvent')
 
-The identifier of the channel where the content is.
+Gets the identifier of the channel where the content is.
 
 ```csharp
-public System.Guid ChannelId { get; }
+public Guid ChannelId { get; }
 ```
-
-### Remarks
-  
-The identifier of channel where the content was found.  
-  
-This channel can be of any type and there is no identifying channel type as of now.
 
 #### Property Value
 [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')  

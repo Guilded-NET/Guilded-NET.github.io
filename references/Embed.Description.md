@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The description text of the embed.
-
-```csharp
-public string? Description { get; set; }
-```"
+The description text of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Description Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-The description text of the embed.
+The description text of the [embed](Embed.md 'Guilded.Base.Embeds.Embed').
 
 ```csharp
 public string? Description { get; set; }
@@ -25,10 +21,8 @@ public string? Description { get; set; }
 
 ### Remarks
   
-A piece of text that appears in the middle of the embed.  
-  
-This can have formatting using Markdown.
+The contents are formatted in Markdown.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-Description?
+Markdown string?

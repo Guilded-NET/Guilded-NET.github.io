@@ -7,25 +7,17 @@ tags:
   - property
 description: "
 
-Gets the last XP receiving user.
-
-```csharp
-public Guilded.NET.Base.HashId LastUser { get; }
-```"
+Gets the last XP receiving [user](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users')."
 ---
 
 ## XpAddedEvent.LastUser Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent.md 'Guilded.Base.Events.XpAddedEvent')
 
-Gets the last XP receiving user.
+Gets the last XP receiving [user](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users').
 
 ```csharp
-public Guilded.NET.Base.HashId LastUser { get; }
+public Guilded.Base.HashId LastUser { get; }
 ```
 
-### Remarks
-  
-Gets the last user in [Users](XpAddedEvent.Users 'Guilded.NET.Base.Events.XpAddedEvent.Users') set.
-
 #### Property Value
-[HashId](HashId 'Guilded.NET.Base.HashId')
+[HashId](HashId.md 'Guilded.Base.HashId')

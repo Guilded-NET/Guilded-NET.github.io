@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new [GuildedBotClient](GuildedBotClient 'Guilded.NET.GuildedBotClient') instance with given [auth](GuildedBotClient.GuildedBotClient(string)#Guilded.NET.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.NET.GuildedBotClient.GuildedBotClient(string).auth').
-
-```csharp
-public GuildedBotClient(string auth);
-```"
+Creates a new [GuildedBotClient](GuildedBotClient.md 'Guilded.GuildedBotClient') instance with given [auth](GuildedBotClient.GuildedBotClient(string).md#Guilded.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.GuildedBotClient.GuildedBotClient(string).auth')."
 ---
 
 ## GuildedBotClient(string) Constructor
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.NET.GuildedBotClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient.md 'Guilded.GuildedBotClient')
 
-Creates a new [GuildedBotClient](GuildedBotClient 'Guilded.NET.GuildedBotClient') instance with given [auth](GuildedBotClient.GuildedBotClient(string)#Guilded.NET.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.NET.GuildedBotClient.GuildedBotClient(string).auth').
+Creates a new [GuildedBotClient](GuildedBotClient.md 'Guilded.GuildedBotClient') instance with given [auth](GuildedBotClient.GuildedBotClient(string).md#Guilded.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.GuildedBotClient.GuildedBotClient(string).auth').
 
 ```csharp
 public GuildedBotClient(string auth);
@@ -27,12 +23,12 @@ public GuildedBotClient(string auth);
   
 This creates a new client and only initiates it. It does not connect to Guilded.  
   
-If you want to connect, set [AuthToken](GuildedBotClient.AuthToken 'Guilded.NET.GuildedBotClient.AuthToken') and then use [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.NET.GuildedBotClient.ConnectAsync()').  
+If you want to connect, set [AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken') and then use [ConnectAsync()](GuildedBotClient.ConnectAsync().md 'Guilded.GuildedBotClient.ConnectAsync()').  
   
-You can also use [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.NET.GuildedBotClient.ConnectAsync(string)'), which doesn't require [AuthToken](GuildedBotClient.AuthToken 'Guilded.NET.GuildedBotClient.AuthToken') set.
+You can also use [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string).md 'Guilded.GuildedBotClient.ConnectAsync(string)'), which doesn't require [AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken') set.
 #### Parameters
 
-<a name='Guilded.NET.GuildedBotClient.GuildedBotClient(string).auth'></a>
+<a name='Guilded.GuildedBotClient.GuildedBotClient(string).auth'></a>
 
 `auth` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
@@ -41,4 +37,9 @@ Authentication token used to log into the bot in Guilded
 #### Exceptions
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When passed argument [auth](GuildedBotClient.GuildedBotClient(string)#Guilded.NET.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.NET.GuildedBotClient.GuildedBotClient(string).auth') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
+When passed argument [auth](GuildedBotClient.GuildedBotClient(string).md#Guilded.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.GuildedBotClient.GuildedBotClient(string).auth') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
+
+### See Also
+- [GuildedBotClient](GuildedBotClient.md 'Guilded.GuildedBotClient')
+- [GuildedBotClient()](GuildedBotClient.GuildedBotClient().md 'Guilded.GuildedBotClient.GuildedBotClient()')
+- [AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken')

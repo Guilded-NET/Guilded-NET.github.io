@@ -7,40 +7,32 @@ tags:
   - class
 description: "
 
-An event that occurs once XP is given to a set of users.
-
-```csharp
-public class XpAddedEvent : Guilded.NET.Base.BaseObject
-```"
+Represents an event with the name `TeamXpAdded` and opcode `0` that occurs once [Amount](XpAddedEvent.Amount.md 'Guilded.Base.Events.XpAddedEvent.Amount') XP is given to [Users](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users'). This can be given to a couple users, instead of it being restricted to one user."
 ---
 
 ## XpAddedEvent Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Events`](Guilded.NET.Base.Events 'Guilded.NET.Base.Events')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events.md 'Guilded.Base.Events')
 
-An event that occurs once XP is given to a set of users.
+Represents an event with the name `TeamXpAdded` and opcode `0` that occurs once [Amount](XpAddedEvent.Amount.md 'Guilded.Base.Events.XpAddedEvent.Amount') XP is given to [Users](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users'). This can be given to a couple users, instead of it being restricted to one user.
 
 ```csharp
-public class XpAddedEvent : Guilded.NET.Base.BaseObject
+public class XpAddedEvent : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; XpAddedEvent
-
-### Remarks
-  
-An event of the name `TeamXpAdded` and opcode `0` that occurs once [Amount](XpAddedEvent.Amount 'Guilded.NET.Base.Events.XpAddedEvent.Amount') XP is given to [Users](XpAddedEvent.Users 'Guilded.NET.Base.Events.XpAddedEvent.Users'). This can be given to a couple users, instead of it being restricted to one user. [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent') can only occur in teams and tournaments.
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; XpAddedEvent
 
 | Constructors | |
 | :--- | :--- |
-| [XpAddedEvent(ISet&lt;HashId&gt;, long)](XpAddedEvent.XpAddedEvent(ISet_HashId_,long) 'Guilded.NET.Base.Events.XpAddedEvent.XpAddedEvent(System.Collections.Generic.ISet<Guilded.NET.Base.HashId>, long)') | Creates a new instance of [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent'). This is currently only used in deserialization. |
+| [XpAddedEvent(IList&lt;HashId&gt;, long)](XpAddedEvent.XpAddedEvent(IList_HashId_,long).md 'Guilded.Base.Events.XpAddedEvent.XpAddedEvent(System.Collections.Generic.IList<Guilded.Base.HashId>, long)') | Initializes a new instance of [XpAddedEvent](XpAddedEvent.md 'Guilded.Base.Events.XpAddedEvent') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [Amount](XpAddedEvent.Amount 'Guilded.NET.Base.Events.XpAddedEvent.Amount') | The amount of XP given to the users. |
-| [FirstUser](XpAddedEvent.FirstUser 'Guilded.NET.Base.Events.XpAddedEvent.FirstUser') | Gets the first XP receiving user. |
-| [LastUser](XpAddedEvent.LastUser 'Guilded.NET.Base.Events.XpAddedEvent.LastUser') | Gets the last XP receiving user. |
-| [Users](XpAddedEvent.Users 'Guilded.NET.Base.Events.XpAddedEvent.Users') | The identifiers of users who received XP. |
+| [Amount](XpAddedEvent.Amount.md 'Guilded.Base.Events.XpAddedEvent.Amount') | Gets the amount of XP given to the [users](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users'). |
+| [FirstUser](XpAddedEvent.FirstUser.md 'Guilded.Base.Events.XpAddedEvent.FirstUser') | Gets the first XP receiving [user](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users'). |
+| [LastUser](XpAddedEvent.LastUser.md 'Guilded.Base.Events.XpAddedEvent.LastUser') | Gets the last XP receiving [user](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users'). |
+| [Users](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users') | Gets the identifiers of the users who received [XP](XpAddedEvent.Amount.md 'Guilded.Base.Events.XpAddedEvent.Amount'). |
 
 ### See Also
-- [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
-- [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')
-- [Member](Member 'Guilded.NET.Base.Servers.Member')
+- [WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
+- [RolesUpdatedEvent](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')
+- [Member](Member.md 'Guilded.Base.Servers.Member')

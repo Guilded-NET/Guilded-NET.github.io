@@ -7,72 +7,68 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Doc](Doc 'Guilded.NET.Base.Content.Doc') with provided details.
-
-```csharp
-public Doc(uint id, System.Guid channelId, Guilded.NET.Base.HashId serverId, string title, string content, Guilded.NET.Base.HashId createdBy, System.DateTime createdAt, System.Nullable<Guilded.NET.Base.HashId> updatedBy, System.Nullable<System.DateTime> updatedAt);
-```"
+Initializes a new instance of [Doc](Doc.md 'Guilded.Base.Content.Doc') from the specified JSON properties."
 ---
 
 ## Doc(uint, Guid, HashId, string, string, HashId, DateTime, Nullable<HashId>, Nullable<DateTime>) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.NET.Base.Content.Doc')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc.md 'Guilded.Base.Content.Doc')
 
-Creates a new instance of [Doc](Doc 'Guilded.NET.Base.Content.Doc') with provided details.
+Initializes a new instance of [Doc](Doc.md 'Guilded.Base.Content.Doc') from the specified JSON properties.
 
 ```csharp
-public Doc(uint id, System.Guid channelId, Guilded.NET.Base.HashId serverId, string title, string content, Guilded.NET.Base.HashId createdBy, System.DateTime createdAt, System.Nullable<Guilded.NET.Base.HashId> updatedBy, System.Nullable<System.DateTime> updatedAt);
+public Doc(uint id, Guid channelId, Guilded.Base.HashId serverId, string title, string content, Guilded.Base.HashId createdBy, System.DateTime createdAt, System.Nullable<Guilded.Base.HashId> updatedBy, System.Nullable<System.DateTime> updatedAt);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).id'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).id'></a>
 
 `id` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
-The identifier of the content
+The identifier of the document
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).channelId'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).channelId'></a>
 
 `channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
 The identifier of the channel where the document is
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).serverId'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).serverId'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`serverId` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The identifier of the server where the document is
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).title'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).title'></a>
 
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The title of the document
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).content'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).content'></a>
 
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The contents of the document
+The text contents of the document
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).createdBy'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).createdBy'></a>
 
-`createdBy` [HashId](HashId 'Guilded.NET.Base.HashId')
+`createdBy` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The identifier of the user creator of the document
+The identifier of [user](User.md 'Guilded.Base.Users.User') that created the document
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).createdAt'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).createdAt'></a>
 
 `createdAt` [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
 
 The date of when the document was created
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).updatedBy'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).updatedBy'></a>
 
-`updatedBy` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.NET.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
+`updatedBy` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId.md 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of the user who recently updated the document
+The identifier of [user](User.md 'Guilded.Base.Users.User') who recently updated the document
 
-<a name='Guilded.NET.Base.Content.Doc.Doc(uint,System.Guid,Guilded.NET.Base.HashId,string,string,Guilded.NET.Base.HashId,System.DateTime,System.Nullable_Guilded.NET.Base.HashId_,System.Nullable_System.DateTime_).updatedAt'></a>
+<a name='Guilded.Base.Content.Doc.Doc(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_System.DateTime_).updatedAt'></a>
 
 `updatedAt` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 

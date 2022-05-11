@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Serializes object with client's Guilded serializer.
-
-```csharp
-public string Serialize(object obj);
-```"
+Serializes object with client's Guilded serializer."
 ---
 
 ## BaseGuildedClient.Serialize(object) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
 Serializes object with client's Guilded serializer.
 
@@ -25,10 +21,10 @@ public string Serialize(object obj);
 
 ### Remarks
   
-Serializes given object to JSON using [GuildedSerializer](BaseGuildedClient.GuildedSerializer 'Guilded.NET.Base.BaseGuildedClient.GuildedSerializer'). Use this if you want to send REST request or WebSocket message.
+Serializes given object to JSON using [GuildedSerializer](BaseGuildedClient.GuildedSerializer.md 'Guilded.Base.BaseGuildedClient.GuildedSerializer'). Use this if you want to send REST request or WebSocket message.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.Serialize(object).obj'></a>
+<a name='Guilded.Base.BaseGuildedClient.Serialize(object).obj'></a>
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
@@ -39,4 +35,4 @@ The parameter to serialize
 Serialized object
 
 ### See Also
-- [Deserialize&lt;T&gt;(string)](BaseGuildedClient.Deserialize_T_(string) 'Guilded.NET.Base.BaseGuildedClient.Deserialize<T>(string)')
+- [Deserialize&lt;T&gt;(string)](BaseGuildedClient.Deserialize_T_(string).md 'Guilded.Base.BaseGuildedClient.Deserialize<T>(string)')

@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Writes given object as JSON.
-
-```csharp
-public override void WriteJson(Newtonsoft.Json.JsonWriter writer, object? value, Newtonsoft.Json.JsonSerializer serializer);
-```"
+Writes given object as JSON."
 ---
 
 ## HexColorConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HexColorConverter`](HexColorConverter 'Guilded.NET.Base.HexColorConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HexColorConverter`](HexColorConverter.md 'Guilded.Base.HexColorConverter')
 
 Writes given object as JSON.
 
@@ -24,19 +20,19 @@ public override void WriteJson(Newtonsoft.Json.JsonWriter writer, object? value,
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.HexColorConverter.WriteJson(Newtonsoft.Json.JsonWriter,object,Newtonsoft.Json.JsonSerializer).writer'></a>
+<a name='Guilded.Base.HexColorConverter.WriteJson(Newtonsoft.Json.JsonWriter,object,Newtonsoft.Json.JsonSerializer).writer'></a>
 
 `writer` [Newtonsoft.Json.JsonWriter](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonWriter 'Newtonsoft.Json.JsonWriter')
 
 The writer to use to write to JSON
 
-<a name='Guilded.NET.Base.HexColorConverter.WriteJson(Newtonsoft.Json.JsonWriter,object,Newtonsoft.Json.JsonSerializer).value'></a>
+<a name='Guilded.Base.HexColorConverter.WriteJson(Newtonsoft.Json.JsonWriter,object,Newtonsoft.Json.JsonSerializer).value'></a>
 
 `value` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
 The object to write to JSON
 
-<a name='Guilded.NET.Base.HexColorConverter.WriteJson(Newtonsoft.Json.JsonWriter,object,Newtonsoft.Json.JsonSerializer).serializer'></a>
+<a name='Guilded.Base.HexColorConverter.WriteJson(Newtonsoft.Json.JsonWriter,object,Newtonsoft.Json.JsonSerializer).serializer'></a>
 
 `serializer` [Newtonsoft.Json.JsonSerializer](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonSerializer 'Newtonsoft.Json.JsonSerializer')
 

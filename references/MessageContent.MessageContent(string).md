@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-Creates an instance of [MessageContent](MessageContent 'Guilded.NET.Base.Content.MessageContent').
-
-```csharp
-public MessageContent(string? content);
-```"
+Creates an instance of [MessageContent](MessageContent.md 'Guilded.Base.Content.MessageContent')."
 ---
 
 ## MessageContent(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.NET.Base.Content.MessageContent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent.md 'Guilded.Base.Content.MessageContent')
 
-Creates an instance of [MessageContent](MessageContent 'Guilded.NET.Base.Content.MessageContent').
+Creates an instance of [MessageContent](MessageContent.md 'Guilded.Base.Content.MessageContent').
 
 ```csharp
 public MessageContent(string? content);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Content.MessageContent.MessageContent(string).content'></a>
+<a name='Guilded.Base.Content.MessageContent.MessageContent(string).content'></a>
 
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

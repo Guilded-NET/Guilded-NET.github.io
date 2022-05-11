@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The contents of the message.
-
-```csharp
-public string? Content { get; set; }
-```"
+Gets the text contents of the message."
 ---
 
 ## MessageContent.Content Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.NET.Base.Content.MessageContent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent.md 'Guilded.Base.Content.MessageContent')
 
-The contents of the message.
+Gets the text contents of the message.
 
 ```csharp
 public string? Content { get; set; }
@@ -25,7 +21,7 @@ public string? Content { get; set; }
 
 ### Remarks
   
-The contents of the message in Markdown format.
+The contents are formatted in Markdown. This includes images and videos, which are in the format of `![](source_url)`.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

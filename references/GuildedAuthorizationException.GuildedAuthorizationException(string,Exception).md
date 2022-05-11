@@ -7,30 +7,26 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with inner exception explaining more.
-
-```csharp
-public GuildedAuthorizationException(string message, System.Exception inner);
-```"
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with [inner](GuildedAuthorizationException.GuildedAuthorizationException(string,Exception).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,System.Exception).inner 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, System.Exception).inner') explaining more."
 ---
 
 ## GuildedAuthorizationException(string, Exception) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with inner exception explaining more.
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with [inner](GuildedAuthorizationException.GuildedAuthorizationException(string,Exception).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,System.Exception).inner 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, System.Exception).inner') explaining more.
 
 ```csharp
 public GuildedAuthorizationException(string message, System.Exception inner);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,System.Exception).message'></a>
+<a name='Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,System.Exception).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,System.Exception).inner'></a>
+<a name='Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,System.Exception).inner'></a>
 
 `inner` [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception')
 

@@ -1,24 +1,24 @@
-#### [Guilded.NET.Base](index 'index')
-### [Guilded.NET.Base](Guilded.NET.Base 'Guilded.NET.Base').[HashId](HashId 'Guilded.NET.Base.HashId')
+#### [Guilded.Base](index.md 'index')
+### [Guilded.Base](Guilded.Base.md 'Guilded.Base').[HashId](HashId.md 'Guilded.Base.HashId')
 
 ## HashId.operator !=(HashId, HashId) Operator
 
-Returns whether [id0](HashId.operator!(HashId,HashId)#Guilded.NET.Base.HashId.op_Inequality(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).id0 'Guilded.NET.Base.HashId.op_Inequality(Guilded.NET.Base.HashId, Guilded.NET.Base.HashId).id0') and [id1](HashId.operator!(HashId,HashId)#Guilded.NET.Base.HashId.op_Inequality(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).id1 'Guilded.NET.Base.HashId.op_Inequality(Guilded.NET.Base.HashId, Guilded.NET.Base.HashId).id1') are not equal.
+Returns whether [id0](HashId.operator!(HashId,HashId).md#Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId,Guilded.Base.HashId).id0 'Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId, Guilded.Base.HashId).id0') and [id1](HashId.operator!(HashId,HashId).md#Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId,Guilded.Base.HashId).id1 'Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId, Guilded.Base.HashId).id1') are not equal.
 
 ```csharp
-public static bool operator !=(Guilded.NET.Base.HashId id0, Guilded.NET.Base.HashId id1);
+public static bool operator !=(Guilded.Base.HashId id0, Guilded.Base.HashId id1);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.HashId.op_Inequality(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).id0'></a>
+<a name='Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId,Guilded.Base.HashId).id0'></a>
 
-`id0` [HashId](HashId 'Guilded.NET.Base.HashId')
+`id0` [HashId](HashId.md 'Guilded.Base.HashId')
 
 First ID to be compared
 
-<a name='Guilded.NET.Base.HashId.op_Inequality(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).id1'></a>
+<a name='Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId,Guilded.Base.HashId).id1'></a>
 
-`id1` [HashId](HashId 'Guilded.NET.Base.HashId')
+`id1` [HashId](HashId.md 'Guilded.Base.HashId')
 
 Second ID to be compared
 

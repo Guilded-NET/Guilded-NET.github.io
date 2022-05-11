@@ -7,32 +7,23 @@ tags:
   - interface
 description: "
 
-The content that can be created by a webhook.
-
-```csharp
-public interface IWebhookCreatable
-```"
+Represents the content that can be created by a webhook."
 ---
 
 ## IWebhookCreatable Interface
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Content`](Guilded.NET.Base.Content 'Guilded.NET.Base.Content')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content.md 'Guilded.Base.Content')
 
-The content that can be created by a webhook.
+Represents the content that can be created by a webhook.
 
 ```csharp
 public interface IWebhookCreatable
 ```
 
 Derived  
-&#8627; [ForumThread](ForumThread 'Guilded.NET.Base.Content.ForumThread')  
-&#8627; [ListItem](ListItem 'Guilded.NET.Base.Content.ListItem')  
-&#8627; [Message](Message 'Guilded.NET.Base.Content.Message')  
-&#8627; [Reaction](Reaction 'Guilded.NET.Base.Content.Reaction')
-
-### Remarks
-  
-The interface for channel content that can be created by a webhook.
+&#8627; [ListItem&lt;T&gt;](ListItem_T_.md 'Guilded.Base.Content.ListItem<T>')  
+&#8627; [Message](Message.md 'Guilded.Base.Content.Message')  
+&#8627; [Reaction](Reaction.md 'Guilded.Base.Content.Reaction')
 
 | Properties | |
 | :--- | :--- |
-| [CreatedByWebhook](IWebhookCreatable.CreatedByWebhook 'Guilded.NET.Base.Content.IWebhookCreatable.CreatedByWebhook') | The identifier of the webhook creator of the content. |
+| [CreatedByWebhook](IWebhookCreatable.CreatedByWebhook.md 'Guilded.Base.Content.IWebhookCreatable.CreatedByWebhook') | Gets the identifier of the webhook creator of the content. |

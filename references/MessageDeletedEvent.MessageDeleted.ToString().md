@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Creates string equivalent of the message.
-
-```csharp
-public override string ToString();
-```"
+Creates string equivalent of the message."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.ToString() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
 Creates string equivalent of the message.
 

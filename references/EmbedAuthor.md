@@ -7,31 +7,23 @@ tags:
   - class
 description: "
 
-The provided information about embed author.
-
-```csharp
-public class EmbedAuthor : Guilded.NET.Base.BaseObject
-```"
+Represents an author of the content represented in an [embed](Embed.md 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## EmbedAuthor Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Embeds`](Guilded.NET.Base.Embeds 'Guilded.NET.Base.Embeds')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds.md 'Guilded.Base.Embeds')
 
-The provided information about embed author.
+Represents an author of the content represented in an [embed](Embed.md 'Guilded.Base.Embeds.Embed').
 
 ```csharp
-public class EmbedAuthor : Guilded.NET.Base.BaseObject
+public class EmbedAuthor : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; EmbedAuthor
-
-### Remarks
-  
-Defines an author of the quoting message or anything else. The [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') feature has following properties:
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; EmbedAuthor
 
 ### Example
   
-An example of using [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') to display content owner:  
+An example of using [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') to display content owner:  
   
 ```csharp  
 // ... Getting information about a new post...  
@@ -48,17 +40,17 @@ await client.CreateMessageAsync(channelId, embed);
 
 | Constructors | |
 | :--- | :--- |
-| [EmbedAuthor(string, string, string)](EmbedAuthor.EmbedAuthor(string,string,string) 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string)') | Creates a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') with optional URL [url](EmbedAuthor.EmbedAuthor(string,string,string)#Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url'). |
-| [EmbedAuthor(string, Uri, Uri)](EmbedAuthor.EmbedAuthor(string,Uri,Uri) 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, System.Uri, System.Uri)') | Creates a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') with optional URL [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri)#Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,System.Uri,System.Uri).url 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, System.Uri, System.Uri).url'). |
-| [EmbedAuthor(string)](EmbedAuthor.EmbedAuthor(string) 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string)') | Creates a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') without an icon and without a URL. |
+| [EmbedAuthor(string, string, string)](EmbedAuthor.EmbedAuthor(string,string,string).md 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,string,string).md#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url'). |
+| [EmbedAuthor(string, Uri, Uri)](EmbedAuthor.EmbedAuthor(string,Uri,Uri).md 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri).url'). |
+| [EmbedAuthor(string)](EmbedAuthor.EmbedAuthor(string).md 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL. |
 
 | Properties | |
 | :--- | :--- |
-| [IconUrl](EmbedAuthor.IconUrl 'Guilded.NET.Base.Embeds.EmbedAuthor.IconUrl') | The URL to author's icon. |
-| [Name](EmbedAuthor.Name 'Guilded.NET.Base.Embeds.EmbedAuthor.Name') | The name of an embed author. |
-| [Url](EmbedAuthor.Url 'Guilded.NET.Base.Embeds.EmbedAuthor.Url') | The URL that author links. |
+| [IconUrl](EmbedAuthor.IconUrl.md 'Guilded.Base.Embeds.EmbedAuthor.IconUrl') | Gets the URL to author's icon. |
+| [Name](EmbedAuthor.Name.md 'Guilded.Base.Embeds.EmbedAuthor.Name') | Gets the name of an embed author. |
+| [Url](EmbedAuthor.Url.md 'Guilded.Base.Embeds.EmbedAuthor.Url') | Gets the URL that author links. |
 
 ### See Also
-- [EmbedFooter](EmbedFooter 'Guilded.NET.Base.Embeds.EmbedFooter')
-- [EmbedField](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')
-- [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+- [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter')
+- [EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField')
+- [EmbedMedia](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')

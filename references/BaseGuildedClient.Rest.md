@@ -7,15 +7,11 @@ tags:
   - property
 description: "
 
-The REST client for Guilded.
-
-```csharp
-protected internal RestSharp.RestClient Rest { get; set; }
-```"
+The REST client for Guilded."
 ---
 
 ## BaseGuildedClient.Rest Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
 The REST client for Guilded.
 
@@ -32,4 +28,4 @@ The REST client that is used to send requests to Guilded API.
 Rest client
 
 ### See Also
-- [Websocket](BaseGuildedClient.Websocket 'Guilded.NET.Base.BaseGuildedClient.Websocket')
+- [Websocket](BaseGuildedClient.Websocket.md 'Guilded.Base.BaseGuildedClient.Websocket')

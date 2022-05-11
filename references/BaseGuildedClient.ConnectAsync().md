@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Connects this client to Guilded.
-
-```csharp
-public abstract System.Threading.Tasks.Task ConnectAsync();
-```"
+Connects this client to Guilded."
 ---
 
 ## BaseGuildedClient.ConnectAsync() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
 Connects this client to Guilded.
 
@@ -33,4 +29,4 @@ Creates a new connection to Guilded with this client.
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')
 
 ### See Also
-- [DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.NET.Base.BaseGuildedClient.DisconnectAsync()')
+- [DisconnectAsync()](BaseGuildedClient.DisconnectAsync().md 'Guilded.Base.BaseGuildedClient.DisconnectAsync()')

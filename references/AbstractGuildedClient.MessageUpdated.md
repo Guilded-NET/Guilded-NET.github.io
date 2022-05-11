@@ -7,32 +7,21 @@ tags:
   - property
 description: "
 
-An event that occurs once someone edits a message.
-
-```csharp
-public System.IObservable<Guilded.NET.Base.Events.MessageUpdatedEvent> MessageUpdated { get; }
-```"
+Represents an event with the name `ChatMessageCreated` or `ChatMessageUpdated` and opcode `0` that occurs once someone posts or edits a [message](MessageEvent_T_.Message.md 'Guilded.Base.Events.MessageEvent`1.Message') in [a channel](MessageEvent.ChannelId.md 'Guilded.Base.Events.MessageEvent.ChannelId')."
 ---
 
 ## AbstractGuildedClient.MessageUpdated Property
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-An event that occurs once someone edits a message.
+Represents an event with the name `ChatMessageCreated` or `ChatMessageUpdated` and opcode `0` that occurs once someone posts or edits a [message](MessageEvent_T_.Message.md 'Guilded.Base.Events.MessageEvent`1.Message') in [a channel](MessageEvent.ChannelId.md 'Guilded.Base.Events.MessageEvent.ChannelId').
 
 ```csharp
-public System.IObservable<Guilded.NET.Base.Events.MessageUpdatedEvent> MessageUpdated { get; }
+public IObservable<Guilded.Base.Events.MessageEvent> MessageUpdated { get; }
 ```
 
-### Remarks
-  
-An event of the name `ChatMessageUpdated` and opcode `0` that occurs once someone updates/edits a message in the chat.  
-  
-When receiving this event, [UpdatedAt](Message.UpdatedAt 'Guilded.NET.Base.Content.Message.UpdatedAt') will always hold a value.
-
 #### Property Value
-[System.IObservable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')[MessageUpdatedEvent](MessageUpdatedEvent 'Guilded.NET.Base.Events.MessageUpdatedEvent')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')
+[System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [MessageCreatedEvent](MessageCreatedEvent 'Guilded.NET.Base.Events.MessageCreatedEvent')
-- [MessageDeletedEvent](MessageDeletedEvent 'Guilded.NET.Base.Events.MessageDeletedEvent')
-- [Message](Message 'Guilded.NET.Base.Content.Message')
+- [MessageDeletedEvent](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent')
+- [Message](Message.md 'Guilded.Base.Content.Message')

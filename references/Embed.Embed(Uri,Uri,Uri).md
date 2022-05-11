@@ -7,36 +7,32 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with given parameters converted to [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia').
-
-```csharp
-public Embed(System.Uri? image=null, System.Uri? video=null, System.Uri? thumbnail=null);
-```"
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with the given imagess."
 ---
 
 ## Embed(Uri, Uri, Uri) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with given parameters converted to [EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia').
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with the given imagess.
 
 ```csharp
-public Embed(System.Uri? image=null, System.Uri? video=null, System.Uri? thumbnail=null);
+public Embed(Uri? image=null, Uri? video=null, Uri? thumbnail=null);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(System.Uri,System.Uri,System.Uri).image'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(Uri,Uri,Uri).image'></a>
 
 `image` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
 The image of the embed
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(System.Uri,System.Uri,System.Uri).video'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(Uri,Uri,Uri).video'></a>
 
 `video` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
 The video of the embed
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(System.Uri,System.Uri,System.Uri).thumbnail'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(Uri,Uri,Uri).thumbnail'></a>
 
 `thumbnail` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 

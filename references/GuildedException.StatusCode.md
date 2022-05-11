@@ -7,20 +7,16 @@ tags:
   - property
 description: "
 
-The HTTP status that was found in the response.
-
-```csharp
-public System.Nullable<System.Net.HttpStatusCode> StatusCode { get; }
-```"
+Gets the HTTP status that was found in the response."
 ---
 
 ## GuildedException.StatusCode Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
-The HTTP status that was found in the response.
+Gets the HTTP status that was found in the response.
 
 ```csharp
-public System.Nullable<System.Net.HttpStatusCode> StatusCode { get; }
+public System.Nullable<HttpStatusCode> StatusCode { get; }
 ```
 
 #### Property Value

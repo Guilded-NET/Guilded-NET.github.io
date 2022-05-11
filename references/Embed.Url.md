@@ -7,25 +7,17 @@ tags:
   - property
 description: "
 
-The URL of the embed.
-
-```csharp
-public System.Uri? Url { get; set; }
-```"
+Gets the URL of the content that [embed](Embed.md 'Guilded.Base.Embeds.Embed') displays."
 ---
 
 ## Embed.Url Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-The URL of the embed.
+Gets the URL of the content that [embed](Embed.md 'Guilded.Base.Embeds.Embed') displays.
 
 ```csharp
-public System.Uri? Url { get; set; }
+public Uri? Url { get; set; }
 ```
-
-### Remarks
-  
-Defines the URL to the content this embed displays.
 
 #### Property Value
 [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')  

@@ -7,30 +7,26 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed.Embed(string,Uri)#Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri).image 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri).image').
-
-```csharp
-public Embed(string description, System.Uri image);
-```"
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with an [image](Embed.Embed(string,Uri).md#Guilded.Base.Embeds.Embed.Embed(string,Uri).image 'Guilded.Base.Embeds.Embed.Embed(string, Uri).image')."
 ---
 
 ## Embed(string, Uri) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with image [image](Embed.Embed(string,Uri)#Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri).image 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri).image').
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with an [image](Embed.Embed(string,Uri).md#Guilded.Base.Embeds.Embed.Embed(string,Uri).image 'Guilded.Base.Embeds.Embed.Embed(string, Uri).image').
 
 ```csharp
-public Embed(string description, System.Uri image);
+public Embed(string description, Uri image);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri).description'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(string,Uri).description'></a>
 
 `description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description text of the embed
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri).image'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(string,Uri).image'></a>
 
 `image` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 

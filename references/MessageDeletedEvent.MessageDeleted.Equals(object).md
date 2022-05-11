@@ -7,24 +7,20 @@ tags:
   - method
 description: "
 
-Returns whether this and [obj](MessageDeletedEvent.MessageDeleted.Equals(object)#Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj 'Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj') are equal to each other.
-
-```csharp
-public override bool Equals(object? obj);
-```"
+Returns whether this and [obj](MessageDeletedEvent.MessageDeleted.Equals(object).md#Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj') are equal to each other."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.Equals(object) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
-Returns whether this and [obj](MessageDeletedEvent.MessageDeleted.Equals(object)#Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj 'Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj') are equal to each other.
+Returns whether this and [obj](MessageDeletedEvent.MessageDeleted.Equals(object).md#Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj') are equal to each other.
 
 ```csharp
 public override bool Equals(object? obj);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj'></a>
+<a name='Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj'></a>
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 

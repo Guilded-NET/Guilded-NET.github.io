@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException') with default message.
-
-```csharp
-public GuildedPermissionException();
-```"
+Initializes a new instance of [GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException') with default message."
 ---
 
 ## GuildedPermissionException() Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedPermissionException`](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedPermissionException`](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-Creates a new instance of [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException') with default message.
+Initializes a new instance of [GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException') with default message.
 
 ```csharp
 public GuildedPermissionException();
@@ -25,5 +21,5 @@ public GuildedPermissionException();
 
 ### Remarks
   
-Creates a new instance of [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException') with default message:  
+Initializes a new instance of [GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException') with default message:  
 > Forbidden. Guilded client is missing permissions.

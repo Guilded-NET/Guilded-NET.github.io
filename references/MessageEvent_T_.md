@@ -7,45 +7,38 @@ tags:
   - class
 description: "
 
-The base for message-related events.
-
-```csharp
-public class MessageEvent<T> : Guilded.NET.Base.BaseObject
-    where T : Guilded.NET.Base.BaseObject
-```"
+Represents the base for message-related events."
 ---
 
 ## MessageEvent<T> Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Events`](Guilded.NET.Base.Events 'Guilded.NET.Base.Events')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events.md 'Guilded.Base.Events')
 
-The base for message-related events.
+Represents the base for message-related events.
 
 ```csharp
-public class MessageEvent<T> : Guilded.NET.Base.BaseObject
-    where T : Guilded.NET.Base.BaseObject
+public abstract class MessageEvent<T> : Guilded.Base.BaseObject
+    where T : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; MessageEvent<T>
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; MessageEvent<T>
 
 Derived  
-&#8627; [MessageDeletedEvent](MessageDeletedEvent 'Guilded.NET.Base.Events.MessageDeletedEvent')  
-&#8627; [MessageEvent](MessageEvent 'Guilded.NET.Base.Events.MessageEvent')
+&#8627; [MessageDeletedEvent](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent')  
+&#8627; [MessageEvent](MessageEvent.md 'Guilded.Base.Events.MessageEvent')
 #### Type parameters
 
-<a name='Guilded.NET.Base.Events.MessageEvent_T_.T'></a>
+<a name='Guilded.Base.Events.MessageEvent_T_.T'></a>
 
 `T`
 
 | Constructors | |
 | :--- | :--- |
-| [MessageEvent(T)](MessageEvent_T_.MessageEvent(T) 'Guilded.NET.Base.Events.MessageEvent<T>.MessageEvent(T)') | Creates a new instance of [MessageEvent](MessageEvent 'Guilded.NET.Base.Events.MessageEvent'). This is currently only used in deserialization. |
+| [MessageEvent(Nullable&lt;HashId&gt;, T)](MessageEvent_T_.MessageEvent(Nullable_HashId_,T).md 'Guilded.Base.Events.MessageEvent<T>.MessageEvent(System.Nullable<Guilded.Base.HashId>, T)') | Initializes a new instance of [MessageEvent](MessageEvent.md 'Guilded.Base.Events.MessageEvent') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [Message](MessageEvent_T_.Message 'Guilded.NET.Base.Events.MessageEvent<T>.Message') | The message received from the event. |
+| [Message](MessageEvent_T_.Message.md 'Guilded.Base.Events.MessageEvent<T>.Message') | The message received from the event. |
 
 ### See Also
-- [Message](MessageEvent_T_.Message 'Guilded.NET.Base.Events.MessageEvent<T>.Message')
-- [MessageCreatedEvent](MessageCreatedEvent 'Guilded.NET.Base.Events.MessageCreatedEvent')
-- [MessageUpdatedEvent](MessageUpdatedEvent 'Guilded.NET.Base.Events.MessageUpdatedEvent')
-- [MessageDeletedEvent](MessageDeletedEvent 'Guilded.NET.Base.Events.MessageDeletedEvent')
+- [Message](MessageEvent_T_.Message.md 'Guilded.Base.Events.MessageEvent<T>.Message')
+- [MessageDeletedEvent](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent')

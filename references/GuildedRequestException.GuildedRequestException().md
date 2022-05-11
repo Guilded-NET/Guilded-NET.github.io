@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException') with default message.
-
-```csharp
-public GuildedRequestException();
-```"
+Initializes a new instance of [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException') with default message."
 ---
 
 ## GuildedRequestException() Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
 
-Creates a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException') with default message.
+Initializes a new instance of [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException') with default message.
 
 ```csharp
 public GuildedRequestException();
@@ -25,5 +21,5 @@ public GuildedRequestException();
 
 ### Remarks
   
-Creates a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException') with default message:  
+Initializes a new instance of [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException') with default message:  
 > Unacceptable. The request was unacceptable. Invalid/bad parameters?

@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The date of when this reaction was created.
-
-```csharp
-public System.DateTime CreatedAt { get; }
-```"
+Gets the date of when the reaction was created."
 ---
 
 ## Reaction.CreatedAt Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.NET.Base.Content.Reaction')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction.md 'Guilded.Base.Content.Reaction')
 
-The date of when this reaction was created.
+Gets the date of when the reaction was created.
 
 ```csharp
 public System.DateTime CreatedAt { get; }
@@ -25,4 +21,4 @@ public System.DateTime CreatedAt { get; }
 
 #### Property Value
 [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')  
-Created at
+Date

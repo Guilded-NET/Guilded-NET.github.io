@@ -7,49 +7,37 @@ tags:
   - method
 description: "
 
-Gets the specified document.
-
-```csharp
-public override System.Threading.Tasks.Task<Guilded.NET.Base.Content.Doc> GetDocAsync(System.Guid channelId, uint docId);
-```"
+Gets the doc."
 ---
 
 ## AbstractGuildedClient.GetDocAsync(Guid, uint) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Gets the specified document.
+Gets the doc.
 
 ```csharp
-public override System.Threading.Tasks.Task<Guilded.NET.Base.Content.Doc> GetDocAsync(System.Guid channelId, uint docId);
+public override System.Threading.Tasks.Task<Guilded.Base.Content.Doc> GetDocAsync(Guid channelId, uint docId);
 ```
-
-### Remarks
-  
-Gets the specified document in the provided channel.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.GetDocAsync(System.Guid,uint).channelId'></a>
+<a name='Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).channelId'></a>
 
 `channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the parent channel
-
-<a name='Guilded.NET.AbstractGuildedClient.GetDocAsync(System.Guid,uint).docId'></a>
+<a name='Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).docId'></a>
 
 `docId` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
-The identifier of the document to get
-
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc 'Guilded.NET.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Specified document
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc.md 'Guilded.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Specified [document](Doc.md 'Guilded.Base.Content.Doc')

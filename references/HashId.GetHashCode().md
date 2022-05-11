@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Gets a hashcode of this object.
-
-```csharp
-public override int GetHashCode();
-```"
+Gets a hashcode of this object."
 ---
 
 ## HashId.GetHashCode() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.NET.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
 
 Gets a hashcode of this object.
 

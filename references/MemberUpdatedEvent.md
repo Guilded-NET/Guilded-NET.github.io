@@ -7,40 +7,36 @@ tags:
   - class
 description: "
 
-An event that occurs once a member gets updated.
-
-```csharp
-public class MemberUpdatedEvent : Guilded.NET.Base.BaseObject
-```"
+Represents an event with the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from [role update](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')."
 ---
 
 ## MemberUpdatedEvent Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Events`](Guilded.NET.Base.Events 'Guilded.NET.Base.Events')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events.md 'Guilded.Base.Events')
 
-An event that occurs once a member gets updated.
+Represents an event with the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from [role update](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent').
 
 ```csharp
-public class MemberUpdatedEvent : Guilded.NET.Base.BaseObject
+public class MemberUpdatedEvent : Guilded.Base.BaseObject,
+Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; MemberUpdatedEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; MemberUpdatedEvent
 
-### Remarks
-  
-An event of the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from role update(see [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')).
+Implements [IServerEvent](IServerEvent.md 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |
-| [MemberUpdatedEvent(HashId, Member)](MemberUpdatedEvent.MemberUpdatedEvent(HashId,Member) 'Guilded.NET.Base.Events.MemberUpdatedEvent.MemberUpdatedEvent(Guilded.NET.Base.HashId, Guilded.NET.Base.Servers.Member)') | Creates a new instance of [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.NET.Base.Events.MemberUpdatedEvent'). This is currently only used in deserialization. |
+| [MemberUpdatedEvent(HashId, MemberUpdate)](MemberUpdatedEvent.MemberUpdatedEvent(HashId,MemberUpdate).md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdatedEvent(Guilded.Base.HashId, Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate)') | Initializes a new instance of [MemberUpdatedEvent](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [MemberId](MemberUpdatedEvent.MemberId 'Guilded.NET.Base.Events.MemberUpdatedEvent.MemberId') | The identifier of the member. |
-| [ServerId](MemberUpdatedEvent.ServerId 'Guilded.NET.Base.Events.MemberUpdatedEvent.ServerId') | The identifier of the server where member was updated. |
-| [UserInfo](MemberUpdatedEvent.UserInfo 'Guilded.NET.Base.Events.MemberUpdatedEvent.UserInfo') | The info about updated member. |
+| [ServerId](MemberUpdatedEvent.ServerId.md 'Guilded.Base.Events.MemberUpdatedEvent.ServerId') | The identifier of the server where the [member](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated. |
+| [UserId](MemberUpdatedEvent.UserId.md 'Guilded.Base.Events.MemberUpdatedEvent.UserId') | Gets the identifier of the [member](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo'). |
+| [UserInfo](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') | Gets the properties that have been updated in the member. |
 
 ### See Also
-- [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent')
-- [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent')
-- [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
-- [Member](Member 'Guilded.NET.Base.Servers.Member')
+- [RolesUpdatedEvent](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')
+- [XpAddedEvent](XpAddedEvent.md 'Guilded.Base.Events.XpAddedEvent')
+- [WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
+- [WebhookEvent](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
+- [Member](Member.md 'Guilded.Base.Servers.Member')

@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The identifier of the emote reacted with.
-
-```csharp
-public uint Id { get; }
-```"
+Gets the identifier of the emote reacted with."
 ---
 
 ## Reaction.Id Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.NET.Base.Content.Reaction')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction.md 'Guilded.Base.Content.Reaction')
 
-The identifier of the emote reacted with.
+Gets the identifier of the emote reacted with.
 
 ```csharp
 public uint Id { get; }

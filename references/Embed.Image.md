@@ -7,28 +7,22 @@ tags:
   - property
 description: "
 
-The image of the embed.
-
-```csharp
-public Guilded.NET.Base.Embeds.EmbedMedia? Image { get; set; }
-```"
+Gets the image of the content that [embed](Embed.md 'Guilded.Base.Embeds.Embed') displays."
 ---
 
 ## Embed.Image Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-The image of the embed.
+Gets the image of the content that [embed](Embed.md 'Guilded.Base.Embeds.Embed') displays.
 
 ```csharp
-public Guilded.NET.Base.Embeds.EmbedMedia? Image { get; set; }
+public Guilded.Base.Embeds.EmbedMedia? Image { get; set; }
 ```
 
 ### Remarks
   
-An image that will appear in the embed.  
-  
 This is displayed as an image that appears at the bottom of the embed and above a footer in the official Guilded app.
 
 #### Property Value
-[EmbedMedia](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')  
-Media?
+[EmbedMedia](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')  
+Embed Media?

@@ -7,41 +7,34 @@ tags:
   - class
 description: "
 
-An event that is received once WebSocket is initiated.
-
-```csharp
-public class WelcomeEvent : Guilded.NET.Base.BaseObject
-```"
+Represents an event with the opcode `1` that is received once WebSocket connects or reconnects."
 ---
 
 ## WelcomeEvent Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Events`](Guilded.NET.Base.Events 'Guilded.NET.Base.Events')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events.md 'Guilded.Base.Events')
 
-An event that is received once WebSocket is initiated.
+Represents an event with the opcode `1` that is received once WebSocket connects or reconnects.
 
 ```csharp
-public class WelcomeEvent : Guilded.NET.Base.BaseObject
+public class WelcomeEvent : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; WelcomeEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; WelcomeEvent
 
 ### Remarks
   
-This event is received once WebSocket (re)connects to Guilded.  
-  
-[WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.  
-  
-This event has no name in API but has an event opcode of `1`.
+[WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.
 
 | Constructors | |
 | :--- | :--- |
-| [WelcomeEvent(int, string)](WelcomeEvent.WelcomeEvent(int,string) 'Guilded.NET.Base.Events.WelcomeEvent.WelcomeEvent(int, string)') | Creates a new instance of [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent'). This is currently only used in deserialization. |
+| [WelcomeEvent(int, Me, string)](WelcomeEvent.WelcomeEvent(int,Me,string).md 'Guilded.Base.Events.WelcomeEvent.WelcomeEvent(int, Guilded.Base.Users.Me, string)') | Initializes a new instance of [WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [HeartbeatInterval](WelcomeEvent.HeartbeatInterval 'Guilded.NET.Base.Events.WelcomeEvent.HeartbeatInterval') | The duration between heartbeats. |
-| [LastMessageId](WelcomeEvent.LastMessageId 'Guilded.NET.Base.Events.WelcomeEvent.LastMessageId') | The identifier of the last event sent. |
+| [HeartbeatInterval](WelcomeEvent.HeartbeatInterval.md 'Guilded.Base.Events.WelcomeEvent.HeartbeatInterval') | Gets the time duration between heartbeats in milliseconds. |
+| [LastMessageId](WelcomeEvent.LastMessageId.md 'Guilded.Base.Events.WelcomeEvent.LastMessageId') | Gets the identifier of the last received WebSocket message. |
+| [User](WelcomeEvent.User.md 'Guilded.Base.Events.WelcomeEvent.User') | Gets the currently logged in user. |
 
 ### See Also
-- [ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent')
-- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException')
+- [ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent')
+- [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')

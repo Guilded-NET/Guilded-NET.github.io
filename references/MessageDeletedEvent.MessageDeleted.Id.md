@@ -7,20 +7,16 @@ tags:
   - property
 description: "
 
-The identifier of the message.
-
-```csharp
-public System.Guid Id { get; }
-```"
+Gets the identifier of the message."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.Id Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
-The identifier of the message.
+Gets the identifier of the message.
 
 ```csharp
-public System.Guid Id { get; }
+public Guid Id { get; }
 ```
 
 #### Property Value

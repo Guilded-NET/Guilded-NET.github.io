@@ -7,30 +7,26 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException') with inner exception explaining more.
-
-```csharp
-public GuildedPermissionException(string message, System.Exception inner);
-```"
+Initializes a new instance of [GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException') with an [inner](GuildedPermissionException.GuildedPermissionException(string,Exception).md#Guilded.Base.GuildedPermissionException.GuildedPermissionException(string,System.Exception).inner 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string, System.Exception).inner') explaining more."
 ---
 
 ## GuildedPermissionException(string, Exception) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedPermissionException`](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedPermissionException`](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-Creates a new instance of [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException') with inner exception explaining more.
+Initializes a new instance of [GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException') with an [inner](GuildedPermissionException.GuildedPermissionException(string,Exception).md#Guilded.Base.GuildedPermissionException.GuildedPermissionException(string,System.Exception).inner 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string, System.Exception).inner') explaining more.
 
 ```csharp
 public GuildedPermissionException(string message, System.Exception inner);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedPermissionException.GuildedPermissionException(string,System.Exception).message'></a>
+<a name='Guilded.Base.GuildedPermissionException.GuildedPermissionException(string,System.Exception).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedPermissionException.GuildedPermissionException(string,System.Exception).inner'></a>
+<a name='Guilded.Base.GuildedPermissionException.GuildedPermissionException(string,System.Exception).inner'></a>
 
 `inner` [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception')
 

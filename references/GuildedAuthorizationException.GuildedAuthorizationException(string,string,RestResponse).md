@@ -7,36 +7,32 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with information from given parameters.
-
-```csharp
-public GuildedAuthorizationException(string code, string message, RestSharp.RestResponse response);
-```"
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') from a [response](GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestResponse).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, string, RestSharp.RestResponse).response')."
 ---
 
 ## GuildedAuthorizationException(string, string, RestResponse) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
-Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with information from given parameters.
+Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') from a [response](GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestResponse).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, string, RestSharp.RestResponse).response').
 
 ```csharp
 public GuildedAuthorizationException(string code, string message, RestSharp.RestResponse response);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).code'></a>
+<a name='Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).code'></a>
 
 `code` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The name of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).message'></a>
+<a name='Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).response'></a>
+<a name='Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).response'></a>
 
 `response` [RestSharp.RestResponse](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.RestResponse 'RestSharp.RestResponse')
 

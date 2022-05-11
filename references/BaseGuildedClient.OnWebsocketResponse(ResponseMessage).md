@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Used for when any WebSocket receives a message.
-
-```csharp
-protected virtual void OnWebsocketResponse(Websocket.Client.ResponseMessage response);
-```"
+Used for when any WebSocket receives a message."
 ---
 
 ## BaseGuildedClient.OnWebsocketResponse(ResponseMessage) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
 Used for when any WebSocket receives a message.
 
@@ -30,7 +26,7 @@ An event handler method that gets called once any message is received from a Web
 Override this if you don't like how Guilded.NET handles events or need any additional changes/features to it.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.OnWebsocketResponse(Websocket.Client.ResponseMessage).response'></a>
+<a name='Guilded.Base.BaseGuildedClient.OnWebsocketResponse(Websocket.Client.ResponseMessage).response'></a>
 
 `response` [Websocket.Client.ResponseMessage](https://docs.microsoft.com/en-us/dotnet/api/Websocket.Client.ResponseMessage 'Websocket.Client.ResponseMessage')
 

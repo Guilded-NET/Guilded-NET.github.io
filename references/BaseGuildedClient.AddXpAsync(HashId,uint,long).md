@@ -7,54 +7,46 @@ tags:
   - method
 description: "
 
-Adds XP to the role.
-
-```csharp
-public abstract System.Threading.Tasks.Task AddXpAsync(Guilded.NET.Base.HashId serverId, uint roleId, long amount);
-```"
+Gives [amount](BaseGuildedClient.AddXpAsync(HashId,uint,long).md#Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId,uint,long).amount 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long).amount') to the specified [role](BaseGuildedClient.AddXpAsync(HashId,uint,long).md#Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId,uint,long).role 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long).role') members."
 ---
 
 ## BaseGuildedClient.AddXpAsync(HashId, uint, long) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Adds XP to the role.
+Gives [amount](BaseGuildedClient.AddXpAsync(HashId,uint,long).md#Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId,uint,long).amount 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long).amount') to the specified [role](BaseGuildedClient.AddXpAsync(HashId,uint,long).md#Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId,uint,long).role 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long).role') members.
 
 ```csharp
-public abstract System.Threading.Tasks.Task AddXpAsync(Guilded.NET.Base.HashId serverId, uint roleId, long amount);
+public abstract System.Threading.Tasks.Task AddXpAsync(Guilded.Base.HashId server, uint role, long amount);
 ```
-
-### Remarks
-  
-Gives the specified [amount](BaseGuildedClient.AddXpAsync(HashId,uint,long)#Guilded.NET.Base.BaseGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,uint,long).amount 'Guilded.NET.Base.BaseGuildedClient.AddXpAsync(Guilded.NET.Base.HashId, uint, long).amount') of XP to the role's members.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,uint,long).serverId'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId,uint,long).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The server where the role is
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,uint,long).roleId'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId,uint,long).role'></a>
 
-`roleId` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
+`role` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the receiving role
 
-<a name='Guilded.NET.Base.BaseGuildedClient.AddXpAsync(Guilded.NET.Base.HashId,uint,long).amount'></a>
+<a name='Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId,uint,long).amount'></a>
 
 `amount` [System.Int64](https://docs.microsoft.com/en-us/dotnet/api/System.Int64 'System.Int64')
 
-The amount of XP received
+The amount of XP received (values — `[-1000, 1000]`)
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

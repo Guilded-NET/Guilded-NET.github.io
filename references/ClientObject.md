@@ -7,38 +7,35 @@ tags:
   - class
 description: "
 
-A base that with a parent client.
-
-```csharp
-public abstract class ClientObject : Guilded.NET.Base.BaseObject
-```"
+Represents a base for Guilded models that require a [client](ClientObject.ParentClient.md 'Guilded.Base.ClientObject.ParentClient')."
 ---
 
 ## ClientObject Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base`](Guilded.NET.Base 'Guilded.NET.Base')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base.md 'Guilded.Base')
 
-A base that with a parent client.
+Represents a base for Guilded models that require a [client](ClientObject.ParentClient.md 'Guilded.Base.ClientObject.ParentClient').
 
 ```csharp
-public abstract class ClientObject : Guilded.NET.Base.BaseObject
+public abstract class ClientObject : Guilded.Base.BaseObject
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; ClientObject
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; ClientObject
 
 Derived  
-&#8627; [ChannelContent&lt;T,S&gt;](ChannelContent_T,S_ 'Guilded.NET.Base.Content.ChannelContent<T,S>')  
-&#8627; [Reaction](Reaction 'Guilded.NET.Base.Content.Reaction')  
-&#8627; [GuildedSocketMessage](GuildedSocketMessage 'Guilded.NET.Base.Events.GuildedSocketMessage')  
-&#8627; [Member](Member 'Guilded.NET.Base.Servers.Member')
+&#8627; [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_.md 'Guilded.Base.Content.ChannelContent<TId,TServer>')  
+&#8627; [Reaction](Reaction.md 'Guilded.Base.Content.Reaction')  
+&#8627; [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')  
+&#8627; [Webhook](Webhook.md 'Guilded.Base.Servers.Webhook')  
+&#8627; [UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')
 
 ### Remarks
   
-A base object that also contains definining parent client. The parent client that defined this method is referenced in [ParentClient](ClientObject.ParentClient 'Guilded.NET.Base.ClientObject.ParentClient'), that is initiated with internal OnDeserialized method. This allows having methods like [CreateMessageAsync(string)](Message.CreateMessageAsync(string) 'Guilded.NET.Base.Content.Message.CreateMessageAsync(string)'), where it requires to call the parent client's methods.
+This allows having methods like [CreateMessageAsync(string)](Message.CreateMessageAsync(string).md 'Guilded.Base.Content.Message.CreateMessageAsync(string)'), where it requires to call the parent client's methods.
 
 | Properties | |
 | :--- | :--- |
-| [ParentClient](ClientObject.ParentClient 'Guilded.NET.Base.ClientObject.ParentClient') | The parent client that adopts this object. |
+| [ParentClient](ClientObject.ParentClient.md 'Guilded.Base.ClientObject.ParentClient') | Gets the parent client that adopts [this object](ClientObject.md 'Guilded.Base.ClientObject'). |
 
 ### See Also
-- [BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
-- [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject')
+- [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+- [BaseObject](BaseObject.md 'Guilded.Base.BaseObject')

@@ -7,20 +7,16 @@ tags:
   - property
 description: "
 
-The source URL to the image.
-
-```csharp
-public System.Uri Url { get; set; }
-```"
+The source URL to the image."
 ---
 
 ## EmbedMedia.Url Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia 'Guilded.NET.Base.Embeds.EmbedMedia')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')
 
 The source URL to the image.
 
 ```csharp
-public System.Uri Url { get; set; }
+public Uri Url { get; set; }
 ```
 
 ### Remarks

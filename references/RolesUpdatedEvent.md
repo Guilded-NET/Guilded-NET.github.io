@@ -7,40 +7,39 @@ tags:
   - class
 description: "
 
-An event that occurs once someone receives or loses a role.
-
-```csharp
-public class RolesUpdatedEvent : Guilded.NET.Base.BaseObject
-```"
+Represents an event with the name `teamRolesUpdated` and opcode `0` that occurs once [role holder](RolesUpdatedEvent.RolesUpdated.UserId.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId') either loses a [role](RolesUpdatedEvent.RolesUpdated.RoleIds.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds') or receives it."
 ---
 
 ## RolesUpdatedEvent Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Events`](Guilded.NET.Base.Events 'Guilded.NET.Base.Events')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events.md 'Guilded.Base.Events')
 
-An event that occurs once someone receives or loses a role.
+Represents an event with the name `teamRolesUpdated` and opcode `0` that occurs once [role holder](RolesUpdatedEvent.RolesUpdated.UserId.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId') either loses a [role](RolesUpdatedEvent.RolesUpdated.RoleIds.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds') or receives it.
 
 ```csharp
-public class RolesUpdatedEvent : Guilded.NET.Base.BaseObject
+public class RolesUpdatedEvent : Guilded.Base.BaseObject,
+Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.NET.Base.BaseObject') &#129106; RolesUpdatedEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; RolesUpdatedEvent
+
+Implements [IServerEvent](IServerEvent.md 'Guilded.Base.Events.IServerEvent')
 
 ### Remarks
   
-An event of the name `teamRolesUpdated` and opcode `0` that occurs once role holder either loses a role or receives it. This event does not give a list of lost/received events or give a previous role list, so previous role list must be cached, if necessary.
+This event does not give a list of lost/received events or give a previous role list, so previous role list must be cached, if necessary.
 
 | Constructors | |
 | :--- | :--- |
-| [RolesUpdatedEvent(HashId, IList&lt;RolesUpdated&gt;)](RolesUpdatedEvent.RolesUpdatedEvent(HashId,IList_RolesUpdated_) 'Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdatedEvent(Guilded.NET.Base.HashId, System.Collections.Generic.IList<Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated>)') | Creates a new instance of [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.NET.Base.Events.RolesUpdatedEvent'). This is currently only used in deserialization. |
+| [RolesUpdatedEvent(HashId, IList&lt;RolesUpdated&gt;)](RolesUpdatedEvent.RolesUpdatedEvent(HashId,IList_RolesUpdated_).md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdatedEvent(Guilded.Base.HashId, System.Collections.Generic.IList<Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated>)') | Initializes a new instance of [RolesUpdatedEvent](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [MemberRoleIds](RolesUpdatedEvent.MemberRoleIds 'Guilded.NET.Base.Events.RolesUpdatedEvent.MemberRoleIds') | The list of receiving/losing member and current roles. |
-| [ServerId](RolesUpdatedEvent.ServerId 'Guilded.NET.Base.Events.RolesUpdatedEvent.ServerId') | The identifier of the server where roles were updated. |
-| [UpdatedUsers](RolesUpdatedEvent.UpdatedUsers 'Guilded.NET.Base.Events.RolesUpdatedEvent.UpdatedUsers') | The array of updated users. |
+| [MemberRoleIds](RolesUpdatedEvent.MemberRoleIds.md 'Guilded.Base.Events.RolesUpdatedEvent.MemberRoleIds') | The list of receiving/losing member and current roles. |
+| [ServerId](RolesUpdatedEvent.ServerId.md 'Guilded.Base.Events.RolesUpdatedEvent.ServerId') | The identifier of the server where roles were updated. |
+| [UpdatedUsers](RolesUpdatedEvent.UpdatedUsers.md 'Guilded.Base.Events.RolesUpdatedEvent.UpdatedUsers') | The array of updated users. |
 
 ### See Also
-- [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.NET.Base.Events.MemberUpdatedEvent')
-- [XpAddedEvent](XpAddedEvent 'Guilded.NET.Base.Events.XpAddedEvent')
-- [WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')
-- [Member](Member 'Guilded.NET.Base.Servers.Member')
+- [MemberUpdatedEvent](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')
+- [XpAddedEvent](XpAddedEvent.md 'Guilded.Base.Events.XpAddedEvent')
+- [WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
+- [Member](Member.md 'Guilded.Base.Servers.Member')

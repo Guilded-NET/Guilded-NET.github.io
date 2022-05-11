@@ -7,21 +7,17 @@ tags:
   - method
 description: "
 
-Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient') instance.
-
-```csharp
-public abstract void Dispose();
-```"
+Disposes [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient') instance."
 ---
 
 ## BaseGuildedClient.Dispose() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient') instance.
+Disposes [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient') instance.
 
 ```csharp
 public abstract void Dispose();
 ```
 
 ### See Also
-- [DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.NET.Base.BaseGuildedClient.DisconnectAsync()')
+- [DisconnectAsync()](BaseGuildedClient.DisconnectAsync().md 'Guilded.Base.BaseGuildedClient.DisconnectAsync()')

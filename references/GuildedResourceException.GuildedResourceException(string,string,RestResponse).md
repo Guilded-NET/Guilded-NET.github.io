@@ -7,36 +7,32 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException') with information from given parameters.
-
-```csharp
-public GuildedResourceException(string code, string message, RestSharp.RestResponse response);
-```"
+Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with information from given parameters."
 ---
 
 ## GuildedResourceException(string, string, RestResponse) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-Creates a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException') with information from given parameters.
+Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with information from given parameters.
 
 ```csharp
 public GuildedResourceException(string code, string message, RestSharp.RestResponse response);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedResourceException.GuildedResourceException(string,string,RestSharp.RestResponse).code'></a>
+<a name='Guilded.Base.GuildedResourceException.GuildedResourceException(string,string,RestSharp.RestResponse).code'></a>
 
 `code` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The name of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedResourceException.GuildedResourceException(string,string,RestSharp.RestResponse).message'></a>
+<a name='Guilded.Base.GuildedResourceException.GuildedResourceException(string,string,RestSharp.RestResponse).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description of the error from Guilded API
 
-<a name='Guilded.NET.Base.GuildedResourceException.GuildedResourceException(string,string,RestSharp.RestResponse).response'></a>
+<a name='Guilded.Base.GuildedResourceException.GuildedResourceException(string,string,RestSharp.RestResponse).response'></a>
 
 `response` [RestSharp.RestResponse](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.RestResponse 'RestSharp.RestResponse')
 

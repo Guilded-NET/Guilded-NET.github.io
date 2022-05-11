@@ -7,48 +7,44 @@ tags:
   - method
 description: "
 
-Gets the member's roles.
-
-```csharp
-public override System.Threading.Tasks.Task<System.Collections.Generic.IList<uint>> GetMemberRolesAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId);
-```"
+Gets the list of roles [member](AbstractGuildedClient.GetMemberRolesAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') holds."
 ---
 
 ## AbstractGuildedClient.GetMemberRolesAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Gets the member's roles.
+Gets the list of roles [member](AbstractGuildedClient.GetMemberRolesAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') holds.
 
 ```csharp
-public override System.Threading.Tasks.Task<System.Collections.Generic.IList<uint>> GetMemberRolesAsync(Guilded.NET.Base.HashId serverId, Guilded.NET.Base.HashId memberId);
+public override System.Threading.Tasks.Task<System.Collections.Generic.IList<uint>> GetMemberRolesAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
 ```
 
 ### Remarks
   
-Gets the specified member's role ID list. No permissions are required.
+No permissions are required.
 #### Parameters
 
-<a name='Guilded.NET.AbstractGuildedClient.GetMemberRolesAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).serverId'></a>
+<a name='Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
 
-`serverId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`server` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The server where to fetch user's information
 
-<a name='Guilded.NET.AbstractGuildedClient.GetMemberRolesAsync(Guilded.NET.Base.HashId,Guilded.NET.Base.HashId).memberId'></a>
+<a name='Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
-`memberId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`member` [HashId](HashId.md 'Guilded.Base.HashId')
 
 The identifier of the role holder
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  

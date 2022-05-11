@@ -7,31 +7,23 @@ tags:
   - method
 description: "
 
-Disconnects this client from Guilded.
-
-```csharp
-public override System.Threading.Tasks.Task DisconnectAsync();
-```"
+Disconnects [this client](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient') from Guilded."
 ---
 
 ## AbstractGuildedClient.DisconnectAsync() Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Disconnects this client from Guilded.
+Disconnects [this client](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient') from Guilded.
 
 ```csharp
 public override System.Threading.Tasks.Task DisconnectAsync();
 ```
 
-### Remarks
-  
-The method that stops Guilded WebSocket.
-
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')
 
 ### See Also
-- [ConnectAsync()](AbstractGuildedClient.ConnectAsync() 'Guilded.NET.AbstractGuildedClient.ConnectAsync()')
-- [Dispose()](AbstractGuildedClient.Dispose() 'Guilded.NET.AbstractGuildedClient.Dispose()')
-- [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.NET.GuildedBotClient.ConnectAsync()')
-- [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.NET.GuildedBotClient.ConnectAsync(string)')
+- [ConnectAsync()](AbstractGuildedClient.ConnectAsync().md 'Guilded.AbstractGuildedClient.ConnectAsync()')
+- [Dispose()](AbstractGuildedClient.Dispose().md 'Guilded.AbstractGuildedClient.Dispose()')
+- [ConnectAsync()](GuildedBotClient.ConnectAsync().md 'Guilded.GuildedBotClient.ConnectAsync()')
+- [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string).md 'Guilded.GuildedBotClient.ConnectAsync(string)')

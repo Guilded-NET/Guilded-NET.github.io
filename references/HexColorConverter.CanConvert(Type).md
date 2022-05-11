@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Returns whether the converter supports converting the given type.
-
-```csharp
-public override bool CanConvert(System.Type objectType);
-```"
+Returns whether the converter supports converting the given type."
 ---
 
 ## HexColorConverter.CanConvert(Type) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HexColorConverter`](HexColorConverter 'Guilded.NET.Base.HexColorConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HexColorConverter`](HexColorConverter.md 'Guilded.Base.HexColorConverter')
 
 Returns whether the converter supports converting the given type.
 
@@ -24,7 +20,7 @@ public override bool CanConvert(System.Type objectType);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.HexColorConverter.CanConvert(System.Type).objectType'></a>
+<a name='Guilded.Base.HexColorConverter.CanConvert(System.Type).objectType'></a>
 
 `objectType` [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type')
 

@@ -7,30 +7,26 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated 'Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated'). This is currently only used in deserialization.
-
-```csharp
-public RolesUpdated(Guilded.NET.Base.HashId userId, System.Collections.Generic.IList<uint> roleIds);
-```"
+Initializes a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated') from the specified JSON properties."
 ---
 
 ## RolesUpdated(HashId, IList<uint>) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`RolesUpdated`](RolesUpdatedEvent.RolesUpdated 'Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdated`](RolesUpdatedEvent.RolesUpdated.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated')
 
-Creates a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated 'Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated'). This is currently only used in deserialization.
+Initializes a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated') from the specified JSON properties.
 
 ```csharp
-public RolesUpdated(Guilded.NET.Base.HashId userId, System.Collections.Generic.IList<uint> roleIds);
+public RolesUpdated(Guilded.Base.HashId userId, System.Collections.Generic.IList<uint> roleIds);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.NET.Base.HashId,System.Collections.Generic.IList_uint_).userId'></a>
+<a name='Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.Base.HashId,System.Collections.Generic.IList_uint_).userId'></a>
 
-`userId` [HashId](HashId 'Guilded.NET.Base.HashId')
+`userId` [HashId](HashId.md 'Guilded.Base.HashId')
 
-The identifier of the user who holds the roles
+The identifier of [user](User.md 'Guilded.Base.Users.User') who holds the roles
 
-<a name='Guilded.NET.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.NET.Base.HashId,System.Collections.Generic.IList_uint_).roleIds'></a>
+<a name='Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.Base.HashId,System.Collections.Generic.IList_uint_).roleIds'></a>
 
 `roleIds` [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')
 

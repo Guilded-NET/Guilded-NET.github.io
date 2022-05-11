@@ -7,30 +7,26 @@ tags:
   - method
 description: "
 
-Whether the type can be converted to [HashId](HashId 'Guilded.NET.Base.HashId').
-
-```csharp
-public override bool CanConvertFrom(System.ComponentModel.ITypeDescriptorContext? context, System.Type sourceType);
-```"
+Whether the type can be converted to [HashId](HashId.md 'Guilded.Base.HashId')."
 ---
 
 ## HashIdConverter.CanConvertFrom(ITypeDescriptorContext, Type) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter 'Guilded.NET.Base.HashIdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter.md 'Guilded.Base.HashIdConverter')
 
-Whether the type can be converted to [HashId](HashId 'Guilded.NET.Base.HashId').
+Whether the type can be converted to [HashId](HashId.md 'Guilded.Base.HashId').
 
 ```csharp
-public override bool CanConvertFrom(System.ComponentModel.ITypeDescriptorContext? context, System.Type sourceType);
+public override bool CanConvertFrom(ITypeDescriptorContext? context, System.Type sourceType);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.HashIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type).context'></a>
+<a name='Guilded.Base.HashIdConverter.CanConvertFrom(ITypeDescriptorContext,System.Type).context'></a>
 
 `context` [System.ComponentModel.ITypeDescriptorContext](https://docs.microsoft.com/en-us/dotnet/api/System.ComponentModel.ITypeDescriptorContext 'System.ComponentModel.ITypeDescriptorContext')
 
 The descriptor context for converter
 
-<a name='Guilded.NET.Base.HashIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type).sourceType'></a>
+<a name='Guilded.Base.HashIdConverter.CanConvertFrom(ITypeDescriptorContext,System.Type).sourceType'></a>
 
 `sourceType` [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type')
 

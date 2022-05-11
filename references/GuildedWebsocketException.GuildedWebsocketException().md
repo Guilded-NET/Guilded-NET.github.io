@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new empty instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException').
-
-```csharp
-public GuildedWebsocketException();
-```"
+Initializes a new empty instance of [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')."
 ---
 
 ## GuildedWebsocketException() Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')
 
-Creates a new empty instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException').
+Initializes a new empty instance of [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException').
 
 ```csharp
 public GuildedWebsocketException();

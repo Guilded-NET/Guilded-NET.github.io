@@ -7,26 +7,18 @@ tags:
   - property
 description: "
 
-The author of the embed.
-
-```csharp
-public Guilded.NET.Base.Embeds.EmbedAuthor? Author { get; set; }
-```"
+Gets the author of the content that [embed](Embed.md 'Guilded.Base.Embeds.Embed') displays."
 ---
 
 ## Embed.Author Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-The author of the embed.
+Gets the author of the content that [embed](Embed.md 'Guilded.Base.Embeds.Embed') displays.
 
 ```csharp
-public Guilded.NET.Base.Embeds.EmbedAuthor? Author { get; set; }
+public Guilded.Base.Embeds.EmbedAuthor? Author { get; set; }
 ```
 
-### Remarks
-  
-Defines an author of the quoting message or anything else.
-
 #### Property Value
-[EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')  
-Author?
+[EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')  
+Embed Author?

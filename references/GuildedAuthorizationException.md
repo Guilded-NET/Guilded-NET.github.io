@@ -7,23 +7,19 @@ tags:
   - class
 description: "
 
-An authorization exception thrown by Guilded API.
-
-```csharp
-public sealed class GuildedAuthorizationException : Guilded.NET.Base.GuildedException
-```"
+An authorization exception thrown by Guilded API."
 ---
 
 ## GuildedAuthorizationException Class
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base`](Guilded.NET.Base 'Guilded.NET.Base')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base.md 'Guilded.Base')
 
 An authorization exception thrown by Guilded API.
 
 ```csharp
-public sealed class GuildedAuthorizationException : Guilded.NET.Base.GuildedException
+public sealed class GuildedAuthorizationException : Guilded.Base.GuildedException
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#129106; [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') &#129106; GuildedAuthorizationException
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#129106; [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') &#129106; GuildedAuthorizationException
 
 ### Remarks
   
@@ -31,14 +27,14 @@ An exception thrown by Guilded API when the request is invalid. This is caused i
 
 | Constructors | |
 | :--- | :--- |
-| [GuildedAuthorizationException()](GuildedAuthorizationException.GuildedAuthorizationException() 'Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException()') | Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with default message. |
-| [GuildedAuthorizationException(string, string, RestResponse)](GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestResponse) 'Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, string, RestSharp.RestResponse)') | Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with information from given parameters. |
-| [GuildedAuthorizationException(string, Exception)](GuildedAuthorizationException.GuildedAuthorizationException(string,Exception) 'Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, System.Exception)') | Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException') with inner exception explaining more. |
-| [GuildedAuthorizationException(string)](GuildedAuthorizationException.GuildedAuthorizationException(string) 'Guilded.NET.Base.GuildedAuthorizationException.GuildedAuthorizationException(string)') | Creates a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException'). |
+| [GuildedAuthorizationException()](GuildedAuthorizationException.GuildedAuthorizationException().md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException()') | Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with a [default message](https://docs.microsoft.com/en-us/dotnet/api/System.Exception.Message 'System.Exception.Message'). |
+| [GuildedAuthorizationException(string, string, RestResponse)](GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestResponse).md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, string, RestSharp.RestResponse)') | Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') from a [response](GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestResponse).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, string, RestSharp.RestResponse).response'). |
+| [GuildedAuthorizationException(string, Exception)](GuildedAuthorizationException.GuildedAuthorizationException(string,Exception).md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, System.Exception)') | Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with [inner](GuildedAuthorizationException.GuildedAuthorizationException(string,Exception).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string,System.Exception).inner 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, System.Exception).inner') explaining more. |
+| [GuildedAuthorizationException(string)](GuildedAuthorizationException.GuildedAuthorizationException(string).md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string)') | Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException') with only a [message](GuildedAuthorizationException.GuildedAuthorizationException(string).md#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message'). |
 
 ### See Also
-- [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
-- [GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
-- [GuildedRequestException](GuildedRequestException 'Guilded.NET.Base.GuildedRequestException')
-- [GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
-- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException')
+- [GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+- [GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+- [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+- [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+- [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')

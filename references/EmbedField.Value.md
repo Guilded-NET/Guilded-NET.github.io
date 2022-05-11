@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The description text of the field.
-
-```csharp
-public string Value { get; set; }
-```"
+Gets the text contents of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field."
 ---
 
 ## EmbedField.Value Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField.md 'Guilded.Base.Embeds.EmbedField')
 
-The description text of the field.
+Gets the text contents of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field.
 
 ```csharp
 public string Value { get; set; }
@@ -25,10 +21,8 @@ public string Value { get; set; }
 
 ### Remarks
   
-The description or the value of the field.  
-  
 This allows any given Markdown.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-Description
+Markdown string

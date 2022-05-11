@@ -7,26 +7,22 @@ tags:
   - property
 description: "
 
-The list of embeds in the message.
-
-```csharp
-public System.Collections.Generic.IList<Guilded.NET.Base.Embeds.Embed>? Embeds { get; set; }
-```"
+Gets the list of [custom embeds](Embed.md 'Guilded.Base.Embeds.Embed') that this message contains."
 ---
 
 ## MessageContent.Embeds Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.NET.Base.Content.MessageContent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent.md 'Guilded.Base.Content.MessageContent')
 
-The list of embeds in the message.
+Gets the list of [custom embeds](Embed.md 'Guilded.Base.Embeds.Embed') that this message contains.
 
 ```csharp
-public System.Collections.Generic.IList<Guilded.NET.Base.Embeds.Embed>? Embeds { get; set; }
+public System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>? Embeds { get; set; }
 ```
 
 ### Remarks
   
-The list of embeds that will be present in the created message.
+The max embed limit as of now is 1.
 
 #### Property Value
-[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')  
+[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Embed](Embed.md 'Guilded.Base.Embeds.Embed')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')  
 List of embeds?

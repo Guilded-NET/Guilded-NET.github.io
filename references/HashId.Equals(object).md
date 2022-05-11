@@ -7,24 +7,20 @@ tags:
   - method
 description: "
 
-Returns whether this [HashId](HashId 'Guilded.NET.Base.HashId') instance and [obj](HashId.Equals(object)#Guilded.NET.Base.HashId.Equals(object).obj 'Guilded.NET.Base.HashId.Equals(object).obj') are equal.
-
-```csharp
-public override bool Equals(object? obj);
-```"
+Returns whether this [HashId](HashId.md 'Guilded.Base.HashId') instance and [obj](HashId.Equals(object).md#Guilded.Base.HashId.Equals(object).obj 'Guilded.Base.HashId.Equals(object).obj') are equal."
 ---
 
 ## HashId.Equals(object) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.NET.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
 
-Returns whether this [HashId](HashId 'Guilded.NET.Base.HashId') instance and [obj](HashId.Equals(object)#Guilded.NET.Base.HashId.Equals(object).obj 'Guilded.NET.Base.HashId.Equals(object).obj') are equal.
+Returns whether this [HashId](HashId.md 'Guilded.Base.HashId') instance and [obj](HashId.Equals(object).md#Guilded.Base.HashId.Equals(object).obj 'Guilded.Base.HashId.Equals(object).obj') are equal.
 
 ```csharp
 public override bool Equals(object? obj);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.HashId.Equals(object).obj'></a>
+<a name='Guilded.Base.HashId.Equals(object).obj'></a>
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 

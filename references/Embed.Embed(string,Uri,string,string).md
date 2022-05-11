@@ -7,43 +7,37 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed.Embed(string,Uri,string,string)#Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string).footer') and title [title](Embed.Embed(string,Uri,string,string)#Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string).title').
-
-```csharp
-public Embed(string title, System.Uri url, string description, string footer);
-```"
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [footer](Embed.Embed(string,Uri,string,string).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).footer 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, string).footer') and a [title](Embed.Embed(string,Uri,string,string).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).title 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, string).title')."
 ---
 
 ## Embed(string, Uri, string, string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with footer [footer](Embed.Embed(string,Uri,string,string)#Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).footer 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string).footer') and title [title](Embed.Embed(string,Uri,string,string)#Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).title 'Guilded.NET.Base.Embeds.Embed.Embed(string, System.Uri, string, string).title').
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [footer](Embed.Embed(string,Uri,string,string).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).footer 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, string).footer') and a [title](Embed.Embed(string,Uri,string,string).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).title 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, string).title').
 
 ```csharp
-public Embed(string title, System.Uri url, string description, string footer);
+public Embed(string title, Uri url, string description, string footer);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).title'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).title'></a>
 
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The title of the embed
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).url'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).url'></a>
 
 `url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
-The URL of the embed
-
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).description'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).description'></a>
 
 `description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The description text of the embed
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(string,System.Uri,string,string).footer'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(string,Uri,string,string).footer'></a>
 
 `footer` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The text of the embed footer
+The footer of the embed

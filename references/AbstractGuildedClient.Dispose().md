@@ -7,25 +7,17 @@ tags:
   - method
 description: "
 
-Disposes [AbstractGuildedClient](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient') instance.
-
-```csharp
-public override void Dispose();
-```"
+Disposes [this client](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')."
 ---
 
 ## AbstractGuildedClient.Dispose() Method
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-Disposes [AbstractGuildedClient](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient') instance.
+Disposes [this client](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient').
 
 ```csharp
 public override void Dispose();
 ```
 
-### Remarks
-  
-Disposes [AbstractGuildedClient](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient') and its WebSockets.
-
 ### See Also
-- [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.NET.AbstractGuildedClient.DisconnectAsync()')
+- [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync().md 'Guilded.AbstractGuildedClient.DisconnectAsync()')

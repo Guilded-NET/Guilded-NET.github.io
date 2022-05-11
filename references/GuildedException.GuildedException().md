@@ -7,17 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') with default message.
-
-```csharp
-public GuildedException();
-```"
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with a default message."
 ---
 
 ## GuildedException() Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') with default message.
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with a default message.
 
 ```csharp
 public GuildedException();
@@ -25,6 +21,8 @@ public GuildedException();
 
 ### Remarks
   
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') with default message:  
+This is the message that will be used:  
   
-"Guilded exception was thrown."
+```csharp  
+Guilded exception was thrown.  
+```

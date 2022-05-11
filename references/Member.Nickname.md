@@ -7,25 +7,17 @@ tags:
   - property
 description: "
 
-A nickname of this member.
-
-```csharp
-public string? Nickname { get; }
-```"
+Gets the set nickname of the user in the server."
 ---
 
 ## Member.Nickname Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Member`](Member 'Guilded.NET.Base.Servers.Member')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Member`](Member.md 'Guilded.Base.Servers.Member')
 
-A nickname of this member.
+Gets the set nickname of the user in the server.
 
 ```csharp
-public string? Nickname { get; }
+public string? Nickname { get; set; }
 ```
-
-### Remarks
-  
-Defines a nickname of this member. This may be [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null') if the member has no nickname.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

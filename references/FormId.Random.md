@@ -7,22 +7,18 @@ tags:
   - property
 description: "
 
-Creates a random value of [FormId](FormId 'Guilded.NET.Base.FormId').
-
-```csharp
-public static Guilded.NET.Base.FormId Random { get; }
-```"
+Creates a random value of [FormId](FormId.md 'Guilded.Base.FormId')."
 ---
 
 ## FormId.Random Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.NET.Base.FormId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId.md 'Guilded.Base.FormId')
 
-Creates a random value of [FormId](FormId 'Guilded.NET.Base.FormId').
+Creates a random value of [FormId](FormId.md 'Guilded.Base.FormId').
 
 ```csharp
-public static Guilded.NET.Base.FormId Random { get; }
+public static Guilded.Base.FormId Random { get; }
 ```
 
 #### Property Value
-[FormId](FormId 'Guilded.NET.Base.FormId')  
+[FormId](FormId.md 'Guilded.Base.FormId')  
 New form ID

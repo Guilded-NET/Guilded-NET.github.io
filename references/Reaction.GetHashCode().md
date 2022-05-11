@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Gets a hashcode of this object.
-
-```csharp
-public override int GetHashCode();
-```"
+Gets a hashcode of this object."
 ---
 
 ## Reaction.GetHashCode() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.NET.Base.Content.Reaction')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction.md 'Guilded.Base.Content.Reaction')
 
 Gets a hashcode of this object.
 

@@ -7,17 +7,13 @@ tags:
   - property
 description: "
 
-The code name of Guilded error.
-
-```csharp
-public string? Code { get; }
-```"
+Gets the code name of Guilded error."
 ---
 
 ## GuildedException.Code Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
-The code name of Guilded error.
+Gets the code name of Guilded error.
 
 ```csharp
 public string? Code { get; }

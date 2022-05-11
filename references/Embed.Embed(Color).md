@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with colour [color](Embed.Embed(Color)#Guilded.NET.Base.Embeds.Embed.Embed(System.Drawing.Color).color 'Guilded.NET.Base.Embeds.Embed.Embed(System.Drawing.Color).color').
-
-```csharp
-public Embed(System.Drawing.Color color);
-```"
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with colour [color](Embed.Embed(Color).md#Guilded.Base.Embeds.Embed.Embed(Color).color 'Guilded.Base.Embeds.Embed.Embed(Color).color')."
 ---
 
 ## Embed(Color) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with colour [color](Embed.Embed(Color)#Guilded.NET.Base.Embeds.Embed.Embed(System.Drawing.Color).color 'Guilded.NET.Base.Embeds.Embed.Embed(System.Drawing.Color).color').
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with colour [color](Embed.Embed(Color).md#Guilded.Base.Embeds.Embed.Embed(Color).color 'Guilded.Base.Embeds.Embed.Embed(Color).color').
 
 ```csharp
-public Embed(System.Drawing.Color color);
+public Embed(Color color);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(System.Drawing.Color).color'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(Color).color'></a>
 
 `color` [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color')
 

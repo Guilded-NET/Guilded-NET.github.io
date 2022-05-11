@@ -7,25 +7,21 @@ tags:
   - property
 description: "
 
-The list of messages being replied to.
-
-```csharp
-public System.Collections.Generic.IList<System.Guid>? ReplyMessageIds { get; set; }
-```"
+Gets the list of [messages](Message.md 'Guilded.Base.Content.Message') being replied to."
 ---
 
 ## MessageContent.ReplyMessageIds Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.NET.Base.Content.MessageContent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent.md 'Guilded.Base.Content.MessageContent')
 
-The list of messages being replied to.
+Gets the list of [messages](Message.md 'Guilded.Base.Content.Message') being replied to.
 
 ```csharp
-public System.Collections.Generic.IList<System.Guid>? ReplyMessageIds { get; set; }
+public System.Collections.Generic.IList<Guid>? ReplyMessageIds { get; set; }
 ```
 
 ### Remarks
   
-Specifies which messages were replied to in this message. The max reply limit is 5.
+The max reply limit is 5.
 
 #### Property Value
 [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')  

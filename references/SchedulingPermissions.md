@@ -7,15 +7,11 @@ tags:
   - enum
 description: "
 
-Permissions related to scheduling.
-
-```csharp
-public enum SchedulingPermissions
-```"
+Permissions related to scheduling."
 ---
 
 ## SchedulingPermissions Enum
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Permissions`](Guilded.NET.Base.Permissions 'Guilded.NET.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
 
 Permissions related to scheduling.
 
@@ -28,13 +24,13 @@ public enum SchedulingPermissions
 Defines channel permissions related to availability in scheduling channels.
 ### Fields
 
-<a name='Guilded.NET.Base.Permissions.SchedulingPermissions.All'></a>
+<a name='Guilded.Base.Permissions.SchedulingPermissions.All'></a>
 
 `All` 11
 
 All of the permissions combined.
 
-<a name='Guilded.NET.Base.Permissions.SchedulingPermissions.Basic'></a>
+<a name='Guilded.Base.Permissions.SchedulingPermissions.Basic'></a>
 
 `Basic` 3
 
@@ -43,22 +39,22 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [CreateSchedule](SchedulingPermissions#Guilded.NET.Base.Permissions.SchedulingPermissions.CreateSchedule 'Guilded.NET.Base.Permissions.SchedulingPermissions.CreateSchedule')  
-- [ViewSchedules](SchedulingPermissions#Guilded.NET.Base.Permissions.SchedulingPermissions.ViewSchedules 'Guilded.NET.Base.Permissions.SchedulingPermissions.ViewSchedules')
+- [CreateSchedule](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule 'Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule')  
+- [ViewSchedules](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules 'Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules')
 
-<a name='Guilded.NET.Base.Permissions.SchedulingPermissions.CreateSchedule'></a>
+<a name='Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule'></a>
 
 `CreateSchedule` 1
 
 Allows you to let server know your available schedule
 
-<a name='Guilded.NET.Base.Permissions.SchedulingPermissions.DeleteSchedule'></a>
+<a name='Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule'></a>
 
 `DeleteSchedule` 8
 
 Allows you to remove availabilities created by others
 
-<a name='Guilded.NET.Base.Permissions.SchedulingPermissions.Manage'></a>
+<a name='Guilded.Base.Permissions.SchedulingPermissions.Manage'></a>
 
 `Manage` 8
 
@@ -67,15 +63,15 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [DeleteSchedule](SchedulingPermissions#Guilded.NET.Base.Permissions.SchedulingPermissions.DeleteSchedule 'Guilded.NET.Base.Permissions.SchedulingPermissions.DeleteSchedule')
+- [DeleteSchedule](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule 'Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule')
 
-<a name='Guilded.NET.Base.Permissions.SchedulingPermissions.None'></a>
+<a name='Guilded.Base.Permissions.SchedulingPermissions.None'></a>
 
 `None` 0
 
 No given permissions.
 
-<a name='Guilded.NET.Base.Permissions.SchedulingPermissions.ViewSchedules'></a>
+<a name='Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules'></a>
 
 `ViewSchedules` 2
 

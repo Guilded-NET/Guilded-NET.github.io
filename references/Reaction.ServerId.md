@@ -7,28 +7,22 @@ tags:
   - property
 description: "
 
-The identifier of the server where the content is.
-
-```csharp
-public System.Nullable<Guilded.NET.Base.HashId> ServerId { get; }
-```"
+Gets the identifier of the server where the content is."
 ---
 
 ## Reaction.ServerId Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.NET.Base.Content.Reaction')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction.md 'Guilded.Base.Content.Reaction')
 
-The identifier of the server where the content is.
+Gets the identifier of the server where the content is.
 
 ```csharp
-public System.Nullable<Guilded.NET.Base.HashId> ServerId { get; }
+public System.Nullable<Guilded.Base.HashId> ServerId { get; }
 ```
 
 ### Remarks
   
-The identifier of the server where the content was found.  
-  
-The server can be either optional or not optional. This depends whether the content is global or server-wide. Content like forum threads will be server-wide, while content like chat messages and reactions will be global.
+As some of the content are bound to servers and some can be global, the identifier of the server may be [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null').
 
 #### Property Value
-[System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.NET.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')  
+[System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId.md 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')  
 Server ID?

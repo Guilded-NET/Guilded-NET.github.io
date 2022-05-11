@@ -7,15 +7,11 @@ tags:
   - enum
 description: "
 
-Permissions related to forms & polls.
-
-```csharp
-public enum FormPermissions
-```"
+Permissions related to forms & polls."
 ---
 
 ## FormPermissions Enum
-###### **Assembly:** `Guilded.NET.Base`<br/>**Namespace:** [`Guilded.NET.Base.Permissions`](Guilded.NET.Base.Permissions 'Guilded.NET.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
 
 Permissions related to forms & polls.
 
@@ -28,13 +24,13 @@ public enum FormPermissions
 Defines team permissions related to forms & polls.
 ### Fields
 
-<a name='Guilded.NET.Base.Permissions.FormPermissions.All'></a>
+<a name='Guilded.Base.Permissions.FormPermissions.All'></a>
 
 `All` 18
 
 All of the permissions combined.
 
-<a name='Guilded.NET.Base.Permissions.FormPermissions.Basic'></a>
+<a name='Guilded.Base.Permissions.FormPermissions.Basic'></a>
 
 `Basic` 16
 
@@ -43,21 +39,21 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [PollResults](FormPermissions#Guilded.NET.Base.Permissions.FormPermissions.PollResults 'Guilded.NET.Base.Permissions.FormPermissions.PollResults')
+- [PollResults](FormPermissions.md#Guilded.Base.Permissions.FormPermissions.PollResults 'Guilded.Base.Permissions.FormPermissions.PollResults')
 
-<a name='Guilded.NET.Base.Permissions.FormPermissions.FormResponses'></a>
+<a name='Guilded.Base.Permissions.FormPermissions.FormResponses'></a>
 
 `FormResponses` 2
 
 Allows you to view all form responses
 
-<a name='Guilded.NET.Base.Permissions.FormPermissions.None'></a>
+<a name='Guilded.Base.Permissions.FormPermissions.None'></a>
 
 `None` 0
 
 No given permissions.
 
-<a name='Guilded.NET.Base.Permissions.FormPermissions.PollResults'></a>
+<a name='Guilded.Base.Permissions.FormPermissions.PollResults'></a>
 
 `PollResults` 16
 

@@ -7,28 +7,22 @@ tags:
   - property
 description: "
 
-The identifier of the user creator of the content.
-
-```csharp
-public Guilded.NET.Base.HashId CreatedBy { get; }
-```"
+Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that created the content."
 ---
 
 ## MessageEvent.CreatedBy Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.NET.Base.Events.MessageEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent.md 'Guilded.Base.Events.MessageEvent')
 
-The identifier of the user creator of the content.
+Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that created the content.
 
 ```csharp
-public Guilded.NET.Base.HashId CreatedBy { get; }
+public Guilded.Base.HashId CreatedBy { get; }
 ```
 
 ### Remarks
   
-The identifier of the user that created this content.  
-  
 If webhook or bot created this reaction, the value of this property will be `Ann6LewA`.
 
 #### Property Value
-[HashId](HashId 'Guilded.NET.Base.HashId')  
+[HashId](HashId.md 'Guilded.Base.HashId')  
 User ID

@@ -7,15 +7,11 @@ tags:
   - method
 description: "
 
-Gets a hashcode of this object.
-
-```csharp
-public override int GetHashCode();
-```"
+Gets a hashcode of this object."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.GetHashCode() Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.NET.Base.Events.MessageDeletedEvent.MessageDeleted')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
 Gets a hashcode of this object.
 

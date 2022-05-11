@@ -7,30 +7,26 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') with serialization information.
-
-```csharp
-protected GuildedException(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
-```"
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with serialization information."
 ---
 
 ## GuildedException(SerializationInfo, StreamingContext) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.NET.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
 
-Creates a new instance of [GuildedException](GuildedException 'Guilded.NET.Base.GuildedException') with serialization information.
+Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with serialization information.
 
 ```csharp
-protected GuildedException(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+protected GuildedException(SerializationInfo info, StreamingContext context);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.GuildedException.GuildedException(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info'></a>
+<a name='Guilded.Base.GuildedException.GuildedException(SerializationInfo,StreamingContext).info'></a>
 
 `info` [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Serialization.SerializationInfo 'System.Runtime.Serialization.SerializationInfo')
 
 The information about serialization that errored
 
-<a name='Guilded.NET.Base.GuildedException.GuildedException(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context'></a>
+<a name='Guilded.Base.GuildedException.GuildedException(SerializationInfo,StreamingContext).context'></a>
 
 `context` [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Serialization.StreamingContext 'System.Runtime.Serialization.StreamingContext')
 

@@ -7,27 +7,21 @@ tags:
   - property
 description: "
 
-The identifier of the webhook creator of the reaction.
-
-```csharp
-public System.Nullable<System.Guid> CreatedByWebhook { get; }
-```"
+Gets the identifier of [the webhook](Webhook.md 'Guilded.Base.Servers.Webhook') that created the reaction."
 ---
 
 ## Reaction.CreatedByWebhook Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.NET.Base.Content.Reaction')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction.md 'Guilded.Base.Content.Reaction')
 
-The identifier of the webhook creator of the reaction.
+Gets the identifier of [the webhook](Webhook.md 'Guilded.Base.Servers.Webhook') that created the reaction.
 
 ```csharp
-public System.Nullable<System.Guid> CreatedByWebhook { get; }
+public System.Nullable<Guid> CreatedByWebhook { get; }
 ```
 
 ### Remarks
-  
-The identifier of the webhook that posted created this reaction.  
 > **Note:**    
-> Currently, only chat messages can be created by Webhooks.
+> Currently, only chat messages can be created by [webhooks](Webhook.md 'Guilded.Base.Servers.Webhook').
 
 #### Property Value
 [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')  

@@ -7,25 +7,17 @@ tags:
   - property
 description: "
 
-The name or identifier in this social link.
-
-```csharp
-public string Handle { get; }
-```"
+Gets the name, unique identifier or unique tag of the [user](User.md 'Guilded.Base.Users.User') in this social link."
 ---
 
 ## SocialLink.Handle Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.NET.Base.Users.SocialLink')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink.md 'Guilded.Base.Users.SocialLink')
 
-The name or identifier in this social link.
+Gets the name, unique identifier or unique tag of the [user](User.md 'Guilded.Base.Users.User') in this social link.
 
 ```csharp
-public string Handle { get; }
+public string? Handle { get; }
 ```
-
-### Remarks
-  
-Defines a unique name or identifier of the user in the defined social link.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

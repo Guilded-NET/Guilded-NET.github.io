@@ -7,63 +7,53 @@ tags:
   - method
 description: "
 
-Updates the message.
-
-```csharp
-public abstract System.Threading.Tasks.Task<Guilded.NET.Base.Content.Message> UpdateMessageAsync(System.Guid channelId, System.Guid messageId, string content);
-```"
+Edits the [content](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).content 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).content') of a [message](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).message 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).message') in a [channel](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).channel 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).channel')."
 ---
 
 ## BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.NET.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
 
-Updates the message.
+Edits the [content](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).content 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).content') of a [message](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).message 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).message') in a [channel](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).channel 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).channel').
 
 ```csharp
-public abstract System.Threading.Tasks.Task<Guilded.NET.Base.Content.Message> UpdateMessageAsync(System.Guid channelId, System.Guid messageId, string content);
+public abstract System.Threading.Tasks.Task<Guilded.Base.Content.Message> UpdateMessageAsync(Guid channel, Guid message, string content);
 ```
-
-### Remarks
-  
-Edits the contents of the specified message.  
-  
-The [content](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string)#Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid,System.Guid,string).content 'Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, string).content') will be formatted in Markdown.
 #### Parameters
 
-<a name='Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid,System.Guid,string).channelId'></a>
+<a name='Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).channel'></a>
 
-`channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
+`channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
 The identifier of the parent channel
 
-<a name='Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid,System.Guid,string).messageId'></a>
+<a name='Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).message'></a>
 
-`messageId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
+`message` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
 The identifier of the message to edit
 
-<a name='Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid,System.Guid,string).content'></a>
+<a name='Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).content'></a>
 
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The contents of the message in Markdown plain text
+The new text contents of the message in Markdown plain text
 
 #### Exceptions
 
-[GuildedException](GuildedException 'Guilded.NET.Base.GuildedException')
+[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException 'Guilded.NET.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException 'Guilded.NET.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.NET.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When the [content](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string)#Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid,System.Guid,string).content 'Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, string).content') only consists of whitespace or is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
+When the [content](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).content 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).content') only consists of whitespace or is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
 
 [System.ArgumentOutOfRangeException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentOutOfRangeException 'System.ArgumentOutOfRangeException')  
-When the [content](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string)#Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid,System.Guid,string).content 'Guilded.NET.Base.BaseGuildedClient.UpdateMessageAsync(System.Guid, System.Guid, string).content') is above the message limit of 4000 characters
+When the [content](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).content 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string).content') is above the message limit of 4000 characters
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.NET.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message.md 'Guilded.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
 Updated message

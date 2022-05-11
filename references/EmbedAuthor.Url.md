@@ -7,25 +7,19 @@ tags:
   - property
 description: "
 
-The URL that author links.
-
-```csharp
-public System.Uri? Url { get; set; }
-```"
+Gets the URL that author links."
 ---
 
 ## EmbedAuthor.Url Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
 
-The URL that author links.
+Gets the URL that author links.
 
 ```csharp
-public System.Uri? Url { get; set; }
+public Uri? Url { get; set; }
 ```
 
 ### Remarks
-  
-The URL that author's name will hyperlink to.  
   
 Can be used to open up author's profile or link to the content of the embed.
 

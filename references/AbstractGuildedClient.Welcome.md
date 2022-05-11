@@ -7,33 +7,26 @@ tags:
   - property
 description: "
 
-An event that is received once WebSocket is initiated.
-
-```csharp
-public System.IObservable<Guilded.NET.Base.Events.WelcomeEvent> Welcome { get; }
-```"
+Represents an event with the opcode `1` that is received once WebSocket connects or reconnects."
 ---
 
 ## AbstractGuildedClient.Welcome Property
-###### **Assembly:** `Guilded.NET`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.NET.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
 
-An event that is received once WebSocket is initiated.
+Represents an event with the opcode `1` that is received once WebSocket connects or reconnects.
 
 ```csharp
-public System.IObservable<Guilded.NET.Base.Events.WelcomeEvent> Welcome { get; }
+public IObservable<Guilded.Base.Events.WelcomeEvent> Welcome { get; }
 ```
 
 ### Remarks
   
-This event is received once WebSocket (re)connects to Guilded.  
-  
-[WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.  
-  
-This event has no name in API but has an event opcode of `1`.
+[WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.
 
 #### Property Value
-[System.IObservable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')[WelcomeEvent](WelcomeEvent 'Guilded.NET.Base.Events.WelcomeEvent')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1')
+[System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [ResumeEvent](ResumeEvent 'Guilded.NET.Base.Events.ResumeEvent')
-- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.NET.Base.GuildedWebsocketException')
+- [ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent')
+- [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
+- [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')

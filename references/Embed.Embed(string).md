@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with description [description](Embed.Embed(string)#Guilded.NET.Base.Embeds.Embed.Embed(string).description 'Guilded.NET.Base.Embeds.Embed.Embed(string).description').
-
-```csharp
-public Embed(string description);
-```"
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [description](Embed.Embed(string).md#Guilded.Base.Embeds.Embed.Embed(string).description 'Guilded.Base.Embeds.Embed.Embed(string).description')."
 ---
 
 ## Embed(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Creates a new instance of [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') with description [description](Embed.Embed(string)#Guilded.NET.Base.Embeds.Embed.Embed(string).description 'Guilded.NET.Base.Embeds.Embed.Embed(string).description').
+Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [description](Embed.Embed(string).md#Guilded.Base.Embeds.Embed.Embed(string).description 'Guilded.Base.Embeds.Embed.Embed(string).description').
 
 ```csharp
 public Embed(string description);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.Embed(string).description'></a>
+<a name='Guilded.Base.Embeds.Embed.Embed(string).description'></a>
 
 `description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 

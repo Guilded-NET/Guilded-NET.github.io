@@ -7,22 +7,14 @@ tags:
   - field
 description: "
 
-The URL to upload Guilded's media.
-
-```csharp
-public static readonly Uri MediaUrlUpload;
-```"
+The URL to upload Guilded's media from URLs."
 ---
 
 ## GuildedUrl.MediaUrlUpload Field
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.NET.Base.GuildedUrl')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl.md 'Guilded.Base.GuildedUrl')
 
-The URL to upload Guilded's media.
+The URL to upload Guilded's media from URLs.
 
 ```csharp
 public static readonly Uri MediaUrlUpload;
 ```
-
-### Remarks
-  
-The URL that will be used to upload URL links.

@@ -7,25 +7,19 @@ tags:
   - property
 description: "
 
-The title of the embed.
-
-```csharp
-public string Name { get; set; }
-```"
+Gets the title of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field."
 ---
 
 ## EmbedField.Name Property
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.NET.Base.Embeds.EmbedField')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField.md 'Guilded.Base.Embeds.EmbedField')
 
-The title of the embed.
+Gets the title of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field.
 
 ```csharp
 public string Name { get; set; }
 ```
 
 ### Remarks
-  
-The name or the title of the field that is displayed above [Value](EmbedField.Value 'Guilded.NET.Base.Embeds.EmbedField.Value').  
   
 The provided Markdown is ignored.
 

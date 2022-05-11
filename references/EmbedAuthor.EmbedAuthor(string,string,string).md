@@ -7,42 +7,33 @@ tags:
   - constructor
 description: "
 
-Creates a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') with optional URL [url](EmbedAuthor.EmbedAuthor(string,string,string)#Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url').
-
-```csharp
-public EmbedAuthor(string name, string? url=null, string? iconUrl=null);
-```"
+Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,string,string).md#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url')."
 ---
 
 ## EmbedAuthor(string, string, string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
 
-Creates a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.NET.Base.Embeds.EmbedAuthor') with optional URL [url](EmbedAuthor.EmbedAuthor(string,string,string)#Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url').
+Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,string,string).md#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url').
 
 ```csharp
 public EmbedAuthor(string name, string? url=null, string? iconUrl=null);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).name'></a>
+<a name='Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The name of the embed author
 
-<a name='Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url'></a>
+<a name='Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url'></a>
 
 `url` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The URL that author links
 
-<a name='Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).iconUrl'></a>
+<a name='Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).iconUrl'></a>
 
 `iconUrl` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The URL to author's icon
-
-#### Exceptions
-
-[System.UriFormatException](https://docs.microsoft.com/en-us/dotnet/api/System.UriFormatException 'System.UriFormatException')  
-[url](EmbedAuthor.EmbedAuthor(string,string,string)#Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url') or [iconUrl](EmbedAuthor.EmbedAuthor(string,string,string)#Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).iconUrl 'Guilded.NET.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).iconUrl') have bad [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') formatting

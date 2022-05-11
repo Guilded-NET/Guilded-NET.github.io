@@ -7,40 +7,23 @@ tags:
   - method
 description: "
 
-Sets the colour as the given parameter.
-
-```csharp
-public Guilded.NET.Base.Embeds.Embed SetColor(int argb);
-```"
+Sets the [left-side colour](Embed.Color.md 'Guilded.Base.Embeds.Embed.Color') as the given value."
 ---
 
 ## Embed.SetColor(int) Method
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.NET.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
 
-Sets the colour as the given parameter.
+Sets the [left-side colour](Embed.Color.md 'Guilded.Base.Embeds.Embed.Color') as the given value.
 
 ```csharp
-public Guilded.NET.Base.Embeds.Embed SetColor(int argb);
-```
-
-### Remarks
-  
-Sets [Color](Embed.Color 'Guilded.NET.Base.Embeds.Embed.Color') as a new instance of [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color') from parameter [argb](Embed.SetColor(int)#Guilded.NET.Base.Embeds.Embed.SetColor(int).argb 'Guilded.NET.Base.Embeds.Embed.SetColor(int).argb') in RGB format.
-
-### Example
-  
-```csharp  
-// Alpha channel is ignored  
-embed.SetColor(0xFFFFFF);  
+public Guilded.Base.Embeds.Embed SetColor(int argb);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.Embeds.Embed.SetColor(int).argb'></a>
+<a name='Guilded.Base.Embeds.Embed.SetColor(int).argb'></a>
 
 `argb` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
 
-The value of the colour
-
 #### Returns
-[Embed](Embed 'Guilded.NET.Base.Embeds.Embed')  
-Current [Embed](Embed 'Guilded.NET.Base.Embeds.Embed') instance
+[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance

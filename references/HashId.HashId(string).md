@@ -7,24 +7,20 @@ tags:
   - constructor
 description: "
 
-The identifier for Guilded teams, users, etc.
-
-```csharp
-public HashId(string id);
-```"
+Initializes a new instance of [HashId](HashId.md 'Guilded.Base.HashId')."
 ---
 
 ## HashId(string) Constructor
-###### **Assembly:** `Guilded.NET.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.NET.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
 
-The identifier for Guilded teams, users, etc.
+Initializes a new instance of [HashId](HashId.md 'Guilded.Base.HashId').
 
 ```csharp
 public HashId(string id);
 ```
 #### Parameters
 
-<a name='Guilded.NET.Base.HashId.HashId(string).id'></a>
+<a name='Guilded.Base.HashId.HashId(string).id'></a>
 
 `id` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
