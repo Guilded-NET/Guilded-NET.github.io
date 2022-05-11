@@ -7,47 +7,57 @@ tags:
     - Guilded.NET
     - Website
 ---
+<div align="center">
 
-![Banner](https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Banner.png)
+[![Banner](https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Banner.png)](https://github.com/Guilded-NET/Guilded.NET)
 
-
-# What is **Guilded.NET**?
+# 🟡 Guilded.NET
+</div>
 
 Guilded.NET is a free and open-source unofficial API wrapper for [Guilded](https://guilded.gg/) written on .NET platform. It allows creating bots, webhooks and interacting any other way with Guilded API.
 
-- To get started with **Guilded.NET**, check out [documentation page](/docs).
-- To see all **Guilded.NET** references, check out [reference page](/references).
+[![Version](https://img.shields.io/badge/Version-0.7.1-red?style=for-the-badge)](https://github.com/IdkGoodName/Guilded.NET) [![Version](https://img.shields.io/badge/Version-Beta-orange?style=for-the-badge)](https://github.com/Guilded-NET/Guilded.NET)
 
-## Installing
+## 📥 Installing
 
-To add Guilded.NET to your existing project:
+Guilded.NET is available as a package on [NuGet](https://www.nuget.org/packages/Guilded/) (or [FuGet](https://www.fuget.org/packages/Guilded/)).
+
+You can run this command to add Guilded.NET to an existing .NET project:
 
 ```bash
 dotnet add package Guilded
 ```
 
-To create a new Guilded.NET project:
+Otherwise, you can install Guilded.NET templates and create new Guilded.NET projects:
 
 ```bash
 dotnet new -i Guilded.Templates
 dotnet new guilded.bot
 ```
 
-## Example
+## ⚙️ Using Guilded.NET
 
-Here's an example of a minimal bot with a "ping" command in C# 10:
+You can check out [Guilded.NET's](https://guilded-net.github.io/docs) guide to get started on your bot. If you want to see everything that Guilded.NET offers, check out [reference page](https://guilded-net.github.io/references).
+
+It is recommended to use .NET 5 or above for Guilded.NET. While Guilded.NET supports .NET Core 3.0 or similar for now, this will change in the kind-of-late future.
+
+## 📙 Example
+
+Here's a quick example of Guilded.NET bot with `!ping` command:
 
 ```cs
-// Program.cs
 using System.Reactive.Linq;
 using Guilded;
 
 string auth   = "your_bots_auth_token",
        prefix = "!";
 
-using GuildedBotClient client = new(auth);
+using var client = new GuildedBotClient(auth);
 
-client.Prepared += (_, _) => Console.WriteLine("The bot is prepared!");
+client.Prepared
+      .Subscribe(me =>
+          Console.WriteLine("The bot is prepared!\nLogged in as \"{0}\" with the ID \"{1}\"", me.Name, me.Id)
+      );
 
 // Wait for !ping messages
 client.MessageCreated
@@ -58,34 +68,19 @@ client.MessageCreated
 
 await client.ConnectAsync();
 
-// Don't close the program when the bot connects
+// Don't close the program when the bot connects; not recommended to put code after this
 await Task.Delay(-1);
 ```
 {: data-filename="Program.cs"}
 
-(Implicit usings option is enabled)
+(The showcased code uses enabled implicit usings option)
 
+## ⁉️ Support
 
-## Goals
+If you need help related to Guilded.NET, you can check out these places:
+
+- [Programming Space](https://guilded.gg/programming)
+
+## ✅ Goals
 
 Our goal is to provide a library that is consistent and fast, while also maintaining friendliness towards the bot developers. API library that does not bite bot developer's hand allows bot developers to focus more on their code, have fun in what they are doing and have easier time creating their bots. Consistency helps code be more predictable, easier to rewrite and waste less time. As such, these 3 points are our main goals while maintaining Guilded.NET.
-
-## Other information
-
-### Links
-- [Website](https://guilded-net.github.io/)
-- [NuGet](https://www.nuget.org/packages/Guilded/)
-- [FuGet](https://www.fuget.org/packages/Guilded/)
-
-### Maintainers
-- **[IdkGoodName](https://guilded.gg/profile/R40Mp0Wd)** - leading maintainer
-
-### Libraries
-- **NewtonSoft.Json** - Used as a library to (de)serialize Guilded.NET models.
-- **RestSharp** - Used for REST clients
-- **Websocket.Client** - Used for WebSocket clients
-- **DefaultDocumentation** - Generates documentation/references from .NET XML documentation
-
-## See also
-- **[Guilded.NET Discussions Group](https://www.guilded.gg/guilded-api/groups/aDk5j9Jz/channels/8c247143-2009-415b-ab99-97912c0685bc/announcements)**
-- **[Programming Space](https://guilded.gg/programming)**
