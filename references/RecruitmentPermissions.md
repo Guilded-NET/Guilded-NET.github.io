@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to recruiting."
+Represents team permissions related to recruiting in applications."
 ---
 
 ## RecruitmentPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to recruiting.
+Represents team permissions related to recruiting in applications.
 
 ```csharp
 public enum RecruitmentPermissions
 ```
-
-### Remarks
-  
-Defines team permissions related to recruiting in applications.
 ### Fields
 
 <a name='Guilded.Base.Permissions.RecruitmentPermissions.All'></a>
@@ -57,9 +53,9 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [ApproveApplications](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications 'Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications')  
-- [EditApplications](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.EditApplications 'Guilded.Base.Permissions.RecruitmentPermissions.EditApplications')  
-- [ModifyStatus](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus 'Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus')
+- [ApproveApplications](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications 'Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications')  
+- [EditApplications](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.EditApplications 'Guilded.Base.Permissions.RecruitmentPermissions.EditApplications')  
+- [ModifyStatus](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus 'Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus')
 
 <a name='Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus'></a>
 
@@ -78,3 +74,22 @@ No given permissions.
 `ViewApplications` 2
 
 Allows you to view server and game applications
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Updates the specified webhook in the specified server."
+Edits the webhook."
 ---
 
 ## WebhookEvent.UpdateAsync(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
-Updates the specified webhook in the specified server.
+Edits the webhook.
 
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> UpdateAsync(string name);
@@ -21,30 +21,30 @@ public System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> UpdateAsync(str
 
 ### Remarks
   
-Webhooks can moved between channels using 'newChannel' parameter.
+[Webhook](Webhook 'Guilded.Base.Servers.Webhook') can moved between [channels](ServerChannel 'Guilded.Base.Servers.ServerChannel') using 'newChannel' parameter.
 #### Parameters
 
 <a name='Guilded.Base.Events.WebhookEvent.UpdateAsync(string).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The new name of the webhook
+The new name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-The specified [name](WebhookEvent.UpdateAsync(string).md#Guilded.Base.Events.WebhookEvent.UpdateAsync(string).name 'Guilded.Base.Events.WebhookEvent.UpdateAsync(string).name') is null, empty or whitespace
+The specified [name](WebhookEvent.UpdateAsync(string)#Guilded.Base.Events.WebhookEvent.UpdateAsync(string).name 'Guilded.Base.Events.WebhookEvent.UpdateAsync(string).name') is null, empty or whitespace
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Webhook](Webhook.md 'Guilded.Base.Servers.Webhook')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Updated webhook
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Webhook](Webhook 'Guilded.Base.Servers.Webhook')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Updated [webhook](Webhook 'Guilded.Base.Servers.Webhook')

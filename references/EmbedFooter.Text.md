@@ -11,7 +11,7 @@ Gets the text contents of the footer."
 ---
 
 ## EmbedFooter.Text Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
 
 Gets the text contents of the footer.
 

@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with an [image](Embed.Embed(string,string,Uri).md#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).image 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).image') and a [title](Embed.Embed(string,string,Uri).md#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).title 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).title')."
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with an [image](Embed.Embed(string,string,Uri)#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).image 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).image') and a [title](Embed.Embed(string,string,Uri)#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).title 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).title')."
 ---
 
 ## Embed(string, string, Uri) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with an [image](Embed.Embed(string,string,Uri).md#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).image 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).image') and a [title](Embed.Embed(string,string,Uri).md#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).title 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).title').
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with an [image](Embed.Embed(string,string,Uri)#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).image 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).image') and a [title](Embed.Embed(string,string,Uri)#Guilded.Base.Embeds.Embed.Embed(string,string,Uri).title 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri).title').
 
 ```csharp
 public Embed(string title, string description, Uri image);
@@ -24,16 +24,16 @@ public Embed(string title, string description, Uri image);
 
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The title of the embed
+The title of [an embed](Embed 'Guilded.Base.Embeds.Embed')
 
 <a name='Guilded.Base.Embeds.Embed.Embed(string,string,Uri).description'></a>
 
 `description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The description text of the embed
+The description text of [an embed](Embed 'Guilded.Base.Embeds.Embed')
 
 <a name='Guilded.Base.Embeds.Embed.Embed(string,string,Uri).image'></a>
 
 `image` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
-The image of the embed
+The image of [an embed](Embed 'Guilded.Base.Embeds.Embed')

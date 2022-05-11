@@ -11,7 +11,7 @@ Gets a hashcode of this object."
 ---
 
 ## FormId.GetHashCode() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId.md 'Guilded.Base.FormId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.Base.FormId')
 
 Gets a hashcode of this object.
 

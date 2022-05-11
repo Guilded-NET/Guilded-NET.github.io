@@ -11,7 +11,7 @@ Represents an event with the opcode `1` that is received once WebSocket connects
 ---
 
 ## AbstractGuildedClient.Welcome Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Represents an event with the opcode `1` that is received once WebSocket connects or reconnects.
 
@@ -21,12 +21,12 @@ public IObservable<Guilded.Base.Events.WelcomeEvent> Welcome { get; }
 
 ### Remarks
   
-[WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.
+[WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.
 
 #### Property Value
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent')
-- [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
-- [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')
+- [ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent')
+- [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
+- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')

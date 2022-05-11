@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Removes the nickname of the specified [member](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') in the [server](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).server')."
+Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## BaseGuildedClient.DeleteNicknameAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Removes the nickname of the specified [member](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') in the [server](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).server').
+Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
 public abstract System.Threading.Tasks.Task DeleteNicknameAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -22,28 +22,27 @@ public abstract System.Threading.Tasks.Task DeleteNicknameAsync(Guilded.Base.Has
 
 <a name='Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to modify member in
+The server to modify [member](Member 'Guilded.Base.Servers.Member') in
 
 <a name='Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
-`member` [HashId](HashId.md 'Guilded.Base.HashId')
+`member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the member to update
+The identifier of [the member](Member 'Guilded.Base.Servers.Member') to update
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
-Nickname
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

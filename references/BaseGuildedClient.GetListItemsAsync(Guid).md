@@ -7,16 +7,16 @@ tags:
   - method
 description: "
 
-Gets a set of list items from a [channel](BaseGuildedClient.GetListItemsAsync(Guid).md#Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel')."
+Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the [channel](BaseGuildedClient.GetListItemsAsync(Guid)#Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel')."
 ---
 
 ## BaseGuildedClient.GetListItemsAsync(Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Gets a set of list items from a [channel](BaseGuildedClient.GetListItemsAsync(Guid).md#Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel').
+Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the [channel](BaseGuildedClient.GetListItemsAsync(Guid)#Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel').
 
 ```csharp
-public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Guilded.Base.Content.ListItem<Guilded.Base.Content.ListItemNoteSummary>>> GetListItemsAsync(Guid channel);
+public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Guilded.Base.Content.ListItemSummary>> GetListItemsAsync(Guid channel);
 ```
 #### Parameters
 
@@ -24,18 +24,18 @@ public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the channel to get list items from
+The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to get list items from
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Guilded.Base.Content.ListItem&lt;](ListItem_T_.md 'Guilded.Base.Content.ListItem<T>')[ListItemNoteSummary](ListItemNoteSummary.md 'Guilded.Base.Content.ListItemNoteSummary')[&gt;](ListItem_T_.md 'Guilded.Base.Content.ListItem<T>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-List of list items
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[ListItemSummary](ListItemSummary 'Guilded.Base.Content.ListItemSummary')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+List of [list items](ListItem 'Guilded.Base.Content.ListItem')

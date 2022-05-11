@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(string,EmbedField[]).md#Guilded.Base.Embeds.Embed.Embed(string,Guilded.Base.Embeds.EmbedField[]).fields 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedField[]).fields')."
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(string,EmbedField[])#Guilded.Base.Embeds.Embed.Embed(string,Guilded.Base.Embeds.EmbedField[]).fields 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedField[]).fields')."
 ---
 
 ## Embed(string, EmbedField[]) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(string,EmbedField[]).md#Guilded.Base.Embeds.Embed.Embed(string,Guilded.Base.Embeds.EmbedField[]).fields 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedField[]).fields').
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(string,EmbedField[])#Guilded.Base.Embeds.Embed.Embed(string,Guilded.Base.Embeds.EmbedField[]).fields 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedField[]).fields').
 
 ```csharp
 public Embed(string description, params Guilded.Base.Embeds.EmbedField[] fields);
@@ -26,6 +26,6 @@ public Embed(string description, params Guilded.Base.Embeds.EmbedField[] fields)
 
 <a name='Guilded.Base.Embeds.Embed.Embed(string,Guilded.Base.Embeds.EmbedField[]).fields'></a>
 
-`fields` [EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
+`fields` [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
 The list of fields in this embed

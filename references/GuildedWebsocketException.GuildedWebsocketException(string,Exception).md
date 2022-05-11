@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException') with an [inner](GuildedWebsocketException.GuildedWebsocketException(string,Exception).md#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string,System.Exception).inner 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string, System.Exception).inner') explaining more."
+Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException') with an [inner](GuildedWebsocketException.GuildedWebsocketException(string,Exception)#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string,System.Exception).inner 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string, System.Exception).inner') explaining more."
 ---
 
 ## GuildedWebsocketException(string, Exception) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
 
-Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException') with an [inner](GuildedWebsocketException.GuildedWebsocketException(string,Exception).md#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string,System.Exception).inner 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string, System.Exception).inner') explaining more.
+Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException') with an [inner](GuildedWebsocketException.GuildedWebsocketException(string,Exception)#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string,System.Exception).inner 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string, System.Exception).inner') explaining more.
 
 ```csharp
 public GuildedWebsocketException(string message, System.Exception inner);

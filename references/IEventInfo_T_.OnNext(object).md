@@ -11,7 +11,7 @@ Notifies observers with OnNext."
 ---
 
 ## IEventInfo<T>.OnNext(object) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_.md 'Guilded.IEventInfo<T>')
+###### **Assembly:** `Guilded`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_ 'Guilded.IEventInfo<T>')
 
 Notifies observers with OnNext.
 
@@ -21,7 +21,7 @@ void OnNext(object value);
 
 ### Remarks
   
-Notifies all [Observable](IEventInfo_T_.Observable.md 'Guilded.IEventInfo<T>.Observable')'s observers.
+Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')'s observers.
 #### Parameters
 
 <a name='Guilded.IEventInfo_T_.OnNext(object).value'></a>

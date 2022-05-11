@@ -11,7 +11,7 @@ Gets the type of social link it is."
 ---
 
 ## SocialLink.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink.md 'Guilded.Base.Users.SocialLink')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
 
 Gets the type of social link it is.
 
@@ -20,5 +20,10 @@ public Guilded.Base.Users.SocialLinkType Type { get; }
 ```
 
 #### Property Value
-[SocialLinkType](SocialLinkType.md 'Guilded.Base.Users.SocialLinkType')  
+[SocialLinkType](SocialLinkType 'Guilded.Base.Users.SocialLinkType')  
 Social link platform
+
+### See Also
+- [SocialLink](SocialLink 'Guilded.Base.Users.SocialLink')
+- [ServiceId](SocialLink.ServiceId 'Guilded.Base.Users.SocialLink.ServiceId')
+- [Handle](SocialLink.Handle 'Guilded.Base.Users.SocialLink.Handle')

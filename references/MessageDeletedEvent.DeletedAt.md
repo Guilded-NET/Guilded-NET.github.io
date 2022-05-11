@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the date of when the message was deleted."
+Gets the date when the message was deleted."
 ---
 
 ## MessageDeletedEvent.DeletedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
 
-Gets the date of when the message was deleted.
+Gets the date when the message was deleted.
 
 ```csharp
 public System.DateTime DeletedAt { get; }

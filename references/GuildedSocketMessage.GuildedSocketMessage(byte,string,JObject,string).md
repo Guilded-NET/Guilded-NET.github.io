@@ -7,16 +7,16 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties."
+Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties."
 ---
 
 ## GuildedSocketMessage(byte, string, JObject, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
-Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties.
+Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties.
 
 ```csharp
-public GuildedSocketMessage(byte op, string? t, Newtonsoft.Json.Linq.JObject? d, string? s);
+public GuildedSocketMessage(byte op, string? t=null, Newtonsoft.Json.Linq.JObject? d=null, string? s=null);
 ```
 #### Parameters
 

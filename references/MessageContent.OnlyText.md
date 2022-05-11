@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets whether the message is [text-only](MessageContent.Content.md 'Guilded.Base.Content.MessageContent.Content') and has no other content."
+Gets whether the message is [text-only](MessageContent.Content 'Guilded.Base.Content.MessageContent.Content') and has no other content."
 ---
 
 ## MessageContent.OnlyText Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent.md 'Guilded.Base.Content.MessageContent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
 
-Gets whether the message is [text-only](MessageContent.Content.md 'Guilded.Base.Content.MessageContent.Content') and has no other content.
+Gets whether the message is [text-only](MessageContent.Content 'Guilded.Base.Content.MessageContent.Content') and has no other content.
 
 ```csharp
 public bool OnlyText { get; }

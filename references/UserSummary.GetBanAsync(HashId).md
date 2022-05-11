@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets the information about the ban of the member."
+Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban of member."
 ---
 
 ## UserSummary.GetBanAsync(HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary.md 'Guilded.Base.Users.UserSummary')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
-Gets the information about the ban of the member.
+Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban of member.
 
 ```csharp
 public System.Threading.Tasks.Task GetBanAsync(Guilded.Base.HashId server);
@@ -22,22 +22,22 @@ public System.Threading.Tasks.Task GetBanAsync(Guilded.Base.HashId server);
 
 <a name='Guilded.Base.Users.UserSummary.GetBanAsync(Guilded.Base.HashId).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server where the user has been banned
+The server where [the user](User 'Guilded.Base.Users.User') has been banned
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
-Member ban information
+member ban

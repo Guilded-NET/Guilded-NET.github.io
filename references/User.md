@@ -11,7 +11,7 @@ Represents the extended information about a user."
 ---
 
 ## User Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users.md 'Guilded.Base.Users')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
 
 Represents the extended information about a user.
 
@@ -19,16 +19,18 @@ Represents the extended information about a user.
 public class User : Guilded.Base.Users.UserSummary
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject.md 'Guilded.Base.ClientObject') &#129106; [UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary') &#129106; User
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.Base.ClientObject') &#129106; [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') &#129106; User
 
 | Constructors | |
 | :--- | :--- |
-| [User(HashId, UserType, string, DateTime)](User.User(HashId,UserType,string,DateTime).md 'Guilded.Base.Users.User.User(Guilded.Base.HashId, Guilded.Base.Users.UserType, string, System.DateTime)') | Initializes a new instance of [UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary') from the specified JSON properties. |
+| [User(HashId, string, DateTime, Uri, Uri, UserType)](User.User(HashId,string,DateTime,Uri,Uri,UserType) 'Guilded.Base.Users.User.User(Guilded.Base.HashId, string, System.DateTime, Uri, Uri, Guilded.Base.Users.UserType)') | Initializes a new instance of [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [CreatedAt](User.CreatedAt.md 'Guilded.Base.Users.User.CreatedAt') | Gets the date when the user has registered their account. |
+| [Banner](User.Banner 'Guilded.Base.Users.User.Banner') | Gets the global banner of [the user](User 'Guilded.Base.Users.User'). |
+| [CreatedAt](User.CreatedAt 'Guilded.Base.Users.User.CreatedAt') | Gets the date when [the user](User 'Guilded.Base.Users.User') has registered their account. |
 
 ### See Also
-- [SocialLink](SocialLink.md 'Guilded.Base.Users.SocialLink')
-- [UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')
+- [SocialLink](SocialLink 'Guilded.Base.Users.SocialLink')
+- [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')
+- [Me](Me 'Guilded.Base.Users.Me')

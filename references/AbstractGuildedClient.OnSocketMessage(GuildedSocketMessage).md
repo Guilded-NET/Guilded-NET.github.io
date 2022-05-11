@@ -11,7 +11,7 @@ When the socket message event is invoked."
 ---
 
 ## AbstractGuildedClient.OnSocketMessage(GuildedSocketMessage) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 When the socket message event is invoked.
 
@@ -21,11 +21,11 @@ protected void OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage message)
 
 ### Remarks
   
-Receives and handles received [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage') messages.
+Receives and handles received [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') messages.
 #### Parameters
 
 <a name='Guilded.AbstractGuildedClient.OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage).message'></a>
 
-`message` [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
+`message` [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
 A message received from a WebSocket

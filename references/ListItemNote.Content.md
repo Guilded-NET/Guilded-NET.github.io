@@ -11,7 +11,7 @@ The contents of the note in the item."
 ---
 
 ## ListItemNote.Content Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNote`](ListItemNote.md 'Guilded.Base.Content.ListItemNote')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNote`](ListItemNote 'Guilded.Base.Content.ListItemNote')
 
 The contents of the note in the item.
 

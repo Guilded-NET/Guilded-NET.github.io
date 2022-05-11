@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException') from WebSocket [message](GuildedWebsocketException.GuildedWebsocketException(ResponseMessage,string).md#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage,string).message 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage, string).message')."
+Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException') from WebSocket [message](GuildedWebsocketException.GuildedWebsocketException(ResponseMessage,string)#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage,string).message 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage, string).message')."
 ---
 
 ## GuildedWebsocketException(ResponseMessage, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
 
-Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException') from WebSocket [message](GuildedWebsocketException.GuildedWebsocketException(ResponseMessage,string).md#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage,string).message 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage, string).message').
+Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException') from WebSocket [message](GuildedWebsocketException.GuildedWebsocketException(ResponseMessage,string)#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage,string).message 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage, string).message').
 
 ```csharp
 public GuildedWebsocketException(Websocket.Client.ResponseMessage response, string message);

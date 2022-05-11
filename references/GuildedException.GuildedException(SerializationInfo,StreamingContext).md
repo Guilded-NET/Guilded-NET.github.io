@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with serialization information."
+Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.GuildedException') with serialization information."
 ---
 
 ## GuildedException(SerializationInfo, StreamingContext) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
-Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') with serialization information.
+Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.GuildedException') with serialization information.
 
 ```csharp
 protected GuildedException(SerializationInfo info, StreamingContext context);
@@ -31,3 +31,10 @@ The information about serialization that errored
 `context` [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Serialization.StreamingContext 'System.Runtime.Serialization.StreamingContext')
 
 The streaming context of the serialization
+
+### See Also
+- [GuildedException](GuildedException 'Guilded.Base.GuildedException')
+- [GuildedException()](GuildedException.GuildedException() 'Guilded.Base.GuildedException.GuildedException()')
+- [GuildedException(string)](GuildedException.GuildedException(string) 'Guilded.Base.GuildedException.GuildedException(string)')
+- [GuildedException(string, Exception)](GuildedException.GuildedException(string,Exception) 'Guilded.Base.GuildedException.GuildedException(string, System.Exception)')
+- [GuildedException(string, string, RestResponse)](GuildedException.GuildedException(string,string,RestResponse) 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse)')

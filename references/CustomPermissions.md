@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to customization."
+Represents team permissions related to nickname and emoji customizations."
 ---
 
 ## CustomPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to customization.
+Represents team permissions related to nickname and emoji customizations.
 
 ```csharp
 public enum CustomPermissions
 ```
-
-### Remarks
-  
-Defines team permissions related to nickname and emoji customizations.
 ### Fields
 
 <a name='Guilded.Base.Permissions.CustomPermissions.All'></a>
@@ -53,3 +49,22 @@ Members with this permission can change the nickname of others.
 `None` 0
 
 No given permissions.
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

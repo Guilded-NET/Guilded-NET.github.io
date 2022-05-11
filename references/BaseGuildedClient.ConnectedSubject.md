@@ -11,7 +11,7 @@ An event when the client gets connected."
 ---
 
 ## BaseGuildedClient.ConnectedSubject Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 An event when the client gets connected.
 
@@ -23,8 +23,8 @@ protected Subject<BaseGuildedClient> ConnectedSubject;
   
 An event that occurs once Guilded client connects to Guilded.  
   
-This usually occurs once [ConnectAsync()](BaseGuildedClient.ConnectAsync().md 'Guilded.Base.BaseGuildedClient.ConnectAsync()') is called and no errors get thrown.
+This usually occurs once [ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.Base.BaseGuildedClient.ConnectAsync()') is called and no errors get thrown.
 
 ### See Also
-- [ConnectAsync()](BaseGuildedClient.ConnectAsync().md 'Guilded.Base.BaseGuildedClient.ConnectAsync()')
-- [Disconnected](BaseGuildedClient.Disconnected.md 'Guilded.Base.BaseGuildedClient.Disconnected')
+- [ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.Base.BaseGuildedClient.ConnectAsync()')
+- [Disconnected](BaseGuildedClient.Disconnected 'Guilded.Base.BaseGuildedClient.Disconnected')

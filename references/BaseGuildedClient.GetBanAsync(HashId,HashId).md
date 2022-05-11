@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets the information about the ban of the [member](BaseGuildedClient.GetBanAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
+Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban of [member](BaseGuildedClient.GetBanAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## BaseGuildedClient.GetBanAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Gets the information about the ban of the [member](BaseGuildedClient.GetBanAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
+Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban of [member](BaseGuildedClient.GetBanAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.MemberBan> GetBanAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -22,28 +22,28 @@ public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.MemberBan> GetB
 
 <a name='Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server where the user has been banned
+The server where [the user](User 'Guilded.Base.Users.User') has been banned
 
 <a name='Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
-`member` [HashId](HashId.md 'Guilded.Base.HashId')
+`member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the member to get ban information of
+The identifier of [the member](Member 'Guilded.Base.Servers.Member') to get ban information of
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[MemberBan](MemberBan.md 'Guilded.Base.Servers.MemberBan')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Member ban information
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[member](BaseGuildedClient.GetBanAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') ban

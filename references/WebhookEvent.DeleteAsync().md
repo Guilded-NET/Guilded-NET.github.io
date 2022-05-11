@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Deletes the specified webhook."
+Deletes the webhook."
 ---
 
 ## WebhookEvent.DeleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
-Deletes the specified webhook.
+Deletes the webhook.
 
 ```csharp
 public System.Threading.Tasks.Task DeleteAsync();
@@ -21,15 +21,15 @@ public System.Threading.Tasks.Task DeleteAsync();
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

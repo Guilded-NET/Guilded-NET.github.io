@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-The date of when the note was created."
+the date when the note was created."
 ---
 
 ## ListItemNoteSummary.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary.md 'Guilded.Base.Content.ListItemNoteSummary')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
 
-The date of when the note was created.
+the date when the note was created.
 
 ```csharp
 public System.DateTime CreatedAt { get; }

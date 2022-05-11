@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Deletes a [doc](BaseGuildedClient.DeleteDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid,uint).doc 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint).doc') from a [channel](BaseGuildedClient.DeleteDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid,uint).channel 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint).channel')."
+Deletes the [doc](BaseGuildedClient.DeleteDocAsync(Guid,uint)#Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid,uint).doc 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint).doc')."
 ---
 
 ## BaseGuildedClient.DeleteDocAsync(Guid, uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Deletes a [doc](BaseGuildedClient.DeleteDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid,uint).doc 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint).doc') from a [channel](BaseGuildedClient.DeleteDocAsync(Guid,uint).md#Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid,uint).channel 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint).channel').
+Deletes the [doc](BaseGuildedClient.DeleteDocAsync(Guid,uint)#Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid,uint).doc 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint).doc').
 
 ```csharp
 public abstract System.Threading.Tasks.Task DeleteDocAsync(Guid channel, uint doc);
@@ -24,23 +24,23 @@ public abstract System.Threading.Tasks.Task DeleteDocAsync(Guid channel, uint do
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the parent channel
+The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid,uint).doc'></a>
 
 `doc` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
-The identifier of the document to delete
+The identifier of [the document](Doc 'Guilded.Base.Content.Doc') to delete
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

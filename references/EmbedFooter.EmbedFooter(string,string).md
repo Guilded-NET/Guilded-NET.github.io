@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string).md#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text')."
+Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string)#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text')."
 ---
 
 ## EmbedFooter(string, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
 
-Initializes a new instance of [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string).md#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text').
+Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string)#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text').
 
 ```csharp
 public EmbedFooter(string text, string iconUrl);
@@ -35,4 +35,8 @@ The URL to footer's icon
 #### Exceptions
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When [text](EmbedFooter.EmbedFooter(string,string).md#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
+When [text](EmbedFooter.EmbedFooter(string,string)#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
+
+### See Also
+- [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
+- [EmbedFooter(string, string)](EmbedFooter.EmbedFooter(string,string) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string)')

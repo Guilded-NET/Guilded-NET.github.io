@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the text contents of the document."
+Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent')."
 ---
 
 ## TitledContent.Content Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent.md 'Guilded.Base.Content.TitledContent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
 
-Gets the text contents of the document.
+Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
 
 ```csharp
 public string Content { get; }
@@ -26,3 +26,7 @@ The contents are formatted in Markdown. This includes images and videos, which a
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
 Markdown string
+
+### See Also
+- [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')
+- [Title](TitledContent.Title 'Guilded.Base.Content.TitledContent.Title')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Removes the [member](AbstractGuildedClient.KickMemberAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') from the [server](AbstractGuildedClient.KickMemberAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).server')."
+Removes the [member](AbstractGuildedClient.KickMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') from the [server](AbstractGuildedClient.KickMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).server')."
 ---
 
 ## AbstractGuildedClient.KickMemberAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Removes the [member](AbstractGuildedClient.KickMemberAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') from the [server](AbstractGuildedClient.KickMemberAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).server').
+Removes the [member](AbstractGuildedClient.KickMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') from the [server](AbstractGuildedClient.KickMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).server').
 
 ```csharp
 public override System.Threading.Tasks.Task KickMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -22,27 +22,27 @@ public override System.Threading.Tasks.Task KickMemberAsync(Guilded.Base.HashId 
 
 <a name='Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to kick [the member](Member.md 'Guilded.Base.Servers.Member') from
+The server to kick [the member](Member 'Guilded.Base.Servers.Member') from
 
 <a name='Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
-`member` [HashId](HashId.md 'Guilded.Base.HashId')
+`member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the member](Member.md 'Guilded.Base.Servers.Member') to kick
+The identifier of [the member](Member 'Guilded.Base.Servers.Member') to kick
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

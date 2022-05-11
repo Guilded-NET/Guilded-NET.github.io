@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Adds a new [field](Embed.AddField(EmbedField).md#Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field 'Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field') to the [current set of fields](Embed.Fields.md 'Guilded.Base.Embeds.Embed.Fields')."
+Adds a new [field](Embed.AddField(EmbedField)#Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field 'Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field') to the [current set of fields](Embed.Fields 'Guilded.Base.Embeds.Embed.Fields')."
 ---
 
 ## Embed.AddField(EmbedField) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Adds a new [field](Embed.AddField(EmbedField).md#Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field 'Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field') to the [current set of fields](Embed.Fields.md 'Guilded.Base.Embeds.Embed.Fields').
+Adds a new [field](Embed.AddField(EmbedField)#Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field 'Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field') to the [current set of fields](Embed.Fields 'Guilded.Base.Embeds.Embed.Fields').
 
 ```csharp
 public Guilded.Base.Embeds.Embed AddField(Guilded.Base.Embeds.EmbedField field);
@@ -22,7 +22,7 @@ public Guilded.Base.Embeds.Embed AddField(Guilded.Base.Embeds.EmbedField field);
 
 <a name='Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field'></a>
 
-`field` [EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField')
+`field` [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField')
 
 A new field to add
 
@@ -32,5 +32,5 @@ A new field to add
 When the combined field list exceeds max field limit of `25`
 
 #### Returns
-[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
-Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance
+[Embed](Embed 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed 'Guilded.Base.Embeds.Embed') instance

@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [HashId](HashId.md 'Guilded.Base.HashId')."
+Initializes a new instance of [HashId](HashId 'Guilded.Base.HashId')."
 ---
 
 ## HashId(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.Base.HashId')
 
-Initializes a new instance of [HashId](HashId.md 'Guilded.Base.HashId').
+Initializes a new instance of [HashId](HashId 'Guilded.Base.HashId').
 
 ```csharp
 public HashId(string id);

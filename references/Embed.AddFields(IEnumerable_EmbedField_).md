@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Adds new [fields](Embed.AddFields(IEnumerable_EmbedField_).md#Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable_Guilded.Base.Embeds.EmbedField_).fields 'Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable<Guilded.Base.Embeds.EmbedField>).fields') to the [current set of fields](Embed.Fields.md 'Guilded.Base.Embeds.Embed.Fields')."
+Adds new [fields](Embed.AddFields(IEnumerable_EmbedField_)#Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable_Guilded.Base.Embeds.EmbedField_).fields 'Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable<Guilded.Base.Embeds.EmbedField>).fields') to the [current set of fields](Embed.Fields 'Guilded.Base.Embeds.Embed.Fields')."
 ---
 
 ## Embed.AddFields(IEnumerable<EmbedField>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Adds new [fields](Embed.AddFields(IEnumerable_EmbedField_).md#Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable_Guilded.Base.Embeds.EmbedField_).fields 'Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable<Guilded.Base.Embeds.EmbedField>).fields') to the [current set of fields](Embed.Fields.md 'Guilded.Base.Embeds.Embed.Fields').
+Adds new [fields](Embed.AddFields(IEnumerable_EmbedField_)#Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable_Guilded.Base.Embeds.EmbedField_).fields 'Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable<Guilded.Base.Embeds.EmbedField>).fields') to the [current set of fields](Embed.Fields 'Guilded.Base.Embeds.Embed.Fields').
 
 ```csharp
 public Guilded.Base.Embeds.Embed AddFields(System.Collections.Generic.IEnumerable<Guilded.Base.Embeds.EmbedField> fields);
@@ -22,7 +22,7 @@ public Guilded.Base.Embeds.Embed AddFields(System.Collections.Generic.IEnumerabl
 
 <a name='Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable_Guilded.Base.Embeds.EmbedField_).fields'></a>
 
-`fields` [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')[EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')
+`fields` [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')[EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')
 
 The list of fields to add
 
@@ -32,5 +32,5 @@ The list of fields to add
 When the combined field list exceeds max field limit of `25`
 
 #### Returns
-[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
-Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance
+[Embed](Embed 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed 'Guilded.Base.Embeds.Embed') instance

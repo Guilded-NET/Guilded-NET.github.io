@@ -11,7 +11,7 @@ Represents an event with an event opcode of `2` that occurs when the client pass
 ---
 
 ## AbstractGuildedClient.Resume Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Represents an event with an event opcode of `2` that occurs when the client passes last event message identifier.
 
@@ -23,7 +23,7 @@ public IObservable<Guilded.Base.Events.ResumeEvent> Resume { get; }
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
-- [GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
-- [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')
-- [LastMessageId](BaseGuildedClient.LastMessageId.md 'Guilded.Base.BaseGuildedClient.LastMessageId')
+- [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
+- [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
+- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
+- [LastMessageId](BaseGuildedClient.LastMessageId 'Guilded.Base.BaseGuildedClient.LastMessageId')

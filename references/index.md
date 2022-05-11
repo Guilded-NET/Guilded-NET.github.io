@@ -1,834 +1,947 @@
-- **[Guilded](Guilded.md 'Guilded')** `Namespace`
-  - **[AbstractGuildedClient](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')** `Class`
-    - **[AbstractGuildedClient()](AbstractGuildedClient.AbstractGuildedClient().md 'Guilded.AbstractGuildedClient.AbstractGuildedClient()')** `Constructor`
-    - **[PreparedSubject](AbstractGuildedClient.PreparedSubject.md 'Guilded.AbstractGuildedClient.PreparedSubject')** `Field`
-    - **[ChannelCreated](AbstractGuildedClient.ChannelCreated.md 'Guilded.AbstractGuildedClient.ChannelCreated')** `Property`
-    - **[ChannelDeleted](AbstractGuildedClient.ChannelDeleted.md 'Guilded.AbstractGuildedClient.ChannelDeleted')** `Property`
-    - **[ChannelUpdated](AbstractGuildedClient.ChannelUpdated.md 'Guilded.AbstractGuildedClient.ChannelUpdated')** `Property`
-    - **[DocCreated](AbstractGuildedClient.DocCreated.md 'Guilded.AbstractGuildedClient.DocCreated')** `Property`
-    - **[DocDeleted](AbstractGuildedClient.DocDeleted.md 'Guilded.AbstractGuildedClient.DocDeleted')** `Property`
-    - **[DocUpdated](AbstractGuildedClient.DocUpdated.md 'Guilded.AbstractGuildedClient.DocUpdated')** `Property`
-    - **[GuildedEvents](AbstractGuildedClient.GuildedEvents.md 'Guilded.AbstractGuildedClient.GuildedEvents')** `Property`
-    - **[IsPrepared](AbstractGuildedClient.IsPrepared.md 'Guilded.AbstractGuildedClient.IsPrepared')** `Property`
-    - **[ListItemCompleted](AbstractGuildedClient.ListItemCompleted.md 'Guilded.AbstractGuildedClient.ListItemCompleted')** `Property`
-    - **[ListItemCreated](AbstractGuildedClient.ListItemCreated.md 'Guilded.AbstractGuildedClient.ListItemCreated')** `Property`
-    - **[ListItemDeleted](AbstractGuildedClient.ListItemDeleted.md 'Guilded.AbstractGuildedClient.ListItemDeleted')** `Property`
-    - **[ListItemUncompleted](AbstractGuildedClient.ListItemUncompleted.md 'Guilded.AbstractGuildedClient.ListItemUncompleted')** `Property`
-    - **[ListItemUpdated](AbstractGuildedClient.ListItemUpdated.md 'Guilded.AbstractGuildedClient.ListItemUpdated')** `Property`
-    - **[Me](AbstractGuildedClient.Me.md 'Guilded.AbstractGuildedClient.Me')** `Property`
-    - **[MemberBanned](AbstractGuildedClient.MemberBanned.md 'Guilded.AbstractGuildedClient.MemberBanned')** `Property`
-    - **[MemberJoined](AbstractGuildedClient.MemberJoined.md 'Guilded.AbstractGuildedClient.MemberJoined')** `Property`
-    - **[MemberRemoved](AbstractGuildedClient.MemberRemoved.md 'Guilded.AbstractGuildedClient.MemberRemoved')** `Property`
-    - **[MemberUnbanned](AbstractGuildedClient.MemberUnbanned.md 'Guilded.AbstractGuildedClient.MemberUnbanned')** `Property`
-    - **[MemberUpdated](AbstractGuildedClient.MemberUpdated.md 'Guilded.AbstractGuildedClient.MemberUpdated')** `Property`
-    - **[MessageCreated](AbstractGuildedClient.MessageCreated.md 'Guilded.AbstractGuildedClient.MessageCreated')** `Property`
-    - **[MessageDeleted](AbstractGuildedClient.MessageDeleted.md 'Guilded.AbstractGuildedClient.MessageDeleted')** `Property`
-    - **[MessageUpdated](AbstractGuildedClient.MessageUpdated.md 'Guilded.AbstractGuildedClient.MessageUpdated')** `Property`
-    - **[Prepared](AbstractGuildedClient.Prepared.md 'Guilded.AbstractGuildedClient.Prepared')** `Property`
-    - **[Resume](AbstractGuildedClient.Resume.md 'Guilded.AbstractGuildedClient.Resume')** `Property`
-    - **[RolesUpdated](AbstractGuildedClient.RolesUpdated.md 'Guilded.AbstractGuildedClient.RolesUpdated')** `Property`
-    - **[WebhookCreated](AbstractGuildedClient.WebhookCreated.md 'Guilded.AbstractGuildedClient.WebhookCreated')** `Property`
-    - **[WebhookUpdated](AbstractGuildedClient.WebhookUpdated.md 'Guilded.AbstractGuildedClient.WebhookUpdated')** `Property`
-    - **[Welcome](AbstractGuildedClient.Welcome.md 'Guilded.AbstractGuildedClient.Welcome')** `Property`
-    - **[XpAdded](AbstractGuildedClient.XpAdded.md 'Guilded.AbstractGuildedClient.XpAdded')** `Property`
-    - **[AddMembershipAsync(HashId, HashId)](AbstractGuildedClient.AddMembershipAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[AddReactionAsync(Guid, Guid, uint)](AbstractGuildedClient.AddReactionAsync(Guid,Guid,uint).md 'Guilded.AbstractGuildedClient.AddReactionAsync(Guid, Guid, uint)')** `Method`
-    - **[AddReactionAsync(Guid, uint, uint)](AbstractGuildedClient.AddReactionAsync(Guid,uint,uint).md 'Guilded.AbstractGuildedClient.AddReactionAsync(Guid, uint, uint)')** `Method`
-    - **[AddRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.AddRoleAsync(HashId,HashId,uint).md 'Guilded.AbstractGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
-    - **[AddXpAsync(HashId, HashId, long)](AbstractGuildedClient.AddXpAsync(HashId,HashId,long).md 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long)')** `Method`
-    - **[AddXpAsync(HashId, uint, long)](AbstractGuildedClient.AddXpAsync(HashId,uint,long).md 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long)')** `Method`
-    - **[BanMemberAsync(HashId, HashId, string)](AbstractGuildedClient.BanMemberAsync(HashId,HashId,string).md 'Guilded.AbstractGuildedClient.BanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
-    - **[CompleteListItemAsync(Guid, Guid)](AbstractGuildedClient.CompleteListItemAsync(Guid,Guid).md 'Guilded.AbstractGuildedClient.CompleteListItemAsync(Guid, Guid)')** `Method`
-    - **[ConnectAsync()](AbstractGuildedClient.ConnectAsync().md 'Guilded.AbstractGuildedClient.ConnectAsync()')** `Method`
-    - **[CreateChannelAsync(HashId, string, ChannelType, string, Nullable&lt;HashId&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](AbstractGuildedClient.CreateChannelAsync(HashId,string,ChannelType,string,Nullable_HashId_,Nullable_uint_,Nullable_bool_).md 'Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId, string, Guilded.Base.Servers.ChannelType, string, System.Nullable<Guilded.Base.HashId>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
-    - **[CreateDocAsync(Guid, string, string)](AbstractGuildedClient.CreateDocAsync(Guid,string,string).md 'Guilded.AbstractGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
-    - **[CreateForumThreadAsync(Guid, string, string)](AbstractGuildedClient.CreateForumThreadAsync(Guid,string,string).md 'Guilded.AbstractGuildedClient.CreateForumThreadAsync(Guid, string, string)')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, MessageContent)](AbstractGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent).md 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateListItemAsync(Guid, string, string)](AbstractGuildedClient.CreateListItemAsync(Guid,string,string).md 'Guilded.AbstractGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
-    - **[CreateMessageAsync(Guid, MessageContent)](AbstractGuildedClient.CreateMessageAsync(Guid,MessageContent).md 'Guilded.AbstractGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateWebhookAsync(HashId, Guid, string)](AbstractGuildedClient.CreateWebhookAsync(HashId,Guid,string).md 'Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string)')** `Method`
-    - **[DeleteChannelAsync(Guid)](AbstractGuildedClient.DeleteChannelAsync(Guid).md 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid)')** `Method`
-    - **[DeleteDocAsync(Guid, uint)](AbstractGuildedClient.DeleteDocAsync(Guid,uint).md 'Guilded.AbstractGuildedClient.DeleteDocAsync(Guid, uint)')** `Method`
-    - **[DeleteListItemAsync(Guid, Guid)](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid).md 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid)')** `Method`
-    - **[DeleteMessageAsync(Guid, Guid)](AbstractGuildedClient.DeleteMessageAsync(Guid,Guid).md 'Guilded.AbstractGuildedClient.DeleteMessageAsync(Guid, Guid)')** `Method`
-    - **[DeleteNicknameAsync(HashId, HashId)](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[DeleteWebhookAsync(HashId, Guid)](AbstractGuildedClient.DeleteWebhookAsync(HashId,Guid).md 'Guilded.AbstractGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
-    - **[DisconnectAsync()](AbstractGuildedClient.DisconnectAsync().md 'Guilded.AbstractGuildedClient.DisconnectAsync()')** `Method`
-    - **[Dispose()](AbstractGuildedClient.Dispose().md 'Guilded.AbstractGuildedClient.Dispose()')** `Method`
-    - **[GetBanAsync(HashId, HashId)](AbstractGuildedClient.GetBanAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[GetBansAsync(HashId)](AbstractGuildedClient.GetBansAsync(HashId).md 'Guilded.AbstractGuildedClient.GetBansAsync(Guilded.Base.HashId)')** `Method`
-    - **[GetChannelAsync(Guid)](AbstractGuildedClient.GetChannelAsync(Guid).md 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid)')** `Method`
-    - **[GetDocAsync(Guid, uint)](AbstractGuildedClient.GetDocAsync(Guid,uint).md 'Guilded.AbstractGuildedClient.GetDocAsync(Guid, uint)')** `Method`
-    - **[GetDocsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](AbstractGuildedClient.GetDocsAsync(Guid,Nullable_uint_,Nullable_DateTime_).md 'Guilded.AbstractGuildedClient.GetDocsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
-    - **[GetListItemAsync(Guid, Guid)](AbstractGuildedClient.GetListItemAsync(Guid,Guid).md 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid)')** `Method`
-    - **[GetListItemsAsync(Guid)](AbstractGuildedClient.GetListItemsAsync(Guid).md 'Guilded.AbstractGuildedClient.GetListItemsAsync(Guid)')** `Method`
-    - **[GetMemberAsync(HashId, HashId)](AbstractGuildedClient.GetMemberAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[GetMemberRolesAsync(HashId, HashId)](AbstractGuildedClient.GetMemberRolesAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[GetMembersAsync(HashId)](AbstractGuildedClient.GetMembersAsync(HashId).md 'Guilded.AbstractGuildedClient.GetMembersAsync(Guilded.Base.HashId)')** `Method`
-    - **[GetMessageAsync(Guid, Guid)](AbstractGuildedClient.GetMessageAsync(Guid,Guid).md 'Guilded.AbstractGuildedClient.GetMessageAsync(Guid, Guid)')** `Method`
-    - **[GetMessagesAsync(Guid, bool, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)](AbstractGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_).md 'Guilded.AbstractGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>)')** `Method`
-    - **[GetSocialLinkAsync(HashId, HashId, SocialLinkType)](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType).md 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
-    - **[GetWebhookAsync(HashId, Guid)](AbstractGuildedClient.GetWebhookAsync(HashId,Guid).md 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
-    - **[GetWebhooksAsync(HashId, Nullable&lt;Guid&gt;)](AbstractGuildedClient.GetWebhooksAsync(HashId,Nullable_Guid_).md 'Guilded.AbstractGuildedClient.GetWebhooksAsync(Guilded.Base.HashId, System.Nullable<Guid>)')** `Method`
-    - **[KickMemberAsync(HashId, HashId)](AbstractGuildedClient.KickMemberAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[OnSocketMessage(GuildedSocketMessage)](AbstractGuildedClient.OnSocketMessage(GuildedSocketMessage).md 'Guilded.AbstractGuildedClient.OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage)')** `Method`
-    - **[RemoveMembershipAsync(HashId, HashId)](AbstractGuildedClient.RemoveMembershipAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[RemoveRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint).md 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
-    - **[UnbanMemberAsync(HashId, HashId)](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId).md 'Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[UncompleteListItemAsync(Guid, Guid)](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).md 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid)')** `Method`
-    - **[UpdateChannelAsync(Guid, string, string, Nullable&lt;bool&gt;)](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_).md 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>)')** `Method`
-    - **[UpdateDocAsync(Guid, uint, string, string)](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string)')** `Method`
-    - **[UpdateListItemAsync(Guid, Guid, string, string)](AbstractGuildedClient.UpdateListItemAsync(Guid,Guid,string,string).md 'Guilded.AbstractGuildedClient.UpdateListItemAsync(Guid, Guid, string, string)')** `Method`
-    - **[UpdateMessageAsync(Guid, Guid, MessageContent)](AbstractGuildedClient.UpdateMessageAsync(Guid,Guid,MessageContent).md 'Guilded.AbstractGuildedClient.UpdateMessageAsync(Guid, Guid, Guilded.Base.Content.MessageContent)')** `Method`
-    - **[UpdateNicknameAsync(HashId, HashId, string)](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string).md 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
-    - **[UpdateWebhookAsync(HashId, Guid, string, Nullable&lt;Guid&gt;)](AbstractGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_).md 'Guilded.AbstractGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>)')** `Method`
-  - **[EventInfo&lt;T&gt;](EventInfo_T_.md 'Guilded.EventInfo<T>')** `Class`
-    - **[EventInfo()](EventInfo_T_.EventInfo().md 'Guilded.EventInfo<T>.EventInfo()')** `Constructor`
-    - **[Subject](EventInfo_T_.Subject.md 'Guilded.EventInfo<T>.Subject')** `Field`
-    - **[ArgumentType](EventInfo_T_.ArgumentType.md 'Guilded.EventInfo<T>.ArgumentType')** `Property`
-    - **[Observable](EventInfo_T_.Observable.md 'Guilded.EventInfo<T>.Observable')** `Property`
-    - **[OnError(Exception)](EventInfo_T_.OnError(Exception).md 'Guilded.EventInfo<T>.OnError(System.Exception)')** `Method`
-    - **[OnNext(object)](EventInfo_T_.OnNext(object).md 'Guilded.EventInfo<T>.OnNext(object)')** `Method`
-  - **[GuildedBotClient](GuildedBotClient.md 'Guilded.GuildedBotClient')** `Class`
-    - **[GuildedBotClient()](GuildedBotClient.GuildedBotClient().md 'Guilded.GuildedBotClient.GuildedBotClient()')** `Constructor`
-    - **[GuildedBotClient(string)](GuildedBotClient.GuildedBotClient(string).md 'Guilded.GuildedBotClient.GuildedBotClient(string)')** `Constructor`
-    - **[AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken')** `Property`
-    - **[ConnectAsync()](GuildedBotClient.ConnectAsync().md 'Guilded.GuildedBotClient.ConnectAsync()')** `Method`
-    - **[ConnectAsync(string)](GuildedBotClient.ConnectAsync(string).md 'Guilded.GuildedBotClient.ConnectAsync(string)')** `Method`
-  - **[IEventInfo&lt;T&gt;](IEventInfo_T_.md 'Guilded.IEventInfo<T>')** `Interface`
-    - **[ArgumentType](IEventInfo_T_.ArgumentType.md 'Guilded.IEventInfo<T>.ArgumentType')** `Property`
-    - **[Observable](IEventInfo_T_.Observable.md 'Guilded.IEventInfo<T>.Observable')** `Property`
-    - **[OnError(Exception)](IEventInfo_T_.OnError(Exception).md 'Guilded.IEventInfo<T>.OnError(System.Exception)')** `Method`
-    - **[OnNext(object)](IEventInfo_T_.OnNext(object).md 'Guilded.IEventInfo<T>.OnNext(object)')** `Method`
-- **[Guilded.Base](Guilded.Base.md 'Guilded.Base')** `Namespace`
-  - **[BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')** `Class`
-    - **[BaseGuildedClient()](BaseGuildedClient.BaseGuildedClient().md 'Guilded.Base.BaseGuildedClient.BaseGuildedClient()')** `Constructor`
-    - **[BaseGuildedClient(Uri, Uri)](BaseGuildedClient.BaseGuildedClient(Uri,Uri).md 'Guilded.Base.BaseGuildedClient.BaseGuildedClient(Uri, Uri)')** `Constructor`
-    - **[ConnectedSubject](BaseGuildedClient.ConnectedSubject.md 'Guilded.Base.BaseGuildedClient.ConnectedSubject')** `Field`
-    - **[AdditionalHeaders](BaseGuildedClient.AdditionalHeaders.md 'Guilded.Base.BaseGuildedClient.AdditionalHeaders')** `Property`
-    - **[Connected](BaseGuildedClient.Connected.md 'Guilded.Base.BaseGuildedClient.Connected')** `Property`
-    - **[Disconnected](BaseGuildedClient.Disconnected.md 'Guilded.Base.BaseGuildedClient.Disconnected')** `Property`
-    - **[GuildedSerializer](BaseGuildedClient.GuildedSerializer.md 'Guilded.Base.BaseGuildedClient.GuildedSerializer')** `Property`
-    - **[LastMessageId](BaseGuildedClient.LastMessageId.md 'Guilded.Base.BaseGuildedClient.LastMessageId')** `Property`
-    - **[Reconnected](BaseGuildedClient.Reconnected.md 'Guilded.Base.BaseGuildedClient.Reconnected')** `Property`
-    - **[Rest](BaseGuildedClient.Rest.md 'Guilded.Base.BaseGuildedClient.Rest')** `Property`
-    - **[SerializerSettings](BaseGuildedClient.SerializerSettings.md 'Guilded.Base.BaseGuildedClient.SerializerSettings')** `Property`
-    - **[Websocket](BaseGuildedClient.Websocket.md 'Guilded.Base.BaseGuildedClient.Websocket')** `Property`
-    - **[WebsocketMessage](BaseGuildedClient.WebsocketMessage.md 'Guilded.Base.BaseGuildedClient.WebsocketMessage')** `Property`
-    - **[AddMembershipAsync(HashId, HashId)](BaseGuildedClient.AddMembershipAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[AddReactionAsync(Guid, Guid, uint)](BaseGuildedClient.AddReactionAsync(Guid,Guid,uint).md 'Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid, Guid, uint)')** `Method`
-    - **[AddReactionAsync(Guid, uint, uint)](BaseGuildedClient.AddReactionAsync(Guid,uint,uint).md 'Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid, uint, uint)')** `Method`
-    - **[AddRoleAsync(HashId, HashId, uint)](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint).md 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
-    - **[AddXpAsync(HashId, HashId, long)](BaseGuildedClient.AddXpAsync(HashId,HashId,long).md 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long)')** `Method`
-    - **[AddXpAsync(HashId, uint, long)](BaseGuildedClient.AddXpAsync(HashId,uint,long).md 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long)')** `Method`
-    - **[BanMemberAsync(HashId, HashId, string)](BaseGuildedClient.BanMemberAsync(HashId,HashId,string).md 'Guilded.Base.BaseGuildedClient.BanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
-    - **[ConnectAsync()](BaseGuildedClient.ConnectAsync().md 'Guilded.Base.BaseGuildedClient.ConnectAsync()')** `Method`
-    - **[CreateDocAsync(Guid, string, string)](BaseGuildedClient.CreateDocAsync(Guid,string,string).md 'Guilded.Base.BaseGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
-    - **[CreateForumThreadAsync(Guid, string, string)](BaseGuildedClient.CreateForumThreadAsync(Guid,string,string).md 'Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid, string, string)')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, MessageContent)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent).md 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Guid,string,Embed[]).md 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string,Embed[]).md 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string,IList_Embed_).md 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, string)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string).md 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string)')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_).md 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    - **[CreateListItemAsync(Guid, string, string)](BaseGuildedClient.CreateListItemAsync(Guid,string,string).md 'Guilded.Base.BaseGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
-    - **[CreateMessageAsync(Guid, bool, bool, Guid[], Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,bool,bool,Guid[],Embed[]).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(Guid, MessageContent)](BaseGuildedClient.CreateMessageAsync(Guid,MessageContent).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateMessageAsync(Guid, Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,Embed[]).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(Guid, string, bool, bool, Guid[], Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,string,bool,bool,Guid[],Embed[]).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(Guid, string, bool, bool, Guid[])](BaseGuildedClient.CreateMessageAsync(Guid,string,bool,bool,Guid[]).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, bool, bool, Guid[])')** `Method`
-    - **[CreateMessageAsync(Guid, string, bool, bool)](BaseGuildedClient.CreateMessageAsync(Guid,string,bool,bool).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, bool, bool)')** `Method`
-    - **[CreateMessageAsync(Guid, string, Guid[])](BaseGuildedClient.CreateMessageAsync(Guid,string,Guid[]).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, Guid[])')** `Method`
-    - **[CreateMessageAsync(Guid, string, Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,string,Embed[]).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(Guid, string)](BaseGuildedClient.CreateMessageAsync(Guid,string).md 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string)')** `Method`
-    - **[CreateWebhookAsync(HashId, Guid, string)](BaseGuildedClient.CreateWebhookAsync(HashId,Guid,string).md 'Guilded.Base.BaseGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string)')** `Method`
-    - **[DeleteDocAsync(Guid, uint)](BaseGuildedClient.DeleteDocAsync(Guid,uint).md 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint)')** `Method`
-    - **[DeleteListItemAsync(Guid, Guid)](BaseGuildedClient.DeleteListItemAsync(Guid,Guid).md 'Guilded.Base.BaseGuildedClient.DeleteListItemAsync(Guid, Guid)')** `Method`
-    - **[DeleteMessageAsync(Guid, Guid)](BaseGuildedClient.DeleteMessageAsync(Guid,Guid).md 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid)')** `Method`
-    - **[DeleteNicknameAsync(HashId, HashId)](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[DeleteWebhookAsync(HashId, Guid)](BaseGuildedClient.DeleteWebhookAsync(HashId,Guid).md 'Guilded.Base.BaseGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
-    - **[Deserialize&lt;T&gt;(string)](BaseGuildedClient.Deserialize_T_(string).md 'Guilded.Base.BaseGuildedClient.Deserialize<T>(string)')** `Method`
-    - **[DisconnectAsync()](BaseGuildedClient.DisconnectAsync().md 'Guilded.Base.BaseGuildedClient.DisconnectAsync()')** `Method`
-    - **[Dispose()](BaseGuildedClient.Dispose().md 'Guilded.Base.BaseGuildedClient.Dispose()')** `Method`
-    - **[ExecuteRequestAsync(RestRequest)](BaseGuildedClient.ExecuteRequestAsync(RestRequest).md 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync(RestSharp.RestRequest)')** `Method`
-    - **[ExecuteRequestAsync&lt;T&gt;(RestRequest)](BaseGuildedClient.ExecuteRequestAsync_T_(RestRequest).md 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync<T>(RestSharp.RestRequest)')** `Method`
-    - **[GetBanAsync(HashId, HashId)](BaseGuildedClient.GetBanAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[GetBansAsync(HashId)](BaseGuildedClient.GetBansAsync(HashId).md 'Guilded.Base.BaseGuildedClient.GetBansAsync(Guilded.Base.HashId)')** `Method`
-    - **[GetDocAsync(Guid, uint)](BaseGuildedClient.GetDocAsync(Guid,uint).md 'Guilded.Base.BaseGuildedClient.GetDocAsync(Guid, uint)')** `Method`
-    - **[GetDocsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetDocsAsync(Guid,Nullable_uint_,Nullable_DateTime_).md 'Guilded.Base.BaseGuildedClient.GetDocsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
-    - **[GetListItemAsync(Guid, Guid)](BaseGuildedClient.GetListItemAsync(Guid,Guid).md 'Guilded.Base.BaseGuildedClient.GetListItemAsync(Guid, Guid)')** `Method`
-    - **[GetListItemsAsync(Guid)](BaseGuildedClient.GetListItemsAsync(Guid).md 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid)')** `Method`
-    - **[GetMemberAsync(HashId, HashId)](BaseGuildedClient.GetMemberAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[GetMemberRolesAsync(HashId, HashId)](BaseGuildedClient.GetMemberRolesAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[GetMembersAsync(HashId)](BaseGuildedClient.GetMembersAsync(HashId).md 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId)')** `Method`
-    - **[GetMessageAsync(Guid, Guid)](BaseGuildedClient.GetMessageAsync(Guid,Guid).md 'Guilded.Base.BaseGuildedClient.GetMessageAsync(Guid, Guid)')** `Method`
-    - **[GetMessagesAsync(Guid, bool, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_).md 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>)')** `Method`
-    - **[GetSocialLinkAsync(HashId, HashId, SocialLinkType)](BaseGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType).md 'Guilded.Base.BaseGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
-    - **[GetWebhookAsync(HashId, Guid)](BaseGuildedClient.GetWebhookAsync(HashId,Guid).md 'Guilded.Base.BaseGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
-    - **[GetWebhooksAsync(HashId, Nullable&lt;Guid&gt;)](BaseGuildedClient.GetWebhooksAsync(HashId,Nullable_Guid_).md 'Guilded.Base.BaseGuildedClient.GetWebhooksAsync(Guilded.Base.HashId, System.Nullable<Guid>)')** `Method`
-    - **[KickMemberAsync(HashId, HashId)](BaseGuildedClient.KickMemberAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[OnWebsocketResponse(ResponseMessage)](BaseGuildedClient.OnWebsocketResponse(ResponseMessage).md 'Guilded.Base.BaseGuildedClient.OnWebsocketResponse(Websocket.Client.ResponseMessage)')** `Method`
-    - **[RemoveMembershipAsync(HashId, HashId)](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[RemoveRoleAsync(HashId, HashId, uint)](BaseGuildedClient.RemoveRoleAsync(HashId,HashId,uint).md 'Guilded.Base.BaseGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
-    - **[Serialize(object)](BaseGuildedClient.Serialize(object).md 'Guilded.Base.BaseGuildedClient.Serialize(object)')** `Method`
-    - **[UnbanMemberAsync(HashId, HashId)](BaseGuildedClient.UnbanMemberAsync(HashId,HashId).md 'Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
-    - **[UpdateDocAsync(Guid, uint, string, string)](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string)')** `Method`
-    - **[UpdateListItemAsync(Guid, Guid, string, string)](BaseGuildedClient.UpdateListItemAsync(Guid,Guid,string,string).md 'Guilded.Base.BaseGuildedClient.UpdateListItemAsync(Guid, Guid, string, string)')** `Method`
-    - **[UpdateMessageAsync(Guid, Guid, string)](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string).md 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string)')** `Method`
-    - **[UpdateNicknameAsync(HashId, HashId, string)](BaseGuildedClient.UpdateNicknameAsync(HashId,HashId,string).md 'Guilded.Base.BaseGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
-    - **[UpdateWebhookAsync(HashId, Guid, string, Nullable&lt;Guid&gt;)](BaseGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_).md 'Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>)')** `Method`
-    - **[UploadFileAsync(string, byte[], string)](BaseGuildedClient.UploadFileAsync(string,byte[],string).md 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[], string)')** `Method`
-    - **[UploadFileAsync(string, byte[])](BaseGuildedClient.UploadFileAsync(string,byte[]).md 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[])')** `Method`
-    - **[UploadFileAsync(Uri)](BaseGuildedClient.UploadFileAsync(Uri).md 'Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri)')** `Method`
-  - **[BaseObject](BaseObject.md 'Guilded.Base.BaseObject')** `Class`
-    - **[Serialize(JsonConverter[])](BaseObject.Serialize(JsonConverter[]).md 'Guilded.Base.BaseObject.Serialize(Newtonsoft.Json.JsonConverter[])')** `Method`
-    - **[Serialize(JsonSerializer)](BaseObject.Serialize(JsonSerializer).md 'Guilded.Base.BaseObject.Serialize(Newtonsoft.Json.JsonSerializer)')** `Method`
-  - **[ClientObject](ClientObject.md 'Guilded.Base.ClientObject')** `Class`
-    - **[ParentClient](ClientObject.ParentClient.md 'Guilded.Base.ClientObject.ParentClient')** `Property`
-  - **[DecimalColorConverter](DecimalColorConverter.md 'Guilded.Base.DecimalColorConverter')** `Class`
-    - **[CanConvert(Type)](DecimalColorConverter.CanConvert(Type).md 'Guilded.Base.DecimalColorConverter.CanConvert(System.Type)')** `Method`
-    - **[ReadJson(JsonReader, Type, object, JsonSerializer)](DecimalColorConverter.ReadJson(JsonReader,Type,object,JsonSerializer).md 'Guilded.Base.DecimalColorConverter.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object, Newtonsoft.Json.JsonSerializer)')** `Method`
-    - **[WriteJson(JsonWriter, object, JsonSerializer)](DecimalColorConverter.WriteJson(JsonWriter,object,JsonSerializer).md 'Guilded.Base.DecimalColorConverter.WriteJson(Newtonsoft.Json.JsonWriter, object, Newtonsoft.Json.JsonSerializer)')** `Method`
-  - **[FormIdConverter](FormIdConverter.md 'Guilded.Base.FormIdConverter')** `Class`
-    - **[CanConvertFrom(ITypeDescriptorContext, Type)](FormIdConverter.CanConvertFrom(ITypeDescriptorContext,Type).md 'Guilded.Base.FormIdConverter.CanConvertFrom(ITypeDescriptorContext, System.Type)')** `Method`
-    - **[ConvertFrom(ITypeDescriptorContext, CultureInfo, object)](FormIdConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,object).md 'Guilded.Base.FormIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object)')** `Method`
-  - **[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')** `Class`
-    - **[GuildedAuthorizationException()](GuildedAuthorizationException.GuildedAuthorizationException().md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException()')** `Constructor`
-    - **[GuildedAuthorizationException(string, string, RestResponse)](GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestResponse).md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, string, RestSharp.RestResponse)')** `Constructor`
-    - **[GuildedAuthorizationException(string, Exception)](GuildedAuthorizationException.GuildedAuthorizationException(string,Exception).md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, System.Exception)')** `Constructor`
-    - **[GuildedAuthorizationException(string)](GuildedAuthorizationException.GuildedAuthorizationException(string).md 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string)')** `Constructor`
-  - **[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')** `Class`
-    - **[GuildedException()](GuildedException.GuildedException().md 'Guilded.Base.GuildedException.GuildedException()')** `Constructor`
-    - **[GuildedException(SerializationInfo, StreamingContext)](GuildedException.GuildedException(SerializationInfo,StreamingContext).md 'Guilded.Base.GuildedException.GuildedException(SerializationInfo, StreamingContext)')** `Constructor`
-    - **[GuildedException(string, string, RestResponse)](GuildedException.GuildedException(string,string,RestResponse).md 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse)')** `Constructor`
-    - **[GuildedException(string, Exception)](GuildedException.GuildedException(string,Exception).md 'Guilded.Base.GuildedException.GuildedException(string, System.Exception)')** `Constructor`
-    - **[GuildedException(string)](GuildedException.GuildedException(string).md 'Guilded.Base.GuildedException.GuildedException(string)')** `Constructor`
-    - **[Code](GuildedException.Code.md 'Guilded.Base.GuildedException.Code')** `Property`
-    - **[Response](GuildedException.Response.md 'Guilded.Base.GuildedException.Response')** `Property`
-    - **[StatusCode](GuildedException.StatusCode.md 'Guilded.Base.GuildedException.StatusCode')** `Property`
-    - **[ToString()](GuildedException.ToString().md 'Guilded.Base.GuildedException.ToString()')** `Method`
-  - **[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')** `Class`
-    - **[GuildedPermissionException()](GuildedPermissionException.GuildedPermissionException().md 'Guilded.Base.GuildedPermissionException.GuildedPermissionException()')** `Constructor`
-    - **[GuildedPermissionException(string, string, RestResponse)](GuildedPermissionException.GuildedPermissionException(string,string,RestResponse).md 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string, string, RestSharp.RestResponse)')** `Constructor`
-    - **[GuildedPermissionException(string, Exception)](GuildedPermissionException.GuildedPermissionException(string,Exception).md 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string, System.Exception)')** `Constructor`
-    - **[GuildedPermissionException(string)](GuildedPermissionException.GuildedPermissionException(string).md 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string)')** `Constructor`
-  - **[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')** `Class`
-    - **[GuildedRequestException()](GuildedRequestException.GuildedRequestException().md 'Guilded.Base.GuildedRequestException.GuildedRequestException()')** `Constructor`
-    - **[GuildedRequestException(string, string, RestResponse)](GuildedRequestException.GuildedRequestException(string,string,RestResponse).md 'Guilded.Base.GuildedRequestException.GuildedRequestException(string, string, RestSharp.RestResponse)')** `Constructor`
-    - **[GuildedRequestException(string, Exception)](GuildedRequestException.GuildedRequestException(string,Exception).md 'Guilded.Base.GuildedRequestException.GuildedRequestException(string, System.Exception)')** `Constructor`
-    - **[GuildedRequestException(string)](GuildedRequestException.GuildedRequestException(string).md 'Guilded.Base.GuildedRequestException.GuildedRequestException(string)')** `Constructor`
-  - **[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')** `Class`
-    - **[GuildedResourceException()](GuildedResourceException.GuildedResourceException().md 'Guilded.Base.GuildedResourceException.GuildedResourceException()')** `Constructor`
-    - **[GuildedResourceException(string, string, RestResponse)](GuildedResourceException.GuildedResourceException(string,string,RestResponse).md 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, string, RestSharp.RestResponse)')** `Constructor`
-    - **[GuildedResourceException(string, Exception)](GuildedResourceException.GuildedResourceException(string,Exception).md 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception)')** `Constructor`
-    - **[GuildedResourceException(string)](GuildedResourceException.GuildedResourceException(string).md 'Guilded.Base.GuildedResourceException.GuildedResourceException(string)')** `Constructor`
-  - **[GuildedUrl](GuildedUrl.md 'Guilded.Base.GuildedUrl')** `Class`
-    - **[Api](GuildedUrl.Api.md 'Guilded.Base.GuildedUrl.Api')** `Field`
-    - **[ImageCdn](GuildedUrl.ImageCdn.md 'Guilded.Base.GuildedUrl.ImageCdn')** `Field`
-    - **[Media](GuildedUrl.Media.md 'Guilded.Base.GuildedUrl.Media')** `Field`
-    - **[MediaFileUpload](GuildedUrl.MediaFileUpload.md 'Guilded.Base.GuildedUrl.MediaFileUpload')** `Field`
-    - **[MediaUrlUpload](GuildedUrl.MediaUrlUpload.md 'Guilded.Base.GuildedUrl.MediaUrlUpload')** `Field`
-    - **[Websocket](GuildedUrl.Websocket.md 'Guilded.Base.GuildedUrl.Websocket')** `Field`
-  - **[GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')** `Class`
-    - **[GuildedWebsocketException()](GuildedWebsocketException.GuildedWebsocketException().md 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException()')** `Constructor`
-    - **[GuildedWebsocketException(string, Exception)](GuildedWebsocketException.GuildedWebsocketException(string,Exception).md 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string, System.Exception)')** `Constructor`
-    - **[GuildedWebsocketException(string)](GuildedWebsocketException.GuildedWebsocketException(string).md 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string)')** `Constructor`
-    - **[GuildedWebsocketException(ResponseMessage, string)](GuildedWebsocketException.GuildedWebsocketException(ResponseMessage,string).md 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage, string)')** `Constructor`
-    - **[Response](GuildedWebsocketException.Response.md 'Guilded.Base.GuildedWebsocketException.Response')** `Property`
-  - **[HashIdConverter](HashIdConverter.md 'Guilded.Base.HashIdConverter')** `Class`
-    - **[CanConvertFrom(ITypeDescriptorContext, Type)](HashIdConverter.CanConvertFrom(ITypeDescriptorContext,Type).md 'Guilded.Base.HashIdConverter.CanConvertFrom(ITypeDescriptorContext, System.Type)')** `Method`
-    - **[ConvertFrom(ITypeDescriptorContext, CultureInfo, object)](HashIdConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,object).md 'Guilded.Base.HashIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object)')** `Method`
-  - **[HexColorConverter](HexColorConverter.md 'Guilded.Base.HexColorConverter')** `Class`
-    - **[CanRead](HexColorConverter.CanRead.md 'Guilded.Base.HexColorConverter.CanRead')** `Property`
-    - **[CanConvert(Type)](HexColorConverter.CanConvert(Type).md 'Guilded.Base.HexColorConverter.CanConvert(System.Type)')** `Method`
-    - **[ReadJson(JsonReader, Type, object, JsonSerializer)](HexColorConverter.ReadJson(JsonReader,Type,object,JsonSerializer).md 'Guilded.Base.HexColorConverter.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object, Newtonsoft.Json.JsonSerializer)')** `Method`
-    - **[WriteJson(JsonWriter, object, JsonSerializer)](HexColorConverter.WriteJson(JsonWriter,object,JsonSerializer).md 'Guilded.Base.HexColorConverter.WriteJson(Newtonsoft.Json.JsonWriter, object, Newtonsoft.Json.JsonSerializer)')** `Method`
-  - **[IdConverter](IdConverter.md 'Guilded.Base.IdConverter')** `Class`
-    - **[CanConvert(Type)](IdConverter.CanConvert(Type).md 'Guilded.Base.IdConverter.CanConvert(System.Type)')** `Method`
-    - **[ReadJson(JsonReader, Type, object, JsonSerializer)](IdConverter.ReadJson(JsonReader,Type,object,JsonSerializer).md 'Guilded.Base.IdConverter.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object, Newtonsoft.Json.JsonSerializer)')** `Method`
-    - **[WriteJson(JsonWriter, object, JsonSerializer)](IdConverter.WriteJson(JsonWriter,object,JsonSerializer).md 'Guilded.Base.IdConverter.WriteJson(Newtonsoft.Json.JsonWriter, object, Newtonsoft.Json.JsonSerializer)')** `Method`
-  - **[FormId](FormId.md 'Guilded.Base.FormId')** `Struct`
-    - **[FormId(string)](FormId.FormId(string).md 'Guilded.Base.FormId.FormId(string)')** `Constructor`
-    - **[Random](FormId.Random.md 'Guilded.Base.FormId.Random')** `Property`
-    - **[Check(string)](FormId.Check(string).md 'Guilded.Base.FormId.Check(string)')** `Method`
-    - **[Equals(FormId)](FormId.Equals(FormId).md 'Guilded.Base.FormId.Equals(Guilded.Base.FormId)')** `Method`
-    - **[Equals(object)](FormId.Equals(object).md 'Guilded.Base.FormId.Equals(object)')** `Method`
-    - **[GetHashCode()](FormId.GetHashCode().md 'Guilded.Base.FormId.GetHashCode()')** `Method`
-    - **[ToString()](FormId.ToString().md 'Guilded.Base.FormId.ToString()')** `Method`
-    - **[operator ==(FormId, FormId)](FormId.operator(FormId,FormId).md 'Guilded.Base.FormId.op_Equality(Guilded.Base.FormId, Guilded.Base.FormId)')** `Operator`
-    - **[operator !=(FormId, FormId)](FormId.operator!(FormId,FormId).md 'Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId, Guilded.Base.FormId)')** `Operator`
-  - **[HashId](HashId.md 'Guilded.Base.HashId')** `Struct`
-    - **[HashId(string)](HashId.HashId(string).md 'Guilded.Base.HashId.HashId(string)')** `Constructor`
-    - **[Check(string)](HashId.Check(string).md 'Guilded.Base.HashId.Check(string)')** `Method`
-    - **[Equals(HashId)](HashId.Equals(HashId).md 'Guilded.Base.HashId.Equals(Guilded.Base.HashId)')** `Method`
-    - **[Equals(object)](HashId.Equals(object).md 'Guilded.Base.HashId.Equals(object)')** `Method`
-    - **[GetHashCode()](HashId.GetHashCode().md 'Guilded.Base.HashId.GetHashCode()')** `Method`
-    - **[ToString()](HashId.ToString().md 'Guilded.Base.HashId.ToString()')** `Method`
-    - **[operator ==(HashId, HashId)](HashId.operator(HashId,HashId).md 'Guilded.Base.HashId.op_Equality(Guilded.Base.HashId, Guilded.Base.HashId)')** `Operator`
-    - **[operator !=(HashId, HashId)](HashId.operator!(HashId,HashId).md 'Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId, Guilded.Base.HashId)')** `Operator`
-- **[Guilded.Base.Content](Guilded.Base.Content.md 'Guilded.Base.Content')** `Namespace`
-  - **[ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_.md 'Guilded.Base.Content.ChannelContent<TId,TServer>')** `Class`
-    - **[ChannelContent(TId, Guid, TServer, HashId, DateTime)](ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,HashId,DateTime).md 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelContent(TId, Guid, TServer, Guilded.Base.HashId, System.DateTime)')** `Constructor`
-    - **[ChannelId](ChannelContent_TId,TServer_.ChannelId.md 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')** `Property`
-    - **[CreatedAt](ChannelContent_TId,TServer_.CreatedAt.md 'Guilded.Base.Content.ChannelContent<TId,TServer>.CreatedAt')** `Property`
-    - **[CreatedBy](ChannelContent_TId,TServer_.CreatedBy.md 'Guilded.Base.Content.ChannelContent<TId,TServer>.CreatedBy')** `Property`
-    - **[Id](ChannelContent_TId,TServer_.Id.md 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id')** `Property`
-    - **[ServerId](ChannelContent_TId,TServer_.ServerId.md 'Guilded.Base.Content.ChannelContent<TId,TServer>.ServerId')** `Property`
-    - **[Equals(object)](ChannelContent_TId,TServer_.Equals(object).md 'Guilded.Base.Content.ChannelContent<TId,TServer>.Equals(object)')** `Method`
-    - **[GetHashCode()](ChannelContent_TId,TServer_.GetHashCode().md 'Guilded.Base.Content.ChannelContent<TId,TServer>.GetHashCode()')** `Method`
-    - **[ToString()](ChannelContent_TId,TServer_.ToString().md 'Guilded.Base.Content.ChannelContent<TId,TServer>.ToString()')** `Method`
-  - **[Doc](Doc.md 'Guilded.Base.Content.Doc')** `Class`
-    - **[Doc(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](Doc.Doc(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_).md 'Guilded.Base.Content.Doc.Doc(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[UpdatedBy](Doc.UpdatedBy.md 'Guilded.Base.Content.Doc.UpdatedBy')** `Property`
-    - **[DeleteAsync()](Doc.DeleteAsync().md 'Guilded.Base.Content.Doc.DeleteAsync()')** `Method`
-    - **[UpdateAsync(string, string)](Doc.UpdateAsync(string,string).md 'Guilded.Base.Content.Doc.UpdateAsync(string, string)')** `Method`
-  - **[ForumThread](ForumThread.md 'Guilded.Base.Content.ForumThread')** `Class`
-    - **[ForumThread(uint, Guid, HashId, string, string, HashId, Nullable&lt;Guid&gt;, DateTime, Nullable&lt;DateTime&gt;)](ForumThread.ForumThread(uint,Guid,HashId,string,string,HashId,Nullable_Guid_,DateTime,Nullable_DateTime_).md 'Guilded.Base.Content.ForumThread.ForumThread(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.Nullable<Guid>, System.DateTime, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[CreatedByWebhook](ForumThread.CreatedByWebhook.md 'Guilded.Base.Content.ForumThread.CreatedByWebhook')** `Property`
-  - **[ListItem&lt;T&gt;](ListItem_T_.md 'Guilded.Base.Content.ListItem<T>')** `Class`
-    - **[ListItem(Guid, Guid, HashId, string, T, HashId, Nullable&lt;Guid&gt;, DateTime, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;Guid&gt;)](ListItem_T_.ListItem(Guid,Guid,HashId,string,T,HashId,Nullable_Guid_,DateTime,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,Nullable_HashId_,Nullable_Guid_).md 'Guilded.Base.Content.ListItem<T>.ListItem(Guid, Guid, Guilded.Base.HashId, string, T, Guilded.Base.HashId, System.Nullable<Guid>, System.DateTime, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<Guid>)')** `Constructor`
-    - **[CompletedAt](ListItem_T_.CompletedAt.md 'Guilded.Base.Content.ListItem<T>.CompletedAt')** `Property`
-    - **[CompletedBy](ListItem_T_.CompletedBy.md 'Guilded.Base.Content.ListItem<T>.CompletedBy')** `Property`
-    - **[CreatedByWebhook](ListItem_T_.CreatedByWebhook.md 'Guilded.Base.Content.ListItem<T>.CreatedByWebhook')** `Property`
-    - **[IsCompleted](ListItem_T_.IsCompleted.md 'Guilded.Base.Content.ListItem<T>.IsCompleted')** `Property`
-    - **[Message](ListItem_T_.Message.md 'Guilded.Base.Content.ListItem<T>.Message')** `Property`
-    - **[Note](ListItem_T_.Note.md 'Guilded.Base.Content.ListItem<T>.Note')** `Property`
-    - **[ParentListItemId](ListItem_T_.ParentListItemId.md 'Guilded.Base.Content.ListItem<T>.ParentListItemId')** `Property`
-    - **[UpdatedAt](ListItem_T_.UpdatedAt.md 'Guilded.Base.Content.ListItem<T>.UpdatedAt')** `Property`
-    - **[UpdatedBy](ListItem_T_.UpdatedBy.md 'Guilded.Base.Content.ListItem<T>.UpdatedBy')** `Property`
-    - **[DeleteAsync()](ListItem_T_.DeleteAsync().md 'Guilded.Base.Content.ListItem<T>.DeleteAsync()')** `Method`
-    - **[UpdateAsync(string, string)](ListItem_T_.UpdateAsync(string,string).md 'Guilded.Base.Content.ListItem<T>.UpdateAsync(string, string)')** `Method`
-  - **[ListItemNote](ListItemNote.md 'Guilded.Base.Content.ListItemNote')** `Class`
-    - **[ListItemNote(string, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](ListItemNote.ListItemNote(string,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_).md 'Guilded.Base.Content.ListItemNote.ListItemNote(string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[Content](ListItemNote.Content.md 'Guilded.Base.Content.ListItemNote.Content')** `Property`
-  - **[ListItemNoteSummary](ListItemNoteSummary.md 'Guilded.Base.Content.ListItemNoteSummary')** `Class`
-    - **[ListItemNoteSummary(HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](ListItemNoteSummary.ListItemNoteSummary(HashId,DateTime,Nullable_HashId_,Nullable_DateTime_).md 'Guilded.Base.Content.ListItemNoteSummary.ListItemNoteSummary(Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[CreatedAt](ListItemNoteSummary.CreatedAt.md 'Guilded.Base.Content.ListItemNoteSummary.CreatedAt')** `Property`
-    - **[CreatedBy](ListItemNoteSummary.CreatedBy.md 'Guilded.Base.Content.ListItemNoteSummary.CreatedBy')** `Property`
-    - **[UpdatedAt](ListItemNoteSummary.UpdatedAt.md 'Guilded.Base.Content.ListItemNoteSummary.UpdatedAt')** `Property`
-    - **[UpdatedBy](ListItemNoteSummary.UpdatedBy.md 'Guilded.Base.Content.ListItemNoteSummary.UpdatedBy')** `Property`
-  - **[Message](Message.md 'Guilded.Base.Content.Message')** `Class`
-    - **[Message(Guid, Guid, Nullable&lt;HashId&gt;, string, IList&lt;Guid&gt;, IList&lt;Embed&gt;, bool, HashId, Nullable&lt;Guid&gt;, DateTime, Nullable&lt;DateTime&gt;, MessageType)](Message.Message(Guid,Guid,Nullable_HashId_,string,IList_Guid_,IList_Embed_,bool,HashId,Nullable_Guid_,DateTime,Nullable_DateTime_,MessageType).md 'Guilded.Base.Content.Message.Message(Guid, Guid, System.Nullable<Guilded.Base.HashId>, string, System.Collections.Generic.IList<Guid>, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, bool, Guilded.Base.HashId, System.Nullable<Guid>, System.DateTime, System.Nullable<System.DateTime>, Guilded.Base.Content.MessageType)')** `Constructor`
-    - **[EmbedLimit](Message.EmbedLimit.md 'Guilded.Base.Content.Message.EmbedLimit')** `Field`
-    - **[ReplyLimit](Message.ReplyLimit.md 'Guilded.Base.Content.Message.ReplyLimit')** `Field`
-    - **[TextLimit](Message.TextLimit.md 'Guilded.Base.Content.Message.TextLimit')** `Field`
-    - **[Content](Message.Content.md 'Guilded.Base.Content.Message.Content')** `Property`
-    - **[CreatedByWebhook](Message.CreatedByWebhook.md 'Guilded.Base.Content.Message.CreatedByWebhook')** `Property`
-    - **[Embeds](Message.Embeds.md 'Guilded.Base.Content.Message.Embeds')** `Property`
-    - **[IsPrivate](Message.IsPrivate.md 'Guilded.Base.Content.Message.IsPrivate')** `Property`
-    - **[IsReply](Message.IsReply.md 'Guilded.Base.Content.Message.IsReply')** `Property`
-    - **[IsSystemMessage](Message.IsSystemMessage.md 'Guilded.Base.Content.Message.IsSystemMessage')** `Property`
-    - **[ReplyMessageIds](Message.ReplyMessageIds.md 'Guilded.Base.Content.Message.ReplyMessageIds')** `Property`
-    - **[Type](Message.Type.md 'Guilded.Base.Content.Message.Type')** `Property`
-    - **[UpdatedAt](Message.UpdatedAt.md 'Guilded.Base.Content.Message.UpdatedAt')** `Property`
-    - **[AddReactionAsync(uint)](Message.AddReactionAsync(uint).md 'Guilded.Base.Content.Message.AddReactionAsync(uint)')** `Method`
-    - **[CreateMessageAsync(bool, bool, Guid[], Embed[])](Message.CreateMessageAsync(bool,bool,Guid[],Embed[]).md 'Guilded.Base.Content.Message.CreateMessageAsync(bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(MessageContent)](Message.CreateMessageAsync(MessageContent).md 'Guilded.Base.Content.Message.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateMessageAsync(Embed[])](Message.CreateMessageAsync(Embed[]).md 'Guilded.Base.Content.Message.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, bool, bool, Guid[], Embed[])](Message.CreateMessageAsync(string,bool,bool,Guid[],Embed[]).md 'Guilded.Base.Content.Message.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, bool, bool, Guid[])](Message.CreateMessageAsync(string,bool,bool,Guid[]).md 'Guilded.Base.Content.Message.CreateMessageAsync(string, bool, bool, Guid[])')** `Method`
-    - **[CreateMessageAsync(string, bool, bool)](Message.CreateMessageAsync(string,bool,bool).md 'Guilded.Base.Content.Message.CreateMessageAsync(string, bool, bool)')** `Method`
-    - **[CreateMessageAsync(string, Guid[])](Message.CreateMessageAsync(string,Guid[]).md 'Guilded.Base.Content.Message.CreateMessageAsync(string, Guid[])')** `Method`
-    - **[CreateMessageAsync(string, Embed[])](Message.CreateMessageAsync(string,Embed[]).md 'Guilded.Base.Content.Message.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string)](Message.CreateMessageAsync(string).md 'Guilded.Base.Content.Message.CreateMessageAsync(string)')** `Method`
-    - **[DeleteAsync()](Message.DeleteAsync().md 'Guilded.Base.Content.Message.DeleteAsync()')** `Method`
-    - **[ReplyAsync(bool, bool, Embed[])](Message.ReplyAsync(bool,bool,Embed[]).md 'Guilded.Base.Content.Message.ReplyAsync(bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[ReplyAsync(string, bool, bool, Embed[])](Message.ReplyAsync(string,bool,bool,Embed[]).md 'Guilded.Base.Content.Message.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[ReplyAsync(string, bool, bool)](Message.ReplyAsync(string,bool,bool).md 'Guilded.Base.Content.Message.ReplyAsync(string, bool, bool)')** `Method`
-    - **[ReplyAsync(string)](Message.ReplyAsync(string).md 'Guilded.Base.Content.Message.ReplyAsync(string)')** `Method`
-    - **[UpdateAsync(string)](Message.UpdateAsync(string).md 'Guilded.Base.Content.Message.UpdateAsync(string)')** `Method`
-  - **[MessageContent](MessageContent.md 'Guilded.Base.Content.MessageContent')** `Class`
-    - **[MessageContent()](MessageContent.MessageContent().md 'Guilded.Base.Content.MessageContent.MessageContent()')** `Constructor`
-    - **[MessageContent(string)](MessageContent.MessageContent(string).md 'Guilded.Base.Content.MessageContent.MessageContent(string)')** `Constructor`
-    - **[MessageContent(IList&lt;Embed&gt;, IList&lt;Guid&gt;, Nullable&lt;bool&gt;, Nullable&lt;bool&gt;)](MessageContent.MessageContent(IList_Embed_,IList_Guid_,Nullable_bool_,Nullable_bool_).md 'Guilded.Base.Content.MessageContent.MessageContent(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, System.Collections.Generic.IList<Guid>, System.Nullable<bool>, System.Nullable<bool>)')** `Constructor`
-    - **[Content](MessageContent.Content.md 'Guilded.Base.Content.MessageContent.Content')** `Property`
-    - **[Embeds](MessageContent.Embeds.md 'Guilded.Base.Content.MessageContent.Embeds')** `Property`
-    - **[IsPrivate](MessageContent.IsPrivate.md 'Guilded.Base.Content.MessageContent.IsPrivate')** `Property`
-    - **[IsSilent](MessageContent.IsSilent.md 'Guilded.Base.Content.MessageContent.IsSilent')** `Property`
-    - **[OnlyText](MessageContent.OnlyText.md 'Guilded.Base.Content.MessageContent.OnlyText')** `Property`
-    - **[ReplyMessageIds](MessageContent.ReplyMessageIds.md 'Guilded.Base.Content.MessageContent.ReplyMessageIds')** `Property`
-  - **[Reaction](Reaction.md 'Guilded.Base.Content.Reaction')** `Class`
-    - **[Reaction(uint, Nullable&lt;HashId&gt;, HashId, Nullable&lt;Guid&gt;, DateTime)](Reaction.Reaction(uint,Nullable_HashId_,HashId,Nullable_Guid_,DateTime).md 'Guilded.Base.Content.Reaction.Reaction(uint, System.Nullable<Guilded.Base.HashId>, Guilded.Base.HashId, System.Nullable<Guid>, System.DateTime)')** `Constructor`
-    - **[CreatedAt](Reaction.CreatedAt.md 'Guilded.Base.Content.Reaction.CreatedAt')** `Property`
-    - **[CreatedBy](Reaction.CreatedBy.md 'Guilded.Base.Content.Reaction.CreatedBy')** `Property`
-    - **[CreatedByWebhook](Reaction.CreatedByWebhook.md 'Guilded.Base.Content.Reaction.CreatedByWebhook')** `Property`
-    - **[Id](Reaction.Id.md 'Guilded.Base.Content.Reaction.Id')** `Property`
-    - **[ServerId](Reaction.ServerId.md 'Guilded.Base.Content.Reaction.ServerId')** `Property`
-    - **[Equals(object)](Reaction.Equals(object).md 'Guilded.Base.Content.Reaction.Equals(object)')** `Method`
-    - **[GetHashCode()](Reaction.GetHashCode().md 'Guilded.Base.Content.Reaction.GetHashCode()')** `Method`
-  - **[TitledContent](TitledContent.md 'Guilded.Base.Content.TitledContent')** `Class`
-    - **[TitledContent(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;DateTime&gt;)](TitledContent.TitledContent(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_DateTime_).md 'Guilded.Base.Content.TitledContent.TitledContent(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[Content](TitledContent.Content.md 'Guilded.Base.Content.TitledContent.Content')** `Property`
-    - **[Title](TitledContent.Title.md 'Guilded.Base.Content.TitledContent.Title')** `Property`
-    - **[UpdatedAt](TitledContent.UpdatedAt.md 'Guilded.Base.Content.TitledContent.UpdatedAt')** `Property`
-    - **[AddReactionAsync(uint)](TitledContent.AddReactionAsync(uint).md 'Guilded.Base.Content.TitledContent.AddReactionAsync(uint)')** `Method`
-  - **[ICreatableContent](ICreatableContent.md 'Guilded.Base.Content.ICreatableContent')** `Interface`
-    - **[CreatedAt](ICreatableContent.CreatedAt.md 'Guilded.Base.Content.ICreatableContent.CreatedAt')** `Property`
-    - **[CreatedBy](ICreatableContent.CreatedBy.md 'Guilded.Base.Content.ICreatableContent.CreatedBy')** `Property`
-  - **[IReactibleContent](IReactibleContent.md 'Guilded.Base.Content.IReactibleContent')** `Interface`
-    - **[AddReactionAsync(uint)](IReactibleContent.AddReactionAsync(uint).md 'Guilded.Base.Content.IReactibleContent.AddReactionAsync(uint)')** `Method`
-  - **[IUpdatableContent](IUpdatableContent.md 'Guilded.Base.Content.IUpdatableContent')** `Interface`
-    - **[UpdatedAt](IUpdatableContent.UpdatedAt.md 'Guilded.Base.Content.IUpdatableContent.UpdatedAt')** `Property`
-  - **[IWebhookCreatable](IWebhookCreatable.md 'Guilded.Base.Content.IWebhookCreatable')** `Interface`
-    - **[CreatedByWebhook](IWebhookCreatable.CreatedByWebhook.md 'Guilded.Base.Content.IWebhookCreatable.CreatedByWebhook')** `Property`
-  - **[MessageType](MessageType.md 'Guilded.Base.Content.MessageType')** `Enum`
-    - **[Default](MessageType.md#Guilded.Base.Content.MessageType.Default 'Guilded.Base.Content.MessageType.Default')** `Field`
-    - **[System](MessageType.md#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System')** `Field`
-- **[Guilded.Base.Embeds](Guilded.Base.Embeds.md 'Guilded.Base.Embeds')** `Namespace`
-  - **[Embed](Embed.md 'Guilded.Base.Embeds.Embed')** `Class`
-    - **[Embed()](Embed.Embed().md 'Guilded.Base.Embeds.Embed.Embed()')** `Constructor`
-    - **[Embed(Color)](Embed.Embed(Color).md 'Guilded.Base.Embeds.Embed.Embed(Color)')** `Constructor`
-    - **[Embed(EmbedField[])](Embed.Embed(EmbedField[]).md 'Guilded.Base.Embeds.Embed.Embed(Guilded.Base.Embeds.EmbedField[])')** `Constructor`
-    - **[Embed(int, int, int)](Embed.Embed(int,int,int).md 'Guilded.Base.Embeds.Embed.Embed(int, int, int)')** `Constructor`
-    - **[Embed(int)](Embed.Embed(int).md 'Guilded.Base.Embeds.Embed.Embed(int)')** `Constructor`
-    - **[Embed(string, EmbedField[])](Embed.Embed(string,EmbedField[]).md 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedField[])')** `Constructor`
-    - **[Embed(string, EmbedMedia)](Embed.Embed(string,EmbedMedia).md 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedMedia)')** `Constructor`
-    - **[Embed(string, string, EmbedField[])](Embed.Embed(string,string,EmbedField[]).md 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedField[])')** `Constructor`
-    - **[Embed(string, string, EmbedFooter, DateTime)](Embed.Embed(string,string,EmbedFooter,DateTime).md 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime)')** `Constructor`
-    - **[Embed(string, string, EmbedFooter)](Embed.Embed(string,string,EmbedFooter).md 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedFooter)')** `Constructor`
-    - **[Embed(string, string, EmbedMedia)](Embed.Embed(string,string,EmbedMedia).md 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedMedia)')** `Constructor`
-    - **[Embed(string, string, string)](Embed.Embed(string,string,string).md 'Guilded.Base.Embeds.Embed.Embed(string, string, string)')** `Constructor`
-    - **[Embed(string, string, IList&lt;EmbedField&gt;)](Embed.Embed(string,string,IList_EmbedField_).md 'Guilded.Base.Embeds.Embed.Embed(string, string, System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>)')** `Constructor`
-    - **[Embed(string, string, Uri)](Embed.Embed(string,string,Uri).md 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri)')** `Constructor`
-    - **[Embed(string, string)](Embed.Embed(string,string).md 'Guilded.Base.Embeds.Embed.Embed(string, string)')** `Constructor`
-    - **[Embed(string, IList&lt;EmbedField&gt;)](Embed.Embed(string,IList_EmbedField_).md 'Guilded.Base.Embeds.Embed.Embed(string, System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>)')** `Constructor`
-    - **[Embed(string, Uri, string, EmbedFooter, DateTime)](Embed.Embed(string,Uri,string,EmbedFooter,DateTime).md 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime)')** `Constructor`
-    - **[Embed(string, Uri, string, EmbedFooter)](Embed.Embed(string,Uri,string,EmbedFooter).md 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter)')** `Constructor`
-    - **[Embed(string, Uri, string, EmbedMedia)](Embed.Embed(string,Uri,string,EmbedMedia).md 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedMedia)')** `Constructor`
-    - **[Embed(string, Uri, string, string)](Embed.Embed(string,Uri,string,string).md 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, string)')** `Constructor`
-    - **[Embed(string, Uri, string, Uri)](Embed.Embed(string,Uri,string,Uri).md 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Uri)')** `Constructor`
-    - **[Embed(string, Uri, string)](Embed.Embed(string,Uri,string).md 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string)')** `Constructor`
-    - **[Embed(string, Uri)](Embed.Embed(string,Uri).md 'Guilded.Base.Embeds.Embed.Embed(string, Uri)')** `Constructor`
-    - **[Embed(string)](Embed.Embed(string).md 'Guilded.Base.Embeds.Embed.Embed(string)')** `Constructor`
-    - **[Embed(IList&lt;EmbedField&gt;)](Embed.Embed(IList_EmbedField_).md 'Guilded.Base.Embeds.Embed.Embed(System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>)')** `Constructor`
-    - **[Embed(Uri, Uri, Uri)](Embed.Embed(Uri,Uri,Uri).md 'Guilded.Base.Embeds.Embed.Embed(Uri, Uri, Uri)')** `Constructor`
-    - **[Embed(Uri)](Embed.Embed(Uri).md 'Guilded.Base.Embeds.Embed.Embed(Uri)')** `Constructor`
-    - **[FieldLimit](Embed.FieldLimit.md 'Guilded.Base.Embeds.Embed.FieldLimit')** `Field`
-    - **[Author](Embed.Author.md 'Guilded.Base.Embeds.Embed.Author')** `Property`
-    - **[Color](Embed.Color.md 'Guilded.Base.Embeds.Embed.Color')** `Property`
-    - **[Description](Embed.Description.md 'Guilded.Base.Embeds.Embed.Description')** `Property`
-    - **[Fields](Embed.Fields.md 'Guilded.Base.Embeds.Embed.Fields')** `Property`
-    - **[Footer](Embed.Footer.md 'Guilded.Base.Embeds.Embed.Footer')** `Property`
-    - **[Image](Embed.Image.md 'Guilded.Base.Embeds.Embed.Image')** `Property`
-    - **[Thumbnail](Embed.Thumbnail.md 'Guilded.Base.Embeds.Embed.Thumbnail')** `Property`
-    - **[Timestamp](Embed.Timestamp.md 'Guilded.Base.Embeds.Embed.Timestamp')** `Property`
-    - **[Title](Embed.Title.md 'Guilded.Base.Embeds.Embed.Title')** `Property`
-    - **[Url](Embed.Url.md 'Guilded.Base.Embeds.Embed.Url')** `Property`
-    - **[Video](Embed.Video.md 'Guilded.Base.Embeds.Embed.Video')** `Property`
-    - **[AddField(EmbedField)](Embed.AddField(EmbedField).md 'Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField)')** `Method`
-    - **[AddField(string, object, bool)](Embed.AddField(string,object,bool).md 'Guilded.Base.Embeds.Embed.AddField(string, object, bool)')** `Method`
-    - **[AddField(string, string, bool)](Embed.AddField(string,string,bool).md 'Guilded.Base.Embeds.Embed.AddField(string, string, bool)')** `Method`
-    - **[AddFields(EmbedField[])](Embed.AddFields(EmbedField[]).md 'Guilded.Base.Embeds.Embed.AddFields(Guilded.Base.Embeds.EmbedField[])')** `Method`
-    - **[AddFields(IEnumerable&lt;EmbedField&gt;)](Embed.AddFields(IEnumerable_EmbedField_).md 'Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable<Guilded.Base.Embeds.EmbedField>)')** `Method`
-    - **[SetAuthor(EmbedAuthor)](Embed.SetAuthor(EmbedAuthor).md 'Guilded.Base.Embeds.Embed.SetAuthor(Guilded.Base.Embeds.EmbedAuthor)')** `Method`
-    - **[SetAuthor(string, Uri, Uri)](Embed.SetAuthor(string,Uri,Uri).md 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri)')** `Method`
-    - **[SetColor(Color)](Embed.SetColor(Color).md 'Guilded.Base.Embeds.Embed.SetColor(Color)')** `Method`
-    - **[SetColor(int, int, int)](Embed.SetColor(int,int,int).md 'Guilded.Base.Embeds.Embed.SetColor(int, int, int)')** `Method`
-    - **[SetColor(int)](Embed.SetColor(int).md 'Guilded.Base.Embeds.Embed.SetColor(int)')** `Method`
-    - **[SetDescription(object)](Embed.SetDescription(object).md 'Guilded.Base.Embeds.Embed.SetDescription(object)')** `Method`
-    - **[SetDescription(string)](Embed.SetDescription(string).md 'Guilded.Base.Embeds.Embed.SetDescription(string)')** `Method`
-    - **[SetFooter(EmbedFooter)](Embed.SetFooter(EmbedFooter).md 'Guilded.Base.Embeds.Embed.SetFooter(Guilded.Base.Embeds.EmbedFooter)')** `Method`
-    - **[SetFooter(object, string)](Embed.SetFooter(object,string).md 'Guilded.Base.Embeds.Embed.SetFooter(object, string)')** `Method`
-    - **[SetFooter(object, Uri)](Embed.SetFooter(object,Uri).md 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri)')** `Method`
-    - **[SetFooter(string, string)](Embed.SetFooter(string,string).md 'Guilded.Base.Embeds.Embed.SetFooter(string, string)')** `Method`
-    - **[SetFooter(string, Uri)](Embed.SetFooter(string,Uri).md 'Guilded.Base.Embeds.Embed.SetFooter(string, Uri)')** `Method`
-    - **[SetImage(EmbedMedia)](Embed.SetImage(EmbedMedia).md 'Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia)')** `Method`
-    - **[SetImage(string, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed.SetImage(string,Nullable_uint_,Nullable_uint_).md 'Guilded.Base.Embeds.Embed.SetImage(string, System.Nullable<uint>, System.Nullable<uint>)')** `Method`
-    - **[SetImage(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed.SetImage(Uri,Nullable_uint_,Nullable_uint_).md 'Guilded.Base.Embeds.Embed.SetImage(Uri, System.Nullable<uint>, System.Nullable<uint>)')** `Method`
-    - **[SetThumbnail(EmbedMedia)](Embed.SetThumbnail(EmbedMedia).md 'Guilded.Base.Embeds.Embed.SetThumbnail(Guilded.Base.Embeds.EmbedMedia)')** `Method`
-    - **[SetThumbnail(string, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed.SetThumbnail(string,Nullable_uint_,Nullable_uint_).md 'Guilded.Base.Embeds.Embed.SetThumbnail(string, System.Nullable<uint>, System.Nullable<uint>)')** `Method`
-    - **[SetThumbnail(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](Embed.SetThumbnail(Uri,Nullable_uint_,Nullable_uint_).md 'Guilded.Base.Embeds.Embed.SetThumbnail(Uri, System.Nullable<uint>, System.Nullable<uint>)')** `Method`
-    - **[SetTimestamp()](Embed.SetTimestamp().md 'Guilded.Base.Embeds.Embed.SetTimestamp()')** `Method`
-    - **[SetTimestamp(DateTime)](Embed.SetTimestamp(DateTime).md 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime)')** `Method`
-    - **[SetTitle(string)](Embed.SetTitle(string).md 'Guilded.Base.Embeds.Embed.SetTitle(string)')** `Method`
-    - **[SetUrl(string)](Embed.SetUrl(string).md 'Guilded.Base.Embeds.Embed.SetUrl(string)')** `Method`
-    - **[SetUrl(Uri)](Embed.SetUrl(Uri).md 'Guilded.Base.Embeds.Embed.SetUrl(Uri)')** `Method`
-  - **[EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')** `Class`
-    - **[EmbedAuthor(string, string, string)](EmbedAuthor.EmbedAuthor(string,string,string).md 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string)')** `Constructor`
-    - **[EmbedAuthor(string, Uri, Uri)](EmbedAuthor.EmbedAuthor(string,Uri,Uri).md 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri)')** `Constructor`
-    - **[EmbedAuthor(string)](EmbedAuthor.EmbedAuthor(string).md 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string)')** `Constructor`
-    - **[IconUrl](EmbedAuthor.IconUrl.md 'Guilded.Base.Embeds.EmbedAuthor.IconUrl')** `Property`
-    - **[Name](EmbedAuthor.Name.md 'Guilded.Base.Embeds.EmbedAuthor.Name')** `Property`
-    - **[Url](EmbedAuthor.Url.md 'Guilded.Base.Embeds.EmbedAuthor.Url')** `Property`
-  - **[EmbedField](EmbedField.md 'Guilded.Base.Embeds.EmbedField')** `Class`
-    - **[EmbedField(string, string, bool)](EmbedField.EmbedField(string,string,bool).md 'Guilded.Base.Embeds.EmbedField.EmbedField(string, string, bool)')** `Constructor`
-    - **[Inline](EmbedField.Inline.md 'Guilded.Base.Embeds.EmbedField.Inline')** `Property`
-    - **[Name](EmbedField.Name.md 'Guilded.Base.Embeds.EmbedField.Name')** `Property`
-    - **[Value](EmbedField.Value.md 'Guilded.Base.Embeds.EmbedField.Value')** `Property`
-  - **[EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter')** `Class`
-    - **[EmbedFooter(string, string)](EmbedFooter.EmbedFooter(string,string).md 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string)')** `Constructor`
-    - **[EmbedFooter(string, Uri)](EmbedFooter.EmbedFooter(string,Uri).md 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, Uri)')** `Constructor`
-    - **[IconUrl](EmbedFooter.IconUrl.md 'Guilded.Base.Embeds.EmbedFooter.IconUrl')** `Property`
-    - **[Text](EmbedFooter.Text.md 'Guilded.Base.Embeds.EmbedFooter.Text')** `Property`
-  - **[EmbedMedia](EmbedMedia.md 'Guilded.Base.Embeds.EmbedMedia')** `Class`
-    - **[EmbedMedia(string, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](EmbedMedia.EmbedMedia(string,Nullable_uint_,Nullable_uint_).md 'Guilded.Base.Embeds.EmbedMedia.EmbedMedia(string, System.Nullable<uint>, System.Nullable<uint>)')** `Constructor`
-    - **[EmbedMedia(Uri, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;)](EmbedMedia.EmbedMedia(Uri,Nullable_uint_,Nullable_uint_).md 'Guilded.Base.Embeds.EmbedMedia.EmbedMedia(Uri, System.Nullable<uint>, System.Nullable<uint>)')** `Constructor`
-    - **[Height](EmbedMedia.Height.md 'Guilded.Base.Embeds.EmbedMedia.Height')** `Property`
-    - **[Url](EmbedMedia.Url.md 'Guilded.Base.Embeds.EmbedMedia.Url')** `Property`
-    - **[Width](EmbedMedia.Width.md 'Guilded.Base.Embeds.EmbedMedia.Width')** `Property`
-- **[Guilded.Base.Events](Guilded.Base.Events.md 'Guilded.Base.Events')** `Namespace`
-  - **[GuildedSocketMessage](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')** `Class`
-    - **[GuildedSocketMessage(byte, string, JObject, string)](GuildedSocketMessage.GuildedSocketMessage(byte,string,JObject,string).md 'Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte, string, Newtonsoft.Json.Linq.JObject, string)')** `Constructor`
-    - **[EventName](GuildedSocketMessage.EventName.md 'Guilded.Base.Events.GuildedSocketMessage.EventName')** `Property`
-    - **[MessageId](GuildedSocketMessage.MessageId.md 'Guilded.Base.Events.GuildedSocketMessage.MessageId')** `Property`
-    - **[Opcode](GuildedSocketMessage.Opcode.md 'Guilded.Base.Events.GuildedSocketMessage.Opcode')** `Property`
-    - **[RawData](GuildedSocketMessage.RawData.md 'Guilded.Base.Events.GuildedSocketMessage.RawData')** `Property`
-  - **[MemberBanEvent](MemberBanEvent.md 'Guilded.Base.Events.MemberBanEvent')** `Class`
-    - **[MemberBanEvent(HashId, MemberBan)](MemberBanEvent.MemberBanEvent(HashId,MemberBan).md 'Guilded.Base.Events.MemberBanEvent.MemberBanEvent(Guilded.Base.HashId, Guilded.Base.Servers.MemberBan)')** `Constructor`
-    - **[CreatedAt](MemberBanEvent.CreatedAt.md 'Guilded.Base.Events.MemberBanEvent.CreatedAt')** `Property`
-    - **[CreatedBy](MemberBanEvent.CreatedBy.md 'Guilded.Base.Events.MemberBanEvent.CreatedBy')** `Property`
-    - **[MemberBan](MemberBanEvent.MemberBan.md 'Guilded.Base.Events.MemberBanEvent.MemberBan')** `Property`
-    - **[Reason](MemberBanEvent.Reason.md 'Guilded.Base.Events.MemberBanEvent.Reason')** `Property`
-    - **[ServerId](MemberBanEvent.ServerId.md 'Guilded.Base.Events.MemberBanEvent.ServerId')** `Property`
-    - **[User](MemberBanEvent.User.md 'Guilded.Base.Events.MemberBanEvent.User')** `Property`
-  - **[MemberJoinedEvent](MemberJoinedEvent.md 'Guilded.Base.Events.MemberJoinedEvent')** `Class`
-    - **[MemberJoinedEvent(HashId, Member)](MemberJoinedEvent.MemberJoinedEvent(HashId,Member).md 'Guilded.Base.Events.MemberJoinedEvent.MemberJoinedEvent(Guilded.Base.HashId, Guilded.Base.Servers.Member)')** `Constructor`
-    - **[IsBot](MemberJoinedEvent.IsBot.md 'Guilded.Base.Events.MemberJoinedEvent.IsBot')** `Property`
-    - **[JoinedAt](MemberJoinedEvent.JoinedAt.md 'Guilded.Base.Events.MemberJoinedEvent.JoinedAt')** `Property`
-    - **[Member](MemberJoinedEvent.Member.md 'Guilded.Base.Events.MemberJoinedEvent.Member')** `Property`
-    - **[Name](MemberJoinedEvent.Name.md 'Guilded.Base.Events.MemberJoinedEvent.Name')** `Property`
-    - **[ServerId](MemberJoinedEvent.ServerId.md 'Guilded.Base.Events.MemberJoinedEvent.ServerId')** `Property`
-    - **[Type](MemberJoinedEvent.Type.md 'Guilded.Base.Events.MemberJoinedEvent.Type')** `Property`
-    - **[UserId](MemberJoinedEvent.UserId.md 'Guilded.Base.Events.MemberJoinedEvent.UserId')** `Property`
-  - **[MemberRemovedEvent](MemberRemovedEvent.md 'Guilded.Base.Events.MemberRemovedEvent')** `Class`
-    - **[MemberRemovedEvent(HashId, HashId, bool, bool)](MemberRemovedEvent.MemberRemovedEvent(HashId,HashId,bool,bool).md 'Guilded.Base.Events.MemberRemovedEvent.MemberRemovedEvent(Guilded.Base.HashId, Guilded.Base.HashId, bool, bool)')** `Constructor`
-    - **[IsBan](MemberRemovedEvent.IsBan.md 'Guilded.Base.Events.MemberRemovedEvent.IsBan')** `Property`
-    - **[IsKick](MemberRemovedEvent.IsKick.md 'Guilded.Base.Events.MemberRemovedEvent.IsKick')** `Property`
-    - **[ServerId](MemberRemovedEvent.ServerId.md 'Guilded.Base.Events.MemberRemovedEvent.ServerId')** `Property`
-    - **[UserId](MemberRemovedEvent.UserId.md 'Guilded.Base.Events.MemberRemovedEvent.UserId')** `Property`
-  - **[MemberUpdatedEvent](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')** `Class`
-    - **[MemberUpdatedEvent(HashId, MemberUpdate)](MemberUpdatedEvent.MemberUpdatedEvent(HashId,MemberUpdate).md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdatedEvent(Guilded.Base.HashId, Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate)')** `Constructor`
-    - **[ServerId](MemberUpdatedEvent.ServerId.md 'Guilded.Base.Events.MemberUpdatedEvent.ServerId')** `Property`
-    - **[UserId](MemberUpdatedEvent.UserId.md 'Guilded.Base.Events.MemberUpdatedEvent.UserId')** `Property`
-    - **[UserInfo](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo')** `Property`
-  - **[MemberUpdatedEvent.MemberUpdate](MemberUpdatedEvent.MemberUpdate.md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')** `Class`
-    - **[MemberUpdate(HashId, string)](MemberUpdatedEvent.MemberUpdate.MemberUpdate(HashId,string).md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.MemberUpdate(Guilded.Base.HashId, string)')** `Constructor`
-    - **[Id](MemberUpdatedEvent.MemberUpdate.Id.md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Id')** `Property`
-    - **[Nickname](MemberUpdatedEvent.MemberUpdate.Nickname.md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname')** `Property`
-  - **[MessageDeletedEvent](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent')** `Class`
-    - **[MessageDeletedEvent(Nullable&lt;HashId&gt;, MessageDeleted)](MessageDeletedEvent.MessageDeletedEvent(Nullable_HashId_,MessageDeleted).md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeletedEvent(System.Nullable<Guilded.Base.HashId>, Guilded.Base.Events.MessageDeletedEvent.MessageDeleted)')** `Constructor`
-    - **[ChannelId](MessageDeletedEvent.ChannelId.md 'Guilded.Base.Events.MessageDeletedEvent.ChannelId')** `Property`
-    - **[DeletedAt](MessageDeletedEvent.DeletedAt.md 'Guilded.Base.Events.MessageDeletedEvent.DeletedAt')** `Property`
-    - **[Id](MessageDeletedEvent.Id.md 'Guilded.Base.Events.MessageDeletedEvent.Id')** `Property`
-  - **[MessageDeletedEvent.MessageDeleted](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')** `Class`
-    - **[MessageDeleted(Guid, Guid, Nullable&lt;HashId&gt;, DateTime)](MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid,Guid,Nullable_HashId_,DateTime).md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid, Guid, System.Nullable<Guilded.Base.HashId>, System.DateTime)')** `Constructor`
-    - **[ChannelId](MessageDeletedEvent.MessageDeleted.ChannelId.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ChannelId')** `Property`
-    - **[DeletedAt](MessageDeletedEvent.MessageDeleted.DeletedAt.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.DeletedAt')** `Property`
-    - **[Id](MessageDeletedEvent.MessageDeleted.Id.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Id')** `Property`
-    - **[ServerId](MessageDeletedEvent.MessageDeleted.ServerId.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ServerId')** `Property`
-    - **[Equals(object)](MessageDeletedEvent.MessageDeleted.Equals(object).md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object)')** `Method`
-    - **[GetHashCode()](MessageDeletedEvent.MessageDeleted.GetHashCode().md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.GetHashCode()')** `Method`
-    - **[ToString()](MessageDeletedEvent.MessageDeleted.ToString().md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ToString()')** `Method`
-  - **[MessageEvent](MessageEvent.md 'Guilded.Base.Events.MessageEvent')** `Class`
-    - **[MessageEvent(Nullable&lt;HashId&gt;, Message)](MessageEvent.MessageEvent(Nullable_HashId_,Message).md 'Guilded.Base.Events.MessageEvent.MessageEvent(System.Nullable<Guilded.Base.HashId>, Guilded.Base.Content.Message)')** `Constructor`
-    - **[ChannelId](MessageEvent.ChannelId.md 'Guilded.Base.Events.MessageEvent.ChannelId')** `Property`
-    - **[Content](MessageEvent.Content.md 'Guilded.Base.Events.MessageEvent.Content')** `Property`
-    - **[CreatedAt](MessageEvent.CreatedAt.md 'Guilded.Base.Events.MessageEvent.CreatedAt')** `Property`
-    - **[CreatedBy](MessageEvent.CreatedBy.md 'Guilded.Base.Events.MessageEvent.CreatedBy')** `Property`
-    - **[CreatedByWebhook](MessageEvent.CreatedByWebhook.md 'Guilded.Base.Events.MessageEvent.CreatedByWebhook')** `Property`
-    - **[IsReply](MessageEvent.IsReply.md 'Guilded.Base.Events.MessageEvent.IsReply')** `Property`
-    - **[IsSystemMessage](MessageEvent.IsSystemMessage.md 'Guilded.Base.Events.MessageEvent.IsSystemMessage')** `Property`
-    - **[Type](MessageEvent.Type.md 'Guilded.Base.Events.MessageEvent.Type')** `Property`
-    - **[UpdatedAt](MessageEvent.UpdatedAt.md 'Guilded.Base.Events.MessageEvent.UpdatedAt')** `Property`
-    - **[AddReactionAsync(uint)](MessageEvent.AddReactionAsync(uint).md 'Guilded.Base.Events.MessageEvent.AddReactionAsync(uint)')** `Method`
-    - **[CreateMessageAsync(bool, bool, Guid[], Embed[])](MessageEvent.CreateMessageAsync(bool,bool,Guid[],Embed[]).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(MessageContent)](MessageEvent.CreateMessageAsync(MessageContent).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateMessageAsync(Embed[])](MessageEvent.CreateMessageAsync(Embed[]).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, bool, bool, Guid[], Embed[])](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, bool, bool, Guid[])](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[]).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[])')** `Method`
-    - **[CreateMessageAsync(string, bool, bool)](MessageEvent.CreateMessageAsync(string,bool,bool).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool)')** `Method`
-    - **[CreateMessageAsync(string, Guid[])](MessageEvent.CreateMessageAsync(string,Guid[]).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guid[])')** `Method`
-    - **[CreateMessageAsync(string, Embed[])](MessageEvent.CreateMessageAsync(string,Embed[]).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string)](MessageEvent.CreateMessageAsync(string).md 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string)')** `Method`
-    - **[DeleteAsync()](MessageEvent.DeleteAsync().md 'Guilded.Base.Events.MessageEvent.DeleteAsync()')** `Method`
-    - **[ReplyAsync(bool, bool, Embed[])](MessageEvent.ReplyAsync(bool,bool,Embed[]).md 'Guilded.Base.Events.MessageEvent.ReplyAsync(bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[ReplyAsync(string, bool, bool, Embed[])](MessageEvent.ReplyAsync(string,bool,bool,Embed[]).md 'Guilded.Base.Events.MessageEvent.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[ReplyAsync(string, bool, bool)](MessageEvent.ReplyAsync(string,bool,bool).md 'Guilded.Base.Events.MessageEvent.ReplyAsync(string, bool, bool)')** `Method`
-    - **[ReplyAsync(string)](MessageEvent.ReplyAsync(string).md 'Guilded.Base.Events.MessageEvent.ReplyAsync(string)')** `Method`
-    - **[UpdateAsync(string)](MessageEvent.UpdateAsync(string).md 'Guilded.Base.Events.MessageEvent.UpdateAsync(string)')** `Method`
-  - **[MessageEvent&lt;T&gt;](MessageEvent_T_.md 'Guilded.Base.Events.MessageEvent<T>')** `Class`
-    - **[MessageEvent(Nullable&lt;HashId&gt;, T)](MessageEvent_T_.MessageEvent(Nullable_HashId_,T).md 'Guilded.Base.Events.MessageEvent<T>.MessageEvent(System.Nullable<Guilded.Base.HashId>, T)')** `Constructor`
-    - **[Message](MessageEvent_T_.Message.md 'Guilded.Base.Events.MessageEvent<T>.Message')** `Property`
-  - **[ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent')** `Class`
-    - **[ResumeEvent(string)](ResumeEvent.ResumeEvent(string).md 'Guilded.Base.Events.ResumeEvent.ResumeEvent(string)')** `Constructor`
-    - **[MessageId](ResumeEvent.MessageId.md 'Guilded.Base.Events.ResumeEvent.MessageId')** `Property`
-  - **[RolesUpdatedEvent](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')** `Class`
-    - **[RolesUpdatedEvent(HashId, IList&lt;RolesUpdated&gt;)](RolesUpdatedEvent.RolesUpdatedEvent(HashId,IList_RolesUpdated_).md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdatedEvent(Guilded.Base.HashId, System.Collections.Generic.IList<Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated>)')** `Constructor`
-    - **[MemberRoleIds](RolesUpdatedEvent.MemberRoleIds.md 'Guilded.Base.Events.RolesUpdatedEvent.MemberRoleIds')** `Property`
-    - **[ServerId](RolesUpdatedEvent.ServerId.md 'Guilded.Base.Events.RolesUpdatedEvent.ServerId')** `Property`
-    - **[UpdatedUsers](RolesUpdatedEvent.UpdatedUsers.md 'Guilded.Base.Events.RolesUpdatedEvent.UpdatedUsers')** `Property`
-  - **[RolesUpdatedEvent.RolesUpdated](RolesUpdatedEvent.RolesUpdated.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated')** `Class`
-    - **[RolesUpdated(HashId, IList&lt;uint&gt;)](RolesUpdatedEvent.RolesUpdated.RolesUpdated(HashId,IList_uint_).md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.Base.HashId, System.Collections.Generic.IList<uint>)')** `Constructor`
-    - **[RoleIds](RolesUpdatedEvent.RolesUpdated.RoleIds.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds')** `Property`
-    - **[UserId](RolesUpdatedEvent.RolesUpdated.UserId.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId')** `Property`
-  - **[WebhookEvent](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')** `Class`
-    - **[WebhookEvent(HashId, Webhook)](WebhookEvent.WebhookEvent(HashId,Webhook).md 'Guilded.Base.Events.WebhookEvent.WebhookEvent(Guilded.Base.HashId, Guilded.Base.Servers.Webhook)')** `Constructor`
-    - **[ChannelId](WebhookEvent.ChannelId.md 'Guilded.Base.Events.WebhookEvent.ChannelId')** `Property`
-    - **[CreatedAt](WebhookEvent.CreatedAt.md 'Guilded.Base.Events.WebhookEvent.CreatedAt')** `Property`
-    - **[CreatedBy](WebhookEvent.CreatedBy.md 'Guilded.Base.Events.WebhookEvent.CreatedBy')** `Property`
-    - **[Name](WebhookEvent.Name.md 'Guilded.Base.Events.WebhookEvent.Name')** `Property`
-    - **[ServerId](WebhookEvent.ServerId.md 'Guilded.Base.Events.WebhookEvent.ServerId')** `Property`
-    - **[Token](WebhookEvent.Token.md 'Guilded.Base.Events.WebhookEvent.Token')** `Property`
-    - **[Webhook](WebhookEvent.Webhook.md 'Guilded.Base.Events.WebhookEvent.Webhook')** `Property`
-    - **[CreateMessageAsync(MessageContent)](WebhookEvent.CreateMessageAsync(MessageContent).md 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateMessageAsync(Embed[])](WebhookEvent.CreateMessageAsync(Embed[]).md 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, Embed[])](WebhookEvent.CreateMessageAsync(string,Embed[]).md 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, IList&lt;Embed&gt;)](WebhookEvent.CreateMessageAsync(string,IList_Embed_).md 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    - **[CreateMessageAsync(string)](WebhookEvent.CreateMessageAsync(string).md 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string)')** `Method`
-    - **[CreateMessageAsync(IList&lt;Embed&gt;)](WebhookEvent.CreateMessageAsync(IList_Embed_).md 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    - **[DeleteAsync()](WebhookEvent.DeleteAsync().md 'Guilded.Base.Events.WebhookEvent.DeleteAsync()')** `Method`
-    - **[UpdateAsync(string)](WebhookEvent.UpdateAsync(string).md 'Guilded.Base.Events.WebhookEvent.UpdateAsync(string)')** `Method`
-  - **[WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')** `Class`
-    - **[WelcomeEvent(int, Me, string)](WelcomeEvent.WelcomeEvent(int,Me,string).md 'Guilded.Base.Events.WelcomeEvent.WelcomeEvent(int, Guilded.Base.Users.Me, string)')** `Constructor`
-    - **[HeartbeatInterval](WelcomeEvent.HeartbeatInterval.md 'Guilded.Base.Events.WelcomeEvent.HeartbeatInterval')** `Property`
-    - **[LastMessageId](WelcomeEvent.LastMessageId.md 'Guilded.Base.Events.WelcomeEvent.LastMessageId')** `Property`
-    - **[User](WelcomeEvent.User.md 'Guilded.Base.Events.WelcomeEvent.User')** `Property`
-  - **[XpAddedEvent](XpAddedEvent.md 'Guilded.Base.Events.XpAddedEvent')** `Class`
-    - **[XpAddedEvent(IList&lt;HashId&gt;, long)](XpAddedEvent.XpAddedEvent(IList_HashId_,long).md 'Guilded.Base.Events.XpAddedEvent.XpAddedEvent(System.Collections.Generic.IList<Guilded.Base.HashId>, long)')** `Constructor`
-    - **[Amount](XpAddedEvent.Amount.md 'Guilded.Base.Events.XpAddedEvent.Amount')** `Property`
-    - **[FirstUser](XpAddedEvent.FirstUser.md 'Guilded.Base.Events.XpAddedEvent.FirstUser')** `Property`
-    - **[LastUser](XpAddedEvent.LastUser.md 'Guilded.Base.Events.XpAddedEvent.LastUser')** `Property`
-    - **[Users](XpAddedEvent.Users.md 'Guilded.Base.Events.XpAddedEvent.Users')** `Property`
-  - **[IServerEvent](IServerEvent.md 'Guilded.Base.Events.IServerEvent')** `Interface`
-    - **[ServerId](IServerEvent.ServerId.md 'Guilded.Base.Events.IServerEvent.ServerId')** `Property`
-- **[Guilded.Base.Permissions](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')** `Namespace`
-  - **[AnnouncementPermissions](AnnouncementPermissions.md 'Guilded.Base.Permissions.AnnouncementPermissions')** `Enum`
-    - **[All](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.All 'Guilded.Base.Permissions.AnnouncementPermissions.All')** `Field`
-    - **[Basic](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.Basic 'Guilded.Base.Permissions.AnnouncementPermissions.Basic')** `Field`
-    - **[CreateAnnouncements](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements')** `Field`
-    - **[Manage](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.Manage 'Guilded.Base.Permissions.AnnouncementPermissions.Manage')** `Field`
-    - **[ManageAnnouncements](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements')** `Field`
-    - **[None](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.None 'Guilded.Base.Permissions.AnnouncementPermissions.None')** `Field`
-    - **[ViewAnnouncements](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.ViewAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.ViewAnnouncements')** `Field`
-  - **[BotPermissions](BotPermissions.md 'Guilded.Base.Permissions.BotPermissions')** `Enum`
-    - **[All](BotPermissions.md#Guilded.Base.Permissions.BotPermissions.All 'Guilded.Base.Permissions.BotPermissions.All')** `Field`
-    - **[ManageBots](BotPermissions.md#Guilded.Base.Permissions.BotPermissions.ManageBots 'Guilded.Base.Permissions.BotPermissions.ManageBots')** `Field`
-    - **[None](BotPermissions.md#Guilded.Base.Permissions.BotPermissions.None 'Guilded.Base.Permissions.BotPermissions.None')** `Field`
-  - **[BracketPermissions](BracketPermissions.md 'Guilded.Base.Permissions.BracketPermissions')** `Enum`
-    - **[All](BracketPermissions.md#Guilded.Base.Permissions.BracketPermissions.All 'Guilded.Base.Permissions.BracketPermissions.All')** `Field`
-    - **[None](BracketPermissions.md#Guilded.Base.Permissions.BracketPermissions.None 'Guilded.Base.Permissions.BracketPermissions.None')** `Field`
-    - **[ReportScores](BracketPermissions.md#Guilded.Base.Permissions.BracketPermissions.ReportScores 'Guilded.Base.Permissions.BracketPermissions.ReportScores')** `Field`
-    - **[ViewBrackets](BracketPermissions.md#Guilded.Base.Permissions.BracketPermissions.ViewBrackets 'Guilded.Base.Permissions.BracketPermissions.ViewBrackets')** `Field`
-  - **[CalendarPermissions](CalendarPermissions.md 'Guilded.Base.Permissions.CalendarPermissions')** `Enum`
-    - **[All](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.All 'Guilded.Base.Permissions.CalendarPermissions.All')** `Field`
-    - **[Basic](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.Basic 'Guilded.Base.Permissions.CalendarPermissions.Basic')** `Field`
-    - **[CreateEvents](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.CreateEvents 'Guilded.Base.Permissions.CalendarPermissions.CreateEvents')** `Field`
-    - **[EditRSVPs](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.EditRSVPs 'Guilded.Base.Permissions.CalendarPermissions.EditRSVPs')** `Field`
-    - **[Manage](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.Manage 'Guilded.Base.Permissions.CalendarPermissions.Manage')** `Field`
-    - **[ManageEvents](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.ManageEvents 'Guilded.Base.Permissions.CalendarPermissions.ManageEvents')** `Field`
-    - **[None](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.None 'Guilded.Base.Permissions.CalendarPermissions.None')** `Field`
-    - **[RemoveEvents](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.RemoveEvents 'Guilded.Base.Permissions.CalendarPermissions.RemoveEvents')** `Field`
-    - **[ViewEvents](CalendarPermissions.md#Guilded.Base.Permissions.CalendarPermissions.ViewEvents 'Guilded.Base.Permissions.CalendarPermissions.ViewEvents')** `Field`
-  - **[ChatPermissions](ChatPermissions.md 'Guilded.Base.Permissions.ChatPermissions')** `Enum`
-    - **[All](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.All 'Guilded.Base.Permissions.ChatPermissions.All')** `Field`
-    - **[Basic](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.Basic 'Guilded.Base.Permissions.ChatPermissions.Basic')** `Field`
-    - **[CreateThreads](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.CreateThreads 'Guilded.Base.Permissions.ChatPermissions.CreateThreads')** `Field`
-    - **[Manage](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.Manage 'Guilded.Base.Permissions.ChatPermissions.Manage')** `Field`
-    - **[ManageMessages](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.ManageMessages 'Guilded.Base.Permissions.ChatPermissions.ManageMessages')** `Field`
-    - **[ManageThreads](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.ManageThreads 'Guilded.Base.Permissions.ChatPermissions.ManageThreads')** `Field`
-    - **[None](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.None 'Guilded.Base.Permissions.ChatPermissions.None')** `Field`
-    - **[ReadMessages](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.ReadMessages 'Guilded.Base.Permissions.ChatPermissions.ReadMessages')** `Field`
-    - **[SendMessages](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.SendMessages 'Guilded.Base.Permissions.ChatPermissions.SendMessages')** `Field`
-    - **[SendThreadMessages](ChatPermissions.md#Guilded.Base.Permissions.ChatPermissions.SendThreadMessages 'Guilded.Base.Permissions.ChatPermissions.SendThreadMessages')** `Field`
-  - **[CustomPermissions](CustomPermissions.md 'Guilded.Base.Permissions.CustomPermissions')** `Enum`
-    - **[All](CustomPermissions.md#Guilded.Base.Permissions.CustomPermissions.All 'Guilded.Base.Permissions.CustomPermissions.All')** `Field`
-    - **[ChangeNickname](CustomPermissions.md#Guilded.Base.Permissions.CustomPermissions.ChangeNickname 'Guilded.Base.Permissions.CustomPermissions.ChangeNickname')** `Field`
-    - **[ManageEmoji](CustomPermissions.md#Guilded.Base.Permissions.CustomPermissions.ManageEmoji 'Guilded.Base.Permissions.CustomPermissions.ManageEmoji')** `Field`
-    - **[ManageNicknames](CustomPermissions.md#Guilded.Base.Permissions.CustomPermissions.ManageNicknames 'Guilded.Base.Permissions.CustomPermissions.ManageNicknames')** `Field`
-    - **[None](CustomPermissions.md#Guilded.Base.Permissions.CustomPermissions.None 'Guilded.Base.Permissions.CustomPermissions.None')** `Field`
-  - **[DocPermissions](DocPermissions.md 'Guilded.Base.Permissions.DocPermissions')** `Enum`
-    - **[All](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.All 'Guilded.Base.Permissions.DocPermissions.All')** `Field`
-    - **[Basic](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.Basic 'Guilded.Base.Permissions.DocPermissions.Basic')** `Field`
-    - **[CreateDocs](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.CreateDocs 'Guilded.Base.Permissions.DocPermissions.CreateDocs')** `Field`
-    - **[Manage](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.Manage 'Guilded.Base.Permissions.DocPermissions.Manage')** `Field`
-    - **[ManageDocs](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.ManageDocs 'Guilded.Base.Permissions.DocPermissions.ManageDocs')** `Field`
-    - **[None](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.None 'Guilded.Base.Permissions.DocPermissions.None')** `Field`
-    - **[RemoveDocs](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.RemoveDocs 'Guilded.Base.Permissions.DocPermissions.RemoveDocs')** `Field`
-    - **[ViewDocs](DocPermissions.md#Guilded.Base.Permissions.DocPermissions.ViewDocs 'Guilded.Base.Permissions.DocPermissions.ViewDocs')** `Field`
-  - **[FormPermissions](FormPermissions.md 'Guilded.Base.Permissions.FormPermissions')** `Enum`
-    - **[All](FormPermissions.md#Guilded.Base.Permissions.FormPermissions.All 'Guilded.Base.Permissions.FormPermissions.All')** `Field`
-    - **[Basic](FormPermissions.md#Guilded.Base.Permissions.FormPermissions.Basic 'Guilded.Base.Permissions.FormPermissions.Basic')** `Field`
-    - **[FormResponses](FormPermissions.md#Guilded.Base.Permissions.FormPermissions.FormResponses 'Guilded.Base.Permissions.FormPermissions.FormResponses')** `Field`
-    - **[None](FormPermissions.md#Guilded.Base.Permissions.FormPermissions.None 'Guilded.Base.Permissions.FormPermissions.None')** `Field`
-    - **[PollResults](FormPermissions.md#Guilded.Base.Permissions.FormPermissions.PollResults 'Guilded.Base.Permissions.FormPermissions.PollResults')** `Field`
-  - **[ForumPermissions](ForumPermissions.md 'Guilded.Base.Permissions.ForumPermissions')** `Enum`
-    - **[All](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.All 'Guilded.Base.Permissions.ForumPermissions.All')** `Field`
-    - **[Basic](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.Basic 'Guilded.Base.Permissions.ForumPermissions.Basic')** `Field`
-    - **[CreateTopicReplies](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.CreateTopicReplies 'Guilded.Base.Permissions.ForumPermissions.CreateTopicReplies')** `Field`
-    - **[CreateTopics](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.CreateTopics 'Guilded.Base.Permissions.ForumPermissions.CreateTopics')** `Field`
-    - **[LockTopics](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.LockTopics 'Guilded.Base.Permissions.ForumPermissions.LockTopics')** `Field`
-    - **[Manage](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.Manage 'Guilded.Base.Permissions.ForumPermissions.Manage')** `Field`
-    - **[ManageTopics](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.ManageTopics 'Guilded.Base.Permissions.ForumPermissions.ManageTopics')** `Field`
-    - **[None](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.None 'Guilded.Base.Permissions.ForumPermissions.None')** `Field`
-    - **[ReadForums](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.ReadForums 'Guilded.Base.Permissions.ForumPermissions.ReadForums')** `Field`
-    - **[StickyTopics](ForumPermissions.md#Guilded.Base.Permissions.ForumPermissions.StickyTopics 'Guilded.Base.Permissions.ForumPermissions.StickyTopics')** `Field`
-  - **[GeneralPermissions](GeneralPermissions.md 'Guilded.Base.Permissions.GeneralPermissions')** `Enum`
-    - **[All](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.All 'Guilded.Base.Permissions.GeneralPermissions.All')** `Field`
-    - **[InviteMembers](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.InviteMembers 'Guilded.Base.Permissions.GeneralPermissions.InviteMembers')** `Field`
-    - **[KickBanMembers](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.KickBanMembers 'Guilded.Base.Permissions.GeneralPermissions.KickBanMembers')** `Field`
-    - **[Manage](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.Manage 'Guilded.Base.Permissions.GeneralPermissions.Manage')** `Field`
-    - **[ManageChannels](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageChannels 'Guilded.Base.Permissions.GeneralPermissions.ManageChannels')** `Field`
-    - **[ManageGroups](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageGroups 'Guilded.Base.Permissions.GeneralPermissions.ManageGroups')** `Field`
-    - **[ManageRoles](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageRoles 'Guilded.Base.Permissions.GeneralPermissions.ManageRoles')** `Field`
-    - **[ManageWebhooks](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks 'Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks')** `Field`
-    - **[MentionEveryoneHere](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere 'Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere')** `Field`
-    - **[None](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.None 'Guilded.Base.Permissions.GeneralPermissions.None')** `Field`
-    - **[UpdateServer](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.UpdateServer 'Guilded.Base.Permissions.GeneralPermissions.UpdateServer')** `Field`
-  - **[ListPermissions](ListPermissions.md 'Guilded.Base.Permissions.ListPermissions')** `Enum`
-    - **[All](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.All 'Guilded.Base.Permissions.ListPermissions.All')** `Field`
-    - **[Basic](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.Basic 'Guilded.Base.Permissions.ListPermissions.Basic')** `Field`
-    - **[CompleteListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.CompleteListItems 'Guilded.Base.Permissions.ListPermissions.CompleteListItems')** `Field`
-    - **[CreateListItem](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.CreateListItem 'Guilded.Base.Permissions.ListPermissions.CreateListItem')** `Field`
-    - **[Manage](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.Manage 'Guilded.Base.Permissions.ListPermissions.Manage')** `Field`
-    - **[ManageListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.ManageListItems 'Guilded.Base.Permissions.ListPermissions.ManageListItems')** `Field`
-    - **[None](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.None 'Guilded.Base.Permissions.ListPermissions.None')** `Field`
-    - **[RemoveListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.RemoveListItems 'Guilded.Base.Permissions.ListPermissions.RemoveListItems')** `Field`
-    - **[ReorderListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.ReorderListItems 'Guilded.Base.Permissions.ListPermissions.ReorderListItems')** `Field`
-    - **[ViewListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.ViewListItems 'Guilded.Base.Permissions.ListPermissions.ViewListItems')** `Field`
-  - **[MatchmakingPermissions](MatchmakingPermissions.md 'Guilded.Base.Permissions.MatchmakingPermissions')** `Enum`
-    - **[All](MatchmakingPermissions.md#Guilded.Base.Permissions.MatchmakingPermissions.All 'Guilded.Base.Permissions.MatchmakingPermissions.All')** `Field`
-    - **[CreateScrims](MatchmakingPermissions.md#Guilded.Base.Permissions.MatchmakingPermissions.CreateScrims 'Guilded.Base.Permissions.MatchmakingPermissions.CreateScrims')** `Field`
-    - **[CreateTournaments](MatchmakingPermissions.md#Guilded.Base.Permissions.MatchmakingPermissions.CreateTournaments 'Guilded.Base.Permissions.MatchmakingPermissions.CreateTournaments')** `Field`
-    - **[None](MatchmakingPermissions.md#Guilded.Base.Permissions.MatchmakingPermissions.None 'Guilded.Base.Permissions.MatchmakingPermissions.None')** `Field`
-    - **[RegisterForTournaments](MatchmakingPermissions.md#Guilded.Base.Permissions.MatchmakingPermissions.RegisterForTournaments 'Guilded.Base.Permissions.MatchmakingPermissions.RegisterForTournaments')** `Field`
-  - **[MediaPermissions](MediaPermissions.md 'Guilded.Base.Permissions.MediaPermissions')** `Enum`
-    - **[All](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.All 'Guilded.Base.Permissions.MediaPermissions.All')** `Field`
-    - **[Basic](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.Basic 'Guilded.Base.Permissions.MediaPermissions.Basic')** `Field`
-    - **[CreateMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.CreateMedia 'Guilded.Base.Permissions.MediaPermissions.CreateMedia')** `Field`
-    - **[Manage](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.Manage 'Guilded.Base.Permissions.MediaPermissions.Manage')** `Field`
-    - **[ManageMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.ManageMedia 'Guilded.Base.Permissions.MediaPermissions.ManageMedia')** `Field`
-    - **[None](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.None 'Guilded.Base.Permissions.MediaPermissions.None')** `Field`
-    - **[RemoveMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.RemoveMedia 'Guilded.Base.Permissions.MediaPermissions.RemoveMedia')** `Field`
-    - **[SeeMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.SeeMedia 'Guilded.Base.Permissions.MediaPermissions.SeeMedia')** `Field`
-  - **[RecruitmentPermissions](RecruitmentPermissions.md 'Guilded.Base.Permissions.RecruitmentPermissions')** `Enum`
-    - **[All](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.All 'Guilded.Base.Permissions.RecruitmentPermissions.All')** `Field`
-    - **[ApproveApplications](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications 'Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications')** `Field`
-    - **[EditApplications](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.EditApplications 'Guilded.Base.Permissions.RecruitmentPermissions.EditApplications')** `Field`
-    - **[IndicateInterest](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.IndicateInterest 'Guilded.Base.Permissions.RecruitmentPermissions.IndicateInterest')** `Field`
-    - **[Manage](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.Manage 'Guilded.Base.Permissions.RecruitmentPermissions.Manage')** `Field`
-    - **[ModifyStatus](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus 'Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus')** `Field`
-    - **[None](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.None 'Guilded.Base.Permissions.RecruitmentPermissions.None')** `Field`
-    - **[ViewApplications](RecruitmentPermissions.md#Guilded.Base.Permissions.RecruitmentPermissions.ViewApplications 'Guilded.Base.Permissions.RecruitmentPermissions.ViewApplications')** `Field`
-  - **[SchedulingPermissions](SchedulingPermissions.md 'Guilded.Base.Permissions.SchedulingPermissions')** `Enum`
-    - **[All](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.All 'Guilded.Base.Permissions.SchedulingPermissions.All')** `Field`
-    - **[Basic](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.Basic 'Guilded.Base.Permissions.SchedulingPermissions.Basic')** `Field`
-    - **[CreateSchedule](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule 'Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule')** `Field`
-    - **[DeleteSchedule](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule 'Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule')** `Field`
-    - **[Manage](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.Manage 'Guilded.Base.Permissions.SchedulingPermissions.Manage')** `Field`
-    - **[None](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.None 'Guilded.Base.Permissions.SchedulingPermissions.None')** `Field`
-    - **[ViewSchedules](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules 'Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules')** `Field`
-  - **[StreamPermissions](StreamPermissions.md 'Guilded.Base.Permissions.StreamPermissions')** `Enum`
-    - **[AddStream](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.AddStream 'Guilded.Base.Permissions.StreamPermissions.AddStream')** `Field`
-    - **[All](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.All 'Guilded.Base.Permissions.StreamPermissions.All')** `Field`
-    - **[Basic](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.Basic 'Guilded.Base.Permissions.StreamPermissions.Basic')** `Field`
-    - **[JoinVoice](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.JoinVoice 'Guilded.Base.Permissions.StreamPermissions.JoinVoice')** `Field`
-    - **[Manage](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.Manage 'Guilded.Base.Permissions.StreamPermissions.Manage')** `Field`
-    - **[SendMessages](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.SendMessages 'Guilded.Base.Permissions.StreamPermissions.SendMessages')** `Field`
-    - **[ViewStreams](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.ViewStreams 'Guilded.Base.Permissions.StreamPermissions.ViewStreams')** `Field`
-  - **[VoicePermissions](VoicePermissions.md 'Guilded.Base.Permissions.VoicePermissions')** `Enum`
-    - **[AddVoice](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.AddVoice 'Guilded.Base.Permissions.VoicePermissions.AddVoice')** `Field`
-    - **[All](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.All 'Guilded.Base.Permissions.VoicePermissions.All')** `Field`
-    - **[Basic](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.Basic 'Guilded.Base.Permissions.VoicePermissions.Basic')** `Field`
-    - **[Broadcast](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.Broadcast 'Guilded.Base.Permissions.VoicePermissions.Broadcast')** `Field`
-    - **[DeafenMembers](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.DeafenMembers 'Guilded.Base.Permissions.VoicePermissions.DeafenMembers')** `Field`
-    - **[HearVoice](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.HearVoice 'Guilded.Base.Permissions.VoicePermissions.HearVoice')** `Field`
-    - **[Manage](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.Manage 'Guilded.Base.Permissions.VoicePermissions.Manage')** `Field`
-    - **[ManageVoiceRooms](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms 'Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms')** `Field`
-    - **[MoveMembers](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.MoveMembers 'Guilded.Base.Permissions.VoicePermissions.MoveMembers')** `Field`
-    - **[MuteMembers](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.MuteMembers 'Guilded.Base.Permissions.VoicePermissions.MuteMembers')** `Field`
-    - **[None](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.None 'Guilded.Base.Permissions.VoicePermissions.None')** `Field`
-    - **[PrioritySpeaker](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.PrioritySpeaker 'Guilded.Base.Permissions.VoicePermissions.PrioritySpeaker')** `Field`
-    - **[SendMessages](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.SendMessages 'Guilded.Base.Permissions.VoicePermissions.SendMessages')** `Field`
-    - **[VoiceActivity](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.VoiceActivity 'Guilded.Base.Permissions.VoicePermissions.VoiceActivity')** `Field`
-    - **[Whisper](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.Whisper 'Guilded.Base.Permissions.VoicePermissions.Whisper')** `Field`
-  - **[XpPermissions](XpPermissions.md 'Guilded.Base.Permissions.XpPermissions')** `Enum`
-    - **[All](XpPermissions.md#Guilded.Base.Permissions.XpPermissions.All 'Guilded.Base.Permissions.XpPermissions.All')** `Field`
-    - **[Manage](XpPermissions.md#Guilded.Base.Permissions.XpPermissions.Manage 'Guilded.Base.Permissions.XpPermissions.Manage')** `Field`
-    - **[ManageServerXp](XpPermissions.md#Guilded.Base.Permissions.XpPermissions.ManageServerXp 'Guilded.Base.Permissions.XpPermissions.ManageServerXp')** `Field`
-    - **[None](XpPermissions.md#Guilded.Base.Permissions.XpPermissions.None 'Guilded.Base.Permissions.XpPermissions.None')** `Field`
-- **[Guilded.Base.Servers](Guilded.Base.Servers.md 'Guilded.Base.Servers')** `Namespace`
-  - **[Member](Member.md 'Guilded.Base.Servers.Member')** `Class`
-    - **[Member(User, IList&lt;uint&gt;, string, DateTime)](Member.Member(User,IList_uint_,string,DateTime).md 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, string, System.DateTime)')** `Constructor`
-    - **[JoinedAt](Member.JoinedAt.md 'Guilded.Base.Servers.Member.JoinedAt')** `Property`
-    - **[Nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname')** `Property`
-  - **[MemberBan](MemberBan.md 'Guilded.Base.Servers.MemberBan')** `Class`
-    - **[MemberBan(UserSummary, HashId, DateTime, string)](MemberBan.MemberBan(UserSummary,HashId,DateTime,string).md 'Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary, Guilded.Base.HashId, System.DateTime, string)')** `Constructor`
-    - **[CreatedAt](MemberBan.CreatedAt.md 'Guilded.Base.Servers.MemberBan.CreatedAt')** `Property`
-    - **[CreatedBy](MemberBan.CreatedBy.md 'Guilded.Base.Servers.MemberBan.CreatedBy')** `Property`
-    - **[Reason](MemberBan.Reason.md 'Guilded.Base.Servers.MemberBan.Reason')** `Property`
-    - **[User](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User')** `Property`
-  - **[MemberSummary&lt;T&gt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>')** `Class`
-    - **[MemberSummary(T, IList&lt;uint&gt;)](MemberSummary_T_.MemberSummary(T,IList_uint_).md 'Guilded.Base.Servers.MemberSummary<T>.MemberSummary(T, System.Collections.Generic.IList<uint>)')** `Constructor`
-    - **[Id](MemberSummary_T_.Id.md 'Guilded.Base.Servers.MemberSummary<T>.Id')** `Property`
-    - **[IsBot](MemberSummary_T_.IsBot.md 'Guilded.Base.Servers.MemberSummary<T>.IsBot')** `Property`
-    - **[Name](MemberSummary_T_.Name.md 'Guilded.Base.Servers.MemberSummary<T>.Name')** `Property`
-    - **[RoleIds](MemberSummary_T_.RoleIds.md 'Guilded.Base.Servers.MemberSummary<T>.RoleIds')** `Property`
-    - **[Type](MemberSummary_T_.Type.md 'Guilded.Base.Servers.MemberSummary<T>.Type')** `Property`
-    - **[User](MemberSummary_T_.User.md 'Guilded.Base.Servers.MemberSummary<T>.User')** `Property`
-  - **[Webhook](Webhook.md 'Guilded.Base.Servers.Webhook')** `Class`
-    - **[Webhook(Guid, string, string, Guid, HashId, DateTime, HashId, Nullable&lt;DateTime&gt;)](Webhook.Webhook(Guid,string,string,Guid,HashId,DateTime,HashId,Nullable_DateTime_).md 'Guilded.Base.Servers.Webhook.Webhook(Guid, string, string, Guid, Guilded.Base.HashId, System.DateTime, Guilded.Base.HashId, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[ChannelId](Webhook.ChannelId.md 'Guilded.Base.Servers.Webhook.ChannelId')** `Property`
-    - **[CreatedAt](Webhook.CreatedAt.md 'Guilded.Base.Servers.Webhook.CreatedAt')** `Property`
-    - **[CreatedBy](Webhook.CreatedBy.md 'Guilded.Base.Servers.Webhook.CreatedBy')** `Property`
-    - **[DeletedAt](Webhook.DeletedAt.md 'Guilded.Base.Servers.Webhook.DeletedAt')** `Property`
-    - **[Id](Webhook.Id.md 'Guilded.Base.Servers.Webhook.Id')** `Property`
-    - **[Name](Webhook.Name.md 'Guilded.Base.Servers.Webhook.Name')** `Property`
-    - **[ServerId](Webhook.ServerId.md 'Guilded.Base.Servers.Webhook.ServerId')** `Property`
-    - **[Token](Webhook.Token.md 'Guilded.Base.Servers.Webhook.Token')** `Property`
-    - **[CreateMessageAsync(MessageContent)](Webhook.CreateMessageAsync(MessageContent).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
-    - **[CreateMessageAsync(Embed[])](Webhook.CreateMessageAsync(Embed[]).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, Embed[])](Webhook.CreateMessageAsync(string,Embed[]).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
-    - **[CreateMessageAsync(string, IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(string,IList_Embed_).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    - **[CreateMessageAsync(string)](Webhook.CreateMessageAsync(string).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string)')** `Method`
-    - **[CreateMessageAsync(IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(IList_Embed_).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    - **[DeleteAsync()](Webhook.DeleteAsync().md 'Guilded.Base.Servers.Webhook.DeleteAsync()')** `Method`
-    - **[UpdateAsync(string)](Webhook.UpdateAsync(string).md 'Guilded.Base.Servers.Webhook.UpdateAsync(string)')** `Method`
-- **[Guilded.Base.Users](Guilded.Base.Users.md 'Guilded.Base.Users')** `Namespace`
-  - **[Me](Me.md 'Guilded.Base.Users.Me')** `Class`
-    - **[Me(HashId, Guid, string, DateTime, HashId)](Me.Me(HashId,Guid,string,DateTime,HashId).md 'Guilded.Base.Users.Me.Me(Guilded.Base.HashId, Guid, string, System.DateTime, Guilded.Base.HashId)')** `Constructor`
-    - **[BotId](Me.BotId.md 'Guilded.Base.Users.Me.BotId')** `Property`
-    - **[CreatedAt](Me.CreatedAt.md 'Guilded.Base.Users.Me.CreatedAt')** `Property`
-    - **[CreatedBy](Me.CreatedBy.md 'Guilded.Base.Users.Me.CreatedBy')** `Property`
-    - **[Id](Me.Id.md 'Guilded.Base.Users.Me.Id')** `Property`
-    - **[Name](Me.Name.md 'Guilded.Base.Users.Me.Name')** `Property`
-  - **[SocialLink](SocialLink.md 'Guilded.Base.Users.SocialLink')** `Class`
-    - **[SocialLink(SocialLinkType, string, string)](SocialLink.SocialLink(SocialLinkType,string,string).md 'Guilded.Base.Users.SocialLink.SocialLink(Guilded.Base.Users.SocialLinkType, string, string)')** `Constructor`
-    - **[Handle](SocialLink.Handle.md 'Guilded.Base.Users.SocialLink.Handle')** `Property`
-    - **[ServiceId](SocialLink.ServiceId.md 'Guilded.Base.Users.SocialLink.ServiceId')** `Property`
-    - **[Type](SocialLink.Type.md 'Guilded.Base.Users.SocialLink.Type')** `Property`
-  - **[User](User.md 'Guilded.Base.Users.User')** `Class`
-    - **[User(HashId, UserType, string, DateTime)](User.User(HashId,UserType,string,DateTime).md 'Guilded.Base.Users.User.User(Guilded.Base.HashId, Guilded.Base.Users.UserType, string, System.DateTime)')** `Constructor`
-    - **[CreatedAt](User.CreatedAt.md 'Guilded.Base.Users.User.CreatedAt')** `Property`
-  - **[UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')** `Class`
-    - **[UserSummary(HashId, Nullable&lt;UserType&gt;, string)](UserSummary.UserSummary(HashId,Nullable_UserType_,string).md 'Guilded.Base.Users.UserSummary.UserSummary(Guilded.Base.HashId, System.Nullable<Guilded.Base.Users.UserType>, string)')** `Constructor`
-    - **[Id](UserSummary.Id.md 'Guilded.Base.Users.UserSummary.Id')** `Property`
-    - **[IsBot](UserSummary.IsBot.md 'Guilded.Base.Users.UserSummary.IsBot')** `Property`
-    - **[Name](UserSummary.Name.md 'Guilded.Base.Users.UserSummary.Name')** `Property`
-    - **[Type](UserSummary.Type.md 'Guilded.Base.Users.UserSummary.Type')** `Property`
-    - **[AddRoleAsync(HashId, uint)](UserSummary.AddRoleAsync(HashId,uint).md 'Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId, uint)')** `Method`
-    - **[AddXpAsync(HashId, short)](UserSummary.AddXpAsync(HashId,short).md 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short)')** `Method`
-    - **[BanAsync(HashId, string)](UserSummary.BanAsync(HashId,string).md 'Guilded.Base.Users.UserSummary.BanAsync(Guilded.Base.HashId, string)')** `Method`
-    - **[DeleteNicknameAsync(HashId)](UserSummary.DeleteNicknameAsync(HashId).md 'Guilded.Base.Users.UserSummary.DeleteNicknameAsync(Guilded.Base.HashId)')** `Method`
-    - **[GetBanAsync(HashId)](UserSummary.GetBanAsync(HashId).md 'Guilded.Base.Users.UserSummary.GetBanAsync(Guilded.Base.HashId)')** `Method`
-    - **[GetSocialLinkAsync(HashId, SocialLinkType)](UserSummary.GetSocialLinkAsync(HashId,SocialLinkType).md 'Guilded.Base.Users.UserSummary.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
-    - **[KickAsync(HashId)](UserSummary.KickAsync(HashId).md 'Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId)')** `Method`
-    - **[RemoveRoleAsync(HashId, uint)](UserSummary.RemoveRoleAsync(HashId,uint).md 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint)')** `Method`
-    - **[ToString()](UserSummary.ToString().md 'Guilded.Base.Users.UserSummary.ToString()')** `Method`
-    - **[UnbanAsync(HashId)](UserSummary.UnbanAsync(HashId).md 'Guilded.Base.Users.UserSummary.UnbanAsync(Guilded.Base.HashId)')** `Method`
-    - **[UpdateNicknameAsync(HashId, string)](UserSummary.UpdateNicknameAsync(HashId,string).md 'Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId, string)')** `Method`
-  - **[SocialLinkType](SocialLinkType.md 'Guilded.Base.Users.SocialLinkType')** `Enum`
-    - **[Bnet](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Bnet 'Guilded.Base.Users.SocialLinkType.Bnet')** `Field`
-    - **[Facebook](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Facebook 'Guilded.Base.Users.SocialLinkType.Facebook')** `Field`
-    - **[Origin](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Origin 'Guilded.Base.Users.SocialLinkType.Origin')** `Field`
-    - **[Patreon](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Patreon 'Guilded.Base.Users.SocialLinkType.Patreon')** `Field`
-    - **[Psn](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Psn 'Guilded.Base.Users.SocialLinkType.Psn')** `Field`
-    - **[Roblox](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Roblox 'Guilded.Base.Users.SocialLinkType.Roblox')** `Field`
-    - **[Steam](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Steam 'Guilded.Base.Users.SocialLinkType.Steam')** `Field`
-    - **[Switch](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Switch 'Guilded.Base.Users.SocialLinkType.Switch')** `Field`
-    - **[Twitch](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Twitch 'Guilded.Base.Users.SocialLinkType.Twitch')** `Field`
-    - **[Twitter](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Twitter 'Guilded.Base.Users.SocialLinkType.Twitter')** `Field`
-    - **[Xbox](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.Xbox 'Guilded.Base.Users.SocialLinkType.Xbox')** `Field`
-    - **[YouTube](SocialLinkType.md#Guilded.Base.Users.SocialLinkType.YouTube 'Guilded.Base.Users.SocialLinkType.YouTube')** `Field`
-  - **[UserType](UserType.md 'Guilded.Base.Users.UserType')** `Enum`
-    - **[Bot](UserType.md#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot')** `Field`
-    - **[User](UserType.md#Guilded.Base.Users.UserType.User 'Guilded.Base.Users.UserType.User')** `Field`
+- **[Guilded](Guilded 'Guilded')** `Namespace`
+  - **[AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient')** `Class`
+    - **[AbstractGuildedClient()](AbstractGuildedClient.AbstractGuildedClient() 'Guilded.AbstractGuildedClient.AbstractGuildedClient()')** `Constructor`
+    - **[PreparedSubject](AbstractGuildedClient.PreparedSubject 'Guilded.AbstractGuildedClient.PreparedSubject')** `Field`
+    - **[ChannelCreated](AbstractGuildedClient.ChannelCreated 'Guilded.AbstractGuildedClient.ChannelCreated')** `Property`
+    - **[ChannelDeleted](AbstractGuildedClient.ChannelDeleted 'Guilded.AbstractGuildedClient.ChannelDeleted')** `Property`
+    - **[ChannelUpdated](AbstractGuildedClient.ChannelUpdated 'Guilded.AbstractGuildedClient.ChannelUpdated')** `Property`
+    - **[DocCreated](AbstractGuildedClient.DocCreated 'Guilded.AbstractGuildedClient.DocCreated')** `Property`
+    - **[DocDeleted](AbstractGuildedClient.DocDeleted 'Guilded.AbstractGuildedClient.DocDeleted')** `Property`
+    - **[DocUpdated](AbstractGuildedClient.DocUpdated 'Guilded.AbstractGuildedClient.DocUpdated')** `Property`
+    - **[GuildedEvents](AbstractGuildedClient.GuildedEvents 'Guilded.AbstractGuildedClient.GuildedEvents')** `Property`
+    - **[IsPrepared](AbstractGuildedClient.IsPrepared 'Guilded.AbstractGuildedClient.IsPrepared')** `Property`
+    - **[ListItemCompleted](AbstractGuildedClient.ListItemCompleted 'Guilded.AbstractGuildedClient.ListItemCompleted')** `Property`
+    - **[ListItemCreated](AbstractGuildedClient.ListItemCreated 'Guilded.AbstractGuildedClient.ListItemCreated')** `Property`
+    - **[ListItemDeleted](AbstractGuildedClient.ListItemDeleted 'Guilded.AbstractGuildedClient.ListItemDeleted')** `Property`
+    - **[ListItemUncompleted](AbstractGuildedClient.ListItemUncompleted 'Guilded.AbstractGuildedClient.ListItemUncompleted')** `Property`
+    - **[ListItemUpdated](AbstractGuildedClient.ListItemUpdated 'Guilded.AbstractGuildedClient.ListItemUpdated')** `Property`
+    - **[Me](AbstractGuildedClient.Me 'Guilded.AbstractGuildedClient.Me')** `Property`
+    - **[MemberBanned](AbstractGuildedClient.MemberBanned 'Guilded.AbstractGuildedClient.MemberBanned')** `Property`
+    - **[MemberJoined](AbstractGuildedClient.MemberJoined 'Guilded.AbstractGuildedClient.MemberJoined')** `Property`
+    - **[MemberRemoved](AbstractGuildedClient.MemberRemoved 'Guilded.AbstractGuildedClient.MemberRemoved')** `Property`
+    - **[MemberUnbanned](AbstractGuildedClient.MemberUnbanned 'Guilded.AbstractGuildedClient.MemberUnbanned')** `Property`
+    - **[MemberUpdated](AbstractGuildedClient.MemberUpdated 'Guilded.AbstractGuildedClient.MemberUpdated')** `Property`
+    - **[MessageCreated](AbstractGuildedClient.MessageCreated 'Guilded.AbstractGuildedClient.MessageCreated')** `Property`
+    - **[MessageDeleted](AbstractGuildedClient.MessageDeleted 'Guilded.AbstractGuildedClient.MessageDeleted')** `Property`
+    - **[MessageUpdated](AbstractGuildedClient.MessageUpdated 'Guilded.AbstractGuildedClient.MessageUpdated')** `Property`
+    - **[Prepared](AbstractGuildedClient.Prepared 'Guilded.AbstractGuildedClient.Prepared')** `Property`
+    - **[Resume](AbstractGuildedClient.Resume 'Guilded.AbstractGuildedClient.Resume')** `Property`
+    - **[RolesUpdated](AbstractGuildedClient.RolesUpdated 'Guilded.AbstractGuildedClient.RolesUpdated')** `Property`
+    - **[WebhookCreated](AbstractGuildedClient.WebhookCreated 'Guilded.AbstractGuildedClient.WebhookCreated')** `Property`
+    - **[WebhookUpdated](AbstractGuildedClient.WebhookUpdated 'Guilded.AbstractGuildedClient.WebhookUpdated')** `Property`
+    - **[Welcome](AbstractGuildedClient.Welcome 'Guilded.AbstractGuildedClient.Welcome')** `Property`
+    - **[XpAdded](AbstractGuildedClient.XpAdded 'Guilded.AbstractGuildedClient.XpAdded')** `Property`
+    - **[AddMembershipAsync(HashId, HashId)](AbstractGuildedClient.AddMembershipAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[AddReactionAsync(Guid, Guid, uint)](AbstractGuildedClient.AddReactionAsync(Guid,Guid,uint) 'Guilded.AbstractGuildedClient.AddReactionAsync(Guid, Guid, uint)')** `Method`
+    - **[AddReactionAsync(Guid, uint, uint)](AbstractGuildedClient.AddReactionAsync(Guid,uint,uint) 'Guilded.AbstractGuildedClient.AddReactionAsync(Guid, uint, uint)')** `Method`
+    - **[AddRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.AddRoleAsync(HashId,HashId,uint) 'Guilded.AbstractGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
+    - **[AddXpAsync(HashId, HashId, long)](AbstractGuildedClient.AddXpAsync(HashId,HashId,long) 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long)')** `Method`
+    - **[AddXpAsync(HashId, uint, long)](AbstractGuildedClient.AddXpAsync(HashId,uint,long) 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long)')** `Method`
+    - **[BanMemberAsync(HashId, HashId, string)](AbstractGuildedClient.BanMemberAsync(HashId,HashId,string) 'Guilded.AbstractGuildedClient.BanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    - **[CompleteListItemAsync(Guid, Guid)](AbstractGuildedClient.CompleteListItemAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.CompleteListItemAsync(Guid, Guid)')** `Method`
+    - **[ConnectAsync()](AbstractGuildedClient.ConnectAsync() 'Guilded.AbstractGuildedClient.ConnectAsync()')** `Method`
+    - **[CreateChannelAsync(HashId, string, ChannelType, string, Nullable&lt;HashId&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](AbstractGuildedClient.CreateChannelAsync(HashId,string,ChannelType,string,Nullable_HashId_,Nullable_uint_,Nullable_bool_) 'Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId, string, Guilded.Base.Servers.ChannelType, string, System.Nullable<Guilded.Base.HashId>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
+    - **[CreateDocAsync(Guid, string, string)](AbstractGuildedClient.CreateDocAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
+    - **[CreateForumThreadAsync(Guid, string, string)](AbstractGuildedClient.CreateForumThreadAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateForumThreadAsync(Guid, string, string)')** `Method`
+    - **[CreateHookMessageAsync(Guid, string, MessageContent)](AbstractGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent) 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateListItemAsync(Guid, string, string)](AbstractGuildedClient.CreateListItemAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
+    - **[CreateMessageAsync(Guid, MessageContent)](AbstractGuildedClient.CreateMessageAsync(Guid,MessageContent) 'Guilded.AbstractGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateWebhookAsync(HashId, Guid, string)](AbstractGuildedClient.CreateWebhookAsync(HashId,Guid,string) 'Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string)')** `Method`
+    - **[DeleteChannelAsync(Guid)](AbstractGuildedClient.DeleteChannelAsync(Guid) 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid)')** `Method`
+    - **[DeleteDocAsync(Guid, uint)](AbstractGuildedClient.DeleteDocAsync(Guid,uint) 'Guilded.AbstractGuildedClient.DeleteDocAsync(Guid, uint)')** `Method`
+    - **[DeleteListItemAsync(Guid, Guid)](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid)')** `Method`
+    - **[DeleteMessageAsync(Guid, Guid)](AbstractGuildedClient.DeleteMessageAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.DeleteMessageAsync(Guid, Guid)')** `Method`
+    - **[DeleteNicknameAsync(HashId, HashId)](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[DeleteWebhookAsync(HashId, Guid)](AbstractGuildedClient.DeleteWebhookAsync(HashId,Guid) 'Guilded.AbstractGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
+    - **[DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.AbstractGuildedClient.DisconnectAsync()')** `Method`
+    - **[Dispose()](AbstractGuildedClient.Dispose() 'Guilded.AbstractGuildedClient.Dispose()')** `Method`
+    - **[GetBanAsync(HashId, HashId)](AbstractGuildedClient.GetBanAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[GetBansAsync(HashId)](AbstractGuildedClient.GetBansAsync(HashId) 'Guilded.AbstractGuildedClient.GetBansAsync(Guilded.Base.HashId)')** `Method`
+    - **[GetChannelAsync(Guid)](AbstractGuildedClient.GetChannelAsync(Guid) 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid)')** `Method`
+    - **[GetDocAsync(Guid, uint)](AbstractGuildedClient.GetDocAsync(Guid,uint) 'Guilded.AbstractGuildedClient.GetDocAsync(Guid, uint)')** `Method`
+    - **[GetDocsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](AbstractGuildedClient.GetDocsAsync(Guid,Nullable_uint_,Nullable_DateTime_) 'Guilded.AbstractGuildedClient.GetDocsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
+    - **[GetListItemAsync(Guid, Guid)](AbstractGuildedClient.GetListItemAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid)')** `Method`
+    - **[GetListItemsAsync(Guid)](AbstractGuildedClient.GetListItemsAsync(Guid) 'Guilded.AbstractGuildedClient.GetListItemsAsync(Guid)')** `Method`
+    - **[GetMemberAsync(HashId, HashId)](AbstractGuildedClient.GetMemberAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[GetMemberRolesAsync(HashId, HashId)](AbstractGuildedClient.GetMemberRolesAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[GetMembersAsync(HashId)](AbstractGuildedClient.GetMembersAsync(HashId) 'Guilded.AbstractGuildedClient.GetMembersAsync(Guilded.Base.HashId)')** `Method`
+    - **[GetMessageAsync(Guid, Guid)](AbstractGuildedClient.GetMessageAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.GetMessageAsync(Guid, Guid)')** `Method`
+    - **[GetMessagesAsync(Guid, bool, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)](AbstractGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_) 'Guilded.AbstractGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>)')** `Method`
+    - **[GetSocialLinkAsync(HashId, HashId, SocialLinkType)](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType) 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
+    - **[GetWebhookAsync(HashId, Guid)](AbstractGuildedClient.GetWebhookAsync(HashId,Guid) 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
+    - **[GetWebhooksAsync(HashId, Nullable&lt;Guid&gt;)](AbstractGuildedClient.GetWebhooksAsync(HashId,Nullable_Guid_) 'Guilded.AbstractGuildedClient.GetWebhooksAsync(Guilded.Base.HashId, System.Nullable<Guid>)')** `Method`
+    - **[KickMemberAsync(HashId, HashId)](AbstractGuildedClient.KickMemberAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[OnSocketMessage(GuildedSocketMessage)](AbstractGuildedClient.OnSocketMessage(GuildedSocketMessage) 'Guilded.AbstractGuildedClient.OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage)')** `Method`
+    - **[RemoveMembershipAsync(HashId, HashId)](AbstractGuildedClient.RemoveMembershipAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[RemoveRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint) 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
+    - **[UnbanMemberAsync(HashId, HashId)](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[UncompleteListItemAsync(Guid, Guid)](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid)')** `Method`
+    - **[UpdateChannelAsync(Guid, string, string, Nullable&lt;bool&gt;)](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_) 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>)')** `Method`
+    - **[UpdateDocAsync(Guid, uint, string, string)](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string) 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string)')** `Method`
+    - **[UpdateListItemAsync(Guid, Guid, string, string)](AbstractGuildedClient.UpdateListItemAsync(Guid,Guid,string,string) 'Guilded.AbstractGuildedClient.UpdateListItemAsync(Guid, Guid, string, string)')** `Method`
+    - **[UpdateMessageAsync(Guid, Guid, MessageContent)](AbstractGuildedClient.UpdateMessageAsync(Guid,Guid,MessageContent) 'Guilded.AbstractGuildedClient.UpdateMessageAsync(Guid, Guid, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[UpdateNicknameAsync(HashId, HashId, string)](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string) 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    - **[UpdateWebhookAsync(HashId, Guid, string, Nullable&lt;Guid&gt;)](AbstractGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_) 'Guilded.AbstractGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>)')** `Method`
+  - **[EventInfo&lt;T&gt;](EventInfo_T_ 'Guilded.EventInfo<T>')** `Class`
+    - **[EventInfo()](EventInfo_T_.EventInfo() 'Guilded.EventInfo<T>.EventInfo()')** `Constructor`
+    - **[Subject](EventInfo_T_.Subject 'Guilded.EventInfo<T>.Subject')** `Field`
+    - **[ArgumentType](EventInfo_T_.ArgumentType 'Guilded.EventInfo<T>.ArgumentType')** `Property`
+    - **[Observable](EventInfo_T_.Observable 'Guilded.EventInfo<T>.Observable')** `Property`
+    - **[OnError(Exception)](EventInfo_T_.OnError(Exception) 'Guilded.EventInfo<T>.OnError(System.Exception)')** `Method`
+    - **[OnNext(object)](EventInfo_T_.OnNext(object) 'Guilded.EventInfo<T>.OnNext(object)')** `Method`
+  - **[GuildedBotClient](GuildedBotClient 'Guilded.GuildedBotClient')** `Class`
+    - **[GuildedBotClient()](GuildedBotClient.GuildedBotClient() 'Guilded.GuildedBotClient.GuildedBotClient()')** `Constructor`
+    - **[GuildedBotClient(string)](GuildedBotClient.GuildedBotClient(string) 'Guilded.GuildedBotClient.GuildedBotClient(string)')** `Constructor`
+    - **[AuthToken](GuildedBotClient.AuthToken 'Guilded.GuildedBotClient.AuthToken')** `Property`
+    - **[ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()')** `Method`
+    - **[ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.GuildedBotClient.ConnectAsync(string)')** `Method`
+  - **[IEventInfo&lt;T&gt;](IEventInfo_T_ 'Guilded.IEventInfo<T>')** `Interface`
+    - **[ArgumentType](IEventInfo_T_.ArgumentType 'Guilded.IEventInfo<T>.ArgumentType')** `Property`
+    - **[Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')** `Property`
+    - **[OnError(Exception)](IEventInfo_T_.OnError(Exception) 'Guilded.IEventInfo<T>.OnError(System.Exception)')** `Method`
+    - **[OnNext(object)](IEventInfo_T_.OnNext(object) 'Guilded.IEventInfo<T>.OnNext(object)')** `Method`
+- **[Guilded.Base](Guilded.Base 'Guilded.Base')** `Namespace`
+  - **[BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')** `Class`
+    - **[BaseGuildedClient()](BaseGuildedClient.BaseGuildedClient() 'Guilded.Base.BaseGuildedClient.BaseGuildedClient()')** `Constructor`
+    - **[BaseGuildedClient(Uri, Uri)](BaseGuildedClient.BaseGuildedClient(Uri,Uri) 'Guilded.Base.BaseGuildedClient.BaseGuildedClient(Uri, Uri)')** `Constructor`
+    - **[ConnectedSubject](BaseGuildedClient.ConnectedSubject 'Guilded.Base.BaseGuildedClient.ConnectedSubject')** `Field`
+    - **[AdditionalHeaders](BaseGuildedClient.AdditionalHeaders 'Guilded.Base.BaseGuildedClient.AdditionalHeaders')** `Property`
+    - **[Connected](BaseGuildedClient.Connected 'Guilded.Base.BaseGuildedClient.Connected')** `Property`
+    - **[Disconnected](BaseGuildedClient.Disconnected 'Guilded.Base.BaseGuildedClient.Disconnected')** `Property`
+    - **[GuildedSerializer](BaseGuildedClient.GuildedSerializer 'Guilded.Base.BaseGuildedClient.GuildedSerializer')** `Property`
+    - **[LastMessageId](BaseGuildedClient.LastMessageId 'Guilded.Base.BaseGuildedClient.LastMessageId')** `Property`
+    - **[Reconnected](BaseGuildedClient.Reconnected 'Guilded.Base.BaseGuildedClient.Reconnected')** `Property`
+    - **[Rest](BaseGuildedClient.Rest 'Guilded.Base.BaseGuildedClient.Rest')** `Property`
+    - **[SerializerSettings](BaseGuildedClient.SerializerSettings 'Guilded.Base.BaseGuildedClient.SerializerSettings')** `Property`
+    - **[Websocket](BaseGuildedClient.Websocket 'Guilded.Base.BaseGuildedClient.Websocket')** `Property`
+    - **[WebsocketMessage](BaseGuildedClient.WebsocketMessage 'Guilded.Base.BaseGuildedClient.WebsocketMessage')** `Property`
+    - **[AddMembershipAsync(HashId, HashId)](BaseGuildedClient.AddMembershipAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[AddReactionAsync(Guid, Guid, uint)](BaseGuildedClient.AddReactionAsync(Guid,Guid,uint) 'Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid, Guid, uint)')** `Method`
+    - **[AddReactionAsync(Guid, uint, uint)](BaseGuildedClient.AddReactionAsync(Guid,uint,uint) 'Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid, uint, uint)')** `Method`
+    - **[AddRoleAsync(HashId, HashId, uint)](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint) 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
+    - **[AddXpAsync(HashId, HashId, long)](BaseGuildedClient.AddXpAsync(HashId,HashId,long) 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long)')** `Method`
+    - **[AddXpAsync(HashId, uint, long)](BaseGuildedClient.AddXpAsync(HashId,uint,long) 'Guilded.Base.BaseGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long)')** `Method`
+    - **[BanMemberAsync(HashId, HashId, string)](BaseGuildedClient.BanMemberAsync(HashId,HashId,string) 'Guilded.Base.BaseGuildedClient.BanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    - **[CompleteListItemAsync(Guid, Guid)](BaseGuildedClient.CompleteListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.CompleteListItemAsync(Guid, Guid)')** `Method`
+    - **[ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.Base.BaseGuildedClient.ConnectAsync()')** `Method`
+    - **[CreateChannelAsync(HashId, string, ChannelType, string, Nullable&lt;HashId&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](BaseGuildedClient.CreateChannelAsync(HashId,string,ChannelType,string,Nullable_HashId_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.BaseGuildedClient.CreateChannelAsync(Guilded.Base.HashId, string, Guilded.Base.Servers.ChannelType, string, System.Nullable<Guilded.Base.HashId>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
+    - **[CreateDocAsync(Guid, string, string)](BaseGuildedClient.CreateDocAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
+    - **[CreateForumThreadAsync(Guid, string, string)](BaseGuildedClient.CreateForumThreadAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid, string, string)')** `Method`
+    - **[CreateHookMessageAsync(Guid, string, MessageContent)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateHookMessageAsync(Guid, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Guid,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateHookMessageAsync(Guid, string, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateHookMessageAsync(Guid, string, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[CreateHookMessageAsync(Guid, string, string)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string)')** `Method`
+    - **[CreateHookMessageAsync(Guid, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[CreateListItemAsync(Guid, string, string)](BaseGuildedClient.CreateListItemAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
+    - **[CreateMessageAsync(Guid, bool, bool, Guid[], Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,bool,bool,Guid[],Embed[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(Guid, MessageContent)](BaseGuildedClient.CreateMessageAsync(Guid,MessageContent) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateMessageAsync(Guid, Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(Guid, string, bool, bool, Guid[], Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,string,bool,bool,Guid[],Embed[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(Guid, string, bool, bool, Guid[])](BaseGuildedClient.CreateMessageAsync(Guid,string,bool,bool,Guid[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, bool, bool, Guid[])')** `Method`
+    - **[CreateMessageAsync(Guid, string, bool, bool)](BaseGuildedClient.CreateMessageAsync(Guid,string,bool,bool) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, bool, bool)')** `Method`
+    - **[CreateMessageAsync(Guid, string, Guid[])](BaseGuildedClient.CreateMessageAsync(Guid,string,Guid[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, Guid[])')** `Method`
+    - **[CreateMessageAsync(Guid, string, Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(Guid, string)](BaseGuildedClient.CreateMessageAsync(Guid,string) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string)')** `Method`
+    - **[CreateWebhookAsync(HashId, Guid, string)](BaseGuildedClient.CreateWebhookAsync(HashId,Guid,string) 'Guilded.Base.BaseGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string)')** `Method`
+    - **[DeleteChannelAsync(Guid)](BaseGuildedClient.DeleteChannelAsync(Guid) 'Guilded.Base.BaseGuildedClient.DeleteChannelAsync(Guid)')** `Method`
+    - **[DeleteDocAsync(Guid, uint)](BaseGuildedClient.DeleteDocAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint)')** `Method`
+    - **[DeleteListItemAsync(Guid, Guid)](BaseGuildedClient.DeleteListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.DeleteListItemAsync(Guid, Guid)')** `Method`
+    - **[DeleteMessageAsync(Guid, Guid)](BaseGuildedClient.DeleteMessageAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid)')** `Method`
+    - **[DeleteNicknameAsync(HashId, HashId)](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[DeleteWebhookAsync(HashId, Guid)](BaseGuildedClient.DeleteWebhookAsync(HashId,Guid) 'Guilded.Base.BaseGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
+    - **[Deserialize&lt;T&gt;(string)](BaseGuildedClient.Deserialize_T_(string) 'Guilded.Base.BaseGuildedClient.Deserialize<T>(string)')** `Method`
+    - **[DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.Base.BaseGuildedClient.DisconnectAsync()')** `Method`
+    - **[Dispose()](BaseGuildedClient.Dispose() 'Guilded.Base.BaseGuildedClient.Dispose()')** `Method`
+    - **[ExecuteRequestAsync(RestRequest)](BaseGuildedClient.ExecuteRequestAsync(RestRequest) 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync(RestSharp.RestRequest)')** `Method`
+    - **[ExecuteRequestAsync&lt;T&gt;(RestRequest)](BaseGuildedClient.ExecuteRequestAsync_T_(RestRequest) 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync<T>(RestSharp.RestRequest)')** `Method`
+    - **[GetBanAsync(HashId, HashId)](BaseGuildedClient.GetBanAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[GetBansAsync(HashId)](BaseGuildedClient.GetBansAsync(HashId) 'Guilded.Base.BaseGuildedClient.GetBansAsync(Guilded.Base.HashId)')** `Method`
+    - **[GetChannelAsync(Guid)](BaseGuildedClient.GetChannelAsync(Guid) 'Guilded.Base.BaseGuildedClient.GetChannelAsync(Guid)')** `Method`
+    - **[GetDocAsync(Guid, uint)](BaseGuildedClient.GetDocAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.GetDocAsync(Guid, uint)')** `Method`
+    - **[GetDocsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetDocsAsync(Guid,Nullable_uint_,Nullable_DateTime_) 'Guilded.Base.BaseGuildedClient.GetDocsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
+    - **[GetListItemAsync(Guid, Guid)](BaseGuildedClient.GetListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.GetListItemAsync(Guid, Guid)')** `Method`
+    - **[GetListItemsAsync(Guid)](BaseGuildedClient.GetListItemsAsync(Guid) 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid)')** `Method`
+    - **[GetMemberAsync(HashId, HashId)](BaseGuildedClient.GetMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[GetMemberRolesAsync(HashId, HashId)](BaseGuildedClient.GetMemberRolesAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[GetMembersAsync(HashId)](BaseGuildedClient.GetMembersAsync(HashId) 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId)')** `Method`
+    - **[GetMessageAsync(Guid, Guid)](BaseGuildedClient.GetMessageAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.GetMessageAsync(Guid, Guid)')** `Method`
+    - **[GetMessagesAsync(Guid, bool, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_) 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>)')** `Method`
+    - **[GetSocialLinkAsync(HashId, HashId, SocialLinkType)](BaseGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType) 'Guilded.Base.BaseGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
+    - **[GetWebhookAsync(HashId, Guid)](BaseGuildedClient.GetWebhookAsync(HashId,Guid) 'Guilded.Base.BaseGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
+    - **[GetWebhooksAsync(HashId, Nullable&lt;Guid&gt;)](BaseGuildedClient.GetWebhooksAsync(HashId,Nullable_Guid_) 'Guilded.Base.BaseGuildedClient.GetWebhooksAsync(Guilded.Base.HashId, System.Nullable<Guid>)')** `Method`
+    - **[KickMemberAsync(HashId, HashId)](BaseGuildedClient.KickMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[OnWebsocketResponse(ResponseMessage)](BaseGuildedClient.OnWebsocketResponse(ResponseMessage) 'Guilded.Base.BaseGuildedClient.OnWebsocketResponse(Websocket.Client.ResponseMessage)')** `Method`
+    - **[RemoveMembershipAsync(HashId, HashId)](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[RemoveRoleAsync(HashId, HashId, uint)](BaseGuildedClient.RemoveRoleAsync(HashId,HashId,uint) 'Guilded.Base.BaseGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
+    - **[Serialize(object)](BaseGuildedClient.Serialize(object) 'Guilded.Base.BaseGuildedClient.Serialize(object)')** `Method`
+    - **[UnbanMemberAsync(HashId, HashId)](BaseGuildedClient.UnbanMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[UncompleteListItemAsync(Guid, Guid)](BaseGuildedClient.UncompleteListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.UncompleteListItemAsync(Guid, Guid)')** `Method`
+    - **[UpdateChannelAsync(Guid, string, string, Nullable&lt;bool&gt;)](BaseGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_) 'Guilded.Base.BaseGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>)')** `Method`
+    - **[UpdateDocAsync(Guid, uint, string, string)](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string) 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string)')** `Method`
+    - **[UpdateListItemAsync(Guid, Guid, string, string)](BaseGuildedClient.UpdateListItemAsync(Guid,Guid,string,string) 'Guilded.Base.BaseGuildedClient.UpdateListItemAsync(Guid, Guid, string, string)')** `Method`
+    - **[UpdateMessageAsync(Guid, Guid, MessageContent)](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,MessageContent) 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[UpdateMessageAsync(Guid, Guid, Embed[])](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,Embed[]) 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[UpdateMessageAsync(Guid, Guid, string, Embed[])](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string,Embed[]) 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[UpdateMessageAsync(Guid, Guid, string)](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string) 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string)')** `Method`
+    - **[UpdateNicknameAsync(HashId, HashId, string)](BaseGuildedClient.UpdateNicknameAsync(HashId,HashId,string) 'Guilded.Base.BaseGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    - **[UpdateWebhookAsync(HashId, Guid, string, Nullable&lt;Guid&gt;)](BaseGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_) 'Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>)')** `Method`
+    - **[UploadFileAsync(string, byte[], string)](BaseGuildedClient.UploadFileAsync(string,byte[],string) 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[], string)')** `Method`
+    - **[UploadFileAsync(string, byte[])](BaseGuildedClient.UploadFileAsync(string,byte[]) 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[])')** `Method`
+    - **[UploadFileAsync(Uri)](BaseGuildedClient.UploadFileAsync(Uri) 'Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri)')** `Method`
+  - **[BaseObject](BaseObject 'Guilded.Base.BaseObject')** `Class`
+    - **[Serialize(JsonConverter[])](BaseObject.Serialize(JsonConverter[]) 'Guilded.Base.BaseObject.Serialize(Newtonsoft.Json.JsonConverter[])')** `Method`
+    - **[Serialize(JsonSerializer)](BaseObject.Serialize(JsonSerializer) 'Guilded.Base.BaseObject.Serialize(Newtonsoft.Json.JsonSerializer)')** `Method`
+  - **[ClientObject](ClientObject 'Guilded.Base.ClientObject')** `Class`
+    - **[ParentClient](ClientObject.ParentClient 'Guilded.Base.ClientObject.ParentClient')** `Property`
+  - **[DecimalColorConverter](DecimalColorConverter 'Guilded.Base.DecimalColorConverter')** `Class`
+    - **[CanConvert(Type)](DecimalColorConverter.CanConvert(Type) 'Guilded.Base.DecimalColorConverter.CanConvert(System.Type)')** `Method`
+    - **[ReadJson(JsonReader, Type, object, JsonSerializer)](DecimalColorConverter.ReadJson(JsonReader,Type,object,JsonSerializer) 'Guilded.Base.DecimalColorConverter.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object, Newtonsoft.Json.JsonSerializer)')** `Method`
+    - **[WriteJson(JsonWriter, object, JsonSerializer)](DecimalColorConverter.WriteJson(JsonWriter,object,JsonSerializer) 'Guilded.Base.DecimalColorConverter.WriteJson(Newtonsoft.Json.JsonWriter, object, Newtonsoft.Json.JsonSerializer)')** `Method`
+  - **[FormIdConverter](FormIdConverter 'Guilded.Base.FormIdConverter')** `Class`
+    - **[CanConvertFrom(ITypeDescriptorContext, Type)](FormIdConverter.CanConvertFrom(ITypeDescriptorContext,Type) 'Guilded.Base.FormIdConverter.CanConvertFrom(ITypeDescriptorContext, System.Type)')** `Method`
+    - **[ConvertFrom(ITypeDescriptorContext, CultureInfo, object)](FormIdConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,object) 'Guilded.Base.FormIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object)')** `Method`
+  - **[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')** `Class`
+    - **[GuildedAuthorizationException()](GuildedAuthorizationException.GuildedAuthorizationException() 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException()')** `Constructor`
+    - **[GuildedAuthorizationException(string, string, RestResponse)](GuildedAuthorizationException.GuildedAuthorizationException(string,string,RestResponse) 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, string, RestSharp.RestResponse)')** `Constructor`
+    - **[GuildedAuthorizationException(string, Exception)](GuildedAuthorizationException.GuildedAuthorizationException(string,Exception) 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string, System.Exception)')** `Constructor`
+    - **[GuildedAuthorizationException(string)](GuildedAuthorizationException.GuildedAuthorizationException(string) 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string)')** `Constructor`
+  - **[GuildedException](GuildedException 'Guilded.Base.GuildedException')** `Class`
+    - **[GuildedException()](GuildedException.GuildedException() 'Guilded.Base.GuildedException.GuildedException()')** `Constructor`
+    - **[GuildedException(SerializationInfo, StreamingContext)](GuildedException.GuildedException(SerializationInfo,StreamingContext) 'Guilded.Base.GuildedException.GuildedException(SerializationInfo, StreamingContext)')** `Constructor`
+    - **[GuildedException(string, string, RestResponse)](GuildedException.GuildedException(string,string,RestResponse) 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse)')** `Constructor`
+    - **[GuildedException(string, Exception)](GuildedException.GuildedException(string,Exception) 'Guilded.Base.GuildedException.GuildedException(string, System.Exception)')** `Constructor`
+    - **[GuildedException(string)](GuildedException.GuildedException(string) 'Guilded.Base.GuildedException.GuildedException(string)')** `Constructor`
+    - **[Code](GuildedException.Code 'Guilded.Base.GuildedException.Code')** `Property`
+    - **[Response](GuildedException.Response 'Guilded.Base.GuildedException.Response')** `Property`
+    - **[StatusCode](GuildedException.StatusCode 'Guilded.Base.GuildedException.StatusCode')** `Property`
+    - **[ToString()](GuildedException.ToString() 'Guilded.Base.GuildedException.ToString()')** `Method`
+  - **[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')** `Class`
+    - **[GuildedPermissionException()](GuildedPermissionException.GuildedPermissionException() 'Guilded.Base.GuildedPermissionException.GuildedPermissionException()')** `Constructor`
+    - **[GuildedPermissionException(string, string, RestResponse)](GuildedPermissionException.GuildedPermissionException(string,string,RestResponse) 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string, string, RestSharp.RestResponse)')** `Constructor`
+    - **[GuildedPermissionException(string, Exception)](GuildedPermissionException.GuildedPermissionException(string,Exception) 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string, System.Exception)')** `Constructor`
+    - **[GuildedPermissionException(string)](GuildedPermissionException.GuildedPermissionException(string) 'Guilded.Base.GuildedPermissionException.GuildedPermissionException(string)')** `Constructor`
+  - **[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')** `Class`
+    - **[GuildedRequestException()](GuildedRequestException.GuildedRequestException() 'Guilded.Base.GuildedRequestException.GuildedRequestException()')** `Constructor`
+    - **[GuildedRequestException(string, string, RestResponse)](GuildedRequestException.GuildedRequestException(string,string,RestResponse) 'Guilded.Base.GuildedRequestException.GuildedRequestException(string, string, RestSharp.RestResponse)')** `Constructor`
+    - **[GuildedRequestException(string, Exception)](GuildedRequestException.GuildedRequestException(string,Exception) 'Guilded.Base.GuildedRequestException.GuildedRequestException(string, System.Exception)')** `Constructor`
+    - **[GuildedRequestException(string)](GuildedRequestException.GuildedRequestException(string) 'Guilded.Base.GuildedRequestException.GuildedRequestException(string)')** `Constructor`
+  - **[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')** `Class`
+    - **[GuildedResourceException()](GuildedResourceException.GuildedResourceException() 'Guilded.Base.GuildedResourceException.GuildedResourceException()')** `Constructor`
+    - **[GuildedResourceException(string, string, RestResponse)](GuildedResourceException.GuildedResourceException(string,string,RestResponse) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, string, RestSharp.RestResponse)')** `Constructor`
+    - **[GuildedResourceException(string, Exception)](GuildedResourceException.GuildedResourceException(string,Exception) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception)')** `Constructor`
+    - **[GuildedResourceException(string)](GuildedResourceException.GuildedResourceException(string) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string)')** `Constructor`
+  - **[GuildedUrl](GuildedUrl 'Guilded.Base.GuildedUrl')** `Class`
+    - **[Api](GuildedUrl.Api 'Guilded.Base.GuildedUrl.Api')** `Field`
+    - **[ImageCdn](GuildedUrl.ImageCdn 'Guilded.Base.GuildedUrl.ImageCdn')** `Field`
+    - **[Media](GuildedUrl.Media 'Guilded.Base.GuildedUrl.Media')** `Field`
+    - **[MediaFileUpload](GuildedUrl.MediaFileUpload 'Guilded.Base.GuildedUrl.MediaFileUpload')** `Field`
+    - **[MediaUrlUpload](GuildedUrl.MediaUrlUpload 'Guilded.Base.GuildedUrl.MediaUrlUpload')** `Field`
+    - **[Websocket](GuildedUrl.Websocket 'Guilded.Base.GuildedUrl.Websocket')** `Field`
+  - **[GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')** `Class`
+    - **[GuildedWebsocketException()](GuildedWebsocketException.GuildedWebsocketException() 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException()')** `Constructor`
+    - **[GuildedWebsocketException(string, Exception)](GuildedWebsocketException.GuildedWebsocketException(string,Exception) 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string, System.Exception)')** `Constructor`
+    - **[GuildedWebsocketException(string)](GuildedWebsocketException.GuildedWebsocketException(string) 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string)')** `Constructor`
+    - **[GuildedWebsocketException(ResponseMessage, string)](GuildedWebsocketException.GuildedWebsocketException(ResponseMessage,string) 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(Websocket.Client.ResponseMessage, string)')** `Constructor`
+    - **[Response](GuildedWebsocketException.Response 'Guilded.Base.GuildedWebsocketException.Response')** `Property`
+  - **[HashIdConverter](HashIdConverter 'Guilded.Base.HashIdConverter')** `Class`
+    - **[CanConvertFrom(ITypeDescriptorContext, Type)](HashIdConverter.CanConvertFrom(ITypeDescriptorContext,Type) 'Guilded.Base.HashIdConverter.CanConvertFrom(ITypeDescriptorContext, System.Type)')** `Method`
+    - **[ConvertFrom(ITypeDescriptorContext, CultureInfo, object)](HashIdConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,object) 'Guilded.Base.HashIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object)')** `Method`
+  - **[IdConverter](IdConverter 'Guilded.Base.IdConverter')** `Class`
+    - **[CanConvert(Type)](IdConverter.CanConvert(Type) 'Guilded.Base.IdConverter.CanConvert(System.Type)')** `Method`
+    - **[ReadJson(JsonReader, Type, object, JsonSerializer)](IdConverter.ReadJson(JsonReader,Type,object,JsonSerializer) 'Guilded.Base.IdConverter.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object, Newtonsoft.Json.JsonSerializer)')** `Method`
+    - **[WriteJson(JsonWriter, object, JsonSerializer)](IdConverter.WriteJson(JsonWriter,object,JsonSerializer) 'Guilded.Base.IdConverter.WriteJson(Newtonsoft.Json.JsonWriter, object, Newtonsoft.Json.JsonSerializer)')** `Method`
+  - **[FormId](FormId 'Guilded.Base.FormId')** `Struct`
+    - **[FormId(string)](FormId.FormId(string) 'Guilded.Base.FormId.FormId(string)')** `Constructor`
+    - **[Random](FormId.Random 'Guilded.Base.FormId.Random')** `Property`
+    - **[Check(string)](FormId.Check(string) 'Guilded.Base.FormId.Check(string)')** `Method`
+    - **[Equals(FormId)](FormId.Equals(FormId) 'Guilded.Base.FormId.Equals(Guilded.Base.FormId)')** `Method`
+    - **[Equals(object)](FormId.Equals(object) 'Guilded.Base.FormId.Equals(object)')** `Method`
+    - **[GetHashCode()](FormId.GetHashCode() 'Guilded.Base.FormId.GetHashCode()')** `Method`
+    - **[ToString()](FormId.ToString() 'Guilded.Base.FormId.ToString()')** `Method`
+    - **[operator ==(FormId, FormId)](FormId.operator(FormId,FormId) 'Guilded.Base.FormId.op_Equality(Guilded.Base.FormId, Guilded.Base.FormId)')** `Operator`
+    - **[operator !=(FormId, FormId)](FormId.operator!(FormId,FormId) 'Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId, Guilded.Base.FormId)')** `Operator`
+  - **[HashId](HashId 'Guilded.Base.HashId')** `Struct`
+    - **[HashId(string)](HashId.HashId(string) 'Guilded.Base.HashId.HashId(string)')** `Constructor`
+    - **[Check(string)](HashId.Check(string) 'Guilded.Base.HashId.Check(string)')** `Method`
+    - **[Equals(HashId)](HashId.Equals(HashId) 'Guilded.Base.HashId.Equals(Guilded.Base.HashId)')** `Method`
+    - **[Equals(object)](HashId.Equals(object) 'Guilded.Base.HashId.Equals(object)')** `Method`
+    - **[Equals(string)](HashId.Equals(string) 'Guilded.Base.HashId.Equals(string)')** `Method`
+    - **[GetHashCode()](HashId.GetHashCode() 'Guilded.Base.HashId.GetHashCode()')** `Method`
+    - **[ToString()](HashId.ToString() 'Guilded.Base.HashId.ToString()')** `Method`
+    - **[operator ==(HashId, HashId)](HashId.operator(HashId,HashId) 'Guilded.Base.HashId.op_Equality(Guilded.Base.HashId, Guilded.Base.HashId)')** `Operator`
+    - **[operator ==(HashId, string)](HashId.operator(HashId,string) 'Guilded.Base.HashId.op_Equality(Guilded.Base.HashId, string)')** `Operator`
+    - **[operator ==(string, HashId)](HashId.operator(string,HashId) 'Guilded.Base.HashId.op_Equality(string, Guilded.Base.HashId)')** `Operator`
+    - **[operator !=(HashId, HashId)](HashId.operator!(HashId,HashId) 'Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId, Guilded.Base.HashId)')** `Operator`
+    - **[operator !=(HashId, string)](HashId.operator!(HashId,string) 'Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId, string)')** `Operator`
+    - **[operator !=(string, HashId)](HashId.operator!(string,HashId) 'Guilded.Base.HashId.op_Inequality(string, Guilded.Base.HashId)')** `Operator`
+- **[Guilded.Base.Content](Guilded.Base.Content 'Guilded.Base.Content')** `Namespace`
+  - **[ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')** `Class`
+    - **[ChannelContent(TId, Guid, TServer, HashId, DateTime)](ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,HashId,DateTime) 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelContent(TId, Guid, TServer, Guilded.Base.HashId, System.DateTime)')** `Constructor`
+    - **[ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')** `Property`
+    - **[CreatedAt](ChannelContent_TId,TServer_.CreatedAt 'Guilded.Base.Content.ChannelContent<TId,TServer>.CreatedAt')** `Property`
+    - **[CreatedBy](ChannelContent_TId,TServer_.CreatedBy 'Guilded.Base.Content.ChannelContent<TId,TServer>.CreatedBy')** `Property`
+    - **[Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id')** `Property`
+    - **[ServerId](ChannelContent_TId,TServer_.ServerId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ServerId')** `Property`
+    - **[Equals(object)](ChannelContent_TId,TServer_.Equals(object) 'Guilded.Base.Content.ChannelContent<TId,TServer>.Equals(object)')** `Method`
+    - **[GetHashCode()](ChannelContent_TId,TServer_.GetHashCode() 'Guilded.Base.Content.ChannelContent<TId,TServer>.GetHashCode()')** `Method`
+    - **[ToString()](ChannelContent_TId,TServer_.ToString() 'Guilded.Base.Content.ChannelContent<TId,TServer>.ToString()')** `Method`
+  - **[Doc](Doc 'Guilded.Base.Content.Doc')** `Class`
+    - **[Doc(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](Doc.Doc(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_) 'Guilded.Base.Content.Doc.Doc(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[UpdatedBy](Doc.UpdatedBy 'Guilded.Base.Content.Doc.UpdatedBy')** `Property`
+    - **[DeleteAsync()](Doc.DeleteAsync() 'Guilded.Base.Content.Doc.DeleteAsync()')** `Method`
+    - **[UpdateAsync(string, string)](Doc.UpdateAsync(string,string) 'Guilded.Base.Content.Doc.UpdateAsync(string, string)')** `Method`
+  - **[ForumThread](ForumThread 'Guilded.Base.Content.ForumThread')** `Class`
+    - **[ForumThread(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](ForumThread.ForumThread(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.ForumThread.ForumThread(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[CreatedByWebhook](ForumThread.CreatedByWebhook 'Guilded.Base.Content.ForumThread.CreatedByWebhook')** `Property`
+  - **[ListItem](ListItem 'Guilded.Base.Content.ListItem')** `Class`
+    - **[ListItem(Guid, Guid, HashId, string, HashId, DateTime, Nullable&lt;Guid&gt;, ListItemNote, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;Guid&gt;)](ListItem.ListItem(Guid,Guid,HashId,string,HashId,DateTime,Nullable_Guid_,ListItemNote,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,Nullable_HashId_,Nullable_Guid_) 'Guilded.Base.Content.ListItem.ListItem(Guid, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, Guilded.Base.Content.ListItemNote, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<Guid>)')** `Constructor`
+  - **[ListItemBase&lt;T&gt;](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')** `Class`
+    - **[ListItemBase(Guid, Guid, HashId, string, HashId, DateTime, Nullable&lt;Guid&gt;, T, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;Guid&gt;)](ListItemBase_T_.ListItemBase(Guid,Guid,HashId,string,HashId,DateTime,Nullable_Guid_,T,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,Nullable_HashId_,Nullable_Guid_) 'Guilded.Base.Content.ListItemBase<T>.ListItemBase(Guid, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, T, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<Guid>)')** `Constructor`
+    - **[CompletedAt](ListItemBase_T_.CompletedAt 'Guilded.Base.Content.ListItemBase<T>.CompletedAt')** `Property`
+    - **[CompletedBy](ListItemBase_T_.CompletedBy 'Guilded.Base.Content.ListItemBase<T>.CompletedBy')** `Property`
+    - **[CreatedByWebhook](ListItemBase_T_.CreatedByWebhook 'Guilded.Base.Content.ListItemBase<T>.CreatedByWebhook')** `Property`
+    - **[IsCompleted](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase<T>.IsCompleted')** `Property`
+    - **[Message](ListItemBase_T_.Message 'Guilded.Base.Content.ListItemBase<T>.Message')** `Property`
+    - **[Note](ListItemBase_T_.Note 'Guilded.Base.Content.ListItemBase<T>.Note')** `Property`
+    - **[ParentId](ListItemBase_T_.ParentId 'Guilded.Base.Content.ListItemBase<T>.ParentId')** `Property`
+    - **[UpdatedAt](ListItemBase_T_.UpdatedAt 'Guilded.Base.Content.ListItemBase<T>.UpdatedAt')** `Property`
+    - **[UpdatedBy](ListItemBase_T_.UpdatedBy 'Guilded.Base.Content.ListItemBase<T>.UpdatedBy')** `Property`
+    - **[CompleteAsync()](ListItemBase_T_.CompleteAsync() 'Guilded.Base.Content.ListItemBase<T>.CompleteAsync()')** `Method`
+    - **[DeleteAsync()](ListItemBase_T_.DeleteAsync() 'Guilded.Base.Content.ListItemBase<T>.DeleteAsync()')** `Method`
+    - **[UncompleteAsync()](ListItemBase_T_.UncompleteAsync() 'Guilded.Base.Content.ListItemBase<T>.UncompleteAsync()')** `Method`
+    - **[UpdateAsync(string, string)](ListItemBase_T_.UpdateAsync(string,string) 'Guilded.Base.Content.ListItemBase<T>.UpdateAsync(string, string)')** `Method`
+  - **[ListItemNote](ListItemNote 'Guilded.Base.Content.ListItemNote')** `Class`
+    - **[ListItemNote(string, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](ListItemNote.ListItemNote(string,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_) 'Guilded.Base.Content.ListItemNote.ListItemNote(string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[Content](ListItemNote.Content 'Guilded.Base.Content.ListItemNote.Content')** `Property`
+  - **[ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')** `Class`
+    - **[ListItemNoteSummary(HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](ListItemNoteSummary.ListItemNoteSummary(HashId,DateTime,Nullable_HashId_,Nullable_DateTime_) 'Guilded.Base.Content.ListItemNoteSummary.ListItemNoteSummary(Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[CreatedAt](ListItemNoteSummary.CreatedAt 'Guilded.Base.Content.ListItemNoteSummary.CreatedAt')** `Property`
+    - **[CreatedBy](ListItemNoteSummary.CreatedBy 'Guilded.Base.Content.ListItemNoteSummary.CreatedBy')** `Property`
+    - **[UpdatedAt](ListItemNoteSummary.UpdatedAt 'Guilded.Base.Content.ListItemNoteSummary.UpdatedAt')** `Property`
+    - **[UpdatedBy](ListItemNoteSummary.UpdatedBy 'Guilded.Base.Content.ListItemNoteSummary.UpdatedBy')** `Property`
+  - **[ListItemSummary](ListItemSummary 'Guilded.Base.Content.ListItemSummary')** `Class`
+    - **[ListItemSummary(Guid, Guid, HashId, string, HashId, DateTime, Nullable&lt;Guid&gt;, ListItemNote, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;Guid&gt;)](ListItemSummary.ListItemSummary(Guid,Guid,HashId,string,HashId,DateTime,Nullable_Guid_,ListItemNote,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,Nullable_HashId_,Nullable_Guid_) 'Guilded.Base.Content.ListItemSummary.ListItemSummary(Guid, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, Guilded.Base.Content.ListItemNote, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<Guid>)')** `Constructor`
+  - **[Message](Message 'Guilded.Base.Content.Message')** `Class`
+    - **[Message(Guid, Guid, HashId, DateTime, MessageType, Nullable&lt;HashId&gt;, IList&lt;Guid&gt;, string, IList&lt;Embed&gt;, bool, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](Message.Message(Guid,Guid,HashId,DateTime,MessageType,Nullable_HashId_,IList_Guid_,string,IList_Embed_,bool,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.Message.Message(Guid, Guid, Guilded.Base.HashId, System.DateTime, Guilded.Base.Content.MessageType, System.Nullable<Guilded.Base.HashId>, System.Collections.Generic.IList<Guid>, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, bool, System.Nullable<Guid>, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[EmbedLimit](Message.EmbedLimit 'Guilded.Base.Content.Message.EmbedLimit')** `Field`
+    - **[ReplyLimit](Message.ReplyLimit 'Guilded.Base.Content.Message.ReplyLimit')** `Field`
+    - **[TextLimit](Message.TextLimit 'Guilded.Base.Content.Message.TextLimit')** `Field`
+    - **[Content](Message.Content 'Guilded.Base.Content.Message.Content')** `Property`
+    - **[CreatedByWebhook](Message.CreatedByWebhook 'Guilded.Base.Content.Message.CreatedByWebhook')** `Property`
+    - **[Embeds](Message.Embeds 'Guilded.Base.Content.Message.Embeds')** `Property`
+    - **[IsPrivate](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate')** `Property`
+    - **[IsReply](Message.IsReply 'Guilded.Base.Content.Message.IsReply')** `Property`
+    - **[IsSystemMessage](Message.IsSystemMessage 'Guilded.Base.Content.Message.IsSystemMessage')** `Property`
+    - **[ReplyMessageIds](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds')** `Property`
+    - **[Type](Message.Type 'Guilded.Base.Content.Message.Type')** `Property`
+    - **[UpdatedAt](Message.UpdatedAt 'Guilded.Base.Content.Message.UpdatedAt')** `Property`
+    - **[AddReactionAsync(uint)](Message.AddReactionAsync(uint) 'Guilded.Base.Content.Message.AddReactionAsync(uint)')** `Method`
+    - **[CreateMessageAsync(bool, bool, Guid[], Embed[])](Message.CreateMessageAsync(bool,bool,Guid[],Embed[]) 'Guilded.Base.Content.Message.CreateMessageAsync(bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(MessageContent)](Message.CreateMessageAsync(MessageContent) 'Guilded.Base.Content.Message.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateMessageAsync(Embed[])](Message.CreateMessageAsync(Embed[]) 'Guilded.Base.Content.Message.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool, Guid[], Embed[])](Message.CreateMessageAsync(string,bool,bool,Guid[],Embed[]) 'Guilded.Base.Content.Message.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool, Guid[])](Message.CreateMessageAsync(string,bool,bool,Guid[]) 'Guilded.Base.Content.Message.CreateMessageAsync(string, bool, bool, Guid[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool)](Message.CreateMessageAsync(string,bool,bool) 'Guilded.Base.Content.Message.CreateMessageAsync(string, bool, bool)')** `Method`
+    - **[CreateMessageAsync(string, Guid[])](Message.CreateMessageAsync(string,Guid[]) 'Guilded.Base.Content.Message.CreateMessageAsync(string, Guid[])')** `Method`
+    - **[CreateMessageAsync(string, Embed[])](Message.CreateMessageAsync(string,Embed[]) 'Guilded.Base.Content.Message.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string)](Message.CreateMessageAsync(string) 'Guilded.Base.Content.Message.CreateMessageAsync(string)')** `Method`
+    - **[DeleteAsync()](Message.DeleteAsync() 'Guilded.Base.Content.Message.DeleteAsync()')** `Method`
+    - **[ReplyAsync(bool, bool, Embed[])](Message.ReplyAsync(bool,bool,Embed[]) 'Guilded.Base.Content.Message.ReplyAsync(bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(Embed[])](Message.ReplyAsync(Embed[]) 'Guilded.Base.Content.Message.ReplyAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(string, bool, bool, Embed[])](Message.ReplyAsync(string,bool,bool,Embed[]) 'Guilded.Base.Content.Message.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(string, bool, bool)](Message.ReplyAsync(string,bool,bool) 'Guilded.Base.Content.Message.ReplyAsync(string, bool, bool)')** `Method`
+    - **[ReplyAsync(string)](Message.ReplyAsync(string) 'Guilded.Base.Content.Message.ReplyAsync(string)')** `Method`
+    - **[UpdateAsync(MessageContent)](Message.UpdateAsync(MessageContent) 'Guilded.Base.Content.Message.UpdateAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    - **[UpdateAsync(Embed[])](Message.UpdateAsync(Embed[]) 'Guilded.Base.Content.Message.UpdateAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[UpdateAsync(string, Embed[])](Message.UpdateAsync(string,Embed[]) 'Guilded.Base.Content.Message.UpdateAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[UpdateAsync(string)](Message.UpdateAsync(string) 'Guilded.Base.Content.Message.UpdateAsync(string)')** `Method`
+  - **[MessageContent](MessageContent 'Guilded.Base.Content.MessageContent')** `Class`
+    - **[MessageContent()](MessageContent.MessageContent() 'Guilded.Base.Content.MessageContent.MessageContent()')** `Constructor`
+    - **[MessageContent(string)](MessageContent.MessageContent(string) 'Guilded.Base.Content.MessageContent.MessageContent(string)')** `Constructor`
+    - **[MessageContent(IList&lt;Embed&gt;, IList&lt;Guid&gt;, Nullable&lt;bool&gt;, Nullable&lt;bool&gt;)](MessageContent.MessageContent(IList_Embed_,IList_Guid_,Nullable_bool_,Nullable_bool_) 'Guilded.Base.Content.MessageContent.MessageContent(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, System.Collections.Generic.IList<Guid>, System.Nullable<bool>, System.Nullable<bool>)')** `Constructor`
+    - **[Content](MessageContent.Content 'Guilded.Base.Content.MessageContent.Content')** `Property`
+    - **[Embeds](MessageContent.Embeds 'Guilded.Base.Content.MessageContent.Embeds')** `Property`
+    - **[IsPrivate](MessageContent.IsPrivate 'Guilded.Base.Content.MessageContent.IsPrivate')** `Property`
+    - **[IsSilent](MessageContent.IsSilent 'Guilded.Base.Content.MessageContent.IsSilent')** `Property`
+    - **[OnlyText](MessageContent.OnlyText 'Guilded.Base.Content.MessageContent.OnlyText')** `Property`
+    - **[ReplyMessageIds](MessageContent.ReplyMessageIds 'Guilded.Base.Content.MessageContent.ReplyMessageIds')** `Property`
+  - **[Reaction](Reaction 'Guilded.Base.Content.Reaction')** `Class`
+    - **[Reaction(uint, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;Guid&gt;)](Reaction.Reaction(uint,HashId,DateTime,Nullable_HashId_,Nullable_Guid_) 'Guilded.Base.Content.Reaction.Reaction(uint, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<Guid>)')** `Constructor`
+    - **[CreatedAt](Reaction.CreatedAt 'Guilded.Base.Content.Reaction.CreatedAt')** `Property`
+    - **[CreatedBy](Reaction.CreatedBy 'Guilded.Base.Content.Reaction.CreatedBy')** `Property`
+    - **[CreatedByWebhook](Reaction.CreatedByWebhook 'Guilded.Base.Content.Reaction.CreatedByWebhook')** `Property`
+    - **[Id](Reaction.Id 'Guilded.Base.Content.Reaction.Id')** `Property`
+    - **[ServerId](Reaction.ServerId 'Guilded.Base.Content.Reaction.ServerId')** `Property`
+    - **[Equals(object)](Reaction.Equals(object) 'Guilded.Base.Content.Reaction.Equals(object)')** `Method`
+    - **[GetHashCode()](Reaction.GetHashCode() 'Guilded.Base.Content.Reaction.GetHashCode()')** `Method`
+  - **[TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')** `Class`
+    - **[TitledContent(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;DateTime&gt;)](TitledContent.TitledContent(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_DateTime_) 'Guilded.Base.Content.TitledContent.TitledContent(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[Content](TitledContent.Content 'Guilded.Base.Content.TitledContent.Content')** `Property`
+    - **[Title](TitledContent.Title 'Guilded.Base.Content.TitledContent.Title')** `Property`
+    - **[UpdatedAt](TitledContent.UpdatedAt 'Guilded.Base.Content.TitledContent.UpdatedAt')** `Property`
+    - **[AddReactionAsync(uint)](TitledContent.AddReactionAsync(uint) 'Guilded.Base.Content.TitledContent.AddReactionAsync(uint)')** `Method`
+  - **[ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')** `Interface`
+    - **[CreatedAt](ICreatableContent.CreatedAt 'Guilded.Base.Content.ICreatableContent.CreatedAt')** `Property`
+    - **[CreatedBy](ICreatableContent.CreatedBy 'Guilded.Base.Content.ICreatableContent.CreatedBy')** `Property`
+  - **[IReactibleContent](IReactibleContent 'Guilded.Base.Content.IReactibleContent')** `Interface`
+    - **[AddReactionAsync(uint)](IReactibleContent.AddReactionAsync(uint) 'Guilded.Base.Content.IReactibleContent.AddReactionAsync(uint)')** `Method`
+  - **[IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent')** `Interface`
+    - **[UpdatedAt](IUpdatableContent.UpdatedAt 'Guilded.Base.Content.IUpdatableContent.UpdatedAt')** `Property`
+  - **[IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable')** `Interface`
+    - **[CreatedByWebhook](IWebhookCreatable.CreatedByWebhook 'Guilded.Base.Content.IWebhookCreatable.CreatedByWebhook')** `Property`
+  - **[MessageType](MessageType 'Guilded.Base.Content.MessageType')** `Enum`
+    - **[Default](MessageType#Guilded.Base.Content.MessageType.Default 'Guilded.Base.Content.MessageType.Default')** `Field`
+    - **[System](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System')** `Field`
+- **[Guilded.Base.Embeds](Guilded.Base.Embeds 'Guilded.Base.Embeds')** `Namespace`
+  - **[Embed](Embed 'Guilded.Base.Embeds.Embed')** `Class`
+    - **[Embed()](Embed.Embed() 'Guilded.Base.Embeds.Embed.Embed()')** `Constructor`
+    - **[Embed(Color)](Embed.Embed(Color) 'Guilded.Base.Embeds.Embed.Embed(Color)')** `Constructor`
+    - **[Embed(EmbedField[])](Embed.Embed(EmbedField[]) 'Guilded.Base.Embeds.Embed.Embed(Guilded.Base.Embeds.EmbedField[])')** `Constructor`
+    - **[Embed(int, int, int)](Embed.Embed(int,int,int) 'Guilded.Base.Embeds.Embed.Embed(int, int, int)')** `Constructor`
+    - **[Embed(int)](Embed.Embed(int) 'Guilded.Base.Embeds.Embed.Embed(int)')** `Constructor`
+    - **[Embed(string, EmbedField[])](Embed.Embed(string,EmbedField[]) 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedField[])')** `Constructor`
+    - **[Embed(string, EmbedMedia)](Embed.Embed(string,EmbedMedia) 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedMedia)')** `Constructor`
+    - **[Embed(string, string, EmbedField[])](Embed.Embed(string,string,EmbedField[]) 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedField[])')** `Constructor`
+    - **[Embed(string, string, EmbedFooter, DateTime)](Embed.Embed(string,string,EmbedFooter,DateTime) 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime)')** `Constructor`
+    - **[Embed(string, string, EmbedFooter)](Embed.Embed(string,string,EmbedFooter) 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedFooter)')** `Constructor`
+    - **[Embed(string, string, EmbedMedia)](Embed.Embed(string,string,EmbedMedia) 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedMedia)')** `Constructor`
+    - **[Embed(string, string, string)](Embed.Embed(string,string,string) 'Guilded.Base.Embeds.Embed.Embed(string, string, string)')** `Constructor`
+    - **[Embed(string, string, IList&lt;EmbedField&gt;)](Embed.Embed(string,string,IList_EmbedField_) 'Guilded.Base.Embeds.Embed.Embed(string, string, System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>)')** `Constructor`
+    - **[Embed(string, string, Uri)](Embed.Embed(string,string,Uri) 'Guilded.Base.Embeds.Embed.Embed(string, string, Uri)')** `Constructor`
+    - **[Embed(string, string)](Embed.Embed(string,string) 'Guilded.Base.Embeds.Embed.Embed(string, string)')** `Constructor`
+    - **[Embed(string, IList&lt;EmbedField&gt;)](Embed.Embed(string,IList_EmbedField_) 'Guilded.Base.Embeds.Embed.Embed(string, System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>)')** `Constructor`
+    - **[Embed(string, Uri, string, EmbedFooter, DateTime)](Embed.Embed(string,Uri,string,EmbedFooter,DateTime) 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime)')** `Constructor`
+    - **[Embed(string, Uri, string, EmbedFooter)](Embed.Embed(string,Uri,string,EmbedFooter) 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter)')** `Constructor`
+    - **[Embed(string, Uri, string, EmbedMedia)](Embed.Embed(string,Uri,string,EmbedMedia) 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedMedia)')** `Constructor`
+    - **[Embed(string, Uri, string, string)](Embed.Embed(string,Uri,string,string) 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, string)')** `Constructor`
+    - **[Embed(string, Uri, string, Uri)](Embed.Embed(string,Uri,string,Uri) 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Uri)')** `Constructor`
+    - **[Embed(string, Uri, string)](Embed.Embed(string,Uri,string) 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string)')** `Constructor`
+    - **[Embed(string, Uri)](Embed.Embed(string,Uri) 'Guilded.Base.Embeds.Embed.Embed(string, Uri)')** `Constructor`
+    - **[Embed(string)](Embed.Embed(string) 'Guilded.Base.Embeds.Embed.Embed(string)')** `Constructor`
+    - **[Embed(IList&lt;EmbedField&gt;)](Embed.Embed(IList_EmbedField_) 'Guilded.Base.Embeds.Embed.Embed(System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>)')** `Constructor`
+    - **[Embed(Uri, Uri)](Embed.Embed(Uri,Uri) 'Guilded.Base.Embeds.Embed.Embed(Uri, Uri)')** `Constructor`
+    - **[Embed(Uri)](Embed.Embed(Uri) 'Guilded.Base.Embeds.Embed.Embed(Uri)')** `Constructor`
+    - **[FieldLimit](Embed.FieldLimit 'Guilded.Base.Embeds.Embed.FieldLimit')** `Field`
+    - **[Author](Embed.Author 'Guilded.Base.Embeds.Embed.Author')** `Property`
+    - **[Color](Embed.Color 'Guilded.Base.Embeds.Embed.Color')** `Property`
+    - **[Description](Embed.Description 'Guilded.Base.Embeds.Embed.Description')** `Property`
+    - **[Fields](Embed.Fields 'Guilded.Base.Embeds.Embed.Fields')** `Property`
+    - **[Footer](Embed.Footer 'Guilded.Base.Embeds.Embed.Footer')** `Property`
+    - **[Image](Embed.Image 'Guilded.Base.Embeds.Embed.Image')** `Property`
+    - **[Thumbnail](Embed.Thumbnail 'Guilded.Base.Embeds.Embed.Thumbnail')** `Property`
+    - **[Timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp')** `Property`
+    - **[Title](Embed.Title 'Guilded.Base.Embeds.Embed.Title')** `Property`
+    - **[Url](Embed.Url 'Guilded.Base.Embeds.Embed.Url')** `Property`
+    - **[AddField(EmbedField)](Embed.AddField(EmbedField) 'Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField)')** `Method`
+    - **[AddField(string, object, bool)](Embed.AddField(string,object,bool) 'Guilded.Base.Embeds.Embed.AddField(string, object, bool)')** `Method`
+    - **[AddField(string, string, bool)](Embed.AddField(string,string,bool) 'Guilded.Base.Embeds.Embed.AddField(string, string, bool)')** `Method`
+    - **[AddFields(EmbedField[])](Embed.AddFields(EmbedField[]) 'Guilded.Base.Embeds.Embed.AddFields(Guilded.Base.Embeds.EmbedField[])')** `Method`
+    - **[AddFields(IEnumerable&lt;EmbedField&gt;)](Embed.AddFields(IEnumerable_EmbedField_) 'Guilded.Base.Embeds.Embed.AddFields(System.Collections.Generic.IEnumerable<Guilded.Base.Embeds.EmbedField>)')** `Method`
+    - **[SetAuthor(EmbedAuthor)](Embed.SetAuthor(EmbedAuthor) 'Guilded.Base.Embeds.Embed.SetAuthor(Guilded.Base.Embeds.EmbedAuthor)')** `Method`
+    - **[SetAuthor(string, string, string)](Embed.SetAuthor(string,string,string) 'Guilded.Base.Embeds.Embed.SetAuthor(string, string, string)')** `Method`
+    - **[SetAuthor(string, Uri, Uri)](Embed.SetAuthor(string,Uri,Uri) 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri)')** `Method`
+    - **[SetAuthor(string)](Embed.SetAuthor(string) 'Guilded.Base.Embeds.Embed.SetAuthor(string)')** `Method`
+    - **[SetColor(Color)](Embed.SetColor(Color) 'Guilded.Base.Embeds.Embed.SetColor(Color)')** `Method`
+    - **[SetColor(int, int, int)](Embed.SetColor(int,int,int) 'Guilded.Base.Embeds.Embed.SetColor(int, int, int)')** `Method`
+    - **[SetColor(int)](Embed.SetColor(int) 'Guilded.Base.Embeds.Embed.SetColor(int)')** `Method`
+    - **[SetDescription(object)](Embed.SetDescription(object) 'Guilded.Base.Embeds.Embed.SetDescription(object)')** `Method`
+    - **[SetDescription(string)](Embed.SetDescription(string) 'Guilded.Base.Embeds.Embed.SetDescription(string)')** `Method`
+    - **[SetFooter(EmbedFooter)](Embed.SetFooter(EmbedFooter) 'Guilded.Base.Embeds.Embed.SetFooter(Guilded.Base.Embeds.EmbedFooter)')** `Method`
+    - **[SetFooter(object, string)](Embed.SetFooter(object,string) 'Guilded.Base.Embeds.Embed.SetFooter(object, string)')** `Method`
+    - **[SetFooter(object, Uri)](Embed.SetFooter(object,Uri) 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri)')** `Method`
+    - **[SetFooter(object)](Embed.SetFooter(object) 'Guilded.Base.Embeds.Embed.SetFooter(object)')** `Method`
+    - **[SetFooter(string, string)](Embed.SetFooter(string,string) 'Guilded.Base.Embeds.Embed.SetFooter(string, string)')** `Method`
+    - **[SetFooter(string, Uri)](Embed.SetFooter(string,Uri) 'Guilded.Base.Embeds.Embed.SetFooter(string, Uri)')** `Method`
+    - **[SetFooter(string)](Embed.SetFooter(string) 'Guilded.Base.Embeds.Embed.SetFooter(string)')** `Method`
+    - **[SetImage(EmbedMedia)](Embed.SetImage(EmbedMedia) 'Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia)')** `Method`
+    - **[SetImage(string)](Embed.SetImage(string) 'Guilded.Base.Embeds.Embed.SetImage(string)')** `Method`
+    - **[SetImage(Uri)](Embed.SetImage(Uri) 'Guilded.Base.Embeds.Embed.SetImage(Uri)')** `Method`
+    - **[SetThumbnail(EmbedMedia)](Embed.SetThumbnail(EmbedMedia) 'Guilded.Base.Embeds.Embed.SetThumbnail(Guilded.Base.Embeds.EmbedMedia)')** `Method`
+    - **[SetThumbnail(string)](Embed.SetThumbnail(string) 'Guilded.Base.Embeds.Embed.SetThumbnail(string)')** `Method`
+    - **[SetThumbnail(Uri)](Embed.SetThumbnail(Uri) 'Guilded.Base.Embeds.Embed.SetThumbnail(Uri)')** `Method`
+    - **[SetTimestamp()](Embed.SetTimestamp() 'Guilded.Base.Embeds.Embed.SetTimestamp()')** `Method`
+    - **[SetTimestamp(DateTime)](Embed.SetTimestamp(DateTime) 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime)')** `Method`
+    - **[SetTitle(string)](Embed.SetTitle(string) 'Guilded.Base.Embeds.Embed.SetTitle(string)')** `Method`
+    - **[SetUrl(string)](Embed.SetUrl(string) 'Guilded.Base.Embeds.Embed.SetUrl(string)')** `Method`
+    - **[SetUrl(Uri)](Embed.SetUrl(Uri) 'Guilded.Base.Embeds.Embed.SetUrl(Uri)')** `Method`
+  - **[EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')** `Class`
+    - **[EmbedAuthor(string, string, string)](EmbedAuthor.EmbedAuthor(string,string,string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string)')** `Constructor`
+    - **[EmbedAuthor(string, Uri, Uri)](EmbedAuthor.EmbedAuthor(string,Uri,Uri) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri)')** `Constructor`
+    - **[EmbedAuthor(string)](EmbedAuthor.EmbedAuthor(string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string)')** `Constructor`
+    - **[IconUrl](EmbedAuthor.IconUrl 'Guilded.Base.Embeds.EmbedAuthor.IconUrl')** `Property`
+    - **[Name](EmbedAuthor.Name 'Guilded.Base.Embeds.EmbedAuthor.Name')** `Property`
+    - **[Url](EmbedAuthor.Url 'Guilded.Base.Embeds.EmbedAuthor.Url')** `Property`
+  - **[EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField')** `Class`
+    - **[EmbedField(string, string, bool)](EmbedField.EmbedField(string,string,bool) 'Guilded.Base.Embeds.EmbedField.EmbedField(string, string, bool)')** `Constructor`
+    - **[Inline](EmbedField.Inline 'Guilded.Base.Embeds.EmbedField.Inline')** `Property`
+    - **[Name](EmbedField.Name 'Guilded.Base.Embeds.EmbedField.Name')** `Property`
+    - **[Value](EmbedField.Value 'Guilded.Base.Embeds.EmbedField.Value')** `Property`
+  - **[EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')** `Class`
+    - **[EmbedFooter(string, string)](EmbedFooter.EmbedFooter(string,string) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string)')** `Constructor`
+    - **[EmbedFooter(string, Uri)](EmbedFooter.EmbedFooter(string,Uri) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, Uri)')** `Constructor`
+    - **[IconUrl](EmbedFooter.IconUrl 'Guilded.Base.Embeds.EmbedFooter.IconUrl')** `Property`
+    - **[Text](EmbedFooter.Text 'Guilded.Base.Embeds.EmbedFooter.Text')** `Property`
+  - **[EmbedMedia](EmbedMedia 'Guilded.Base.Embeds.EmbedMedia')** `Class`
+    - **[EmbedMedia(string)](EmbedMedia.EmbedMedia(string) 'Guilded.Base.Embeds.EmbedMedia.EmbedMedia(string)')** `Constructor`
+    - **[EmbedMedia(Uri)](EmbedMedia.EmbedMedia(Uri) 'Guilded.Base.Embeds.EmbedMedia.EmbedMedia(Uri)')** `Constructor`
+    - **[Url](EmbedMedia.Url 'Guilded.Base.Embeds.EmbedMedia.Url')** `Property`
+- **[Guilded.Base.Events](Guilded.Base.Events 'Guilded.Base.Events')** `Namespace`
+  - **[ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')** `Class`
+    - **[ChannelEvent(ServerChannel, HashId)](ChannelEvent.ChannelEvent(ServerChannel,HashId) 'Guilded.Base.Events.ChannelEvent.ChannelEvent(Guilded.Base.Servers.ServerChannel, Guilded.Base.HashId)')** `Constructor`
+    - **[ArchivedAt](ChannelEvent.ArchivedAt 'Guilded.Base.Events.ChannelEvent.ArchivedAt')** `Property`
+    - **[ArchivedBy](ChannelEvent.ArchivedBy 'Guilded.Base.Events.ChannelEvent.ArchivedBy')** `Property`
+    - **[CategoryId](ChannelEvent.CategoryId 'Guilded.Base.Events.ChannelEvent.CategoryId')** `Property`
+    - **[Channel](ChannelEvent.Channel 'Guilded.Base.Events.ChannelEvent.Channel')** `Property`
+    - **[CreatedAt](ChannelEvent.CreatedAt 'Guilded.Base.Events.ChannelEvent.CreatedAt')** `Property`
+    - **[CreatedBy](ChannelEvent.CreatedBy 'Guilded.Base.Events.ChannelEvent.CreatedBy')** `Property`
+    - **[GroupId](ChannelEvent.GroupId 'Guilded.Base.Events.ChannelEvent.GroupId')** `Property`
+    - **[IsArchived](ChannelEvent.IsArchived 'Guilded.Base.Events.ChannelEvent.IsArchived')** `Property`
+    - **[IsCategorized](ChannelEvent.IsCategorized 'Guilded.Base.Events.ChannelEvent.IsCategorized')** `Property`
+    - **[IsPublic](ChannelEvent.IsPublic 'Guilded.Base.Events.ChannelEvent.IsPublic')** `Property`
+    - **[IsThread](ChannelEvent.IsThread 'Guilded.Base.Events.ChannelEvent.IsThread')** `Property`
+    - **[Name](ChannelEvent.Name 'Guilded.Base.Events.ChannelEvent.Name')** `Property`
+    - **[ParentId](ChannelEvent.ParentId 'Guilded.Base.Events.ChannelEvent.ParentId')** `Property`
+    - **[ServerId](ChannelEvent.ServerId 'Guilded.Base.Events.ChannelEvent.ServerId')** `Property`
+    - **[Topic](ChannelEvent.Topic 'Guilded.Base.Events.ChannelEvent.Topic')** `Property`
+    - **[Type](ChannelEvent.Type 'Guilded.Base.Events.ChannelEvent.Type')** `Property`
+    - **[UpdatedAt](ChannelEvent.UpdatedAt 'Guilded.Base.Events.ChannelEvent.UpdatedAt')** `Property`
+    - **[CreateWebhookAsync(string)](ChannelEvent.CreateWebhookAsync(string) 'Guilded.Base.Events.ChannelEvent.CreateWebhookAsync(string)')** `Method`
+    - **[DeleteAsync()](ChannelEvent.DeleteAsync() 'Guilded.Base.Events.ChannelEvent.DeleteAsync()')** `Method`
+  - **[DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')** `Class`
+    - **[DocEvent(Doc, HashId)](DocEvent.DocEvent(Doc,HashId) 'Guilded.Base.Events.DocEvent.DocEvent(Guilded.Base.Content.Doc, Guilded.Base.HashId)')** `Constructor`
+    - **[ChannelId](DocEvent.ChannelId 'Guilded.Base.Events.DocEvent.ChannelId')** `Property`
+    - **[Content](DocEvent.Content 'Guilded.Base.Events.DocEvent.Content')** `Property`
+    - **[CreatedAt](DocEvent.CreatedAt 'Guilded.Base.Events.DocEvent.CreatedAt')** `Property`
+    - **[CreatedBy](DocEvent.CreatedBy 'Guilded.Base.Events.DocEvent.CreatedBy')** `Property`
+    - **[Doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc')** `Property`
+    - **[ServerId](DocEvent.ServerId 'Guilded.Base.Events.DocEvent.ServerId')** `Property`
+    - **[Title](DocEvent.Title 'Guilded.Base.Events.DocEvent.Title')** `Property`
+    - **[UpdatedAt](DocEvent.UpdatedAt 'Guilded.Base.Events.DocEvent.UpdatedAt')** `Property`
+    - **[UpdatedBy](DocEvent.UpdatedBy 'Guilded.Base.Events.DocEvent.UpdatedBy')** `Property`
+    - **[AddReactionAsync(uint)](DocEvent.AddReactionAsync(uint) 'Guilded.Base.Events.DocEvent.AddReactionAsync(uint)')** `Method`
+    - **[DeleteAsync()](DocEvent.DeleteAsync() 'Guilded.Base.Events.DocEvent.DeleteAsync()')** `Method`
+    - **[UpdateAsync(string, string)](DocEvent.UpdateAsync(string,string) 'Guilded.Base.Events.DocEvent.UpdateAsync(string, string)')** `Method`
+  - **[GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')** `Class`
+    - **[GuildedSocketMessage(byte, string, JObject, string)](GuildedSocketMessage.GuildedSocketMessage(byte,string,JObject,string) 'Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte, string, Newtonsoft.Json.Linq.JObject, string)')** `Constructor`
+    - **[EventName](GuildedSocketMessage.EventName 'Guilded.Base.Events.GuildedSocketMessage.EventName')** `Property`
+    - **[MessageId](GuildedSocketMessage.MessageId 'Guilded.Base.Events.GuildedSocketMessage.MessageId')** `Property`
+    - **[Opcode](GuildedSocketMessage.Opcode 'Guilded.Base.Events.GuildedSocketMessage.Opcode')** `Property`
+    - **[RawData](GuildedSocketMessage.RawData 'Guilded.Base.Events.GuildedSocketMessage.RawData')** `Property`
+  - **[ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')** `Class`
+    - **[ListItemEvent(ListItem, HashId)](ListItemEvent.ListItemEvent(ListItem,HashId) 'Guilded.Base.Events.ListItemEvent.ListItemEvent(Guilded.Base.Content.ListItem, Guilded.Base.HashId)')** `Constructor`
+    - **[ChannelId](ListItemEvent.ChannelId 'Guilded.Base.Events.ListItemEvent.ChannelId')** `Property`
+    - **[CompletedAt](ListItemEvent.CompletedAt 'Guilded.Base.Events.ListItemEvent.CompletedAt')** `Property`
+    - **[CompletedBy](ListItemEvent.CompletedBy 'Guilded.Base.Events.ListItemEvent.CompletedBy')** `Property`
+    - **[CreatedAt](ListItemEvent.CreatedAt 'Guilded.Base.Events.ListItemEvent.CreatedAt')** `Property`
+    - **[CreatedBy](ListItemEvent.CreatedBy 'Guilded.Base.Events.ListItemEvent.CreatedBy')** `Property`
+    - **[CreatedByWebhook](ListItemEvent.CreatedByWebhook 'Guilded.Base.Events.ListItemEvent.CreatedByWebhook')** `Property`
+    - **[IsCompleted](ListItemEvent.IsCompleted 'Guilded.Base.Events.ListItemEvent.IsCompleted')** `Property`
+    - **[ListItem](ListItemEvent.ListItem 'Guilded.Base.Events.ListItemEvent.ListItem')** `Property`
+    - **[Message](ListItemEvent.Message 'Guilded.Base.Events.ListItemEvent.Message')** `Property`
+    - **[Note](ListItemEvent.Note 'Guilded.Base.Events.ListItemEvent.Note')** `Property`
+    - **[ParentId](ListItemEvent.ParentId 'Guilded.Base.Events.ListItemEvent.ParentId')** `Property`
+    - **[ServerId](ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId')** `Property`
+    - **[UpdatedAt](ListItemEvent.UpdatedAt 'Guilded.Base.Events.ListItemEvent.UpdatedAt')** `Property`
+    - **[CompleteAsync()](ListItemEvent.CompleteAsync() 'Guilded.Base.Events.ListItemEvent.CompleteAsync()')** `Method`
+    - **[DeleteAsync()](ListItemEvent.DeleteAsync() 'Guilded.Base.Events.ListItemEvent.DeleteAsync()')** `Method`
+    - **[UncompleteAsync()](ListItemEvent.UncompleteAsync() 'Guilded.Base.Events.ListItemEvent.UncompleteAsync()')** `Method`
+    - **[UpdateAsync(string, string)](ListItemEvent.UpdateAsync(string,string) 'Guilded.Base.Events.ListItemEvent.UpdateAsync(string, string)')** `Method`
+  - **[MemberBanEvent](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')** `Class`
+    - **[MemberBanEvent(HashId, MemberBan)](MemberBanEvent.MemberBanEvent(HashId,MemberBan) 'Guilded.Base.Events.MemberBanEvent.MemberBanEvent(Guilded.Base.HashId, Guilded.Base.Servers.MemberBan)')** `Constructor`
+    - **[CreatedAt](MemberBanEvent.CreatedAt 'Guilded.Base.Events.MemberBanEvent.CreatedAt')** `Property`
+    - **[CreatedBy](MemberBanEvent.CreatedBy 'Guilded.Base.Events.MemberBanEvent.CreatedBy')** `Property`
+    - **[MemberBan](MemberBanEvent.MemberBan 'Guilded.Base.Events.MemberBanEvent.MemberBan')** `Property`
+    - **[Reason](MemberBanEvent.Reason 'Guilded.Base.Events.MemberBanEvent.Reason')** `Property`
+    - **[ServerId](MemberBanEvent.ServerId 'Guilded.Base.Events.MemberBanEvent.ServerId')** `Property`
+    - **[User](MemberBanEvent.User 'Guilded.Base.Events.MemberBanEvent.User')** `Property`
+  - **[MemberJoinedEvent](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')** `Class`
+    - **[MemberJoinedEvent(HashId, Member)](MemberJoinedEvent.MemberJoinedEvent(HashId,Member) 'Guilded.Base.Events.MemberJoinedEvent.MemberJoinedEvent(Guilded.Base.HashId, Guilded.Base.Servers.Member)')** `Constructor`
+    - **[IsBot](MemberJoinedEvent.IsBot 'Guilded.Base.Events.MemberJoinedEvent.IsBot')** `Property`
+    - **[JoinedAt](MemberJoinedEvent.JoinedAt 'Guilded.Base.Events.MemberJoinedEvent.JoinedAt')** `Property`
+    - **[Member](MemberJoinedEvent.Member 'Guilded.Base.Events.MemberJoinedEvent.Member')** `Property`
+    - **[Name](MemberJoinedEvent.Name 'Guilded.Base.Events.MemberJoinedEvent.Name')** `Property`
+    - **[ServerId](MemberJoinedEvent.ServerId 'Guilded.Base.Events.MemberJoinedEvent.ServerId')** `Property`
+    - **[Type](MemberJoinedEvent.Type 'Guilded.Base.Events.MemberJoinedEvent.Type')** `Property`
+    - **[UserId](MemberJoinedEvent.UserId 'Guilded.Base.Events.MemberJoinedEvent.UserId')** `Property`
+  - **[MemberRemovedEvent](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')** `Class`
+    - **[MemberRemovedEvent(HashId, HashId, bool, bool)](MemberRemovedEvent.MemberRemovedEvent(HashId,HashId,bool,bool) 'Guilded.Base.Events.MemberRemovedEvent.MemberRemovedEvent(Guilded.Base.HashId, Guilded.Base.HashId, bool, bool)')** `Constructor`
+    - **[IsBan](MemberRemovedEvent.IsBan 'Guilded.Base.Events.MemberRemovedEvent.IsBan')** `Property`
+    - **[IsKick](MemberRemovedEvent.IsKick 'Guilded.Base.Events.MemberRemovedEvent.IsKick')** `Property`
+    - **[ServerId](MemberRemovedEvent.ServerId 'Guilded.Base.Events.MemberRemovedEvent.ServerId')** `Property`
+    - **[UserId](MemberRemovedEvent.UserId 'Guilded.Base.Events.MemberRemovedEvent.UserId')** `Property`
+  - **[MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')** `Class`
+    - **[MemberUpdatedEvent(HashId, MemberUpdate)](MemberUpdatedEvent.MemberUpdatedEvent(HashId,MemberUpdate) 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdatedEvent(Guilded.Base.HashId, Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate)')** `Constructor`
+    - **[ServerId](MemberUpdatedEvent.ServerId 'Guilded.Base.Events.MemberUpdatedEvent.ServerId')** `Property`
+    - **[UserId](MemberUpdatedEvent.UserId 'Guilded.Base.Events.MemberUpdatedEvent.UserId')** `Property`
+    - **[UserInfo](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo')** `Property`
+  - **[MemberUpdatedEvent.MemberUpdate](MemberUpdatedEvent.MemberUpdate 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')** `Class`
+    - **[MemberUpdate(HashId, string)](MemberUpdatedEvent.MemberUpdate.MemberUpdate(HashId,string) 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.MemberUpdate(Guilded.Base.HashId, string)')** `Constructor`
+    - **[Id](MemberUpdatedEvent.MemberUpdate.Id 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Id')** `Property`
+    - **[Nickname](MemberUpdatedEvent.MemberUpdate.Nickname 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname')** `Property`
+  - **[MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')** `Class`
+    - **[MessageDeletedEvent(MessageDeleted, Nullable&lt;HashId&gt;)](MessageDeletedEvent.MessageDeletedEvent(MessageDeleted,Nullable_HashId_) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeletedEvent(Guilded.Base.Events.MessageDeletedEvent.MessageDeleted, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
+    - **[ChannelId](MessageDeletedEvent.ChannelId 'Guilded.Base.Events.MessageDeletedEvent.ChannelId')** `Property`
+    - **[DeletedAt](MessageDeletedEvent.DeletedAt 'Guilded.Base.Events.MessageDeletedEvent.DeletedAt')** `Property`
+    - **[Id](MessageDeletedEvent.Id 'Guilded.Base.Events.MessageDeletedEvent.Id')** `Property`
+  - **[MessageDeletedEvent.MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')** `Class`
+    - **[MessageDeleted(Guid, Guid, DateTime, Nullable&lt;HashId&gt;)](MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid,Guid,DateTime,Nullable_HashId_) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid, Guid, System.DateTime, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
+    - **[ChannelId](MessageDeletedEvent.MessageDeleted.ChannelId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ChannelId')** `Property`
+    - **[DeletedAt](MessageDeletedEvent.MessageDeleted.DeletedAt 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.DeletedAt')** `Property`
+    - **[Id](MessageDeletedEvent.MessageDeleted.Id 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Id')** `Property`
+    - **[ServerId](MessageDeletedEvent.MessageDeleted.ServerId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ServerId')** `Property`
+    - **[Equals(object)](MessageDeletedEvent.MessageDeleted.Equals(object) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object)')** `Method`
+    - **[GetHashCode()](MessageDeletedEvent.MessageDeleted.GetHashCode() 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.GetHashCode()')** `Method`
+    - **[ToString()](MessageDeletedEvent.MessageDeleted.ToString() 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ToString()')** `Method`
+  - **[MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')** `Class`
+    - **[MessageEvent(Message, Nullable&lt;HashId&gt;)](MessageEvent.MessageEvent(Message,Nullable_HashId_) 'Guilded.Base.Events.MessageEvent.MessageEvent(Guilded.Base.Content.Message, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
+    - **[ChannelId](MessageEvent.ChannelId 'Guilded.Base.Events.MessageEvent.ChannelId')** `Property`
+    - **[Content](MessageEvent.Content 'Guilded.Base.Events.MessageEvent.Content')** `Property`
+    - **[CreatedAt](MessageEvent.CreatedAt 'Guilded.Base.Events.MessageEvent.CreatedAt')** `Property`
+    - **[CreatedBy](MessageEvent.CreatedBy 'Guilded.Base.Events.MessageEvent.CreatedBy')** `Property`
+    - **[CreatedByWebhook](MessageEvent.CreatedByWebhook 'Guilded.Base.Events.MessageEvent.CreatedByWebhook')** `Property`
+    - **[IsReply](MessageEvent.IsReply 'Guilded.Base.Events.MessageEvent.IsReply')** `Property`
+    - **[IsSystemMessage](MessageEvent.IsSystemMessage 'Guilded.Base.Events.MessageEvent.IsSystemMessage')** `Property`
+    - **[Type](MessageEvent.Type 'Guilded.Base.Events.MessageEvent.Type')** `Property`
+    - **[UpdatedAt](MessageEvent.UpdatedAt 'Guilded.Base.Events.MessageEvent.UpdatedAt')** `Property`
+    - **[AddReactionAsync(uint)](MessageEvent.AddReactionAsync(uint) 'Guilded.Base.Events.MessageEvent.AddReactionAsync(uint)')** `Method`
+    - **[CreateMessageAsync(bool, bool, Guid[], Embed[])](MessageEvent.CreateMessageAsync(bool,bool,Guid[],Embed[]) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(MessageContent)](MessageEvent.CreateMessageAsync(MessageContent) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateMessageAsync(Embed[])](MessageEvent.CreateMessageAsync(Embed[]) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool, Guid[], Embed[])](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool, Guid[])](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[]) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool)](MessageEvent.CreateMessageAsync(string,bool,bool) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool)')** `Method`
+    - **[CreateMessageAsync(string, Guid[])](MessageEvent.CreateMessageAsync(string,Guid[]) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guid[])')** `Method`
+    - **[CreateMessageAsync(string, Embed[])](MessageEvent.CreateMessageAsync(string,Embed[]) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string)](MessageEvent.CreateMessageAsync(string) 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string)')** `Method`
+    - **[DeleteAsync()](MessageEvent.DeleteAsync() 'Guilded.Base.Events.MessageEvent.DeleteAsync()')** `Method`
+    - **[ReplyAsync(bool, bool, Embed[])](MessageEvent.ReplyAsync(bool,bool,Embed[]) 'Guilded.Base.Events.MessageEvent.ReplyAsync(bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(Embed[])](MessageEvent.ReplyAsync(Embed[]) 'Guilded.Base.Events.MessageEvent.ReplyAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(string, bool, bool, Embed[])](MessageEvent.ReplyAsync(string,bool,bool,Embed[]) 'Guilded.Base.Events.MessageEvent.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(string, bool, bool)](MessageEvent.ReplyAsync(string,bool,bool) 'Guilded.Base.Events.MessageEvent.ReplyAsync(string, bool, bool)')** `Method`
+    - **[ReplyAsync(string)](MessageEvent.ReplyAsync(string) 'Guilded.Base.Events.MessageEvent.ReplyAsync(string)')** `Method`
+    - **[UpdateAsync(string)](MessageEvent.UpdateAsync(string) 'Guilded.Base.Events.MessageEvent.UpdateAsync(string)')** `Method`
+  - **[MessageEvent&lt;T&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')** `Class`
+    - **[MessageEvent(Nullable&lt;HashId&gt;, T)](MessageEvent_T_.MessageEvent(Nullable_HashId_,T) 'Guilded.Base.Events.MessageEvent<T>.MessageEvent(System.Nullable<Guilded.Base.HashId>, T)')** `Constructor`
+    - **[Message](MessageEvent_T_.Message 'Guilded.Base.Events.MessageEvent<T>.Message')** `Property`
+    - **[ServerId](MessageEvent_T_.ServerId 'Guilded.Base.Events.MessageEvent<T>.ServerId')** `Property`
+  - **[ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent')** `Class`
+    - **[ResumeEvent(string)](ResumeEvent.ResumeEvent(string) 'Guilded.Base.Events.ResumeEvent.ResumeEvent(string)')** `Constructor`
+    - **[MessageId](ResumeEvent.MessageId 'Guilded.Base.Events.ResumeEvent.MessageId')** `Property`
+  - **[RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')** `Class`
+    - **[RolesUpdatedEvent(HashId, IList&lt;RolesUpdated&gt;)](RolesUpdatedEvent.RolesUpdatedEvent(HashId,IList_RolesUpdated_) 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdatedEvent(Guilded.Base.HashId, System.Collections.Generic.IList<Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated>)')** `Constructor`
+    - **[MemberRoleIds](RolesUpdatedEvent.MemberRoleIds 'Guilded.Base.Events.RolesUpdatedEvent.MemberRoleIds')** `Property`
+    - **[ServerId](RolesUpdatedEvent.ServerId 'Guilded.Base.Events.RolesUpdatedEvent.ServerId')** `Property`
+    - **[UpdatedUsers](RolesUpdatedEvent.UpdatedUsers 'Guilded.Base.Events.RolesUpdatedEvent.UpdatedUsers')** `Property`
+  - **[RolesUpdatedEvent.RolesUpdated](RolesUpdatedEvent.RolesUpdated 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated')** `Class`
+    - **[RolesUpdated(HashId, IList&lt;uint&gt;)](RolesUpdatedEvent.RolesUpdated.RolesUpdated(HashId,IList_uint_) 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.Base.HashId, System.Collections.Generic.IList<uint>)')** `Constructor`
+    - **[RoleIds](RolesUpdatedEvent.RolesUpdated.RoleIds 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds')** `Property`
+    - **[UserId](RolesUpdatedEvent.RolesUpdated.UserId 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId')** `Property`
+  - **[WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent')** `Class`
+    - **[WebhookEvent(HashId, Webhook)](WebhookEvent.WebhookEvent(HashId,Webhook) 'Guilded.Base.Events.WebhookEvent.WebhookEvent(Guilded.Base.HashId, Guilded.Base.Servers.Webhook)')** `Constructor`
+    - **[ChannelId](WebhookEvent.ChannelId 'Guilded.Base.Events.WebhookEvent.ChannelId')** `Property`
+    - **[CreatedAt](WebhookEvent.CreatedAt 'Guilded.Base.Events.WebhookEvent.CreatedAt')** `Property`
+    - **[CreatedBy](WebhookEvent.CreatedBy 'Guilded.Base.Events.WebhookEvent.CreatedBy')** `Property`
+    - **[Name](WebhookEvent.Name 'Guilded.Base.Events.WebhookEvent.Name')** `Property`
+    - **[ServerId](WebhookEvent.ServerId 'Guilded.Base.Events.WebhookEvent.ServerId')** `Property`
+    - **[Token](WebhookEvent.Token 'Guilded.Base.Events.WebhookEvent.Token')** `Property`
+    - **[Webhook](WebhookEvent.Webhook 'Guilded.Base.Events.WebhookEvent.Webhook')** `Property`
+    - **[CreateMessageAsync(MessageContent)](WebhookEvent.CreateMessageAsync(MessageContent) 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateMessageAsync(Embed[])](WebhookEvent.CreateMessageAsync(Embed[]) 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, Embed[])](WebhookEvent.CreateMessageAsync(string,Embed[]) 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, IList&lt;Embed&gt;)](WebhookEvent.CreateMessageAsync(string,IList_Embed_) 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[CreateMessageAsync(string)](WebhookEvent.CreateMessageAsync(string) 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string)')** `Method`
+    - **[CreateMessageAsync(IList&lt;Embed&gt;)](WebhookEvent.CreateMessageAsync(IList_Embed_) 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[DeleteAsync()](WebhookEvent.DeleteAsync() 'Guilded.Base.Events.WebhookEvent.DeleteAsync()')** `Method`
+    - **[UpdateAsync(string)](WebhookEvent.UpdateAsync(string) 'Guilded.Base.Events.WebhookEvent.UpdateAsync(string)')** `Method`
+  - **[WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')** `Class`
+    - **[WelcomeEvent(int, Me, string)](WelcomeEvent.WelcomeEvent(int,Me,string) 'Guilded.Base.Events.WelcomeEvent.WelcomeEvent(int, Guilded.Base.Users.Me, string)')** `Constructor`
+    - **[HeartbeatInterval](WelcomeEvent.HeartbeatInterval 'Guilded.Base.Events.WelcomeEvent.HeartbeatInterval')** `Property`
+    - **[LastMessageId](WelcomeEvent.LastMessageId 'Guilded.Base.Events.WelcomeEvent.LastMessageId')** `Property`
+    - **[User](WelcomeEvent.User 'Guilded.Base.Events.WelcomeEvent.User')** `Property`
+  - **[XpAddedEvent](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')** `Class`
+    - **[XpAddedEvent(IList&lt;HashId&gt;, long)](XpAddedEvent.XpAddedEvent(IList_HashId_,long) 'Guilded.Base.Events.XpAddedEvent.XpAddedEvent(System.Collections.Generic.IList<Guilded.Base.HashId>, long)')** `Constructor`
+    - **[Amount](XpAddedEvent.Amount 'Guilded.Base.Events.XpAddedEvent.Amount')** `Property`
+    - **[FirstUser](XpAddedEvent.FirstUser 'Guilded.Base.Events.XpAddedEvent.FirstUser')** `Property`
+    - **[LastUser](XpAddedEvent.LastUser 'Guilded.Base.Events.XpAddedEvent.LastUser')** `Property`
+    - **[Users](XpAddedEvent.Users 'Guilded.Base.Events.XpAddedEvent.Users')** `Property`
+  - **[IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')** `Interface`
+    - **[ServerId](IServerEvent.ServerId 'Guilded.Base.Events.IServerEvent.ServerId')** `Property`
+- **[Guilded.Base.Permissions](Guilded.Base.Permissions 'Guilded.Base.Permissions')** `Namespace`
+  - **[AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')** `Enum`
+    - **[All](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.All 'Guilded.Base.Permissions.AnnouncementPermissions.All')** `Field`
+    - **[Basic](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.Basic 'Guilded.Base.Permissions.AnnouncementPermissions.Basic')** `Field`
+    - **[CreateAnnouncements](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements')** `Field`
+    - **[Manage](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.Manage 'Guilded.Base.Permissions.AnnouncementPermissions.Manage')** `Field`
+    - **[ManageAnnouncements](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements')** `Field`
+    - **[None](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.None 'Guilded.Base.Permissions.AnnouncementPermissions.None')** `Field`
+    - **[ViewAnnouncements](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.ViewAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.ViewAnnouncements')** `Field`
+  - **[BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')** `Enum`
+    - **[All](BotPermissions#Guilded.Base.Permissions.BotPermissions.All 'Guilded.Base.Permissions.BotPermissions.All')** `Field`
+    - **[ManageBots](BotPermissions#Guilded.Base.Permissions.BotPermissions.ManageBots 'Guilded.Base.Permissions.BotPermissions.ManageBots')** `Field`
+    - **[None](BotPermissions#Guilded.Base.Permissions.BotPermissions.None 'Guilded.Base.Permissions.BotPermissions.None')** `Field`
+  - **[BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')** `Enum`
+    - **[All](BracketPermissions#Guilded.Base.Permissions.BracketPermissions.All 'Guilded.Base.Permissions.BracketPermissions.All')** `Field`
+    - **[None](BracketPermissions#Guilded.Base.Permissions.BracketPermissions.None 'Guilded.Base.Permissions.BracketPermissions.None')** `Field`
+    - **[ReportScores](BracketPermissions#Guilded.Base.Permissions.BracketPermissions.ReportScores 'Guilded.Base.Permissions.BracketPermissions.ReportScores')** `Field`
+    - **[ViewBrackets](BracketPermissions#Guilded.Base.Permissions.BracketPermissions.ViewBrackets 'Guilded.Base.Permissions.BracketPermissions.ViewBrackets')** `Field`
+  - **[CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')** `Enum`
+    - **[All](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.All 'Guilded.Base.Permissions.CalendarPermissions.All')** `Field`
+    - **[Basic](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.Basic 'Guilded.Base.Permissions.CalendarPermissions.Basic')** `Field`
+    - **[CreateEvents](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.CreateEvents 'Guilded.Base.Permissions.CalendarPermissions.CreateEvents')** `Field`
+    - **[EditRSVPs](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.EditRSVPs 'Guilded.Base.Permissions.CalendarPermissions.EditRSVPs')** `Field`
+    - **[Manage](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.Manage 'Guilded.Base.Permissions.CalendarPermissions.Manage')** `Field`
+    - **[ManageEvents](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.ManageEvents 'Guilded.Base.Permissions.CalendarPermissions.ManageEvents')** `Field`
+    - **[None](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.None 'Guilded.Base.Permissions.CalendarPermissions.None')** `Field`
+    - **[RemoveEvents](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.RemoveEvents 'Guilded.Base.Permissions.CalendarPermissions.RemoveEvents')** `Field`
+    - **[ViewEvents](CalendarPermissions#Guilded.Base.Permissions.CalendarPermissions.ViewEvents 'Guilded.Base.Permissions.CalendarPermissions.ViewEvents')** `Field`
+  - **[ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')** `Enum`
+    - **[All](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.All 'Guilded.Base.Permissions.ChatPermissions.All')** `Field`
+    - **[Basic](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.Basic 'Guilded.Base.Permissions.ChatPermissions.Basic')** `Field`
+    - **[CreateThreads](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.CreateThreads 'Guilded.Base.Permissions.ChatPermissions.CreateThreads')** `Field`
+    - **[Manage](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.Manage 'Guilded.Base.Permissions.ChatPermissions.Manage')** `Field`
+    - **[ManageMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.ManageMessages 'Guilded.Base.Permissions.ChatPermissions.ManageMessages')** `Field`
+    - **[ManageThreads](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.ManageThreads 'Guilded.Base.Permissions.ChatPermissions.ManageThreads')** `Field`
+    - **[None](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.None 'Guilded.Base.Permissions.ChatPermissions.None')** `Field`
+    - **[ReadMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.ReadMessages 'Guilded.Base.Permissions.ChatPermissions.ReadMessages')** `Field`
+    - **[SendMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendMessages 'Guilded.Base.Permissions.ChatPermissions.SendMessages')** `Field`
+    - **[SendThreadMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendThreadMessages 'Guilded.Base.Permissions.ChatPermissions.SendThreadMessages')** `Field`
+  - **[CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')** `Enum`
+    - **[All](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.All 'Guilded.Base.Permissions.CustomPermissions.All')** `Field`
+    - **[ChangeNickname](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.ChangeNickname 'Guilded.Base.Permissions.CustomPermissions.ChangeNickname')** `Field`
+    - **[ManageEmoji](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.ManageEmoji 'Guilded.Base.Permissions.CustomPermissions.ManageEmoji')** `Field`
+    - **[ManageNicknames](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.ManageNicknames 'Guilded.Base.Permissions.CustomPermissions.ManageNicknames')** `Field`
+    - **[None](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.None 'Guilded.Base.Permissions.CustomPermissions.None')** `Field`
+  - **[DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')** `Enum`
+    - **[All](DocPermissions#Guilded.Base.Permissions.DocPermissions.All 'Guilded.Base.Permissions.DocPermissions.All')** `Field`
+    - **[Basic](DocPermissions#Guilded.Base.Permissions.DocPermissions.Basic 'Guilded.Base.Permissions.DocPermissions.Basic')** `Field`
+    - **[CreateDocs](DocPermissions#Guilded.Base.Permissions.DocPermissions.CreateDocs 'Guilded.Base.Permissions.DocPermissions.CreateDocs')** `Field`
+    - **[Manage](DocPermissions#Guilded.Base.Permissions.DocPermissions.Manage 'Guilded.Base.Permissions.DocPermissions.Manage')** `Field`
+    - **[ManageDocs](DocPermissions#Guilded.Base.Permissions.DocPermissions.ManageDocs 'Guilded.Base.Permissions.DocPermissions.ManageDocs')** `Field`
+    - **[None](DocPermissions#Guilded.Base.Permissions.DocPermissions.None 'Guilded.Base.Permissions.DocPermissions.None')** `Field`
+    - **[RemoveDocs](DocPermissions#Guilded.Base.Permissions.DocPermissions.RemoveDocs 'Guilded.Base.Permissions.DocPermissions.RemoveDocs')** `Field`
+    - **[ViewDocs](DocPermissions#Guilded.Base.Permissions.DocPermissions.ViewDocs 'Guilded.Base.Permissions.DocPermissions.ViewDocs')** `Field`
+  - **[FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')** `Enum`
+    - **[All](FormPermissions#Guilded.Base.Permissions.FormPermissions.All 'Guilded.Base.Permissions.FormPermissions.All')** `Field`
+    - **[Basic](FormPermissions#Guilded.Base.Permissions.FormPermissions.Basic 'Guilded.Base.Permissions.FormPermissions.Basic')** `Field`
+    - **[FormResponses](FormPermissions#Guilded.Base.Permissions.FormPermissions.FormResponses 'Guilded.Base.Permissions.FormPermissions.FormResponses')** `Field`
+    - **[None](FormPermissions#Guilded.Base.Permissions.FormPermissions.None 'Guilded.Base.Permissions.FormPermissions.None')** `Field`
+    - **[PollResults](FormPermissions#Guilded.Base.Permissions.FormPermissions.PollResults 'Guilded.Base.Permissions.FormPermissions.PollResults')** `Field`
+  - **[ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')** `Enum`
+    - **[All](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.All 'Guilded.Base.Permissions.ForumPermissions.All')** `Field`
+    - **[Basic](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.Basic 'Guilded.Base.Permissions.ForumPermissions.Basic')** `Field`
+    - **[CreateTopicReplies](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.CreateTopicReplies 'Guilded.Base.Permissions.ForumPermissions.CreateTopicReplies')** `Field`
+    - **[CreateTopics](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.CreateTopics 'Guilded.Base.Permissions.ForumPermissions.CreateTopics')** `Field`
+    - **[LockTopics](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.LockTopics 'Guilded.Base.Permissions.ForumPermissions.LockTopics')** `Field`
+    - **[Manage](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.Manage 'Guilded.Base.Permissions.ForumPermissions.Manage')** `Field`
+    - **[ManageTopics](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.ManageTopics 'Guilded.Base.Permissions.ForumPermissions.ManageTopics')** `Field`
+    - **[None](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.None 'Guilded.Base.Permissions.ForumPermissions.None')** `Field`
+    - **[ReadForums](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.ReadForums 'Guilded.Base.Permissions.ForumPermissions.ReadForums')** `Field`
+    - **[StickyTopics](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.StickyTopics 'Guilded.Base.Permissions.ForumPermissions.StickyTopics')** `Field`
+  - **[GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')** `Enum`
+    - **[All](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.All 'Guilded.Base.Permissions.GeneralPermissions.All')** `Field`
+    - **[InviteMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.InviteMembers 'Guilded.Base.Permissions.GeneralPermissions.InviteMembers')** `Field`
+    - **[KickBanMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.KickBanMembers 'Guilded.Base.Permissions.GeneralPermissions.KickBanMembers')** `Field`
+    - **[Manage](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.Manage 'Guilded.Base.Permissions.GeneralPermissions.Manage')** `Field`
+    - **[ManageChannels](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageChannels 'Guilded.Base.Permissions.GeneralPermissions.ManageChannels')** `Field`
+    - **[ManageGroups](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageGroups 'Guilded.Base.Permissions.GeneralPermissions.ManageGroups')** `Field`
+    - **[ManageRoles](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageRoles 'Guilded.Base.Permissions.GeneralPermissions.ManageRoles')** `Field`
+    - **[ManageWebhooks](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks 'Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks')** `Field`
+    - **[MentionEveryoneHere](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere 'Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere')** `Field`
+    - **[None](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.None 'Guilded.Base.Permissions.GeneralPermissions.None')** `Field`
+    - **[UpdateServer](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.UpdateServer 'Guilded.Base.Permissions.GeneralPermissions.UpdateServer')** `Field`
+  - **[ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')** `Enum`
+    - **[All](ListPermissions#Guilded.Base.Permissions.ListPermissions.All 'Guilded.Base.Permissions.ListPermissions.All')** `Field`
+    - **[Basic](ListPermissions#Guilded.Base.Permissions.ListPermissions.Basic 'Guilded.Base.Permissions.ListPermissions.Basic')** `Field`
+    - **[CompleteListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.CompleteListItems 'Guilded.Base.Permissions.ListPermissions.CompleteListItems')** `Field`
+    - **[CreateListItem](ListPermissions#Guilded.Base.Permissions.ListPermissions.CreateListItem 'Guilded.Base.Permissions.ListPermissions.CreateListItem')** `Field`
+    - **[Manage](ListPermissions#Guilded.Base.Permissions.ListPermissions.Manage 'Guilded.Base.Permissions.ListPermissions.Manage')** `Field`
+    - **[ManageListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.ManageListItems 'Guilded.Base.Permissions.ListPermissions.ManageListItems')** `Field`
+    - **[None](ListPermissions#Guilded.Base.Permissions.ListPermissions.None 'Guilded.Base.Permissions.ListPermissions.None')** `Field`
+    - **[RemoveListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.RemoveListItems 'Guilded.Base.Permissions.ListPermissions.RemoveListItems')** `Field`
+    - **[ReorderListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.ReorderListItems 'Guilded.Base.Permissions.ListPermissions.ReorderListItems')** `Field`
+    - **[ViewListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.ViewListItems 'Guilded.Base.Permissions.ListPermissions.ViewListItems')** `Field`
+  - **[MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')** `Enum`
+    - **[All](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.All 'Guilded.Base.Permissions.MatchmakingPermissions.All')** `Field`
+    - **[CreateScrims](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.CreateScrims 'Guilded.Base.Permissions.MatchmakingPermissions.CreateScrims')** `Field`
+    - **[CreateTournaments](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.CreateTournaments 'Guilded.Base.Permissions.MatchmakingPermissions.CreateTournaments')** `Field`
+    - **[None](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.None 'Guilded.Base.Permissions.MatchmakingPermissions.None')** `Field`
+    - **[RegisterForTournaments](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.RegisterForTournaments 'Guilded.Base.Permissions.MatchmakingPermissions.RegisterForTournaments')** `Field`
+  - **[MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')** `Enum`
+    - **[All](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.All 'Guilded.Base.Permissions.MediaPermissions.All')** `Field`
+    - **[Basic](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.Basic 'Guilded.Base.Permissions.MediaPermissions.Basic')** `Field`
+    - **[CreateMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.CreateMedia 'Guilded.Base.Permissions.MediaPermissions.CreateMedia')** `Field`
+    - **[Manage](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.Manage 'Guilded.Base.Permissions.MediaPermissions.Manage')** `Field`
+    - **[ManageMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.ManageMedia 'Guilded.Base.Permissions.MediaPermissions.ManageMedia')** `Field`
+    - **[None](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.None 'Guilded.Base.Permissions.MediaPermissions.None')** `Field`
+    - **[RemoveMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.RemoveMedia 'Guilded.Base.Permissions.MediaPermissions.RemoveMedia')** `Field`
+    - **[SeeMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.SeeMedia 'Guilded.Base.Permissions.MediaPermissions.SeeMedia')** `Field`
+  - **[RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')** `Enum`
+    - **[All](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.All 'Guilded.Base.Permissions.RecruitmentPermissions.All')** `Field`
+    - **[ApproveApplications](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications 'Guilded.Base.Permissions.RecruitmentPermissions.ApproveApplications')** `Field`
+    - **[EditApplications](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.EditApplications 'Guilded.Base.Permissions.RecruitmentPermissions.EditApplications')** `Field`
+    - **[IndicateInterest](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.IndicateInterest 'Guilded.Base.Permissions.RecruitmentPermissions.IndicateInterest')** `Field`
+    - **[Manage](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.Manage 'Guilded.Base.Permissions.RecruitmentPermissions.Manage')** `Field`
+    - **[ModifyStatus](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus 'Guilded.Base.Permissions.RecruitmentPermissions.ModifyStatus')** `Field`
+    - **[None](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.None 'Guilded.Base.Permissions.RecruitmentPermissions.None')** `Field`
+    - **[ViewApplications](RecruitmentPermissions#Guilded.Base.Permissions.RecruitmentPermissions.ViewApplications 'Guilded.Base.Permissions.RecruitmentPermissions.ViewApplications')** `Field`
+  - **[SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')** `Enum`
+    - **[All](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.All 'Guilded.Base.Permissions.SchedulingPermissions.All')** `Field`
+    - **[Basic](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.Basic 'Guilded.Base.Permissions.SchedulingPermissions.Basic')** `Field`
+    - **[CreateSchedule](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule 'Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule')** `Field`
+    - **[DeleteSchedule](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule 'Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule')** `Field`
+    - **[Manage](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.Manage 'Guilded.Base.Permissions.SchedulingPermissions.Manage')** `Field`
+    - **[None](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.None 'Guilded.Base.Permissions.SchedulingPermissions.None')** `Field`
+    - **[ViewSchedules](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules 'Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules')** `Field`
+  - **[StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')** `Enum`
+    - **[AddStream](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.AddStream 'Guilded.Base.Permissions.StreamPermissions.AddStream')** `Field`
+    - **[All](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.All 'Guilded.Base.Permissions.StreamPermissions.All')** `Field`
+    - **[Basic](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.Basic 'Guilded.Base.Permissions.StreamPermissions.Basic')** `Field`
+    - **[JoinVoice](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.JoinVoice 'Guilded.Base.Permissions.StreamPermissions.JoinVoice')** `Field`
+    - **[Manage](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.Manage 'Guilded.Base.Permissions.StreamPermissions.Manage')** `Field`
+    - **[SendMessages](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.SendMessages 'Guilded.Base.Permissions.StreamPermissions.SendMessages')** `Field`
+    - **[ViewStreams](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.ViewStreams 'Guilded.Base.Permissions.StreamPermissions.ViewStreams')** `Field`
+  - **[VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')** `Enum`
+    - **[AddVoice](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.AddVoice 'Guilded.Base.Permissions.VoicePermissions.AddVoice')** `Field`
+    - **[All](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.All 'Guilded.Base.Permissions.VoicePermissions.All')** `Field`
+    - **[Basic](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.Basic 'Guilded.Base.Permissions.VoicePermissions.Basic')** `Field`
+    - **[Broadcast](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.Broadcast 'Guilded.Base.Permissions.VoicePermissions.Broadcast')** `Field`
+    - **[DeafenMembers](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.DeafenMembers 'Guilded.Base.Permissions.VoicePermissions.DeafenMembers')** `Field`
+    - **[HearVoice](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.HearVoice 'Guilded.Base.Permissions.VoicePermissions.HearVoice')** `Field`
+    - **[Manage](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.Manage 'Guilded.Base.Permissions.VoicePermissions.Manage')** `Field`
+    - **[ManageVoiceRooms](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms 'Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms')** `Field`
+    - **[MoveMembers](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.MoveMembers 'Guilded.Base.Permissions.VoicePermissions.MoveMembers')** `Field`
+    - **[MuteMembers](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.MuteMembers 'Guilded.Base.Permissions.VoicePermissions.MuteMembers')** `Field`
+    - **[None](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.None 'Guilded.Base.Permissions.VoicePermissions.None')** `Field`
+    - **[PrioritySpeaker](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.PrioritySpeaker 'Guilded.Base.Permissions.VoicePermissions.PrioritySpeaker')** `Field`
+    - **[SendMessages](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.SendMessages 'Guilded.Base.Permissions.VoicePermissions.SendMessages')** `Field`
+    - **[VoiceActivity](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.VoiceActivity 'Guilded.Base.Permissions.VoicePermissions.VoiceActivity')** `Field`
+    - **[Whisper](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.Whisper 'Guilded.Base.Permissions.VoicePermissions.Whisper')** `Field`
+  - **[XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')** `Enum`
+    - **[All](XpPermissions#Guilded.Base.Permissions.XpPermissions.All 'Guilded.Base.Permissions.XpPermissions.All')** `Field`
+    - **[Manage](XpPermissions#Guilded.Base.Permissions.XpPermissions.Manage 'Guilded.Base.Permissions.XpPermissions.Manage')** `Field`
+    - **[ManageServerXp](XpPermissions#Guilded.Base.Permissions.XpPermissions.ManageServerXp 'Guilded.Base.Permissions.XpPermissions.ManageServerXp')** `Field`
+    - **[None](XpPermissions#Guilded.Base.Permissions.XpPermissions.None 'Guilded.Base.Permissions.XpPermissions.None')** `Field`
+- **[Guilded.Base.Servers](Guilded.Base.Servers 'Guilded.Base.Servers')** `Namespace`
+  - **[Member](Member 'Guilded.Base.Servers.Member')** `Class`
+    - **[Member(User, IList&lt;uint&gt;, DateTime, string)](Member.Member(User,IList_uint_,DateTime,string) 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, System.DateTime, string)')** `Constructor`
+    - **[JoinedAt](Member.JoinedAt 'Guilded.Base.Servers.Member.JoinedAt')** `Property`
+    - **[Nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname')** `Property`
+  - **[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')** `Class`
+    - **[MemberBan(UserSummary, HashId, DateTime, string)](MemberBan.MemberBan(UserSummary,HashId,DateTime,string) 'Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary, Guilded.Base.HashId, System.DateTime, string)')** `Constructor`
+    - **[CreatedAt](MemberBan.CreatedAt 'Guilded.Base.Servers.MemberBan.CreatedAt')** `Property`
+    - **[CreatedBy](MemberBan.CreatedBy 'Guilded.Base.Servers.MemberBan.CreatedBy')** `Property`
+    - **[Reason](MemberBan.Reason 'Guilded.Base.Servers.MemberBan.Reason')** `Property`
+    - **[User](MemberBan.User 'Guilded.Base.Servers.MemberBan.User')** `Property`
+  - **[MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')** `Class`
+    - **[MemberSummary(T, IList&lt;uint&gt;)](MemberSummary_T_.MemberSummary(T,IList_uint_) 'Guilded.Base.Servers.MemberSummary<T>.MemberSummary(T, System.Collections.Generic.IList<uint>)')** `Constructor`
+    - **[Id](MemberSummary_T_.Id 'Guilded.Base.Servers.MemberSummary<T>.Id')** `Property`
+    - **[IsBot](MemberSummary_T_.IsBot 'Guilded.Base.Servers.MemberSummary<T>.IsBot')** `Property`
+    - **[Name](MemberSummary_T_.Name 'Guilded.Base.Servers.MemberSummary<T>.Name')** `Property`
+    - **[RoleIds](MemberSummary_T_.RoleIds 'Guilded.Base.Servers.MemberSummary<T>.RoleIds')** `Property`
+    - **[Type](MemberSummary_T_.Type 'Guilded.Base.Servers.MemberSummary<T>.Type')** `Property`
+    - **[User](MemberSummary_T_.User 'Guilded.Base.Servers.MemberSummary<T>.User')** `Property`
+  - **[ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel')** `Class`
+    - **[ServerChannel(Guid, HashId, HashId, ChannelType, string, HashId, DateTime, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, string, Nullable&lt;Guid&gt;, Nullable&lt;uint&gt;)](ServerChannel.ServerChannel(Guid,HashId,HashId,ChannelType,string,HashId,DateTime,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,string,Nullable_Guid_,Nullable_uint_) 'Guilded.Base.Servers.ServerChannel.ServerChannel(Guid, Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Servers.ChannelType, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, string, System.Nullable<Guid>, System.Nullable<uint>)')** `Constructor`
+    - **[NameLimit](ServerChannel.NameLimit 'Guilded.Base.Servers.ServerChannel.NameLimit')** `Field`
+    - **[TopicLimit](ServerChannel.TopicLimit 'Guilded.Base.Servers.ServerChannel.TopicLimit')** `Field`
+    - **[ArchivedAt](ServerChannel.ArchivedAt 'Guilded.Base.Servers.ServerChannel.ArchivedAt')** `Property`
+    - **[ArchivedBy](ServerChannel.ArchivedBy 'Guilded.Base.Servers.ServerChannel.ArchivedBy')** `Property`
+    - **[CategoryId](ServerChannel.CategoryId 'Guilded.Base.Servers.ServerChannel.CategoryId')** `Property`
+    - **[CreatedAt](ServerChannel.CreatedAt 'Guilded.Base.Servers.ServerChannel.CreatedAt')** `Property`
+    - **[CreatedBy](ServerChannel.CreatedBy 'Guilded.Base.Servers.ServerChannel.CreatedBy')** `Property`
+    - **[GroupId](ServerChannel.GroupId 'Guilded.Base.Servers.ServerChannel.GroupId')** `Property`
+    - **[Id](ServerChannel.Id 'Guilded.Base.Servers.ServerChannel.Id')** `Property`
+    - **[IsArchived](ServerChannel.IsArchived 'Guilded.Base.Servers.ServerChannel.IsArchived')** `Property`
+    - **[IsCategorized](ServerChannel.IsCategorized 'Guilded.Base.Servers.ServerChannel.IsCategorized')** `Property`
+    - **[IsPublic](ServerChannel.IsPublic 'Guilded.Base.Servers.ServerChannel.IsPublic')** `Property`
+    - **[IsThread](ServerChannel.IsThread 'Guilded.Base.Servers.ServerChannel.IsThread')** `Property`
+    - **[Name](ServerChannel.Name 'Guilded.Base.Servers.ServerChannel.Name')** `Property`
+    - **[ParentId](ServerChannel.ParentId 'Guilded.Base.Servers.ServerChannel.ParentId')** `Property`
+    - **[ServerId](ServerChannel.ServerId 'Guilded.Base.Servers.ServerChannel.ServerId')** `Property`
+    - **[Topic](ServerChannel.Topic 'Guilded.Base.Servers.ServerChannel.Topic')** `Property`
+    - **[Type](ServerChannel.Type 'Guilded.Base.Servers.ServerChannel.Type')** `Property`
+    - **[UpdatedAt](ServerChannel.UpdatedAt 'Guilded.Base.Servers.ServerChannel.UpdatedAt')** `Property`
+    - **[CreateWebhookAsync(string)](ServerChannel.CreateWebhookAsync(string) 'Guilded.Base.Servers.ServerChannel.CreateWebhookAsync(string)')** `Method`
+    - **[DeleteAsync()](ServerChannel.DeleteAsync() 'Guilded.Base.Servers.ServerChannel.DeleteAsync()')** `Method`
+    - **[UpdateAsync(string, string, Nullable&lt;bool&gt;)](ServerChannel.UpdateAsync(string,string,Nullable_bool_) 'Guilded.Base.Servers.ServerChannel.UpdateAsync(string, string, System.Nullable<bool>)')** `Method`
+  - **[Webhook](Webhook 'Guilded.Base.Servers.Webhook')** `Class`
+    - **[Webhook(Guid, string, Guid, HashId, DateTime, HashId, string, Nullable&lt;DateTime&gt;)](Webhook.Webhook(Guid,string,Guid,HashId,DateTime,HashId,string,Nullable_DateTime_) 'Guilded.Base.Servers.Webhook.Webhook(Guid, string, Guid, Guilded.Base.HashId, System.DateTime, Guilded.Base.HashId, string, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[ChannelId](Webhook.ChannelId 'Guilded.Base.Servers.Webhook.ChannelId')** `Property`
+    - **[CreatedAt](Webhook.CreatedAt 'Guilded.Base.Servers.Webhook.CreatedAt')** `Property`
+    - **[CreatedBy](Webhook.CreatedBy 'Guilded.Base.Servers.Webhook.CreatedBy')** `Property`
+    - **[DeletedAt](Webhook.DeletedAt 'Guilded.Base.Servers.Webhook.DeletedAt')** `Property`
+    - **[Id](Webhook.Id 'Guilded.Base.Servers.Webhook.Id')** `Property`
+    - **[Name](Webhook.Name 'Guilded.Base.Servers.Webhook.Name')** `Property`
+    - **[ServerId](Webhook.ServerId 'Guilded.Base.Servers.Webhook.ServerId')** `Property`
+    - **[Token](Webhook.Token 'Guilded.Base.Servers.Webhook.Token')** `Property`
+    - **[CreateMessageAsync(MessageContent)](Webhook.CreateMessageAsync(MessageContent) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateMessageAsync(Embed[])](Webhook.CreateMessageAsync(Embed[]) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, Embed[])](Webhook.CreateMessageAsync(string,Embed[]) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(string,IList_Embed_) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[CreateMessageAsync(string)](Webhook.CreateMessageAsync(string) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string)')** `Method`
+    - **[CreateMessageAsync(IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(IList_Embed_) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[DeleteAsync()](Webhook.DeleteAsync() 'Guilded.Base.Servers.Webhook.DeleteAsync()')** `Method`
+    - **[UpdateAsync(string)](Webhook.UpdateAsync(string) 'Guilded.Base.Servers.Webhook.UpdateAsync(string)')** `Method`
+  - **[ChannelType](ChannelType 'Guilded.Base.Servers.ChannelType')** `Enum`
+    - **[Announcements](ChannelType#Guilded.Base.Servers.ChannelType.Announcements 'Guilded.Base.Servers.ChannelType.Announcements')** `Field`
+    - **[Calendar](ChannelType#Guilded.Base.Servers.ChannelType.Calendar 'Guilded.Base.Servers.ChannelType.Calendar')** `Field`
+    - **[Chat](ChannelType#Guilded.Base.Servers.ChannelType.Chat 'Guilded.Base.Servers.ChannelType.Chat')** `Field`
+    - **[Docs](ChannelType#Guilded.Base.Servers.ChannelType.Docs 'Guilded.Base.Servers.ChannelType.Docs')** `Field`
+    - **[Forums](ChannelType#Guilded.Base.Servers.ChannelType.Forums 'Guilded.Base.Servers.ChannelType.Forums')** `Field`
+    - **[List](ChannelType#Guilded.Base.Servers.ChannelType.List 'Guilded.Base.Servers.ChannelType.List')** `Field`
+    - **[Media](ChannelType#Guilded.Base.Servers.ChannelType.Media 'Guilded.Base.Servers.ChannelType.Media')** `Field`
+    - **[Scheduling](ChannelType#Guilded.Base.Servers.ChannelType.Scheduling 'Guilded.Base.Servers.ChannelType.Scheduling')** `Field`
+    - **[Stream](ChannelType#Guilded.Base.Servers.ChannelType.Stream 'Guilded.Base.Servers.ChannelType.Stream')** `Field`
+    - **[Voice](ChannelType#Guilded.Base.Servers.ChannelType.Voice 'Guilded.Base.Servers.ChannelType.Voice')** `Field`
+- **[Guilded.Base.Users](Guilded.Base.Users 'Guilded.Base.Users')** `Namespace`
+  - **[Me](Me 'Guilded.Base.Users.Me')** `Class`
+    - **[Me(HashId, Guid, string, DateTime, HashId)](Me.Me(HashId,Guid,string,DateTime,HashId) 'Guilded.Base.Users.Me.Me(Guilded.Base.HashId, Guid, string, System.DateTime, Guilded.Base.HashId)')** `Constructor`
+    - **[BotId](Me.BotId 'Guilded.Base.Users.Me.BotId')** `Property`
+    - **[CreatedAt](Me.CreatedAt 'Guilded.Base.Users.Me.CreatedAt')** `Property`
+    - **[CreatedBy](Me.CreatedBy 'Guilded.Base.Users.Me.CreatedBy')** `Property`
+    - **[Id](Me.Id 'Guilded.Base.Users.Me.Id')** `Property`
+    - **[Name](Me.Name 'Guilded.Base.Users.Me.Name')** `Property`
+  - **[SocialLink](SocialLink 'Guilded.Base.Users.SocialLink')** `Class`
+    - **[SocialLink(SocialLinkType, string, string)](SocialLink.SocialLink(SocialLinkType,string,string) 'Guilded.Base.Users.SocialLink.SocialLink(Guilded.Base.Users.SocialLinkType, string, string)')** `Constructor`
+    - **[Handle](SocialLink.Handle 'Guilded.Base.Users.SocialLink.Handle')** `Property`
+    - **[ServiceId](SocialLink.ServiceId 'Guilded.Base.Users.SocialLink.ServiceId')** `Property`
+    - **[Type](SocialLink.Type 'Guilded.Base.Users.SocialLink.Type')** `Property`
+  - **[User](User 'Guilded.Base.Users.User')** `Class`
+    - **[User(HashId, string, DateTime, Uri, Uri, UserType)](User.User(HashId,string,DateTime,Uri,Uri,UserType) 'Guilded.Base.Users.User.User(Guilded.Base.HashId, string, System.DateTime, Uri, Uri, Guilded.Base.Users.UserType)')** `Constructor`
+    - **[Banner](User.Banner 'Guilded.Base.Users.User.Banner')** `Property`
+    - **[CreatedAt](User.CreatedAt 'Guilded.Base.Users.User.CreatedAt')** `Property`
+  - **[UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')** `Class`
+    - **[UserSummary(HashId, string, Uri, UserType)](UserSummary.UserSummary(HashId,string,Uri,UserType) 'Guilded.Base.Users.UserSummary.UserSummary(Guilded.Base.HashId, string, Uri, Guilded.Base.Users.UserType)')** `Constructor`
+    - **[Avatar](UserSummary.Avatar 'Guilded.Base.Users.UserSummary.Avatar')** `Property`
+    - **[Id](UserSummary.Id 'Guilded.Base.Users.UserSummary.Id')** `Property`
+    - **[IsBot](UserSummary.IsBot 'Guilded.Base.Users.UserSummary.IsBot')** `Property`
+    - **[Name](UserSummary.Name 'Guilded.Base.Users.UserSummary.Name')** `Property`
+    - **[Type](UserSummary.Type 'Guilded.Base.Users.UserSummary.Type')** `Property`
+    - **[AddRoleAsync(HashId, uint)](UserSummary.AddRoleAsync(HashId,uint) 'Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId, uint)')** `Method`
+    - **[AddXpAsync(HashId, short)](UserSummary.AddXpAsync(HashId,short) 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short)')** `Method`
+    - **[BanAsync(HashId, string)](UserSummary.BanAsync(HashId,string) 'Guilded.Base.Users.UserSummary.BanAsync(Guilded.Base.HashId, string)')** `Method`
+    - **[DeleteNicknameAsync(HashId)](UserSummary.DeleteNicknameAsync(HashId) 'Guilded.Base.Users.UserSummary.DeleteNicknameAsync(Guilded.Base.HashId)')** `Method`
+    - **[GetBanAsync(HashId)](UserSummary.GetBanAsync(HashId) 'Guilded.Base.Users.UserSummary.GetBanAsync(Guilded.Base.HashId)')** `Method`
+    - **[GetSocialLinkAsync(HashId, SocialLinkType)](UserSummary.GetSocialLinkAsync(HashId,SocialLinkType) 'Guilded.Base.Users.UserSummary.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
+    - **[KickAsync(HashId)](UserSummary.KickAsync(HashId) 'Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId)')** `Method`
+    - **[RemoveRoleAsync(HashId, uint)](UserSummary.RemoveRoleAsync(HashId,uint) 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint)')** `Method`
+    - **[ToString()](UserSummary.ToString() 'Guilded.Base.Users.UserSummary.ToString()')** `Method`
+    - **[UnbanAsync(HashId)](UserSummary.UnbanAsync(HashId) 'Guilded.Base.Users.UserSummary.UnbanAsync(Guilded.Base.HashId)')** `Method`
+    - **[UpdateNicknameAsync(HashId, string)](UserSummary.UpdateNicknameAsync(HashId,string) 'Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId, string)')** `Method`
+  - **[SocialLinkType](SocialLinkType 'Guilded.Base.Users.SocialLinkType')** `Enum`
+    - **[Bnet](SocialLinkType#Guilded.Base.Users.SocialLinkType.Bnet 'Guilded.Base.Users.SocialLinkType.Bnet')** `Field`
+    - **[Facebook](SocialLinkType#Guilded.Base.Users.SocialLinkType.Facebook 'Guilded.Base.Users.SocialLinkType.Facebook')** `Field`
+    - **[Origin](SocialLinkType#Guilded.Base.Users.SocialLinkType.Origin 'Guilded.Base.Users.SocialLinkType.Origin')** `Field`
+    - **[Patreon](SocialLinkType#Guilded.Base.Users.SocialLinkType.Patreon 'Guilded.Base.Users.SocialLinkType.Patreon')** `Field`
+    - **[Psn](SocialLinkType#Guilded.Base.Users.SocialLinkType.Psn 'Guilded.Base.Users.SocialLinkType.Psn')** `Field`
+    - **[Roblox](SocialLinkType#Guilded.Base.Users.SocialLinkType.Roblox 'Guilded.Base.Users.SocialLinkType.Roblox')** `Field`
+    - **[Steam](SocialLinkType#Guilded.Base.Users.SocialLinkType.Steam 'Guilded.Base.Users.SocialLinkType.Steam')** `Field`
+    - **[Switch](SocialLinkType#Guilded.Base.Users.SocialLinkType.Switch 'Guilded.Base.Users.SocialLinkType.Switch')** `Field`
+    - **[Twitch](SocialLinkType#Guilded.Base.Users.SocialLinkType.Twitch 'Guilded.Base.Users.SocialLinkType.Twitch')** `Field`
+    - **[Twitter](SocialLinkType#Guilded.Base.Users.SocialLinkType.Twitter 'Guilded.Base.Users.SocialLinkType.Twitter')** `Field`
+    - **[Xbox](SocialLinkType#Guilded.Base.Users.SocialLinkType.Xbox 'Guilded.Base.Users.SocialLinkType.Xbox')** `Field`
+    - **[YouTube](SocialLinkType#Guilded.Base.Users.SocialLinkType.YouTube 'Guilded.Base.Users.SocialLinkType.YouTube')** `Field`
+  - **[UserType](UserType 'Guilded.Base.Users.UserType')** `Enum`
+    - **[Bot](UserType#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot')** `Field`
+    - **[User](UserType#Guilded.Base.Users.UserType.User 'Guilded.Base.Users.UserType.User')** `Field`

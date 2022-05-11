@@ -11,7 +11,7 @@ Represents an event with the name `ChatMessageDeleted` and opcode `0` that occur
 ---
 
 ## MessageDeletedEvent Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events.md 'Guilded.Base.Events')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
 Represents an event with the name `ChatMessageDeleted` and opcode `0` that occurs once someone creates/posts a message in the chat.
 
@@ -19,18 +19,19 @@ Represents an event with the name `ChatMessageDeleted` and opcode `0` that occur
 public class MessageDeletedEvent : Guilded.Base.Events.MessageEvent<Guilded.Base.Events.MessageDeletedEvent.MessageDeleted>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject.md 'Guilded.Base.BaseObject') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_.md 'Guilded.Base.Events.MessageEvent<T>')[MessageDeleted](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')[&gt;](MessageEvent_T_.md 'Guilded.Base.Events.MessageEvent<T>') &#129106; MessageDeletedEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')[MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>') &#129106; MessageDeletedEvent
 
 | Constructors | |
 | :--- | :--- |
-| [MessageDeletedEvent(Nullable&lt;HashId&gt;, MessageDeleted)](MessageDeletedEvent.MessageDeletedEvent(Nullable_HashId_,MessageDeleted).md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeletedEvent(System.Nullable<Guilded.Base.HashId>, Guilded.Base.Events.MessageDeletedEvent.MessageDeleted)') | Initializes a new instance of [MessageDeletedEvent](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent') from the specified JSON properties. |
+| [MessageDeletedEvent(MessageDeleted, Nullable&lt;HashId&gt;)](MessageDeletedEvent.MessageDeletedEvent(MessageDeleted,Nullable_HashId_) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeletedEvent(Guilded.Base.Events.MessageDeletedEvent.MessageDeleted, System.Nullable<Guilded.Base.HashId>)') | Initializes a new instance of [MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |
-| [ChannelId](MessageDeletedEvent.ChannelId.md 'Guilded.Base.Events.MessageDeletedEvent.ChannelId') | Gets the identifier of the channel where the message was. |
-| [DeletedAt](MessageDeletedEvent.DeletedAt.md 'Guilded.Base.Events.MessageDeletedEvent.DeletedAt') | Gets the date of when the message was deleted. |
-| [Id](MessageDeletedEvent.Id.md 'Guilded.Base.Events.MessageDeletedEvent.Id') | Gets the identifier of the message. |
+| [ChannelId](MessageDeletedEvent.ChannelId 'Guilded.Base.Events.MessageDeletedEvent.ChannelId') | Gets the identifier of the channel where the message was. |
+| [DeletedAt](MessageDeletedEvent.DeletedAt 'Guilded.Base.Events.MessageDeletedEvent.DeletedAt') | Gets the date when the message was deleted. |
+| [Id](MessageDeletedEvent.Id 'Guilded.Base.Events.MessageDeletedEvent.Id') | Gets the identifier of the message. |
 
 ### See Also
-- [MessageDeleted](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
-- [Message](Message.md 'Guilded.Base.Content.Message')
+- [MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
+- [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')
+- [Message](Message 'Guilded.Base.Content.Message')

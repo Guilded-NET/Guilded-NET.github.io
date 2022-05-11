@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri).url')."
+Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri).url')."
 ---
 
 ## EmbedAuthor(string, Uri, Uri) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')
 
-Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri).md#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri).url').
+Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri).url').
 
 ```csharp
 public EmbedAuthor(string name, Uri? url=null, Uri? iconUrl=null);
@@ -37,3 +37,7 @@ The URL that author links
 `iconUrl` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
 The URL to author's icon
+
+### See Also
+- [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')
+- [EmbedAuthor(string, string, string)](EmbedAuthor.EmbedAuthor(string,string,string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string)')

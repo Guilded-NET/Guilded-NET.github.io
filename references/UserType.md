@@ -11,7 +11,7 @@ Represents the type of user someone is."
 ---
 
 ## UserType Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users.md 'Guilded.Base.Users')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
 
 Represents the type of user someone is.
 
@@ -28,10 +28,24 @@ This can be used to differentiate bots from users. Other types may be added late
 
 `Bot` 1
 
-The user is an API bot.
+[The user](User 'Guilded.Base.Users.User') is an API bot.
+
+### See Also
+- [User](UserType#Guilded.Base.Users.UserType.User 'Guilded.Base.Users.UserType.User')
+- [UserType](UserType 'Guilded.Base.Users.UserType')
 
 <a name='Guilded.Base.Users.UserType.User'></a>
 
 `User` 0
 
-The user is a normal user.
+[The user](User 'Guilded.Base.Users.User') is a normal user.
+
+### See Also
+- [Bot](UserType#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot')
+- [UserType](UserType 'Guilded.Base.Users.UserType')
+
+### See Also
+- [Member](Member 'Guilded.Base.Servers.Member')
+- [User](User 'Guilded.Base.Users.User')
+- [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')
+- [Me](Me 'Guilded.Base.Users.Me')

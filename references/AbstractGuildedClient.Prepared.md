@@ -11,7 +11,7 @@ An observable event that occurs once Guilded client has connected and added fini
 ---
 
 ## AbstractGuildedClient.Prepared Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 An observable event that occurs once Guilded client has connected and added finishing touches.
 

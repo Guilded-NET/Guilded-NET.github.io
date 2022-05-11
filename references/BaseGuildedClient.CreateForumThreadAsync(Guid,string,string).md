@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a new post in a [channel](BaseGuildedClient.CreateForumThreadAsync(Guid,string,string).md#Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid,string,string).channel 'Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid, string, string).channel')."
+Creates a [new forum post](ForumThread 'Guilded.Base.Content.ForumThread')."
 ---
 
 ## BaseGuildedClient.CreateForumThreadAsync(Guid, string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Creates a new post in a [channel](BaseGuildedClient.CreateForumThreadAsync(Guid,string,string).md#Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid,string,string).channel 'Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid, string, string).channel').
+Creates a [new forum post](ForumThread 'Guilded.Base.Content.ForumThread').
 
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.Base.Content.ForumThread> CreateForumThreadAsync(Guid channel, string title, string content);
@@ -24,30 +24,30 @@ public abstract System.Threading.Tasks.Task<Guilded.Base.Content.ForumThread> Cr
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the parent channel
+The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid,string,string).title'></a>
 
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The title of the forum post
+The title of [the forum post](ForumThread 'Guilded.Base.Content.ForumThread')
 
 <a name='Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid,string,string).content'></a>
 
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The content of the forum post
+The content of [the forum post](ForumThread 'Guilded.Base.Content.ForumThread')
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[ForumThread](ForumThread.md 'Guilded.Base.Content.ForumThread')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Created forum thread
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[ForumThread](ForumThread 'Guilded.Base.Content.ForumThread')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Created [forum thread](ForumThread 'Guilded.Base.Content.ForumThread')

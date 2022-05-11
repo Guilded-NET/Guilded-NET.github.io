@@ -7,18 +7,18 @@ tags:
   - constructor
 description: "
 
-Initializes a new base instance of [AbstractGuildedClient](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient') children types."
+Initializes a new base instance of [AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient') children types."
 ---
 
 ## AbstractGuildedClient() Constructor
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Initializes a new base instance of [AbstractGuildedClient](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient') children types.
+Initializes a new base instance of [AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient') children types.
 
 ```csharp
 protected AbstractGuildedClient();
 ```
 
 ### See Also
-- [GuildedBotClient()](GuildedBotClient.GuildedBotClient().md 'Guilded.GuildedBotClient.GuildedBotClient()')
-- [GuildedBotClient(string)](GuildedBotClient.GuildedBotClient(string).md 'Guilded.GuildedBotClient.GuildedBotClient(string)')
+- [GuildedBotClient()](GuildedBotClient.GuildedBotClient() 'Guilded.GuildedBotClient.GuildedBotClient()')
+- [GuildedBotClient(string)](GuildedBotClient.GuildedBotClient(string) 'Guilded.GuildedBotClient.GuildedBotClient(string)')

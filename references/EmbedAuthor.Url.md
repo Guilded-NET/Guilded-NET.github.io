@@ -11,7 +11,7 @@ Gets the URL that author links."
 ---
 
 ## EmbedAuthor.Url Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')
 
 Gets the URL that author links.
 

@@ -11,7 +11,7 @@ Represents an event with the name `ChatMessageDeleted` and opcode `0` that occur
 ---
 
 ## AbstractGuildedClient.MessageDeleted Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Represents an event with the name `ChatMessageDeleted` and opcode `0` that occurs once someone creates/posts a message in the chat.
 
@@ -23,6 +23,6 @@ public IObservable<Guilded.Base.Events.MessageDeletedEvent> MessageDeleted { get
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [MessageDeleted](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
-- [MessageEvent](MessageEvent.md 'Guilded.Base.Events.MessageEvent')
-- [Message](Message.md 'Guilded.Base.Content.Message')
+- [MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
+- [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')
+- [Message](Message 'Guilded.Base.Content.Message')

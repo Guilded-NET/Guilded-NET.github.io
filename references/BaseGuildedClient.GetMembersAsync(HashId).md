@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets the list of all [server](BaseGuildedClient.GetMembersAsync(HashId).md#Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server') members."
+Gets the list of all [server](BaseGuildedClient.GetMembersAsync(HashId)#Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server')[members](Member 'Guilded.Base.Servers.Member')."
 ---
 
 ## BaseGuildedClient.GetMembersAsync(HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Gets the list of all [server](BaseGuildedClient.GetMembersAsync(HashId).md#Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server') members.
+Gets the list of all [server](BaseGuildedClient.GetMembersAsync(HashId)#Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server')[members](Member 'Guilded.Base.Servers.Member').
 
 ```csharp
 public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Guilded.Base.Servers.MemberSummary<Guilded.Base.Users.UserSummary>>> GetMembersAsync(Guilded.Base.HashId server);
@@ -22,20 +22,20 @@ public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 <a name='Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to get member list of
+The server to get [member](Member 'Guilded.Base.Servers.Member') list of
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Guilded.Base.Servers.MemberSummary&lt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>')[UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')[&gt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-List of members
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Guilded.Base.Servers.MemberSummary&lt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')[UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')[&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+List of [members](Member 'Guilded.Base.Servers.Member')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets full information about the specified [member](BaseGuildedClient.GetMemberAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') in the [server](BaseGuildedClient.GetMemberAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).server')."
+Gets full information about the [member](BaseGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## BaseGuildedClient.GetMemberAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Gets full information about the specified [member](BaseGuildedClient.GetMemberAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') in the [server](BaseGuildedClient.GetMemberAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).server').
+Gets full information about the [member](BaseGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.Member> GetMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -22,26 +22,26 @@ public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.Member> GetMemb
 
 <a name='Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server where the member is
+The server where [the member](Member 'Guilded.Base.Servers.Member') is
 
 <a name='Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
-`member` [HashId](HashId.md 'Guilded.Base.HashId')
+`member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the member to get
+The identifier of [the member](Member 'Guilded.Base.Servers.Member') to get
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Member](Member.md 'Guilded.Base.Servers.Member')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Member
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Member](Member 'Guilded.Base.Servers.Member')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[member](BaseGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')

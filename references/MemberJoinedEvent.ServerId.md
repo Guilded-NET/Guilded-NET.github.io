@@ -11,7 +11,7 @@ Gets the identifier of the server where the member has joined."
 ---
 
 ## MemberJoinedEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent.md 'Guilded.Base.Events.MemberJoinedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
 
 Gets the identifier of the server where the member has joined.
 
@@ -20,5 +20,9 @@ public Guilded.Base.HashId ServerId { get; }
 ```
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
+[HashId](HashId 'Guilded.Base.HashId')  
 Server ID
+
+### See Also
+- [MemberJoinedEvent](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
+- [Member](MemberJoinedEvent.Member 'Guilded.Base.Events.MemberJoinedEvent.Member')

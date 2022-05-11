@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Edits the [content](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or the [title](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of a [doc](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc') in a [channel](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).channel 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).channel')."
+Edits [content](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or [title](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of the [doc](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc')."
 ---
 
 ## BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Edits the [content](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or the [title](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of a [doc](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc') in a [channel](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).channel 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).channel').
+Edits [content](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or [title](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of the [doc](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc').
 
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.Base.Content.Doc> UpdateDocAsync(Guid channel, uint doc, string title, string content);
@@ -21,14 +21,14 @@ public abstract System.Threading.Tasks.Task<Guilded.Base.Content.Doc> UpdateDocA
 
 ### Remarks
   
-The updated document will be bumped to the top.
+The [doc](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc') will be bumped to the top.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).channel'></a>
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the parent channel
+The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc'></a>
 
@@ -50,14 +50,14 @@ The new Markdown content of this document
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc.md 'Guilded.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Updated document
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc 'Guilded.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Updated [document](Doc 'Guilded.Base.Content.Doc')

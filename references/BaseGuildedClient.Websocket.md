@@ -11,7 +11,7 @@ The WebSocket that will be used by the client."
 ---
 
 ## BaseGuildedClient.Websocket Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 The WebSocket that will be used by the client.
 
@@ -28,4 +28,4 @@ The WebSocket that will be used by the client to receive all Guilded events and 
 Main WebSocket
 
 ### See Also
-- [Rest](BaseGuildedClient.Rest.md 'Guilded.Base.BaseGuildedClient.Rest')
+- [Rest](BaseGuildedClient.Rest 'Guilded.Base.BaseGuildedClient.Rest')

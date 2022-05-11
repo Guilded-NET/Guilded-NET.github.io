@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to lists."
+Represents channel permissions related to lists/tasks in list channels."
 ---
 
 ## ListPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to lists.
+Represents channel permissions related to lists/tasks in list channels.
 
 ```csharp
 public enum ListPermissions
 ```
-
-### Remarks
-  
-Defines channel permissions related to lists/tasks in list channels.
 ### Fields
 
 <a name='Guilded.Base.Permissions.ListPermissions.All'></a>
@@ -39,9 +35,9 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [CreateListItem](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.CreateListItem 'Guilded.Base.Permissions.ListPermissions.CreateListItem')  
-- [ViewListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.ViewListItems 'Guilded.Base.Permissions.ListPermissions.ViewListItems')  
-- [CompleteListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.CompleteListItems 'Guilded.Base.Permissions.ListPermissions.CompleteListItems')
+- [CreateListItem](ListPermissions#Guilded.Base.Permissions.ListPermissions.CreateListItem 'Guilded.Base.Permissions.ListPermissions.CreateListItem')  
+- [ViewListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.ViewListItems 'Guilded.Base.Permissions.ListPermissions.ViewListItems')  
+- [CompleteListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.CompleteListItems 'Guilded.Base.Permissions.ListPermissions.CompleteListItems')
 
 <a name='Guilded.Base.Permissions.ListPermissions.CompleteListItems'></a>
 
@@ -64,9 +60,9 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [ManageListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.ManageListItems 'Guilded.Base.Permissions.ListPermissions.ManageListItems')  
-- [RemoveListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.RemoveListItems 'Guilded.Base.Permissions.ListPermissions.RemoveListItems')  
-- [ReorderListItems](ListPermissions.md#Guilded.Base.Permissions.ListPermissions.ReorderListItems 'Guilded.Base.Permissions.ListPermissions.ReorderListItems')
+- [ManageListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.ManageListItems 'Guilded.Base.Permissions.ListPermissions.ManageListItems')  
+- [RemoveListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.RemoveListItems 'Guilded.Base.Permissions.ListPermissions.RemoveListItems')  
+- [ReorderListItems](ListPermissions#Guilded.Base.Permissions.ListPermissions.ReorderListItems 'Guilded.Base.Permissions.ListPermissions.ReorderListItems')
 
 <a name='Guilded.Base.Permissions.ListPermissions.ManageListItems'></a>
 
@@ -97,3 +93,22 @@ Allows you to reorder list items
 `ViewListItems` 2
 
 Allows you to view list items
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

@@ -11,7 +11,7 @@ Returns string representation of the exception thrown."
 ---
 
 ## GuildedException.ToString() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
 Returns string representation of the exception thrown.
 
@@ -21,4 +21,4 @@ public override string ToString();
 
 #### Returns
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException') as string
+[GuildedException](GuildedException 'Guilded.Base.GuildedException') as string

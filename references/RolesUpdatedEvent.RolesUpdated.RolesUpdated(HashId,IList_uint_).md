@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated') from the specified JSON properties."
+Initializes a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated') from the specified JSON properties."
 ---
 
 ## RolesUpdated(HashId, IList<uint>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdated`](RolesUpdatedEvent.RolesUpdated.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdated`](RolesUpdatedEvent.RolesUpdated 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated')
 
-Initializes a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated.md 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated') from the specified JSON properties.
+Initializes a new instance of [RolesUpdated](RolesUpdatedEvent.RolesUpdated 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated') from the specified JSON properties.
 
 ```csharp
 public RolesUpdated(Guilded.Base.HashId userId, System.Collections.Generic.IList<uint> roleIds);
@@ -22,9 +22,9 @@ public RolesUpdated(Guilded.Base.HashId userId, System.Collections.Generic.IList
 
 <a name='Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.Base.HashId,System.Collections.Generic.IList_uint_).userId'></a>
 
-`userId` [HashId](HashId.md 'Guilded.Base.HashId')
+`userId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [user](User.md 'Guilded.Base.Users.User') who holds the roles
+The identifier of [user](User 'Guilded.Base.Users.User') who holds the roles
 
 <a name='Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.Base.HashId,System.Collections.Generic.IList_uint_).roleIds'></a>
 

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId.md 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId'))."
+Creates a message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId'))."
 ---
 
 ## MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Embed[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent.md 'Guilded.Base.Events.MessageEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
 
-Creates a message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId.md 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')).
+Creates a message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')).
 
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Content.Message> CreateMessageAsync(string content, bool isPrivate=false, bool isSilent=false, Guid[]? replyTo=null, params Guilded.Base.Embeds.Embed[] embeds);
@@ -21,18 +21,18 @@ public System.Threading.Tasks.Task<Guilded.Base.Content.Message> CreateMessageAs
 
 ### Remarks
   
-The [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]).md#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.  
+The [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.  
   
 This does not automatically include the message in the reply list.  
   
-[embeds](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]).md#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).embeds') will be displayed alongside [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]).md#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content').
+[embeds](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).embeds') will be displayed alongside [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content').
 #### Parameters
 
 <a name='Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content'></a>
 
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The text contents of the message in Markdown plain text
+The [text contents](Message.Content 'Guilded.Base.Content.Message.Content') of [the message](Message 'Guilded.Base.Content.Message') in Markdown (max — `4000`)
 
 <a name='Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).isPrivate'></a>
 
@@ -48,28 +48,28 @@ The text contents of the message in Markdown plain text
 
 <a name='Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).embeds'></a>
 
-`embeds` [Embed](Embed.md 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
+`embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
-The array of custom embeds that will be visible in the message
+The array of [all custom embeds](Embed 'Guilded.Base.Embeds.Embed') in [the message](Message 'Guilded.Base.Content.Message') (max — `1`)
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When the [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]).md#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content') only consists of whitespace or is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
+When the [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content') only consists of whitespace or is [nu](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/nu 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/nu')
 
 [System.ArgumentOutOfRangeException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentOutOfRangeException 'System.ArgumentOutOfRangeException')  
-When the [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]).md#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content') is above the message limit of 4000 characters
+When the [content](MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,bool,bool,Guid[],Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[]).content') is above the message limit of 4000 characters
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message.md 'Guilded.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Created message
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Created [message](Message 'Guilded.Base.Content.Message')

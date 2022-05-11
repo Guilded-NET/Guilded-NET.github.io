@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Sets the [title](Embed.Title.md 'Guilded.Base.Embeds.Embed.Title') as the given [value](Embed.SetTitle(string).md#Guilded.Base.Embeds.Embed.SetTitle(string).value 'Guilded.Base.Embeds.Embed.SetTitle(string).value')."
+Sets the [title](Embed.Title 'Guilded.Base.Embeds.Embed.Title') as the given [value](Embed.SetTitle(string)#Guilded.Base.Embeds.Embed.SetTitle(string).value 'Guilded.Base.Embeds.Embed.SetTitle(string).value')."
 ---
 
 ## Embed.SetTitle(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Sets the [title](Embed.Title.md 'Guilded.Base.Embeds.Embed.Title') as the given [value](Embed.SetTitle(string).md#Guilded.Base.Embeds.Embed.SetTitle(string).value 'Guilded.Base.Embeds.Embed.SetTitle(string).value').
+Sets the [title](Embed.Title 'Guilded.Base.Embeds.Embed.Title') as the given [value](Embed.SetTitle(string)#Guilded.Base.Embeds.Embed.SetTitle(string).value 'Guilded.Base.Embeds.Embed.SetTitle(string).value').
 
 ```csharp
 public Guilded.Base.Embeds.Embed SetTitle(string value);
@@ -24,8 +24,8 @@ public Guilded.Base.Embeds.Embed SetTitle(string value);
 
 `value` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The value of the [embed's](Embed.md 'Guilded.Base.Embeds.Embed') title
+The value of the [embed's](Embed 'Guilded.Base.Embeds.Embed') title
 
 #### Returns
-[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
-Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance
+[Embed](Embed 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed 'Guilded.Base.Embeds.Embed') instance

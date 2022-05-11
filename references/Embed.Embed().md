@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates a new empty instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed')."
+Creates a new empty instance of [Embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed() Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Creates a new empty instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed').
+Creates a new empty instance of [Embed](Embed 'Guilded.Base.Embeds.Embed').
 
 ```csharp
 public Embed();

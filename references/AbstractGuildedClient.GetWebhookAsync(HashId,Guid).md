@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets the [webhook](AbstractGuildedClient.GetWebhookAsync(HashId,Guid).md#Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid).webhook')."
+Gets the [webhook](AbstractGuildedClient.GetWebhookAsync(HashId,Guid)#Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid).webhook')."
 ---
 
 ## AbstractGuildedClient.GetWebhookAsync(HashId, Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets the [webhook](AbstractGuildedClient.GetWebhookAsync(HashId,Guid).md#Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid).webhook').
+Gets the [webhook](AbstractGuildedClient.GetWebhookAsync(HashId,Guid)#Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid).webhook').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> GetWebhookAsync(Guilded.Base.HashId server, Guid webhook);
@@ -22,28 +22,28 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> GetWeb
 
 <a name='Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server [the webhook](Webhook.md 'Guilded.Base.Servers.Webhook') is
+The identifier of the server [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is
 
 <a name='Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook'></a>
 
 `webhook` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the webhook](Webhook.md 'Guilded.Base.Servers.Webhook') to get
+The identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') to get
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Webhook](Webhook.md 'Guilded.Base.Servers.Webhook')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-[webhook](AbstractGuildedClient.GetWebhookAsync(HashId,Guid).md#Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid).webhook')
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Webhook](Webhook 'Guilded.Base.Servers.Webhook')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[webhook](AbstractGuildedClient.GetWebhookAsync(HashId,Guid)#Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid).webhook')

@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException') with information from given parameters."
+Initializes a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException') with information from given parameters."
 ---
 
 ## GuildedRequestException(string, string, RestResponse) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-Initializes a new instance of [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException') with information from given parameters.
+Initializes a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException') with information from given parameters.
 
 ```csharp
 public GuildedRequestException(string code, string message, RestSharp.RestResponse response);
@@ -37,3 +37,9 @@ The description of the error from Guilded API
 `response` [RestSharp.RestResponse](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.RestResponse 'RestSharp.RestResponse')
 
 The response that was received from Guilded API
+
+### See Also
+- [GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
+- [GuildedRequestException()](GuildedRequestException.GuildedRequestException() 'Guilded.Base.GuildedRequestException.GuildedRequestException()')
+- [GuildedRequestException(string)](GuildedRequestException.GuildedRequestException(string) 'Guilded.Base.GuildedRequestException.GuildedRequestException(string)')
+- [GuildedRequestException(string, Exception)](GuildedRequestException.GuildedRequestException(string,Exception) 'Guilded.Base.GuildedRequestException.GuildedRequestException(string, System.Exception)')

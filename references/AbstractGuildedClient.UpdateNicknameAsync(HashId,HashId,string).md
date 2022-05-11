@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Changes [the nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string).md#Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member')."
+Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member')."
 ---
 
 ## AbstractGuildedClient.UpdateNicknameAsync(HashId, HashId, string) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Changes [the nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string).md#Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
+Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
 
 ```csharp
 public override System.Threading.Tasks.Task<string> UpdateNicknameAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, string nickname);
@@ -22,13 +22,13 @@ public override System.Threading.Tasks.Task<string> UpdateNicknameAsync(Guilded.
 
 <a name='Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
 The server to modify member in
 
 <a name='Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member'></a>
 
-`member` [HashId](HashId.md 'Guilded.Base.HashId')
+`member` [HashId](HashId 'Guilded.Base.HashId')
 
 The identifier of the member to update
 
@@ -40,16 +40,16 @@ The new nickname of the member
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Updated [nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname')
+Updated [nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname')

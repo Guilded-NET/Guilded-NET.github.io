@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Unbans the [member](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
+Unbans the [member](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## AbstractGuildedClient.UnbanMemberAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Unbans the [member](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId).md#Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
+Unbans the [member](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
 public override System.Threading.Tasks.Task UnbanMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -26,27 +26,27 @@ Allows them to join the server again.
 
 <a name='Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to unban [member](Member.md 'Guilded.Base.Servers.Member') in
+The server to unban [member](Member 'Guilded.Base.Servers.Member') in
 
 <a name='Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
-`member` [HashId](HashId.md 'Guilded.Base.HashId')
+`member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the member](Member.md 'Guilded.Base.Servers.Member') to unban
+The identifier of [the member](Member 'Guilded.Base.Servers.Member') to unban
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

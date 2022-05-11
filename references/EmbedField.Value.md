@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the text contents of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field."
+Gets the text contents of an [embed's](Embed 'Guilded.Base.Embeds.Embed') field."
 ---
 
 ## EmbedField.Value Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField.md 'Guilded.Base.Embeds.EmbedField')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.Base.Embeds.EmbedField')
 
-Gets the text contents of an [embed's](Embed.md 'Guilded.Base.Embeds.Embed') field.
+Gets the text contents of an [embed's](Embed 'Guilded.Base.Embeds.Embed') field.
 
 ```csharp
 public string Value { get; set; }

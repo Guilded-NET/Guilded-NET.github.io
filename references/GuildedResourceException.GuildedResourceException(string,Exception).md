@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with an [inner](GuildedResourceException.GuildedResourceException(string,Exception).md#Guilded.Base.GuildedResourceException.GuildedResourceException(string,System.Exception).inner 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception).inner') explaining more."
+Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException') with an [inner](GuildedResourceException.GuildedResourceException(string,Exception)#Guilded.Base.GuildedResourceException.GuildedResourceException(string,System.Exception).inner 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception).inner') explaining more."
 ---
 
 ## GuildedResourceException(string, Exception) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with an [inner](GuildedResourceException.GuildedResourceException(string,Exception).md#Guilded.Base.GuildedResourceException.GuildedResourceException(string,System.Exception).inner 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception).inner') explaining more.
+Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException') with an [inner](GuildedResourceException.GuildedResourceException(string,Exception)#Guilded.Base.GuildedResourceException.GuildedResourceException(string,System.Exception).inner 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception).inner') explaining more.
 
 ```csharp
 public GuildedResourceException(string message, System.Exception inner);
@@ -31,3 +31,9 @@ The description of the error from Guilded API
 `inner` [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception')
 
 Inner exception explaining more
+
+### See Also
+- [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
+- [GuildedResourceException()](GuildedResourceException.GuildedResourceException() 'Guilded.Base.GuildedResourceException.GuildedResourceException()')
+- [GuildedResourceException(string)](GuildedResourceException.GuildedResourceException(string) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string)')
+- [GuildedResourceException(string, string, RestResponse)](GuildedResourceException.GuildedResourceException(string,string,RestResponse) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, string, RestSharp.RestResponse)')

@@ -11,7 +11,7 @@ Gets the identifier of the staff who banned."
 ---
 
 ## MemberBanEvent.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent.md 'Guilded.Base.Events.MemberBanEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
 
 Gets the identifier of the staff who banned.
 
@@ -20,5 +20,5 @@ public Guilded.Base.HashId CreatedBy { get; }
 ```
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
-User ID
+[HashId](HashId 'Guilded.Base.HashId')  
+[User ID](UserSummary.Id 'Guilded.Base.Users.UserSummary.Id')

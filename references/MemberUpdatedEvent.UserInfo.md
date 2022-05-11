@@ -11,7 +11,7 @@ Gets the properties that have been updated in the member."
 ---
 
 ## MemberUpdatedEvent.UserInfo Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
 
 Gets the properties that have been updated in the member.
 
@@ -21,8 +21,13 @@ public Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate UserInfo { get; }
 
 ### Remarks
   
-As of now, this only means [Nickname](MemberUpdatedEvent.MemberUpdate.Nickname.md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname') has been updated.
+As of now, this only means [Nickname](MemberUpdatedEvent.MemberUpdate.Nickname 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname') has been updated.
 
 #### Property Value
-[MemberUpdate](MemberUpdatedEvent.MemberUpdate.md 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')  
+[MemberUpdate](MemberUpdatedEvent.MemberUpdate 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')  
 Member info
+
+### See Also
+- [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
+- [UserId](MemberUpdatedEvent.UserId 'Guilded.Base.Events.MemberUpdatedEvent.UserId')
+- [ServerId](MemberUpdatedEvent.ServerId 'Guilded.Base.Events.MemberUpdatedEvent.ServerId')

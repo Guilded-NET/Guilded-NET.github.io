@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [footer](Embed.Embed(string,Uri,string,EmbedFooter,DateTime).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).footer 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).footer') and a [title](Embed.Embed(string,Uri,string,EmbedFooter,DateTime).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).title 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).title')."
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with a [footer](Embed.Embed(string,Uri,string,EmbedFooter,DateTime)#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).footer 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).footer') and a [title](Embed.Embed(string,Uri,string,EmbedFooter,DateTime)#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).title 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).title')."
 ---
 
 ## Embed(string, Uri, string, EmbedFooter, DateTime) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with a [footer](Embed.Embed(string,Uri,string,EmbedFooter,DateTime).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).footer 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).footer') and a [title](Embed.Embed(string,Uri,string,EmbedFooter,DateTime).md#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).title 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).title').
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with a [footer](Embed.Embed(string,Uri,string,EmbedFooter,DateTime)#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).footer 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).footer') and a [title](Embed.Embed(string,Uri,string,EmbedFooter,DateTime)#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).title 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).title').
 
 ```csharp
 public Embed(string title, Uri url, string description, Guilded.Base.Embeds.EmbedFooter footer, System.DateTime timestamp);
@@ -24,7 +24,7 @@ public Embed(string title, Uri url, string description, Guilded.Base.Embeds.Embe
 
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The title of the embed
+The title of [an embed](Embed 'Guilded.Base.Embeds.Embed')
 
 <a name='Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).url'></a>
 
@@ -34,13 +34,13 @@ The title of the embed
 
 `description` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The description text of the embed
+The description text of [an embed](Embed 'Guilded.Base.Embeds.Embed')
 
 <a name='Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).footer'></a>
 
-`footer` [EmbedFooter](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter')
+`footer` [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
 
-The footer of the embed
+The footer of [an embed](Embed 'Guilded.Base.Embeds.Embed')
 
 <a name='Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).timestamp'></a>
 

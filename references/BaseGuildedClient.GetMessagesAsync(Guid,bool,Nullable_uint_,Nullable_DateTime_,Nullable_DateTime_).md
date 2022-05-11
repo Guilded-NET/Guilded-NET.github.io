@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets a set of messages from a [channel](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_).md#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel')."
+Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the [channel](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel')."
 ---
 
 ## BaseGuildedClient.GetMessagesAsync(Guid, bool, Nullable<uint>, Nullable<DateTime>, Nullable<DateTime>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Gets a set of messages from a [channel](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_).md#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel').
+Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the [channel](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel').
 
 ```csharp
 public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Guilded.Base.Content.Message>> GetMessagesAsync(Guid channel, bool includePrivate=false, System.Nullable<uint> limit=null, System.Nullable<System.DateTime> before=null, System.Nullable<System.DateTime> after=null);
@@ -21,14 +21,14 @@ public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 ### Remarks
   
-By default, private messages will not be fetched. However, if private messages need to be included, [includePrivate](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_).md#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).includePrivate 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).includePrivate') parameter can be set as [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool').
+By default, private [messages](Message 'Guilded.Base.Content.Message') will not be fetched. However, if private [messages](Message 'Guilded.Base.Content.Message') need to be included, [includePrivate](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).includePrivate 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).includePrivate') parameter can be set as [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool').
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel'></a>
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the parent channel
+The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).includePrivate'></a>
 
@@ -40,7 +40,7 @@ Whether to get private replies or not
 
 `limit` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The limit of how many messages to get (default — `50`, values — `(0, 100]`)
+The limit of how many messages to get (default — `50`, min — `1`, max — `100`)
 
 <a name='Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).before'></a>
 
@@ -56,14 +56,14 @@ The min limit of the creation date of fetched messages
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Message](Message.md 'Guilded.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-List of messages
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Message](Message 'Guilded.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+List of [messages](Message 'Guilded.Base.Content.Message')

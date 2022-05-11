@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [WebhookEvent](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent') from the specified JSON properties."
+Initializes a new instance of [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent') from the specified JSON properties."
 ---
 
 ## WebhookEvent(HashId, Webhook) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
-Initializes a new instance of [WebhookEvent](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent') from the specified JSON properties.
+Initializes a new instance of [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent') from the specified JSON properties.
 
 ```csharp
 public WebhookEvent(Guilded.Base.HashId serverId, Guilded.Base.Servers.Webhook webhook);
@@ -22,12 +22,15 @@ public WebhookEvent(Guilded.Base.HashId serverId, Guilded.Base.Servers.Webhook w
 
 <a name='Guilded.Base.Events.WebhookEvent.WebhookEvent(Guilded.Base.HashId,Guilded.Base.Servers.Webhook).serverId'></a>
 
-`serverId` [HashId](HashId.md 'Guilded.Base.HashId')
+`serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the webhook got created/updated
+The identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') got created/updated
 
 <a name='Guilded.Base.Events.WebhookEvent.WebhookEvent(Guilded.Base.HashId,Guilded.Base.Servers.Webhook).webhook'></a>
 
-`webhook` [Webhook](Webhook.md 'Guilded.Base.Servers.Webhook')
+`webhook` [Webhook](Webhook 'Guilded.Base.Servers.Webhook')
 
-The webhook that got created or updated
+[The webhook](Webhook 'Guilded.Base.Servers.Webhook') that got created or updated
+
+### See Also
+- [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent')

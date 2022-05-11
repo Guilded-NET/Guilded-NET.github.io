@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Represents an event with the name `ChatMessageCreated` or `ChatMessageUpdated` and opcode `0` that occurs once someone posts or edits a [message](MessageEvent_T_.Message.md 'Guilded.Base.Events.MessageEvent`1.Message') in [a channel](MessageEvent.ChannelId.md 'Guilded.Base.Events.MessageEvent.ChannelId')."
+Represents an event with the name `ChatMessageCreated` or `ChatMessageUpdated` and opcode `0` that occurs once someone posts or edits a [message](MessageEvent_T_.Message 'Guilded.Base.Events.MessageEvent`1.Message') in [a channel](MessageEvent.ChannelId 'Guilded.Base.Events.MessageEvent.ChannelId')."
 ---
 
 ## AbstractGuildedClient.MessageUpdated Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Represents an event with the name `ChatMessageCreated` or `ChatMessageUpdated` and opcode `0` that occurs once someone posts or edits a [message](MessageEvent_T_.Message.md 'Guilded.Base.Events.MessageEvent`1.Message') in [a channel](MessageEvent.ChannelId.md 'Guilded.Base.Events.MessageEvent.ChannelId').
+Represents an event with the name `ChatMessageCreated` or `ChatMessageUpdated` and opcode `0` that occurs once someone posts or edits a [message](MessageEvent_T_.Message 'Guilded.Base.Events.MessageEvent`1.Message') in [a channel](MessageEvent.ChannelId 'Guilded.Base.Events.MessageEvent.ChannelId').
 
 ```csharp
 public IObservable<Guilded.Base.Events.MessageEvent> MessageUpdated { get; }
@@ -23,5 +23,5 @@ public IObservable<Guilded.Base.Events.MessageEvent> MessageUpdated { get; }
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [MessageDeletedEvent](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent')
-- [Message](Message.md 'Guilded.Base.Content.Message')
+- [MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
+- [Message](Message 'Guilded.Base.Content.Message')

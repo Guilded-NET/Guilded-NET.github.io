@@ -11,7 +11,7 @@ Gets the response that was received from Guilded API."
 ---
 
 ## GuildedException.Response Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
 Gets the response that was received from Guilded API.
 

@@ -7,18 +7,18 @@ tags:
   - method
 description: "
 
-Sets the [timestamp](Embed.Timestamp.md 'Guilded.Base.Embeds.Embed.Timestamp') as the [current UTC time](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime.UtcNow 'System.DateTime.UtcNow')."
+Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as the [current UTC time](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime.UtcNow 'System.DateTime.UtcNow')."
 ---
 
 ## Embed.SetTimestamp() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Sets the [timestamp](Embed.Timestamp.md 'Guilded.Base.Embeds.Embed.Timestamp') as the [current UTC time](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime.UtcNow 'System.DateTime.UtcNow').
+Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as the [current UTC time](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime.UtcNow 'System.DateTime.UtcNow').
 
 ```csharp
 public Guilded.Base.Embeds.Embed SetTimestamp();
 ```
 
 #### Returns
-[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
-Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance
+[Embed](Embed 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed 'Guilded.Base.Embeds.Embed') instance

@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Represents an event with the name `TeamMemberJoined` and opcode `0` that occurs once [member](MemberJoinedEvent.Member.md 'Guilded.Base.Events.MemberJoinedEvent.Member') joins a [server](MemberJoinedEvent.ServerId.md 'Guilded.Base.Events.MemberJoinedEvent.ServerId')."
+Represents an event with the name `TeamMemberJoined` and opcode `0` that occurs once [member](MemberJoinedEvent.Member 'Guilded.Base.Events.MemberJoinedEvent.Member') joins a [server](MemberJoinedEvent.ServerId 'Guilded.Base.Events.MemberJoinedEvent.ServerId')."
 ---
 
 ## AbstractGuildedClient.MemberJoined Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Represents an event with the name `TeamMemberJoined` and opcode `0` that occurs once [member](MemberJoinedEvent.Member.md 'Guilded.Base.Events.MemberJoinedEvent.Member') joins a [server](MemberJoinedEvent.ServerId.md 'Guilded.Base.Events.MemberJoinedEvent.ServerId').
+Represents an event with the name `TeamMemberJoined` and opcode `0` that occurs once [member](MemberJoinedEvent.Member 'Guilded.Base.Events.MemberJoinedEvent.Member') joins a [server](MemberJoinedEvent.ServerId 'Guilded.Base.Events.MemberJoinedEvent.ServerId').
 
 ```csharp
 public IObservable<Guilded.Base.Events.MemberJoinedEvent> MemberJoined { get; }
@@ -23,8 +23,8 @@ public IObservable<Guilded.Base.Events.MemberJoinedEvent> MemberJoined { get; }
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [RolesUpdatedEvent](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')
-- [XpAddedEvent](XpAddedEvent.md 'Guilded.Base.Events.XpAddedEvent')
-- [MemberUpdatedEvent](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')
-- [WebhookEvent](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
-- [Member](Member.md 'Guilded.Base.Servers.Member')
+- [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
+- [XpAddedEvent](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
+- [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
+- [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
+- [Member](Member 'Guilded.Base.Servers.Member')

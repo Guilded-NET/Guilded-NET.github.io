@@ -7,18 +7,23 @@ tags:
   - property
 description: "
 
-The identifier of the server where the [member](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated."
+The identifier of the server where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated."
 ---
 
 ## MemberUpdatedEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
 
-The identifier of the server where the [member](MemberUpdatedEvent.UserInfo.md 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated.
+The identifier of the server where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated.
 
 ```csharp
 public Guilded.Base.HashId ServerId { get; }
 ```
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
+[HashId](HashId 'Guilded.Base.HashId')  
 Server ID
+
+### See Also
+- [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
+- [UserId](MemberUpdatedEvent.UserId 'Guilded.Base.Events.MemberUpdatedEvent.UserId')
+- [UserInfo](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo')

@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that created the content."
+Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')."
 ---
 
 ## ChannelContent<TId,TServer>.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_.md 'Guilded.Base.Content.ChannelContent<TId,TServer>')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
 
-Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that created the content.
+Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
 
 ```csharp
 public Guilded.Base.HashId CreatedBy { get; }
@@ -24,5 +24,10 @@ public Guilded.Base.HashId CreatedBy { get; }
 If webhook or bot created this reaction, the value of this property will be `Ann6LewA`.
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
-User ID
+[HashId](HashId 'Guilded.Base.HashId')  
+[User ID](UserSummary.Id 'Guilded.Base.Users.UserSummary.Id')
+
+### See Also
+- [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
+- [CreatedAt](ChannelContent_TId,TServer_.CreatedAt 'Guilded.Base.Content.ChannelContent<TId,TServer>.CreatedAt')
+- [UpdatedAt](IUpdatableContent.UpdatedAt 'Guilded.Base.Content.IUpdatableContent.UpdatedAt')

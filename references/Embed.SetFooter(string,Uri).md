@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Sets the [footer](Embed.Footer.md 'Guilded.Base.Embeds.Embed.Footer') as the given value."
+Sets the [footer](Embed.Footer 'Guilded.Base.Embeds.Embed.Footer') as the given value."
 ---
 
 ## Embed.SetFooter(string, Uri) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Sets the [footer](Embed.Footer.md 'Guilded.Base.Embeds.Embed.Footer') as the given value.
+Sets the [footer](Embed.Footer 'Guilded.Base.Embeds.Embed.Footer') as the given value.
 
 ```csharp
 public Guilded.Base.Embeds.Embed SetFooter(string text, Uri? icon=null);
@@ -29,5 +29,5 @@ public Guilded.Base.Embeds.Embed SetFooter(string text, Uri? icon=null);
 `icon` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
 #### Returns
-[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
-Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance
+[Embed](Embed 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed 'Guilded.Base.Embeds.Embed') instance

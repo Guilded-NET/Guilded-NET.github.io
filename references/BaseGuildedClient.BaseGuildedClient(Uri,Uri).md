@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Creates default settings for [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')'s child types."
+Creates default settings for [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')'s child types."
 ---
 
 ## BaseGuildedClient(Uri, Uri) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Creates default settings for [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')'s child types.
+Creates default settings for [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')'s child types.
 
 ```csharp
 protected BaseGuildedClient(Uri apiUrl, Uri websocketUrl);

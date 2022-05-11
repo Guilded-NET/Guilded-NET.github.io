@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Whether the type can be converted to [HashId](HashId.md 'Guilded.Base.HashId')."
+Whether the type can be converted to [HashId](HashId 'Guilded.Base.HashId')."
 ---
 
 ## HashIdConverter.CanConvertFrom(ITypeDescriptorContext, Type) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter.md 'Guilded.Base.HashIdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter 'Guilded.Base.HashIdConverter')
 
-Whether the type can be converted to [HashId](HashId.md 'Guilded.Base.HashId').
+Whether the type can be converted to [HashId](HashId 'Guilded.Base.HashId').
 
 ```csharp
 public override bool CanConvertFrom(ITypeDescriptorContext? context, System.Type sourceType);

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gives [amount](UserSummary.AddXpAsync(HashId,short).md#Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId,short).amount 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short).amount') to the specified member."
+Gives [amount](UserSummary.AddXpAsync(HashId,short)#Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId,short).amount 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short).amount') to the specified member."
 ---
 
 ## UserSummary.AddXpAsync(HashId, short) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary.md 'Guilded.Base.Users.UserSummary')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
-Gives [amount](UserSummary.AddXpAsync(HashId,short).md#Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId,short).amount 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short).amount') to the specified member.
+Gives [amount](UserSummary.AddXpAsync(HashId,short)#Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId,short).amount 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short).amount') to the specified member.
 
 ```csharp
 public System.Threading.Tasks.Task<long> AddXpAsync(Guilded.Base.HashId server, short amount);
@@ -22,9 +22,9 @@ public System.Threading.Tasks.Task<long> AddXpAsync(Guilded.Base.HashId server, 
 
 <a name='Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId,short).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to modify member in
+The server to modify [member](Member 'Guilded.Base.Servers.Member') in
 
 <a name='Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId,short).amount'></a>
 
@@ -34,13 +34,13 @@ The amount of XP received (values — `[-1000, 1000]`)
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 [System.ArgumentOutOfRangeException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentOutOfRangeException 'System.ArgumentOutOfRangeException')  
 When the amount of XP given exceeds the limit

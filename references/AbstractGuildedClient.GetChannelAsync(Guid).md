@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets the [channel](AbstractGuildedClient.GetChannelAsync(Guid).md#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel')."
+Gets the [channel](AbstractGuildedClient.GetChannelAsync(Guid)#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel')."
 ---
 
 ## AbstractGuildedClient.GetChannelAsync(Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets the [channel](AbstractGuildedClient.GetChannelAsync(Guid).md#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel').
+Gets the [channel](AbstractGuildedClient.GetChannelAsync(Guid)#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> GetChannelAsync(Guid channel);
@@ -24,20 +24,20 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> 
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel') to get
+The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to get
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Guilded.Base.Servers.ServerChannel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-[channel](AbstractGuildedClient.GetChannelAsync(Guid).md#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel')
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[channel](AbstractGuildedClient.GetChannelAsync(Guid)#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel')

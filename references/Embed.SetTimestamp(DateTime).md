@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Sets the [timestamp](Embed.Timestamp.md 'Guilded.Base.Embeds.Embed.Timestamp') as the given [value](Embed.SetTimestamp(DateTime).md#Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value')."
+Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as the given [value](Embed.SetTimestamp(DateTime)#Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value')."
 ---
 
 ## Embed.SetTimestamp(DateTime) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Sets the [timestamp](Embed.Timestamp.md 'Guilded.Base.Embeds.Embed.Timestamp') as the given [value](Embed.SetTimestamp(DateTime).md#Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value').
+Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as the given [value](Embed.SetTimestamp(DateTime)#Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value').
 
 ```csharp
 public Guilded.Base.Embeds.Embed SetTimestamp(System.DateTime value);
@@ -24,8 +24,8 @@ public Guilded.Base.Embeds.Embed SetTimestamp(System.DateTime value);
 
 `value` [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
 
-The timestamp of the [embed](Embed.md 'Guilded.Base.Embeds.Embed')
+The timestamp of the [embed](Embed 'Guilded.Base.Embeds.Embed')
 
 #### Returns
-[Embed](Embed.md 'Guilded.Base.Embeds.Embed')  
-Current [Embed](Embed.md 'Guilded.Base.Embeds.Embed') instance
+[Embed](Embed 'Guilded.Base.Embeds.Embed')  
+Current [Embed](Embed 'Guilded.Base.Embeds.Embed') instance

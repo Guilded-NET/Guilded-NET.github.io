@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the date of when the [user](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User') was banned"
+Gets the date when the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') was banned"
 ---
 
 ## MemberBanEvent.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent.md 'Guilded.Base.Events.MemberBanEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
 
-Gets the date of when the [user](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User') was banned
+Gets the date when the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') was banned
 
 ```csharp
 public System.DateTime CreatedAt { get; }

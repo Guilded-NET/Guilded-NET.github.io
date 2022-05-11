@@ -11,7 +11,7 @@ A serializer to (de)serialize for JSON from Guilded API."
 ---
 
 ## BaseGuildedClient.GuildedSerializer Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 A serializer to (de)serialize for JSON from Guilded API.
 
@@ -21,4 +21,4 @@ public Newtonsoft.Json.JsonSerializer GuildedSerializer { get; set; }
 
 #### Property Value
 [Newtonsoft.Json.JsonSerializer](https://docs.microsoft.com/en-us/dotnet/api/Newtonsoft.Json.JsonSerializer 'Newtonsoft.Json.JsonSerializer')  
-Serializer from [SerializerSettings](BaseGuildedClient.SerializerSettings.md 'Guilded.Base.BaseGuildedClient.SerializerSettings')
+Serializer from [SerializerSettings](BaseGuildedClient.SerializerSettings 'Guilded.Base.BaseGuildedClient.SerializerSettings')

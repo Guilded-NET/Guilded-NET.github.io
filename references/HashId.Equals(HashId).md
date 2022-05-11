@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Returns whether this [HashId](HashId.md 'Guilded.Base.HashId') instance and [other](HashId.Equals(HashId).md#Guilded.Base.HashId.Equals(Guilded.Base.HashId).other 'Guilded.Base.HashId.Equals(Guilded.Base.HashId).other') are equal."
+Returns whether this [HashId](HashId 'Guilded.Base.HashId') instance and [other](HashId.Equals(HashId)#Guilded.Base.HashId.Equals(Guilded.Base.HashId).other 'Guilded.Base.HashId.Equals(Guilded.Base.HashId).other') are equal."
 ---
 
 ## HashId.Equals(HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.Base.HashId')
 
-Returns whether this [HashId](HashId.md 'Guilded.Base.HashId') instance and [other](HashId.Equals(HashId).md#Guilded.Base.HashId.Equals(Guilded.Base.HashId).other 'Guilded.Base.HashId.Equals(Guilded.Base.HashId).other') are equal.
+Returns whether this [HashId](HashId 'Guilded.Base.HashId') instance and [other](HashId.Equals(HashId)#Guilded.Base.HashId.Equals(Guilded.Base.HashId).other 'Guilded.Base.HashId.Equals(Guilded.Base.HashId).other') are equal.
 
 ```csharp
 public bool Equals(Guilded.Base.HashId other);
@@ -22,7 +22,7 @@ public bool Equals(Guilded.Base.HashId other);
 
 <a name='Guilded.Base.HashId.Equals(Guilded.Base.HashId).other'></a>
 
-`other` [HashId](HashId.md 'Guilded.Base.HashId')
+`other` [HashId](HashId 'Guilded.Base.HashId')
 
 Another identifier to compare
 

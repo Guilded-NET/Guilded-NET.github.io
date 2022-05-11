@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets whether the user has been banned."
+Gets whether [the user](User 'Guilded.Base.Users.User') has been banned."
 ---
 
 ## MemberRemovedEvent.IsBan Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent.md 'Guilded.Base.Events.MemberRemovedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
-Gets whether the user has been banned.
+Gets whether [the user](User 'Guilded.Base.Users.User') has been banned.
 
 ```csharp
 public bool IsBan { get; }
@@ -22,3 +22,9 @@ public bool IsBan { get; }
 #### Property Value
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
 User was banned
+
+### See Also
+- [MemberRemovedEvent](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
+- [UserId](MemberRemovedEvent.UserId 'Guilded.Base.Events.MemberRemovedEvent.UserId')
+- [IsKick](MemberRemovedEvent.IsKick 'Guilded.Base.Events.MemberRemovedEvent.IsKick')
+- [ServerId](MemberRemovedEvent.ServerId 'Guilded.Base.Events.MemberRemovedEvent.ServerId')

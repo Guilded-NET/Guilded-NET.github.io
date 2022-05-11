@@ -7,22 +7,28 @@ tags:
   - interface
 description: "
 
-Represents the content that can be reacted on."
+Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that can be [reacted](Reaction 'Guilded.Base.Content.Reaction') on."
 ---
 
 ## IReactibleContent Interface
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content.md 'Guilded.Base.Content')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
-Represents the content that can be reacted on.
+Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that can be [reacted](Reaction 'Guilded.Base.Content.Reaction') on.
 
 ```csharp
 public interface IReactibleContent
 ```
 
 Derived  
-&#8627; [Message](Message.md 'Guilded.Base.Content.Message')  
-&#8627; [TitledContent](TitledContent.md 'Guilded.Base.Content.TitledContent')
+&#8627; [Message](Message 'Guilded.Base.Content.Message')  
+&#8627; [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')
 
 | Methods | |
 | :--- | :--- |
-| [AddReactionAsync(uint)](IReactibleContent.AddReactionAsync(uint).md 'Guilded.Base.Content.IReactibleContent.AddReactionAsync(uint)') | Adds a emote to the content in a channel. |
+| [AddReactionAsync(uint)](IReactibleContent.AddReactionAsync(uint) 'Guilded.Base.Content.IReactibleContent.AddReactionAsync(uint)') | Adds emote to the content. |
+
+### See Also
+- [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
+- [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+- [IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent')
+- [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable')

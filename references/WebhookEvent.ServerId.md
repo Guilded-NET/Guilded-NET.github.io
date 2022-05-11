@@ -7,18 +7,23 @@ tags:
   - property
 description: "
 
-Gets the identifier of the server where the webhook has been created/updated."
+Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') has been created/updated."
 ---
 
 ## WebhookEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
-Gets the identifier of the server where the webhook has been created/updated.
+Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') has been created/updated.
 
 ```csharp
 public Guilded.Base.HashId ServerId { get; }
 ```
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
+[HashId](HashId 'Guilded.Base.HashId')  
 Server ID
+
+### See Also
+- [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
+- [ChannelId](WebhookEvent.ChannelId 'Guilded.Base.Events.WebhookEvent.ChannelId')
+- [Webhook](WebhookEvent.Webhook 'Guilded.Base.Events.WebhookEvent.Webhook')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Converts string to [HashId](HashId.md 'Guilded.Base.HashId')."
+Converts string to [HashId](HashId 'Guilded.Base.HashId')."
 ---
 
 ## HashIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter.md 'Guilded.Base.HashIdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter 'Guilded.Base.HashIdConverter')
 
-Converts string to [HashId](HashId.md 'Guilded.Base.HashId').
+Converts string to [HashId](HashId 'Guilded.Base.HashId').
 
 ```csharp
 public override object ConvertFrom(ITypeDescriptorContext? context, CultureInfo? culture, object value);
@@ -40,4 +40,4 @@ The string to convert
 
 #### Returns
 [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
-[HashId](HashId.md 'Guilded.Base.HashId') from string
+[HashId](HashId 'Guilded.Base.HashId') from string

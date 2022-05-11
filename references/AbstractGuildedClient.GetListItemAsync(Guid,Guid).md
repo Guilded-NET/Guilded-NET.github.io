@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets the [listItem](AbstractGuildedClient.GetListItemAsync(Guid,Guid).md#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).listItem') from a [channel](AbstractGuildedClient.GetListItemAsync(Guid,Guid).md#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).channel 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).channel')."
+Gets the [listItem](AbstractGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).listItem') from a [channel](AbstractGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).channel 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).channel')."
 ---
 
 ## AbstractGuildedClient.GetListItemAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets the [listItem](AbstractGuildedClient.GetListItemAsync(Guid,Guid).md#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).listItem') from a [channel](AbstractGuildedClient.GetListItemAsync(Guid,Guid).md#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).channel 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).channel').
+Gets the [listItem](AbstractGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).listItem') from a [channel](AbstractGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).channel 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Content.ListItem> GetListItemAsync(Guid channel, Guid listItem);
@@ -24,24 +24,24 @@ public override System.Threading.Tasks.Task<Guilded.Base.Content.ListItem> GetLi
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).listItem'></a>
 
 `listItem` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the list item](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Content.ListItem 'Guilded.Base.Content.ListItem') to get
+The identifier of [the list item](ListItem 'Guilded.Base.Content.ListItem') to get
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Guilded.Base.Content.ListItem](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Content.ListItem 'Guilded.Base.Content.ListItem')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-[listItem](AbstractGuildedClient.GetListItemAsync(Guid,Guid).md#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).listItem')
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[ListItem](ListItem 'Guilded.Base.Content.ListItem')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[listItem](AbstractGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.GetListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.GetListItemAsync(Guid, Guid).listItem')

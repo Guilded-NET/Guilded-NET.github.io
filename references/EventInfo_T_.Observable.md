@@ -11,7 +11,7 @@ Gets the observable event that can be used to subscribe to the event."
 ---
 
 ## EventInfo<T>.Observable Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_.md 'Guilded.EventInfo<T>')
+###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
 
 Gets the observable event that can be used to subscribe to the event.
 
@@ -21,4 +21,4 @@ public IObservable<T> Observable { get; }
 
 #### Property Value
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')  
-[Subject](EventInfo_T_.Subject.md 'Guilded.EventInfo<T>.Subject') as observable
+[Subject](EventInfo_T_.Subject 'Guilded.EventInfo<T>.Subject') as observable

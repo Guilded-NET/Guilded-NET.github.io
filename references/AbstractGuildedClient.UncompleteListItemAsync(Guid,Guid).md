@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).md#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Content.ListItemBase-1.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted')."
+Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted')."
 ---
 
 ## AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).md#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Content.ListItemBase-1.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted').
+Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted').
 
 ```csharp
 public override System.Threading.Tasks.Task UncompleteListItemAsync(Guid channel, Guid listItem);
@@ -24,23 +24,23 @@ public override System.Threading.Tasks.Task UncompleteListItemAsync(Guid channel
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel') where the list item is
+The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where the list item is
 
 <a name='Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem'></a>
 
 `listItem` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the list item](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Content.ListItem 'Guilded.Base.Content.ListItem') to complete
+The identifier of [the list item](ListItem 'Guilded.Base.Content.ListItem') to complete
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Returns whether this [FormId](FormId.md 'Guilded.Base.FormId') instance and [other](FormId.Equals(FormId).md#Guilded.Base.FormId.Equals(Guilded.Base.FormId).other 'Guilded.Base.FormId.Equals(Guilded.Base.FormId).other') are equal."
+Returns whether this [FormId](FormId 'Guilded.Base.FormId') instance and [other](FormId.Equals(FormId)#Guilded.Base.FormId.Equals(Guilded.Base.FormId).other 'Guilded.Base.FormId.Equals(Guilded.Base.FormId).other') are equal."
 ---
 
 ## FormId.Equals(FormId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId.md 'Guilded.Base.FormId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.Base.FormId')
 
-Returns whether this [FormId](FormId.md 'Guilded.Base.FormId') instance and [other](FormId.Equals(FormId).md#Guilded.Base.FormId.Equals(Guilded.Base.FormId).other 'Guilded.Base.FormId.Equals(Guilded.Base.FormId).other') are equal.
+Returns whether this [FormId](FormId 'Guilded.Base.FormId') instance and [other](FormId.Equals(FormId)#Guilded.Base.FormId.Equals(Guilded.Base.FormId).other 'Guilded.Base.FormId.Equals(Guilded.Base.FormId).other') are equal.
 
 ```csharp
 public bool Equals(Guilded.Base.FormId other);
@@ -22,7 +22,7 @@ public bool Equals(Guilded.Base.FormId other);
 
 <a name='Guilded.Base.FormId.Equals(Guilded.Base.FormId).other'></a>
 
-`other` [FormId](FormId.md 'Guilded.Base.FormId')
+`other` [FormId](FormId 'Guilded.Base.FormId')
 
 Another identifier to compare
 

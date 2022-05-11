@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Converts string to [FormId](FormId.md 'Guilded.Base.FormId')."
+Converts string to [FormId](FormId 'Guilded.Base.FormId')."
 ---
 
 ## FormIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormIdConverter`](FormIdConverter.md 'Guilded.Base.FormIdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormIdConverter`](FormIdConverter 'Guilded.Base.FormIdConverter')
 
-Converts string to [FormId](FormId.md 'Guilded.Base.FormId').
+Converts string to [FormId](FormId 'Guilded.Base.FormId').
 
 ```csharp
 public override object ConvertFrom(ITypeDescriptorContext? context, CultureInfo? culture, object value);
@@ -40,4 +40,4 @@ The string to convert
 
 #### Returns
 [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
-[FormId](FormId.md 'Guilded.Base.FormId') from string
+[FormId](FormId 'Guilded.Base.FormId') from string

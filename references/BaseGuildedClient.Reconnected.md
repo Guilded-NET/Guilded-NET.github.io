@@ -11,7 +11,7 @@ An event when client gets reconnected."
 ---
 
 ## BaseGuildedClient.Reconnected Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 An event when client gets reconnected.
 
@@ -27,5 +27,5 @@ An event that occurs once Guilded client reconnects to Guilded.
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [Disconnected](BaseGuildedClient.Disconnected.md 'Guilded.Base.BaseGuildedClient.Disconnected')
-- [Connected](BaseGuildedClient.Connected.md 'Guilded.Base.BaseGuildedClient.Connected')
+- [Disconnected](BaseGuildedClient.Disconnected 'Guilded.Base.BaseGuildedClient.Disconnected')
+- [Connected](BaseGuildedClient.Connected 'Guilded.Base.BaseGuildedClient.Connected')

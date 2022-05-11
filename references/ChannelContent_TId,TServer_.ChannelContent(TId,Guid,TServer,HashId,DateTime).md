@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_.md 'Guilded.Base.Content.ChannelContent<TId,TServer>') from the specified JSON properties."
+Initializes a new instance of [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') from the specified JSON properties."
 ---
 
 ## ChannelContent(TId, Guid, TServer, HashId, DateTime) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_.md 'Guilded.Base.Content.ChannelContent<TId,TServer>')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
 
-Initializes a new instance of [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_.md 'Guilded.Base.Content.ChannelContent<TId,TServer>') from the specified JSON properties.
+Initializes a new instance of [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') from the specified JSON properties.
 
 ```csharp
 protected ChannelContent(TId id, Guid channelId, TServer serverId, Guilded.Base.HashId createdBy, System.DateTime createdAt);
@@ -22,30 +22,33 @@ protected ChannelContent(TId id, Guid channelId, TServer serverId, Guilded.Base.
 
 <a name='Guilded.Base.Content.ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,Guilded.Base.HashId,System.DateTime).id'></a>
 
-`id` [TId](ChannelContent_TId,TServer_.md#Guilded.Base.Content.ChannelContent_TId,TServer_.TId 'Guilded.Base.Content.ChannelContent<TId,TServer>.TId')
+`id` [TId](ChannelContent_TId,TServer_#Guilded.Base.Content.ChannelContent_TId,TServer_.TId 'Guilded.Base.Content.ChannelContent<TId,TServer>.TId')
 
-The identifier of the content
+The identifier of [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
 
 <a name='Guilded.Base.Content.ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,Guilded.Base.HashId,System.DateTime).channelId'></a>
 
 `channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the channel where the content is
+The identifier of the channel where [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') is
 
 <a name='Guilded.Base.Content.ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,Guilded.Base.HashId,System.DateTime).serverId'></a>
 
-`serverId` [TServer](ChannelContent_TId,TServer_.md#Guilded.Base.Content.ChannelContent_TId,TServer_.TServer 'Guilded.Base.Content.ChannelContent<TId,TServer>.TServer')
+`serverId` [TServer](ChannelContent_TId,TServer_#Guilded.Base.Content.ChannelContent_TId,TServer_.TServer 'Guilded.Base.Content.ChannelContent<TId,TServer>.TServer')
 
-The identifier of the server where the content is
+The identifier of the server where [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') is
 
 <a name='Guilded.Base.Content.ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,Guilded.Base.HashId,System.DateTime).createdBy'></a>
 
-`createdBy` [HashId](HashId.md 'Guilded.Base.HashId')
+`createdBy` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [user](User.md 'Guilded.Base.Users.User') creator of the content
+The identifier of [user](User 'Guilded.Base.Users.User') creator of [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
 
 <a name='Guilded.Base.Content.ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,Guilded.Base.HashId,System.DateTime).createdAt'></a>
 
 `createdAt` [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
 
-The date of when the content was created
+the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') was created
+
+### See Also
+- [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')

@@ -11,7 +11,7 @@ Connects to Guilded bot using parameter as an auth."
 ---
 
 ## GuildedBotClient.ConnectAsync(string) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient.md 'Guilded.GuildedBotClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
 
 Connects to Guilded bot using parameter as an auth.
 
@@ -21,9 +21,9 @@ public System.Threading.Tasks.Task ConnectAsync(string auth);
 
 ### Remarks
   
-Creates a new connection to Guilded using argument [auth](GuildedBotClient.ConnectAsync(string).md#Guilded.GuildedBotClient.ConnectAsync(string).auth 'Guilded.GuildedBotClient.ConnectAsync(string).auth'). This does not use [AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken').  
+Creates a new connection to Guilded using argument [auth](GuildedBotClient.ConnectAsync(string)#Guilded.GuildedBotClient.ConnectAsync(string).auth 'Guilded.GuildedBotClient.ConnectAsync(string).auth'). This does not use [AuthToken](GuildedBotClient.AuthToken 'Guilded.GuildedBotClient.AuthToken').  
   
-To disconnect from Guilded, use [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync().md 'Guilded.AbstractGuildedClient.DisconnectAsync()')
+To disconnect from Guilded, use [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.AbstractGuildedClient.DisconnectAsync()')
 #### Parameters
 
 <a name='Guilded.GuildedBotClient.ConnectAsync(string).auth'></a>
@@ -35,12 +35,12 @@ The token to be used for authorization
 #### Exceptions
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When passed argument [auth](GuildedBotClient.ConnectAsync(string).md#Guilded.GuildedBotClient.ConnectAsync(string).auth 'Guilded.GuildedBotClient.ConnectAsync(string).auth') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
+When passed argument [auth](GuildedBotClient.ConnectAsync(string)#Guilded.GuildedBotClient.ConnectAsync(string).auth 'Guilded.GuildedBotClient.ConnectAsync(string).auth') is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null'), empty or whitespace
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')
 
 ### See Also
-- [ConnectAsync()](GuildedBotClient.ConnectAsync().md 'Guilded.GuildedBotClient.ConnectAsync()')
-- [GuildedBotClient()](GuildedBotClient.GuildedBotClient().md 'Guilded.GuildedBotClient.GuildedBotClient()')
-- [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync().md 'Guilded.AbstractGuildedClient.DisconnectAsync()')
+- [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()')
+- [GuildedBotClient()](GuildedBotClient.GuildedBotClient() 'Guilded.GuildedBotClient.GuildedBotClient()')
+- [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.AbstractGuildedClient.DisconnectAsync()')

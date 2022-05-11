@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Returns the string representation of this [FormId](FormId.md 'Guilded.Base.FormId') instance."
+Returns the string representation of this [FormId](FormId 'Guilded.Base.FormId') instance."
 ---
 
 ## FormId.ToString() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId.md 'Guilded.Base.FormId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.Base.FormId')
 
-Returns the string representation of this [FormId](FormId.md 'Guilded.Base.FormId') instance.
+Returns the string representation of this [FormId](FormId 'Guilded.Base.FormId') instance.
 
 ```csharp
 public override string ToString();
@@ -21,4 +21,4 @@ public override string ToString();
 
 #### Returns
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-[FormId](FormId.md 'Guilded.Base.FormId') as string
+[FormId](FormId 'Guilded.Base.FormId') as string

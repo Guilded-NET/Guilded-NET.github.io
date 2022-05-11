@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Returns whether [str](HashId.Check(string).md#Guilded.Base.HashId.Check(string).str 'Guilded.Base.HashId.Check(string).str') is in the correct [HashId](HashId.md 'Guilded.Base.HashId') format."
+Returns whether [str](HashId.Check(string)#Guilded.Base.HashId.Check(string).str 'Guilded.Base.HashId.Check(string).str') is in the correct [HashId](HashId 'Guilded.Base.HashId') format."
 ---
 
 ## HashId.Check(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId.md 'Guilded.Base.HashId')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.Base.HashId')
 
-Returns whether [str](HashId.Check(string).md#Guilded.Base.HashId.Check(string).str 'Guilded.Base.HashId.Check(string).str') is in the correct [HashId](HashId.md 'Guilded.Base.HashId') format.
+Returns whether [str](HashId.Check(string)#Guilded.Base.HashId.Check(string).str 'Guilded.Base.HashId.Check(string).str') is in the correct [HashId](HashId 'Guilded.Base.HashId') format.
 
 ```csharp
 public static bool Check(string? str);

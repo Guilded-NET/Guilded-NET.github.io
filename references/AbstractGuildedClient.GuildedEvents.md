@@ -11,7 +11,7 @@ Gets the dictionary of Guilded events, their names and other event information."
 ---
 
 ## AbstractGuildedClient.GuildedEvents Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets the dictionary of Guilded events, their names and other event information.
 
@@ -28,11 +28,11 @@ You can add more events to this dictionary if Guilded.NET does not support certa
 Dictionary of events
 
 ### See Also
-- [Welcome](AbstractGuildedClient.Welcome.md 'Guilded.AbstractGuildedClient.Welcome')
-- [Resume](AbstractGuildedClient.Resume.md 'Guilded.AbstractGuildedClient.Resume')
-- [MessageCreated](AbstractGuildedClient.MessageCreated.md 'Guilded.AbstractGuildedClient.MessageCreated')
-- [WebhookCreated](AbstractGuildedClient.WebhookCreated.md 'Guilded.AbstractGuildedClient.WebhookCreated')
-- [MemberJoined](AbstractGuildedClient.MemberJoined.md 'Guilded.AbstractGuildedClient.MemberJoined')
-- [ChannelCreated](AbstractGuildedClient.ChannelCreated.md 'Guilded.AbstractGuildedClient.ChannelCreated')
-- [ListItemCreated](AbstractGuildedClient.ListItemCreated.md 'Guilded.AbstractGuildedClient.ListItemCreated')
-- [DocCreated](AbstractGuildedClient.DocCreated.md 'Guilded.AbstractGuildedClient.DocCreated')
+- [Welcome](AbstractGuildedClient.Welcome 'Guilded.AbstractGuildedClient.Welcome')
+- [Resume](AbstractGuildedClient.Resume 'Guilded.AbstractGuildedClient.Resume')
+- [MessageCreated](AbstractGuildedClient.MessageCreated 'Guilded.AbstractGuildedClient.MessageCreated')
+- [WebhookCreated](AbstractGuildedClient.WebhookCreated 'Guilded.AbstractGuildedClient.WebhookCreated')
+- [MemberJoined](AbstractGuildedClient.MemberJoined 'Guilded.AbstractGuildedClient.MemberJoined')
+- [ChannelCreated](AbstractGuildedClient.ChannelCreated 'Guilded.AbstractGuildedClient.ChannelCreated')
+- [ListItemCreated](AbstractGuildedClient.ListItemCreated 'Guilded.AbstractGuildedClient.ListItemCreated')
+- [DocCreated](AbstractGuildedClient.DocCreated 'Guilded.AbstractGuildedClient.DocCreated')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Changes the [nickname](UserSummary.UpdateNicknameAsync(HashId,string).md#Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId,string).nickname 'Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId, string).nickname') of the specified member in the [server](UserSummary.UpdateNicknameAsync(HashId,string).md#Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId,string).server 'Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId, string).server')."
+Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the member."
 ---
 
 ## UserSummary.UpdateNicknameAsync(HashId, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary.md 'Guilded.Base.Users.UserSummary')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
-Changes the [nickname](UserSummary.UpdateNicknameAsync(HashId,string).md#Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId,string).nickname 'Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId, string).nickname') of the specified member in the [server](UserSummary.UpdateNicknameAsync(HashId,string).md#Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId,string).server 'Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId, string).server').
+Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the member.
 
 ```csharp
 public System.Threading.Tasks.Task<string> UpdateNicknameAsync(Guilded.Base.HashId server, string nickname);
@@ -22,7 +22,7 @@ public System.Threading.Tasks.Task<string> UpdateNicknameAsync(Guilded.Base.Hash
 
 <a name='Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId,string).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
 The server to modify member in
 
@@ -34,16 +34,16 @@ The new nickname of the member
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Nickname
+Updated [nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname')

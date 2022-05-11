@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Whether the type can be converted to [FormId](FormId.md 'Guilded.Base.FormId')."
+Whether the type can be converted to [FormId](FormId 'Guilded.Base.FormId')."
 ---
 
 ## FormIdConverter.CanConvertFrom(ITypeDescriptorContext, Type) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormIdConverter`](FormIdConverter.md 'Guilded.Base.FormIdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormIdConverter`](FormIdConverter 'Guilded.Base.FormIdConverter')
 
-Whether the type can be converted to [FormId](FormId.md 'Guilded.Base.FormId').
+Whether the type can be converted to [FormId](FormId 'Guilded.Base.FormId').
 
 ```csharp
 public override bool CanConvertFrom(ITypeDescriptorContext? context, System.Type sourceType);

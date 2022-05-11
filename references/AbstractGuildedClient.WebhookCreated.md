@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Represents an event with the name `TeamWebhookCreated` or `TeamWebhookUpdated` and opcode `0` that occurs once [webhook](WebhookEvent.Webhook.md 'Guilded.Base.Events.WebhookEvent.Webhook') gets created or updated."
+Represents an event with the name `TeamWebhookCreated` or `TeamWebhookUpdated` and opcode `0` that occurs once [webhook](WebhookEvent.Webhook 'Guilded.Base.Events.WebhookEvent.Webhook') gets created or updated."
 ---
 
 ## AbstractGuildedClient.WebhookCreated Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Represents an event with the name `TeamWebhookCreated` or `TeamWebhookUpdated` and opcode `0` that occurs once [webhook](WebhookEvent.Webhook.md 'Guilded.Base.Events.WebhookEvent.Webhook') gets created or updated.
+Represents an event with the name `TeamWebhookCreated` or `TeamWebhookUpdated` and opcode `0` that occurs once [webhook](WebhookEvent.Webhook 'Guilded.Base.Events.WebhookEvent.Webhook') gets created or updated.
 
 ```csharp
 public IObservable<Guilded.Base.Events.WebhookEvent> WebhookCreated { get; }
@@ -23,6 +23,6 @@ public IObservable<Guilded.Base.Events.WebhookEvent> WebhookCreated { get; }
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [MemberJoinedEvent](MemberJoinedEvent.md 'Guilded.Base.Events.MemberJoinedEvent')
-- [MemberUpdatedEvent](MemberUpdatedEvent.md 'Guilded.Base.Events.MemberUpdatedEvent')
-- [Member](Member.md 'Guilded.Base.Servers.Member')
+- [MemberJoinedEvent](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
+- [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
+- [Member](Member 'Guilded.Base.Servers.Member')

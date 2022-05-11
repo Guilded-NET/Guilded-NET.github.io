@@ -11,7 +11,7 @@ Writes given object as JSON."
 ---
 
 ## IdConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter.md 'Guilded.Base.IdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter 'Guilded.Base.IdConverter')
 
 Writes given object as JSON.
 

@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to media."
+Represents channel permissions related to media in media channels."
 ---
 
 ## MediaPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to media.
+Represents channel permissions related to media in media channels.
 
 ```csharp
 public enum MediaPermissions
 ```
-
-### Remarks
-  
-Defines channel permissions related to media in media channels.
 ### Fields
 
 <a name='Guilded.Base.Permissions.MediaPermissions.All'></a>
@@ -39,8 +35,8 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [CreateMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.CreateMedia 'Guilded.Base.Permissions.MediaPermissions.CreateMedia')  
-- [SeeMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.SeeMedia 'Guilded.Base.Permissions.MediaPermissions.SeeMedia')
+- [CreateMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.CreateMedia 'Guilded.Base.Permissions.MediaPermissions.CreateMedia')  
+- [SeeMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.SeeMedia 'Guilded.Base.Permissions.MediaPermissions.SeeMedia')
 
 <a name='Guilded.Base.Permissions.MediaPermissions.CreateMedia'></a>
 
@@ -57,8 +53,8 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [ManageMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.ManageMedia 'Guilded.Base.Permissions.MediaPermissions.ManageMedia')  
-- [RemoveMedia](MediaPermissions.md#Guilded.Base.Permissions.MediaPermissions.RemoveMedia 'Guilded.Base.Permissions.MediaPermissions.RemoveMedia')
+- [ManageMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.ManageMedia 'Guilded.Base.Permissions.MediaPermissions.ManageMedia')  
+- [RemoveMedia](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.RemoveMedia 'Guilded.Base.Permissions.MediaPermissions.RemoveMedia')
 
 <a name='Guilded.Base.Permissions.MediaPermissions.ManageMedia'></a>
 
@@ -83,3 +79,22 @@ Allows you to remove media created by others
 `SeeMedia` 2
 
 Allows you to see media
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

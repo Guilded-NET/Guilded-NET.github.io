@@ -11,7 +11,7 @@ Gets the identifier of the server where the member has been kicked or has left."
 ---
 
 ## MemberRemovedEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent.md 'Guilded.Base.Events.MemberRemovedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
 Gets the identifier of the server where the member has been kicked or has left.
 
@@ -20,5 +20,9 @@ public Guilded.Base.HashId ServerId { get; }
 ```
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
+[HashId](HashId 'Guilded.Base.HashId')  
 Server ID
+
+### See Also
+- [MemberRemovedEvent](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
+- [UserId](MemberRemovedEvent.UserId 'Guilded.Base.Events.MemberRemovedEvent.UserId')

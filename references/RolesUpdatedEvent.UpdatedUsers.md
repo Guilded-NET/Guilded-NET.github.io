@@ -7,23 +7,22 @@ tags:
   - property
 description: "
 
-The array of updated users."
+Gets the array of updated users that either lost or received roles."
 ---
 
 ## RolesUpdatedEvent.UpdatedUsers Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent.md 'Guilded.Base.Events.RolesUpdatedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
 
-The array of updated users.
+Gets the array of updated users that either lost or received roles.
 
 ```csharp
 public Guilded.Base.HashId[] UpdatedUsers { get; }
 ```
 
-### Remarks
-  
-Returns the array of members that had their role list updated either by losing or receiving roles.  
-  
-This property goes through [MemberRoleIds](RolesUpdatedEvent.MemberRoleIds.md 'Guilded.Base.Events.RolesUpdatedEvent.MemberRoleIds') and selects user IDs.
-
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
+[HashId](HashId 'Guilded.Base.HashId')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
+
+### See Also
+- [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
+- [MemberRoleIds](RolesUpdatedEvent.MemberRoleIds 'Guilded.Base.Events.RolesUpdatedEvent.MemberRoleIds')
+- [ServerId](RolesUpdatedEvent.ServerId 'Guilded.Base.Events.RolesUpdatedEvent.ServerId')

@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Represents an event with the name `TeamChannelCreated`, `TeamChannelUpdated` or `TeamChannelDeleted` and opcode `0` that occurs once someone creates, edits or deletes a [channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.ChannelEvent.Channel 'Guilded.Base.Events.ChannelEvent.Channel')."
+Represents an event with the name `TeamChannelCreated`, `TeamChannelUpdated` or `TeamChannelDeleted` and opcode `0` that occurs once someone creates, edits or deletes a [channel](ChannelEvent.Channel 'Guilded.Base.Events.ChannelEvent.Channel')."
 ---
 
 ## AbstractGuildedClient.ChannelCreated Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Represents an event with the name `TeamChannelCreated`, `TeamChannelUpdated` or `TeamChannelDeleted` and opcode `0` that occurs once someone creates, edits or deletes a [channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.ChannelEvent.Channel 'Guilded.Base.Events.ChannelEvent.Channel').
+Represents an event with the name `TeamChannelCreated`, `TeamChannelUpdated` or `TeamChannelDeleted` and opcode `0` that occurs once someone creates, edits or deletes a [channel](ChannelEvent.Channel 'Guilded.Base.Events.ChannelEvent.Channel').
 
 ```csharp
 public IObservable<Guilded.Base.Events.ChannelEvent> ChannelCreated { get; }
@@ -23,6 +23,6 @@ public IObservable<Guilded.Base.Events.ChannelEvent> ChannelCreated { get; }
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [Guilded.Base.Events.ListItemEvent](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.ListItemEvent 'Guilded.Base.Events.ListItemEvent')
-- [Guilded.Base.Events.DocEvent](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.DocEvent 'Guilded.Base.Events.DocEvent')
-- [MessageEvent](MessageEvent.md 'Guilded.Base.Events.MessageEvent')
+- [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+- [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')
+- [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')

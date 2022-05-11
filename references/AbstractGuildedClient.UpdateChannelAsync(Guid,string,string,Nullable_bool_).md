@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Updates the [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_).md#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel')."
+Updates the [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel')."
 ---
 
 ## AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, Nullable<bool>) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Updates the [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_).md#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel').
+Updates the [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> UpdateChannelAsync(Guid channel, string? name=null, string? topic=null, System.Nullable<bool> isPublic=null);
@@ -24,19 +24,19 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> 
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel') to update
+The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to update
 
 <a name='Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-A new name of [the channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel') (max — `100`)
+A new name of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') (max — `100`)
 
 <a name='Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).topic'></a>
 
 `topic` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-A new topic describing what [the channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel') is about (max — `512`)
+A new topic describing what [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') is about (max — `512`)
 
 <a name='Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).isPublic'></a>
 
@@ -46,16 +46,16 @@ Whether the contents of the channel are publicly viewable
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Guilded.Base.Servers.ServerChannel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Updated [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_).md#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel')
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Updated [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel')

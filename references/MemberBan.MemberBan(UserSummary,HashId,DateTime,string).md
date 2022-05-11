@@ -7,28 +7,28 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [MemberBan](MemberBan.md 'Guilded.Base.Servers.MemberBan') with the provided details."
+Initializes a new instance of [MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan') with the provided details."
 ---
 
 ## MemberBan(UserSummary, HashId, DateTime, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan.md 'Guilded.Base.Servers.MemberBan')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
 
-Initializes a new instance of [MemberBan](MemberBan.md 'Guilded.Base.Servers.MemberBan') with the provided details.
+Initializes a new instance of [MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan') with the provided details.
 
 ```csharp
-public MemberBan(Guilded.Base.Users.UserSummary user, Guilded.Base.HashId createdBy, System.DateTime createdAt, string? reason);
+public MemberBan(Guilded.Base.Users.UserSummary user, Guilded.Base.HashId createdBy, System.DateTime createdAt, string? reason=null);
 ```
 #### Parameters
 
 <a name='Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary,Guilded.Base.HashId,System.DateTime,string).user'></a>
 
-`user` [UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')
+`user` [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')
 
 The user who has been banned
 
 <a name='Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary,Guilded.Base.HashId,System.DateTime,string).createdBy'></a>
 
-`createdBy` [HashId](HashId.md 'Guilded.Base.HashId')
+`createdBy` [HashId](HashId 'Guilded.Base.HashId')
 
 The author of the ban
 
@@ -36,10 +36,13 @@ The author of the ban
 
 `createdAt` [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
 
-The date of when the member was banned
+the date when the member was banned
 
 <a name='Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary,Guilded.Base.HashId,System.DateTime,string).reason'></a>
 
 `reason` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The reason why the user has been banned
+
+### See Also
+- [MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')

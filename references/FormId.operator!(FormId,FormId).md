@@ -1,9 +1,9 @@
-#### [Guilded.Base](index.md 'index')
-### [Guilded.Base](Guilded.Base.md 'Guilded.Base').[FormId](FormId.md 'Guilded.Base.FormId')
+#### [Guilded.Base](index 'index')
+### [Guilded.Base](Guilded.Base 'Guilded.Base').[FormId](FormId 'Guilded.Base.FormId')
 
 ## FormId.operator !=(FormId, FormId) Operator
 
-Returns whether [id0](FormId.operator!(FormId,FormId).md#Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId,Guilded.Base.FormId).id0 'Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId, Guilded.Base.FormId).id0') and [id1](FormId.operator!(FormId,FormId).md#Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId,Guilded.Base.FormId).id1 'Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId, Guilded.Base.FormId).id1') are not equal.
+Returns whether [id0](FormId.operator!(FormId,FormId)#Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId,Guilded.Base.FormId).id0 'Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId, Guilded.Base.FormId).id0') and [id1](FormId.operator!(FormId,FormId)#Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId,Guilded.Base.FormId).id1 'Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId, Guilded.Base.FormId).id1') are not equal.
 
 ```csharp
 public static bool operator !=(Guilded.Base.FormId id0, Guilded.Base.FormId id1);
@@ -12,13 +12,13 @@ public static bool operator !=(Guilded.Base.FormId id0, Guilded.Base.FormId id1)
 
 <a name='Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId,Guilded.Base.FormId).id0'></a>
 
-`id0` [FormId](FormId.md 'Guilded.Base.FormId')
+`id0` [FormId](FormId 'Guilded.Base.FormId')
 
 First ID to be compared
 
 <a name='Guilded.Base.FormId.op_Inequality(Guilded.Base.FormId,Guilded.Base.FormId).id1'></a>
 
-`id1` [FormId](FormId.md 'Guilded.Base.FormId')
+`id1` [FormId](FormId 'Guilded.Base.FormId')
 
 Second ID to be compared
 

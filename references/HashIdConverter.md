@@ -7,13 +7,13 @@ tags:
   - class
 description: "
 
-Converts a value to [HashId](HashId.md 'Guilded.Base.HashId') where it is expected."
+Converts a value to [HashId](HashId 'Guilded.Base.HashId') where it is expected."
 ---
 
 ## HashIdConverter Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base.md 'Guilded.Base')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
-Converts a value to [HashId](HashId.md 'Guilded.Base.HashId') where it is expected.
+Converts a value to [HashId](HashId 'Guilded.Base.HashId') where it is expected.
 
 ```csharp
 public class HashIdConverter
@@ -23,5 +23,5 @@ Inheritance [System.ComponentModel.TypeConverter](https://docs.microsoft.com/en-
 
 | Methods | |
 | :--- | :--- |
-| [CanConvertFrom(ITypeDescriptorContext, Type)](HashIdConverter.CanConvertFrom(ITypeDescriptorContext,Type).md 'Guilded.Base.HashIdConverter.CanConvertFrom(ITypeDescriptorContext, System.Type)') | Whether the type can be converted to [HashId](HashId.md 'Guilded.Base.HashId'). |
-| [ConvertFrom(ITypeDescriptorContext, CultureInfo, object)](HashIdConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,object).md 'Guilded.Base.HashIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object)') | Converts string to [HashId](HashId.md 'Guilded.Base.HashId'). |
+| [CanConvertFrom(ITypeDescriptorContext, Type)](HashIdConverter.CanConvertFrom(ITypeDescriptorContext,Type) 'Guilded.Base.HashIdConverter.CanConvertFrom(ITypeDescriptorContext, System.Type)') | Whether the type can be converted to [HashId](HashId 'Guilded.Base.HashId'). |
+| [ConvertFrom(ITypeDescriptorContext, CultureInfo, object)](HashIdConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,object) 'Guilded.Base.HashIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object)') | Converts string to [HashId](HashId 'Guilded.Base.HashId'). |

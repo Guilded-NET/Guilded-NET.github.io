@@ -11,7 +11,7 @@ Uploads a file to Guilded."
 ---
 
 ## BaseGuildedClient.UploadFileAsync(string, byte[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Uploads a file to Guilded.
 
@@ -41,9 +41,9 @@ The contents of the file being uploaded
 #### Exceptions
 
 [System.ArgumentNullException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentNullException 'System.ArgumentNullException')  
-When [filename](BaseGuildedClient.UploadFileAsync(string,byte[]).md#Guilded.Base.BaseGuildedClient.UploadFileAsync(string,byte[]).filename 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[]).filename') is empty or [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
+When [filename](BaseGuildedClient.UploadFileAsync(string,byte[])#Guilded.Base.BaseGuildedClient.UploadFileAsync(string,byte[]).filename 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[]).filename') is empty or [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null')
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  

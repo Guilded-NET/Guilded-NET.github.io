@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent') from the specified JSON properties."
+Initializes a new instance of [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent') from the specified JSON properties."
 ---
 
 ## WelcomeEvent(int, Me, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
 
-Initializes a new instance of [WelcomeEvent](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent') from the specified JSON properties.
+Initializes a new instance of [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent') from the specified JSON properties.
 
 ```csharp
 public WelcomeEvent(int heartbeatIntervalMs, Guilded.Base.Users.Me user, string? lastMessageId);
@@ -28,7 +28,7 @@ The duration between heartbeats
 
 <a name='Guilded.Base.Events.WelcomeEvent.WelcomeEvent(int,Guilded.Base.Users.Me,string).user'></a>
 
-`user` [Me](Me.md 'Guilded.Base.Users.Me')
+`user` [Me](Me 'Guilded.Base.Users.Me')
 
 The current logged in user
 
@@ -37,3 +37,6 @@ The current logged in user
 `lastMessageId` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The identifier of the last event sent
+
+### See Also
+- [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')

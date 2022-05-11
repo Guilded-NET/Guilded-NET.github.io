@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a message with content containing [embeds](WebhookEvent.CreateMessageAsync(string,IList_Embed_).md#Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') and content in a chat using a webhook."
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing [embeds](WebhookEvent.CreateMessageAsync(string,IList_Embed_)#Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') and content using a webhook."
 ---
 
 ## WebhookEvent.CreateMessageAsync(string, IList<Embed>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
-Creates a message with content containing [embeds](WebhookEvent.CreateMessageAsync(string,IList_Embed_).md#Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') and content in a chat using a webhook.
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing [embeds](WebhookEvent.CreateMessageAsync(string,IList_Embed_)#Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') and content using a webhook.
 
 ```csharp
 public System.Threading.Tasks.Task CreateMessageAsync(string message, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed> embeds);
@@ -21,7 +21,7 @@ public System.Threading.Tasks.Task CreateMessageAsync(string message, System.Col
 
 ### Remarks
   
-The text content will be formatted in Markdown.
+The content will be formatted in Markdown.
 #### Parameters
 
 <a name='Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).message'></a>
@@ -30,17 +30,17 @@ The text content will be formatted in Markdown.
 
 <a name='Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds'></a>
 
-`embeds` [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Embed](Embed.md 'Guilded.Base.Embeds.Embed')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')
+`embeds` [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Embed](Embed 'Guilded.Base.Embeds.Embed')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')
 
-The list of embeds to add in the message
+The array of [all custom embeds](Embed 'Guilded.Base.Embeds.Embed') in [the message](Message 'Guilded.Base.Content.Message') (max — `1`)
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

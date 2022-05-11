@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Edits [content](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or [title](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of the [doc](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc')."
+Edits [content](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or [title](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of the [doc](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc')."
 ---
 
 ## AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Edits [content](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or [title](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of the [doc](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc').
+Edits [content](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or [title](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of the [doc](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Content.Doc> UpdateDocAsync(Guid channel, uint doc, string title, string content);
@@ -21,14 +21,14 @@ public override System.Threading.Tasks.Task<Guilded.Base.Content.Doc> UpdateDocA
 
 ### Remarks
   
-The [doc](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).md#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc') will be bumped to the top.
+The [doc](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc') will be bumped to the top.
 #### Parameters
 
 <a name='Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).channel'></a>
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Servers.ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc'></a>
 
@@ -50,14 +50,14 @@ The new Markdown content of this document
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc.md 'Guilded.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Updated [document](Doc.md 'Guilded.Base.Content.Doc')
+[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Doc](Doc 'Guilded.Base.Content.Doc')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+Updated [document](Doc 'Guilded.Base.Content.Doc')

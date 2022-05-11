@@ -11,7 +11,7 @@ The subject that will be used for subscribing to this event."
 ---
 
 ## EventInfo<T>.Subject Field
-###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_.md 'Guilded.EventInfo<T>')
+###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
 
 The subject that will be used for subscribing to this event.
 

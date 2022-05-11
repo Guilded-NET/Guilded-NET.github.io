@@ -9,7 +9,7 @@ description: ""
 ---
 
 ## Embed.SetFooter(object, Uri) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 ```csharp
 public Guilded.Base.Embeds.Embed SetFooter(object? value, Uri? icon=null);
@@ -17,9 +17,9 @@ public Guilded.Base.Embeds.Embed SetFooter(object? value, Uri? icon=null);
 
 ### Remarks
   
-A [footer](EmbedFooter.md 'Guilded.Base.Embeds.EmbedFooter') will be generated from the given [value](Embed.SetFooter(object,Uri).md#Guilded.Base.Embeds.Embed.SetFooter(object,Uri).value 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri).value') and [icon](Embed.SetFooter(object,Uri).md#Guilded.Base.Embeds.Embed.SetFooter(object,Uri).icon 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri).icon').  
+A [footer](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') will be generated from the given [value](Embed.SetFooter(object,Uri)#Guilded.Base.Embeds.Embed.SetFooter(object,Uri).value 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri).value') and [icon](Embed.SetFooter(object,Uri)#Guilded.Base.Embeds.Embed.SetFooter(object,Uri).icon 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri).icon').  
   
-[value](Embed.SetFooter(object,Uri).md#Guilded.Base.Embeds.Embed.SetFooter(object,Uri).value 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri).value') parameter will be converted to string.
+[value](Embed.SetFooter(object,Uri)#Guilded.Base.Embeds.Embed.SetFooter(object,Uri).value 'Guilded.Base.Embeds.Embed.SetFooter(object, Uri).value') parameter will be converted to string.
 #### Parameters
 
 <a name='Guilded.Base.Embeds.Embed.SetFooter(object,Uri).value'></a>
@@ -35,4 +35,4 @@ The text contents of the footer
 URL to the icon's image that will be displayed in the left side of the footer
 
 #### Returns
-[Embed](Embed.md 'Guilded.Base.Embeds.Embed')
+[Embed](Embed 'Guilded.Base.Embeds.Embed')

@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent') from the specified JSON properties."
+Initializes a new instance of [ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent') from the specified JSON properties."
 ---
 
 ## ResumeEvent(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent 'Guilded.Base.Events.ResumeEvent')
 
-Initializes a new instance of [ResumeEvent](ResumeEvent.md 'Guilded.Base.Events.ResumeEvent') from the specified JSON properties.
+Initializes a new instance of [ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent') from the specified JSON properties.
 
 ```csharp
 public ResumeEvent(string s);
@@ -25,3 +25,6 @@ public ResumeEvent(string s);
 `s` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The identifier of the last received message
+
+### See Also
+- [ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent')

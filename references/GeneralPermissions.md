@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to servers."
+Represents team and channel permissions related to server management."
 ---
 
 ## GeneralPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to servers.
+Represents team and channel permissions related to server management.
 
 ```csharp
 public enum GeneralPermissions
 ```
-
-### Remarks
-  
-Defines team and channel permissions related to server management.
 ### Fields
 
 <a name='Guilded.Base.Permissions.GeneralPermissions.All'></a>
@@ -51,12 +47,12 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [UpdateServer](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.UpdateServer 'Guilded.Base.Permissions.GeneralPermissions.UpdateServer')  
-- [KickBanMembers](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.KickBanMembers 'Guilded.Base.Permissions.GeneralPermissions.KickBanMembers')  
-- [ManageChannels](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageChannels 'Guilded.Base.Permissions.GeneralPermissions.ManageChannels')  
-- [ManageWebhooks](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks 'Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks')  
-- [ManageGroups](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageGroups 'Guilded.Base.Permissions.GeneralPermissions.ManageGroups')  
-- [ManageRoles](GeneralPermissions.md#Guilded.Base.Permissions.GeneralPermissions.ManageRoles 'Guilded.Base.Permissions.GeneralPermissions.ManageRoles')
+- [UpdateServer](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.UpdateServer 'Guilded.Base.Permissions.GeneralPermissions.UpdateServer')  
+- [KickBanMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.KickBanMembers 'Guilded.Base.Permissions.GeneralPermissions.KickBanMembers')  
+- [ManageChannels](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageChannels 'Guilded.Base.Permissions.GeneralPermissions.ManageChannels')  
+- [ManageWebhooks](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks 'Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks')  
+- [ManageGroups](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageGroups 'Guilded.Base.Permissions.GeneralPermissions.ManageGroups')  
+- [ManageRoles](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageRoles 'Guilded.Base.Permissions.GeneralPermissions.ManageRoles')
 
 <a name='Guilded.Base.Permissions.GeneralPermissions.ManageChannels'></a>
 
@@ -99,3 +95,22 @@ No given permissions.
 `UpdateServer` 4
 
 Allows you to update server's settings
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

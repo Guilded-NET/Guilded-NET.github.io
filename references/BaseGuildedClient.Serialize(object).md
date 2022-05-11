@@ -11,7 +11,7 @@ Serializes object with client's Guilded serializer."
 ---
 
 ## BaseGuildedClient.Serialize(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Serializes object with client's Guilded serializer.
 
@@ -21,7 +21,7 @@ public string Serialize(object obj);
 
 ### Remarks
   
-Serializes given object to JSON using [GuildedSerializer](BaseGuildedClient.GuildedSerializer.md 'Guilded.Base.BaseGuildedClient.GuildedSerializer'). Use this if you want to send REST request or WebSocket message.
+Serializes given object to JSON using [GuildedSerializer](BaseGuildedClient.GuildedSerializer 'Guilded.Base.BaseGuildedClient.GuildedSerializer'). Use this if you want to send REST request or WebSocket message.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.Serialize(object).obj'></a>
@@ -35,4 +35,4 @@ The parameter to serialize
 Serialized object
 
 ### See Also
-- [Deserialize&lt;T&gt;(string)](BaseGuildedClient.Deserialize_T_(string).md 'Guilded.Base.BaseGuildedClient.Deserialize<T>(string)')
+- [Deserialize&lt;T&gt;(string)](BaseGuildedClient.Deserialize_T_(string) 'Guilded.Base.BaseGuildedClient.Deserialize<T>(string)')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Adds a [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint).md#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') to the user."
+Adds a [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') to [the user](User 'Guilded.Base.Users.User')."
 ---
 
 ## BaseGuildedClient.AddRoleAsync(HashId, HashId, uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Adds a [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint).md#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') to the user.
+Adds a [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') to [the user](User 'Guilded.Base.Users.User').
 
 ```csharp
 public abstract System.Threading.Tasks.Task AddRoleAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, uint role);
@@ -21,20 +21,20 @@ public abstract System.Threading.Tasks.Task AddRoleAsync(Guilded.Base.HashId ser
 
 ### Remarks
   
-If they hold the specified [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint).md#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
+If they hold the [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to modify member in
+The server to modify [member](Member 'Guilded.Base.Servers.Member') in
 
 <a name='Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).member'></a>
 
-`member` [HashId](HashId.md 'Guilded.Base.HashId')
+`member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the receiving user
+The identifier of [the receiving member](Member 'Guilded.Base.Servers.Member')
 
 <a name='Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role'></a>
 
@@ -44,13 +44,13 @@ The identifier of the role to add
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

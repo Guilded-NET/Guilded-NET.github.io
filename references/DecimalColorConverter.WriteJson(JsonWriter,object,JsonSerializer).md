@@ -11,7 +11,7 @@ Writes given object as JSON."
 ---
 
 ## DecimalColorConverter.WriteJson(JsonWriter, object, JsonSerializer) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter.md 'Guilded.Base.DecimalColorConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter 'Guilded.Base.DecimalColorConverter')
 
 Writes given object as JSON.
 

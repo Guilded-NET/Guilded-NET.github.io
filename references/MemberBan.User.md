@@ -11,7 +11,7 @@ Gets the banned user."
 ---
 
 ## MemberBan.User Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan.md 'Guilded.Base.Servers.MemberBan')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
 
 Gets the banned user.
 
@@ -20,5 +20,5 @@ public Guilded.Base.Users.UserSummary User { get; set; }
 ```
 
 #### Property Value
-[UserSummary](UserSummary.md 'Guilded.Base.Users.UserSummary')  
+[UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')  
 User's summary

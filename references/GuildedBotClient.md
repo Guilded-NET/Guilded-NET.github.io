@@ -11,7 +11,7 @@ Represents the client type for Guilded bots."
 ---
 
 ## GuildedBotClient Class
-###### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded.md 'Guilded')
+###### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded 'Guilded')
 
 Represents the client type for Guilded bots.
 
@@ -19,15 +19,15 @@ Represents the client type for Guilded bots.
 public class GuildedBotClient : Guilded.AbstractGuildedClient
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient') &#129106; [AbstractGuildedClient](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient') &#129106; GuildedBotClient
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') &#129106; [AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient') &#129106; GuildedBotClient
 
 ### Remarks
   
 Use this to initiate and log into Guilded bot.  
   
-If you want to connect, set [AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken') and then use [ConnectAsync()](GuildedBotClient.ConnectAsync().md 'Guilded.GuildedBotClient.ConnectAsync()').  
+If you want to connect, set [AuthToken](GuildedBotClient.AuthToken 'Guilded.GuildedBotClient.AuthToken') and then use [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()').  
   
-You can also use [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string).md 'Guilded.GuildedBotClient.ConnectAsync(string)'), which doesn't require [AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken') set.
+You can also use [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.GuildedBotClient.ConnectAsync(string)'), which doesn't require [AuthToken](GuildedBotClient.AuthToken 'Guilded.GuildedBotClient.AuthToken') set.
 
 ### Example
   
@@ -58,24 +58,24 @@ await client.ConnectAsync();
 
 | Constructors | |
 | :--- | :--- |
-| [GuildedBotClient()](GuildedBotClient.GuildedBotClient().md 'Guilded.GuildedBotClient.GuildedBotClient()') | Creates a new [GuildedBotClient](GuildedBotClient.md 'Guilded.GuildedBotClient') instance without authentication token. |
-| [GuildedBotClient(string)](GuildedBotClient.GuildedBotClient(string).md 'Guilded.GuildedBotClient.GuildedBotClient(string)') | Creates a new [GuildedBotClient](GuildedBotClient.md 'Guilded.GuildedBotClient') instance with given [auth](GuildedBotClient.GuildedBotClient(string).md#Guilded.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.GuildedBotClient.GuildedBotClient(string).auth'). |
+| [GuildedBotClient()](GuildedBotClient.GuildedBotClient() 'Guilded.GuildedBotClient.GuildedBotClient()') | Creates a new [GuildedBotClient](GuildedBotClient 'Guilded.GuildedBotClient') instance without authentication token. |
+| [GuildedBotClient(string)](GuildedBotClient.GuildedBotClient(string) 'Guilded.GuildedBotClient.GuildedBotClient(string)') | Creates a new [GuildedBotClient](GuildedBotClient 'Guilded.GuildedBotClient') instance with given [auth](GuildedBotClient.GuildedBotClient(string)#Guilded.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.GuildedBotClient.GuildedBotClient(string).auth'). |
 
 | Properties | |
 | :--- | :--- |
-| [AuthToken](GuildedBotClient.AuthToken.md 'Guilded.GuildedBotClient.AuthToken') | An authentication token used to log into a bot in Guilded. |
+| [AuthToken](GuildedBotClient.AuthToken 'Guilded.GuildedBotClient.AuthToken') | An authentication token used to log into a bot in Guilded. |
 
 | Methods | |
 | :--- | :--- |
-| [ConnectAsync()](GuildedBotClient.ConnectAsync().md 'Guilded.GuildedBotClient.ConnectAsync()') | Connects to Guilded using defined auth. |
-| [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string).md 'Guilded.GuildedBotClient.ConnectAsync(string)') | Connects to Guilded bot using parameter as an auth. |
+| [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()') | Connects to Guilded using defined auth. |
+| [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.GuildedBotClient.ConnectAsync(string)') | Connects to Guilded bot using parameter as an auth. |
 
 ### See Also
-- [AbstractGuildedClient](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
-- [BaseGuildedClient](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
-- [Prepared](AbstractGuildedClient.Prepared.md 'Guilded.AbstractGuildedClient.Prepared')
-- [Connected](BaseGuildedClient.Connected.md 'Guilded.Base.BaseGuildedClient.Connected')
-- [ConnectAsync()](GuildedBotClient.ConnectAsync().md 'Guilded.GuildedBotClient.ConnectAsync()')
-- [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string).md 'Guilded.GuildedBotClient.ConnectAsync(string)')
-- [MessageCreated](AbstractGuildedClient.MessageCreated.md 'Guilded.AbstractGuildedClient.MessageCreated')
-- [MessageUpdated](AbstractGuildedClient.MessageUpdated.md 'Guilded.AbstractGuildedClient.MessageUpdated')
+- [AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+- [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+- [Prepared](AbstractGuildedClient.Prepared 'Guilded.AbstractGuildedClient.Prepared')
+- [Connected](BaseGuildedClient.Connected 'Guilded.Base.BaseGuildedClient.Connected')
+- [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()')
+- [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.GuildedBotClient.ConnectAsync(string)')
+- [MessageCreated](AbstractGuildedClient.MessageCreated 'Guilded.AbstractGuildedClient.MessageCreated')
+- [MessageUpdated](AbstractGuildedClient.MessageUpdated 'Guilded.AbstractGuildedClient.MessageUpdated')

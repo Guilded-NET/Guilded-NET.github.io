@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to XP."
+Represents team permissions related to XP & levels."
 ---
 
 ## XpPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to XP.
+Represents team permissions related to XP & levels.
 
 ```csharp
 public enum XpPermissions
 ```
-
-### Remarks
-  
-Defines team permissions related to XP & levels.
 ### Fields
 
 <a name='Guilded.Base.Permissions.XpPermissions.All'></a>
@@ -39,7 +35,7 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [ManageServerXp](XpPermissions.md#Guilded.Base.Permissions.XpPermissions.ManageServerXp 'Guilded.Base.Permissions.XpPermissions.ManageServerXp')
+- [ManageServerXp](XpPermissions#Guilded.Base.Permissions.XpPermissions.ManageServerXp 'Guilded.Base.Permissions.XpPermissions.ManageServerXp')
 
 <a name='Guilded.Base.Permissions.XpPermissions.ManageServerXp'></a>
 
@@ -52,3 +48,22 @@ Allows you to manage XP on server members
 `None` 0
 
 No given permissions.
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')

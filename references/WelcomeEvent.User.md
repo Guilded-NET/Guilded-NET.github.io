@@ -11,7 +11,7 @@ Gets the currently logged in user."
 ---
 
 ## WelcomeEvent.User Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent.md 'Guilded.Base.Events.WelcomeEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
 
 Gets the currently logged in user.
 
@@ -20,5 +20,10 @@ public Guilded.Base.Users.Me User { get; set; }
 ```
 
 #### Property Value
-[Me](Me.md 'Guilded.Base.Users.Me')  
+[Me](Me 'Guilded.Base.Users.Me')  
 This User
+
+### See Also
+- [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
+- [LastMessageId](WelcomeEvent.LastMessageId 'Guilded.Base.Events.WelcomeEvent.LastMessageId')
+- [HeartbeatInterval](WelcomeEvent.HeartbeatInterval 'Guilded.Base.Events.WelcomeEvent.HeartbeatInterval')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a message with content containing only content in a chat using a webhook."
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing only content using a webhook."
 ---
 
 ## WebhookEvent.CreateMessageAsync(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent.md 'Guilded.Base.Events.WebhookEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
-Creates a message with content containing only content in a chat using a webhook.
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing only content using a webhook.
 
 ```csharp
 public System.Threading.Tasks.Task CreateMessageAsync(string message);
@@ -21,7 +21,7 @@ public System.Threading.Tasks.Task CreateMessageAsync(string message);
 
 ### Remarks
   
-The text content will be formatted in Markdown.
+The content will be formatted in Markdown.
 #### Parameters
 
 <a name='Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string).message'></a>
@@ -30,11 +30,11 @@ The text content will be formatted in Markdown.
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

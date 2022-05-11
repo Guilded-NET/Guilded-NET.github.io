@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to scheduling."
+Represents channel permissions related to availability in scheduling channels."
 ---
 
 ## SchedulingPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to scheduling.
+Represents channel permissions related to availability in scheduling channels.
 
 ```csharp
 public enum SchedulingPermissions
 ```
-
-### Remarks
-  
-Defines channel permissions related to availability in scheduling channels.
 ### Fields
 
 <a name='Guilded.Base.Permissions.SchedulingPermissions.All'></a>
@@ -39,8 +35,8 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [CreateSchedule](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule 'Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule')  
-- [ViewSchedules](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules 'Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules')
+- [CreateSchedule](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule 'Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule')  
+- [ViewSchedules](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules 'Guilded.Base.Permissions.SchedulingPermissions.ViewSchedules')
 
 <a name='Guilded.Base.Permissions.SchedulingPermissions.CreateSchedule'></a>
 
@@ -63,7 +59,7 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [DeleteSchedule](SchedulingPermissions.md#Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule 'Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule')
+- [DeleteSchedule](SchedulingPermissions#Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule 'Guilded.Base.Permissions.SchedulingPermissions.DeleteSchedule')
 
 <a name='Guilded.Base.Permissions.SchedulingPermissions.None'></a>
 
@@ -76,3 +72,22 @@ No given permissions.
 `ViewSchedules` 2
 
 Allows you to view server member's schedule
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

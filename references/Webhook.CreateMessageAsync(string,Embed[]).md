@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a message with content containing [embeds](Webhook.CreateMessageAsync(string,Embed[]).md#Guilded.Base.Servers.Webhook.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).embeds') and content in a chat using a webhook."
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing [embeds](Webhook.CreateMessageAsync(string,Embed[])#Guilded.Base.Servers.Webhook.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).embeds') and content using a webhook."
 ---
 
 ## Webhook.CreateMessageAsync(string, Embed[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Webhook`](Webhook.md 'Guilded.Base.Servers.Webhook')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Webhook`](Webhook 'Guilded.Base.Servers.Webhook')
 
-Creates a message with content containing [embeds](Webhook.CreateMessageAsync(string,Embed[]).md#Guilded.Base.Servers.Webhook.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).embeds') and content in a chat using a webhook.
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing [embeds](Webhook.CreateMessageAsync(string,Embed[])#Guilded.Base.Servers.Webhook.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).embeds') and content using a webhook.
 
 ```csharp
 public System.Threading.Tasks.Task CreateMessageAsync(string message, params Guilded.Base.Embeds.Embed[] embeds);
@@ -21,7 +21,7 @@ public System.Threading.Tasks.Task CreateMessageAsync(string message, params Gui
 
 ### Remarks
   
-The text content will be formatted in Markdown.
+The content will be formatted in Markdown.
 #### Parameters
 
 <a name='Guilded.Base.Servers.Webhook.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).message'></a>
@@ -30,17 +30,17 @@ The text content will be formatted in Markdown.
 
 <a name='Guilded.Base.Servers.Webhook.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).embeds'></a>
 
-`embeds` [Embed](Embed.md 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
+`embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
-The array of embeds to add in the message
+The array of [all custom embeds](Embed 'Guilded.Base.Embeds.Embed') in [the message](Message 'Guilded.Base.Content.Message') (max — `1`)
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

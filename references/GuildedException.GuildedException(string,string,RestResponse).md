@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') from a [response](GuildedException.GuildedException(string,string,RestResponse).md#Guilded.Base.GuildedException.GuildedException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse).response')."
+Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.GuildedException') from a [response](GuildedException.GuildedException(string,string,RestResponse)#Guilded.Base.GuildedException.GuildedException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse).response')."
 ---
 
 ## GuildedException(string, string, RestResponse) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
-Initializes a new instance of [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') from a [response](GuildedException.GuildedException(string,string,RestResponse).md#Guilded.Base.GuildedException.GuildedException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse).response').
+Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.GuildedException') from a [response](GuildedException.GuildedException(string,string,RestResponse)#Guilded.Base.GuildedException.GuildedException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse).response').
 
 ```csharp
 public GuildedException(string code, string message, RestSharp.RestResponse response);
@@ -37,3 +37,9 @@ The description of the error from Guilded API
 `response` [RestSharp.RestResponse](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.RestResponse 'RestSharp.RestResponse')
 
 The response that was received from Guilded API
+
+### See Also
+- [GuildedException](GuildedException 'Guilded.Base.GuildedException')
+- [GuildedException()](GuildedException.GuildedException() 'Guilded.Base.GuildedException.GuildedException()')
+- [GuildedException(string)](GuildedException.GuildedException(string) 'Guilded.Base.GuildedException.GuildedException(string)')
+- [GuildedException(string, Exception)](GuildedException.GuildedException(string,Exception) 'Guilded.Base.GuildedException.GuildedException(string, System.Exception)')

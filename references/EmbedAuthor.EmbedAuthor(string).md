@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL."
+Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL."
 ---
 
 ## EmbedAuthor(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')
 
-Initializes a new instance of [EmbedAuthor](EmbedAuthor.md 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL.
+Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL.
 
 ```csharp
 public EmbedAuthor(string name);

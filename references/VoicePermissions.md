@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to voice."
+Represents channel permissions related to voice and voice rooms."
 ---
 
 ## VoicePermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to voice.
+Represents channel permissions related to voice and voice rooms.
 
 ```csharp
 public enum VoicePermissions
 ```
-
-### Remarks
-  
-Defines channel permissions related to voice and voice rooms.
 ### Fields
 
 <a name='Guilded.Base.Permissions.VoicePermissions.AddVoice'></a>
@@ -45,11 +41,11 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [AddVoice](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.AddVoice 'Guilded.Base.Permissions.VoicePermissions.AddVoice')  
-- [HearVoice](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.HearVoice 'Guilded.Base.Permissions.VoicePermissions.HearVoice')  
-- [VoiceActivity](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.VoiceActivity 'Guilded.Base.Permissions.VoicePermissions.VoiceActivity')  
-- [Whisper](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.Whisper 'Guilded.Base.Permissions.VoicePermissions.Whisper')  
-- [SendMessages](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.SendMessages 'Guilded.Base.Permissions.VoicePermissions.SendMessages')
+- [AddVoice](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.AddVoice 'Guilded.Base.Permissions.VoicePermissions.AddVoice')  
+- [HearVoice](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.HearVoice 'Guilded.Base.Permissions.VoicePermissions.HearVoice')  
+- [VoiceActivity](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.VoiceActivity 'Guilded.Base.Permissions.VoicePermissions.VoiceActivity')  
+- [Whisper](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.Whisper 'Guilded.Base.Permissions.VoicePermissions.Whisper')  
+- [SendMessages](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.SendMessages 'Guilded.Base.Permissions.VoicePermissions.SendMessages')
 
 <a name='Guilded.Base.Permissions.VoicePermissions.Broadcast'></a>
 
@@ -78,10 +74,10 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [MoveMembers](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.MoveMembers 'Guilded.Base.Permissions.VoicePermissions.MoveMembers')  
-- [MuteMembers](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.MuteMembers 'Guilded.Base.Permissions.VoicePermissions.MuteMembers')  
-- [DeafenMembers](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.DeafenMembers 'Guilded.Base.Permissions.VoicePermissions.DeafenMembers')  
-- [ManageVoiceRooms](VoicePermissions.md#Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms 'Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms')
+- [MoveMembers](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.MoveMembers 'Guilded.Base.Permissions.VoicePermissions.MoveMembers')  
+- [MuteMembers](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.MuteMembers 'Guilded.Base.Permissions.VoicePermissions.MuteMembers')  
+- [DeafenMembers](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.DeafenMembers 'Guilded.Base.Permissions.VoicePermissions.DeafenMembers')  
+- [ManageVoiceRooms](VoicePermissions#Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms 'Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms')
 
 <a name='Guilded.Base.Permissions.VoicePermissions.ManageVoiceRooms'></a>
 
@@ -130,3 +126,22 @@ Allows you to use voice activity input mode from voice chaats
 `Whisper` 2048
 
 Allows you to direct your voice to specific users
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

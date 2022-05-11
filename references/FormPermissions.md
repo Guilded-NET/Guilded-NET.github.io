@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to forms & polls."
+Represents team permissions related to forms & polls."
 ---
 
 ## FormPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to forms & polls.
+Represents team permissions related to forms & polls.
 
 ```csharp
 public enum FormPermissions
 ```
-
-### Remarks
-  
-Defines team permissions related to forms & polls.
 ### Fields
 
 <a name='Guilded.Base.Permissions.FormPermissions.All'></a>
@@ -39,7 +35,7 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [PollResults](FormPermissions.md#Guilded.Base.Permissions.FormPermissions.PollResults 'Guilded.Base.Permissions.FormPermissions.PollResults')
+- [PollResults](FormPermissions#Guilded.Base.Permissions.FormPermissions.PollResults 'Guilded.Base.Permissions.FormPermissions.PollResults')
 
 <a name='Guilded.Base.Permissions.FormPermissions.FormResponses'></a>
 
@@ -58,3 +54,22 @@ No given permissions.
 `PollResults` 16
 
 Allows you to view all poll results
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

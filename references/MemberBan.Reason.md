@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the reason why the [user](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified."
+Gets the reason why the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified."
 ---
 
 ## MemberBan.Reason Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan.md 'Guilded.Base.Servers.MemberBan')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
 
-Gets the reason why the [user](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified.
+Gets the reason why the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified.
 
 ```csharp
 public string? Reason { get; set; }

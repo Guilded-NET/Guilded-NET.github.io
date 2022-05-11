@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the type of the message."
+Gets the type of [the message](Message 'Guilded.Base.Content.Message')."
 ---
 
 ## Message.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message.md 'Guilded.Base.Content.Message')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
-Gets the type of the message.
+Gets the type of [the message](Message 'Guilded.Base.Content.Message').
 
 ```csharp
 public Guilded.Base.Content.MessageType Type { get; }
@@ -21,8 +21,14 @@ public Guilded.Base.Content.MessageType Type { get; }
 
 ### Remarks
   
-Distinguishes the messages by what content they contain.
+Distinguishes [the message](Message 'Guilded.Base.Content.Message') by what content they contain.
 
 #### Property Value
-[MessageType](MessageType.md 'Guilded.Base.Content.MessageType')  
-Message type
+[MessageType](MessageType 'Guilded.Base.Content.MessageType')  
+[Message type](MessageType 'Guilded.Base.Content.MessageType')
+
+### See Also
+- [Message](Message 'Guilded.Base.Content.Message')
+- [Content](Message.Content 'Guilded.Base.Content.Message.Content')
+- [Embeds](Message.Embeds 'Guilded.Base.Content.Message.Embeds')
+- [IsSystemMessage](Message.IsSystemMessage 'Guilded.Base.Content.Message.IsSystemMessage')

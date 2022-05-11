@@ -11,7 +11,7 @@ Gets the identifier of the server where the event occurred."
 ---
 
 ## IServerEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IServerEvent`](IServerEvent.md 'Guilded.Base.Events.IServerEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IServerEvent`](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 Gets the identifier of the server where the event occurred.
 
@@ -20,5 +20,9 @@ Guilded.Base.HashId ServerId { get; }
 ```
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
+[HashId](HashId 'Guilded.Base.HashId')  
 Server ID
+
+### See Also
+- [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
+- [ServerId](MessageEvent_T_.ServerId 'Guilded.Base.Events.MessageEvent<T>.ServerId')

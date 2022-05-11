@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Whether the client is [prepared](AbstractGuildedClient.Prepared.md 'Guilded.AbstractGuildedClient.Prepared')."
+Whether the client is [prepared](AbstractGuildedClient.Prepared 'Guilded.AbstractGuildedClient.Prepared')."
 ---
 
 ## AbstractGuildedClient.IsPrepared Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Whether the client is [prepared](AbstractGuildedClient.Prepared.md 'Guilded.AbstractGuildedClient.Prepared').
+Whether the client is [prepared](AbstractGuildedClient.Prepared 'Guilded.AbstractGuildedClient.Prepared').
 
 ```csharp
 public bool IsPrepared { get; set; }

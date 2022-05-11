@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to streaming."
+Represents channel permissions related to streaming channels."
 ---
 
 ## StreamPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to streaming.
+Represents channel permissions related to streaming channels.
 
 ```csharp
 public enum StreamPermissions
 ```
-
-### Remarks
-  
-Defines channel permissions related to streaming channels.
 ### Fields
 
 <a name='Guilded.Base.Permissions.StreamPermissions.AddStream'></a>
@@ -45,9 +41,9 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [ViewStreams](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.ViewStreams 'Guilded.Base.Permissions.StreamPermissions.ViewStreams')  
-- [JoinVoice](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.JoinVoice 'Guilded.Base.Permissions.StreamPermissions.JoinVoice')  
-- [SendMessages](StreamPermissions.md#Guilded.Base.Permissions.StreamPermissions.SendMessages 'Guilded.Base.Permissions.StreamPermissions.SendMessages')
+- [ViewStreams](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.ViewStreams 'Guilded.Base.Permissions.StreamPermissions.ViewStreams')  
+- [JoinVoice](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.JoinVoice 'Guilded.Base.Permissions.StreamPermissions.JoinVoice')  
+- [SendMessages](StreamPermissions#Guilded.Base.Permissions.StreamPermissions.SendMessages 'Guilded.Base.Permissions.StreamPermissions.SendMessages')
 
 <a name='Guilded.Base.Permissions.StreamPermissions.JoinVoice'></a>
 
@@ -76,3 +72,22 @@ Allows you to send message in stream channel
 `ViewStreams` 2
 
 Allows you to view streams
+
+### See Also
+- [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

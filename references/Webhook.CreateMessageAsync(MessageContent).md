@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a [message](Webhook.CreateMessageAsync(MessageContent).md#Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent).message 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent).message') in a chat using a webhook."
+Creates [a message](Message 'Guilded.Base.Content.Message') using webhook."
 ---
 
 ## Webhook.CreateMessageAsync(MessageContent) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Webhook`](Webhook.md 'Guilded.Base.Servers.Webhook')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Webhook`](Webhook 'Guilded.Base.Servers.Webhook')
 
-Creates a [message](Webhook.CreateMessageAsync(MessageContent).md#Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent).message 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent).message') in a chat using a webhook.
+Creates [a message](Message 'Guilded.Base.Content.Message') using webhook.
 
 ```csharp
 public System.Threading.Tasks.Task CreateMessageAsync(Guilded.Base.Content.MessageContent message);
@@ -22,17 +22,17 @@ public System.Threading.Tasks.Task CreateMessageAsync(Guilded.Base.Content.Messa
 
 <a name='Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent).message'></a>
 
-`message` [MessageContent](MessageContent.md 'Guilded.Base.Content.MessageContent')
+`message` [MessageContent](MessageContent 'Guilded.Base.Content.MessageContent')
 
 The message to send
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

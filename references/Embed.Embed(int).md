@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with colour [argb](Embed.Embed(int).md#Guilded.Base.Embeds.Embed.Embed(int).argb 'Guilded.Base.Embeds.Embed.Embed(int).argb')."
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with colour [argb](Embed.Embed(int)#Guilded.Base.Embeds.Embed.Embed(int).argb 'Guilded.Base.Embeds.Embed.Embed(int).argb')."
 ---
 
 ## Embed(int) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed.md 'Guilded.Base.Embeds.Embed')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
-Initializes a new instance of [Embed](Embed.md 'Guilded.Base.Embeds.Embed') with colour [argb](Embed.Embed(int).md#Guilded.Base.Embeds.Embed.Embed(int).argb 'Guilded.Base.Embeds.Embed.Embed(int).argb').
+Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with colour [argb](Embed.Embed(int)#Guilded.Base.Embeds.Embed.Embed(int).argb 'Guilded.Base.Embeds.Embed.Embed(int).argb').
 
 ```csharp
 public Embed(int argb);
@@ -24,4 +24,4 @@ public Embed(int argb);
 
 `argb` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
 
-The colour of the embed in RGB format
+The colour of [an embed](Embed 'Guilded.Base.Embeds.Embed') in RGB format

@@ -9,75 +9,145 @@ description: ""
 ---
 
 ## Guilded.Base.Servers Namespace
-- **[Member](Member.md 'Guilded.Base.Servers.Member')** `Class`
+- **[Member](Member 'Guilded.Base.Servers.Member')** `Class`
   A server member.
-  - **[Member(User, IList&lt;uint&gt;, string, DateTime)](Member.Member(User,IList_uint_,string,DateTime).md 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, string, System.DateTime)')** `Constructor`
-    Initializes a new instance of [Member](Member.md 'Guilded.Base.Servers.Member').
-  - **[JoinedAt](Member.JoinedAt.md 'Guilded.Base.Servers.Member.JoinedAt')** `Property`
-    Gets the date of when the member joined.
-  - **[Nickname](Member.Nickname.md 'Guilded.Base.Servers.Member.Nickname')** `Property`
-    Gets the set nickname of the user in the server.
-- **[MemberBan](MemberBan.md 'Guilded.Base.Servers.MemberBan')** `Class`
-  Represents the information of [user's](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User') ban.
-  - **[MemberBan(UserSummary, HashId, DateTime, string)](MemberBan.MemberBan(UserSummary,HashId,DateTime,string).md 'Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary, Guilded.Base.HashId, System.DateTime, string)')** `Constructor`
-    Initializes a new instance of [MemberBan](MemberBan.md 'Guilded.Base.Servers.MemberBan') with the provided details.
-  - **[CreatedAt](MemberBan.CreatedAt.md 'Guilded.Base.Servers.MemberBan.CreatedAt')** `Property`
-    Gets the date of when the [user](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User') was banned
-  - **[CreatedBy](MemberBan.CreatedBy.md 'Guilded.Base.Servers.MemberBan.CreatedBy')** `Property`
+  - **[Member(User, IList&lt;uint&gt;, DateTime, string)](Member.Member(User,IList_uint_,DateTime,string) 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, System.DateTime, string)')** `Constructor`
+    Initializes a new instance of [Member](Member 'Guilded.Base.Servers.Member')f rom the specified JSON properties.
+  - **[JoinedAt](Member.JoinedAt 'Guilded.Base.Servers.Member.JoinedAt')** `Property`
+    Gets the date when the member joined.
+  - **[Nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname')** `Property`
+    Gets the set nickname of [the user](User 'Guilded.Base.Users.User') in the server.
+- **[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')** `Class`
+  Represents the information of [user's](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') ban.
+  - **[MemberBan(UserSummary, HashId, DateTime, string)](MemberBan.MemberBan(UserSummary,HashId,DateTime,string) 'Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary, Guilded.Base.HashId, System.DateTime, string)')** `Constructor`
+    Initializes a new instance of [MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan') with the provided details.
+  - **[CreatedAt](MemberBan.CreatedAt 'Guilded.Base.Servers.MemberBan.CreatedAt')** `Property`
+    Gets the date when the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') was banned
+  - **[CreatedBy](MemberBan.CreatedBy 'Guilded.Base.Servers.MemberBan.CreatedBy')** `Property`
     Gets the identifier of the staff who banned.
-  - **[Reason](MemberBan.Reason.md 'Guilded.Base.Servers.MemberBan.Reason')** `Property`
-    Gets the reason why the [user](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified.
-  - **[User](MemberBan.User.md 'Guilded.Base.Servers.MemberBan.User')** `Property`
+  - **[Reason](MemberBan.Reason 'Guilded.Base.Servers.MemberBan.Reason')** `Property`
+    Gets the reason why the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified.
+  - **[User](MemberBan.User 'Guilded.Base.Servers.MemberBan.User')** `Property`
     Gets the banned user.
-- **[MemberSummary&lt;T&gt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>')** `Class`
+- **[MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')** `Class`
   Represents the summary about a member.
-  - **[MemberSummary(T, IList&lt;uint&gt;)](MemberSummary_T_.MemberSummary(T,IList_uint_).md 'Guilded.Base.Servers.MemberSummary<T>.MemberSummary(T, System.Collections.Generic.IList<uint>)')** `Constructor`
-    Initializes a new instance of [MemberSummary&lt;T&gt;](MemberSummary_T_.md 'Guilded.Base.Servers.MemberSummary<T>').
-  - **[Id](MemberSummary_T_.Id.md 'Guilded.Base.Servers.MemberSummary<T>.Id')** `Property`
-    Gets The identifier of [user](User.md 'Guilded.Base.Users.User').
-  - **[IsBot](MemberSummary_T_.IsBot.md 'Guilded.Base.Servers.MemberSummary<T>.IsBot')** `Property`
-    Gets whether the user is a [bot](UserType.md#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot').
-  - **[Name](MemberSummary_T_.Name.md 'Guilded.Base.Servers.MemberSummary<T>.Name')** `Property`
-    Gets the global username of the user.
-  - **[RoleIds](MemberSummary_T_.RoleIds.md 'Guilded.Base.Servers.MemberSummary<T>.RoleIds')** `Property`
+  - **[MemberSummary(T, IList&lt;uint&gt;)](MemberSummary_T_.MemberSummary(T,IList_uint_) 'Guilded.Base.Servers.MemberSummary<T>.MemberSummary(T, System.Collections.Generic.IList<uint>)')** `Constructor`
+    Initializes a new instance of [MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>').
+  - **[Id](MemberSummary_T_.Id 'Guilded.Base.Servers.MemberSummary<T>.Id')** `Property`
+    Gets the identifier of [user](User 'Guilded.Base.Users.User').
+  - **[IsBot](MemberSummary_T_.IsBot 'Guilded.Base.Servers.MemberSummary<T>.IsBot')** `Property`
+    Gets whether [the user](User 'Guilded.Base.Users.User') is a [bot](UserType#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot').
+  - **[Name](MemberSummary_T_.Name 'Guilded.Base.Servers.MemberSummary<T>.Name')** `Property`
+    Gets the global username of [the user](User 'Guilded.Base.Users.User').
+  - **[RoleIds](MemberSummary_T_.RoleIds 'Guilded.Base.Servers.MemberSummary<T>.RoleIds')** `Property`
     Gets the list of roles user holds.
-  - **[Type](MemberSummary_T_.Type.md 'Guilded.Base.Servers.MemberSummary<T>.Type')** `Property`
-    Gets the type of the user they are.
-  - **[User](MemberSummary_T_.User.md 'Guilded.Base.Servers.MemberSummary<T>.User')** `Property`
-    Gets the user they are.
-- **[Webhook](Webhook.md 'Guilded.Base.Servers.Webhook')** `Class`
-  A channel webhook.
-  - **[Webhook(Guid, string, string, Guid, HashId, DateTime, HashId, Nullable&lt;DateTime&gt;)](Webhook.Webhook(Guid,string,string,Guid,HashId,DateTime,HashId,Nullable_DateTime_).md 'Guilded.Base.Servers.Webhook.Webhook(Guid, string, string, Guid, Guilded.Base.HashId, System.DateTime, Guilded.Base.HashId, System.Nullable<System.DateTime>)')** `Constructor`
-    Initializes a new instance of [Webhook](Webhook.md 'Guilded.Base.Servers.Webhook') with the specified properties.
-  - **[ChannelId](Webhook.ChannelId.md 'Guilded.Base.Servers.Webhook.ChannelId')** `Property`
-    Gets the identifier of the channel where the webhook is.
-  - **[CreatedAt](Webhook.CreatedAt.md 'Guilded.Base.Servers.Webhook.CreatedAt')** `Property`
-    Gets the date when the webhook was created.
-  - **[CreatedBy](Webhook.CreatedBy.md 'Guilded.Base.Servers.Webhook.CreatedBy')** `Property`
-    Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that created the webhook.
-  - **[DeletedAt](Webhook.DeletedAt.md 'Guilded.Base.Servers.Webhook.DeletedAt')** `Property`
-    Gets the date when the webhook was deleted.
-  - **[Id](Webhook.Id.md 'Guilded.Base.Servers.Webhook.Id')** `Property`
-    Gets the identifier of the webhook.
-  - **[Name](Webhook.Name.md 'Guilded.Base.Servers.Webhook.Name')** `Property`
-    Gets the name of the webhook.
-  - **[ServerId](Webhook.ServerId.md 'Guilded.Base.Servers.Webhook.ServerId')** `Property`
-    Gets the identifier of the server where the webhook is.
-  - **[Token](Webhook.Token.md 'Guilded.Base.Servers.Webhook.Token')** `Property`
-    Gets the token of the webhook.
-  - **[CreateMessageAsync(MessageContent)](Webhook.CreateMessageAsync(MessageContent).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
-    Creates a message in a chat using a webhook.
-  - **[CreateMessageAsync(Embed[])](Webhook.CreateMessageAsync(Embed[]).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
-    Creates a message with content containing embeds in a chat using a webhook.
-  - **[CreateMessageAsync(string, Embed[])](Webhook.CreateMessageAsync(string,Embed[]).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
-    Creates a message with content containing embeds and content in a chat using a webhook.
-  - **[CreateMessageAsync(string, IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(string,IList_Embed_).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    Creates a message with content containing embeds and content in a chat using a webhook.
-  - **[CreateMessageAsync(string)](Webhook.CreateMessageAsync(string).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string)')** `Method`
-    Creates a message with content containing only content in a chat using a webhook.
-  - **[CreateMessageAsync(IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(IList_Embed_).md 'Guilded.Base.Servers.Webhook.CreateMessageAsync(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
-    Creates a message with content containing embeds in a chat using a webhook.
-  - **[DeleteAsync()](Webhook.DeleteAsync().md 'Guilded.Base.Servers.Webhook.DeleteAsync()')** `Method`
-    Deletes the specified webhook.
-  - **[UpdateAsync(string)](Webhook.UpdateAsync(string).md 'Guilded.Base.Servers.Webhook.UpdateAsync(string)')** `Method`
-    Updates the specified webhook in the specified server.
+  - **[Type](MemberSummary_T_.Type 'Guilded.Base.Servers.MemberSummary<T>.Type')** `Property`
+    Gets the type of [the user](User 'Guilded.Base.Users.User') they are.
+  - **[User](MemberSummary_T_.User 'Guilded.Base.Servers.MemberSummary<T>.User')** `Property`
+    Gets [the user](User 'Guilded.Base.Users.User') they are.
+- **[ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel')** `Class`
+  Represents a navigatable item that contains content.
+  - **[ServerChannel(Guid, HashId, HashId, ChannelType, string, HashId, DateTime, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, string, Nullable&lt;Guid&gt;, Nullable&lt;uint&gt;)](ServerChannel.ServerChannel(Guid,HashId,HashId,ChannelType,string,HashId,DateTime,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,string,Nullable_Guid_,Nullable_uint_) 'Guilded.Base.Servers.ServerChannel.ServerChannel(Guid, Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Servers.ChannelType, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, string, System.Nullable<Guid>, System.Nullable<uint>)')** `Constructor`
+    Initializes a new instance of [ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel') from the specified JSON properties.
+  - **[NameLimit](ServerChannel.NameLimit 'Guilded.Base.Servers.ServerChannel.NameLimit')** `Field`
+    The count of how many [characters](https://docs.microsoft.com/en-us/dotnet/api/System.Char 'System.Char') there can be in [channel's name](ServerChannel.Name 'Guilded.Base.Servers.ServerChannel.Name').
+  - **[TopicLimit](ServerChannel.TopicLimit 'Guilded.Base.Servers.ServerChannel.TopicLimit')** `Field`
+    The count of how many [characters](https://docs.microsoft.com/en-us/dotnet/api/System.Char 'System.Char') there can be in [channel's topic](ServerChannel.Topic 'Guilded.Base.Servers.ServerChannel.Topic').
+  - **[ArchivedAt](ServerChannel.ArchivedAt 'Guilded.Base.Servers.ServerChannel.ArchivedAt')** `Property`
+    Gets the date when the channel was archived.
+  - **[ArchivedBy](ServerChannel.ArchivedBy 'Guilded.Base.Servers.ServerChannel.ArchivedBy')** `Property`
+    Gets the identifier of [user](User 'Guilded.Base.Users.User') that archived the channel.
+  - **[CategoryId](ServerChannel.CategoryId 'Guilded.Base.Servers.ServerChannel.CategoryId')** `Property`
+    Gets the identifier of the parent category of this channel.
+  - **[CreatedAt](ServerChannel.CreatedAt 'Guilded.Base.Servers.ServerChannel.CreatedAt')** `Property`
+    Gets the date when the channel was created.
+  - **[CreatedBy](ServerChannel.CreatedBy 'Guilded.Base.Servers.ServerChannel.CreatedBy')** `Property`
+    Gets the identifier of [user](User 'Guilded.Base.Users.User') that created the channel.
+  - **[GroupId](ServerChannel.GroupId 'Guilded.Base.Servers.ServerChannel.GroupId')** `Property`
+    Gets the identifier of the parent group of this channel.
+  - **[Id](ServerChannel.Id 'Guilded.Base.Servers.ServerChannel.Id')** `Property`
+    Gets the identifier of the channel.
+  - **[IsArchived](ServerChannel.IsArchived 'Guilded.Base.Servers.ServerChannel.IsArchived')** `Property`
+    Gets whether the channel has been archived.
+  - **[IsCategorized](ServerChannel.IsCategorized 'Guilded.Base.Servers.ServerChannel.IsCategorized')** `Property`
+    Gets whether the channel is in a category.
+  - **[IsPublic](ServerChannel.IsPublic 'Guilded.Base.Servers.ServerChannel.IsPublic')** `Property`
+    Gets whether the channel is globally viewable.
+  - **[IsThread](ServerChannel.IsThread 'Guilded.Base.Servers.ServerChannel.IsThread')** `Property`
+    Gets whether the channel is a thread of [a channel content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
+  - **[Name](ServerChannel.Name 'Guilded.Base.Servers.ServerChannel.Name')** `Property`
+    Gets the name of the channel.
+  - **[ParentId](ServerChannel.ParentId 'Guilded.Base.Servers.ServerChannel.ParentId')** `Property`
+    Gets the identifier of the parent channel of this channel.
+  - **[ServerId](ServerChannel.ServerId 'Guilded.Base.Servers.ServerChannel.ServerId')** `Property`
+    Gets the identifier of the parent server of this channel.
+  - **[Topic](ServerChannel.Topic 'Guilded.Base.Servers.ServerChannel.Topic')** `Property`
+    Gets the topic describing what the channel is about.
+  - **[Type](ServerChannel.Type 'Guilded.Base.Servers.ServerChannel.Type')** `Property`
+    Gets the type of content the channel holds.
+  - **[UpdatedAt](ServerChannel.UpdatedAt 'Guilded.Base.Servers.ServerChannel.UpdatedAt')** `Property`
+    Gets the date when the channel was edited.
+  - **[CreateWebhookAsync(string)](ServerChannel.CreateWebhookAsync(string) 'Guilded.Base.Servers.ServerChannel.CreateWebhookAsync(string)')** `Method`
+    Creates a [new webhook](Webhook 'Guilded.Base.Servers.Webhook') in the channel.
+  - **[DeleteAsync()](ServerChannel.DeleteAsync() 'Guilded.Base.Servers.ServerChannel.DeleteAsync()')** `Method`
+    Deletes the channel.
+  - **[UpdateAsync(string, string, Nullable&lt;bool&gt;)](ServerChannel.UpdateAsync(string,string,Nullable_bool_) 'Guilded.Base.Servers.ServerChannel.UpdateAsync(string, string, System.Nullable<bool>)')** `Method`
+    Deletes the channel.
+- **[Webhook](Webhook 'Guilded.Base.Servers.Webhook')** `Class`
+  Represents a channel webhook. This is a bot-like [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') member that creates messages, list items or forum threads once its URL is invoked.
+  - **[Webhook(Guid, string, Guid, HashId, DateTime, HashId, string, Nullable&lt;DateTime&gt;)](Webhook.Webhook(Guid,string,Guid,HashId,DateTime,HashId,string,Nullable_DateTime_) 'Guilded.Base.Servers.Webhook.Webhook(Guid, string, Guid, Guilded.Base.HashId, System.DateTime, Guilded.Base.HashId, string, System.Nullable<System.DateTime>)')** `Constructor`
+    Initializes a new instance of [Webhook](Webhook 'Guilded.Base.Servers.Webhook') from the specified JSON properties.
+  - **[ChannelId](Webhook.ChannelId 'Guilded.Base.Servers.Webhook.ChannelId')** `Property`
+    Gets the identifier of the channel where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is.
+  - **[CreatedAt](Webhook.CreatedAt 'Guilded.Base.Servers.Webhook.CreatedAt')** `Property`
+    Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was created.
+  - **[CreatedBy](Webhook.CreatedBy 'Guilded.Base.Servers.Webhook.CreatedBy')** `Property`
+    Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
+  - **[DeletedAt](Webhook.DeletedAt 'Guilded.Base.Servers.Webhook.DeletedAt')** `Property`
+    Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was deleted.
+  - **[Id](Webhook.Id 'Guilded.Base.Servers.Webhook.Id')** `Property`
+    Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
+  - **[Name](Webhook.Name 'Guilded.Base.Servers.Webhook.Name')** `Property`
+    Gets the name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
+  - **[ServerId](Webhook.ServerId 'Guilded.Base.Servers.Webhook.ServerId')** `Property`
+    Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is.
+  - **[Token](Webhook.Token 'Guilded.Base.Servers.Webhook.Token')** `Property`
+    Gets the token of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
+  - **[CreateMessageAsync(MessageContent)](Webhook.CreateMessageAsync(MessageContent) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhook.
+  - **[CreateMessageAsync(Embed[])](Webhook.CreateMessageAsync(Embed[]) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') with content containing embeds using a webhook.
+  - **[CreateMessageAsync(string, Embed[])](Webhook.CreateMessageAsync(string,Embed[]) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') with content containing embeds and content using a webhook.
+  - **[CreateMessageAsync(string, IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(string,IList_Embed_) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') with content containing embeds and content using a webhook.
+  - **[CreateMessageAsync(string)](Webhook.CreateMessageAsync(string) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(string)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') with content containing only content using a webhook.
+  - **[CreateMessageAsync(IList&lt;Embed&gt;)](Webhook.CreateMessageAsync(IList_Embed_) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') with content containing embeds using a webhook.
+  - **[DeleteAsync()](Webhook.DeleteAsync() 'Guilded.Base.Servers.Webhook.DeleteAsync()')** `Method`
+    Deletes the webhook.
+  - **[UpdateAsync(string)](Webhook.UpdateAsync(string) 'Guilded.Base.Servers.Webhook.UpdateAsync(string)')** `Method`
+    Edits the webhook.
+- **[ChannelType](ChannelType 'Guilded.Base.Servers.ChannelType')** `Enum`
+  Represents the type of content that [a channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') serves.
+  - **[Announcements](ChannelType#Guilded.Base.Servers.ChannelType.Announcements 'Guilded.Base.Servers.ChannelType.Announcements')** `Field`
+    Announcement posts containing news and new information.
+  - **[Calendar](ChannelType#Guilded.Base.Servers.ChannelType.Calendar 'Guilded.Base.Servers.ChannelType.Calendar')** `Field`
+    Events in calendar system.
+  - **[Chat](ChannelType#Guilded.Base.Servers.ChannelType.Chat 'Guilded.Base.Servers.ChannelType.Chat')** `Field`
+    Chat with messages and threaded messages.
+  - **[Docs](ChannelType#Guilded.Base.Servers.ChannelType.Docs 'Guilded.Base.Servers.ChannelType.Docs')** `Field`
+    Documents containing any information.
+  - **[Forums](ChannelType#Guilded.Base.Servers.ChannelType.Forums 'Guilded.Base.Servers.ChannelType.Forums')** `Field`
+    Traditional forum threads with replies in them.
+  - **[List](ChannelType#Guilded.Base.Servers.ChannelType.List 'Guilded.Base.Servers.ChannelType.List')** `Field`
+    A list of completable tasks.
+  - **[Media](ChannelType#Guilded.Base.Servers.ChannelType.Media 'Guilded.Base.Servers.ChannelType.Media')** `Field`
+    Posts containing images and videos.
+  - **[Scheduling](ChannelType#Guilded.Base.Servers.ChannelType.Scheduling 'Guilded.Base.Servers.ChannelType.Scheduling')** `Field`
+    People's availability time.
+  - **[Stream](ChannelType#Guilded.Base.Servers.ChannelType.Stream 'Guilded.Base.Servers.ChannelType.Stream')** `Field`
+    A [voice channel](ChannelType#Guilded.Base.Servers.ChannelType.Voice 'Guilded.Base.Servers.ChannelType.Voice') without voice rooms and with screensharing and camera capibilities.
+  - **[Voice](ChannelType#Guilded.Base.Servers.ChannelType.Voice 'Guilded.Base.Servers.ChannelType.Voice')** `Field`
+    A normal [chat channel](ChannelType#Guilded.Base.Servers.ChannelType.Chat 'Guilded.Base.Servers.ChannelType.Chat') with voice chat capibilities.

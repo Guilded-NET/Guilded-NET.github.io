@@ -11,7 +11,7 @@ Gets the HTTP status that was found in the response."
 ---
 
 ## GuildedException.StatusCode Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException.md 'Guilded.Base.GuildedException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
 Gets the HTTP status that was found in the response.
 

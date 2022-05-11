@@ -11,7 +11,7 @@ Gets the identifier of the channel where the message was."
 ---
 
 ## MessageDeletedEvent.ChannelId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent.md 'Guilded.Base.Events.MessageDeletedEvent')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
 
 Gets the identifier of the channel where the message was.
 
@@ -21,4 +21,4 @@ public Guid ChannelId { get; }
 
 #### Property Value
 [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')  
-Channel ID
+[Channel ID](ServerChannel.Id 'Guilded.Base.Servers.ServerChannel.Id')

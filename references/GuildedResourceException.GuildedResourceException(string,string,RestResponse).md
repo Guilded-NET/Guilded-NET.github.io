@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with information from given parameters."
+Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException') with information from given parameters."
 ---
 
 ## GuildedResourceException(string, string, RestResponse) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with information from given parameters.
+Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException') with information from given parameters.
 
 ```csharp
 public GuildedResourceException(string code, string message, RestSharp.RestResponse response);
@@ -37,3 +37,9 @@ The description of the error from Guilded API
 `response` [RestSharp.RestResponse](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.RestResponse 'RestSharp.RestResponse')
 
 The response that was received from Guilded API
+
+### See Also
+- [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
+- [GuildedResourceException()](GuildedResourceException.GuildedResourceException() 'Guilded.Base.GuildedResourceException.GuildedResourceException()')
+- [GuildedResourceException(string)](GuildedResourceException.GuildedResourceException(string) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string)')
+- [GuildedResourceException(string, Exception)](GuildedResourceException.GuildedResourceException(string,Exception) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception)')

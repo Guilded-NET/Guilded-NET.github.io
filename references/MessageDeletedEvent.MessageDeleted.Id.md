@@ -11,7 +11,7 @@ Gets the identifier of the message."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.Id Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted.md 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
 Gets the identifier of the message.
 

@@ -7,18 +7,18 @@ tags:
   - property
 description: "
 
-The identifier of [user](User.md 'Guilded.Base.Users.User') that created the note."
+The identifier of [user](User 'Guilded.Base.Users.User') that created the note."
 ---
 
 ## ListItemNoteSummary.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary.md 'Guilded.Base.Content.ListItemNoteSummary')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
 
-The identifier of [user](User.md 'Guilded.Base.Users.User') that created the note.
+The identifier of [user](User 'Guilded.Base.Users.User') that created the note.
 
 ```csharp
 public Guilded.Base.HashId CreatedBy { get; }
 ```
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
-User ID
+[HashId](HashId 'Guilded.Base.HashId')  
+[User ID](UserSummary.Id 'Guilded.Base.Users.UserSummary.Id')

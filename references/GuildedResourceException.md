@@ -11,7 +11,7 @@ Represents an exception thrown by Guilded API when a request has invalid path."
 ---
 
 ## GuildedResourceException Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base.md 'Guilded.Base')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Represents an exception thrown by Guilded API when a request has invalid path.
 
@@ -19,7 +19,7 @@ Represents an exception thrown by Guilded API when a request has invalid path.
 public sealed class GuildedResourceException : Guilded.Base.GuildedException
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#129106; [GuildedException](GuildedException.md 'Guilded.Base.GuildedException') &#129106; GuildedResourceException
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception') &#129106; [GuildedException](GuildedException 'Guilded.Base.GuildedException') &#129106; GuildedResourceException
 
 ### Remarks
   
@@ -29,14 +29,14 @@ This has these leading causes:
 
 | Constructors | |
 | :--- | :--- |
-| [GuildedResourceException()](GuildedResourceException.GuildedResourceException().md 'Guilded.Base.GuildedResourceException.GuildedResourceException()') | Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with default message. |
-| [GuildedResourceException(string, string, RestResponse)](GuildedResourceException.GuildedResourceException(string,string,RestResponse).md 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, string, RestSharp.RestResponse)') | Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with information from given parameters. |
-| [GuildedResourceException(string, Exception)](GuildedResourceException.GuildedResourceException(string,Exception).md 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception)') | Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException') with an [inner](GuildedResourceException.GuildedResourceException(string,Exception).md#Guilded.Base.GuildedResourceException.GuildedResourceException(string,System.Exception).inner 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception).inner') explaining more. |
-| [GuildedResourceException(string)](GuildedResourceException.GuildedResourceException(string).md 'Guilded.Base.GuildedResourceException.GuildedResourceException(string)') | Initializes a new instance of [GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException'). |
+| [GuildedResourceException()](GuildedResourceException.GuildedResourceException() 'Guilded.Base.GuildedResourceException.GuildedResourceException()') | Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException') with default message. |
+| [GuildedResourceException(string, string, RestResponse)](GuildedResourceException.GuildedResourceException(string,string,RestResponse) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, string, RestSharp.RestResponse)') | Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException') with information from given parameters. |
+| [GuildedResourceException(string, Exception)](GuildedResourceException.GuildedResourceException(string,Exception) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception)') | Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException') with an [inner](GuildedResourceException.GuildedResourceException(string,Exception)#Guilded.Base.GuildedResourceException.GuildedResourceException(string,System.Exception).inner 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception).inner') explaining more. |
+| [GuildedResourceException(string)](GuildedResourceException.GuildedResourceException(string) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string)') | Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException'). |
 
 ### See Also
-- [GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
-- [GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
-- [GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
-- [GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
-- [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException')
+- [GuildedException](GuildedException 'Guilded.Base.GuildedException')
+- [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
+- [GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
+- [GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
+- [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')

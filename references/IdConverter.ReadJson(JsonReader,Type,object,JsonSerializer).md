@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Reads the given JSON object as [HashId](HashId.md 'Guilded.Base.HashId') or [FormId](FormId.md 'Guilded.Base.FormId')."
+Reads the given JSON object as [HashId](HashId 'Guilded.Base.HashId') or [FormId](FormId 'Guilded.Base.FormId')."
 ---
 
 ## IdConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter.md 'Guilded.Base.IdConverter')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter 'Guilded.Base.IdConverter')
 
-Reads the given JSON object as [HashId](HashId.md 'Guilded.Base.HashId') or [FormId](FormId.md 'Guilded.Base.FormId').
+Reads the given JSON object as [HashId](HashId 'Guilded.Base.HashId') or [FormId](FormId 'Guilded.Base.FormId').
 
 ```csharp
 public override object? ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, object? existingValue, Newtonsoft.Json.JsonSerializer serializer);
@@ -46,4 +46,4 @@ The serializer that is deserializing the object
 
 #### Returns
 [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')  
-[HashId](HashId.md 'Guilded.Base.HashId') or [FormId](FormId.md 'Guilded.Base.FormId')
+[HashId](HashId 'Guilded.Base.HashId') or [FormId](FormId 'Guilded.Base.FormId')

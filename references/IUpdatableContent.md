@@ -7,24 +7,30 @@ tags:
   - interface
 description: "
 
-Represents the content that can be updated."
+Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that can be edited."
 ---
 
 ## IUpdatableContent Interface
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content.md 'Guilded.Base.Content')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
-Represents the content that can be updated.
+Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that can be edited.
 
 ```csharp
 public interface IUpdatableContent
 ```
 
 Derived  
-&#8627; [ListItem&lt;T&gt;](ListItem_T_.md 'Guilded.Base.Content.ListItem<T>')  
-&#8627; [ListItemNoteSummary](ListItemNoteSummary.md 'Guilded.Base.Content.ListItemNoteSummary')  
-&#8627; [Message](Message.md 'Guilded.Base.Content.Message')  
-&#8627; [TitledContent](TitledContent.md 'Guilded.Base.Content.TitledContent')
+&#8627; [ListItemBase&lt;T&gt;](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')  
+&#8627; [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')  
+&#8627; [Message](Message 'Guilded.Base.Content.Message')  
+&#8627; [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')
 
 | Properties | |
 | :--- | :--- |
-| [UpdatedAt](IUpdatableContent.UpdatedAt.md 'Guilded.Base.Content.IUpdatableContent.UpdatedAt') | Gets the date of when the content was edited. |
+| [UpdatedAt](IUpdatableContent.UpdatedAt 'Guilded.Base.Content.IUpdatableContent.UpdatedAt') | Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were edited. |
+
+### See Also
+- [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
+- [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+- [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable')
+- [IReactibleContent](IReactibleContent 'Guilded.Base.Content.IReactibleContent')

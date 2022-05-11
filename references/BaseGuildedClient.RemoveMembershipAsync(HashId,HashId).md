@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Removes the [user](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') from the [group](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group')."
+Removes [user](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') from [group](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group')."
 ---
 
 ## BaseGuildedClient.RemoveMembershipAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Removes the [user](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') from the [group](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId).md#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
+Removes [user](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') from [group](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
 
 ```csharp
 public abstract System.Threading.Tasks.Task RemoveMembershipAsync(Guilded.Base.HashId group, Guilded.Base.HashId user);
@@ -21,30 +21,30 @@ public abstract System.Threading.Tasks.Task RemoveMembershipAsync(Guilded.Base.H
 
 ### Remarks
   
-This disallows the member to interact or see the specified group.
+This disallows [user](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') to interact or see the specified group.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group'></a>
 
-`group` [HashId](HashId.md 'Guilded.Base.HashId')
+`group` [HashId](HashId 'Guilded.Base.HashId')
 
 The identifier of the parent group
 
 <a name='Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user'></a>
 
-`user` [HashId](HashId.md 'Guilded.Base.HashId')
+`user` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the member to remove
+The identifier of [the member](Member 'Guilded.Base.Servers.Member') to remove
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

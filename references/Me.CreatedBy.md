@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that has created [this client](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')."
+Gets the identifier of [user](User 'Guilded.Base.Users.User') that has created [this client](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')."
 ---
 
 ## Me.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me.md 'Guilded.Base.Users.Me')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me 'Guilded.Base.Users.Me')
 
-Gets The identifier of [user](User.md 'Guilded.Base.Users.User') that has created [this client](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient').
+Gets the identifier of [user](User 'Guilded.Base.Users.User') that has created [this client](BaseGuildedClient 'Guilded.Base.BaseGuildedClient').
 
 ```csharp
 public Guilded.Base.HashId CreatedBy { get; set; }
@@ -21,8 +21,12 @@ public Guilded.Base.HashId CreatedBy { get; set; }
 
 ### Remarks
   
-This should usually be the identifier of your account or the user who owns the bot.
+This should usually be the identifier of your account or [the user](User 'Guilded.Base.Users.User') who owns the bot.
 
 #### Property Value
-[HashId](HashId.md 'Guilded.Base.HashId')  
-User ID
+[HashId](HashId 'Guilded.Base.HashId')  
+[User ID](UserSummary.Id 'Guilded.Base.Users.UserSummary.Id')
+
+### See Also
+- [Me](Me 'Guilded.Base.Users.Me')
+- [CreatedAt](Me.CreatedAt 'Guilded.Base.Users.Me.CreatedAt')

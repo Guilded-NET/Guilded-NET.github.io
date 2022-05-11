@@ -7,21 +7,17 @@ tags:
   - enum
 description: "
 
-Permissions related to announcements."
+Represents channel permissions for announcement related things."
 ---
 
 ## AnnouncementPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions.md 'Guilded.Base.Permissions')
+###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
-Permissions related to announcements.
+Represents channel permissions for announcement related things.
 
 ```csharp
 public enum AnnouncementPermissions
 ```
-
-### Remarks
-  
-Defines channel permissions for announcement related things.
 ### Fields
 
 <a name='Guilded.Base.Permissions.AnnouncementPermissions.All'></a>
@@ -39,7 +35,7 @@ A simple permission combination allowing writing permissions and reading permiss
 ### Remarks
   
 Sets these permissions:  
-- [CreateAnnouncements](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements')
+- [CreateAnnouncements](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements')
 
 <a name='Guilded.Base.Permissions.AnnouncementPermissions.CreateAnnouncements'></a>
 
@@ -56,7 +52,7 @@ All of the manage permissions combined.
 ### Remarks
   
 Sets these permissions:  
-- [ManageAnnouncements](AnnouncementPermissions.md#Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements')
+- [ManageAnnouncements](AnnouncementPermissions#Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements 'Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements')
 
 <a name='Guilded.Base.Permissions.AnnouncementPermissions.ManageAnnouncements'></a>
 
@@ -75,3 +71,22 @@ No given permissions.
 `ViewAnnouncements` 2
 
 Allows you to view announcements
+
+### See Also
+- [BotPermissions](BotPermissions 'Guilded.Base.Permissions.BotPermissions')
+- [BracketPermissions](BracketPermissions 'Guilded.Base.Permissions.BracketPermissions')
+- [CalendarPermissions](CalendarPermissions 'Guilded.Base.Permissions.CalendarPermissions')
+- [ChatPermissions](ChatPermissions 'Guilded.Base.Permissions.ChatPermissions')
+- [CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')
+- [DocPermissions](DocPermissions 'Guilded.Base.Permissions.DocPermissions')
+- [FormPermissions](FormPermissions 'Guilded.Base.Permissions.FormPermissions')
+- [ForumPermissions](ForumPermissions 'Guilded.Base.Permissions.ForumPermissions')
+- [GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')
+- [ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')
+- [MatchmakingPermissions](MatchmakingPermissions 'Guilded.Base.Permissions.MatchmakingPermissions')
+- [MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')
+- [RecruitmentPermissions](RecruitmentPermissions 'Guilded.Base.Permissions.RecruitmentPermissions')
+- [SchedulingPermissions](SchedulingPermissions 'Guilded.Base.Permissions.SchedulingPermissions')
+- [StreamPermissions](StreamPermissions 'Guilded.Base.Permissions.StreamPermissions')
+- [VoicePermissions](VoicePermissions 'Guilded.Base.Permissions.VoicePermissions')
+- [XpPermissions](XpPermissions 'Guilded.Base.Permissions.XpPermissions')

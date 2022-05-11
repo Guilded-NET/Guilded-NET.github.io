@@ -11,7 +11,7 @@ Gets an operation code that tells about the message."
 ---
 
 ## GuildedSocketMessage.Opcode Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage.md 'Guilded.Base.Events.GuildedSocketMessage')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
 Gets an operation code that tells about the message.
 
@@ -31,8 +31,13 @@ Opcodes are defined as following:
 |Error|  
   
   
-If [Opcode](GuildedSocketMessage.Opcode.md 'Guilded.Base.Events.GuildedSocketMessage.Opcode') is received as `8`, [GuildedWebsocketException](GuildedWebsocketException.md 'Guilded.Base.GuildedWebsocketException') will be received instead of a typical event.
+If [Opcode](GuildedSocketMessage.Opcode 'Guilded.Base.Events.GuildedSocketMessage.Opcode') is received as `8`, [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException') will be received instead of a typical event.
 
 #### Property Value
 [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte 'System.Byte')  
 Opcode
+
+### See Also
+- [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
+- [EventName](GuildedSocketMessage.EventName 'Guilded.Base.Events.GuildedSocketMessage.EventName')
+- [RawData](GuildedSocketMessage.RawData 'Guilded.Base.Events.GuildedSocketMessage.RawData')

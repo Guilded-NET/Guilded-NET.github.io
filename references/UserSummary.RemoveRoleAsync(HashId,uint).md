@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Removes a [role](UserSummary.RemoveRoleAsync(HashId,uint).md#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role') from the user."
+Removes [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role') from [the user](User 'Guilded.Base.Users.User')."
 ---
 
 ## UserSummary.RemoveRoleAsync(HashId, uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary.md 'Guilded.Base.Users.UserSummary')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
-Removes a [role](UserSummary.RemoveRoleAsync(HashId,uint).md#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role') from the user.
+Removes [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role') from [the user](User 'Guilded.Base.Users.User').
 
 ```csharp
 public System.Threading.Tasks.Task RemoveRoleAsync(Guilded.Base.HashId server, uint role);
@@ -21,14 +21,14 @@ public System.Threading.Tasks.Task RemoveRoleAsync(Guilded.Base.HashId server, u
 
 ### Remarks
   
-If they don't hold the specified [role](UserSummary.RemoveRoleAsync(HashId,uint).md#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role'), then nothing happens.
+If they don't hold the [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
 <a name='Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).server'></a>
 
-`server` [HashId](HashId.md 'Guilded.Base.HashId')
+`server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to modify member in
+The server to modify [member](Member 'Guilded.Base.Servers.Member') in
 
 <a name='Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role'></a>
 
@@ -38,13 +38,13 @@ The identifier of the role to remove
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

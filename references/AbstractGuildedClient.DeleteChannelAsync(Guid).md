@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid).md#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel')."
+Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel')."
 ---
 
 ## AbstractGuildedClient.DeleteChannelAsync(Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient.md 'Guilded.AbstractGuildedClient')
+###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid).md#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel').
+Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task DeleteChannelAsync(Guid channel);
@@ -28,15 +28,15 @@ The identifier of the channel to delete
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedPermissionException](GuildedPermissionException.md 'Guilded.Base.GuildedPermissionException')
+[GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedAuthorizationException](GuildedAuthorizationException.md 'Guilded.Base.GuildedAuthorizationException')
+[GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a message with content containing [embeds](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_).md#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') in a chat using a [webhook](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_).md#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).webhook 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).webhook')."
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing [embeds](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_)#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') using a [webhook](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_)#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).webhook 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).webhook')."
 ---
 
 ## BaseGuildedClient.CreateHookMessageAsync(Guid, string, IList<Embed>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient.md 'Guilded.Base.BaseGuildedClient')
+###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-Creates a message with content containing [embeds](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_).md#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') in a chat using a [webhook](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_).md#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).webhook 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).webhook').
+Creates [a message](Message 'Guilded.Base.Content.Message') with content containing [embeds](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_)#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).embeds') using a [webhook](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_)#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).webhook 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>).webhook').
 
 ```csharp
 public System.Threading.Tasks.Task CreateHookMessageAsync(Guid webhook, string token, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed> embeds);
@@ -24,27 +24,27 @@ public System.Threading.Tasks.Task CreateHookMessageAsync(Guid webhook, string t
 
 `webhook` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of the webhook to execute
+The identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') to execute
 
 <a name='Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).token'></a>
 
 `token` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The required token for executing the webhook
+The [required token](Webhook.Token 'Guilded.Base.Servers.Webhook.Token') of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') to execute it
 
 <a name='Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,System.Collections.Generic.IList_Guilded.Base.Embeds.Embed_).embeds'></a>
 
-`embeds` [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Embed](Embed.md 'Guilded.Base.Embeds.Embed')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')
+`embeds` [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[Embed](Embed 'Guilded.Base.Embeds.Embed')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')
 
-The list of embeds to add in the message
+The array of [all custom embeds](Embed 'Guilded.Base.Embeds.Embed') in [the message](Message 'Guilded.Base.Content.Message') (max — `1`)
 
 #### Exceptions
 
-[GuildedException](GuildedException.md 'Guilded.Base.GuildedException')
+[GuildedException](GuildedException 'Guilded.Base.GuildedException')
 
-[GuildedRequestException](GuildedRequestException.md 'Guilded.Base.GuildedRequestException')
+[GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
-[GuildedResourceException](GuildedResourceException.md 'Guilded.Base.GuildedResourceException')
+[GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
 #### Returns
 [System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')
