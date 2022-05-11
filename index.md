@@ -7,12 +7,10 @@ tags:
     - Guilded.NET
     - Website
 ---
-<div align="center">
 
 [![Banner](https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Banner.png)](https://github.com/Guilded-NET/Guilded.NET)
 
 # 🟡 Guilded.NET
-</div>
 
 Guilded.NET is a free and open-source unofficial API wrapper for [Guilded](https://guilded.gg/) written on .NET platform. It allows creating bots, webhooks and interacting any other way with Guilded API.
 
