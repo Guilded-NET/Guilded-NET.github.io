@@ -11,7 +11,7 @@ Represents the type of user someone is."
 ---
 
 ## UserType Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
 
 Represents the type of user someone is.
 

@@ -11,7 +11,7 @@ Gets the properties that have been updated in the member."
 ---
 
 ## MemberUpdatedEvent.UserInfo Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
 
 Gets the properties that have been updated in the member.
 

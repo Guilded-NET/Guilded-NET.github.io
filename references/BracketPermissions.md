@@ -11,7 +11,7 @@ Represents team permissions for tournament bracket related things."
 ---
 
 ## BracketPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
 Represents team permissions for tournament bracket related things.
 

@@ -11,7 +11,7 @@ Gets the date when [the message](Message 'Guilded.Base.Content.Message') was edi
 ---
 
 ## MessageEvent.UpdatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
 
 Gets the date when [the message](Message 'Guilded.Base.Content.Message') was edited.
 

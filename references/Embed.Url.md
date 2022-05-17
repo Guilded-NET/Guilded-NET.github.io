@@ -11,7 +11,7 @@ Gets the URL of the content that [embed](Embed 'Guilded.Base.Embeds.Embed') disp
 ---
 
 ## Embed.Url Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Gets the URL of the content that [embed](Embed 'Guilded.Base.Embeds.Embed') displays.
 

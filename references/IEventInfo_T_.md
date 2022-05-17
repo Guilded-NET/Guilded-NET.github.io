@@ -11,7 +11,7 @@ Represents the base interface for event info."
 ---
 
 ## IEventInfo<T> Interface
-###### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded 'Guilded')
+##### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded 'Guilded')
 
 Represents the base interface for event info.
 

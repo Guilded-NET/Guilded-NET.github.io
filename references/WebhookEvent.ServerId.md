@@ -11,7 +11,7 @@ Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Serv
 ---
 
 ## WebhookEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
 Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') has been created/updated.
 

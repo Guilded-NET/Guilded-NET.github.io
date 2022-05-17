@@ -11,7 +11,7 @@ Initializes a new instance of [ServerChannel](ServerChannel 'Guilded.Base.Server
 ---
 
 ## ServerChannel(Guid, HashId, HashId, ChannelType, string, HashId, DateTime, Nullable<DateTime>, Nullable<HashId>, Nullable<DateTime>, string, Nullable<Guid>, Nullable<uint>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 Initializes a new instance of [ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel') from the specified JSON properties.
 

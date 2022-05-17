@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User')."
 ---
 
 ## MemberUpdatedEvent.MemberUpdate.Id Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdate`](MemberUpdatedEvent.MemberUpdate 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdate`](MemberUpdatedEvent.MemberUpdate 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User').
 

@@ -11,7 +11,7 @@ Connects this client to Guilded."
 ---
 
 ## BaseGuildedClient.ConnectAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Connects this client to Guilded.
 

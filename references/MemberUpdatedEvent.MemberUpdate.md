@@ -11,7 +11,7 @@ Represents the properties that have been updated in the member."
 ---
 
 ## MemberUpdatedEvent.MemberUpdate Class
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
 
 Represents the properties that have been updated in the member.
 
@@ -28,7 +28,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Properties | |
 | :--- | :--- |
 | [Id](MemberUpdatedEvent.MemberUpdate.Id 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Id') | Gets the identifier of [user](User 'Guilded.Base.Users.User'). |
-| [Nickname](MemberUpdatedEvent.MemberUpdate.Nickname 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname') | Gets the set nickname of [the user](User 'Guilded.Base.Users.User') in the server. |
+| [Nickname](MemberUpdatedEvent.MemberUpdate.Nickname 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname') | Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in the server. |
 
 ### See Also
 - [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')

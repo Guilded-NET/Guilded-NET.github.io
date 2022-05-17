@@ -11,7 +11,7 @@ Initializes a new instance of [Doc](Doc 'Guilded.Base.Content.Doc') from the spe
 ---
 
 ## Doc(uint, Guid, HashId, string, string, HashId, DateTime, Nullable<HashId>, Nullable<DateTime>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
 
 Initializes a new instance of [Doc](Doc 'Guilded.Base.Content.Doc') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Sets the [image](Embed.Image 'Guilded.Base.Embeds.Embed.Image') as the given [va
 ---
 
 ## Embed.SetImage(EmbedMedia) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [image](Embed.Image 'Guilded.Base.Embeds.Embed.Image') as the given [value](Embed.SetImage(EmbedMedia)#Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia).value 'Guilded.Base.Embeds.Embed.SetImage(Guilded.Base.Embeds.EmbedMedia).value').
 

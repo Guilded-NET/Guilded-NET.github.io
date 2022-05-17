@@ -11,7 +11,7 @@ Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Conte
 ---
 
 ## MessageEvent.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
 
 Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created.
 

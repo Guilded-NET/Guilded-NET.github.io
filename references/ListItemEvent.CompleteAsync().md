@@ -11,7 +11,7 @@ Marks the listItem as [completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Cont
 ---
 
 ## ListItemEvent.CompleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Marks the listItem as [completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase<T>.IsCompleted').
 

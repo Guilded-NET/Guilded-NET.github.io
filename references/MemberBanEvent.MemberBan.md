@@ -11,7 +11,7 @@ Gets the information about the member's ban."
 ---
 
 ## MemberBanEvent.MemberBan Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
 
 Gets the information about the member's ban.
 

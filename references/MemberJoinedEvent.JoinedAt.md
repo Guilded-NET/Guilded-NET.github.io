@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the date when the member joined."
+Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined."
 ---
 
 ## MemberJoinedEvent.JoinedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
 
-Gets the date when the member joined.
+Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined.
 
 ```csharp
 public System.DateTime JoinedAt { get; }

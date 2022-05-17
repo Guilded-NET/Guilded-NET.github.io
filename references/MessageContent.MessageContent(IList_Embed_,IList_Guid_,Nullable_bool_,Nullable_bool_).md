@@ -11,7 +11,7 @@ Creates an instance of [MessageContent](MessageContent 'Guilded.Base.Content.Mes
 ---
 
 ## MessageContent(IList<Embed>, IList<Guid>, Nullable<bool>, Nullable<bool>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
 
 Creates an instance of [MessageContent](MessageContent 'Guilded.Base.Content.MessageContent') with no content.
 

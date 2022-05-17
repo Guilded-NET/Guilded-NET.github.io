@@ -11,7 +11,7 @@ Represents an event with an event opcode of `2` that occurs when the client pass
 ---
 
 ## AbstractGuildedClient.Resume Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Represents an event with an event opcode of `2` that occurs when the client passes last event message identifier.
 

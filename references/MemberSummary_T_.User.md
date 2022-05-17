@@ -11,7 +11,7 @@ Gets [the user](User 'Guilded.Base.Users.User') they are."
 ---
 
 ## MemberSummary<T>.User Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
 
 Gets [the user](User 'Guilded.Base.Users.User') they are.
 

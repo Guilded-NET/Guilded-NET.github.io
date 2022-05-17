@@ -11,7 +11,7 @@ Adds a [role](UserSummary.AddRoleAsync(HashId,uint)#Guilded.Base.Users.UserSumma
 ---
 
 ## UserSummary.AddRoleAsync(HashId, uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Adds a [role](UserSummary.AddRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId, uint).role') to [the user](User 'Guilded.Base.Users.User').
 

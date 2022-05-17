@@ -11,7 +11,7 @@ Deletes the webhook."
 ---
 
 ## WebhookEvent.DeleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
 Deletes the webhook.
 

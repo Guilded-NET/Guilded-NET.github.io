@@ -11,7 +11,7 @@ Creates a [new document](Doc 'Guilded.Base.Content.Doc')."
 ---
 
 ## BaseGuildedClient.CreateDocAsync(Guid, string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Creates a [new document](Doc 'Guilded.Base.Content.Doc').
 

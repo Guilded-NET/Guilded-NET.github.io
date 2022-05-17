@@ -11,7 +11,7 @@ Gets the title of the [embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Title Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Gets the title of the [embed](Embed 'Guilded.Base.Embeds.Embed').
 

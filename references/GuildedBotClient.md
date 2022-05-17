@@ -11,7 +11,7 @@ Represents the client type for Guilded bots."
 ---
 
 ## GuildedBotClient Class
-###### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded 'Guilded')
+##### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded 'Guilded')
 
 Represents the client type for Guilded bots.
 

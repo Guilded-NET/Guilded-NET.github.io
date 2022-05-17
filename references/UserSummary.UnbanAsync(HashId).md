@@ -11,7 +11,7 @@ Unbans the member."
 ---
 
 ## UserSummary.UnbanAsync(HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Unbans the member.
 

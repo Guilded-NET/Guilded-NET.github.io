@@ -11,7 +11,7 @@ Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Conte
 ---
 
 ## ChannelContent<TId,TServer>.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
 
 Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created.
 

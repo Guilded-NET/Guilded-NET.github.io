@@ -11,7 +11,7 @@ Gets the first XP receiving [user](XpAddedEvent.Users 'Guilded.Base.Events.XpAdd
 ---
 
 ## XpAddedEvent.FirstUser Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
 
 Gets the first XP receiving [user](XpAddedEvent.Users 'Guilded.Base.Events.XpAddedEvent.Users').
 

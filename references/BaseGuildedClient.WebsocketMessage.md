@@ -11,7 +11,7 @@ An event when WebSocket receives a message."
 ---
 
 ## BaseGuildedClient.WebsocketMessage Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 An event when WebSocket receives a message.
 

@@ -11,7 +11,7 @@ Deletes the message."
 ---
 
 ## Message.DeleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Deletes the message.
 

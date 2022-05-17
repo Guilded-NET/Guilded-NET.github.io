@@ -11,7 +11,7 @@ Gets whether the list item was ticked off"
 ---
 
 ## ListItemBase<T>.IsCompleted Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
 Gets whether the list item was ticked off
 

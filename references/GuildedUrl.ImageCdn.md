@@ -11,7 +11,7 @@ The URL to Guilded's image CDN."
 ---
 
 ## GuildedUrl.ImageCdn Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
 
 The URL to Guilded's image CDN.
 

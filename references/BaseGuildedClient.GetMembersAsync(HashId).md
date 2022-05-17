@@ -11,7 +11,7 @@ Gets the list of all [server](BaseGuildedClient.GetMembersAsync(HashId)#Guilded.
 ---
 
 ## BaseGuildedClient.GetMembersAsync(HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets the list of all [server](BaseGuildedClient.GetMembersAsync(HashId)#Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId).server')[members](Member 'Guilded.Base.Servers.Member').
 

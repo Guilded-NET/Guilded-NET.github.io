@@ -11,7 +11,7 @@ Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with a 
 ---
 
 ## Embed(string, Uri, string, EmbedFooter, DateTime) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with a [footer](Embed.Embed(string,Uri,string,EmbedFooter,DateTime)#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).footer 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).footer') and a [title](Embed.Embed(string,Uri,string,EmbedFooter,DateTime)#Guilded.Base.Embeds.Embed.Embed(string,Uri,string,Guilded.Base.Embeds.EmbedFooter,System.DateTime).title 'Guilded.Base.Embeds.Embed.Embed(string, Uri, string, Guilded.Base.Embeds.EmbedFooter, System.DateTime).title').
 

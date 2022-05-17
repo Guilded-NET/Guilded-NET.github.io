@@ -11,7 +11,7 @@ Headers that will be used for REST and WebSocket clients."
 ---
 
 ## BaseGuildedClient.AdditionalHeaders Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Headers that will be used for REST and WebSocket clients.
 

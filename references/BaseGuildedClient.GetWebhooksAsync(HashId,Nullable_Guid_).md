@@ -11,7 +11,7 @@ Gets a list of [webhooks](Webhook 'Guilded.Base.Servers.Webhook')."
 ---
 
 ## BaseGuildedClient.GetWebhooksAsync(HashId, Nullable<Guid>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets a list of [webhooks](Webhook 'Guilded.Base.Servers.Webhook').
 

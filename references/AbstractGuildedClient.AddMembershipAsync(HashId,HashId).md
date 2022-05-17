@@ -11,7 +11,7 @@ Adds user to [group](AbstractGuildedClient.AddMembershipAsync(HashId,HashId)#Gui
 ---
 
 ## AbstractGuildedClient.AddMembershipAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Adds user to [group](AbstractGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
 

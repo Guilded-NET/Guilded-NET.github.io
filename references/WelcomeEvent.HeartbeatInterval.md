@@ -11,7 +11,7 @@ Gets the time duration between heartbeats in milliseconds."
 ---
 
 ## WelcomeEvent.HeartbeatInterval Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
 
 Gets the time duration between heartbeats in milliseconds.
 

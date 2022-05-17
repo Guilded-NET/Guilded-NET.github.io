@@ -11,7 +11,7 @@ Adds emote to the content."
 ---
 
 ## DocEvent.AddReactionAsync(uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Adds emote to the content.
 

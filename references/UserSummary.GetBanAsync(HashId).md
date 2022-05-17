@@ -11,7 +11,7 @@ Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban
 ---
 
 ## UserSummary.GetBanAsync(HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban of member.
 

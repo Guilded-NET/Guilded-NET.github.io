@@ -11,7 +11,7 @@ Message that was received from a WebSocket client."
 ---
 
 ## GuildedSocketMessage Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
 Message that was received from a WebSocket client.
 

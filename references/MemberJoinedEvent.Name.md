@@ -11,7 +11,7 @@ Gets the global username of [the user](User 'Guilded.Base.Users.User')."
 ---
 
 ## MemberJoinedEvent.Name Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
 
 Gets the global username of [the user](User 'Guilded.Base.Users.User').
 

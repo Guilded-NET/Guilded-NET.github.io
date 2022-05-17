@@ -11,7 +11,7 @@ Updates the [channel](BaseGuildedClient.UpdateChannelAsync(Guid,string,string,Nu
 ---
 
 ## BaseGuildedClient.UpdateChannelAsync(Guid, string, string, Nullable<bool>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Updates the [channel](BaseGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.Base.BaseGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.Base.BaseGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel').
 

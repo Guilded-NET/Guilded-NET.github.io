@@ -11,7 +11,7 @@ Represents an event with the name `ChatMessageDeleted` and opcode `0` that occur
 ---
 
 ## MessageDeletedEvent Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
 Represents an event with the name `ChatMessageDeleted` and opcode `0` that occurs once someone creates/posts a message in the chat.
 
@@ -30,6 +30,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [ChannelId](MessageDeletedEvent.ChannelId 'Guilded.Base.Events.MessageDeletedEvent.ChannelId') | Gets the identifier of the channel where the message was. |
 | [DeletedAt](MessageDeletedEvent.DeletedAt 'Guilded.Base.Events.MessageDeletedEvent.DeletedAt') | Gets the date when the message was deleted. |
 | [Id](MessageDeletedEvent.Id 'Guilded.Base.Events.MessageDeletedEvent.Id') | Gets the identifier of the message. |
+| [IsPrivate](MessageDeletedEvent.IsPrivate 'Guilded.Base.Events.MessageDeletedEvent.IsPrivate') | Gets whether the deleted message was [private mention](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate') or a [private reply](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate'). |
 
 ### See Also
 - [MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')

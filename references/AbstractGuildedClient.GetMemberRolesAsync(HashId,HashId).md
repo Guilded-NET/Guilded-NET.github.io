@@ -11,7 +11,7 @@ Gets the list of roles [member](AbstractGuildedClient.GetMemberRolesAsync(HashId
 ---
 
 ## AbstractGuildedClient.GetMemberRolesAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets the list of roles [member](AbstractGuildedClient.GetMemberRolesAsync(HashId,HashId)#Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') holds.
 

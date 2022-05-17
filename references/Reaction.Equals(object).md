@@ -11,7 +11,7 @@ Returns whether this and [obj](Reaction.Equals(object)#Guilded.Base.Content.Reac
 ---
 
 ## Reaction.Equals(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
 
 Returns whether this and [obj](Reaction.Equals(object)#Guilded.Base.Content.Reaction.Equals(object).obj 'Guilded.Base.Content.Reaction.Equals(object).obj') are equal to each other.
 

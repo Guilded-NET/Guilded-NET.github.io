@@ -11,7 +11,7 @@ Initializes a new instance of [ListItemBase&lt;T&gt;](ListItemBase_T_ 'Guilded.B
 ---
 
 ## ListItemBase(Guid, Guid, HashId, string, HashId, DateTime, Nullable<Guid>, T, Nullable<DateTime>, Nullable<HashId>, Nullable<DateTime>, Nullable<HashId>, Nullable<Guid>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
 Initializes a new instance of [ListItemBase&lt;T&gt;](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>') from the specified JSON properties.
 

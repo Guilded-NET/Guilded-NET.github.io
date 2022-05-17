@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the set nickname of [the user](User 'Guilded.Base.Users.User') in the server."
+Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in the server."
 ---
 
 ## Member.Nickname Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Member`](Member 'Guilded.Base.Servers.Member')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Member`](Member 'Guilded.Base.Servers.Member')
 
-Gets the set nickname of [the user](User 'Guilded.Base.Users.User') in the server.
+Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in the server.
 
 ```csharp
 public string? Nickname { get; set; }

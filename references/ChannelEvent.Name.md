@@ -11,7 +11,7 @@ Gets the name of the channel."
 ---
 
 ## ChannelEvent.Name Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Gets the name of the channel.
 

@@ -11,7 +11,7 @@ Removes the member from the [server](UserSummary.KickAsync(HashId)#Guilded.Base.
 ---
 
 ## UserSummary.KickAsync(HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Removes the member from the [server](UserSummary.KickAsync(HashId)#Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId).server 'Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId).server').
 

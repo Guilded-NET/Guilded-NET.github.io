@@ -11,7 +11,7 @@ Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a system 
 ---
 
 ## Message.IsSystemMessage Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a system message](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System').
 

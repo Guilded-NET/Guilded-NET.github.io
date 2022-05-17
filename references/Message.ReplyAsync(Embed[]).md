@@ -11,7 +11,7 @@ Replies to the message in the parent channel (from [ChannelId](ChannelContent_TI
 ---
 
 ## Message.ReplyAsync(Embed[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Replies to the message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')).
 

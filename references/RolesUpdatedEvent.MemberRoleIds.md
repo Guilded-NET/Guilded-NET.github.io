@@ -11,7 +11,7 @@ Gets the list of receiving/losing member and current roles."
 ---
 
 ## RolesUpdatedEvent.MemberRoleIds Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
 
 Gets the list of receiving/losing member and current roles.
 

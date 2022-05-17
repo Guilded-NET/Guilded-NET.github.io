@@ -11,7 +11,7 @@ Creates a [new forum post](ForumThread 'Guilded.Base.Content.ForumThread')."
 ---
 
 ## BaseGuildedClient.CreateForumThreadAsync(Guid, string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Creates a [new forum post](ForumThread 'Guilded.Base.Content.ForumThread').
 

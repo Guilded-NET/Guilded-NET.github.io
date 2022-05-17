@@ -11,7 +11,7 @@ Represents the extended information about a user."
 ---
 
 ## User Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
 
 Represents the extended information about a user.
 

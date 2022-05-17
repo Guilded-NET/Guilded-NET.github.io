@@ -11,7 +11,7 @@ Represents an author of the content represented in an [embed](Embed 'Guilded.Bas
 ---
 
 ## EmbedAuthor Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
 
 Represents an author of the content represented in an [embed](Embed 'Guilded.Base.Embeds.Embed').
 

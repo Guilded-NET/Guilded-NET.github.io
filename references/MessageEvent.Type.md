@@ -11,7 +11,7 @@ Gets the type of [the message](Message 'Guilded.Base.Content.Message')."
 ---
 
 ## MessageEvent.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
 
 Gets the type of [the message](Message 'Guilded.Base.Content.Message').
 

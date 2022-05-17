@@ -11,7 +11,7 @@ Initializes a new instance of [ResumeEvent](ResumeEvent 'Guilded.Base.Events.Res
 ---
 
 ## ResumeEvent(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent 'Guilded.Base.Events.ResumeEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent 'Guilded.Base.Events.ResumeEvent')
 
 Initializes a new instance of [ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Represents channel permissions for calendar and event related things."
 ---
 
 ## CalendarPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
 Represents channel permissions for calendar and event related things.
 

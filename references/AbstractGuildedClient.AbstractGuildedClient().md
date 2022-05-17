@@ -11,7 +11,7 @@ Initializes a new base instance of [AbstractGuildedClient](AbstractGuildedClient
 ---
 
 ## AbstractGuildedClient() Constructor
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Initializes a new base instance of [AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient') children types.
 

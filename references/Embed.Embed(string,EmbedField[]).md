@@ -11,7 +11,7 @@ Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with it
 ---
 
 ## Embed(string, EmbedField[]) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(string,EmbedField[])#Guilded.Base.Embeds.Embed.Embed(string,Guilded.Base.Embeds.EmbedField[]).fields 'Guilded.Base.Embeds.Embed.Embed(string, Guilded.Base.Embeds.EmbedField[]).fields').
 

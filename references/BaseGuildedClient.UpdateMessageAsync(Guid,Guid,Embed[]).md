@@ -11,7 +11,7 @@ Edits the content of a [message](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,
 ---
 
 ## BaseGuildedClient.UpdateMessageAsync(Guid, Guid, Embed[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Edits the content of a [message](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,Embed[])#Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid,Guid,Guilded.Base.Embeds.Embed[]).message 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, Guilded.Base.Embeds.Embed[]).message').
 

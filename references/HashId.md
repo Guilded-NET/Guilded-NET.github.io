@@ -11,7 +11,7 @@ Represents an identifier for Guilded servers, users, etc."
 ---
 
 ## HashId Struct
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Represents an identifier for Guilded servers, users, etc.
 

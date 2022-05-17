@@ -11,7 +11,7 @@ Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as t
 ---
 
 ## Embed.SetTimestamp() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as the [current UTC time](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime.UtcNow 'System.DateTime.UtcNow').
 

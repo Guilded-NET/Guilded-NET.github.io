@@ -9,7 +9,7 @@ description: ""
 ---
 
 ## Embed.SetFooter(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 ```csharp
 public Guilded.Base.Embeds.Embed SetFooter(object? value);

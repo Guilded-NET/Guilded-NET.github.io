@@ -11,7 +11,7 @@ the date when the note was edited."
 ---
 
 ## ListItemNoteSummary.UpdatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
 
 the date when the note was edited.
 

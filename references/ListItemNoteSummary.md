@@ -11,7 +11,7 @@ Represents the summary of [the list item's](ListItemSummary 'Guilded.Base.Conten
 ---
 
 ## ListItemNoteSummary Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
 Represents the summary of [the list item's](ListItemSummary 'Guilded.Base.Content.ListItemSummary') note.
 

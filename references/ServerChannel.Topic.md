@@ -11,7 +11,7 @@ Gets the topic describing what the channel is about."
 ---
 
 ## ServerChannel.Topic Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 Gets the topic describing what the channel is about.
 

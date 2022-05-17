@@ -11,7 +11,7 @@ Gets the identifier of the server where the member has been kicked or has left."
 ---
 
 ## MemberRemovedEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
 Gets the identifier of the server where the member has been kicked or has left.
 

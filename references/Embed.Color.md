@@ -11,7 +11,7 @@ Gets the colour of the [embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Color Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Gets the colour of the [embed](Embed 'Guilded.Base.Embeds.Embed').
 

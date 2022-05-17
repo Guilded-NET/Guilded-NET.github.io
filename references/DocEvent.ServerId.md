@@ -11,7 +11,7 @@ Gets the identifier of the server where the event occurred."
 ---
 
 ## DocEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Gets the identifier of the server where the event occurred.
 

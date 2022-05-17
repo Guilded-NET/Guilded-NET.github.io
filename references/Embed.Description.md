@@ -11,7 +11,7 @@ The description text of the [embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Description Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 The description text of the [embed](Embed 'Guilded.Base.Embeds.Embed').
 

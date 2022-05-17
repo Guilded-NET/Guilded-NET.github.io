@@ -11,7 +11,7 @@ Returns serialized [BaseObject](BaseObject 'Guilded.Base.BaseObject') instance."
 ---
 
 ## BaseObject.Serialize(JsonSerializer) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseObject`](BaseObject 'Guilded.Base.BaseObject')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseObject`](BaseObject 'Guilded.Base.BaseObject')
 
 Returns serialized [BaseObject](BaseObject 'Guilded.Base.BaseObject') instance.
 

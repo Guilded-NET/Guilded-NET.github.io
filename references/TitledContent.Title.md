@@ -11,7 +11,7 @@ Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.Title
 ---
 
 ## TitledContent.Title Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
 
 Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
 

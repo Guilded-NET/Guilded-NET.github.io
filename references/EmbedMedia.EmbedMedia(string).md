@@ -11,7 +11,7 @@ Initializes a new instance of [EmbedMedia](EmbedMedia 'Guilded.Base.Embeds.Embed
 ---
 
 ## EmbedMedia(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia 'Guilded.Base.Embeds.EmbedMedia')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia 'Guilded.Base.Embeds.EmbedMedia')
 
 Initializes a new instance of [EmbedMedia](EmbedMedia 'Guilded.Base.Embeds.EmbedMedia') with optional size parameters.
 

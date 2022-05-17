@@ -11,7 +11,7 @@ Gets the identifier of the last received event."
 ---
 
 ## ResumeEvent.MessageId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent 'Guilded.Base.Events.ResumeEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ResumeEvent`](ResumeEvent 'Guilded.Base.Events.ResumeEvent')
 
 Gets the identifier of the last received event.
 

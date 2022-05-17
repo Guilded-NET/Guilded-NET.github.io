@@ -11,7 +11,7 @@ Gets [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') received 
 ---
 
 ## ChannelEvent.Channel Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Gets [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') received from the event.
 

@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User') who ticked off [th
 ---
 
 ## ListItemEvent.CompletedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User') who ticked off [the item](ListItem 'Guilded.Base.Content.ListItem').
 

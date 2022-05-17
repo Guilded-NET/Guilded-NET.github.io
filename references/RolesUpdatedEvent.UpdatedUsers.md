@@ -11,7 +11,7 @@ Gets the array of updated users that either lost or received roles."
 ---
 
 ## RolesUpdatedEvent.UpdatedUsers Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
 
 Gets the array of updated users that either lost or received roles.
 

@@ -11,7 +11,7 @@ Initializes a new instance of [Message](Message 'Guilded.Base.Content.Message') 
 ---
 
 ## Message(Guid, Guid, HashId, DateTime, MessageType, Nullable<HashId>, IList<Guid>, string, IList<Embed>, bool, Nullable<Guid>, Nullable<DateTime>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Initializes a new instance of [Message](Message 'Guilded.Base.Content.Message') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Disconnects [this client](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 ---
 
 ## AbstractGuildedClient.DisconnectAsync() Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Disconnects [this client](AbstractGuildedClient 'Guilded.AbstractGuildedClient') from Guilded.
 

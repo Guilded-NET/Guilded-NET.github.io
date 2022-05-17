@@ -11,7 +11,7 @@ Gets a list of [documents](Doc 'Guilded.Base.Content.Doc')."
 ---
 
 ## BaseGuildedClient.GetDocsAsync(Guid, Nullable<uint>, Nullable<DateTime>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets a list of [documents](Doc 'Guilded.Base.Content.Doc').
 

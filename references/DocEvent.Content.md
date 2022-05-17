@@ -11,7 +11,7 @@ Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Conte
 ---
 
 ## DocEvent.Content Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
 

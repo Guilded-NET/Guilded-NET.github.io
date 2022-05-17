@@ -11,7 +11,7 @@ Gets the type of [the user](User 'Guilded.Base.Users.User') they are."
 ---
 
 ## UserSummary.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Gets the type of [the user](User 'Guilded.Base.Users.User') they are.
 

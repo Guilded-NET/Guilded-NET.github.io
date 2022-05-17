@@ -11,7 +11,7 @@ Deletes the channel."
 ---
 
 ## ServerChannel.UpdateAsync(string, string, Nullable<bool>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 Deletes the channel.
 

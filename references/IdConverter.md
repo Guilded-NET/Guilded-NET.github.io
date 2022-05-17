@@ -11,7 +11,7 @@ Converts [HashId](HashId 'Guilded.Base.HashId') to string or vice versa in a JSO
 ---
 
 ## IdConverter Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Converts [HashId](HashId 'Guilded.Base.HashId') to string or vice versa in a JSON.
 

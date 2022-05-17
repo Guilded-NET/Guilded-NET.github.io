@@ -11,7 +11,7 @@ Creates a new channel in the [server](AbstractGuildedClient.CreateChannelAsync(H
 ---
 
 ## AbstractGuildedClient.CreateChannelAsync(HashId, string, ChannelType, string, Nullable<HashId>, Nullable<uint>, Nullable<bool>) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Creates a new channel in the [server](AbstractGuildedClient.CreateChannelAsync(HashId,string,ChannelType,string,Nullable_HashId_,Nullable_uint_,Nullable_bool_)#Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).server 'Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId, string, Guilded.Base.Servers.ChannelType, string, System.Nullable<Guilded.Base.HashId>, System.Nullable<uint>, System.Nullable<bool>).server').
 

@@ -11,7 +11,7 @@ Gets the [channel](AbstractGuildedClient.GetChannelAsync(Guid)#Guilded.AbstractG
 ---
 
 ## AbstractGuildedClient.GetChannelAsync(Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets the [channel](AbstractGuildedClient.GetChannelAsync(Guid)#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel').
 

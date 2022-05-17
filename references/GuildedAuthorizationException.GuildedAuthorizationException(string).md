@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizati
 ---
 
 ## GuildedAuthorizationException(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException') with only a [message](GuildedAuthorizationException.GuildedAuthorizationException(string)#Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message 'Guilded.Base.GuildedAuthorizationException.GuildedAuthorizationException(string).message').
 

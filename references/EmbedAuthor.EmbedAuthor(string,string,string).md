@@ -11,7 +11,7 @@ Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.Emb
 ---
 
 ## EmbedAuthor(string, string, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedAuthor`](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')
 
 Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,string,string)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url').
 

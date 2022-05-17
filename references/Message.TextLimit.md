@@ -11,7 +11,7 @@ The count of how many [characters](https://docs.microsoft.com/en-us/dotnet/api/S
 ---
 
 ## Message.TextLimit Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 The count of how many [characters](https://docs.microsoft.com/en-us/dotnet/api/System.Char 'System.Char') there can be in [message's content](Message.Content 'Guilded.Base.Content.Message.Content').
 

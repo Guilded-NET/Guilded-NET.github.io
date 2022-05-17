@@ -11,7 +11,7 @@ Adds emote to the content."
 ---
 
 ## TitledContent.AddReactionAsync(uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
 
 Adds emote to the content.
 

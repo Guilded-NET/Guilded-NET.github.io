@@ -11,7 +11,7 @@ Gets the list of [custom embeds](Embed 'Guilded.Base.Embeds.Embed') that [the me
 ---
 
 ## Message.Embeds Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Gets the list of [custom embeds](Embed 'Guilded.Base.Embeds.Embed') that [the message](Message 'Guilded.Base.Content.Message') contains.
 

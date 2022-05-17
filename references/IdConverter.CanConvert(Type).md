@@ -11,7 +11,7 @@ Returns whether the converter supports converting the given type."
 ---
 
 ## IdConverter.CanConvert(Type) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter 'Guilded.Base.IdConverter')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter 'Guilded.Base.IdConverter')
 
 Returns whether the converter supports converting the given type.
 

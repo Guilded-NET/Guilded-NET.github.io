@@ -11,7 +11,7 @@ Deletes the [message](BaseGuildedClient.DeleteMessageAsync(Guid,Guid)#Guilded.Ba
 ---
 
 ## BaseGuildedClient.DeleteMessageAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Deletes the [message](BaseGuildedClient.DeleteMessageAsync(Guid,Guid)#Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid,Guid).message 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid).message').
 

@@ -11,7 +11,7 @@ Represents channel permissions for chat & text related things."
 ---
 
 ## ChatPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
 Represents channel permissions for chat & text related things.
 
@@ -88,11 +88,23 @@ Allows you to read chat messages
 
 Allows you to send chat messages
 
+<a name='Guilded.Base.Permissions.ChatPermissions.SendPrivateMessages'></a>
+
+`SendPrivateMessages` 256
+
+Allows you to send private mentions and replies
+
 <a name='Guilded.Base.Permissions.ChatPermissions.SendThreadMessages'></a>
 
 `SendThreadMessages` 32
 
 Allows you to reply to threads in the channel
+
+<a name='Guilded.Base.Permissions.ChatPermissions.UploadMedia'></a>
+
+`UploadMedia` 128
+
+Allows you to send messages with images and videos
 
 ### See Also
 - [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')

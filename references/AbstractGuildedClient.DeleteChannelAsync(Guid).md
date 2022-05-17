@@ -11,7 +11,7 @@ Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.Abs
 ---
 
 ## AbstractGuildedClient.DeleteChannelAsync(Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel').
 

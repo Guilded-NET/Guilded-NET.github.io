@@ -11,7 +11,7 @@ Gets the specified [member](AbstractGuildedClient.GetSocialLinkAsync(HashId,Hash
 ---
 
 ## AbstractGuildedClient.GetSocialLinkAsync(HashId, HashId, SocialLinkType) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets the specified [member](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType)#Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).member 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType).member') social link based on given [linkType](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType)#Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).linkType 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType).linkType').
 

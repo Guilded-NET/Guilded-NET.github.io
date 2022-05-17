@@ -11,7 +11,7 @@ Gets the global banner of [the user](User 'Guilded.Base.Users.User')."
 ---
 
 ## User.Banner Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`User`](User 'Guilded.Base.Users.User')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`User`](User 'Guilded.Base.Users.User')
 
 Gets the global banner of [the user](User 'Guilded.Base.Users.User').
 

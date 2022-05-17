@@ -11,7 +11,7 @@ Gets the name of the event received."
 ---
 
 ## GuildedSocketMessage.EventName Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
 Gets the name of the event received.
 

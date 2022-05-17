@@ -11,7 +11,7 @@ Gets the parent client that adopts [this object](ClientObject 'Guilded.Base.Clie
 ---
 
 ## ClientObject.ParentClient Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ClientObject`](ClientObject 'Guilded.Base.ClientObject')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ClientObject`](ClientObject 'Guilded.Base.ClientObject')
 
 Gets the parent client that adopts [this object](ClientObject 'Guilded.Base.ClientObject').
 

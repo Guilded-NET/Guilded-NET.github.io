@@ -11,7 +11,7 @@ Global minimal information about a user."
 ---
 
 ## UserSummary Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
 
 Global minimal information about a user.
 

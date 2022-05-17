@@ -11,7 +11,7 @@ Represents a custom content embed that includes any kind of information."
 ---
 
 ## Embed Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
 
 Represents a custom content embed that includes any kind of information.
 

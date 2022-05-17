@@ -11,7 +11,7 @@ Gets the date when the content were updated."
 ---
 
 ## DocEvent.UpdatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Gets the date when the content were updated.
 

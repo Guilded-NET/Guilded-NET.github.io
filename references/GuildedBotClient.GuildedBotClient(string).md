@@ -11,7 +11,7 @@ Creates a new [GuildedBotClient](GuildedBotClient 'Guilded.GuildedBotClient') in
 ---
 
 ## GuildedBotClient(string) Constructor
-###### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
 
 Creates a new [GuildedBotClient](GuildedBotClient 'Guilded.GuildedBotClient') instance with given [auth](GuildedBotClient.GuildedBotClient(string)#Guilded.GuildedBotClient.GuildedBotClient(string).auth 'Guilded.GuildedBotClient.GuildedBotClient(string).auth').
 

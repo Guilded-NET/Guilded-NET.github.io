@@ -11,7 +11,7 @@ Returns whether the converter supports converting the given type."
 ---
 
 ## DecimalColorConverter.CanConvert(Type) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter 'Guilded.Base.DecimalColorConverter')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter 'Guilded.Base.DecimalColorConverter')
 
 Returns whether the converter supports converting the given type.
 

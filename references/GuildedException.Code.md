@@ -11,7 +11,7 @@ Gets the code name of Guilded error."
 ---
 
 ## GuildedException.Code Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
 Gets the code name of Guilded error.
 

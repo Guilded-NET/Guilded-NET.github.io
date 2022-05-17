@@ -11,7 +11,7 @@ Gets whether the message is [text-only](MessageContent.Content 'Guilded.Base.Con
 ---
 
 ## MessageContent.OnlyText Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
 
 Gets whether the message is [text-only](MessageContent.Content 'Guilded.Base.Content.MessageContent.Content') and has no other content.
 

@@ -11,7 +11,7 @@ Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a reply](
 ---
 
 ## Message.IsReply Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a reply](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds') to another message.
 
@@ -27,3 +27,4 @@ public bool IsReply { get; }
 - [Message](Message 'Guilded.Base.Content.Message')
 - [ReplyMessageIds](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds')
 - [IsPrivate](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate')
+- [IsSilent](Message.IsSilent 'Guilded.Base.Content.Message.IsSilent')

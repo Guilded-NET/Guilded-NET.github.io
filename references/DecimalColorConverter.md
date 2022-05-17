@@ -11,7 +11,7 @@ Converts [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/Syst
 ---
 
 ## DecimalColorConverter Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Converts [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color') to an integer in RGB format.
 

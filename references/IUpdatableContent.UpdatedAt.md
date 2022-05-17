@@ -11,7 +11,7 @@ Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Conte
 ---
 
 ## IUpdatableContent.UpdatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IUpdatableContent`](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`IUpdatableContent`](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent')
 
 Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were edited.
 

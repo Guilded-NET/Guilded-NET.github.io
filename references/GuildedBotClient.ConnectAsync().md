@@ -11,7 +11,7 @@ Connects to Guilded using defined auth."
 ---
 
 ## GuildedBotClient.ConnectAsync() Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
 
 Connects to Guilded using defined auth.
 

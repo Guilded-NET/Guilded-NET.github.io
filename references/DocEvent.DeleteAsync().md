@@ -11,7 +11,7 @@ Deletes the doc."
 ---
 
 ## DocEvent.DeleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Deletes the doc.
 

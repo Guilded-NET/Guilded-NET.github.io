@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User') that created the c
 ---
 
 ## ChannelEvent.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User') that created the channel.
 

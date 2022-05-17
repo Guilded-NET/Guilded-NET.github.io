@@ -11,7 +11,7 @@ Initializes a new instance of [ListItemNoteSummary](ListItemNoteSummary 'Guilded
 ---
 
 ## ListItemNoteSummary(HashId, DateTime, Nullable<HashId>, Nullable<DateTime>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
 
 Initializes a new instance of [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary') with provided details.
 

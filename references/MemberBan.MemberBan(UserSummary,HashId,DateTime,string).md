@@ -11,7 +11,7 @@ Initializes a new instance of [MemberBan](MemberBan 'Guilded.Base.Servers.Member
 ---
 
 ## MemberBan(UserSummary, HashId, DateTime, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
 
 Initializes a new instance of [MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan') with the provided details.
 

@@ -11,7 +11,7 @@ Initializes a new instance of [ListItem](ListItem 'Guilded.Base.Content.ListItem
 ---
 
 ## ListItem(Guid, Guid, HashId, string, HashId, DateTime, Nullable<Guid>, ListItemNote, Nullable<DateTime>, Nullable<HashId>, Nullable<DateTime>, Nullable<HashId>, Nullable<Guid>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItem`](ListItem 'Guilded.Base.Content.ListItem')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItem`](ListItem 'Guilded.Base.Content.ListItem')
 
 Initializes a new instance of [ListItem](ListItem 'Guilded.Base.Content.ListItem') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Initializes a new instance of [WebhookEvent](WebhookEvent 'Guilded.Base.Events.W
 ---
 
 ## WebhookEvent(HashId, Webhook) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`WebhookEvent`](WebhookEvent 'Guilded.Base.Events.WebhookEvent')
 
 Initializes a new instance of [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent') from the specified JSON properties.
 

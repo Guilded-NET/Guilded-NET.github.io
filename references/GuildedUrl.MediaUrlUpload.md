@@ -11,7 +11,7 @@ The URL to upload Guilded's media from URLs."
 ---
 
 ## GuildedUrl.MediaUrlUpload Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
 
 The URL to upload Guilded's media from URLs.
 

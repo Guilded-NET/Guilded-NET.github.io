@@ -11,7 +11,7 @@ Edits [content](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Gu
 ---
 
 ## AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Edits [content](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).content 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).content') or [title](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).title 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).title') of the [doc](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc').
 

@@ -11,7 +11,7 @@ Gets whether the field should be inline with other fields."
 ---
 
 ## EmbedField.Inline Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.Base.Embeds.EmbedField')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.Base.Embeds.EmbedField')
 
 Gets whether the field should be inline with other fields.
 

@@ -11,7 +11,7 @@ Represents a message posted in [a document channel](ChannelType#Guilded.Base.Ser
 ---
 
 ## Message Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
 Represents a message posted in [a document channel](ChannelType#Guilded.Base.Servers.ChannelType.Chat 'Guilded.Base.Servers.ChannelType.Chat') or alike.
 
@@ -49,6 +49,7 @@ This currently includes both messages of types [Default](MessageType#Guilded.Bas
 | [Embeds](Message.Embeds 'Guilded.Base.Content.Message.Embeds') | Gets the list of [custom embeds](Embed 'Guilded.Base.Embeds.Embed') that [the message](Message 'Guilded.Base.Content.Message') contains. |
 | [IsPrivate](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate') | Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is private. |
 | [IsReply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') | Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a reply](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds') to another message. |
+| [IsSilent](Message.IsSilent 'Guilded.Base.Content.Message.IsSilent') | Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is silent and doesn't ping any user. |
 | [IsSystemMessage](Message.IsSystemMessage 'Guilded.Base.Content.Message.IsSystemMessage') | Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a system message](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System'). |
 | [ReplyMessageIds](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds') | Gets the list of [messages](Message 'Guilded.Base.Content.Message') being replied to. |
 | [Type](Message.Type 'Guilded.Base.Content.Message.Type') | Gets the type of [the message](Message 'Guilded.Base.Content.Message'). |

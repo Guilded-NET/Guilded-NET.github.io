@@ -11,7 +11,7 @@ Gets the identifier of the server where user's roles were given or removed."
 ---
 
 ## RolesUpdatedEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
 
 Gets the identifier of the server where user's roles were given or removed.
 

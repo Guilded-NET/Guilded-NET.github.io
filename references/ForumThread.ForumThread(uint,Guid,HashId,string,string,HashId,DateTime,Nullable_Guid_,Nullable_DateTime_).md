@@ -11,7 +11,7 @@ Initializes a new instance of [ForumThread](ForumThread 'Guilded.Base.Content.Fo
 ---
 
 ## ForumThread(uint, Guid, HashId, string, string, HashId, DateTime, Nullable<Guid>, Nullable<DateTime>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ForumThread`](ForumThread 'Guilded.Base.Content.ForumThread')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ForumThread`](ForumThread 'Guilded.Base.Content.ForumThread')
 
 Initializes a new instance of [ForumThread](ForumThread 'Guilded.Base.Content.ForumThread') from the specified JSON properties.
 

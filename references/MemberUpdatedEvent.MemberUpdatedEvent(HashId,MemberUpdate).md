@@ -11,7 +11,7 @@ Initializes a new instance of [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.B
 ---
 
 ## MemberUpdatedEvent(HashId, MemberUpdate) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
 
 Initializes a new instance of [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent') from the specified JSON properties.
 

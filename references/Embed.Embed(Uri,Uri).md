@@ -11,7 +11,7 @@ Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with th
 ---
 
 ## Embed(Uri, Uri) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with the given imagess.
 

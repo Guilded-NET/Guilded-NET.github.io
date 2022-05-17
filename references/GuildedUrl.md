@@ -11,7 +11,7 @@ Defines a list of URLs to Guilded services."
 ---
 
 ## GuildedUrl Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Defines a list of URLs to Guilded services.
 

@@ -11,7 +11,7 @@ Represents a base for Guilded models that require a [client](ClientObject.Parent
 ---
 
 ## ClientObject Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Represents a base for Guilded models that require a [client](ClientObject.ParentClient 'Guilded.Base.ClientObject.ParentClient').
 

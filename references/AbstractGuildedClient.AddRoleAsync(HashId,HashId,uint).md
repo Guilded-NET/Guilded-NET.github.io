@@ -11,7 +11,7 @@ Adds a [role](AbstractGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.Abs
 ---
 
 ## AbstractGuildedClient.AddRoleAsync(HashId, HashId, uint) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Adds a [role](AbstractGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.AbstractGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.AbstractGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') to [the user](User 'Guilded.Base.Users.User').
 

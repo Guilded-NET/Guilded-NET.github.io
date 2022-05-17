@@ -152,7 +152,7 @@ description: ""
   - **[IsBot](MemberJoinedEvent.IsBot 'Guilded.Base.Events.MemberJoinedEvent.IsBot')** `Property`
     Gets whether [the user](User 'Guilded.Base.Users.User') is a [bot](UserType#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot').
   - **[JoinedAt](MemberJoinedEvent.JoinedAt 'Guilded.Base.Events.MemberJoinedEvent.JoinedAt')** `Property`
-    Gets the date when the member joined.
+    Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined.
   - **[Member](MemberJoinedEvent.Member 'Guilded.Base.Events.MemberJoinedEvent.Member')** `Property`
     Gets the member who has joined.
   - **[Name](MemberJoinedEvent.Name 'Guilded.Base.Events.MemberJoinedEvent.Name')** `Property`
@@ -192,7 +192,7 @@ description: ""
   - **[Id](MemberUpdatedEvent.MemberUpdate.Id 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Id')** `Property`
     Gets the identifier of [user](User 'Guilded.Base.Users.User').
   - **[Nickname](MemberUpdatedEvent.MemberUpdate.Nickname 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname')** `Property`
-    Gets the set nickname of [the user](User 'Guilded.Base.Users.User') in the server.
+    Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in the server.
 - **[MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')** `Class`
   Represents an event with the name `ChatMessageDeleted` and opcode `0` that occurs once someone creates/posts a message in the chat.
   - **[MessageDeletedEvent(MessageDeleted, Nullable&lt;HashId&gt;)](MessageDeletedEvent.MessageDeletedEvent(MessageDeleted,Nullable_HashId_) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeletedEvent(Guilded.Base.Events.MessageDeletedEvent.MessageDeleted, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
@@ -203,9 +203,11 @@ description: ""
     Gets the date when the message was deleted.
   - **[Id](MessageDeletedEvent.Id 'Guilded.Base.Events.MessageDeletedEvent.Id')** `Property`
     Gets the identifier of the message.
+  - **[IsPrivate](MessageDeletedEvent.IsPrivate 'Guilded.Base.Events.MessageDeletedEvent.IsPrivate')** `Property`
+    Gets whether the deleted message was [private mention](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate') or a [private reply](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate').
 - **[MessageDeletedEvent.MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')** `Class`
   Represents a message that was recently deleted/removed.
-  - **[MessageDeleted(Guid, Guid, DateTime, Nullable&lt;HashId&gt;)](MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid,Guid,DateTime,Nullable_HashId_) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid, Guid, System.DateTime, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
+  - **[MessageDeleted(Guid, Guid, DateTime, Nullable&lt;HashId&gt;, bool)](MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid,Guid,DateTime,Nullable_HashId_,bool) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid, Guid, System.DateTime, System.Nullable<Guilded.Base.HashId>, bool)')** `Constructor`
     The identifier of the message.
   - **[ChannelId](MessageDeletedEvent.MessageDeleted.ChannelId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ChannelId')** `Property`
     Gets the identifier of the channel where the message was.
@@ -213,6 +215,8 @@ description: ""
     Gets the date when the message was deleted.
   - **[Id](MessageDeletedEvent.MessageDeleted.Id 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Id')** `Property`
     Gets the identifier of the message.
+  - **[IsPrivate](MessageDeletedEvent.MessageDeleted.IsPrivate 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.IsPrivate')** `Property`
+    Gets whether the deleted message was [private mention](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate') or a [private reply](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate').
   - **[ServerId](MessageDeletedEvent.MessageDeleted.ServerId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ServerId')** `Property`
     Gets the identifier of the server where the message was.
   - **[Equals(object)](MessageDeletedEvent.MessageDeleted.Equals(object) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object)')** `Method`
@@ -235,10 +239,18 @@ description: ""
     Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
   - **[CreatedByWebhook](MessageEvent.CreatedByWebhook 'Guilded.Base.Events.MessageEvent.CreatedByWebhook')** `Property`
     Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created the message.
+  - **[Embeds](MessageEvent.Embeds 'Guilded.Base.Events.MessageEvent.Embeds')** `Property`
+    Gets the list of [custom embeds](Embed 'Guilded.Base.Embeds.Embed') that [the message](Message 'Guilded.Base.Content.Message') contains.
+  - **[IsPrivate](MessageEvent.IsPrivate 'Guilded.Base.Events.MessageEvent.IsPrivate')** `Property`
+    Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is private.
   - **[IsReply](MessageEvent.IsReply 'Guilded.Base.Events.MessageEvent.IsReply')** `Property`
     Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a reply](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds') to another message.
+  - **[IsSilent](MessageEvent.IsSilent 'Guilded.Base.Events.MessageEvent.IsSilent')** `Property`
+    Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is silent and doesn't ping any user.
   - **[IsSystemMessage](MessageEvent.IsSystemMessage 'Guilded.Base.Events.MessageEvent.IsSystemMessage')** `Property`
     Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a system message](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System').
+  - **[ReplyMessageIds](MessageEvent.ReplyMessageIds 'Guilded.Base.Events.MessageEvent.ReplyMessageIds')** `Property`
+    Gets the list of [messages](Message 'Guilded.Base.Content.Message') being replied to.
   - **[Type](MessageEvent.Type 'Guilded.Base.Events.MessageEvent.Type')** `Property`
     Gets the type of [the message](Message 'Guilded.Base.Content.Message').
   - **[UpdatedAt](MessageEvent.UpdatedAt 'Guilded.Base.Events.MessageEvent.UpdatedAt')** `Property`

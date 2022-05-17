@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guild
 ---
 
 ## GuildedSocketMessage(byte, string, JObject, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
 Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties.
 

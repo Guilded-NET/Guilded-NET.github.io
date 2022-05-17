@@ -11,7 +11,7 @@ Gets the currently logged in user."
 ---
 
 ## WelcomeEvent.User Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
 
 Gets the currently logged in user.
 

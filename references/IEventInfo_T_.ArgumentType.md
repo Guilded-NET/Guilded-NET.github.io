@@ -11,7 +11,7 @@ The type of the arguments that should be used."
 ---
 
 ## IEventInfo<T>.ArgumentType Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_ 'Guilded.IEventInfo<T>')
+##### **Assembly:** `Guilded`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_ 'Guilded.IEventInfo<T>')
 
 The type of the arguments that should be used.
 

@@ -11,7 +11,7 @@ Represents a channel webhook. This is a bot-like [channel](ServerChannel 'Guilde
 ---
 
 ## Webhook Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
 
 Represents a channel webhook. This is a bot-like [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') member that creates messages, list items or forum threads once its URL is invoked.
 

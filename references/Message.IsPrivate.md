@@ -11,7 +11,7 @@ Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply')
 ---
 
 ## Message.IsPrivate Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is private.
 
@@ -29,6 +29,7 @@ This can only be [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-
 
 ### See Also
 - [Message](Message 'Guilded.Base.Content.Message')
+- [IsSilent](Message.IsSilent 'Guilded.Base.Content.Message.IsSilent')
 - [IsReply](Message.IsReply 'Guilded.Base.Content.Message.IsReply')
 - [ReplyMessageIds](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds')
 - [Content](Message.Content 'Guilded.Base.Content.Message.Content')

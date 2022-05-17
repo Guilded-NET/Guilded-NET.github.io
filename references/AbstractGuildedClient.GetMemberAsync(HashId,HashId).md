@@ -11,7 +11,7 @@ Gets full information about the [member](AbstractGuildedClient.GetMemberAsync(Ha
 ---
 
 ## AbstractGuildedClient.GetMemberAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets full information about the [member](AbstractGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 

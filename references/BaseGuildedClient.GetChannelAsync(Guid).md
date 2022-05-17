@@ -11,7 +11,7 @@ Gets the [channel](BaseGuildedClient.GetChannelAsync(Guid)#Guilded.Base.BaseGuil
 ---
 
 ## BaseGuildedClient.GetChannelAsync(Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets the [channel](BaseGuildedClient.GetChannelAsync(Guid)#Guilded.Base.BaseGuildedClient.GetChannelAsync(Guid).channel 'Guilded.Base.BaseGuildedClient.GetChannelAsync(Guid).channel').
 

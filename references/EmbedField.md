@@ -11,7 +11,7 @@ Represents a field with its own [title](EmbedField.Name 'Guilded.Base.Embeds.Emb
 ---
 
 ## EmbedField Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
 
 Represents a field with its own [title](EmbedField.Name 'Guilded.Base.Embeds.EmbedField.Name') in an [embed](Embed 'Guilded.Base.Embeds.Embed').
 

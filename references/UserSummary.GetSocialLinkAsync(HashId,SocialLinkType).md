@@ -11,7 +11,7 @@ Gets the specified member social link based on given [linkType](UserSummary.GetS
 ---
 
 ## UserSummary.GetSocialLinkAsync(HashId, SocialLinkType) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Gets the specified member social link based on given [linkType](UserSummary.GetSocialLinkAsync(HashId,SocialLinkType)#Guilded.Base.Users.UserSummary.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).linkType 'Guilded.Base.Users.UserSummary.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType).linkType').
 

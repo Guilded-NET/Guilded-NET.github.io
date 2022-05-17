@@ -11,7 +11,7 @@ A serializer to (de)serialize for JSON from Guilded API."
 ---
 
 ## BaseGuildedClient.GuildedSerializer Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 A serializer to (de)serialize for JSON from Guilded API.
 

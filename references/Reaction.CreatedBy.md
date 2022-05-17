@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the 
 ---
 
 ## Reaction.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the reaction](Reaction 'Guilded.Base.Content.Reaction').
 

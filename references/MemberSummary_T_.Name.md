@@ -11,7 +11,7 @@ Gets the global username of [the user](User 'Guilded.Base.Users.User')."
 ---
 
 ## MemberSummary<T>.Name Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
 
 Gets the global username of [the user](User 'Guilded.Base.Users.User').
 

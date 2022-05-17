@@ -11,7 +11,7 @@ Initializes a new instance of [TitledContent](TitledContent 'Guilded.Base.Conten
 ---
 
 ## TitledContent(uint, Guid, HashId, string, string, HashId, DateTime, Nullable<DateTime>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
 
 Initializes a new instance of [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Notifies the observers with new value."
 ---
 
 ## EventInfo<T>.OnNext(object) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
+##### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
 
 Notifies the observers with new value.
 

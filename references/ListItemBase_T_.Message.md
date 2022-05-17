@@ -11,7 +11,7 @@ Gets the text contents of the message in [the item](ListItem 'Guilded.Base.Conte
 ---
 
 ## ListItemBase<T>.Message Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
 Gets the text contents of the message in [the item](ListItem 'Guilded.Base.Content.ListItem').
 

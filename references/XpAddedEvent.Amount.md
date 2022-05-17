@@ -11,7 +11,7 @@ Gets the amount of XP given to the [users](XpAddedEvent.Users 'Guilded.Base.Even
 ---
 
 ## XpAddedEvent.Amount Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
 
 Gets the amount of XP given to the [users](XpAddedEvent.Users 'Guilded.Base.Events.XpAddedEvent.Users').
 

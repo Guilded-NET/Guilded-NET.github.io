@@ -11,7 +11,7 @@ Gets the thumbnail image of the [embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Thumbnail Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Gets the thumbnail image of the [embed](Embed 'Guilded.Base.Embeds.Embed').
 

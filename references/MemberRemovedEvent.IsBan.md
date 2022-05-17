@@ -11,7 +11,7 @@ Gets whether [the user](User 'Guilded.Base.Users.User') has been banned."
 ---
 
 ## MemberRemovedEvent.IsBan Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
 Gets whether [the user](User 'Guilded.Base.Users.User') has been banned.
 

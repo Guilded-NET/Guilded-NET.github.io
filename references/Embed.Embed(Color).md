@@ -11,7 +11,7 @@ Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with co
 ---
 
 ## Embed(Color) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with colour [color](Embed.Embed(Color)#Guilded.Base.Embeds.Embed.Embed(Color).color 'Guilded.Base.Embeds.Embed.Embed(Color).color').
 

@@ -11,7 +11,7 @@ The URL to the footer's icon."
 ---
 
 ## EmbedFooter.IconUrl Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
 
 The URL to the footer's icon.
 

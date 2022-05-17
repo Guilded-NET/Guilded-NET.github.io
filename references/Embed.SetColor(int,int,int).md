@@ -11,7 +11,7 @@ Sets the [left-side colour](Embed.Color 'Guilded.Base.Embeds.Embed.Color') as th
 ---
 
 ## Embed.SetColor(int, int, int) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [left-side colour](Embed.Color 'Guilded.Base.Embeds.Embed.Color') as the given value.
 

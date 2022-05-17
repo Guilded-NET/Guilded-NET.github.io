@@ -11,7 +11,7 @@ Initializes a new instance of [SocialLink](SocialLink 'Guilded.Base.Users.Social
 ---
 
 ## SocialLink(SocialLinkType, string, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
 
 Initializes a new instance of [SocialLink](SocialLink 'Guilded.Base.Users.SocialLink') from the specified JSON properties.
 

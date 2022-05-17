@@ -11,7 +11,7 @@ Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as t
 ---
 
 ## Embed.SetTimestamp(DateTime) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [timestamp](Embed.Timestamp 'Guilded.Base.Embeds.Embed.Timestamp') as the given [value](Embed.SetTimestamp(DateTime)#Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value 'Guilded.Base.Embeds.Embed.SetTimestamp(System.DateTime).value').
 

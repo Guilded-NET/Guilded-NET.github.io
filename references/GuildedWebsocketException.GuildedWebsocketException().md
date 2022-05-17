@@ -11,7 +11,7 @@ Initializes a new empty instance of [GuildedWebsocketException](GuildedWebsocket
 ---
 
 ## GuildedWebsocketException() Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
 
 Initializes a new empty instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException').
 

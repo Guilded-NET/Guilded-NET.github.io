@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedResourceException](GuildedResourceExceptio
 ---
 
 ## GuildedResourceException(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException 'Guilded.Base.GuildedResourceException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedResourceException`](GuildedResourceException 'Guilded.Base.GuildedResourceException')
 
 Initializes a new instance of [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException').
 

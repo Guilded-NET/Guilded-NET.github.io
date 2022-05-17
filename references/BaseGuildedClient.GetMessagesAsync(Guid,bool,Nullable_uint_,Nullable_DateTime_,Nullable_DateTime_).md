@@ -11,7 +11,7 @@ Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the [chan
 ---
 
 ## BaseGuildedClient.GetMessagesAsync(Guid, bool, Nullable<uint>, Nullable<DateTime>, Nullable<DateTime>) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the [channel](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel').
 

@@ -11,7 +11,7 @@ Gets the date when the message was deleted."
 ---
 
 ## MessageDeletedEvent.DeletedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
 
 Gets the date when the message was deleted.
 

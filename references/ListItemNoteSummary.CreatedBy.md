@@ -11,7 +11,7 @@ The identifier of [user](User 'Guilded.Base.Users.User') that created the note."
 ---
 
 ## ListItemNoteSummary.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
 
 The identifier of [user](User 'Guilded.Base.Users.User') that created the note.
 

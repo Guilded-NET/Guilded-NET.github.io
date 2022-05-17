@@ -11,7 +11,7 @@ An authorization exception thrown by Guilded API."
 ---
 
 ## GuildedAuthorizationException Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 An authorization exception thrown by Guilded API.
 

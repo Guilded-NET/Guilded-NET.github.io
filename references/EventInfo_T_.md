@@ -11,7 +11,7 @@ efines a new Guilded event that can be used in [GuildedEvents](AbstractGuildedCl
 ---
 
 ## EventInfo<T> Class
-###### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded 'Guilded')
+##### **Assembly:** `Guilded`<br/>**Namespace:** [`Guilded`](Guilded 'Guilded')
 
 efines a new Guilded event that can be used in [GuildedEvents](AbstractGuildedClient.GuildedEvents 'Guilded.AbstractGuildedClient.GuildedEvents')
 

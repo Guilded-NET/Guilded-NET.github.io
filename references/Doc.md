@@ -11,7 +11,7 @@ Represents a document in [a document channel](ChannelType#Guilded.Base.Servers.C
 ---
 
 ## Doc Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
 Represents a document in [a document channel](ChannelType#Guilded.Base.Servers.ChannelType.Docs 'Guilded.Base.Servers.ChannelType.Docs').
 

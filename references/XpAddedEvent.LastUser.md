@@ -11,7 +11,7 @@ Gets the last XP receiving [user](XpAddedEvent.Users 'Guilded.Base.Events.XpAdde
 ---
 
 ## XpAddedEvent.LastUser Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
 
 Gets the last XP receiving [user](XpAddedEvent.Users 'Guilded.Base.Events.XpAddedEvent.Users').
 

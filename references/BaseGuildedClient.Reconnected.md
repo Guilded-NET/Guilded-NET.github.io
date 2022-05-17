@@ -11,7 +11,7 @@ An event when client gets reconnected."
 ---
 
 ## BaseGuildedClient.Reconnected Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 An event when client gets reconnected.
 

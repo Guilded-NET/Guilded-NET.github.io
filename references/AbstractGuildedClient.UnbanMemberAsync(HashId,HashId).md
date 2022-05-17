@@ -11,7 +11,7 @@ Unbans the [member](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId)#Guilde
 ---
 
 ## AbstractGuildedClient.UnbanMemberAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Unbans the [member](AbstractGuildedClient.UnbanMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 

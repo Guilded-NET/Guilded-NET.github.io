@@ -11,7 +11,7 @@ Executes a request and receives a response or an error."
 ---
 
 ## BaseGuildedClient.ExecuteRequestAsync(RestRequest) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Executes a request and receives a response or an error.
 

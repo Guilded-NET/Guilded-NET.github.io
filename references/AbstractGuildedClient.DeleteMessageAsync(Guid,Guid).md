@@ -11,7 +11,7 @@ Deletes the [message](AbstractGuildedClient.DeleteMessageAsync(Guid,Guid)#Guilde
 ---
 
 ## AbstractGuildedClient.DeleteMessageAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Deletes the [message](AbstractGuildedClient.DeleteMessageAsync(Guid,Guid)#Guilded.AbstractGuildedClient.DeleteMessageAsync(Guid,Guid).message 'Guilded.AbstractGuildedClient.DeleteMessageAsync(Guid, Guid).message').
 

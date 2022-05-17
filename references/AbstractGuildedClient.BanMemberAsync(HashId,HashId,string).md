@@ -11,7 +11,7 @@ Bans the [member](AbstractGuildedClient.BanMemberAsync(HashId,HashId,string)#Gui
 ---
 
 ## AbstractGuildedClient.BanMemberAsync(HashId, HashId, string) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Bans the [member](AbstractGuildedClient.BanMemberAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.BanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.BanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
 

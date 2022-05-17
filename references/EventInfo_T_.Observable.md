@@ -11,7 +11,7 @@ Gets the observable event that can be used to subscribe to the event."
 ---
 
 ## EventInfo<T>.Observable Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
+##### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
 
 Gets the observable event that can be used to subscribe to the event.
 

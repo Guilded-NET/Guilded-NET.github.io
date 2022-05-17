@@ -11,7 +11,7 @@ Initializes a new instance of [ChannelEvent](ChannelEvent 'Guilded.Base.Events.C
 ---
 
 ## ChannelEvent(ServerChannel, HashId) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Initializes a new instance of [ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Creates default settings for [BaseGuildedClient](BaseGuildedClient 'Guilded.Base
 ---
 
 ## BaseGuildedClient(Uri, Uri) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Creates default settings for [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')'s child types.
 

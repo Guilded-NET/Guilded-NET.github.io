@@ -11,7 +11,7 @@ Removes [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint)#Guilded
 ---
 
 ## AbstractGuildedClient.RemoveRoleAsync(HashId, HashId, uint) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Removes [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint)#Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role') from [the user](User 'Guilded.Base.Users.User').
 

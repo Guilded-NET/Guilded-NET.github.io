@@ -11,7 +11,7 @@ Initializes a new instance of [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.Bas
 ---
 
 ## RolesUpdatedEvent(HashId, IList<RolesUpdated>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
 
 Initializes a new instance of [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent') from the specified JSON properties.
 

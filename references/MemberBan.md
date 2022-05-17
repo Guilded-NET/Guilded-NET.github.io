@@ -11,7 +11,7 @@ Represents the information of [user's](MemberBan.User 'Guilded.Base.Servers.Memb
 ---
 
 ## MemberBan Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
 
 Represents the information of [user's](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') ban.
 

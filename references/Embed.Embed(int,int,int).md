@@ -12,7 +12,7 @@ Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with ch
 ---
 
 ## Embed(int, int, int) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with channels  
 [red](Embed.Embed(int,int,int)#Guilded.Base.Embeds.Embed.Embed(int,int,int).red 'Guilded.Base.Embeds.Embed.Embed(int, int, int).red'), [green](Embed.Embed(int,int,int)#Guilded.Base.Embeds.Embed.Embed(int,int,int).green 'Guilded.Base.Embeds.Embed.Embed(int, int, int).green') and [blue](Embed.Embed(int,int,int)#Guilded.Base.Embeds.Embed.Embed(int,int,int).blue 'Guilded.Base.Embeds.Embed.Embed(int, int, int).blue') of [Color](Embed.Color 'Guilded.Base.Embeds.Embed.Color') property.

@@ -11,7 +11,7 @@ Bans the member."
 ---
 
 ## UserSummary.BanAsync(HashId, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Bans the member.
 

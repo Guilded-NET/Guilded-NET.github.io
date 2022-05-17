@@ -11,7 +11,7 @@ Marks the [listItem](BaseGuildedClient.CompleteListItemAsync(Guid,Guid)#Guilded.
 ---
 
 ## BaseGuildedClient.CompleteListItemAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Marks the [listItem](BaseGuildedClient.CompleteListItemAsync(Guid,Guid)#Guilded.Base.BaseGuildedClient.CompleteListItemAsync(Guid,Guid).listItem 'Guilded.Base.BaseGuildedClient.CompleteListItemAsync(Guid, Guid).listItem') as [completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase<T>.IsCompleted').
 

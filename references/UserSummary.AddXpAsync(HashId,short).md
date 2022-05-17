@@ -11,7 +11,7 @@ Gives [amount](UserSummary.AddXpAsync(HashId,short)#Guilded.Base.Users.UserSumma
 ---
 
 ## UserSummary.AddXpAsync(HashId, short) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Gives [amount](UserSummary.AddXpAsync(HashId,short)#Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId,short).amount 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short).amount') to the specified member.
 

@@ -11,7 +11,7 @@ Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban
 ---
 
 ## AbstractGuildedClient.GetBanAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets [the information](MemberBan 'Guilded.Base.Servers.MemberBan') about the ban of [member](AbstractGuildedClient.GetBanAsync(HashId,HashId)#Guilded.AbstractGuildedClient.GetBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 

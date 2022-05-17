@@ -11,7 +11,7 @@ Edits [content](Doc.UpdateAsync(string,string)#Guilded.Base.Content.Doc.UpdateAs
 ---
 
 ## Doc.UpdateAsync(string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
 
 Edits [content](Doc.UpdateAsync(string,string)#Guilded.Base.Content.Doc.UpdateAsync(string,string).content 'Guilded.Base.Content.Doc.UpdateAsync(string, string).content') or [title](Doc.UpdateAsync(string,string)#Guilded.Base.Content.Doc.UpdateAsync(string,string).title 'Guilded.Base.Content.Doc.UpdateAsync(string, string).title') of the doc.
 

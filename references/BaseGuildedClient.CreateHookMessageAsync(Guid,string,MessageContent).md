@@ -11,12 +11,12 @@ Creates [a message](Message 'Guilded.Base.Content.Message') using [webhook](Base
 ---
 
 ## BaseGuildedClient.CreateHookMessageAsync(Guid, string, MessageContent) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Creates [a message](Message 'Guilded.Base.Content.Message') using [webhook](BaseGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent)#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid,string,Guilded.Base.Content.MessageContent).webhook 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent).webhook').
 
 ```csharp
-public abstract System.Threading.Tasks.Task CreateHookMessageAsync(Guid webhook, string token, Guilded.Base.Content.MessageContent message);
+public System.Threading.Tasks.Task CreateHookMessageAsync(Guid webhook, string token, Guilded.Base.Content.MessageContent message);
 ```
 #### Parameters
 

@@ -11,7 +11,7 @@ Returns whether this [FormId](FormId 'Guilded.Base.FormId') instance and [obj](F
 ---
 
 ## FormId.Equals(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.Base.FormId')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.Base.FormId')
 
 Returns whether this [FormId](FormId 'Guilded.Base.FormId') instance and [obj](FormId.Equals(object)#Guilded.Base.FormId.Equals(object).obj 'Guilded.Base.FormId.Equals(object).obj') are equal.
 

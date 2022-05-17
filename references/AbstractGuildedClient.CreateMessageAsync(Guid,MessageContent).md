@@ -11,7 +11,7 @@ Creates a [new message](Message 'Guilded.Base.Content.Message')."
 ---
 
 ## AbstractGuildedClient.CreateMessageAsync(Guid, MessageContent) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Creates a [new message](Message 'Guilded.Base.Content.Message').
 

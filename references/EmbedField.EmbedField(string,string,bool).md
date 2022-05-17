@@ -11,7 +11,7 @@ Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.Embed
 ---
 
 ## EmbedField(string, string, bool) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.Base.Embeds.EmbedField')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.Base.Embeds.EmbedField')
 
 Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField'), which is optionally inline.
 

@@ -11,7 +11,7 @@ An authentication token used to log into a bot in Guilded."
 ---
 
 ## GuildedBotClient.AuthToken Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
 
 An authentication token used to log into a bot in Guilded.
 

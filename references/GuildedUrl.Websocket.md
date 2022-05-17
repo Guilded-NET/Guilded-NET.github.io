@@ -11,7 +11,7 @@ The URL to Guilded's WebSockets."
 ---
 
 ## GuildedUrl.Websocket Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
 
 The URL to Guilded's WebSockets.
 

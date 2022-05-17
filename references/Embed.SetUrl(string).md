@@ -11,7 +11,7 @@ Sets the [url](Embed.Url 'Guilded.Base.Embeds.Embed.Url') as the given [value](E
 ---
 
 ## Embed.SetUrl(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [url](Embed.Url 'Guilded.Base.Embeds.Embed.Url') as the given [value](Embed.SetUrl(string)#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value').
 

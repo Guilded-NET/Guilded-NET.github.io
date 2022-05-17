@@ -11,7 +11,7 @@ Edits the [content](Message.UpdateAsync(string,Embed[])#Guilded.Base.Content.Mes
 ---
 
 ## Message.UpdateAsync(string, Embed[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Edits the [content](Message.UpdateAsync(string,Embed[])#Guilded.Base.Content.Message.UpdateAsync(string,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Content.Message.UpdateAsync(string, Guilded.Base.Embeds.Embed[]).content') of a message.
 

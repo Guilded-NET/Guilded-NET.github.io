@@ -11,7 +11,7 @@ Represents the footer area of an [embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## EmbedFooter Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
 
 Represents the footer area of an [embed](Embed 'Guilded.Base.Embeds.Embed').
 

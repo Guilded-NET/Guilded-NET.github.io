@@ -11,7 +11,7 @@ Edits the content of a [message](ListItemBase_T_.UpdateAsync(string,string)#Guil
 ---
 
 ## ListItemBase<T>.UpdateAsync(string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
 Edits the content of a [message](ListItemBase_T_.UpdateAsync(string,string)#Guilded.Base.Content.ListItemBase_T_.UpdateAsync(string,string).message 'Guilded.Base.Content.ListItemBase<T>.UpdateAsync(string, string).message').
 

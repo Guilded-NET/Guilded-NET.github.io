@@ -11,7 +11,7 @@ Represents the base for channel content."
 ---
 
 ## ChannelContent<TId,TServer> Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
 Represents the base for channel content.
 

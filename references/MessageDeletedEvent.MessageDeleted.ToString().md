@@ -11,7 +11,7 @@ Creates string equivalent of the message."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.ToString() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
 Creates string equivalent of the message.
 

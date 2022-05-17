@@ -11,7 +11,7 @@ Gets the text contents of an [embed's](Embed 'Guilded.Base.Embeds.Embed') field.
 ---
 
 ## EmbedField.Value Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.Base.Embeds.EmbedField')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedField`](EmbedField 'Guilded.Base.Embeds.EmbedField')
 
 Gets the text contents of an [embed's](Embed 'Guilded.Base.Embeds.Embed') field.
 

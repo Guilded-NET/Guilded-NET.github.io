@@ -11,7 +11,7 @@ The count of how many [messages](Message 'Guilded.Base.Content.Message') can be 
 ---
 
 ## Message.ReplyLimit Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 The count of how many [messages](Message 'Guilded.Base.Content.Message') can be replied to per [message](Message 'Guilded.Base.Content.Message').
 

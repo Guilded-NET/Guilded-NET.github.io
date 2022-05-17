@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedPermissionException](GuildedPermissionExce
 ---
 
 ## GuildedPermissionException(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedPermissionException`](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedPermissionException`](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')
 
 Initializes a new instance of [GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException').
 

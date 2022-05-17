@@ -11,7 +11,7 @@ Represents team and channel permissions related to server management."
 ---
 
 ## GeneralPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
 Represents team and channel permissions related to server management.
 
@@ -19,6 +19,12 @@ Represents team and channel permissions related to server management.
 public enum GeneralPermissions
 ```
 ### Fields
+
+<a name='Guilded.Base.Permissions.GeneralPermissions.AccessModeratorView'></a>
+
+`AccessModeratorView` 32768
+
+Allows you to see private messages
 
 <a name='Guilded.Base.Permissions.GeneralPermissions.All'></a>
 
@@ -89,6 +95,12 @@ Allows you to use @everyone and @here mentions
 `None` 0
 
 No given permissions.
+
+<a name='Guilded.Base.Permissions.GeneralPermissions.SlowmodeException'></a>
+
+`SlowmodeException` 65536
+
+Allows you to bypass channel's slowmode settings
 
 <a name='Guilded.Base.Permissions.GeneralPermissions.UpdateServer'></a>
 

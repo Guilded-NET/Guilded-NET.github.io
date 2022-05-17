@@ -11,7 +11,7 @@ Gets a hashcode of this object."
 ---
 
 ## HashId.GetHashCode() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.Base.HashId')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.Base.HashId')
 
 Gets a hashcode of this object.
 

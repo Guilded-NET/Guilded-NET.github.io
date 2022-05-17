@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizati
 ---
 
 ## GuildedAuthorizationException() Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedAuthorizationException`](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 Initializes a new instance of [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException') with a [default message](https://docs.microsoft.com/en-us/dotnet/api/System.Exception.Message 'System.Exception.Message').
 

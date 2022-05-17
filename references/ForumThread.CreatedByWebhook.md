@@ -11,7 +11,7 @@ Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') tha
 ---
 
 ## ForumThread.CreatedByWebhook Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ForumThread`](ForumThread 'Guilded.Base.Content.ForumThread')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ForumThread`](ForumThread 'Guilded.Base.Content.ForumThread')
 
 Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created [the forum thread](ForumThread 'Guilded.Base.Content.ForumThread').
 

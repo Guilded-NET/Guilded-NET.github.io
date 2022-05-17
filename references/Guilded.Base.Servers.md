@@ -10,13 +10,15 @@ description: ""
 
 ## Guilded.Base.Servers Namespace
 - **[Member](Member 'Guilded.Base.Servers.Member')** `Class`
-  A server member.
-  - **[Member(User, IList&lt;uint&gt;, DateTime, string)](Member.Member(User,IList_uint_,DateTime,string) 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, System.DateTime, string)')** `Constructor`
+  Represents information about [the user](User 'Guilded.Base.Users.User') in a server.
+  - **[Member(User, IList&lt;uint&gt;, DateTime, string, bool)](Member.Member(User,IList_uint_,DateTime,string,bool) 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, System.DateTime, string, bool)')** `Constructor`
     Initializes a new instance of [Member](Member 'Guilded.Base.Servers.Member')f rom the specified JSON properties.
+  - **[IsOwner](Member.IsOwner 'Guilded.Base.Servers.Member.IsOwner')** `Property`
+    Gets whether [the member](Member 'Guilded.Base.Servers.Member') is the owner of the server.
   - **[JoinedAt](Member.JoinedAt 'Guilded.Base.Servers.Member.JoinedAt')** `Property`
-    Gets the date when the member joined.
+    Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined.
   - **[Nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname')** `Property`
-    Gets the set nickname of [the user](User 'Guilded.Base.Users.User') in the server.
+    Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in the server.
 - **[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')** `Class`
   Represents the information of [user's](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') ban.
   - **[MemberBan(UserSummary, HashId, DateTime, string)](MemberBan.MemberBan(UserSummary,HashId,DateTime,string) 'Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary, Guilded.Base.HashId, System.DateTime, string)')** `Constructor`
@@ -30,7 +32,7 @@ description: ""
   - **[User](MemberBan.User 'Guilded.Base.Servers.MemberBan.User')** `Property`
     Gets the banned user.
 - **[MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')** `Class`
-  Represents the summary about a member.
+  Represents the summary of [a member](Member 'Guilded.Base.Servers.Member').
   - **[MemberSummary(T, IList&lt;uint&gt;)](MemberSummary_T_.MemberSummary(T,IList_uint_) 'Guilded.Base.Servers.MemberSummary<T>.MemberSummary(T, System.Collections.Generic.IList<uint>)')** `Constructor`
     Initializes a new instance of [MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>').
   - **[Id](MemberSummary_T_.Id 'Guilded.Base.Servers.MemberSummary<T>.Id')** `Property`
@@ -40,7 +42,7 @@ description: ""
   - **[Name](MemberSummary_T_.Name 'Guilded.Base.Servers.MemberSummary<T>.Name')** `Property`
     Gets the global username of [the user](User 'Guilded.Base.Users.User').
   - **[RoleIds](MemberSummary_T_.RoleIds 'Guilded.Base.Servers.MemberSummary<T>.RoleIds')** `Property`
-    Gets the list of roles user holds.
+    Gets the list of roles [member](Member 'Guilded.Base.Servers.Member') holds.
   - **[Type](MemberSummary_T_.Type 'Guilded.Base.Servers.MemberSummary<T>.Type')** `Property`
     Gets the type of [the user](User 'Guilded.Base.Users.User') they are.
   - **[User](MemberSummary_T_.User 'Guilded.Base.Servers.MemberSummary<T>.User')** `Property`

@@ -11,7 +11,7 @@ Gets an identifier that allows the event to be replayed."
 ---
 
 ## GuildedSocketMessage.MessageId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
 Gets an identifier that allows the event to be replayed.
 

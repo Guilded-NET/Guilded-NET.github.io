@@ -11,7 +11,7 @@ Settings for [Rest](BaseGuildedClient.Rest 'Guilded.Base.BaseGuildedClient.Rest'
 ---
 
 ## BaseGuildedClient.SerializerSettings Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Settings for [Rest](BaseGuildedClient.Rest 'Guilded.Base.BaseGuildedClient.Rest') client's JSON (de)serialization.
 

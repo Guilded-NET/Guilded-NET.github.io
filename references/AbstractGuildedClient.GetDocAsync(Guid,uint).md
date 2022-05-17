@@ -11,7 +11,7 @@ Gets the doc."
 ---
 
 ## AbstractGuildedClient.GetDocAsync(Guid, uint) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets the doc.
 

@@ -11,7 +11,7 @@ Adds [emote](Message.AddReactionAsync(uint)#Guilded.Base.Content.Message.AddReac
 ---
 
 ## Message.AddReactionAsync(uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Adds [emote](Message.AddReactionAsync(uint)#Guilded.Base.Content.Message.AddReactionAsync(uint).emote 'Guilded.Base.Content.Message.AddReactionAsync(uint).emote') to the message.
 

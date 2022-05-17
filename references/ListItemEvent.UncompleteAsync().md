@@ -11,7 +11,7 @@ Marks the listItem as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.
 ---
 
 ## ListItemEvent.UncompleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Marks the listItem as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase<T>.IsCompleted').
 

@@ -11,7 +11,7 @@ The base URL for Guilded's media API."
 ---
 
 ## GuildedUrl.Media Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedUrl`](GuildedUrl 'Guilded.Base.GuildedUrl')
 
 The base URL for Guilded's media API.
 

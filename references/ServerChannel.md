@@ -11,7 +11,7 @@ Represents a navigatable item that contains content."
 ---
 
 ## ServerChannel Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
 
 Represents a navigatable item that contains content.
 

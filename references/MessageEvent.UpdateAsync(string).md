@@ -11,7 +11,7 @@ Edits the [content](MessageEvent.UpdateAsync(string)#Guilded.Base.Events.Message
 ---
 
 ## MessageEvent.UpdateAsync(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
 
 Edits the [content](MessageEvent.UpdateAsync(string)#Guilded.Base.Events.MessageEvent.UpdateAsync(string).content 'Guilded.Base.Events.MessageEvent.UpdateAsync(string).content') of a message.
 

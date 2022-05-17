@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedRequestException](GuildedRequestException 
 ---
 
 ## GuildedRequestException() Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException 'Guilded.Base.GuildedRequestException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedRequestException`](GuildedRequestException 'Guilded.Base.GuildedRequestException')
 
 Initializes a new instance of [GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException') with default message.
 

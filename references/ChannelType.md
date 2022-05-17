@@ -11,7 +11,7 @@ Represents the type of content that [a channel](ServerChannel 'Guilded.Base.Serv
 ---
 
 ## ChannelType Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
 
 Represents the type of content that [a channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') serves.
 

@@ -11,7 +11,7 @@ Represents the type of a [social link](SocialLink 'Guilded.Base.Users.SocialLink
 ---
 
 ## SocialLinkType Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
 
 Represents the type of a [social link](SocialLink 'Guilded.Base.Users.SocialLink').
 

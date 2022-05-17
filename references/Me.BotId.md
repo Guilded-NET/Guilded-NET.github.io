@@ -11,7 +11,7 @@ Gets the identifier of the bot [this client](BaseGuildedClient 'Guilded.Base.Bas
 ---
 
 ## Me.BotId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me 'Guilded.Base.Users.Me')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me 'Guilded.Base.Users.Me')
 
 Gets the identifier of the bot [this client](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') is logged into.
 

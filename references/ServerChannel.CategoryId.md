@@ -11,7 +11,7 @@ Gets the identifier of the parent category of this channel."
 ---
 
 ## ServerChannel.CategoryId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 Gets the identifier of the parent category of this channel.
 

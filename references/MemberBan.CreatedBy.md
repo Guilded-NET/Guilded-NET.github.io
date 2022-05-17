@@ -11,7 +11,7 @@ Gets the identifier of the staff who banned."
 ---
 
 ## MemberBan.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
 
 Gets the identifier of the staff who banned.
 

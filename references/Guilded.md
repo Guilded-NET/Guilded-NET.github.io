@@ -97,8 +97,8 @@ description: ""
     Creates a [new document](Doc 'Guilded.Base.Content.Doc').
   - **[CreateForumThreadAsync(Guid, string, string)](AbstractGuildedClient.CreateForumThreadAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateForumThreadAsync(Guid, string, string)')** `Method`
     Creates a [new forum post](ForumThread 'Guilded.Base.Content.ForumThread').
-  - **[CreateHookMessageAsync(Guid, string, MessageContent)](AbstractGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent) 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
-    Creates [a message](Message 'Guilded.Base.Content.Message') using webhook.
+  - **[CreateHookMessageAsync(Uri, MessageContent)](AbstractGuildedClient.CreateHookMessageAsync(Uri,MessageContent) 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhookUrl.
   - **[CreateListItemAsync(Guid, string, string)](AbstractGuildedClient.CreateListItemAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
     Creates a [new list item](ListItem 'Guilded.Base.Content.ListItem').
   - **[CreateMessageAsync(Guid, MessageContent)](AbstractGuildedClient.CreateMessageAsync(Guid,MessageContent) 'Guilded.AbstractGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`

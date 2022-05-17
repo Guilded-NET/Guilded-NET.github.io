@@ -11,7 +11,7 @@ Gets whether [the user](User 'Guilded.Base.Users.User') has been kicked."
 ---
 
 ## MemberRemovedEvent.IsKick Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
 Gets whether [the user](User 'Guilded.Base.Users.User') has been kicked.
 

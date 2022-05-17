@@ -11,7 +11,7 @@ The source URL to the image."
 ---
 
 ## EmbedMedia.Url Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia 'Guilded.Base.Embeds.EmbedMedia')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedMedia`](EmbedMedia 'Guilded.Base.Embeds.EmbedMedia')
 
 The source URL to the image.
 

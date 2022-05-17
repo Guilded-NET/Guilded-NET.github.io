@@ -11,7 +11,7 @@ Reads the given JSON object as [System.Drawing.Color](https://docs.microsoft.com
 ---
 
 ## DecimalColorConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter 'Guilded.Base.DecimalColorConverter')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DecimalColorConverter`](DecimalColorConverter 'Guilded.Base.DecimalColorConverter')
 
 Reads the given JSON object as [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color').
 

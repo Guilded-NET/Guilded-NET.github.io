@@ -11,7 +11,7 @@ The WebSocket that will be used by the client."
 ---
 
 ## BaseGuildedClient.Websocket Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 The WebSocket that will be used by the client.
 

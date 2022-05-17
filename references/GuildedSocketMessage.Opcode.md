@@ -11,7 +11,7 @@ Gets an operation code that tells about the message."
 ---
 
 ## GuildedSocketMessage.Opcode Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedSocketMessage`](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
 Gets an operation code that tells about the message.
 

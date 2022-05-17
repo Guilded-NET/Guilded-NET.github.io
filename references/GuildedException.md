@@ -11,7 +11,7 @@ Represents an exception thrown by Guilded API."
 ---
 
 ## GuildedException Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Represents an exception thrown by Guilded API.
 

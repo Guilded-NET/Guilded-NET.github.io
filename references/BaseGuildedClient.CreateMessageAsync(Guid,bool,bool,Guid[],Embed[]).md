@@ -11,7 +11,7 @@ Creates a [new message](Message 'Guilded.Base.Content.Message')."
 ---
 
 ## BaseGuildedClient.CreateMessageAsync(Guid, bool, bool, Guid[], Embed[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Creates a [new message](Message 'Guilded.Base.Content.Message').
 

@@ -11,7 +11,7 @@ Gets the identifier of the server where the member has joined."
 ---
 
 ## MemberJoinedEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
 
 Gets the identifier of the server where the member has joined.
 

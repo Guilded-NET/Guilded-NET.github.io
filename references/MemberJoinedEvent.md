@@ -11,7 +11,7 @@ Represents an event with the name `TeamMemberJoined` and opcode `0` that occurs 
 ---
 
 ## MemberJoinedEvent Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
 Represents an event with the name `TeamMemberJoined` and opcode `0` that occurs once [member](MemberJoinedEvent.Member 'Guilded.Base.Events.MemberJoinedEvent.Member') joins a [server](MemberJoinedEvent.ServerId 'Guilded.Base.Events.MemberJoinedEvent.ServerId').
 
@@ -31,7 +31,7 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | Properties | |
 | :--- | :--- |
 | [IsBot](MemberJoinedEvent.IsBot 'Guilded.Base.Events.MemberJoinedEvent.IsBot') | Gets whether [the user](User 'Guilded.Base.Users.User') is a [bot](UserType#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot'). |
-| [JoinedAt](MemberJoinedEvent.JoinedAt 'Guilded.Base.Events.MemberJoinedEvent.JoinedAt') | Gets the date when the member joined. |
+| [JoinedAt](MemberJoinedEvent.JoinedAt 'Guilded.Base.Events.MemberJoinedEvent.JoinedAt') | Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined. |
 | [Member](MemberJoinedEvent.Member 'Guilded.Base.Events.MemberJoinedEvent.Member') | Gets the member who has joined. |
 | [Name](MemberJoinedEvent.Name 'Guilded.Base.Events.MemberJoinedEvent.Name') | Gets the global username of [the user](User 'Guilded.Base.Users.User'). |
 | [ServerId](MemberJoinedEvent.ServerId 'Guilded.Base.Events.MemberJoinedEvent.ServerId') | Gets the identifier of the server where the member has joined. |

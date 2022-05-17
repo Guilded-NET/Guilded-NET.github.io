@@ -11,7 +11,7 @@ Gets the list of fields in the [embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Fields Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Gets the list of fields in the [embed](Embed 'Guilded.Base.Embeds.Embed').
 

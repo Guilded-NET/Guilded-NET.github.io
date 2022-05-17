@@ -11,7 +11,7 @@ Gets the message received from the event."
 ---
 
 ## MessageEvent<T>.Message Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent<T>`](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent<T>`](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')
 
 Gets the message received from the event.
 

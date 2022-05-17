@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User')."
 ---
 
 ## MemberSummary<T>.Id Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User').
 

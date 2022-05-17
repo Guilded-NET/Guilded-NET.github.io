@@ -11,7 +11,7 @@ Gets the text contents of [the message](Message 'Guilded.Base.Content.Message').
 ---
 
 ## MessageContent.Content Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
 
 Gets the text contents of [the message](Message 'Guilded.Base.Content.Message').
 

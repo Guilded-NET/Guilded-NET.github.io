@@ -11,7 +11,7 @@ Deletes the channel."
 ---
 
 ## ChannelEvent.DeleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Deletes the channel.
 

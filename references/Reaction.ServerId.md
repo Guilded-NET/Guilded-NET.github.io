@@ -11,7 +11,7 @@ Gets the identifier of [the reaction](Reaction 'Guilded.Base.Content.Reaction') 
 ---
 
 ## Reaction.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
 
 Gets the identifier of [the reaction](Reaction 'Guilded.Base.Content.Reaction') where the content is.
 

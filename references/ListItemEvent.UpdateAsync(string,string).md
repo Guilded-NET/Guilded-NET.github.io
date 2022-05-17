@@ -11,7 +11,7 @@ Edits the content of a [message](ListItemEvent.UpdateAsync(string,string)#Guilde
 ---
 
 ## ListItemEvent.UpdateAsync(string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Edits the content of a [message](ListItemEvent.UpdateAsync(string,string)#Guilded.Base.Events.ListItemEvent.UpdateAsync(string,string).message 'Guilded.Base.Events.ListItemEvent.UpdateAsync(string, string).message').
 

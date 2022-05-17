@@ -11,7 +11,7 @@ Represents a social media link of a [user](User 'Guilded.Base.Users.User')."
 ---
 
 ## SocialLink Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Users`](Guilded.Base.Users 'Guilded.Base.Users')
 
 Represents a social media link of a [user](User 'Guilded.Base.Users.User').
 

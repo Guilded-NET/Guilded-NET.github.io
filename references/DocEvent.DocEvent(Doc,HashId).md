@@ -11,7 +11,7 @@ Initializes a new instance of [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent'
 ---
 
 ## DocEvent(Doc, HashId) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Initializes a new instance of [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ An observable that can be subscribed."
 ---
 
 ## IEventInfo<T>.Observable Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_ 'Guilded.IEventInfo<T>')
+##### **Assembly:** `Guilded`<br/>**Type:** [`IEventInfo<T>`](IEventInfo_T_ 'Guilded.IEventInfo<T>')
 
 An observable that can be subscribed.
 

@@ -11,7 +11,7 @@ Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with it
 ---
 
 ## Embed(string, string, IList<EmbedField>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with its [fields](Embed.Embed(string,string,IList_EmbedField_)#Guilded.Base.Embeds.Embed.Embed(string,string,System.Collections.Generic.IList_Guilded.Base.Embeds.EmbedField_).fields 'Guilded.Base.Embeds.Embed.Embed(string, string, System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>).fields') and a [title](Embed.Embed(string,string,IList_EmbedField_)#Guilded.Base.Embeds.Embed.Embed(string,string,System.Collections.Generic.IList_Guilded.Base.Embeds.EmbedField_).title 'Guilded.Base.Embeds.Embed.Embed(string, string, System.Collections.Generic.IList<Guilded.Base.Embeds.EmbedField>).title').
 

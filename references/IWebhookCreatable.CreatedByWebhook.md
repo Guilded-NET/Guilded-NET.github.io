@@ -11,7 +11,7 @@ Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') tha
 ---
 
 ## IWebhookCreatable.CreatedByWebhook Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IWebhookCreatable`](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`IWebhookCreatable`](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable')
 
 Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
 

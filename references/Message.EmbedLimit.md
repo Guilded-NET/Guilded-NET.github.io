@@ -11,7 +11,7 @@ The count of how many [embeds](Message.Embeds 'Guilded.Base.Content.Message.Embe
 ---
 
 ## Message.EmbedLimit Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 The count of how many [embeds](Message.Embeds 'Guilded.Base.Content.Message.Embeds') there can be in [a message](Message 'Guilded.Base.Content.Message').
 

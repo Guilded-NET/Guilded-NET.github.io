@@ -11,7 +11,7 @@ Creates a [new list item](ListItem 'Guilded.Base.Content.ListItem')."
 ---
 
 ## BaseGuildedClient.CreateListItemAsync(Guid, string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Creates a [new list item](ListItem 'Guilded.Base.Content.ListItem').
 

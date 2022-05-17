@@ -11,7 +11,7 @@ Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply')
 ---
 
 ## MessageContent.IsSilent Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
 
 Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or the mention is silent and does not ping anyone.
 

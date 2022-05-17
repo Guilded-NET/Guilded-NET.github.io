@@ -11,7 +11,7 @@ Gets the timestamp of [an embed](Embed 'Guilded.Base.Embeds.Embed')."
 ---
 
 ## Embed.Timestamp Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Gets the timestamp of [an embed](Embed 'Guilded.Base.Embeds.Embed').
 

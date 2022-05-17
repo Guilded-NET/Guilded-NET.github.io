@@ -11,7 +11,7 @@ Deletes the [listItem](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid)#Guil
 ---
 
 ## AbstractGuildedClient.DeleteListItemAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Deletes the [listItem](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid).listItem').
 

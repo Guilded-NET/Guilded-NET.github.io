@@ -11,7 +11,7 @@ Represents an error received from Guilded WebSocket."
 ---
 
 ## GuildedWebsocketException Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base`](Guilded.Base 'Guilded.Base')
 
 Represents an error received from Guilded WebSocket.
 

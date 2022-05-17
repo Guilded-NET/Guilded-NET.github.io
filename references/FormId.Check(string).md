@@ -11,7 +11,7 @@ Returns whether [str](FormId.Check(string)#Guilded.Base.FormId.Check(string).str
 ---
 
 ## FormId.Check(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.Base.FormId')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`FormId`](FormId 'Guilded.Base.FormId')
 
 Returns whether [str](FormId.Check(string)#Guilded.Base.FormId.Check(string).str 'Guilded.Base.FormId.Check(string).str') is in the correct [FormId](FormId 'Guilded.Base.FormId') format.
 

@@ -11,7 +11,7 @@ Initializes a new instance of [MemberBanEvent](MemberBanEvent 'Guilded.Base.Even
 ---
 
 ## MemberBanEvent(HashId, MemberBan) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
 
 Initializes a new instance of [MemberBanEvent](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent') from the specified JSON properties.
 

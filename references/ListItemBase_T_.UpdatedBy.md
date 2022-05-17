@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User') who updated [the l
 ---
 
 ## ListItemBase<T>.UpdatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User') who updated [the list item](ListItem 'Guilded.Base.Content.ListItem').
 

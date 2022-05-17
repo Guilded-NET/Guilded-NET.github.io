@@ -11,7 +11,7 @@ Removes [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserS
 ---
 
 ## UserSummary.RemoveRoleAsync(HashId, uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Removes [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role') from [the user](User 'Guilded.Base.Users.User').
 

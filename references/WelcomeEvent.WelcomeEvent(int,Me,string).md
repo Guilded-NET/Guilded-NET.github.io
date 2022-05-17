@@ -11,7 +11,7 @@ Initializes a new instance of [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.W
 ---
 
 ## WelcomeEvent(int, Me, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
 
 Initializes a new instance of [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Gets whether the channel is in a category."
 ---
 
 ## ServerChannel.IsCategorized Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 Gets whether the channel is in a category.
 

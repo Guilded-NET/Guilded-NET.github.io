@@ -11,7 +11,7 @@ Gets whether the channel has been archived."
 ---
 
 ## ChannelEvent.IsArchived Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Gets whether the channel has been archived.
 

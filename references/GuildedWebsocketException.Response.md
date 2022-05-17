@@ -11,7 +11,7 @@ Gets the response message from Guilded WebSocket."
 ---
 
 ## GuildedWebsocketException.Response Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
 
 Gets the response message from Guilded WebSocket.
 

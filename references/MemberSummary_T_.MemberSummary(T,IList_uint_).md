@@ -11,7 +11,7 @@ Initializes a new instance of [MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded
 ---
 
 ## MemberSummary(T, IList<uint>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
 
 Initializes a new instance of [MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>').
 

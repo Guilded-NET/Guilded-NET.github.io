@@ -11,7 +11,7 @@ Initializes a new instance of [MemberRemovedEvent](MemberRemovedEvent 'Guilded.B
 ---
 
 ## MemberRemovedEvent(HashId, HashId, bool, bool) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
 Initializes a new instance of [MemberRemovedEvent](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent') from the specified JSON properties.
 

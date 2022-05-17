@@ -11,7 +11,7 @@ Sets the [description](Embed.Description 'Guilded.Base.Embeds.Embed.Description'
 ---
 
 ## Embed.SetDescription(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [description](Embed.Description 'Guilded.Base.Embeds.Embed.Description') as the given [value](Embed.SetDescription(object)#Guilded.Base.Embeds.Embed.SetDescription(object).value 'Guilded.Base.Embeds.Embed.SetDescription(object).value').
 

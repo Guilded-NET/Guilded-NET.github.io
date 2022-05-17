@@ -11,7 +11,7 @@ Serializes object with client's Guilded serializer."
 ---
 
 ## BaseGuildedClient.Serialize(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Serializes object with client's Guilded serializer.
 

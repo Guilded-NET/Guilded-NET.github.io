@@ -11,7 +11,7 @@ Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who up
 ---
 
 ## Doc.UpdatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
 
 Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who updated [the document](Doc 'Guilded.Base.Content.Doc').
 

@@ -11,7 +11,7 @@ Whether the type can be converted to [HashId](HashId 'Guilded.Base.HashId')."
 ---
 
 ## HashIdConverter.CanConvertFrom(ITypeDescriptorContext, Type) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter 'Guilded.Base.HashIdConverter')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashIdConverter`](HashIdConverter 'Guilded.Base.HashIdConverter')
 
 Whether the type can be converted to [HashId](HashId 'Guilded.Base.HashId').
 

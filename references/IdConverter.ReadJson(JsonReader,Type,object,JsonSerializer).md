@@ -11,7 +11,7 @@ Reads the given JSON object as [HashId](HashId 'Guilded.Base.HashId') or [FormId
 ---
 
 ## IdConverter.ReadJson(JsonReader, Type, object, JsonSerializer) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter 'Guilded.Base.IdConverter')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`IdConverter`](IdConverter 'Guilded.Base.IdConverter')
 
 Reads the given JSON object as [HashId](HashId 'Guilded.Base.HashId') or [FormId](FormId 'Guilded.Base.FormId').
 

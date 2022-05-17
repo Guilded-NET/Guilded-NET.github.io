@@ -11,7 +11,7 @@ Connects to Guilded bot using parameter as an auth."
 ---
 
 ## GuildedBotClient.ConnectAsync(string) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`GuildedBotClient`](GuildedBotClient 'Guilded.GuildedBotClient')
 
 Connects to Guilded bot using parameter as an auth.
 

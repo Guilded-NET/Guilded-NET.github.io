@@ -11,7 +11,7 @@ Gets the identifier of the member who has been kicked or has left."
 ---
 
 ## MemberRemovedEvent.UserId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
 Gets the identifier of the member who has been kicked or has left.
 

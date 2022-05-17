@@ -11,7 +11,7 @@ Gets the type of the observer's argument."
 ---
 
 ## EventInfo<T>.ArgumentType Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
+##### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
 
 Gets the type of the observer's argument.
 

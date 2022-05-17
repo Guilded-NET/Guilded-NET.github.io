@@ -11,7 +11,7 @@ When the socket message event is invoked."
 ---
 
 ## AbstractGuildedClient.OnSocketMessage(GuildedSocketMessage) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 When the socket message event is invoked.
 

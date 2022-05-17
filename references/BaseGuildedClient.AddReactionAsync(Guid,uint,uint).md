@@ -11,7 +11,7 @@ Adds [emote](BaseGuildedClient.AddReactionAsync(Guid,uint,uint)#Guilded.Base.Bas
 ---
 
 ## BaseGuildedClient.AddReactionAsync(Guid, uint, uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Adds [emote](BaseGuildedClient.AddReactionAsync(Guid,uint,uint)#Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid,uint,uint).emote 'Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid, uint, uint).emote') to the [content](BaseGuildedClient.AddReactionAsync(Guid,uint,uint)#Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid,uint,uint).content 'Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid, uint, uint).content').
 

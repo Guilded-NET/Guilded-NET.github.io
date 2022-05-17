@@ -11,7 +11,7 @@ Initializes a new instance of [MessageDeletedEvent](MessageDeletedEvent 'Guilded
 ---
 
 ## MessageDeletedEvent(MessageDeleted, Nullable<HashId>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeletedEvent`](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
 
 Initializes a new instance of [MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent') from the specified JSON properties.
 

@@ -11,7 +11,7 @@ Defines a role list holder and their role list."
 ---
 
 ## RolesUpdatedEvent.RolesUpdated Class
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
 
 Defines a role list holder and their role list.
 

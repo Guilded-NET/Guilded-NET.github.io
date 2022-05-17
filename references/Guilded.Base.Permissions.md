@@ -85,8 +85,12 @@ description: ""
     Allows you to read chat messages
   - **[SendMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendMessages 'Guilded.Base.Permissions.ChatPermissions.SendMessages')** `Field`
     Allows you to send chat messages
+  - **[SendPrivateMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendPrivateMessages 'Guilded.Base.Permissions.ChatPermissions.SendPrivateMessages')** `Field`
+    Allows you to send private mentions and replies
   - **[SendThreadMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendThreadMessages 'Guilded.Base.Permissions.ChatPermissions.SendThreadMessages')** `Field`
     Allows you to reply to threads in the channel
+  - **[UploadMedia](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.UploadMedia 'Guilded.Base.Permissions.ChatPermissions.UploadMedia')** `Field`
+    Allows you to send messages with images and videos
 - **[CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')** `Enum`
   Represents team permissions related to nickname and emoji customizations.
   - **[All](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.All 'Guilded.Base.Permissions.CustomPermissions.All')** `Field`
@@ -153,6 +157,8 @@ description: ""
     Allows you to sticky a topic
 - **[GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')** `Enum`
   Represents team and channel permissions related to server management.
+  - **[AccessModeratorView](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.AccessModeratorView 'Guilded.Base.Permissions.GeneralPermissions.AccessModeratorView')** `Field`
+    Allows you to see private messages
   - **[All](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.All 'Guilded.Base.Permissions.GeneralPermissions.All')** `Field`
     All of the permissions combined.
   - **[InviteMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.InviteMembers 'Guilded.Base.Permissions.GeneralPermissions.InviteMembers')** `Field`
@@ -173,6 +179,8 @@ description: ""
     Allows you to use @everyone and @here mentions
   - **[None](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.None 'Guilded.Base.Permissions.GeneralPermissions.None')** `Field`
     No given permissions.
+  - **[SlowmodeException](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.SlowmodeException 'Guilded.Base.Permissions.GeneralPermissions.SlowmodeException')** `Field`
+    Allows you to bypass channel's slowmode settings
   - **[UpdateServer](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.UpdateServer 'Guilded.Base.Permissions.GeneralPermissions.UpdateServer')** `Field`
     Allows you to update server's settings
 - **[ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')** `Enum`

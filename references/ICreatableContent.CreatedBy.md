@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User') creator of the con
 ---
 
 ## ICreatableContent.CreatedBy Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ICreatableContent`](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ICreatableContent`](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User') creator of the content.
 

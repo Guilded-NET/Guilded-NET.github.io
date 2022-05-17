@@ -11,7 +11,7 @@ Gets the [message](BaseGuildedClient.GetMessageAsync(Guid,Guid)#Guilded.Base.Bas
 ---
 
 ## BaseGuildedClient.GetMessageAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets the [message](BaseGuildedClient.GetMessageAsync(Guid,Guid)#Guilded.Base.BaseGuildedClient.GetMessageAsync(Guid,Guid).message 'Guilded.Base.BaseGuildedClient.GetMessageAsync(Guid, Guid).message').
 

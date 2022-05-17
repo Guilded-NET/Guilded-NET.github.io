@@ -11,7 +11,7 @@ Deserializes JSON with client's Guilded serializer."
 ---
 
 ## BaseGuildedClient.Deserialize<T>(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Deserializes JSON with client's Guilded serializer.
 

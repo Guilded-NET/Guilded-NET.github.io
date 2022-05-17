@@ -11,7 +11,7 @@ Gets the name, unique identifier or unique tag of the [user](User 'Guilded.Base.
 ---
 
 ## SocialLink.Handle Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
 
 Gets the name, unique identifier or unique tag of the [user](User 'Guilded.Base.Users.User') in this social link.
 

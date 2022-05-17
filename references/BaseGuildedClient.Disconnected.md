@@ -11,7 +11,7 @@ An event when the client gets disconnected."
 ---
 
 ## BaseGuildedClient.Disconnected Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 An event when the client gets disconnected.
 

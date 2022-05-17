@@ -11,7 +11,7 @@ Sets the [title](Embed.Title 'Guilded.Base.Embeds.Embed.Title') as the given [va
 ---
 
 ## Embed.SetTitle(string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [title](Embed.Title 'Guilded.Base.Embeds.Embed.Title') as the given [value](Embed.SetTitle(string)#Guilded.Base.Embeds.Embed.SetTitle(string).value 'Guilded.Base.Embeds.Embed.SetTitle(string).value').
 

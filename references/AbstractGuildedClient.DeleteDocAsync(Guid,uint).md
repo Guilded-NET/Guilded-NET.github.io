@@ -11,7 +11,7 @@ Deletes the [doc](AbstractGuildedClient.DeleteDocAsync(Guid,uint)#Guilded.Abstra
 ---
 
 ## AbstractGuildedClient.DeleteDocAsync(Guid, uint) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Deletes the [doc](AbstractGuildedClient.DeleteDocAsync(Guid,uint)#Guilded.AbstractGuildedClient.DeleteDocAsync(Guid,uint).doc 'Guilded.AbstractGuildedClient.DeleteDocAsync(Guid, uint).doc').
 

@@ -11,7 +11,7 @@ Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Gu
 ---
 
 ## AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted').
 

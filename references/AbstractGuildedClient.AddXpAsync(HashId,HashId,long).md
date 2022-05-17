@@ -11,7 +11,7 @@ Gives [amount](AbstractGuildedClient.AddXpAsync(HashId,HashId,long)#Guilded.Abst
 ---
 
 ## AbstractGuildedClient.AddXpAsync(HashId, HashId, long) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gives [amount](AbstractGuildedClient.AddXpAsync(HashId,HashId,long)#Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).amount 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long).amount') to the specified [member](AbstractGuildedClient.AddXpAsync(HashId,HashId,long)#Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId,Guilded.Base.HashId,long).member 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long).member').
 

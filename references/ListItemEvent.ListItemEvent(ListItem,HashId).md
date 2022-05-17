@@ -11,7 +11,7 @@ Initializes a new instance of [ListItemEvent](ListItemEvent 'Guilded.Base.Events
 ---
 
 ## ListItemEvent(ListItem, HashId) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Initializes a new instance of [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent') from the specified JSON properties.
 

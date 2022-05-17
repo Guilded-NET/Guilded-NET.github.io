@@ -11,7 +11,7 @@ Initializes a new instance of [XpAddedEvent](XpAddedEvent 'Guilded.Base.Events.X
 ---
 
 ## XpAddedEvent(IList<HashId>, long) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`XpAddedEvent`](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')
 
 Initializes a new instance of [XpAddedEvent](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent') from the specified JSON properties.
 

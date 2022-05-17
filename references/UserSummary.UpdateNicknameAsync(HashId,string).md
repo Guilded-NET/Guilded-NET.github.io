@@ -11,7 +11,7 @@ Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') o
 ---
 
 ## UserSummary.UpdateNicknameAsync(HashId, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the member.
 

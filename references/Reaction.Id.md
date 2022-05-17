@@ -11,7 +11,7 @@ Gets the identifier of the emote that was reacted with."
 ---
 
 ## Reaction.Id Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
 
 Gets the identifier of the emote that was reacted with.
 

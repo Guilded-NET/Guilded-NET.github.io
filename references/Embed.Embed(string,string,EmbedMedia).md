@@ -11,7 +11,7 @@ Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with an
 ---
 
 ## Embed(string, string, EmbedMedia) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Initializes a new instance of [Embed](Embed 'Guilded.Base.Embeds.Embed') with an [image](Embed.Embed(string,string,EmbedMedia)#Guilded.Base.Embeds.Embed.Embed(string,string,Guilded.Base.Embeds.EmbedMedia).image 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedMedia).image') and a [title](Embed.Embed(string,string,EmbedMedia)#Guilded.Base.Embeds.Embed.Embed(string,string,Guilded.Base.Embeds.EmbedMedia).title 'Guilded.Base.Embeds.Embed.Embed(string, string, Guilded.Base.Embeds.EmbedMedia).title').
 

@@ -11,7 +11,7 @@ Disposes [this client](AbstractGuildedClient 'Guilded.AbstractGuildedClient')."
 ---
 
 ## AbstractGuildedClient.Dispose() Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Disposes [this client](AbstractGuildedClient 'Guilded.AbstractGuildedClient').
 

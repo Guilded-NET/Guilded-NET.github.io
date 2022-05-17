@@ -11,7 +11,7 @@ Gets the identifier of the parent group of this channel."
 ---
 
 ## ChannelEvent.GroupId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Gets the identifier of the parent group of this channel.
 

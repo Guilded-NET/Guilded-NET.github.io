@@ -11,7 +11,7 @@ Returns the string representation of this [UserSummary](UserSummary 'Guilded.Bas
 ---
 
 ## UserSummary.ToString() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Returns the string representation of this [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') instance.
 

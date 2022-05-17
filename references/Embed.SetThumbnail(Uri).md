@@ -11,7 +11,7 @@ Sets the [thumbnail](Embed.Thumbnail 'Guilded.Base.Embeds.Embed.Thumbnail') as t
 ---
 
 ## Embed.SetThumbnail(Uri) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [thumbnail](Embed.Thumbnail 'Guilded.Base.Embeds.Embed.Thumbnail') as the given value.
 

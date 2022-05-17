@@ -11,7 +11,7 @@ Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Conte
 ---
 
 ## TitledContent.Content Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`TitledContent`](TitledContent 'Guilded.Base.Content.TitledContent')
 
 Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
 

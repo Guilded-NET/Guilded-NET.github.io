@@ -11,7 +11,7 @@ Returns whether this and [obj](MessageDeletedEvent.MessageDeleted.Equals(object)
 ---
 
 ## MessageDeletedEvent.MessageDeleted.Equals(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
 Returns whether this and [obj](MessageDeletedEvent.MessageDeleted.Equals(object)#Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object).obj') are equal to each other.
 

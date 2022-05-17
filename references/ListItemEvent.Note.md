@@ -11,7 +11,7 @@ Gets the note of [the item](ListItem 'Guilded.Base.Content.ListItem')."
 ---
 
 ## ListItemEvent.Note Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Gets the note of [the item](ListItem 'Guilded.Base.Content.ListItem').
 

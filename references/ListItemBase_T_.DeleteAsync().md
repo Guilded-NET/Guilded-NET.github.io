@@ -11,7 +11,7 @@ Deletes the listItem."
 ---
 
 ## ListItemBase<T>.DeleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
 Deletes the listItem.
 

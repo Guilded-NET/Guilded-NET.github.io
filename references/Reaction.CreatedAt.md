@@ -11,7 +11,7 @@ Gets the date when [the reaction](Reaction 'Guilded.Base.Content.Reaction') was 
 ---
 
 ## Reaction.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
 
 Gets the date when [the reaction](Reaction 'Guilded.Base.Content.Reaction') was created.
 

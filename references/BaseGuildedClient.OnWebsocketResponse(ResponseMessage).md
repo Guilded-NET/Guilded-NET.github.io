@@ -11,7 +11,7 @@ Used for when any WebSocket receives a message."
 ---
 
 ## BaseGuildedClient.OnWebsocketResponse(ResponseMessage) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Used for when any WebSocket receives a message.
 

@@ -43,7 +43,7 @@
     - **[CreateChannelAsync(HashId, string, ChannelType, string, Nullable&lt;HashId&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](AbstractGuildedClient.CreateChannelAsync(HashId,string,ChannelType,string,Nullable_HashId_,Nullable_uint_,Nullable_bool_) 'Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId, string, Guilded.Base.Servers.ChannelType, string, System.Nullable<Guilded.Base.HashId>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
     - **[CreateDocAsync(Guid, string, string)](AbstractGuildedClient.CreateDocAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
     - **[CreateForumThreadAsync(Guid, string, string)](AbstractGuildedClient.CreateForumThreadAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateForumThreadAsync(Guid, string, string)')** `Method`
-    - **[CreateHookMessageAsync(Guid, string, MessageContent)](AbstractGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent) 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateHookMessageAsync(Uri, MessageContent)](AbstractGuildedClient.CreateHookMessageAsync(Uri,MessageContent) 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent)')** `Method`
     - **[CreateListItemAsync(Guid, string, string)](AbstractGuildedClient.CreateListItemAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
     - **[CreateMessageAsync(Guid, MessageContent)](AbstractGuildedClient.CreateMessageAsync(Guid,MessageContent) 'Guilded.AbstractGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`
     - **[CreateWebhookAsync(HashId, Guid, string)](AbstractGuildedClient.CreateWebhookAsync(HashId,Guid,string) 'Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string)')** `Method`
@@ -100,6 +100,128 @@
     - **[Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')** `Property`
     - **[OnError(Exception)](IEventInfo_T_.OnError(Exception) 'Guilded.IEventInfo<T>.OnError(System.Exception)')** `Method`
     - **[OnNext(object)](IEventInfo_T_.OnNext(object) 'Guilded.IEventInfo<T>.OnNext(object)')** `Method`
+- **[Guilded.Commands](Guilded.Commands 'Guilded.Commands')** `Namespace`
+  - **[AbstractCommandArgument](AbstractCommandArgument 'Guilded.Commands.AbstractCommandArgument')** `Class`
+    - **[AbstractCommandArgument(ParameterInfo)](AbstractCommandArgument.AbstractCommandArgument(ParameterInfo) 'Guilded.Commands.AbstractCommandArgument.AbstractCommandArgument(ParameterInfo)')** `Constructor`
+    - **[ArgumentType](AbstractCommandArgument.ArgumentType 'Guilded.Commands.AbstractCommandArgument.ArgumentType')** `Property`
+    - **[Attribute](AbstractCommandArgument.Attribute 'Guilded.Commands.AbstractCommandArgument.Attribute')** `Property`
+    - **[Name](AbstractCommandArgument.Name 'Guilded.Commands.AbstractCommandArgument.Name')** `Property`
+    - **[Parameter](AbstractCommandArgument.Parameter 'Guilded.Commands.AbstractCommandArgument.Parameter')** `Property`
+    - **[GetValueFrom(IEnumerable&lt;string&gt;, int)](AbstractCommandArgument.GetValueFrom(IEnumerable_string_,int) 'Guilded.Commands.AbstractCommandArgument.GetValueFrom(System.Collections.Generic.IEnumerable<string>, int)')** `Method`
+  - **[AbstractCommandInfo&lt;TMember&gt;](AbstractCommandInfo_TMember_ 'Guilded.Commands.AbstractCommandInfo<TMember>')** `Class`
+    - **[AbstractCommandInfo(CommandAttribute, TMember)](AbstractCommandInfo_TMember_.AbstractCommandInfo(CommandAttribute,TMember) 'Guilded.Commands.AbstractCommandInfo<TMember>.AbstractCommandInfo(Guilded.Commands.CommandAttribute, TMember)')** `Constructor`
+    - **[Aliases](AbstractCommandInfo_TMember_.Aliases 'Guilded.Commands.AbstractCommandInfo<TMember>.Aliases')** `Property`
+    - **[Attribute](AbstractCommandInfo_TMember_.Attribute 'Guilded.Commands.AbstractCommandInfo<TMember>.Attribute')** `Property`
+    - **[Description](AbstractCommandInfo_TMember_.Description 'Guilded.Commands.AbstractCommandInfo<TMember>.Description')** `Property`
+    - **[Examples](AbstractCommandInfo_TMember_.Examples 'Guilded.Commands.AbstractCommandInfo<TMember>.Examples')** `Property`
+    - **[Member](AbstractCommandInfo_TMember_.Member 'Guilded.Commands.AbstractCommandInfo<TMember>.Member')** `Property`
+    - **[Name](AbstractCommandInfo_TMember_.Name 'Guilded.Commands.AbstractCommandInfo<TMember>.Name')** `Property`
+  - **[ClientCommandExtensions](ClientCommandExtensions 'Guilded.Commands.ClientCommandExtensions')** `Class`
+    - **[AddCommands(this AbstractGuildedClient, CommandModule)](ClientCommandExtensions.AddCommands(thisAbstractGuildedClient,CommandModule) 'Guilded.Commands.ClientCommandExtensions.AddCommands(this Guilded.AbstractGuildedClient, Guilded.Commands.CommandModule)')** `Method`
+  - **[CommandArgumentInfo](CommandArgumentInfo 'Guilded.Commands.CommandArgumentInfo')** `Class`
+    - **[CommandArgumentInfo(ParameterInfo)](CommandArgumentInfo.CommandArgumentInfo(ParameterInfo) 'Guilded.Commands.CommandArgumentInfo.CommandArgumentInfo(ParameterInfo)')** `Constructor`
+    - **[GetValueFrom(IEnumerable&lt;string&gt;, int)](CommandArgumentInfo.GetValueFrom(IEnumerable_string_,int) 'Guilded.Commands.CommandArgumentInfo.GetValueFrom(System.Collections.Generic.IEnumerable<string>, int)')** `Method`
+  - **[CommandAttribute](CommandAttribute 'Guilded.Commands.CommandAttribute')** `Class`
+    - **[CommandAttribute()](CommandAttribute.CommandAttribute() 'Guilded.Commands.CommandAttribute.CommandAttribute()')** `Constructor`
+    - **[CommandAttribute(string)](CommandAttribute.CommandAttribute(string) 'Guilded.Commands.CommandAttribute.CommandAttribute(string)')** `Constructor`
+    - **[Aliases](CommandAttribute.Aliases 'Guilded.Commands.CommandAttribute.Aliases')** `Property`
+    - **[Description](CommandAttribute.Description 'Guilded.Commands.CommandAttribute.Description')** `Property`
+    - **[Examples](CommandAttribute.Examples 'Guilded.Commands.CommandAttribute.Examples')** `Property`
+    - **[Name](CommandAttribute.Name 'Guilded.Commands.CommandAttribute.Name')** `Property`
+  - **[CommandBase](CommandBase 'Guilded.Commands.CommandBase')** `Class`
+    - **[CommandBase()](CommandBase.CommandBase() 'Guilded.Commands.CommandBase.CommandBase()')** `Constructor`
+    - **[Commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands')** `Property`
+    - **[FailedCommand](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand')** `Property`
+    - **[FilterCommandsByName(string)](CommandBase.FilterCommandsByName(string) 'Guilded.Commands.CommandBase.FilterCommandsByName(string)')** `Method`
+    - **[InvokeAnyCommandAsync(RootCommandContext, string, IEnumerable&lt;string&gt;)](CommandBase.InvokeAnyCommandAsync(RootCommandContext,string,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeAnyCommandAsync(Guilded.Commands.RootCommandContext, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
+    - **[InvokeAsync(string, RootCommandContext, IEnumerable&lt;string&gt;)](CommandBase.InvokeAsync(string,RootCommandContext,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeAsync(string, Guilded.Commands.RootCommandContext, System.Collections.Generic.IEnumerable<string>)')** `Method`
+  - **[CommandContainerInfo](CommandContainerInfo 'Guilded.Commands.CommandContainerInfo')** `Class`
+    - **[CommandContainerInfo(Type, CommandAttribute, CommandBase)](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandBase) 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandBase)')** `Constructor`
+    - **[Instance](CommandContainerInfo.Instance 'Guilded.Commands.CommandContainerInfo.Instance')** `Property`
+    - **[SubCommands](CommandContainerInfo.SubCommands 'Guilded.Commands.CommandContainerInfo.SubCommands')** `Property`
+  - **[CommandEvent](CommandEvent 'Guilded.Commands.CommandEvent')** `Class`
+    - **[CommandEvent(RootCommandContext, string, IEnumerable&lt;string&gt;)](CommandEvent.CommandEvent(RootCommandContext,string,IEnumerable_string_) 'Guilded.Commands.CommandEvent.CommandEvent(Guilded.Commands.RootCommandContext, string, System.Collections.Generic.IEnumerable<string>)')** `Constructor`
+    - **[Arguments](CommandEvent.Arguments 'Guilded.Commands.CommandEvent.Arguments')** `Property`
+    - **[ChannelId](CommandEvent.ChannelId 'Guilded.Commands.CommandEvent.ChannelId')** `Property`
+    - **[CommandName](CommandEvent.CommandName 'Guilded.Commands.CommandEvent.CommandName')** `Property`
+    - **[Content](CommandEvent.Content 'Guilded.Commands.CommandEvent.Content')** `Property`
+    - **[CreatedAt](CommandEvent.CreatedAt 'Guilded.Commands.CommandEvent.CreatedAt')** `Property`
+    - **[CreatedBy](CommandEvent.CreatedBy 'Guilded.Commands.CommandEvent.CreatedBy')** `Property`
+    - **[CreatedByWebhook](CommandEvent.CreatedByWebhook 'Guilded.Commands.CommandEvent.CreatedByWebhook')** `Property`
+    - **[Embeds](CommandEvent.Embeds 'Guilded.Commands.CommandEvent.Embeds')** `Property`
+    - **[IsPrivate](CommandEvent.IsPrivate 'Guilded.Commands.CommandEvent.IsPrivate')** `Property`
+    - **[IsReply](CommandEvent.IsReply 'Guilded.Commands.CommandEvent.IsReply')** `Property`
+    - **[Message](CommandEvent.Message 'Guilded.Commands.CommandEvent.Message')** `Property`
+    - **[MessageEvent](CommandEvent.MessageEvent 'Guilded.Commands.CommandEvent.MessageEvent')** `Property`
+    - **[Prefix](CommandEvent.Prefix 'Guilded.Commands.CommandEvent.Prefix')** `Property`
+    - **[ReplyMessageIds](CommandEvent.ReplyMessageIds 'Guilded.Commands.CommandEvent.ReplyMessageIds')** `Property`
+    - **[RootArguments](CommandEvent.RootArguments 'Guilded.Commands.CommandEvent.RootArguments')** `Property`
+    - **[RootCommand](CommandEvent.RootCommand 'Guilded.Commands.CommandEvent.RootCommand')** `Property`
+    - **[RootCommandName](CommandEvent.RootCommandName 'Guilded.Commands.CommandEvent.RootCommandName')** `Property`
+    - **[ServerId](CommandEvent.ServerId 'Guilded.Commands.CommandEvent.ServerId')** `Property`
+    - **[AddReactionAsync(uint)](CommandEvent.AddReactionAsync(uint) 'Guilded.Commands.CommandEvent.AddReactionAsync(uint)')** `Method`
+    - **[CreateMessageAsync(bool, bool, Guid[], Embed[])](CommandEvent.CreateMessageAsync(bool,bool,Guid[],Embed[]) 'Guilded.Commands.CommandEvent.CreateMessageAsync(bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(MessageContent)](CommandEvent.CreateMessageAsync(MessageContent) 'Guilded.Commands.CommandEvent.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateMessageAsync(Embed[])](CommandEvent.CreateMessageAsync(Embed[]) 'Guilded.Commands.CommandEvent.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool, Guid[], Embed[])](CommandEvent.CreateMessageAsync(string,bool,bool,Guid[],Embed[]) 'Guilded.Commands.CommandEvent.CreateMessageAsync(string, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool, Guid[])](CommandEvent.CreateMessageAsync(string,bool,bool,Guid[]) 'Guilded.Commands.CommandEvent.CreateMessageAsync(string, bool, bool, Guid[])')** `Method`
+    - **[CreateMessageAsync(string, bool, bool)](CommandEvent.CreateMessageAsync(string,bool,bool) 'Guilded.Commands.CommandEvent.CreateMessageAsync(string, bool, bool)')** `Method`
+    - **[CreateMessageAsync(string, Guid[])](CommandEvent.CreateMessageAsync(string,Guid[]) 'Guilded.Commands.CommandEvent.CreateMessageAsync(string, Guid[])')** `Method`
+    - **[CreateMessageAsync(string, Embed[])](CommandEvent.CreateMessageAsync(string,Embed[]) 'Guilded.Commands.CommandEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string)](CommandEvent.CreateMessageAsync(string) 'Guilded.Commands.CommandEvent.CreateMessageAsync(string)')** `Method`
+    - **[DeleteAsync()](CommandEvent.DeleteAsync() 'Guilded.Commands.CommandEvent.DeleteAsync()')** `Method`
+    - **[ReplyAsync(bool, bool, Embed[])](CommandEvent.ReplyAsync(bool,bool,Embed[]) 'Guilded.Commands.CommandEvent.ReplyAsync(bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(string, bool, bool, Embed[])](CommandEvent.ReplyAsync(string,bool,bool,Embed[]) 'Guilded.Commands.CommandEvent.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[ReplyAsync(string, bool, bool)](CommandEvent.ReplyAsync(string,bool,bool) 'Guilded.Commands.CommandEvent.ReplyAsync(string, bool, bool)')** `Method`
+    - **[ReplyAsync(string)](CommandEvent.ReplyAsync(string) 'Guilded.Commands.CommandEvent.ReplyAsync(string)')** `Method`
+    - **[UpdateAsync(string)](CommandEvent.UpdateAsync(string) 'Guilded.Commands.CommandEvent.UpdateAsync(string)')** `Method`
+  - **[CommandFallbackAttribute](CommandFallbackAttribute 'Guilded.Commands.CommandFallbackAttribute')** `Class`
+    - **[CommandFallbackAttribute(FallbackType)](CommandFallbackAttribute.CommandFallbackAttribute(FallbackType) 'Guilded.Commands.CommandFallbackAttribute.CommandFallbackAttribute(Guilded.Commands.FallbackType)')** `Constructor`
+    - **[Type](CommandFallbackAttribute.Type 'Guilded.Commands.CommandFallbackAttribute.Type')** `Property`
+  - **[CommandInfo](CommandInfo 'Guilded.Commands.CommandInfo')** `Class`
+    - **[CommandInfo(MethodInfo, CommandAttribute, IEnumerable&lt;ParameterInfo&gt;)](CommandInfo.CommandInfo(MethodInfo,CommandAttribute,IEnumerable_ParameterInfo_) 'Guilded.Commands.CommandInfo.CommandInfo(MethodInfo, Guilded.Commands.CommandAttribute, System.Collections.Generic.IEnumerable<ParameterInfo>)')** `Constructor`
+    - **[Arguments](CommandInfo.Arguments 'Guilded.Commands.CommandInfo.Arguments')** `Property`
+    - **[HasRestArgument](CommandInfo.HasRestArgument 'Guilded.Commands.CommandInfo.HasRestArgument')** `Property`
+    - **[InvokeAsync(CommandBase, CommandEvent, IEnumerable&lt;object&gt;)](CommandInfo.InvokeAsync(CommandBase,CommandEvent,IEnumerable_object_) 'Guilded.Commands.CommandInfo.InvokeAsync(Guilded.Commands.CommandBase, Guilded.Commands.CommandEvent, System.Collections.Generic.IEnumerable<object>)')** `Method`
+  - **[CommandModule](CommandModule 'Guilded.Commands.CommandModule')** `Class`
+    - **[CommandModule(ContextPrefix, char[], StringSplitOptions)](CommandModule.CommandModule(ContextPrefix,char[],StringSplitOptions) 'Guilded.Commands.CommandModule.CommandModule(Guilded.Commands.ContextPrefix, char[], StringSplitOptions)')** `Constructor`
+    - **[CommandModule(ContextPrefix, StringSplitOptions)](CommandModule.CommandModule(ContextPrefix,StringSplitOptions) 'Guilded.Commands.CommandModule.CommandModule(Guilded.Commands.ContextPrefix, StringSplitOptions)')** `Constructor`
+    - **[CommandModule(string, char[], StringSplitOptions)](CommandModule.CommandModule(string,char[],StringSplitOptions) 'Guilded.Commands.CommandModule.CommandModule(string, char[], StringSplitOptions)')** `Constructor`
+    - **[CommandModule(string, StringSplitOptions)](CommandModule.CommandModule(string,StringSplitOptions) 'Guilded.Commands.CommandModule.CommandModule(string, StringSplitOptions)')** `Constructor`
+    - **[CommandModule(StringSplitOptions)](CommandModule.CommandModule(StringSplitOptions) 'Guilded.Commands.CommandModule.CommandModule(StringSplitOptions)')** `Constructor`
+    - **[DefaultSeparators](CommandModule.DefaultSeparators 'Guilded.Commands.CommandModule.DefaultSeparators')** `Field`
+    - **[DefaultSplitOptions](CommandModule.DefaultSplitOptions 'Guilded.Commands.CommandModule.DefaultSplitOptions')** `Field`
+    - **[Prefix](CommandModule.Prefix 'Guilded.Commands.CommandModule.Prefix')** `Property`
+    - **[Separators](CommandModule.Separators 'Guilded.Commands.CommandModule.Separators')** `Property`
+    - **[SplitOptions](CommandModule.SplitOptions 'Guilded.Commands.CommandModule.SplitOptions')** `Property`
+    - **[AddTo(AbstractGuildedClient)](CommandModule.AddTo(AbstractGuildedClient) 'Guilded.Commands.CommandModule.AddTo(Guilded.AbstractGuildedClient)')** `Method`
+    - **[Remove()](CommandModule.Remove() 'Guilded.Commands.CommandModule.Remove()')** `Method`
+  - **[CommandParamAttribute](CommandParamAttribute 'Guilded.Commands.CommandParamAttribute')** `Class`
+    - **[CommandParamAttribute()](CommandParamAttribute.CommandParamAttribute() 'Guilded.Commands.CommandParamAttribute.CommandParamAttribute()')** `Constructor`
+    - **[CommandParamAttribute(string)](CommandParamAttribute.CommandParamAttribute(string) 'Guilded.Commands.CommandParamAttribute.CommandParamAttribute(string)')** `Constructor`
+    - **[Name](CommandParamAttribute.Name 'Guilded.Commands.CommandParamAttribute.Name')** `Property`
+  - **[CommandRestInfo](CommandRestInfo 'Guilded.Commands.CommandRestInfo')** `Class`
+    - **[CommandRestInfo(ParameterInfo)](CommandRestInfo.CommandRestInfo(ParameterInfo) 'Guilded.Commands.CommandRestInfo.CommandRestInfo(ParameterInfo)')** `Constructor`
+    - **[GetValueFrom(IEnumerable&lt;string&gt;, int)](CommandRestInfo.GetValueFrom(IEnumerable_string_,int) 'Guilded.Commands.CommandRestInfo.GetValueFrom(System.Collections.Generic.IEnumerable<string>, int)')** `Method`
+  - **[FailedCommandEvent](FailedCommandEvent 'Guilded.Commands.FailedCommandEvent')** `Class`
+    - **[FailedCommandEvent(RootCommandContext, string, IEnumerable&lt;string&gt;, FallbackType)](FailedCommandEvent.FailedCommandEvent(RootCommandContext,string,IEnumerable_string_,FallbackType) 'Guilded.Commands.FailedCommandEvent.FailedCommandEvent(Guilded.Commands.RootCommandContext, string, System.Collections.Generic.IEnumerable<string>, Guilded.Commands.FallbackType)')** `Constructor`
+    - **[Type](FailedCommandEvent.Type 'Guilded.Commands.FailedCommandEvent.Type')** `Property`
+  - **[RootCommandContext](RootCommandContext 'Guilded.Commands.RootCommandContext')** `Struct`
+    - **[RootCommandContext(MessageEvent, string, string, IEnumerable&lt;string&gt;)](RootCommandContext.RootCommandContext(MessageEvent,string,string,IEnumerable_string_) 'Guilded.Commands.RootCommandContext.RootCommandContext(Guilded.Base.Events.MessageEvent, string, string, System.Collections.Generic.IEnumerable<string>)')** `Constructor`
+    - **[MessageEvent](RootCommandContext.MessageEvent 'Guilded.Commands.RootCommandContext.MessageEvent')** `Property`
+    - **[Prefix](RootCommandContext.Prefix 'Guilded.Commands.RootCommandContext.Prefix')** `Property`
+    - **[RootArguments](RootCommandContext.RootArguments 'Guilded.Commands.RootCommandContext.RootArguments')** `Property`
+    - **[RootCommandName](RootCommandContext.RootCommandName 'Guilded.Commands.RootCommandContext.RootCommandName')** `Property`
+  - **[ICommandInfo&lt;TMember&gt;](ICommandInfo_TMember_ 'Guilded.Commands.ICommandInfo<TMember>')** `Interface`
+    - **[Aliases](ICommandInfo_TMember_.Aliases 'Guilded.Commands.ICommandInfo<TMember>.Aliases')** `Property`
+    - **[Attribute](ICommandInfo_TMember_.Attribute 'Guilded.Commands.ICommandInfo<TMember>.Attribute')** `Property`
+    - **[Member](ICommandInfo_TMember_.Member 'Guilded.Commands.ICommandInfo<TMember>.Member')** `Property`
+    - **[Name](ICommandInfo_TMember_.Name 'Guilded.Commands.ICommandInfo<TMember>.Name')** `Property`
+    - **[HasName(string)](ICommandInfo_TMember_.HasName(string) 'Guilded.Commands.ICommandInfo<TMember>.HasName(string)')** `Method`
+  - **[FallbackType](FallbackType 'Guilded.Commands.FallbackType')** `Enum`
+    - **[NoCommandFound](FallbackType#Guilded.Commands.FallbackType.NoCommandFound 'Guilded.Commands.FallbackType.NoCommandFound')** `Field`
+    - **[Unspecified](FallbackType#Guilded.Commands.FallbackType.Unspecified 'Guilded.Commands.FallbackType.Unspecified')** `Field`
+  - **[ContextPrefix(MessageEvent)](ContextPrefix(MessageEvent) 'Guilded.Commands.ContextPrefix(Guilded.Base.Events.MessageEvent)')** `Delegate`
 - **[Guilded.Base](Guilded.Base 'Guilded.Base')** `Namespace`
   - **[BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')** `Class`
     - **[BaseGuildedClient()](BaseGuildedClient.BaseGuildedClient() 'Guilded.Base.BaseGuildedClient.BaseGuildedClient()')** `Constructor`
@@ -133,6 +255,12 @@
     - **[CreateHookMessageAsync(Guid, string, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
     - **[CreateHookMessageAsync(Guid, string, string)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string)')** `Method`
     - **[CreateHookMessageAsync(Guid, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[CreateHookMessageAsync(Uri, MessageContent)](BaseGuildedClient.CreateHookMessageAsync(Uri,MessageContent) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateHookMessageAsync(Uri, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Uri,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateHookMessageAsync(Uri, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Uri,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateHookMessageAsync(Uri, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Uri,string,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[CreateHookMessageAsync(Uri, string)](BaseGuildedClient.CreateHookMessageAsync(Uri,string) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string)')** `Method`
+    - **[CreateHookMessageAsync(Uri, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Uri,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
     - **[CreateListItemAsync(Guid, string, string)](BaseGuildedClient.CreateListItemAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
     - **[CreateMessageAsync(Guid, bool, bool, Guid[], Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,bool,bool,Guid[],Embed[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`
     - **[CreateMessageAsync(Guid, MessageContent)](BaseGuildedClient.CreateMessageAsync(Guid,MessageContent) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`
@@ -332,6 +460,7 @@
     - **[Embeds](Message.Embeds 'Guilded.Base.Content.Message.Embeds')** `Property`
     - **[IsPrivate](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate')** `Property`
     - **[IsReply](Message.IsReply 'Guilded.Base.Content.Message.IsReply')** `Property`
+    - **[IsSilent](Message.IsSilent 'Guilded.Base.Content.Message.IsSilent')** `Property`
     - **[IsSystemMessage](Message.IsSystemMessage 'Guilded.Base.Content.Message.IsSystemMessage')** `Property`
     - **[ReplyMessageIds](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds')** `Property`
     - **[Type](Message.Type 'Guilded.Base.Content.Message.Type')** `Property`
@@ -584,11 +713,13 @@
     - **[ChannelId](MessageDeletedEvent.ChannelId 'Guilded.Base.Events.MessageDeletedEvent.ChannelId')** `Property`
     - **[DeletedAt](MessageDeletedEvent.DeletedAt 'Guilded.Base.Events.MessageDeletedEvent.DeletedAt')** `Property`
     - **[Id](MessageDeletedEvent.Id 'Guilded.Base.Events.MessageDeletedEvent.Id')** `Property`
+    - **[IsPrivate](MessageDeletedEvent.IsPrivate 'Guilded.Base.Events.MessageDeletedEvent.IsPrivate')** `Property`
   - **[MessageDeletedEvent.MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')** `Class`
-    - **[MessageDeleted(Guid, Guid, DateTime, Nullable&lt;HashId&gt;)](MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid,Guid,DateTime,Nullable_HashId_) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid, Guid, System.DateTime, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
+    - **[MessageDeleted(Guid, Guid, DateTime, Nullable&lt;HashId&gt;, bool)](MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid,Guid,DateTime,Nullable_HashId_,bool) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid, Guid, System.DateTime, System.Nullable<Guilded.Base.HashId>, bool)')** `Constructor`
     - **[ChannelId](MessageDeletedEvent.MessageDeleted.ChannelId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ChannelId')** `Property`
     - **[DeletedAt](MessageDeletedEvent.MessageDeleted.DeletedAt 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.DeletedAt')** `Property`
     - **[Id](MessageDeletedEvent.MessageDeleted.Id 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Id')** `Property`
+    - **[IsPrivate](MessageDeletedEvent.MessageDeleted.IsPrivate 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.IsPrivate')** `Property`
     - **[ServerId](MessageDeletedEvent.MessageDeleted.ServerId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ServerId')** `Property`
     - **[Equals(object)](MessageDeletedEvent.MessageDeleted.Equals(object) 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Equals(object)')** `Method`
     - **[GetHashCode()](MessageDeletedEvent.MessageDeleted.GetHashCode() 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.GetHashCode()')** `Method`
@@ -600,8 +731,12 @@
     - **[CreatedAt](MessageEvent.CreatedAt 'Guilded.Base.Events.MessageEvent.CreatedAt')** `Property`
     - **[CreatedBy](MessageEvent.CreatedBy 'Guilded.Base.Events.MessageEvent.CreatedBy')** `Property`
     - **[CreatedByWebhook](MessageEvent.CreatedByWebhook 'Guilded.Base.Events.MessageEvent.CreatedByWebhook')** `Property`
+    - **[Embeds](MessageEvent.Embeds 'Guilded.Base.Events.MessageEvent.Embeds')** `Property`
+    - **[IsPrivate](MessageEvent.IsPrivate 'Guilded.Base.Events.MessageEvent.IsPrivate')** `Property`
     - **[IsReply](MessageEvent.IsReply 'Guilded.Base.Events.MessageEvent.IsReply')** `Property`
+    - **[IsSilent](MessageEvent.IsSilent 'Guilded.Base.Events.MessageEvent.IsSilent')** `Property`
     - **[IsSystemMessage](MessageEvent.IsSystemMessage 'Guilded.Base.Events.MessageEvent.IsSystemMessage')** `Property`
+    - **[ReplyMessageIds](MessageEvent.ReplyMessageIds 'Guilded.Base.Events.MessageEvent.ReplyMessageIds')** `Property`
     - **[Type](MessageEvent.Type 'Guilded.Base.Events.MessageEvent.Type')** `Property`
     - **[UpdatedAt](MessageEvent.UpdatedAt 'Guilded.Base.Events.MessageEvent.UpdatedAt')** `Property`
     - **[AddReactionAsync(uint)](MessageEvent.AddReactionAsync(uint) 'Guilded.Base.Events.MessageEvent.AddReactionAsync(uint)')** `Method`
@@ -705,7 +840,9 @@
     - **[None](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.None 'Guilded.Base.Permissions.ChatPermissions.None')** `Field`
     - **[ReadMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.ReadMessages 'Guilded.Base.Permissions.ChatPermissions.ReadMessages')** `Field`
     - **[SendMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendMessages 'Guilded.Base.Permissions.ChatPermissions.SendMessages')** `Field`
+    - **[SendPrivateMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendPrivateMessages 'Guilded.Base.Permissions.ChatPermissions.SendPrivateMessages')** `Field`
     - **[SendThreadMessages](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.SendThreadMessages 'Guilded.Base.Permissions.ChatPermissions.SendThreadMessages')** `Field`
+    - **[UploadMedia](ChatPermissions#Guilded.Base.Permissions.ChatPermissions.UploadMedia 'Guilded.Base.Permissions.ChatPermissions.UploadMedia')** `Field`
   - **[CustomPermissions](CustomPermissions 'Guilded.Base.Permissions.CustomPermissions')** `Enum`
     - **[All](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.All 'Guilded.Base.Permissions.CustomPermissions.All')** `Field`
     - **[ChangeNickname](CustomPermissions#Guilded.Base.Permissions.CustomPermissions.ChangeNickname 'Guilded.Base.Permissions.CustomPermissions.ChangeNickname')** `Field`
@@ -739,6 +876,7 @@
     - **[ReadForums](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.ReadForums 'Guilded.Base.Permissions.ForumPermissions.ReadForums')** `Field`
     - **[StickyTopics](ForumPermissions#Guilded.Base.Permissions.ForumPermissions.StickyTopics 'Guilded.Base.Permissions.ForumPermissions.StickyTopics')** `Field`
   - **[GeneralPermissions](GeneralPermissions 'Guilded.Base.Permissions.GeneralPermissions')** `Enum`
+    - **[AccessModeratorView](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.AccessModeratorView 'Guilded.Base.Permissions.GeneralPermissions.AccessModeratorView')** `Field`
     - **[All](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.All 'Guilded.Base.Permissions.GeneralPermissions.All')** `Field`
     - **[InviteMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.InviteMembers 'Guilded.Base.Permissions.GeneralPermissions.InviteMembers')** `Field`
     - **[KickBanMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.KickBanMembers 'Guilded.Base.Permissions.GeneralPermissions.KickBanMembers')** `Field`
@@ -749,6 +887,7 @@
     - **[ManageWebhooks](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks 'Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks')** `Field`
     - **[MentionEveryoneHere](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere 'Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere')** `Field`
     - **[None](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.None 'Guilded.Base.Permissions.GeneralPermissions.None')** `Field`
+    - **[SlowmodeException](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.SlowmodeException 'Guilded.Base.Permissions.GeneralPermissions.SlowmodeException')** `Field`
     - **[UpdateServer](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.UpdateServer 'Guilded.Base.Permissions.GeneralPermissions.UpdateServer')** `Field`
   - **[ListPermissions](ListPermissions 'Guilded.Base.Permissions.ListPermissions')** `Enum`
     - **[All](ListPermissions#Guilded.Base.Permissions.ListPermissions.All 'Guilded.Base.Permissions.ListPermissions.All')** `Field`
@@ -824,7 +963,8 @@
     - **[None](XpPermissions#Guilded.Base.Permissions.XpPermissions.None 'Guilded.Base.Permissions.XpPermissions.None')** `Field`
 - **[Guilded.Base.Servers](Guilded.Base.Servers 'Guilded.Base.Servers')** `Namespace`
   - **[Member](Member 'Guilded.Base.Servers.Member')** `Class`
-    - **[Member(User, IList&lt;uint&gt;, DateTime, string)](Member.Member(User,IList_uint_,DateTime,string) 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, System.DateTime, string)')** `Constructor`
+    - **[Member(User, IList&lt;uint&gt;, DateTime, string, bool)](Member.Member(User,IList_uint_,DateTime,string,bool) 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, System.DateTime, string, bool)')** `Constructor`
+    - **[IsOwner](Member.IsOwner 'Guilded.Base.Servers.Member.IsOwner')** `Property`
     - **[JoinedAt](Member.JoinedAt 'Guilded.Base.Servers.Member.JoinedAt')** `Property`
     - **[Nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname')** `Property`
   - **[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')** `Class`

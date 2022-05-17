@@ -11,7 +11,7 @@ Connects [this client](AbstractGuildedClient 'Guilded.AbstractGuildedClient') to
 ---
 
 ## AbstractGuildedClient.ConnectAsync() Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Connects [this client](AbstractGuildedClient 'Guilded.AbstractGuildedClient') to Guilded.
 

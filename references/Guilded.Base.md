@@ -73,6 +73,18 @@ description: ""
     Creates [a message](Message 'Guilded.Base.Content.Message') with content containing only content using a webhook.
   - **[CreateHookMessageAsync(Guid, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
     Creates [a message](Message 'Guilded.Base.Content.Message') with content containing embeds using a webhook.
+  - **[CreateHookMessageAsync(Uri, MessageContent)](BaseGuildedClient.CreateHookMessageAsync(Uri,MessageContent) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhookUrl.
+  - **[CreateHookMessageAsync(Uri, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Uri,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Embeds.Embed[])')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhookUrl.
+  - **[CreateHookMessageAsync(Uri, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Uri,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string, Guilded.Base.Embeds.Embed[])')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhookUrl.
+  - **[CreateHookMessageAsync(Uri, string, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Uri,string,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhookUrl.
+  - **[CreateHookMessageAsync(Uri, string)](BaseGuildedClient.CreateHookMessageAsync(Uri,string) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhookUrl.
+  - **[CreateHookMessageAsync(Uri, IList&lt;Embed&gt;)](BaseGuildedClient.CreateHookMessageAsync(Uri,IList_Embed_) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    Creates [a message](Message 'Guilded.Base.Content.Message') using webhookUrl.
   - **[CreateListItemAsync(Guid, string, string)](BaseGuildedClient.CreateListItemAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
     Creates a [new list item](ListItem 'Guilded.Base.Content.ListItem').
   - **[CreateMessageAsync(Guid, bool, bool, Guid[], Embed[])](BaseGuildedClient.CreateMessageAsync(Guid,bool,bool,Guid[],Embed[]) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, bool, bool, Guid[], Guilded.Base.Embeds.Embed[])')** `Method`

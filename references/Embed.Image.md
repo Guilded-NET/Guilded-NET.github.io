@@ -11,7 +11,7 @@ Gets the image of the content that [embed](Embed 'Guilded.Base.Embeds.Embed') di
 ---
 
 ## Embed.Image Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Gets the image of the content that [embed](Embed 'Guilded.Base.Embeds.Embed') displays.
 

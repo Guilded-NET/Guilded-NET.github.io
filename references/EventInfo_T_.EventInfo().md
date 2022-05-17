@@ -11,7 +11,7 @@ Initializes a new instance of [EventInfo&lt;T&gt;](EventInfo_T_ 'Guilded.EventIn
 ---
 
 ## EventInfo() Constructor
-###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
+##### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
 
 Initializes a new instance of [EventInfo&lt;T&gt;](EventInfo_T_ 'Guilded.EventInfo<T>').
 

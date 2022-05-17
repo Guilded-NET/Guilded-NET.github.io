@@ -11,7 +11,7 @@ Returns whether this [HashId](HashId 'Guilded.Base.HashId') instance and [other]
 ---
 
 ## HashId.Equals(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.Base.HashId')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`HashId`](HashId 'Guilded.Base.HashId')
 
 Returns whether this [HashId](HashId 'Guilded.Base.HashId') instance and [other](HashId.Equals(object)#Guilded.Base.HashId.Equals(object).other 'Guilded.Base.HashId.Equals(object).other') are equal.
 

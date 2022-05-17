@@ -11,7 +11,7 @@ Represents the type of a [message](Message 'Guilded.Base.Content.Message') that 
 ---
 
 ## MessageType Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
 Represents the type of a [message](Message 'Guilded.Base.Content.Message') that was created or updated.
 

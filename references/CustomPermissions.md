@@ -11,7 +11,7 @@ Represents team permissions related to nickname and emoji customizations."
 ---
 
 ## CustomPermissions Enum
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Permissions`](Guilded.Base.Permissions 'Guilded.Base.Permissions')
 
 Represents team permissions related to nickname and emoji customizations.
 

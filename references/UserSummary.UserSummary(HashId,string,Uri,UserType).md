@@ -11,7 +11,7 @@ Initializes a new instance of [UserSummary](UserSummary 'Guilded.Base.Users.User
 ---
 
 ## UserSummary(HashId, string, Uri, UserType) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Initializes a new instance of [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') with specified properties.
 

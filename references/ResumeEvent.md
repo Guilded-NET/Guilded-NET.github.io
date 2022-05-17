@@ -11,7 +11,7 @@ Represents an event with an event opcode of `2` that occurs when the client pass
 ---
 
 ## ResumeEvent Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
 Represents an event with an event opcode of `2` that occurs when the client passes last event message identifier.
 

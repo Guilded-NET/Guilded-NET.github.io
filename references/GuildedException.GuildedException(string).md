@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.
 ---
 
 ## GuildedException(string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
 Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.GuildedException') with only a [message](GuildedException.GuildedException(string)#Guilded.Base.GuildedException.GuildedException(string).message 'Guilded.Base.GuildedException.GuildedException(string).message').
 

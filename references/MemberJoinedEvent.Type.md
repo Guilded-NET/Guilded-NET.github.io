@@ -11,7 +11,7 @@ Gets the type of [the user](User 'Guilded.Base.Users.User') they are."
 ---
 
 ## MemberJoinedEvent.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
 
 Gets the type of [the user](User 'Guilded.Base.Users.User') they are.
 

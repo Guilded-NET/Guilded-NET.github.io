@@ -11,7 +11,7 @@ Initializes a new instance of [Reaction](Reaction 'Guilded.Base.Content.Reaction
 ---
 
 ## Reaction(uint, HashId, DateTime, Nullable<HashId>, Nullable<Guid>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
 
 Initializes a new instance of [Reaction](Reaction 'Guilded.Base.Content.Reaction') with provided details.
 

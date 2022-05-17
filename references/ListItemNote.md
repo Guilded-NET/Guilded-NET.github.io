@@ -11,7 +11,7 @@ Represents the full information about [the list item's](ListItem 'Guilded.Base.C
 ---
 
 ## ListItemNote Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
 Represents the full information about [the list item's](ListItem 'Guilded.Base.Content.ListItem') note.
 

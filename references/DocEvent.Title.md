@@ -11,7 +11,7 @@ Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.Title
 ---
 
 ## DocEvent.Title Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
 

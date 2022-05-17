@@ -11,7 +11,7 @@ Adds emote to the content."
 ---
 
 ## IReactibleContent.AddReactionAsync(uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`IReactibleContent`](IReactibleContent 'Guilded.Base.Content.IReactibleContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`IReactibleContent`](IReactibleContent 'Guilded.Base.Content.IReactibleContent')
 
 Adds emote to the content.
 

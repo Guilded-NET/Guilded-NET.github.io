@@ -11,7 +11,7 @@ Represents an event with the opcode `1` that is received once WebSocket connects
 ---
 
 ## WelcomeEvent Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
 Represents an event with the opcode `1` that is received once WebSocket connects or reconnects.
 

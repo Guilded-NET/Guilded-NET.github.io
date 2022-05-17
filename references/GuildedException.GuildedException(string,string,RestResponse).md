@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.
 ---
 
 ## GuildedException(string, string, RestResponse) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
 Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.GuildedException') from a [response](GuildedException.GuildedException(string,string,RestResponse)#Guilded.Base.GuildedException.GuildedException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse).response').
 

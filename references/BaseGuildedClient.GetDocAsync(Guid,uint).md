@@ -11,7 +11,7 @@ Gets the [doc](BaseGuildedClient.GetDocAsync(Guid,uint)#Guilded.Base.BaseGuilded
 ---
 
 ## BaseGuildedClient.GetDocAsync(Guid, uint) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets the [doc](BaseGuildedClient.GetDocAsync(Guid,uint)#Guilded.Base.BaseGuildedClient.GetDocAsync(Guid,uint).doc 'Guilded.Base.BaseGuildedClient.GetDocAsync(Guid, uint).doc').
 

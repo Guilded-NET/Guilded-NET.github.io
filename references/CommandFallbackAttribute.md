@@ -1,0 +1,30 @@
+---
+title: CommandFallbackAttribute
+layout: references
+section: references
+tags:
+  - references
+  - class
+description: "
+
+Declares a method as a [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') handler."
+---
+
+## CommandFallbackAttribute Class
+##### **Assembly:** `Guilded.Commands`<br/>**Namespace:** [`Guilded.Commands`](Guilded.Commands 'Guilded.Commands')
+
+Declares a method as a [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') handler.
+
+```csharp
+public sealed class CommandFallbackAttribute : System.Attribute
+```
+
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.Attribute](https://docs.microsoft.com/en-us/dotnet/api/System.Attribute 'System.Attribute') &#129106; CommandFallbackAttribute
+
+| Constructors | |
+| :--- | :--- |
+| [CommandFallbackAttribute(FallbackType)](CommandFallbackAttribute.CommandFallbackAttribute(FallbackType) 'Guilded.Commands.CommandFallbackAttribute.CommandFallbackAttribute(Guilded.Commands.FallbackType)') | Declares a method as a failed command handler based on [type](CommandFallbackAttribute.CommandFallbackAttribute(FallbackType)#Guilded.Commands.CommandFallbackAttribute.CommandFallbackAttribute(Guilded.Commands.FallbackType).type 'Guilded.Commands.CommandFallbackAttribute.CommandFallbackAttribute(Guilded.Commands.FallbackType).type'). |
+
+| Properties | |
+| :--- | :--- |
+| [Type](CommandFallbackAttribute.Type 'Guilded.Commands.CommandFallbackAttribute.Type') | Gets the type of [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') event to handle. |

@@ -11,7 +11,7 @@ Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the [c
 ---
 
 ## BaseGuildedClient.GetListItemsAsync(Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the [channel](BaseGuildedClient.GetListItemsAsync(Guid)#Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid).channel').
 

@@ -11,7 +11,7 @@ Gets the dictionary of Guilded events, their names and other event information."
 ---
 
 ## AbstractGuildedClient.GuildedEvents Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets the dictionary of Guilded events, their names and other event information.
 

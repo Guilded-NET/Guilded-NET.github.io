@@ -11,7 +11,7 @@ Initializes a new instance of [UserSummary](UserSummary 'Guilded.Base.Users.User
 ---
 
 ## User(HashId, string, DateTime, Uri, Uri, UserType) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`User`](User 'Guilded.Base.Users.User')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`User`](User 'Guilded.Base.Users.User')
 
 Initializes a new instance of [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') from the specified JSON properties.
 

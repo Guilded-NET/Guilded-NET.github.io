@@ -11,7 +11,7 @@ Gets the date when [the user](User 'Guilded.Base.Users.User') has registered the
 ---
 
 ## User.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`User`](User 'Guilded.Base.Users.User')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`User`](User 'Guilded.Base.Users.User')
 
 Gets the date when [the user](User 'Guilded.Base.Users.User') has registered their account.
 

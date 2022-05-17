@@ -11,7 +11,7 @@ Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') o
 ---
 
 ## AbstractGuildedClient.UpdateNicknameAsync(HashId, HashId, string) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
 

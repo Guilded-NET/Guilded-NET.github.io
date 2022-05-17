@@ -11,7 +11,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User')[this client](BaseG
 ---
 
 ## Me.Id Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me 'Guilded.Base.Users.Me')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me 'Guilded.Base.Users.Me')
 
 Gets the identifier of [user](User 'Guilded.Base.Users.User')[this client](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') is logged into.
 

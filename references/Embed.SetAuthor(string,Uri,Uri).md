@@ -11,7 +11,7 @@ Sets the [author](Embed.Author 'Guilded.Base.Embeds.Embed.Author') as the given 
 ---
 
 ## Embed.SetAuthor(string, Uri, Uri) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [author](Embed.Author 'Guilded.Base.Embeds.Embed.Author') as the given author with the given [name](Embed.SetAuthor(string,Uri,Uri)#Guilded.Base.Embeds.Embed.SetAuthor(string,Uri,Uri).name 'Guilded.Base.Embeds.Embed.SetAuthor(string, Uri, Uri).name').
 

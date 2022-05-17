@@ -11,7 +11,7 @@ Returns string representation of the exception thrown."
 ---
 
 ## GuildedException.ToString() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedException`](GuildedException 'Guilded.Base.GuildedException')
 
 Returns string representation of the exception thrown.
 

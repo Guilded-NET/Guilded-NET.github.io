@@ -11,7 +11,7 @@ Initializes a new instance of [Me](Me 'Guilded.Base.Users.Me') from the specifie
 ---
 
 ## Me(HashId, Guid, string, DateTime, HashId) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me 'Guilded.Base.Users.Me')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Me`](Me 'Guilded.Base.Users.Me')
 
 Initializes a new instance of [Me](Me 'Guilded.Base.Users.Me') from the specified JSON properties.
 

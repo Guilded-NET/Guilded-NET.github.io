@@ -11,7 +11,7 @@ Gets the date when the channel was created."
 ---
 
 ## ChannelEvent.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Gets the date when the channel was created.
 

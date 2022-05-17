@@ -11,7 +11,7 @@ Gets the unique identifier of the [user](User 'Guilded.Base.Users.User') in this
 ---
 
 ## SocialLink.ServiceId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
 
 Gets the unique identifier of the [user](User 'Guilded.Base.Users.User') in this social link.
 

@@ -11,7 +11,7 @@ Removes [user](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Ba
 ---
 
 ## BaseGuildedClient.RemoveMembershipAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Removes [user](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') from [group](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
 

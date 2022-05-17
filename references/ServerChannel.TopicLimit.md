@@ -11,7 +11,7 @@ The count of how many [characters](https://docs.microsoft.com/en-us/dotnet/api/S
 ---
 
 ## ServerChannel.TopicLimit Field
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 The count of how many [characters](https://docs.microsoft.com/en-us/dotnet/api/System.Char 'System.Char') there can be in [channel's topic](ServerChannel.Topic 'Guilded.Base.Servers.ServerChannel.Topic').
 

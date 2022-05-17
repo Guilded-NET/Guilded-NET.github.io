@@ -11,7 +11,7 @@ Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 ---
 
 ## BaseGuildedClient.Dispose() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') instance.
 

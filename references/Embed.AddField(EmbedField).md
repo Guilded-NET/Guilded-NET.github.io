@@ -11,7 +11,7 @@ Adds a new [field](Embed.AddField(EmbedField)#Guilded.Base.Embeds.Embed.AddField
 ---
 
 ## Embed.AddField(EmbedField) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Adds a new [field](Embed.AddField(EmbedField)#Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field 'Guilded.Base.Embeds.Embed.AddField(Guilded.Base.Embeds.EmbedField).field') to the [current set of fields](Embed.Fields 'Guilded.Base.Embeds.Embed.Fields').
 

@@ -11,7 +11,7 @@ Edits [content](DocEvent.UpdateAsync(string,string)#Guilded.Base.Events.DocEvent
 ---
 
 ## DocEvent.UpdateAsync(string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
 Edits [content](DocEvent.UpdateAsync(string,string)#Guilded.Base.Events.DocEvent.UpdateAsync(string,string).content 'Guilded.Base.Events.DocEvent.UpdateAsync(string, string).content') or [title](DocEvent.UpdateAsync(string,string)#Guilded.Base.Events.DocEvent.UpdateAsync(string,string).title 'Guilded.Base.Events.DocEvent.UpdateAsync(string, string).title') of the doc.
 

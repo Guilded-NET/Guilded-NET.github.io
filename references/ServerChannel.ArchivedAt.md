@@ -11,7 +11,7 @@ Gets the date when the channel was archived."
 ---
 
 ## ServerChannel.ArchivedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 Gets the date when the channel was archived.
 

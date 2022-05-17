@@ -11,7 +11,7 @@ Gets the global avatar of [the user](User 'Guilded.Base.Users.User')."
 ---
 
 ## UserSummary.Avatar Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
 Gets the global avatar of [the user](User 'Guilded.Base.Users.User').
 

@@ -11,7 +11,7 @@ Gets the identifier of the last received WebSocket message."
 ---
 
 ## WelcomeEvent.LastMessageId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`WelcomeEvent`](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')
 
 Gets the identifier of the last received WebSocket message.
 

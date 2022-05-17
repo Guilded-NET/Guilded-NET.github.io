@@ -11,7 +11,7 @@ Sets the [footer](Embed.Footer 'Guilded.Base.Embeds.Embed.Footer') as the given 
 ---
 
 ## Embed.SetFooter(string, string) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Embed`](Embed 'Guilded.Base.Embeds.Embed')
 
 Sets the [footer](Embed.Footer 'Guilded.Base.Embeds.Embed.Footer') as the given value.
 

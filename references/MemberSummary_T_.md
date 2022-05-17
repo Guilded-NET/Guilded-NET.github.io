@@ -7,13 +7,13 @@ tags:
   - class
 description: "
 
-Represents the summary about a member."
+Represents the summary of [a member](Member 'Guilded.Base.Servers.Member')."
 ---
 
 ## MemberSummary<T> Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
 
-Represents the summary about a member.
+Represents the summary of [a member](Member 'Guilded.Base.Servers.Member').
 
 ```csharp
 public class MemberSummary<T> : Guilded.Base.BaseObject
@@ -41,7 +41,7 @@ The type of [the user](User 'Guilded.Base.Users.User') object
 | [Id](MemberSummary_T_.Id 'Guilded.Base.Servers.MemberSummary<T>.Id') | Gets the identifier of [user](User 'Guilded.Base.Users.User'). |
 | [IsBot](MemberSummary_T_.IsBot 'Guilded.Base.Servers.MemberSummary<T>.IsBot') | Gets whether [the user](User 'Guilded.Base.Users.User') is a [bot](UserType#Guilded.Base.Users.UserType.Bot 'Guilded.Base.Users.UserType.Bot'). |
 | [Name](MemberSummary_T_.Name 'Guilded.Base.Servers.MemberSummary<T>.Name') | Gets the global username of [the user](User 'Guilded.Base.Users.User'). |
-| [RoleIds](MemberSummary_T_.RoleIds 'Guilded.Base.Servers.MemberSummary<T>.RoleIds') | Gets the list of roles user holds. |
+| [RoleIds](MemberSummary_T_.RoleIds 'Guilded.Base.Servers.MemberSummary<T>.RoleIds') | Gets the list of roles [member](Member 'Guilded.Base.Servers.Member') holds. |
 | [Type](MemberSummary_T_.Type 'Guilded.Base.Servers.MemberSummary<T>.Type') | Gets the type of [the user](User 'Guilded.Base.Users.User') they are. |
 | [User](MemberSummary_T_.User 'Guilded.Base.Servers.MemberSummary<T>.User') | Gets [the user](User 'Guilded.Base.Users.User') they are. |
 

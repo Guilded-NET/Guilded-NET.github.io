@@ -11,7 +11,7 @@ Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.Chann
 ---
 
 ## IReactibleContent Interface
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Content`](Guilded.Base.Content 'Guilded.Base.Content')
 
 Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that can be [reacted](Reaction 'Guilded.Base.Content.Reaction') on.
 

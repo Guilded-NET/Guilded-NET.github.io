@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the list of roles user holds."
+Gets the list of roles [member](Member 'Guilded.Base.Servers.Member') holds."
 ---
 
 ## MemberSummary<T>.RoleIds Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberSummary<T>`](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')
 
-Gets the list of roles user holds.
+Gets the list of roles [member](Member 'Guilded.Base.Servers.Member') holds.
 
 ```csharp
 public System.Collections.Generic.IList<uint> RoleIds { get; set; }

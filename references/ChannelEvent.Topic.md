@@ -11,7 +11,7 @@ Gets the topic describing what the channel is about."
 ---
 
 ## ChannelEvent.Topic Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelEvent`](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 
 Gets the topic describing what the channel is about.
 

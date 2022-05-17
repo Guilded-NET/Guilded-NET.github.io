@@ -11,7 +11,7 @@ Gets the date when the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.Use
 ---
 
 ## MemberBan.CreatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
 
 Gets the date when the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') was banned
 

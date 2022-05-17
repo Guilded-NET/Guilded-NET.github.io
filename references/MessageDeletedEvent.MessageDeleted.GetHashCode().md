@@ -11,7 +11,7 @@ Gets a hashcode of this object."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.GetHashCode() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
 Gets a hashcode of this object.
 

@@ -11,7 +11,7 @@ Gets the type of [the message](Message 'Guilded.Base.Content.Message')."
 ---
 
 ## Message.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Gets the type of [the message](Message 'Guilded.Base.Content.Message').
 

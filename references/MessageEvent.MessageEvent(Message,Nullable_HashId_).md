@@ -11,7 +11,7 @@ Initializes a new instance of [MessageEvent](MessageEvent 'Guilded.Base.Events.M
 ---
 
 ## MessageEvent(Message, Nullable<HashId>) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent`](MessageEvent 'Guilded.Base.Events.MessageEvent')
 
 Initializes a new instance of [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent') from the specified JSON properties.
 

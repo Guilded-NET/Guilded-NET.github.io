@@ -11,7 +11,7 @@ Represents an image, a thumbnail or a video in an [embed](Embed 'Guilded.Base.Em
 ---
 
 ## EmbedMedia Class
-###### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
+##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Embeds`](Guilded.Base.Embeds 'Guilded.Base.Embeds')
 
 Represents an image, a thumbnail or a video in an [embed](Embed 'Guilded.Base.Embeds.Embed').
 

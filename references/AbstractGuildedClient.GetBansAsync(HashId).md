@@ -11,7 +11,7 @@ Gets the list of [server](AbstractGuildedClient.GetBansAsync(HashId)#Guilded.Abs
 ---
 
 ## AbstractGuildedClient.GetBansAsync(HashId) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Gets the list of [server](AbstractGuildedClient.GetBansAsync(HashId)#Guilded.AbstractGuildedClient.GetBansAsync(Guilded.Base.HashId).server 'Guilded.AbstractGuildedClient.GetBansAsync(Guilded.Base.HashId).server') bans.
 

@@ -11,7 +11,7 @@ Gets the date when [the item](ListItem 'Guilded.Base.Content.ListItem') was edit
 ---
 
 ## ListItemBase<T>.UpdatedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
 Gets the date when [the item](ListItem 'Guilded.Base.Content.ListItem') was edited.
 

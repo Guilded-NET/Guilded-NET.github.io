@@ -11,7 +11,7 @@ Notifies observers with an exception."
 ---
 
 ## EventInfo<T>.OnError(Exception) Method
-###### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
+##### **Assembly:** `Guilded`<br/>**Type:** [`EventInfo<T>`](EventInfo_T_ 'Guilded.EventInfo<T>')
 
 Notifies observers with an exception.
 

@@ -11,7 +11,7 @@ Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketExcept
 ---
 
 ## GuildedWebsocketException(string, Exception) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`GuildedWebsocketException`](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException')
 
 Initializes a new instance of [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException') with an [inner](GuildedWebsocketException.GuildedWebsocketException(string,Exception)#Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string,System.Exception).inner 'Guilded.Base.GuildedWebsocketException.GuildedWebsocketException(string, System.Exception).inner') explaining more.
 

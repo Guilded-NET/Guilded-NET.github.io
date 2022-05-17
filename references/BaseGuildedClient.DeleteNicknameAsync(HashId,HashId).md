@@ -11,7 +11,7 @@ Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') o
 ---
 
 ## BaseGuildedClient.DeleteNicknameAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 

@@ -11,7 +11,7 @@ Deletes the [webhook](BaseGuildedClient.DeleteWebhookAsync(HashId,Guid)#Guilded.
 ---
 
 ## BaseGuildedClient.DeleteWebhookAsync(HashId, Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Deletes the [webhook](BaseGuildedClient.DeleteWebhookAsync(HashId,Guid)#Guilded.Base.BaseGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId,Guid).webhook 'Guilded.Base.BaseGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId, Guid).webhook').
 

@@ -11,7 +11,7 @@ Deletes the doc."
 ---
 
 ## Doc.DeleteAsync() Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Doc`](Doc 'Guilded.Base.Content.Doc')
 
 Deletes the doc.
 

@@ -11,7 +11,7 @@ The identifier of the last WebSocket message."
 ---
 
 ## BaseGuildedClient.LastMessageId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 The identifier of the last WebSocket message.
 

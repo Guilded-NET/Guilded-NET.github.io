@@ -11,7 +11,7 @@ Gets the identifier of the server where member has been banned/unbanned."
 ---
 
 ## MemberBanEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
 
 Gets the identifier of the server where member has been banned/unbanned.
 

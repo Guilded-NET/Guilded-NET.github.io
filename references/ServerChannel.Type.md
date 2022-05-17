@@ -11,7 +11,7 @@ Gets the type of content the channel holds."
 ---
 
 ## ServerChannel.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ServerChannel`](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 Gets the type of content the channel holds.
 

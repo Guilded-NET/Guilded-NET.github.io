@@ -11,7 +11,7 @@ Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.Emb
 ---
 
 ## EmbedFooter(string, string) Constructor
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`EmbedFooter`](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
 
 Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string)#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text').
 

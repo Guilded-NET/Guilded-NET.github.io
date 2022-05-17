@@ -11,7 +11,7 @@ Whether the client is [prepared](AbstractGuildedClient.Prepared 'Guilded.Abstrac
 ---
 
 ## AbstractGuildedClient.IsPrepared Property
-###### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
+##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
 Whether the client is [prepared](AbstractGuildedClient.Prepared 'Guilded.AbstractGuildedClient.Prepared').
 

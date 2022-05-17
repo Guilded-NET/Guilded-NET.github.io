@@ -11,7 +11,7 @@ Gets the date when [the item](ListItem 'Guilded.Base.Content.ListItem') was comp
 ---
 
 ## ListItemEvent.CompletedAt Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Gets the date when [the item](ListItem 'Guilded.Base.Content.ListItem') was completed.
 

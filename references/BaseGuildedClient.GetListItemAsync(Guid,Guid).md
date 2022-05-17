@@ -11,7 +11,7 @@ Gets the [listItem](BaseGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.Base.B
 ---
 
 ## BaseGuildedClient.GetListItemAsync(Guid, Guid) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Gets the [listItem](BaseGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.Base.BaseGuildedClient.GetListItemAsync(Guid,Guid).listItem 'Guilded.Base.BaseGuildedClient.GetListItemAsync(Guid, Guid).listItem') from a [channel](BaseGuildedClient.GetListItemAsync(Guid,Guid)#Guilded.Base.BaseGuildedClient.GetListItemAsync(Guid,Guid).channel 'Guilded.Base.BaseGuildedClient.GetListItemAsync(Guid, Guid).channel').
 

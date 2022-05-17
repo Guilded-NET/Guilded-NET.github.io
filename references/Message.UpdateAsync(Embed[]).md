@@ -11,7 +11,7 @@ Edits the content of a message."
 ---
 
 ## Message.UpdateAsync(Embed[]) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Message`](Message 'Guilded.Base.Content.Message')
 
 Edits the content of a message.
 

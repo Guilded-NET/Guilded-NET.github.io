@@ -11,7 +11,7 @@ Gets the banned user."
 ---
 
 ## MemberBan.User Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBan`](MemberBan 'Guilded.Base.Servers.MemberBan')
 
 Gets the banned user.
 

@@ -11,7 +11,7 @@ Gets the type of social link it is."
 ---
 
 ## SocialLink.Type Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`SocialLink`](SocialLink 'Guilded.Base.Users.SocialLink')
 
 Gets the type of social link it is.
 

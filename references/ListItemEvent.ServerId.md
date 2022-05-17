@@ -11,7 +11,7 @@ Gets the identifier of the server where the event occurred."
 ---
 
 ## ListItemEvent.ServerId Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemEvent`](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 
 Gets the identifier of the server where the event occurred.
 

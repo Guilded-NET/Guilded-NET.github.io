@@ -11,7 +11,7 @@ Returns whether this instance and the [other](ChannelContent_TId,TServer_.Equals
 ---
 
 ## ChannelContent<TId,TServer>.Equals(object) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ChannelContent<TId,TServer>`](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
 
 Returns whether this instance and the [other](ChannelContent_TId,TServer_.Equals(object)#Guilded.Base.Content.ChannelContent_TId,TServer_.Equals(object).other 'Guilded.Base.Content.ChannelContent<TId,TServer>.Equals(object).other') are equal to each other.
 

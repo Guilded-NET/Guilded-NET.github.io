@@ -11,7 +11,7 @@ Gets the list of [messages](Message 'Guilded.Base.Content.Message') being replie
 ---
 
 ## MessageContent.ReplyMessageIds Property
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageContent`](MessageContent 'Guilded.Base.Content.MessageContent')
 
 Gets the list of [messages](Message 'Guilded.Base.Content.Message') being replied to.
 

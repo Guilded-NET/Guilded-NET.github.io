@@ -11,7 +11,7 @@ Removes the [member](BaseGuildedClient.KickMemberAsync(HashId,HashId)#Guilded.Ba
 ---
 
 ## BaseGuildedClient.KickMemberAsync(HashId, HashId) Method
-###### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
 Removes the [member](BaseGuildedClient.KickMemberAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member') from the [server](BaseGuildedClient.KickMemberAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.KickMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server 'Guilded.Base.BaseGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).server').
 
