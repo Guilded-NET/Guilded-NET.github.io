@@ -45,4 +45,4 @@ tags:
 | Direct messages          | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
 
 [^1]: Image and video uploading is supported by client API. Guilded.NET supports uploading images and partially supports video uploads. Non-media file uploads are not available neither in API, nor in Guilded.NET.
-[^2]: Slash commands are not a thing, but it is possible to use old-fashioned message commands(<q>!command arg0 arg1 arg2</q>).
+[^2]: Slash commands are not a thing, but it is possible to use old-fashioned message commands(<q>!command arg0 arg1 arg2</q>). See [the commands guide](./commands) for more information.

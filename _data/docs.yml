@@ -19,8 +19,3 @@
     - name: Commands
       icon: fas fa-cogs
       url : /docs/commands
-- name: Resources
-  docs:
-    - name: Message Preview
-      icon: fas fa-eye
-      url : /docs/message-preview

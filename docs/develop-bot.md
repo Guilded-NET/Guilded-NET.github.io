@@ -13,10 +13,10 @@ tags:
 
 First of all, create a new project. Guilded.NET works with any template.
 
-> Guilded.NET offers installable MSBuild templates, which can be found [here](https://www.nuget.org/packages/Guilded.NET.Templates/). Just be sure to edit the <q>config/config.json</q> file and insert your token.
+> Guilded.NET offers installable MSBuild templates, which can be found [here](https://www.nuget.org/packages/Guilded.Templates/). Just be sure to edit the <q>config/config.json</q> file and insert your token.
 {: .note}
 
-Install Guilded.NET by typing [`dotnet add package Guilded.NET`](https://github.com/Guilded-NET/Guilded.NET.Templates) and Guilded.NET dependency should be added to your project. Now we'll need to run your bot.
+Install Guilded.NET by typing [`dotnet add package Guilded`](https://github.com/Guilded-NET/Guilded.NET.Templates) and Guilded.NET dependency should be added to your project. Now we'll need to run your bot.
 
 ## Configuring your bot
 
@@ -54,7 +54,7 @@ We are now going to get the configuration and use it in our bot:
 ```csharp
 using System.IO;
 
-using Guilded.NET;
+using Guilded;
 
 using Newtonsoft.Json.Linq;
 ```
@@ -77,13 +77,13 @@ You can now run your project, but as we can see, it doesn't really do anything. 
 
 ## Connecting to Guilded
 
-Method [ConnectAsync](/references/BaseGuildedClient_ConnectAsync()) is used to connect the client to Guilded. But once you use it, the bot will connect to Guilded and program will close seeing that it's done. One of the ways to stop it from closing is to use `await Task.Delay(-1)`{: .language-csharp}:
+Method [ConnectAsync](/references/BaseGuildedClient.ConnectAsync()) is used to connect the client to Guilded. But once you use it, the bot will connect to Guilded and program will close seeing that it's done. One of the ways to stop it from closing is to use `await Task.Delay(-1)`{: .language-csharp}:
 
 ```csharp
 using System.IO;
 using System.Threading.Tasks;
 
-using Guilded.NET;
+using Guilded;
 
 using Newtonsoft.Json;
 ```
@@ -107,14 +107,14 @@ Now we can reference it in Main method:
 RunAsync(client).GetAwaiter().GetResult();
 ```
 
-To see if connection between Guilded and the client are initiated, we can subscribe to [Prepared](/references/AbstractGuildedClient_Prepared) or [Connected](/references/BaseGuildedClient_Connected) events:
+To see if connection between Guilded and the client are initiated, we can subscribe to [Prepared](/references/AbstractGuildedClient.Prepared) or [Connected](/references/BaseGuildedClient.Connected) events:
 
 ```csharp
 using System;
 using System.IO;
 using System.Threading.Tasks;
 
-using Guilded.NET;
+using Guilded;
 
 using Newtonsoft.Json;
 ```
