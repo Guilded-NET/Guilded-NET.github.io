@@ -16,7 +16,7 @@ Embeds are generally used to display the preview of certain content or a link, b
 
 ## Content and Custom embeds
 
-There are 2 kinds of embeds, content embeds and custom embeds(may also be called rich embeds).
+There are 2 kinds of embeds, content embeds and custom embeds (may also be called rich embeds).
 
 Content embeds are used to automatically generate a preview of a link. If you add a hyperlink, the Guilded client will pull OpenGraph metadata from the linked website and display the contents according to the fetch data. Content embeds may differ in design, unlike custom embeds(website embeds vs share feature vs server invite).
 
@@ -29,7 +29,7 @@ Custom embeds are similar to content website embeds in terms of how they look, b
 To create an embed, you need to create a new instance of [Embed](/references/Embed). From that point, you can use embed constructor parameters, object initializers or methods to generate content for the embed. As an example:
 
 ```csharp
-using Guilded.NET.Base.Embeds;
+using Guilded.Base.Embeds;
 ```
 {: data-insert="0"}
 
@@ -95,8 +95,7 @@ Embeds have more than descriptions, titles and fields. They can also have an aut
 ```csharp
 using System;
 
-using Guilded.NET.Base.Chat;
-using Guilded.NET.Base.Embeds;
+using Guilded.Base.Embeds;
 ```
 {: data-insert="0"}
 
@@ -117,11 +116,11 @@ Embed embed = new Embed { Description = "This embed has a timestamp at the botto
     .SetTimestamp();
 ```
 
-If no argument is passed to [`SetTimestamp`](/references/Embed_SetTimestamp(DateTime)), UTC current time will be used instead.
+If no argument is passed to [`SetTimestamp`](/references/Embed.SetTimestamp(DateTime)), UTC current time will be used instead.
 
 ### Setting side colour
 
-Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) to set the colour of the embed. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as white instead). Colour is displayed at the left side of the embed and doesn't change any other parts of it.
+Custom embeds use [Color struct](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) to set the colour of the embed. Alpha channel of the embed colour is filtered out, so the transparency of the colour is ignored(if you use [Color.Transparent](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.transparent), it will be rendered as white instead). Colour is displayed on the left side of the embed and doesn't change any other parts of it.
 
 An example using [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color.red) as embed colour:
 
@@ -129,8 +128,7 @@ An example using [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.
 using System;
 using System.Drawing;
 
-using Guilded.NET.Base.Chat;
-using Guilded.NET.Base.Embeds;
+using Guilded.Base.Embeds;
 ```
 {: data-insert="1"}
 
@@ -144,8 +142,8 @@ Embed embed = new Embed
 ```
 {: data-insert="4"}
 
-Colours are not restricted to pre-defined ones. You can create custom colours using [`Embed.SetColor(int rgba)`{: .language-csharp}](/references/Embed_SetColor(int)), [`Embed.SetColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed_SetColor(int_int_int)) or through other means.
+Colours are not restricted to pre-defined ones. You can create custom colours using [`Embed.SetColor(int rgba)`{: .language-csharp}](/references/Embed.SetColor(int)), [`Embed.SetColor(int red, int green, int blue)`{: .language-csharp}](/references/Embed.SetColor(int,int,int)) or through other means.
 
 ### The end
 
-There is more to custom embeds than mentioned here. [Custom embed reference page](/references/Embed) contains all of the other information necessary, such as how to set a thumbnail or an image. It is recommended to check it out if you want to work with embeds.
+There is more to custom embeds than mentioned here. [Custom embed reference page](/references/Embed) contains all the other information necessary, such as how to set a thumbnail or an image. It is recommended to check it out if you want to work with embeds.

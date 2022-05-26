@@ -16,8 +16,6 @@
     - name: Embeds
       icon: fas fa-pen
       url : /docs/embeds
-- name: Resources
-  docs:
-    - name: Message Preview
-      icon: fas fa-eye
-      url : /docs/message-preview
+    - name: Commands
+      icon: fas fa-cogs
+      url : /docs/commands
