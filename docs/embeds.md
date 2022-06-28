@@ -42,10 +42,10 @@ Embed embed = new Embed
 };
 ```
 
-And now we should theoretically be able to send the embed. However, at this time, that's not possible. There are kind of two ways to send embeds. One is to use unofficially supported rich text markup and the other is to use webhooks. Here, we'll use webhooks, since Guilded.NET does not suppport rich text markup:
+And now we can send the embed we made:
 
 ```csharp
-await client.CreateHookMessageAsync(webhookId, webhookToken, embed).ConfigureAwait(false);
+await msgCreated.ReplyAsync(embed);
 ```
 
 This produces:
@@ -69,8 +69,8 @@ Fields are pretty simple. They also have a title(name) and a description(value) 
 ```csharp
 Embed embed = new Embed { Title = "Title", Description = "Description. This is not a field." }
     .AddField("Field #1", "The value of the field")
-    .AddField("Field #2", "This field is inline", true)
-    .AddField("Field #3", "This field is inline too!", true);
+    .AddField("Field #2", "This field is inline", inline: true)
+    .AddField("Field #3", "This field is inline too!", inline: true);
 ```
 
 {% capture fields1 %}

@@ -25,7 +25,7 @@ tags:
 | Profile features         | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
 | Emote management         | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
 | Threads                  | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
-| Channel manipulation     | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
+| Channel manipulation     | <i class="fas fa-check"></i> | <i class="fas fa-check"></i>     |
 | Category manipulation    | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
 | Group manipulation       | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
 | Tournament features      | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
@@ -41,7 +41,7 @@ tags:
 | Replaying events         | <i class="fas fa-check"></i> | <i class="fas fa-slash"></i>     |
 | Self-management          | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
 | File uploads             | <i class="fas fa-times"></i> | <i class="fas fa-slash"></i>[^1] |
-| Commands                 | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>[^2] |
+| Commands                 | <i class="fas fa-check"></i> | <i class="fas fa-times"></i>[^2] |
 | Direct messages          | <i class="fas fa-times"></i> | <i class="fas fa-times"></i>     |
 
 [^1]: Image and video uploading is supported by client API. Guilded.NET supports uploading images and partially supports video uploads. Non-media file uploads are not available neither in API, nor in Guilded.NET.

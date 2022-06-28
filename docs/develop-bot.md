@@ -69,7 +69,7 @@ JObject config = JObject.Parse(File.ReadAllText("./config/config.json"));
 string auth   = config.Value<string>("auth"),
        prefix = config.Value<string>("prefix");
 
-using GuildedBotClient client = new(auth);
+using var client = new GuildedBotClient(auth);
 ```
 {: data-filename="Program.cs"}
 

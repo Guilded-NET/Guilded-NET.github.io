@@ -31,8 +31,6 @@ client.MessageCreated
 
 Write <q>Hi!</q> in your server and... the bot replies with <q>Pong!</q> and then spams it while replying to itself.
 
-## Text Commands
-
 **So, what went wrong?**
 
 The bot saw a message with <q>Hi!</q> which we wrote and replied to it with <q>Pong!</q>, but then it saw a message it itself created <q>Pong!</q>, so it replied to itself and started spamming. It can be seen in the reply to which message it reacted this way.
@@ -54,92 +52,9 @@ At this time, there is no way to detect whether the author of the message is a b
 
 This only allows us to use ping command though, but we definitely want to have more than a ping command. Time to make more commands.
 
-First, we need to remove checking whether it's a message with content <q>!ping</q> and check if it starts with <q>!</q> instead (Guilded.NET documentation will always assume that your prefix is <q>!</q>, but it can be any other prefix):
+## Commands
 
-```csharp
-client.MessageCreated
-    // Make sure `prefix` variable is already defined
-    .Where(msgCreated => msgCreated.Content.StartsWith(prefix))
-    .Subscribe(async msgCreated =>
-    {
-        Console.WriteLine("Received command: {0}", msgCreated.Content)
-    });
-```
-
-Right now, it doesn't know what is the name of the command, nor its argument, so we need to read both of those:
-
-```csharp
-client.MessageCreated
-    .Where(msgCreated => msgCreated.Content.StartsWith(prefix))
-    .Subscribe(async msgCreated =>
-    {
-        // To remove the prefix in the command
-        // !command_name arg0 arg1 -> new string[] { "command_name", "arg0", "arg1" }
-        string afterPrefix = msgCreated.Content.Substring(prefix.Length);
-        string[] split = afterPrefix.Split(' ');
-
-        // Get first part. This is going to be the name
-        string commandName = split.First();
-
-        string[] args = split.Skip(1).ToArray();
-    });
-```
-
-Then we can use `switch` statement to check which command is being used:
-
-```csharp
-client.MessageCreated
-    .Where(msgCreated => msgCreated.Content.StartsWith(prefix))
-    .Subscribe(async msgCreated =>
-    {
-        // To remove the prefix in the command
-        string afterPrefix = msgCreated.Content.Substring(prefix.Length);
-        string[] split = afterPrefix.Split(' ');
-
-        // Get first part, since it's going to be the name of the command
-        string commandName = split.First();
-
-        string[] args = split.Skip(1).ToArray();
-
-        switch (commandName)
-        {
-            case "ping":
-                await msgCreated.ReplyAsync("Pong!").ConfigureAwait(false);
-                break;
-        }
-    });
-```
-
-Like before, writing <q>!ping</q> should respond with <q>Pong!</q>, but the bot can also take apart commands and arguments, so <q>!ping arg0 arg1</q> should make the bot respond as well.
-
-Let's use arguments in our other command:
-
-```csharp
-// ...
-switch(commandName)
-{
-    case "ping":
-        await msgCreated.ReplyAsync("Pong!");
-        break;
-    case "say":
-        await msgCreated.ReplyAsync($"You said: `{args.FirstOrDefault()}`", isPrivate: true).ConfigureAwait(false);
-        break;
-}
-```
-
-Now type <q>!say Hello</q> and it replies with <q>You said: `Hello`</q>.
-
-**But hey, what's this? Why is the reply purple?**
-
-Checking out our code, we added this little piece:
-
-`, isPrivate: true`{: .language-csharp}
-
-This makes the reply private, which as it says, is only visible to us. This can be really useful for making our commands less spammy or secretive.
-
-That's about it. The commands are done.
-
-The command feature isn't built into Guilded API, nor Guilded.NET, but this will most likely change in the future. Stay tuned!
+While you can build your own, it's recommended to use Guilded.NET's command system. This will be covered [in this document](./commands.md).
 
 ## Other events
 
