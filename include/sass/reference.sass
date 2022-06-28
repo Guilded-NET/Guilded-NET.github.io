@@ -13,6 +13,8 @@
         overflow-y: auto
         color: var(--foreground-level-2)
         // Override header colour
+        ul
+            padding-left: $spacing-4
         h5
             color: var(--foreground-level-2)
 
@@ -71,3 +73,11 @@
         &:hover, &[href]:hover
             color: var(--foreground-level-1)
             background-color: var(--background-level-2-highlight)
+
+.collapse-arrow
+    fill: var(--foreground-level-2)
+
+.hide-children > ul
+    display: none
+li:not(.hide-children) > .collapse-arrow
+    transform: rotateZ(90deg)
