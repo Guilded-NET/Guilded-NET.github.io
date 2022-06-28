@@ -7,19 +7,19 @@ tags:
   - class
 description: "
 
-Represents an event with an event opcode of `2` that occurs when the client passes last event message identifier."
+Represents an event that occurs once all missed events were [resumed](BaseGuildedClient.LastMessageId 'Guilded.Base.BaseGuildedClient.LastMessageId')."
 ---
 
 ## ResumeEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with an event opcode of `2` that occurs when the client passes last event message identifier.
+Represents an event that occurs once all missed events were [resumed](BaseGuildedClient.LastMessageId 'Guilded.Base.BaseGuildedClient.LastMessageId').
 
 ```csharp
-public class ResumeEvent : Guilded.Base.BaseObject
+public class ResumeEvent : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; ResumeEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; ResumeEvent
 
 | Constructors | |
 | :--- | :--- |

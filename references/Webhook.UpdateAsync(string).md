@@ -18,10 +18,6 @@ Edits the webhook.
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> UpdateAsync(string name);
 ```
-
-### Remarks
-  
-[Webhook](Webhook 'Guilded.Base.Servers.Webhook') can moved between [channels](ServerChannel 'Guilded.Base.Servers.ServerChannel') using 'newChannel' parameter.
 #### Parameters
 
 <a name='Guilded.Base.Servers.Webhook.UpdateAsync(string).name'></a>
@@ -29,6 +25,10 @@ public System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> UpdateAsync(str
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The new name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')
+
+### Remarks
+  
+[Webhook](Webhook 'Guilded.Base.Servers.Webhook') can moved between [channels](ServerChannel 'Guilded.Base.Servers.ServerChannel') using 'newChannel' parameter.
 
 #### Exceptions
 

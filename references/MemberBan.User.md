@@ -16,7 +16,7 @@ Gets the banned user."
 Gets the banned user.
 
 ```csharp
-public Guilded.Base.Users.UserSummary User { get; set; }
+public Guilded.Base.Users.UserSummary User { get; }
 ```
 
 #### Property Value

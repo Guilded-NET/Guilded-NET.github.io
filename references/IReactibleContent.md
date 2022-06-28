@@ -20,12 +20,14 @@ public interface IReactibleContent
 ```
 
 Derived  
+&#8627; [CalendarEvent](CalendarEvent 'Guilded.Base.Content.CalendarEvent')  
 &#8627; [Message](Message 'Guilded.Base.Content.Message')  
 &#8627; [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')
 
 | Methods | |
 | :--- | :--- |
 | [AddReactionAsync(uint)](IReactibleContent.AddReactionAsync(uint) 'Guilded.Base.Content.IReactibleContent.AddReactionAsync(uint)') | Adds emote to the content. |
+| [RemoveReactionAsync(uint)](IReactibleContent.RemoveReactionAsync(uint) 'Guilded.Base.Content.IReactibleContent.RemoveReactionAsync(uint)') | Removes emote from the content. |
 
 ### See Also
 - [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')

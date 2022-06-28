@@ -21,7 +21,7 @@ public string? Name { get; set; }
 
 ### Remarks
   
-By default, lowercase name of the method will be used.
+By default, lowercase name of the method will be used. `Async` and `Command` will also be trimmed from the end if the name comes from the method.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

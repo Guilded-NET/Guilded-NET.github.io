@@ -18,10 +18,6 @@ Sets the [url](Embed.Url 'Guilded.Base.Embeds.Embed.Url') as the given [value](E
 ```csharp
 public Guilded.Base.Embeds.Embed SetUrl(string value);
 ```
-
-### Remarks
-  
-The given [value](Embed.SetUrl(string)#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value') will be converted to [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri').
 #### Parameters
 
 <a name='Guilded.Base.Embeds.Embed.SetUrl(string).value'></a>
@@ -29,6 +25,10 @@ The given [value](Embed.SetUrl(string)#Guilded.Base.Embeds.Embed.SetUrl(string).
 `value` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The value of the [embed's](Embed 'Guilded.Base.Embeds.Embed') url
+
+### Remarks
+  
+The given [value](Embed.SetUrl(string)#Guilded.Base.Embeds.Embed.SetUrl(string).value 'Guilded.Base.Embeds.Embed.SetUrl(string).value') will be converted to [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri').
 
 #### Exceptions
 

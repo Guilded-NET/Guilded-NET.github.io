@@ -16,7 +16,7 @@ Gets the identifier of the staff who banned."
 Gets the identifier of the staff who banned.
 
 ```csharp
-public Guilded.Base.HashId CreatedBy { get; set; }
+public Guilded.Base.HashId CreatedBy { get; }
 ```
 
 #### Property Value

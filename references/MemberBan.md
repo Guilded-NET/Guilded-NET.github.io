@@ -16,11 +16,11 @@ Represents the information of [user's](MemberBan.User 'Guilded.Base.Servers.Memb
 Represents the information of [user's](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') ban.
 
 ```csharp
-public class MemberBan : Guilded.Base.BaseObject,
+public class MemberBan : Guilded.Base.BaseModel,
 Guilded.Base.Content.ICreatableContent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MemberBan
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberBan
 
 Implements [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
 

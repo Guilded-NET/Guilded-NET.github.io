@@ -24,7 +24,7 @@ public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> Create
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') will be created
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') will be created
 
 <a name='Guilded.Base.BaseGuildedClient.CreateWebhookAsync(Guilded.Base.HashId,Guid,string).channel'></a>
 

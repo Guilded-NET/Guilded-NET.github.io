@@ -18,10 +18,6 @@ Adds user to [group](AbstractGuildedClient.AddMembershipAsync(HashId,HashId)#Gui
 ```csharp
 public override System.Threading.Tasks.Task AddMembershipAsync(Guilded.Base.HashId group, Guilded.Base.HashId member);
 ```
-
-### Remarks
-  
-This allows user to interact or see the specified group.
 #### Parameters
 
 <a name='Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group'></a>
@@ -33,6 +29,10 @@ The identifier of the parent group
 <a name='Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
 `member` [HashId](HashId 'Guilded.Base.HashId')
+
+### Remarks
+  
+This allows user to interact or see the specified group.
 
 #### Exceptions
 

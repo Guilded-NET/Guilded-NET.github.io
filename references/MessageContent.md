@@ -16,16 +16,16 @@ Represents the complete contents of a message."
 Represents the complete contents of a message.
 
 ```csharp
-public class MessageContent : Guilded.Base.BaseObject
+public class MessageContent : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MessageContent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MessageContent
 
 | Constructors | |
 | :--- | :--- |
 | [MessageContent()](MessageContent.MessageContent() 'Guilded.Base.Content.MessageContent.MessageContent()') | Creates an instance of [MessageContent](MessageContent 'Guilded.Base.Content.MessageContent') with no content. |
+| [MessageContent(string, IList&lt;Embed&gt;, IList&lt;Guid&gt;, Nullable&lt;bool&gt;, Nullable&lt;bool&gt;)](MessageContent.MessageContent(string,IList_Embed_,IList_Guid_,Nullable_bool_,Nullable_bool_) 'Guilded.Base.Content.MessageContent.MessageContent(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, System.Collections.Generic.IList<Guid>, System.Nullable<bool>, System.Nullable<bool>)') | Creates an instance of [MessageContent](MessageContent 'Guilded.Base.Content.MessageContent') with no content. |
 | [MessageContent(string)](MessageContent.MessageContent(string) 'Guilded.Base.Content.MessageContent.MessageContent(string)') | Creates an instance of [MessageContent](MessageContent 'Guilded.Base.Content.MessageContent'). |
-| [MessageContent(IList&lt;Embed&gt;, IList&lt;Guid&gt;, Nullable&lt;bool&gt;, Nullable&lt;bool&gt;)](MessageContent.MessageContent(IList_Embed_,IList_Guid_,Nullable_bool_,Nullable_bool_) 'Guilded.Base.Content.MessageContent.MessageContent(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, System.Collections.Generic.IList<Guid>, System.Nullable<bool>, System.Nullable<bool>)') | Creates an instance of [MessageContent](MessageContent 'Guilded.Base.Content.MessageContent') with no content. |
 
 | Properties | |
 | :--- | :--- |

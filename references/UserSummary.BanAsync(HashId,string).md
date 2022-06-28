@@ -18,10 +18,6 @@ Bans the member.
 ```csharp
 public System.Threading.Tasks.Task BanAsync(Guilded.Base.HashId server, string? reason=null);
 ```
-
-### Remarks
-  
-Disallows them from joining again, until they receive an unban with [UnbanMemberAsync(HashId, HashId)](BaseGuildedClient.UnbanMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)') method.
 #### Parameters
 
 <a name='Guilded.Base.Users.UserSummary.BanAsync(Guilded.Base.HashId,string).server'></a>
@@ -35,6 +31,10 @@ The server to ban member from
 `reason` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The reason for a ban
+
+### Remarks
+  
+Disallows them from joining again, until they receive an unban with [RemoveMemberBanAsync(HashId, HashId)](BaseGuildedClient.RemoveMemberBanAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)') method.
 
 #### Exceptions
 

@@ -30,7 +30,7 @@ The message received from the event
 
 `serverId` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of the server where the message event occurred
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the message event occurred
 
 ### See Also
 - [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')

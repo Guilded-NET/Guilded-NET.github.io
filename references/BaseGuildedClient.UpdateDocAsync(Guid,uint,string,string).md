@@ -18,10 +18,6 @@ Edits [content](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilde
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.Base.Content.Doc> UpdateDocAsync(Guid channel, uint doc, string title, string content);
 ```
-
-### Remarks
-  
-The [doc](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc') will be bumped to the top.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).channel'></a>
@@ -47,6 +43,10 @@ The new title of this document
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The new Markdown content of this document
+
+### Remarks
+  
+The [doc](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string)#Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string).doc') will be bumped to the top.
 
 #### Exceptions
 

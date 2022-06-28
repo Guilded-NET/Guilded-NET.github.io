@@ -24,7 +24,7 @@ public MemberUpdatedEvent(Guilded.Base.HashId serverId, Guilded.Base.Events.Memb
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated
 
 <a name='Guilded.Base.Events.MemberUpdatedEvent.MemberUpdatedEvent(Guilded.Base.HashId,Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate).userInfo'></a>
 

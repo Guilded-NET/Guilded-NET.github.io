@@ -16,7 +16,7 @@ Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined."
 Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined.
 
 ```csharp
-public System.DateTime JoinedAt { get; set; }
+public System.DateTime JoinedAt { get; }
 ```
 
 #### Property Value

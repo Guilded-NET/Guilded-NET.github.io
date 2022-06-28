@@ -37,6 +37,8 @@ description: ""
     The WebSocket that will be used by the client.
   - **[WebsocketMessage](BaseGuildedClient.WebsocketMessage 'Guilded.Base.BaseGuildedClient.WebsocketMessage')** `Property`
     An event when WebSocket receives a message.
+  - **[AddMemberBanAsync(HashId, HashId, string)](BaseGuildedClient.AddMemberBanAsync(HashId,HashId,string) 'Guilded.Base.BaseGuildedClient.AddMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    Bans the member.
   - **[AddMembershipAsync(HashId, HashId)](BaseGuildedClient.AddMembershipAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     Adds user to group.
   - **[AddReactionAsync(Guid, Guid, uint)](BaseGuildedClient.AddReactionAsync(Guid,Guid,uint) 'Guilded.Base.BaseGuildedClient.AddReactionAsync(Guid, Guid, uint)')** `Method`
@@ -59,8 +61,10 @@ description: ""
     Creates a new channel in the server.
   - **[CreateDocAsync(Guid, string, string)](BaseGuildedClient.CreateDocAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
     Creates a [new document](Doc 'Guilded.Base.Content.Doc').
-  - **[CreateForumThreadAsync(Guid, string, string)](BaseGuildedClient.CreateForumThreadAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateForumThreadAsync(Guid, string, string)')** `Method`
-    Creates a [new forum post](ForumThread 'Guilded.Base.Content.ForumThread').
+  - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;TimeSpan&gt;, bool)](BaseGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_TimeSpan_,bool) 'Guilded.Base.BaseGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<TimeSpan>, bool)')** `Method`
+    Creates a [new calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, bool)](BaseGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,bool) 'Guilded.Base.BaseGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, bool)')** `Method`
+    Creates a [new calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
   - **[CreateHookMessageAsync(Guid, string, MessageContent)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
     Creates [a message](Message 'Guilded.Base.Content.Message') using webhook.
   - **[CreateHookMessageAsync(Guid, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Guid,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
@@ -105,12 +109,16 @@ description: ""
     Creates a [new message](Message 'Guilded.Base.Content.Message').
   - **[CreateMessageAsync(Guid, string)](BaseGuildedClient.CreateMessageAsync(Guid,string) 'Guilded.Base.BaseGuildedClient.CreateMessageAsync(Guid, string)')** `Method`
     Creates a [new message](Message 'Guilded.Base.Content.Message').
+  - **[CreateTopicAsync(Guid, string, string)](BaseGuildedClient.CreateTopicAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateTopicAsync(Guid, string, string)')** `Method`
+    Creates a [new forum post](Topic 'Guilded.Base.Content.Topic').
   - **[CreateWebhookAsync(HashId, Guid, string)](BaseGuildedClient.CreateWebhookAsync(HashId,Guid,string) 'Guilded.Base.BaseGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string)')** `Method`
     Creates a [new webhook](Webhook 'Guilded.Base.Servers.Webhook') in the channel.
   - **[DeleteChannelAsync(Guid)](BaseGuildedClient.DeleteChannelAsync(Guid) 'Guilded.Base.BaseGuildedClient.DeleteChannelAsync(Guid)')** `Method`
     Deletes the channel.
   - **[DeleteDocAsync(Guid, uint)](BaseGuildedClient.DeleteDocAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.DeleteDocAsync(Guid, uint)')** `Method`
     Deletes the doc.
+  - **[DeleteEventAsync(Guid, uint)](BaseGuildedClient.DeleteEventAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.DeleteEventAsync(Guid, uint)')** `Method`
+    Deletes the calendarEvent.
   - **[DeleteListItemAsync(Guid, Guid)](BaseGuildedClient.DeleteListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.DeleteListItemAsync(Guid, Guid)')** `Method`
     Deletes the listItem.
   - **[DeleteMessageAsync(Guid, Guid)](BaseGuildedClient.DeleteMessageAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid)')** `Method`
@@ -124,6 +132,8 @@ description: ""
   - **[DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.Base.BaseGuildedClient.DisconnectAsync()')** `Method`
     Disconnects this client from Guilded.
   - **[Dispose()](BaseGuildedClient.Dispose() 'Guilded.Base.BaseGuildedClient.Dispose()')** `Method`
+    Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') instance.
+  - **[DisposeAsync()](BaseGuildedClient.DisposeAsync() 'Guilded.Base.BaseGuildedClient.DisposeAsync()')** `Method`
     Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') instance.
   - **[ExecuteRequestAsync(RestRequest)](BaseGuildedClient.ExecuteRequestAsync(RestRequest) 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync(RestSharp.RestRequest)')** `Method`
     Executes a request and receives a response or an error.
@@ -139,6 +149,10 @@ description: ""
     Gets the doc.
   - **[GetDocsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetDocsAsync(Guid,Nullable_uint_,Nullable_DateTime_) 'Guilded.Base.BaseGuildedClient.GetDocsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
     Gets a list of [documents](Doc 'Guilded.Base.Content.Doc').
+  - **[GetEventAsync(Guid, uint)](BaseGuildedClient.GetEventAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.GetEventAsync(Guid, uint)')** `Method`
+    Gets the calendarEvent.
+  - **[GetEventsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetEventsAsync(Guid,Nullable_uint_,Nullable_DateTime_) 'Guilded.Base.BaseGuildedClient.GetEventsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
+    Gets a list of [calendar events](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
   - **[GetListItemAsync(Guid, Guid)](BaseGuildedClient.GetListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.GetListItemAsync(Guid, Guid)')** `Method`
     Gets the listItem from a channel.
   - **[GetListItemsAsync(Guid)](BaseGuildedClient.GetListItemsAsync(Guid) 'Guilded.Base.BaseGuildedClient.GetListItemsAsync(Guid)')** `Method`
@@ -163,8 +177,16 @@ description: ""
     Removes the member from the server.
   - **[OnWebsocketResponse(ResponseMessage)](BaseGuildedClient.OnWebsocketResponse(ResponseMessage) 'Guilded.Base.BaseGuildedClient.OnWebsocketResponse(Websocket.Client.ResponseMessage)')** `Method`
     Used for when any WebSocket receives a message.
+  - **[RemoveMemberAsync(HashId, HashId)](BaseGuildedClient.RemoveMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.RemoveMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    Removes the member from the server.
+  - **[RemoveMemberBanAsync(HashId, HashId)](BaseGuildedClient.RemoveMemberBanAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    Unbans the member.
   - **[RemoveMembershipAsync(HashId, HashId)](BaseGuildedClient.RemoveMembershipAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     Removes user from group.
+  - **[RemoveReactionAsync(Guid, Guid, uint)](BaseGuildedClient.RemoveReactionAsync(Guid,Guid,uint) 'Guilded.Base.BaseGuildedClient.RemoveReactionAsync(Guid, Guid, uint)')** `Method`
+    Removes emote from the message.
+  - **[RemoveReactionAsync(Guid, uint, uint)](BaseGuildedClient.RemoveReactionAsync(Guid,uint,uint) 'Guilded.Base.BaseGuildedClient.RemoveReactionAsync(Guid, uint, uint)')** `Method`
+    Removes emote from the content.
   - **[RemoveRoleAsync(HashId, HashId, uint)](BaseGuildedClient.RemoveRoleAsync(HashId,HashId,uint) 'Guilded.Base.BaseGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
     Removes role from [the user](User 'Guilded.Base.Users.User').
   - **[Serialize(object)](BaseGuildedClient.Serialize(object) 'Guilded.Base.BaseGuildedClient.Serialize(object)')** `Method`
@@ -177,6 +199,10 @@ description: ""
     Updates the channel.
   - **[UpdateDocAsync(Guid, uint, string, string)](BaseGuildedClient.UpdateDocAsync(Guid,uint,string,string) 'Guilded.Base.BaseGuildedClient.UpdateDocAsync(Guid, uint, string, string)')** `Method`
     Edits content or title of the doc.
+  - **[UpdateEventAsync(Guid, uint, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;bool&gt;)](BaseGuildedClient.UpdateEventAsync(Guid,uint,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_TimeSpan_,Nullable_bool_) 'Guilded.Base.BaseGuildedClient.UpdateEventAsync(Guid, uint, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<TimeSpan>, System.Nullable<bool>)')** `Method`
+    Edits the calendarEvent.
+  - **[UpdateEventAsync(Guid, uint, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](BaseGuildedClient.UpdateEventAsync(Guid,uint,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.BaseGuildedClient.UpdateEventAsync(Guid, uint, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
+    Edits the calendarEvent.
   - **[UpdateListItemAsync(Guid, Guid, string, string)](BaseGuildedClient.UpdateListItemAsync(Guid,Guid,string,string) 'Guilded.Base.BaseGuildedClient.UpdateListItemAsync(Guid, Guid, string, string)')** `Method`
     Edits the message of the listItem.
   - **[UpdateMessageAsync(Guid, Guid, MessageContent)](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,MessageContent) 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, Guilded.Base.Content.MessageContent)')** `Method`
@@ -197,16 +223,16 @@ description: ""
     Uploads a file to Guilded.
   - **[UploadFileAsync(Uri)](BaseGuildedClient.UploadFileAsync(Uri) 'Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri)')** `Method`
     Uploads a file to Guilded.
-- **[BaseObject](BaseObject 'Guilded.Base.BaseObject')** `Class`
+- **[BaseModel](BaseModel 'Guilded.Base.BaseModel')** `Class`
   Represents the base for all Guilded models.
-  - **[Serialize(JsonConverter[])](BaseObject.Serialize(JsonConverter[]) 'Guilded.Base.BaseObject.Serialize(Newtonsoft.Json.JsonConverter[])')** `Method`
-    Returns the serialized [BaseObject](BaseObject 'Guilded.Base.BaseObject') instance.
-  - **[Serialize(JsonSerializer)](BaseObject.Serialize(JsonSerializer) 'Guilded.Base.BaseObject.Serialize(Newtonsoft.Json.JsonSerializer)')** `Method`
-    Returns serialized [BaseObject](BaseObject 'Guilded.Base.BaseObject') instance.
-- **[ClientObject](ClientObject 'Guilded.Base.ClientObject')** `Class`
-  Represents a base for Guilded models that require a [client](ClientObject.ParentClient 'Guilded.Base.ClientObject.ParentClient').
-  - **[ParentClient](ClientObject.ParentClient 'Guilded.Base.ClientObject.ParentClient')** `Property`
-    Gets the parent client that adopts [this object](ClientObject 'Guilded.Base.ClientObject').
+  - **[Serialize(JsonConverter[])](BaseModel.Serialize(JsonConverter[]) 'Guilded.Base.BaseModel.Serialize(Newtonsoft.Json.JsonConverter[])')** `Method`
+    Returns the serialized [BaseModel](BaseModel 'Guilded.Base.BaseModel') instance.
+  - **[Serialize(JsonSerializer)](BaseModel.Serialize(JsonSerializer) 'Guilded.Base.BaseModel.Serialize(Newtonsoft.Json.JsonSerializer)')** `Method`
+    Returns serialized [BaseModel](BaseModel 'Guilded.Base.BaseModel') instance.
+- **[ContentModel](ContentModel 'Guilded.Base.ContentModel')** `Class`
+  Represents a base for Guilded models that require a [client](ContentModel.ParentClient 'Guilded.Base.ContentModel.ParentClient').
+  - **[ParentClient](ContentModel.ParentClient 'Guilded.Base.ContentModel.ParentClient')** `Property`
+    Gets [the parent client](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') that adopts [this object](ContentModel 'Guilded.Base.ContentModel').
 - **[DecimalColorConverter](DecimalColorConverter 'Guilded.Base.DecimalColorConverter')** `Class`
   Converts [System.Drawing.Color](https://docs.microsoft.com/en-us/dotnet/api/System.Drawing.Color 'System.Drawing.Color') to an integer in RGB format.
   - **[CanConvert(Type)](DecimalColorConverter.CanConvert(Type) 'Guilded.Base.DecimalColorConverter.CanConvert(System.Type)')** `Method`
@@ -369,3 +395,7 @@ description: ""
     Returns whether id0 and id1 are not equal.
   - **[operator !=(string, HashId)](HashId.operator!(string,HashId) 'Guilded.Base.HashId.op_Inequality(string, Guilded.Base.HashId)')** `Operator`
     Returns whether id0 and id1 are not equal.
+- **[IModelHasId&lt;T&gt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>')** `Interface`
+  Represents a model that has [an identifier](IModelHasId_T_.Id 'Guilded.Base.IModelHasId<T>.Id').
+  - **[Id](IModelHasId_T_.Id 'Guilded.Base.IModelHasId<T>.Id')** `Property`
+    Gets the identifier of [the content](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>').

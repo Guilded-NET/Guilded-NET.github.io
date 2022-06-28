@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the identifier of the server where the event occurred."
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred."
 ---
 
 ## MessageEvent<T>.ServerId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageEvent<T>`](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')
 
-Gets the identifier of the server where the event occurred.
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
 
 ```csharp
 public System.Nullable<Guilded.Base.HashId> ServerId { get; }

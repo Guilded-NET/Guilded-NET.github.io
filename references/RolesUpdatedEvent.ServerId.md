@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the identifier of the server where user's roles were given or removed."
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where user's roles were given or removed."
 ---
 
 ## RolesUpdatedEvent.ServerId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`RolesUpdatedEvent`](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')
 
-Gets the identifier of the server where user's roles were given or removed.
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where user's roles were given or removed.
 
 ```csharp
 public Guilded.Base.HashId ServerId { get; }

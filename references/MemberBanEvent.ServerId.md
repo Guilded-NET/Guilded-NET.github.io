@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the identifier of the server where member has been banned/unbanned."
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where member has been banned/unbanned."
 ---
 
 ## MemberBanEvent.ServerId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberBanEvent`](MemberBanEvent 'Guilded.Base.Events.MemberBanEvent')
 
-Gets the identifier of the server where member has been banned/unbanned.
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where member has been banned/unbanned.
 
 ```csharp
 public Guilded.Base.HashId ServerId { get; }

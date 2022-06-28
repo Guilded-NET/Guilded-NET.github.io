@@ -162,9 +162,9 @@ description: ""
   - **[All](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.All 'Guilded.Base.Permissions.GeneralPermissions.All')** `Field`
     All of the permissions combined.
   - **[InviteMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.InviteMembers 'Guilded.Base.Permissions.GeneralPermissions.InviteMembers')** `Field`
-    Allows you to directly invite members to the server
+    Allows you to directly invite members to [the server](Server 'Guilded.Base.Servers.Server')
   - **[KickBanMembers](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.KickBanMembers 'Guilded.Base.Permissions.GeneralPermissions.KickBanMembers')** `Field`
-    Allows you to kick or ban members from the server
+    Allows you to kick or ban members from [the server](Server 'Guilded.Base.Servers.Server')
   - **[Manage](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.Manage 'Guilded.Base.Permissions.GeneralPermissions.Manage')** `Field`
     All of the manage permissions combined.
   - **[ManageChannels](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageChannels 'Guilded.Base.Permissions.GeneralPermissions.ManageChannels')** `Field`
@@ -172,7 +172,7 @@ description: ""
   - **[ManageGroups](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageGroups 'Guilded.Base.Permissions.GeneralPermissions.ManageGroups')** `Field`
     Allows you to create new groups and edit or delete existing ones
   - **[ManageRoles](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageRoles 'Guilded.Base.Permissions.GeneralPermissions.ManageRoles')** `Field`
-    Allows you to update the server's roles
+    Allows you to update [the server's](Server 'Guilded.Base.Servers.Server') roles
   - **[ManageWebhooks](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks 'Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks')** `Field`
     Allows you to create new webhooks and edit or delete existing ones
   - **[MentionEveryoneHere](GeneralPermissions#Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere 'Guilded.Base.Permissions.GeneralPermissions.MentionEveryoneHere')** `Field`
@@ -212,11 +212,11 @@ description: ""
   - **[CreateScrims](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.CreateScrims 'Guilded.Base.Permissions.MatchmakingPermissions.CreateScrims')** `Field`
     Allows you to create matchmaking scrims
   - **[CreateTournaments](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.CreateTournaments 'Guilded.Base.Permissions.MatchmakingPermissions.CreateTournaments')** `Field`
-    Allows you to register the server for tournaments
+    Allows you to register [the server](Server 'Guilded.Base.Servers.Server') for tournaments
   - **[None](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.None 'Guilded.Base.Permissions.MatchmakingPermissions.None')** `Field`
     No given permissions.
   - **[RegisterForTournaments](MatchmakingPermissions#Guilded.Base.Permissions.MatchmakingPermissions.RegisterForTournaments 'Guilded.Base.Permissions.MatchmakingPermissions.RegisterForTournaments')** `Field`
-    Allows you to use the server to create and manage tournaments
+    Allows you to use [the server](Server 'Guilded.Base.Servers.Server') to create and manage tournaments
 - **[MediaPermissions](MediaPermissions 'Guilded.Base.Permissions.MediaPermissions')** `Enum`
   Represents channel permissions related to media in media channels.
   - **[All](MediaPermissions#Guilded.Base.Permissions.MediaPermissions.All 'Guilded.Base.Permissions.MediaPermissions.All')** `Field`

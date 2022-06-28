@@ -16,7 +16,7 @@ Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was cre
 Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was created.
 
 ```csharp
-public System.DateTime CreatedAt { get; set; }
+public System.DateTime CreatedAt { get; }
 ```
 
 #### Property Value

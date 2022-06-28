@@ -16,10 +16,10 @@ Message that was received from a WebSocket client."
 Message that was received from a WebSocket client.
 
 ```csharp
-public class GuildedSocketMessage : Guilded.Base.ClientObject
+public class GuildedSocketMessage : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.Base.ClientObject') &#129106; GuildedSocketMessage
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; GuildedSocketMessage
 
 ### Remarks
   
@@ -27,7 +27,7 @@ Any message that can be received the Guilded WebSocket, including Guilded events
 
 | Constructors | |
 | :--- | :--- |
-| [GuildedSocketMessage(byte, string, JObject, string)](GuildedSocketMessage.GuildedSocketMessage(byte,string,JObject,string) 'Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(byte, string, Newtonsoft.Json.Linq.JObject, string)') | Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties. |
+| [GuildedSocketMessage(SocketOpcode, string, JObject, string)](GuildedSocketMessage.GuildedSocketMessage(SocketOpcode,string,JObject,string) 'Guilded.Base.Events.GuildedSocketMessage.GuildedSocketMessage(Guilded.Base.Events.SocketOpcode, string, Newtonsoft.Json.Linq.JObject, string)') | Initializes a new instance of [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') from the specified JSON properties. |
 
 | Properties | |
 | :--- | :--- |

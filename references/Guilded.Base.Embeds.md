@@ -151,6 +151,12 @@ description: ""
     Sets the [url](Embed.Url 'Guilded.Base.Embeds.Embed.Url') as the given value.
 - **[EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor')** `Class`
   Represents an author of the content represented in an [embed](Embed 'Guilded.Base.Embeds.Embed').
+  - **[EmbedAuthor(object, string, string)](EmbedAuthor.EmbedAuthor(object,string,string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object, string, string)')** `Constructor`
+    Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional url.
+  - **[EmbedAuthor(object, Uri, Uri)](EmbedAuthor.EmbedAuthor(object,Uri,Uri) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object, Uri, Uri)')** `Constructor`
+    Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional url.
+  - **[EmbedAuthor(object)](EmbedAuthor.EmbedAuthor(object) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object)')** `Constructor`
+    Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL.
   - **[EmbedAuthor(string, string, string)](EmbedAuthor.EmbedAuthor(string,string,string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string)')** `Constructor`
     Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional url.
   - **[EmbedAuthor(string, Uri, Uri)](EmbedAuthor.EmbedAuthor(string,Uri,Uri) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri)')** `Constructor`
@@ -165,6 +171,10 @@ description: ""
     Gets the URL that author links.
 - **[EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField')** `Class`
   Represents a field with its own [title](EmbedField.Name 'Guilded.Base.Embeds.EmbedField.Name') in an [embed](Embed 'Guilded.Base.Embeds.Embed').
+  - **[EmbedField(object, bool)](EmbedField.EmbedField(object,bool) 'Guilded.Base.Embeds.EmbedField.EmbedField(object, bool)')** `Constructor`
+    Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField'), which is optionally inline.
+  - **[EmbedField(object, object, bool)](EmbedField.EmbedField(object,object,bool) 'Guilded.Base.Embeds.EmbedField.EmbedField(object, object, bool)')** `Constructor`
+    Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField'), which is optionally inline.
   - **[EmbedField(string, string, bool)](EmbedField.EmbedField(string,string,bool) 'Guilded.Base.Embeds.EmbedField.EmbedField(string, string, bool)')** `Constructor`
     Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField'), which is optionally inline.
   - **[Inline](EmbedField.Inline 'Guilded.Base.Embeds.EmbedField.Inline')** `Property`
@@ -175,6 +185,10 @@ description: ""
     Gets the text contents of an [embed's](Embed 'Guilded.Base.Embeds.Embed') field.
 - **[EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')** `Class`
   Represents the footer area of an [embed](Embed 'Guilded.Base.Embeds.Embed').
+  - **[EmbedFooter(object, string)](EmbedFooter.EmbedFooter(object,string) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(object, string)')** `Constructor`
+    Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') with text text.
+  - **[EmbedFooter(object, Uri)](EmbedFooter.EmbedFooter(object,Uri) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(object, Uri)')** `Constructor`
+    Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') with text text.
   - **[EmbedFooter(string, string)](EmbedFooter.EmbedFooter(string,string) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string)')** `Constructor`
     Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') with text text.
   - **[EmbedFooter(string, Uri)](EmbedFooter.EmbedFooter(string,Uri) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, Uri)')** `Constructor`

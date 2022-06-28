@@ -16,11 +16,11 @@ Represents a channel webhook. This is a bot-like [channel](ServerChannel 'Guilde
 Represents a channel webhook. This is a bot-like [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') member that creates messages, list items or forum threads once its URL is invoked.
 
 ```csharp
-public class Webhook : Guilded.Base.ClientObject,
+public class Webhook : Guilded.Base.ContentModel,
 Guilded.Base.Content.ICreatableContent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.Base.ClientObject') &#129106; Webhook
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; Webhook
 
 Implements [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
 
@@ -36,7 +36,7 @@ Implements [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatabl
 | [DeletedAt](Webhook.DeletedAt 'Guilded.Base.Servers.Webhook.DeletedAt') | Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was deleted. |
 | [Id](Webhook.Id 'Guilded.Base.Servers.Webhook.Id') | Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook'). |
 | [Name](Webhook.Name 'Guilded.Base.Servers.Webhook.Name') | Gets the name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook'). |
-| [ServerId](Webhook.ServerId 'Guilded.Base.Servers.Webhook.ServerId') | Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is. |
+| [ServerId](Webhook.ServerId 'Guilded.Base.Servers.Webhook.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is. |
 | [Token](Webhook.Token 'Guilded.Base.Servers.Webhook.Token') | Gets the token of [the webhook](Webhook 'Guilded.Base.Servers.Webhook'). |
 
 | Methods | |

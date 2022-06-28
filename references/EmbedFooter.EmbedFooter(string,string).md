@@ -16,7 +16,7 @@ Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.Emb
 Initializes a new instance of [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') with text [text](EmbedFooter.EmbedFooter(string,string)#Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).text 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string).text').
 
 ```csharp
-public EmbedFooter(string text, string iconUrl);
+public EmbedFooter(string text, string icon);
 ```
 #### Parameters
 
@@ -26,9 +26,9 @@ public EmbedFooter(string text, string iconUrl);
 
 The text contents of the footer
 
-<a name='Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).iconUrl'></a>
+<a name='Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string,string).icon'></a>
 
-`iconUrl` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+`icon` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The URL to footer's icon
 
@@ -40,3 +40,5 @@ When [text](EmbedFooter.EmbedFooter(string,string)#Guilded.Base.Embeds.EmbedFoot
 ### See Also
 - [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')
 - [EmbedFooter(string, string)](EmbedFooter.EmbedFooter(string,string) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(string, string)')
+- [EmbedFooter(object, Uri)](EmbedFooter.EmbedFooter(object,Uri) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(object, Uri)')
+- [EmbedFooter(object, string)](EmbedFooter.EmbedFooter(object,string) 'Guilded.Base.Embeds.EmbedFooter.EmbedFooter(object, string)')

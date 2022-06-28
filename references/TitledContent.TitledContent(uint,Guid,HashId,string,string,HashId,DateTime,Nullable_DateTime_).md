@@ -24,7 +24,7 @@ public TitledContent(uint id, Guid channelId, Guilded.Base.HashId serverId, stri
 
 `id` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
-The identifier of the channel content
+The identifier of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent')
 
 <a name='Guilded.Base.Content.TitledContent.TitledContent(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_System.DateTime_).channelId'></a>
 
@@ -36,37 +36,37 @@ The identifier of the channel where the channel content are
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the channel content are
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the channel content are
 
 <a name='Guilded.Base.Content.TitledContent.TitledContent(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_System.DateTime_).title'></a>
 
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The title of the channel content
+The title of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent')
 
 <a name='Guilded.Base.Content.TitledContent.TitledContent(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_System.DateTime_).content'></a>
 
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The text contents of the channel content
+The text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent')
 
 <a name='Guilded.Base.Content.TitledContent.TitledContent(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_System.DateTime_).createdBy'></a>
 
 `createdBy` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [user](User 'Guilded.Base.Users.User') that created the channel content
+The identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')
 
 <a name='Guilded.Base.Content.TitledContent.TitledContent(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_System.DateTime_).createdAt'></a>
 
 `createdAt` [System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')
 
-the date when the channel content were created
+The date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created
 
 <a name='Guilded.Base.Content.TitledContent.TitledContent(uint,Guid,Guilded.Base.HashId,string,string,Guilded.Base.HashId,System.DateTime,System.Nullable_System.DateTime_).updatedAt'></a>
 
 `updatedAt` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-the date when the channel content were recently updated
+The date when [the titled content](TitledContent 'Guilded.Base.Content.TitledContent') were updated
 
 ### See Also
 - [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')

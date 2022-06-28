@@ -16,7 +16,7 @@ Adds emote to the content."
 Adds emote to the content.
 
 ```csharp
-public System.Threading.Tasks.Task<Guilded.Base.Content.Reaction> AddReactionAsync(uint emoteId);
+public System.Threading.Tasks.Task AddReactionAsync(uint emoteId);
 ```
 #### Parameters
 
@@ -35,5 +35,5 @@ public System.Threading.Tasks.Task<Guilded.Base.Content.Reaction> AddReactionAsy
 [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Reaction](Reaction 'Guilded.Base.Content.Reaction')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
 Added [reaction](Reaction 'Guilded.Base.Content.Reaction')

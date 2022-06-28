@@ -7,23 +7,24 @@ tags:
   - class
 description: "
 
-Represents the summary of [a member](Member 'Guilded.Base.Servers.Member')."
+Represents the base type for [member models](Member 'Guilded.Base.Servers.Member')."
 ---
 
 ## MemberSummary<T> Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Servers`](Guilded.Base.Servers 'Guilded.Base.Servers')
 
-Represents the summary of [a member](Member 'Guilded.Base.Servers.Member').
+Represents the base type for [member models](Member 'Guilded.Base.Servers.Member').
 
 ```csharp
-public class MemberSummary<T> : Guilded.Base.BaseObject
+public class MemberSummary<T> : Guilded.Base.BaseModel
     where T : Guilded.Base.Users.UserSummary
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MemberSummary<T>
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberSummary<T>
 
 Derived  
-&#8627; [Member](Member 'Guilded.Base.Servers.Member')
+&#8627; [Member](Member 'Guilded.Base.Servers.Member')  
+&#8627; [MemberSummary](MemberSummary 'Guilded.Base.Servers.MemberSummary')
 #### Type parameters
 
 <a name='Guilded.Base.Servers.MemberSummary_T_.T'></a>

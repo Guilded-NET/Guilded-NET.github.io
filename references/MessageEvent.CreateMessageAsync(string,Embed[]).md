@@ -18,14 +18,6 @@ Creates a message in the parent channel (from [ChannelId](ChannelContent_TId,TSe
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Content.Message> CreateMessageAsync(string content, params Guilded.Base.Embeds.Embed[] embeds);
 ```
-
-### Remarks
-  
-The [content](MessageEvent.CreateMessageAsync(string,Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.  
-  
-This does not automatically include the message in the reply list.  
-  
-[embeds](MessageEvent.CreateMessageAsync(string,Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).embeds') will be displayed alongside [content](MessageEvent.CreateMessageAsync(string,Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).content').
 #### Parameters
 
 <a name='Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).content'></a>
@@ -39,6 +31,14 @@ The [text contents](Message.Content 'Guilded.Base.Content.Message.Content') of [
 `embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
 The array of [all custom embeds](Embed 'Guilded.Base.Embeds.Embed') in [the message](Message 'Guilded.Base.Content.Message') (max — `1`)
+
+### Remarks
+  
+The [content](MessageEvent.CreateMessageAsync(string,Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.  
+  
+This does not automatically include the message in the reply list.  
+  
+[embeds](MessageEvent.CreateMessageAsync(string,Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).embeds 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).embeds') will be displayed alongside [content](MessageEvent.CreateMessageAsync(string,Embed[])#Guilded.Base.Events.MessageEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[]).content').
 
 #### Exceptions
 

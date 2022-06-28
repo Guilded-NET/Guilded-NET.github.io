@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the identifier of the server where the member has been kicked or has left."
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the member has been kicked or has left."
 ---
 
 ## MemberRemovedEvent.ServerId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberRemovedEvent`](MemberRemovedEvent 'Guilded.Base.Events.MemberRemovedEvent')
 
-Gets the identifier of the server where the member has been kicked or has left.
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the member has been kicked or has left.
 
 ```csharp
 public Guilded.Base.HashId ServerId { get; }

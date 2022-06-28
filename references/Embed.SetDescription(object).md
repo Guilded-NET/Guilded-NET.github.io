@@ -18,10 +18,6 @@ Sets the [description](Embed.Description 'Guilded.Base.Embeds.Embed.Description'
 ```csharp
 public Guilded.Base.Embeds.Embed SetDescription(object? value);
 ```
-
-### Remarks
-  
-The given [value](Embed.SetDescription(object)#Guilded.Base.Embeds.Embed.SetDescription(object).value 'Guilded.Base.Embeds.Embed.SetDescription(object).value') will be converted to string.
 #### Parameters
 
 <a name='Guilded.Base.Embeds.Embed.SetDescription(object).value'></a>
@@ -29,6 +25,10 @@ The given [value](Embed.SetDescription(object)#Guilded.Base.Embeds.Embed.SetDesc
 `value` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
 The contents of the [embed's](Embed 'Guilded.Base.Embeds.Embed') description
+
+### Remarks
+  
+The given [value](Embed.SetDescription(object)#Guilded.Base.Embeds.Embed.SetDescription(object).value 'Guilded.Base.Embeds.Embed.SetDescription(object).value') will be converted to string.
 
 #### Returns
 [Embed](Embed 'Guilded.Base.Embeds.Embed')  

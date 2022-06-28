@@ -42,7 +42,7 @@ The identifier of the channel where webhook is
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where webhook is
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where webhook is
 
 <a name='Guilded.Base.Servers.Webhook.Webhook(Guid,string,Guid,Guilded.Base.HashId,System.DateTime,Guilded.Base.HashId,string,System.Nullable_System.DateTime_).createdAt'></a>
 

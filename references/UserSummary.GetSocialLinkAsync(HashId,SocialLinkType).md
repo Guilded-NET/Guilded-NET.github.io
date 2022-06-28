@@ -18,10 +18,6 @@ Gets the specified member social link based on given [linkType](UserSummary.GetS
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Users.SocialLink> GetSocialLinkAsync(Guilded.Base.HashId server, Guilded.Base.Users.SocialLinkType linkType);
 ```
-
-### Remarks
-  
-This does not require any permissions to be given.
 #### Parameters
 
 <a name='Guilded.Base.Users.UserSummary.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).server'></a>
@@ -35,6 +31,10 @@ The server where to fetch user's information
 `linkType` [SocialLinkType](SocialLinkType 'Guilded.Base.Users.SocialLinkType')
 
 The social link to get
+
+### Remarks
+  
+This does not require any permissions to be given.
 
 #### Exceptions
 

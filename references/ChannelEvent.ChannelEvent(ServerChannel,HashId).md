@@ -30,7 +30,7 @@ The channel received from the event
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the channel event occurred
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the channel event occurred
 
 ### See Also
 - [ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')

@@ -18,17 +18,17 @@ Replies to the message in the parent channel (from [ChannelId](ChannelContent_TI
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Content.Message> ReplyAsync(params Guilded.Base.Embeds.Embed[] embeds);
 ```
+#### Parameters
+
+<a name='Guilded.Base.Events.MessageEvent.ReplyAsync(Guilded.Base.Embeds.Embed[]).embeds'></a>
+
+`embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
 ### Remarks
   
 The given text content will be formatted in Markdown.  
   
 Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id') property) in the reply list.
-#### Parameters
-
-<a name='Guilded.Base.Events.MessageEvent.ReplyAsync(Guilded.Base.Embeds.Embed[]).embeds'></a>
-
-`embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
 #### Exceptions
 

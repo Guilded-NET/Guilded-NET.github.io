@@ -7,20 +7,20 @@ tags:
   - class
 description: "
 
-Represents an event with the name `ListItemCreated`, `ListItemUpdated`, `ListItemCompleted`, `ListItemUncompleted` or `ListItemDeleted` and opcode `0` that occurs once someone posts, edits or deletes a [doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc') in [a channel](ListItemEvent.ChannelId 'Guilded.Base.Events.ListItemEvent.ChannelId')."
+Represents an event that occurs when someone creates, updates, completes, uncompletes or deletes [a list item](ListItem 'Guilded.Base.Content.ListItem')."
 ---
 
 ## ListItemEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with the name `ListItemCreated`, `ListItemUpdated`, `ListItemCompleted`, `ListItemUncompleted` or `ListItemDeleted` and opcode `0` that occurs once someone posts, edits or deletes a [doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc') in [a channel](ListItemEvent.ChannelId 'Guilded.Base.Events.ListItemEvent.ChannelId').
+Represents an event that occurs when someone creates, updates, completes, uncompletes or deletes [a list item](ListItem 'Guilded.Base.Content.ListItem').
 
 ```csharp
-public class ListItemEvent : Guilded.Base.BaseObject,
+public class ListItemEvent : Guilded.Base.BaseModel,
 Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; ListItemEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; ListItemEvent
 
 Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
@@ -36,12 +36,12 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | [CreatedAt](ListItemEvent.CreatedAt 'Guilded.Base.Events.ListItemEvent.CreatedAt') | Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created. |
 | [CreatedBy](ListItemEvent.CreatedBy 'Guilded.Base.Events.ListItemEvent.CreatedBy') | Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>'). |
 | [CreatedByWebhook](ListItemEvent.CreatedByWebhook 'Guilded.Base.Events.ListItemEvent.CreatedByWebhook') | Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created the list item. |
-| [IsCompleted](ListItemEvent.IsCompleted 'Guilded.Base.Events.ListItemEvent.IsCompleted') | Gets whether the list item was ticked off |
+| [IsCompleted](ListItemEvent.IsCompleted 'Guilded.Base.Events.ListItemEvent.IsCompleted') | Gets whether [the list item](ListItem 'Guilded.Base.Content.ListItem') was ticked off |
 | [ListItem](ListItemEvent.ListItem 'Guilded.Base.Events.ListItemEvent.ListItem') | Gets the list item received from the event. |
 | [Message](ListItemEvent.Message 'Guilded.Base.Events.ListItemEvent.Message') | Gets the text contents of the message in [the item](ListItem 'Guilded.Base.Content.ListItem'). |
 | [Note](ListItemEvent.Note 'Guilded.Base.Events.ListItemEvent.Note') | Gets the note of [the item](ListItem 'Guilded.Base.Content.ListItem'). |
 | [ParentId](ListItemEvent.ParentId 'Guilded.Base.Events.ListItemEvent.ParentId') | Gets the identifier of [the parent item](ListItem 'Guilded.Base.Content.ListItem') of [the item](ListItem 'Guilded.Base.Content.ListItem'). |
-| [ServerId](ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId') | Gets the identifier of the server where the event occurred. |
+| [ServerId](ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred. |
 | [UpdatedAt](ListItemEvent.UpdatedAt 'Guilded.Base.Events.ListItemEvent.UpdatedAt') | Gets the date when [the item](ListItem 'Guilded.Base.Content.ListItem') was edited. |
 
 | Methods | |

@@ -19,12 +19,14 @@ Represents a message posted in [a document channel](ChannelType#Guilded.Base.Ser
 public class Message : Guilded.Base.Content.ChannelContent<Guid, System.Nullable<Guilded.Base.HashId>>,
 Guilded.Base.Content.IUpdatableContent,
 Guilded.Base.Content.IWebhookCreatable,
-Guilded.Base.Content.IReactibleContent
+Guilded.Base.Content.IReactibleContent,
+Guilded.Base.Content.IContentBlockMarkdown,
+Guilded.Base.Content.IContentMarkdown
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.Base.ClientObject') &#129106; [Guilded.Base.Content.ChannelContent&lt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[,](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') &#129106; Message
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [Guilded.Base.Content.ChannelContent&lt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[,](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') &#129106; Message
 
-Implements [IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent'), [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [IReactibleContent](IReactibleContent 'Guilded.Base.Content.IReactibleContent')
+Implements [IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent'), [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [IReactibleContent](IReactibleContent 'Guilded.Base.Content.IReactibleContent'), [IContentBlockMarkdown](IContentBlockMarkdown 'Guilded.Base.Content.IContentBlockMarkdown'), [IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown')
 
 ### Remarks
   
@@ -34,7 +36,7 @@ This currently includes both messages of types [Default](MessageType#Guilded.Bas
 
 | Constructors | |
 | :--- | :--- |
-| [Message(Guid, Guid, HashId, DateTime, MessageType, Nullable&lt;HashId&gt;, IList&lt;Guid&gt;, string, IList&lt;Embed&gt;, bool, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](Message.Message(Guid,Guid,HashId,DateTime,MessageType,Nullable_HashId_,IList_Guid_,string,IList_Embed_,bool,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.Message.Message(Guid, Guid, Guilded.Base.HashId, System.DateTime, Guilded.Base.Content.MessageType, System.Nullable<Guilded.Base.HashId>, System.Collections.Generic.IList<Guid>, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, bool, System.Nullable<Guid>, System.Nullable<System.DateTime>)') | Initializes a new instance of [Message](Message 'Guilded.Base.Content.Message') from the specified JSON properties. |
+| [Message(Guid, Guid, HashId, DateTime, MessageType, Nullable&lt;HashId&gt;, IList&lt;Guid&gt;, string, IList&lt;Embed&gt;, bool, bool, Mentions, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](Message.Message(Guid,Guid,HashId,DateTime,MessageType,Nullable_HashId_,IList_Guid_,string,IList_Embed_,bool,bool,Mentions,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.Message.Message(Guid, Guid, Guilded.Base.HashId, System.DateTime, Guilded.Base.Content.MessageType, System.Nullable<Guilded.Base.HashId>, System.Collections.Generic.IList<Guid>, string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>, bool, bool, Guilded.Base.Content.Mentions, System.Nullable<Guid>, System.Nullable<System.DateTime>)') | Initializes a new instance of [Message](Message 'Guilded.Base.Content.Message') from the specified JSON properties. |
 
 | Fields | |
 | :--- | :--- |
@@ -51,6 +53,7 @@ This currently includes both messages of types [Default](MessageType#Guilded.Bas
 | [IsReply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') | Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a reply](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds') to another message. |
 | [IsSilent](Message.IsSilent 'Guilded.Base.Content.Message.IsSilent') | Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is silent and doesn't ping any user. |
 | [IsSystemMessage](Message.IsSystemMessage 'Guilded.Base.Content.Message.IsSystemMessage') | Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a system message](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System'). |
+| [Mentions](Message.Mentions 'Guilded.Base.Content.Message.Mentions') | Gets [the mentions](Message.Mentions 'Guilded.Base.Content.Message.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content'). |
 | [ReplyMessageIds](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds') | Gets the list of [messages](Message 'Guilded.Base.Content.Message') being replied to. |
 | [Type](Message.Type 'Guilded.Base.Content.Message.Type') | Gets the type of [the message](Message 'Guilded.Base.Content.Message'). |
 | [UpdatedAt](Message.UpdatedAt 'Guilded.Base.Content.Message.UpdatedAt') | Gets the date when [the message](Message 'Guilded.Base.Content.Message') was edited. |
@@ -68,6 +71,7 @@ This currently includes both messages of types [Default](MessageType#Guilded.Bas
 | [CreateMessageAsync(string, Embed[])](Message.CreateMessageAsync(string,Embed[]) 'Guilded.Base.Content.Message.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])') | Creates a message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')). |
 | [CreateMessageAsync(string)](Message.CreateMessageAsync(string) 'Guilded.Base.Content.Message.CreateMessageAsync(string)') | Creates a message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')). |
 | [DeleteAsync()](Message.DeleteAsync() 'Guilded.Base.Content.Message.DeleteAsync()') | Deletes the message. |
+| [RemoveReactionAsync(uint)](Message.RemoveReactionAsync(uint) 'Guilded.Base.Content.Message.RemoveReactionAsync(uint)') | Removes emote from the message. |
 | [ReplyAsync(bool, bool, Embed[])](Message.ReplyAsync(bool,bool,Embed[]) 'Guilded.Base.Content.Message.ReplyAsync(bool, bool, Guilded.Base.Embeds.Embed[])') | Replies to the message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')). |
 | [ReplyAsync(Embed[])](Message.ReplyAsync(Embed[]) 'Guilded.Base.Content.Message.ReplyAsync(Guilded.Base.Embeds.Embed[])') | Replies to the message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')). |
 | [ReplyAsync(string, bool, bool, Embed[])](Message.ReplyAsync(string,bool,bool,Embed[]) 'Guilded.Base.Content.Message.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[])') | Replies to the message in the parent channel (from [ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')). |
@@ -83,4 +87,4 @@ This currently includes both messages of types [Default](MessageType#Guilded.Bas
 - [MessageType](MessageType 'Guilded.Base.Content.MessageType')
 - [Doc](Doc 'Guilded.Base.Content.Doc')
 - [ListItem](ListItem 'Guilded.Base.Content.ListItem')
-- [ForumThread](ForumThread 'Guilded.Base.Content.ForumThread')
+- [Topic](Topic 'Guilded.Base.Content.Topic')

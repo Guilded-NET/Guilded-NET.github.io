@@ -24,13 +24,13 @@ public DocEvent(Guilded.Base.Content.Doc doc, Guilded.Base.HashId serverId);
 
 `doc` [Doc](Doc 'Guilded.Base.Content.Doc')
 
-The doc received from the event
+[The doc](Doc 'Guilded.Base.Content.Doc') received from the event
 
 <a name='Guilded.Base.Events.DocEvent.DocEvent(Guilded.Base.Content.Doc,Guilded.Base.HashId).serverId'></a>
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the doc event occurred
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the doc event occurred
 
 ### See Also
 - [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')

@@ -7,20 +7,20 @@ tags:
   - class
 description: "
 
-Represents an event with the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from [role update](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')."
+Represents an event that occurs when member's server profile receives any kind of change, besides [change in their role list](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')."
 ---
 
 ## MemberUpdatedEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with the name `TeamMemberUpdated` and opcode `0` that occurs once member receives any update, apart from [role update](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent').
+Represents an event that occurs when member's server profile receives any kind of change, besides [change in their role list](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent').
 
 ```csharp
-public class MemberUpdatedEvent : Guilded.Base.BaseObject,
+public class MemberUpdatedEvent : Guilded.Base.BaseModel,
 Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MemberUpdatedEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberUpdatedEvent
 
 Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
@@ -30,7 +30,7 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Properties | |
 | :--- | :--- |
-| [ServerId](MemberUpdatedEvent.ServerId 'Guilded.Base.Events.MemberUpdatedEvent.ServerId') | The identifier of the server where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated. |
+| [ServerId](MemberUpdatedEvent.ServerId 'Guilded.Base.Events.MemberUpdatedEvent.ServerId') | The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated. |
 | [UserId](MemberUpdatedEvent.UserId 'Guilded.Base.Events.MemberUpdatedEvent.UserId') | Gets the identifier of the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo'). |
 | [UserInfo](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') | Gets the properties that have been updated in the member. |
 

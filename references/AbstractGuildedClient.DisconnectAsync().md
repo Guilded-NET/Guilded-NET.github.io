@@ -24,6 +24,5 @@ public override System.Threading.Tasks.Task DisconnectAsync();
 
 ### See Also
 - [ConnectAsync()](AbstractGuildedClient.ConnectAsync() 'Guilded.AbstractGuildedClient.ConnectAsync()')
-- [Dispose()](AbstractGuildedClient.Dispose() 'Guilded.AbstractGuildedClient.Dispose()')
 - [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()')
 - [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.GuildedBotClient.ConnectAsync(string)')

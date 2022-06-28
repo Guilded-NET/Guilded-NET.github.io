@@ -16,7 +16,7 @@ Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the 
 Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
 
 ```csharp
-public Guilded.Base.HashId CreatedBy { get; set; }
+public Guilded.Base.HashId CreatedBy { get; }
 ```
 
 #### Property Value

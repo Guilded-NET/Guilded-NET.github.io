@@ -24,7 +24,7 @@ public WebhookEvent(Guilded.Base.HashId serverId, Guilded.Base.Servers.Webhook w
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') got created/updated
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') got created/updated
 
 <a name='Guilded.Base.Events.WebhookEvent.WebhookEvent(Guilded.Base.HashId,Guilded.Base.Servers.Webhook).webhook'></a>
 

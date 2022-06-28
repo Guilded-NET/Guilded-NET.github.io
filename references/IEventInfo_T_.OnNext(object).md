@@ -18,10 +18,6 @@ Notifies observers with OnNext.
 ```csharp
 void OnNext(object value);
 ```
-
-### Remarks
-  
-Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')'s observers.
 #### Parameters
 
 <a name='Guilded.IEventInfo_T_.OnNext(object).value'></a>
@@ -29,3 +25,7 @@ Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observ
 `value` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
 The next received value
+
+### Remarks
+  
+Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')'s observers.

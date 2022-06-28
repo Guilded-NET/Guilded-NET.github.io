@@ -16,7 +16,7 @@ Gets the reason why the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.Us
 Gets the reason why the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified.
 
 ```csharp
-public string? Reason { get; set; }
+public string? Reason { get; }
 ```
 
 #### Property Value

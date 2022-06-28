@@ -16,12 +16,8 @@ Bans the [member](BaseGuildedClient.BanMemberAsync(HashId,HashId,string)#Guilded
 Bans the [member](BaseGuildedClient.BanMemberAsync(HashId,HashId,string)#Guilded.Base.BaseGuildedClient.BanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.Base.BaseGuildedClient.BanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
 
 ```csharp
-public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.MemberBan> BanMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, string? reason=null);
+public System.Threading.Tasks.Task BanMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, string? reason=null);
 ```
-
-### Remarks
-  
-Disallows them from joining again, until they receive an unban with [UnbanMemberAsync(HashId, HashId)](BaseGuildedClient.UnbanMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)') method.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.BanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).server'></a>
@@ -42,6 +38,10 @@ The identifier of [the member](Member 'Guilded.Base.Servers.Member') to ban
 
 The reason for a ban
 
+### Remarks
+  
+Disallows them from joining again, until they receive an unban with [RemoveMemberBanAsync(HashId, HashId)](BaseGuildedClient.RemoveMemberBanAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)') method.
+
 #### Exceptions
 
 [GuildedException](GuildedException 'Guilded.Base.GuildedException')
@@ -55,5 +55,5 @@ The reason for a ban
 [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
 Created [member's ban](MemberBan 'Guilded.Base.Servers.MemberBan')

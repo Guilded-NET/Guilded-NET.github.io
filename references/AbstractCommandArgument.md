@@ -23,6 +23,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 Derived  
 &#8627; [CommandArgumentInfo](CommandArgumentInfo 'Guilded.Commands.CommandArgumentInfo')  
+&#8627; [CommandOptionalArgumentInfo](CommandOptionalArgumentInfo 'Guilded.Commands.CommandOptionalArgumentInfo')  
 &#8627; [CommandRestInfo](CommandRestInfo 'Guilded.Commands.CommandRestInfo')
 
 | Constructors | |

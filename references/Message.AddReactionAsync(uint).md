@@ -16,7 +16,7 @@ Adds [emote](Message.AddReactionAsync(uint)#Guilded.Base.Content.Message.AddReac
 Adds [emote](Message.AddReactionAsync(uint)#Guilded.Base.Content.Message.AddReactionAsync(uint).emote 'Guilded.Base.Content.Message.AddReactionAsync(uint).emote') to the message.
 
 ```csharp
-public System.Threading.Tasks.Task<Guilded.Base.Content.Reaction> AddReactionAsync(uint emote);
+public System.Threading.Tasks.Task AddReactionAsync(uint emote);
 ```
 #### Parameters
 
@@ -37,5 +37,4 @@ The identifier of the emote to add
 [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Reaction](Reaction 'Guilded.Base.Content.Reaction')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Added [reaction](Reaction 'Guilded.Base.Content.Reaction')
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')

@@ -18,10 +18,6 @@ Adds a [role](UserSummary.AddRoleAsync(HashId,uint)#Guilded.Base.Users.UserSumma
 ```csharp
 public System.Threading.Tasks.Task AddRoleAsync(Guilded.Base.HashId server, uint role);
 ```
-
-### Remarks
-  
-If they hold the [role](UserSummary.AddRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
 <a name='Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId,uint).server'></a>
@@ -35,6 +31,10 @@ The server to modify [member](Member 'Guilded.Base.Servers.Member') in
 `role` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the role to add
+
+### Remarks
+  
+If they hold the [role](UserSummary.AddRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId, uint).role'), then nothing happens.
 
 #### Exceptions
 

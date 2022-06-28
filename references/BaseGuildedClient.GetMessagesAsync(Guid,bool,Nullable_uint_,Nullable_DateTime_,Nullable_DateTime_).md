@@ -18,10 +18,6 @@ Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the [chan
 ```csharp
 public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<Guilded.Base.Content.Message>> GetMessagesAsync(Guid channel, bool includePrivate=false, System.Nullable<uint> limit=null, System.Nullable<System.DateTime> before=null, System.Nullable<System.DateTime> after=null);
 ```
-
-### Remarks
-  
-By default, private [messages](Message 'Guilded.Base.Content.Message') will not be fetched. However, if private [messages](Message 'Guilded.Base.Content.Message') need to be included, [includePrivate](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).includePrivate 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).includePrivate') parameter can be set as [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool').
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel'></a>
@@ -53,6 +49,10 @@ The max limit of the creation date of fetched messages
 `after` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
 The min limit of the creation date of fetched messages
+
+### Remarks
+  
+By default, private [messages](Message 'Guilded.Base.Content.Message') will not be fetched. However, if private [messages](Message 'Guilded.Base.Content.Message') need to be included, [includePrivate](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).includePrivate 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).includePrivate') parameter can be set as [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool').
 
 #### Exceptions
 

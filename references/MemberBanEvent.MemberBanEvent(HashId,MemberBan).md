@@ -24,7 +24,7 @@ public MemberBanEvent(Guilded.Base.HashId serverId, Guilded.Base.Servers.MemberB
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where member got banned/unbanned
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where member got banned/unbanned
 
 <a name='Guilded.Base.Events.MemberBanEvent.MemberBanEvent(Guilded.Base.HashId,Guilded.Base.Servers.MemberBan).serverMemberBan'></a>
 

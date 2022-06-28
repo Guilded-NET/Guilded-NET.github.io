@@ -7,22 +7,18 @@ tags:
   - property
 description: "
 
-Gets the examples of how to use the command."
+Gets the example of [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') usage."
 ---
 
 ## AbstractCommandInfo<TMember>.Examples Property
 ##### **Assembly:** `Guilded.Commands`<br/>**Type:** [`AbstractCommandInfo<TMember>`](AbstractCommandInfo_TMember_ 'Guilded.Commands.AbstractCommandInfo<TMember>')
 
-Gets the examples of how to use the command.
+Gets the example of [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') usage.
 
 ```csharp
-public string[]? Examples { get; }
+public System.Collections.Generic.IEnumerable<Guilded.Commands.ExampleAttribute> Examples { get; }
 ```
 
-### Remarks
-  
-This is not used anywhere, so you can use it for command lists.
-
 #### Property Value
-[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')  
-Array of text?
+[System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')[ExampleAttribute](ExampleAttribute 'Guilded.Commands.ExampleAttribute')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')  
+Markdown string

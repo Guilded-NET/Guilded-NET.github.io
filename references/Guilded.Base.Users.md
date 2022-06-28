@@ -55,6 +55,8 @@ description: ""
     Gets the global username of [the user](User 'Guilded.Base.Users.User').
   - **[Type](UserSummary.Type 'Guilded.Base.Users.UserSummary.Type')** `Property`
     Gets the type of [the user](User 'Guilded.Base.Users.User') they are.
+  - **[AddMemberBanAsync(HashId, string)](UserSummary.AddMemberBanAsync(HashId,string) 'Guilded.Base.Users.UserSummary.AddMemberBanAsync(Guilded.Base.HashId, string)')** `Method`
+    Bans the member.
   - **[AddRoleAsync(HashId, uint)](UserSummary.AddRoleAsync(HashId,uint) 'Guilded.Base.Users.UserSummary.AddRoleAsync(Guilded.Base.HashId, uint)')** `Method`
     Adds a role to [the user](User 'Guilded.Base.Users.User').
   - **[AddXpAsync(HashId, short)](UserSummary.AddXpAsync(HashId,short) 'Guilded.Base.Users.UserSummary.AddXpAsync(Guilded.Base.HashId, short)')** `Method`
@@ -68,13 +70,17 @@ description: ""
   - **[GetSocialLinkAsync(HashId, SocialLinkType)](UserSummary.GetSocialLinkAsync(HashId,SocialLinkType) 'Guilded.Base.Users.UserSummary.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
     Gets the specified member social link based on given linkType.
   - **[KickAsync(HashId)](UserSummary.KickAsync(HashId) 'Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId)')** `Method`
+    Bans the member.
+  - **[RemoveMemberAsync(HashId)](UserSummary.RemoveMemberAsync(HashId) 'Guilded.Base.Users.UserSummary.RemoveMemberAsync(Guilded.Base.HashId)')** `Method`
     Removes the member from the server.
+  - **[RemoveMemberBanAsync(HashId)](UserSummary.RemoveMemberBanAsync(HashId) 'Guilded.Base.Users.UserSummary.RemoveMemberBanAsync(Guilded.Base.HashId)')** `Method`
+    Unbans the member.
   - **[RemoveRoleAsync(HashId, uint)](UserSummary.RemoveRoleAsync(HashId,uint) 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint)')** `Method`
     Removes role from [the user](User 'Guilded.Base.Users.User').
   - **[ToString()](UserSummary.ToString() 'Guilded.Base.Users.UserSummary.ToString()')** `Method`
     Returns the string representation of this [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') instance.
   - **[UnbanAsync(HashId)](UserSummary.UnbanAsync(HashId) 'Guilded.Base.Users.UserSummary.UnbanAsync(Guilded.Base.HashId)')** `Method`
-    Unbans the member.
+    Bans the member.
   - **[UpdateNicknameAsync(HashId, string)](UserSummary.UpdateNicknameAsync(HashId,string) 'Guilded.Base.Users.UserSummary.UpdateNicknameAsync(Guilded.Base.HashId, string)')** `Method`
     Changes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the member.
 - **[SocialLinkType](SocialLinkType 'Guilded.Base.Users.SocialLinkType')** `Enum`

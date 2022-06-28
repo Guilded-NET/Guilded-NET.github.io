@@ -18,12 +18,6 @@ Replies to the message in the parent channel (from [ChannelId](ChannelContent_TI
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Content.Message> ReplyAsync(string content, bool isPrivate=false, bool isSilent=false);
 ```
-
-### Remarks
-  
-The given text [content](Message.ReplyAsync(string,bool,bool)#Guilded.Base.Content.Message.ReplyAsync(string,bool,bool).content 'Guilded.Base.Content.Message.ReplyAsync(string, bool, bool).content') will be formatted in Markdown.  
-  
-Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id') property) in the reply list.
 #### Parameters
 
 <a name='Guilded.Base.Content.Message.ReplyAsync(string,bool,bool).content'></a>
@@ -39,6 +33,12 @@ The [text contents](Message.Content 'Guilded.Base.Content.Message.Content') of [
 <a name='Guilded.Base.Content.Message.ReplyAsync(string,bool,bool).isSilent'></a>
 
 `isSilent` [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
+
+### Remarks
+  
+The given text [content](Message.ReplyAsync(string,bool,bool)#Guilded.Base.Content.Message.ReplyAsync(string,bool,bool).content 'Guilded.Base.Content.Message.ReplyAsync(string, bool, bool).content') will be formatted in Markdown.  
+  
+Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id') property) in the reply list.
 
 #### Exceptions
 

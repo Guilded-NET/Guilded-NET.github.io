@@ -18,10 +18,6 @@ When the socket message event is invoked.
 ```csharp
 protected void OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage message);
 ```
-
-### Remarks
-  
-Receives and handles received [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') messages.
 #### Parameters
 
 <a name='Guilded.AbstractGuildedClient.OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage).message'></a>
@@ -29,3 +25,7 @@ Receives and handles received [GuildedSocketMessage](GuildedSocketMessage 'Guild
 `message` [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')
 
 A message received from a WebSocket
+
+### Remarks
+  
+Receives and handles received [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage') messages.

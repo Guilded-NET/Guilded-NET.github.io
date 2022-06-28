@@ -16,7 +16,7 @@ Gets the date when the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.Use
 Gets the date when the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') was banned
 
 ```csharp
-public System.DateTime CreatedAt { get; set; }
+public System.DateTime CreatedAt { get; }
 ```
 
 #### Property Value

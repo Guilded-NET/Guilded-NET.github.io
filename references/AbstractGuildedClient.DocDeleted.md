@@ -7,23 +7,25 @@ tags:
   - property
 description: "
 
-Represents an event with the name `DocCreated`, `DocUpdated` or `DocDeleted` and opcode `0` that occurs once someone posts, edits or deletes a [doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc') in [a channel](DocEvent.ChannelId 'Guilded.Base.Events.DocEvent.ChannelId')."
+Gets [the observable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1') for an event when [a document](Doc 'Guilded.Base.Content.Doc') is deleted."
 ---
 
 ## AbstractGuildedClient.DocDeleted Property
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Represents an event with the name `DocCreated`, `DocUpdated` or `DocDeleted` and opcode `0` that occurs once someone posts, edits or deletes a [doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc') in [a channel](DocEvent.ChannelId 'Guilded.Base.Events.DocEvent.ChannelId').
+Gets [the observable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1') for an event when [a document](Doc 'Guilded.Base.Content.Doc') is deleted.
 
 ```csharp
 public IObservable<Guilded.Base.Events.DocEvent> DocDeleted { get; }
 ```
 
+### Remarks
+  
+An event with the name `DocDeleted` and opcode `0`.
+
 #### Property Value
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [Doc](Doc 'Guilded.Base.Content.Doc')
-- [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')
-- [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
-- [ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
+- [DocCreated](AbstractGuildedClient.DocCreated 'Guilded.AbstractGuildedClient.DocCreated')
+- [DocUpdated](AbstractGuildedClient.DocUpdated 'Guilded.AbstractGuildedClient.DocUpdated')

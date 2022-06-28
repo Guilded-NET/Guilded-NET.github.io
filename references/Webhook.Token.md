@@ -16,7 +16,7 @@ Gets the token of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')."
 Gets the token of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
 
 ```csharp
-public string? Token { get; set; }
+public string? Token { get; }
 ```
 
 ### Remarks

@@ -16,7 +16,7 @@ Gets the global avatar of [the user](User 'Guilded.Base.Users.User')."
 Gets the global avatar of [the user](User 'Guilded.Base.Users.User').
 
 ```csharp
-public Uri? Avatar { get; set; }
+public Uri? Avatar { get; }
 ```
 
 #### Property Value

@@ -23,7 +23,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 ### Remarks
   
-This is caused if you are trying to access or do an action that requires permissions, but you don't have them. This can only be fixed by getting said permissions by a server staff and is usually not controlled by you.
+This is caused if you are trying to access or do an action that requires permissions, but you don't have them. This can only be fixed by getting said permissions by [a server](Server 'Guilded.Base.Servers.Server') staff and is usually not controlled by you.
 
 | Constructors | |
 | :--- | :--- |

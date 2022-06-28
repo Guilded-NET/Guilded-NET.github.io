@@ -16,7 +16,7 @@ Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was del
 Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was deleted.
 
 ```csharp
-public System.Nullable<System.DateTime> DeletedAt { get; set; }
+public System.Nullable<System.DateTime> DeletedAt { get; }
 ```
 
 ### Remarks

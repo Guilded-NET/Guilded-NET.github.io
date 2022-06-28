@@ -29,6 +29,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | :--- | :--- |
 | [Arguments](CommandInfo.Arguments 'Guilded.Commands.CommandInfo.Arguments') | Gets the enumerable of command arguments that can be specified by users. |
 | [HasRestArgument](CommandInfo.HasRestArgument 'Guilded.Commands.CommandInfo.HasRestArgument') | Gets whether there is a rest argument for the command. |
+| [RequiredCount](CommandInfo.RequiredCount 'Guilded.Commands.CommandInfo.RequiredCount') | Gets whether there is a rest argument for the command. |
 
 | Methods | |
 | :--- | :--- |

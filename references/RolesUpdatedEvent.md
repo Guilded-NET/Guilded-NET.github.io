@@ -7,20 +7,20 @@ tags:
   - class
 description: "
 
-Represents an event with the name `teamRolesUpdated` and opcode `0` that occurs once [role holder](RolesUpdatedEvent.RolesUpdated.UserId 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId') either loses a [role](RolesUpdatedEvent.RolesUpdated.RoleIds 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds') or receives it."
+Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Member') receives a role or loses it."
 ---
 
 ## RolesUpdatedEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with the name `teamRolesUpdated` and opcode `0` that occurs once [role holder](RolesUpdatedEvent.RolesUpdated.UserId 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId') either loses a [role](RolesUpdatedEvent.RolesUpdated.RoleIds 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds') or receives it.
+Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Member') receives a role or loses it.
 
 ```csharp
-public class RolesUpdatedEvent : Guilded.Base.BaseObject,
+public class RolesUpdatedEvent : Guilded.Base.BaseModel,
 Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; RolesUpdatedEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; RolesUpdatedEvent
 
 Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
@@ -35,7 +35,7 @@ This event does not give a list of lost/received events or give a previous role 
 | Properties | |
 | :--- | :--- |
 | [MemberRoleIds](RolesUpdatedEvent.MemberRoleIds 'Guilded.Base.Events.RolesUpdatedEvent.MemberRoleIds') | Gets the list of receiving/losing member and current roles. |
-| [ServerId](RolesUpdatedEvent.ServerId 'Guilded.Base.Events.RolesUpdatedEvent.ServerId') | Gets the identifier of the server where user's roles were given or removed. |
+| [ServerId](RolesUpdatedEvent.ServerId 'Guilded.Base.Events.RolesUpdatedEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where user's roles were given or removed. |
 | [UpdatedUsers](RolesUpdatedEvent.UpdatedUsers 'Guilded.Base.Events.RolesUpdatedEvent.UpdatedUsers') | Gets the array of updated users that either lost or received roles. |
 
 ### See Also

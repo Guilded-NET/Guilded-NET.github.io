@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the identifier of the server where the message was."
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the message was."
 ---
 
 ## MessageDeletedEvent.MessageDeleted.ServerId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MessageDeleted`](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')
 
-Gets the identifier of the server where the message was.
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the message was.
 
 ```csharp
 public System.Nullable<Guilded.Base.HashId> ServerId { get; }

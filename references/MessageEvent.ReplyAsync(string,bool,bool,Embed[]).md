@@ -18,12 +18,6 @@ Replies to the message in the parent channel (from [ChannelId](ChannelContent_TI
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Content.Message> ReplyAsync(string content, bool isPrivate=false, bool isSilent=false, params Guilded.Base.Embeds.Embed[] embeds);
 ```
-
-### Remarks
-  
-The given text [content](MessageEvent.ReplyAsync(string,bool,bool,Embed[])#Guilded.Base.Events.MessageEvent.ReplyAsync(string,bool,bool,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.  
-  
-Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id') property) in the reply list.
 #### Parameters
 
 <a name='Guilded.Base.Events.MessageEvent.ReplyAsync(string,bool,bool,Guilded.Base.Embeds.Embed[]).content'></a>
@@ -43,6 +37,12 @@ The [text contents](Message.Content 'Guilded.Base.Content.Message.Content') of [
 <a name='Guilded.Base.Events.MessageEvent.ReplyAsync(string,bool,bool,Guilded.Base.Embeds.Embed[]).embeds'></a>
 
 `embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
+
+### Remarks
+  
+The given text [content](MessageEvent.ReplyAsync(string,bool,bool,Embed[])#Guilded.Base.Events.MessageEvent.ReplyAsync(string,bool,bool,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.Events.MessageEvent.ReplyAsync(string, bool, bool, Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.  
+  
+Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id') property) in the reply list.
 
 #### Exceptions
 

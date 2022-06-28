@@ -27,7 +27,9 @@ By default, all the parameters will be seen as context parameters, unless a para
 
 ### Example
   
-Example of a command with its own subcommands:  
+Example of a command with its own subcommands.  
+  
+This results in a command `config` with sub-command `prefix`. `prefix` command will not be invokable without any arguments.  
   
 ```csharp  
 [Command]  
@@ -40,7 +42,9 @@ public static class ConfigCommand
         // ...  
     }  
 }  
-```
+```  
+  
+Writing <q>!config prefix ?</q> will result in bot responding with <q>Set server's prefix to <c>?</c></q> message.
 
 | Constructors | |
 | :--- | :--- |
@@ -50,8 +54,6 @@ public static class ConfigCommand
 | Properties | |
 | :--- | :--- |
 | [Aliases](CommandAttribute.Aliases 'Guilded.Commands.CommandAttribute.Aliases') | Gets the alternative names of the command. |
-| [Description](CommandAttribute.Description 'Guilded.Commands.CommandAttribute.Description') | Gets the description of the command. |
-| [Examples](CommandAttribute.Examples 'Guilded.Commands.CommandAttribute.Examples') | Gets the examples of how to use the command. |
 | [Name](CommandAttribute.Name 'Guilded.Commands.CommandAttribute.Name') | Gets the overriden name of the command. |
 
 ### See Also

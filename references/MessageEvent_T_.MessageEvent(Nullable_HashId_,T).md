@@ -24,7 +24,7 @@ protected MessageEvent(System.Nullable<Guilded.Base.HashId> serverId, T message)
 
 `serverId` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of the server where the message event occurred
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the message event occurred
 
 <a name='Guilded.Base.Events.MessageEvent_T_.MessageEvent(System.Nullable_Guilded.Base.HashId_,T).message'></a>
 

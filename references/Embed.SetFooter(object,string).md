@@ -14,12 +14,6 @@ description: ""
 ```csharp
 public Guilded.Base.Embeds.Embed SetFooter(object? text, string? icon=null);
 ```
-
-### Remarks
-  
-A [footer](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') will be generated from the given value and [icon](Embed.SetFooter(object,string)#Guilded.Base.Embeds.Embed.SetFooter(object,string).icon 'Guilded.Base.Embeds.Embed.SetFooter(object, string).icon').  
-  
-value parameter will be converted to string.
 #### Parameters
 
 <a name='Guilded.Base.Embeds.Embed.SetFooter(object,string).text'></a>
@@ -31,6 +25,12 @@ value parameter will be converted to string.
 `icon` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 URL to the icon's image that will be displayed in the left side of the footer
+
+### Remarks
+  
+A [footer](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter') will be generated from the given value and [icon](Embed.SetFooter(object,string)#Guilded.Base.Embeds.Embed.SetFooter(object,string).icon 'Guilded.Base.Embeds.Embed.SetFooter(object, string).icon').  
+  
+value parameter will be converted to string.
 
 #### Returns
 [Embed](Embed 'Guilded.Base.Embeds.Embed')

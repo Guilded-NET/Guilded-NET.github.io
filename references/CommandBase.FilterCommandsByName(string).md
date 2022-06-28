@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Filters out commands that do not have [name](CommandBase.FilterCommandsByName(string)#Guilded.Commands.CommandBase.FilterCommandsByName(string).name 'Guilded.Commands.CommandBase.FilterCommandsByName(string).name')."
+Filters out [commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands') that do not have [name](CommandBase.FilterCommandsByName(string)#Guilded.Commands.CommandBase.FilterCommandsByName(string).name 'Guilded.Commands.CommandBase.FilterCommandsByName(string).name')."
 ---
 
 ## CommandBase.FilterCommandsByName(string) Method
 ##### **Assembly:** `Guilded.Commands`<br/>**Type:** [`CommandBase`](CommandBase 'Guilded.Commands.CommandBase')
 
-Filters out commands that do not have [name](CommandBase.FilterCommandsByName(string)#Guilded.Commands.CommandBase.FilterCommandsByName(string).name 'Guilded.Commands.CommandBase.FilterCommandsByName(string).name').
+Filters out [commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands') that do not have [name](CommandBase.FilterCommandsByName(string)#Guilded.Commands.CommandBase.FilterCommandsByName(string).name 'Guilded.Commands.CommandBase.FilterCommandsByName(string).name').
 
 ```csharp
 public System.Collections.Generic.IEnumerable<Guilded.Commands.ICommandInfo<MemberInfo>> FilterCommandsByName(string name);

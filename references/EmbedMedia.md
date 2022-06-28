@@ -16,10 +16,10 @@ Represents an image, a thumbnail or a video in an [embed](Embed 'Guilded.Base.Em
 Represents an image, a thumbnail or a video in an [embed](Embed 'Guilded.Base.Embeds.Embed').
 
 ```csharp
-public class EmbedMedia : Guilded.Base.BaseObject
+public class EmbedMedia : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; EmbedMedia
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; EmbedMedia
 
 | Constructors | |
 | :--- | :--- |

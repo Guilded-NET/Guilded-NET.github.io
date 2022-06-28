@@ -18,15 +18,15 @@ Creates [a message](Message 'Guilded.Base.Content.Message') with content contain
 ```csharp
 public System.Threading.Tasks.Task CreateMessageAsync(string message);
 ```
-
-### Remarks
-  
-The content will be formatted in Markdown.
 #### Parameters
 
 <a name='Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+
+### Remarks
+  
+The content will be formatted in Markdown.
 
 #### Exceptions
 

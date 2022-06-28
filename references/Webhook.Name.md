@@ -16,7 +16,7 @@ Gets the name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')."
 Gets the name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
 
 ```csharp
-public string Name { get; set; }
+public string Name { get; }
 ```
 
 #### Property Value

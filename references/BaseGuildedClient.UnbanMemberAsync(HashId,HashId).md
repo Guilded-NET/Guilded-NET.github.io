@@ -16,12 +16,8 @@ Unbans the [member](BaseGuildedClient.UnbanMemberAsync(HashId,HashId)#Guilded.Ba
 Unbans the [member](BaseGuildedClient.UnbanMemberAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
-public abstract System.Threading.Tasks.Task UnbanMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
+public System.Threading.Tasks.Task UnbanMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
 ```
-
-### Remarks
-  
-Allows them to join the server again.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
@@ -35,6 +31,10 @@ The server to unban [member](Member 'Guilded.Base.Servers.Member') in
 `member` [HashId](HashId 'Guilded.Base.HashId')
 
 The identifier of [the member](Member 'Guilded.Base.Servers.Member') to unban
+
+### Remarks
+  
+Allows them to join [the server](Server 'Guilded.Base.Servers.Server') again.
 
 #### Exceptions
 

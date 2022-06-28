@@ -42,7 +42,7 @@ the date when the reaction was created
 
 `serverId` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of the server where the reaction is
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the reaction is
 
 <a name='Guilded.Base.Content.Reaction.Reaction(uint,Guilded.Base.HashId,System.DateTime,System.Nullable_Guilded.Base.HashId_,System.Nullable_Guid_).createdByWebhookId'></a>
 

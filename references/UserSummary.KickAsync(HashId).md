@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Removes the member from the [server](UserSummary.KickAsync(HashId)#Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId).server 'Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId).server')."
+Bans the member."
 ---
 
 ## UserSummary.KickAsync(HashId) Method
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`UserSummary`](UserSummary 'Guilded.Base.Users.UserSummary')
 
-Removes the member from the [server](UserSummary.KickAsync(HashId)#Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId).server 'Guilded.Base.Users.UserSummary.KickAsync(Guilded.Base.HashId).server').
+Bans the member.
 
 ```csharp
 public System.Threading.Tasks.Task KickAsync(Guilded.Base.HashId server);
@@ -24,7 +24,11 @@ public System.Threading.Tasks.Task KickAsync(Guilded.Base.HashId server);
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to kick [the member](Member 'Guilded.Base.Servers.Member') from
+The server to ban member from
+
+### Remarks
+  
+Disallows them from joining again, until they receive an unban with [RemoveMemberBanAsync(HashId, HashId)](BaseGuildedClient.RemoveMemberBanAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)') method.
 
 #### Exceptions
 
@@ -39,4 +43,5 @@ The server to kick [the member](Member 'Guilded.Base.Servers.Member') from
 [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')
 
 #### Returns
-[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')
+[System.Threading.Tasks.Task](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task 'System.Threading.Tasks.Task')  
+Created [member's ban](MemberBan 'Guilded.Base.Servers.MemberBan')

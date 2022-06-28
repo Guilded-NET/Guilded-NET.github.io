@@ -18,10 +18,6 @@ Gets the list of roles [member](BaseGuildedClient.GetMemberRolesAsync(HashId,Has
 ```csharp
 public abstract System.Threading.Tasks.Task<System.Collections.Generic.IList<uint>> GetMemberRolesAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
 ```
-
-### Remarks
-  
-No permissions are required.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.GetMemberRolesAsync(Guilded.Base.HashId,Guilded.Base.HashId).server'></a>
@@ -35,6 +31,10 @@ The server where to fetch user's information
 `member` [HashId](HashId 'Guilded.Base.HashId')
 
 The identifier of the role holder
+
+### Remarks
+  
+No permissions are required.
 
 #### Exceptions
 

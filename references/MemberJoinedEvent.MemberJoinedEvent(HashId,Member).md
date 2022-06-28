@@ -24,7 +24,7 @@ public MemberJoinedEvent(Guilded.Base.HashId serverId, Guilded.Base.Servers.Memb
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the member joined
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the member joined
 
 <a name='Guilded.Base.Events.MemberJoinedEvent.MemberJoinedEvent(Guilded.Base.HashId,Guilded.Base.Servers.Member).member'></a>
 

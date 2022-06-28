@@ -18,10 +18,6 @@ Adds a [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.Base.Ba
 ```csharp
 public abstract System.Threading.Tasks.Task AddRoleAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, uint role);
 ```
-
-### Remarks
-  
-If they hold the [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).server'></a>
@@ -41,6 +37,10 @@ The identifier of [the receiving member](Member 'Guilded.Base.Servers.Member')
 `role` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the role to add
+
+### Remarks
+  
+If they hold the [role](BaseGuildedClient.AddRoleAsync(HashId,HashId,uint)#Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.Base.BaseGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
 
 #### Exceptions
 

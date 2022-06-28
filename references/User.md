@@ -19,7 +19,7 @@ Represents the extended information about a user.
 public class User : Guilded.Base.Users.UserSummary
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.Base.ClientObject') &#129106; [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') &#129106; User
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary') &#129106; User
 
 | Constructors | |
 | :--- | :--- |

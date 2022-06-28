@@ -18,12 +18,6 @@ Replies to the message in the parent channel (from [ChannelId](ChannelContent_TI
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Content.Message> ReplyAsync(string content);
 ```
-
-### Remarks
-  
-The given text [content](Message.ReplyAsync(string)#Guilded.Base.Content.Message.ReplyAsync(string).content 'Guilded.Base.Content.Message.ReplyAsync(string).content') will be formatted in Markdown.  
-  
-Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id') property) in the reply list.
 #### Parameters
 
 <a name='Guilded.Base.Content.Message.ReplyAsync(string).content'></a>
@@ -31,6 +25,12 @@ Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The [text contents](Message.Content 'Guilded.Base.Content.Message.Content') of [the message](Message 'Guilded.Base.Content.Message') in Markdown (max — `4000`)
+
+### Remarks
+  
+The given text [content](Message.ReplyAsync(string)#Guilded.Base.Content.Message.ReplyAsync(string).content 'Guilded.Base.Content.Message.ReplyAsync(string).content') will be formatted in Markdown.  
+  
+Includes this message ([Id](ChannelContent_TId,TServer_.Id 'Guilded.Base.Content.ChannelContent<TId,TServer>.Id') property) in the reply list.
 
 #### Exceptions
 

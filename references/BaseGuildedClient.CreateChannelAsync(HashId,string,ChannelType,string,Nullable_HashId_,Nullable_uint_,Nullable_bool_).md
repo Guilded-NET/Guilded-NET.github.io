@@ -24,7 +24,7 @@ public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> 
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
 
 <a name='Guilded.Base.BaseGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).name'></a>
 

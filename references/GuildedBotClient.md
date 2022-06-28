@@ -43,7 +43,7 @@ await client.ConnectAsync();
 An example of a Guilded bot client with `!ping` command  
   
 ```csharp  
-using var client = new GuildedBotClient("...auth...");  
+await using var client = new GuildedBotClient("...auth...");  
   
 client.Prepared  
       .Subscribe(me =>  

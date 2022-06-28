@@ -18,12 +18,6 @@ Uploads a file to Guilded.
 ```csharp
 public System.Threading.Tasks.Task<Uri?> UploadFileAsync(string filename, byte[] filedata);
 ```
-
-### Remarks
-  
-Uploads any image, text or document file to Guilded with content type automatically assigned.  
-  
-The new image uploaded to Guilded will be received as [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') return value.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.UploadFileAsync(string,byte[]).filename'></a>
@@ -37,6 +31,12 @@ The name of the file being uploaded
 `filedata` [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte 'System.Byte')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
 The contents of the file being uploaded
+
+### Remarks
+  
+Uploads any image, text or document file to Guilded with content type automatically assigned.  
+  
+The new image uploaded to Guilded will be received as [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') return value.
 
 #### Exceptions
 

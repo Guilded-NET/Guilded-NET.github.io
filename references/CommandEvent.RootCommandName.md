@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the name of the root-level command that was used in [the message](CommandEvent.Message 'Guilded.Commands.CommandEvent.Message')."
+Gets the name of the root-level command that was used in [the message](Message 'Guilded.Base.Content.Message')."
 ---
 
 ## CommandEvent.RootCommandName Property
 ##### **Assembly:** `Guilded.Commands`<br/>**Type:** [`CommandEvent`](CommandEvent 'Guilded.Commands.CommandEvent')
 
-Gets the name of the root-level command that was used in [the message](CommandEvent.Message 'Guilded.Commands.CommandEvent.Message').
+Gets the name of the root-level command that was used in [the message](Message 'Guilded.Base.Content.Message').
 
 ```csharp
 public string RootCommandName { get; }

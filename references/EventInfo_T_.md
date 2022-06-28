@@ -23,10 +23,6 @@ Guilded.IEventInfo<T>
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; EventInfo<T>
 
 Implements [Guilded.IEventInfo&lt;](IEventInfo_T_ 'Guilded.IEventInfo<T>')[T](EventInfo_T_#Guilded.EventInfo_T_.T 'Guilded.EventInfo<T>.T')[&gt;](IEventInfo_T_ 'Guilded.IEventInfo<T>')
-
-### Remarks
-  
-The event can be subscribed via [Observable](EventInfo_T_.Observable 'Guilded.EventInfo<T>.Observable').
 #### Type parameters
 
 <a name='Guilded.EventInfo_T_.T'></a>
@@ -34,6 +30,10 @@ The event can be subscribed via [Observable](EventInfo_T_.Observable 'Guilded.Ev
 `T`
 
 The type of the event that will be received. Used in [Subject](EventInfo_T_.Subject 'Guilded.EventInfo<T>.Subject') and [Observable](EventInfo_T_.Observable 'Guilded.EventInfo<T>.Observable')
+
+### Remarks
+  
+The event can be subscribed via [Observable](EventInfo_T_.Observable 'Guilded.EventInfo<T>.Observable').
 
 | Constructors | |
 | :--- | :--- |

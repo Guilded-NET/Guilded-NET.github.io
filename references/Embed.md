@@ -16,10 +16,10 @@ Represents a custom content embed that includes any kind of information."
 Represents a custom content embed that includes any kind of information.
 
 ```csharp
-public class Embed : Guilded.Base.BaseObject
+public class Embed : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; Embed
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; Embed
 
 ### Remarks
   
@@ -132,6 +132,6 @@ Embed embed = new Embed()
 
 ### See Also
 - [Message](Message 'Guilded.Base.Content.Message')
-- [ForumThread](ForumThread 'Guilded.Base.Content.ForumThread')
+- [Topic](Topic 'Guilded.Base.Content.Topic')
 - [ListItem](ListItem 'Guilded.Base.Content.ListItem')
 - [Doc](Doc 'Guilded.Base.Content.Doc')

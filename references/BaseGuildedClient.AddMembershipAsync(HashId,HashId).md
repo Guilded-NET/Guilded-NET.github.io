@@ -18,10 +18,6 @@ Adds [user](BaseGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.Base.Bas
 ```csharp
 public abstract System.Threading.Tasks.Task AddMembershipAsync(Guilded.Base.HashId group, Guilded.Base.HashId user);
 ```
-
-### Remarks
-  
-This allows [user](BaseGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') to interact or see the specified group.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group'></a>
@@ -35,6 +31,10 @@ The identifier of the parent group
 `user` [HashId](HashId 'Guilded.Base.HashId')
 
 The identifier of [the member](Member 'Guilded.Base.Servers.Member') to add
+
+### Remarks
+  
+This allows [user](BaseGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).user 'Guilded.Base.BaseGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).user') to interact or see the specified group.
 
 #### Exceptions
 

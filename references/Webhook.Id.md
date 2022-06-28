@@ -16,7 +16,7 @@ Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')."
 Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
 
 ```csharp
-public Guid Id { get; set; }
+public Guid Id { get; }
 ```
 
 #### Property Value

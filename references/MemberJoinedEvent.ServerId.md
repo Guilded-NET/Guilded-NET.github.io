@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the identifier of the server where the member has joined."
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the member has joined."
 ---
 
 ## MemberJoinedEvent.ServerId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberJoinedEvent`](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')
 
-Gets the identifier of the server where the member has joined.
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the member has joined.
 
 ```csharp
 public Guilded.Base.HashId ServerId { get; }

@@ -7,21 +7,23 @@ tags:
   - class
 description: "
 
-Represents an event with the opcode `1` that is received once WebSocket connects or reconnects."
+Represents an event that occurs when WebSocket connects or reconnects."
 ---
 
 ## WelcomeEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with the opcode `1` that is received once WebSocket connects or reconnects.
+Represents an event that occurs when WebSocket connects or reconnects.
 
 ```csharp
-public class WelcomeEvent : Guilded.Base.BaseObject
+public class WelcomeEvent : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; WelcomeEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; WelcomeEvent
 
 ### Remarks
+  
+An event with the opcode `1`.  
   
 [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent') can be used to ensure that WebSocket has connected to Guilded or that the events from Guilded are being received.
 

@@ -16,13 +16,14 @@ Represents a navigatable item that contains content."
 Represents a navigatable item that contains content.
 
 ```csharp
-public class ServerChannel : Guilded.Base.ClientObject,
+public class ServerChannel : Guilded.Base.ContentModel,
+Guilded.Base.IModelHasId<Guid>,
 Guilded.Base.Content.ICreatableContent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.Base.ClientObject') &#129106; ServerChannel
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; ServerChannel
 
-Implements [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+Implements [Guilded.Base.IModelHasId&lt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>'), [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
 
 | Constructors | |
 | :--- | :--- |

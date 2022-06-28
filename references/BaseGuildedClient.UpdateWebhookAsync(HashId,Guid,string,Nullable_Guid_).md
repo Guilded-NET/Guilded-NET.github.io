@@ -18,17 +18,13 @@ Edits the [webhook](BaseGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Null
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> UpdateWebhookAsync(Guilded.Base.HashId server, Guid webhook, string name, System.Nullable<Guid> newChannel=null);
 ```
-
-### Remarks
-  
-[Webhook](Webhook 'Guilded.Base.Servers.Webhook') can moved between [channels](ServerChannel 'Guilded.Base.Servers.ServerChannel') using '[newChannel](BaseGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_)#Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId,Guid,string,System.Nullable_Guid_).newChannel 'Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>).newChannel')' parameter.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId,Guid,string,System.Nullable_Guid_).server'></a>
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is
 
 <a name='Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId,Guid,string,System.Nullable_Guid_).webhook'></a>
 
@@ -47,6 +43,10 @@ The new name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')
 `newChannel` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
 The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') will be moved to
+
+### Remarks
+  
+[Webhook](Webhook 'Guilded.Base.Servers.Webhook') can moved between [channels](ServerChannel 'Guilded.Base.Servers.ServerChannel') using '[newChannel](BaseGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_)#Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId,Guid,string,System.Nullable_Guid_).newChannel 'Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>).newChannel')' parameter.
 
 #### Exceptions
 

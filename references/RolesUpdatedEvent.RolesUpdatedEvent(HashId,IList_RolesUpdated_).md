@@ -24,7 +24,7 @@ public RolesUpdatedEvent(Guilded.Base.HashId serverId, System.Collections.Generi
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where roles were updated
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where roles were updated
 
 <a name='Guilded.Base.Events.RolesUpdatedEvent.RolesUpdatedEvent(Guilded.Base.HashId,System.Collections.Generic.IList_Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated_).memberRoleIds'></a>
 

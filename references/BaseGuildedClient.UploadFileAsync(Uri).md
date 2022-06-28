@@ -18,12 +18,6 @@ Uploads a file to Guilded.
 ```csharp
 public System.Threading.Tasks.Task<Uri?> UploadFileAsync(Uri url);
 ```
-
-### Remarks
-  
-Uploads an image from link [url](BaseGuildedClient.UploadFileAsync(Uri)#Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri).url 'Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri).url') to Guilded.  
-  
-The new image uploaded to Guilded will be received as [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') return value.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri).url'></a>
@@ -31,6 +25,12 @@ The new image uploaded to Guilded will be received as [System.Uri](https://docs.
 `url` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
 URL link to an image to upload
+
+### Remarks
+  
+Uploads an image from link [url](BaseGuildedClient.UploadFileAsync(Uri)#Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri).url 'Guilded.Base.BaseGuildedClient.UploadFileAsync(Uri).url') to Guilded.  
+  
+The new image uploaded to Guilded will be received as [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') return value.
 
 #### Exceptions
 

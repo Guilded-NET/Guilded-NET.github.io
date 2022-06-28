@@ -30,7 +30,7 @@ The list item received from the event
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the list item event occurred
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the list item event occurred
 
 ### See Also
 - [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')

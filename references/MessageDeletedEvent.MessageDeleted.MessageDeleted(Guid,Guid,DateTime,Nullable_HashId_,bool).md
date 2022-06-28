@@ -42,7 +42,7 @@ the date when the message was deleted
 
 `serverId` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of the server where the message was
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the message was
 
 <a name='Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.MessageDeleted(Guid,Guid,System.DateTime,System.Nullable_Guilded.Base.HashId_,bool).isPrivate'></a>
 

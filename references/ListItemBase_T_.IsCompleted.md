@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets whether the list item was ticked off"
+Gets whether [the list item](ListItem 'Guilded.Base.Content.ListItem') was ticked off"
 ---
 
 ## ListItemBase<T>.IsCompleted Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemBase<T>`](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')
 
-Gets whether the list item was ticked off
+Gets whether [the list item](ListItem 'Guilded.Base.Content.ListItem') was ticked off
 
 ```csharp
 public bool IsCompleted { get; }

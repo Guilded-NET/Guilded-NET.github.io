@@ -7,21 +7,17 @@ tags:
   - property
 description: "
 
-the date when the note was edited."
+Gets the date when [the note](ListItemNote 'Guilded.Base.Content.ListItemNote') was edited."
 ---
 
 ## ListItemNoteSummary.UpdatedAt Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
 
-the date when the note was edited.
+Gets the date when [the note](ListItemNote 'Guilded.Base.Content.ListItemNote') was edited.
 
 ```csharp
 public System.Nullable<System.DateTime> UpdatedAt { get; }
 ```
-
-### Remarks
-  
-the date when the note was most recently updated.
 
 #### Property Value
 [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')  

@@ -36,7 +36,7 @@ Allows you to create matchmaking scrims
 
 `CreateTournaments` 16
 
-Allows you to register the server for tournaments
+Allows you to register [the server](Server 'Guilded.Base.Servers.Server') for tournaments
 
 <a name='Guilded.Base.Permissions.MatchmakingPermissions.None'></a>
 
@@ -48,7 +48,7 @@ No given permissions.
 
 `RegisterForTournaments` 4
 
-Allows you to use the server to create and manage tournaments
+Allows you to use [the server](Server 'Guilded.Base.Servers.Server') to create and manage tournaments
 
 ### See Also
 - [AnnouncementPermissions](AnnouncementPermissions 'Guilded.Base.Permissions.AnnouncementPermissions')

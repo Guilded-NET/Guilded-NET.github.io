@@ -16,14 +16,15 @@ Represents a [content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.Channel
 Represents a [content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') reaction.
 
 ```csharp
-public class Reaction : Guilded.Base.ClientObject,
+public class Reaction : Guilded.Base.ContentModel,
+Guilded.Base.IModelHasId<uint>,
 Guilded.Base.Content.IWebhookCreatable,
 Guilded.Base.Content.ICreatableContent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; [ClientObject](ClientObject 'Guilded.Base.ClientObject') &#129106; Reaction
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; Reaction
 
-Implements [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+Implements [Guilded.Base.IModelHasId&lt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>'), [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
 
 | Constructors | |
 | :--- | :--- |
@@ -45,4 +46,4 @@ Implements [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookC
 ### See Also
 - [Message](Message 'Guilded.Base.Content.Message')
 - [Doc](Doc 'Guilded.Base.Content.Doc')
-- [ForumThread](ForumThread 'Guilded.Base.Content.ForumThread')
+- [Topic](Topic 'Guilded.Base.Content.Topic')

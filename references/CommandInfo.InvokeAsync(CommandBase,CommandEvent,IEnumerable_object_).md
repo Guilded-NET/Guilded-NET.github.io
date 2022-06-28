@@ -16,7 +16,7 @@ Invokes the command."
 Invokes the command.
 
 ```csharp
-public System.Threading.Tasks.Task InvokeAsync(Guilded.Commands.CommandBase parent, Guilded.Commands.CommandEvent commandEvent, System.Collections.Generic.IEnumerable<object> arguments);
+public System.Threading.Tasks.Task InvokeAsync(Guilded.Commands.CommandBase parent, Guilded.Commands.CommandEvent commandEvent, System.Collections.Generic.IEnumerable<object?> arguments);
 ```
 #### Parameters
 

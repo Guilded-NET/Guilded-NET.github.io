@@ -16,7 +16,7 @@ Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 Disposes [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') instance.
 
 ```csharp
-public abstract void Dispose();
+public void Dispose();
 ```
 
 ### See Also

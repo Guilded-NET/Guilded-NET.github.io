@@ -7,22 +7,27 @@ tags:
   - property
 description: "
 
-Represents an event with the name `TeamChannelCreated`, `TeamChannelUpdated` or `TeamChannelDeleted` and opcode `0` that occurs once someone creates, edits or deletes a [channel](ChannelEvent.Channel 'Guilded.Base.Events.ChannelEvent.Channel')."
+Gets [the observable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1') for an event when [a channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') is deleted."
 ---
 
 ## AbstractGuildedClient.ChannelDeleted Property
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Represents an event with the name `TeamChannelCreated`, `TeamChannelUpdated` or `TeamChannelDeleted` and opcode `0` that occurs once someone creates, edits or deletes a [channel](ChannelEvent.Channel 'Guilded.Base.Events.ChannelEvent.Channel').
+Gets [the observable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable-1 'System.IObservable`1') for an event when [a channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') is deleted.
 
 ```csharp
 public IObservable<Guilded.Base.Events.ChannelEvent> ChannelDeleted { get; }
 ```
 
+### Remarks
+  
+An event with the name `TeamChannelDeleted` and opcode `0`.
+
 #### Property Value
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
 
 ### See Also
-- [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
-- [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')
-- [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')
+- [WebhookCreated](AbstractGuildedClient.WebhookCreated 'Guilded.AbstractGuildedClient.WebhookCreated')
+- [WebhookUpdated](AbstractGuildedClient.WebhookUpdated 'Guilded.AbstractGuildedClient.WebhookUpdated')
+- [ChannelCreated](AbstractGuildedClient.ChannelCreated 'Guilded.AbstractGuildedClient.ChannelCreated')
+- [ChannelUpdated](AbstractGuildedClient.ChannelUpdated 'Guilded.AbstractGuildedClient.ChannelUpdated')

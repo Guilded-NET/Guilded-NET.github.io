@@ -18,10 +18,6 @@ Creates [a message](Message 'Guilded.Base.Content.Message') with content contain
 ```csharp
 public System.Threading.Tasks.Task CreateMessageAsync(string message, params Guilded.Base.Embeds.Embed[] embeds);
 ```
-
-### Remarks
-  
-The content will be formatted in Markdown.
 #### Parameters
 
 <a name='Guilded.Base.Events.WebhookEvent.CreateMessageAsync(string,Guilded.Base.Embeds.Embed[]).message'></a>
@@ -33,6 +29,10 @@ The content will be formatted in Markdown.
 `embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
 The array of [all custom embeds](Embed 'Guilded.Base.Embeds.Embed') in [the message](Message 'Guilded.Base.Content.Message') (max — `1`)
+
+### Remarks
+  
+The content will be formatted in Markdown.
 
 #### Exceptions
 

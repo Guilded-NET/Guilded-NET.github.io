@@ -16,10 +16,10 @@ Represents a social media link of a [user](User 'Guilded.Base.Users.User')."
 Represents a social media link of a [user](User 'Guilded.Base.Users.User').
 
 ```csharp
-public class SocialLink : Guilded.Base.BaseObject
+public class SocialLink : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; SocialLink
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; SocialLink
 
 | Constructors | |
 | :--- | :--- |

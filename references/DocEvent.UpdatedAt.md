@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the date when the content were updated."
+Gets the date when [the titled content](TitledContent 'Guilded.Base.Content.TitledContent') were updated."
 ---
 
 ## DocEvent.UpdatedAt Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
-Gets the date when the content were updated.
+Gets the date when [the titled content](TitledContent 'Guilded.Base.Content.TitledContent') were updated.
 
 ```csharp
 public System.Nullable<System.DateTime> UpdatedAt { get; }

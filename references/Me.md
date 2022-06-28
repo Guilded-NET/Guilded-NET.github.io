@@ -16,13 +16,14 @@ Represents the currently logged in user."
 Represents the currently logged in user.
 
 ```csharp
-public class Me : Guilded.Base.BaseObject,
+public class Me : Guilded.Base.BaseModel,
+Guilded.Base.IModelHasId<Guilded.Base.HashId>,
 Guilded.Base.Content.ICreatableContent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; Me
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; Me
 
-Implements [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+Implements [Guilded.Base.IModelHasId&lt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>')[HashId](HashId 'Guilded.Base.HashId')[&gt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>'), [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
 
 | Constructors | |
 | :--- | :--- |

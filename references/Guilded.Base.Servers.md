@@ -10,15 +10,15 @@ description: ""
 
 ## Guilded.Base.Servers Namespace
 - **[Member](Member 'Guilded.Base.Servers.Member')** `Class`
-  Represents information about [the user](User 'Guilded.Base.Users.User') in a server.
+  Represents information about [the user](User 'Guilded.Base.Users.User') in [a server](Server 'Guilded.Base.Servers.Server').
   - **[Member(User, IList&lt;uint&gt;, DateTime, string, bool)](Member.Member(User,IList_uint_,DateTime,string,bool) 'Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User, System.Collections.Generic.IList<uint>, System.DateTime, string, bool)')** `Constructor`
     Initializes a new instance of [Member](Member 'Guilded.Base.Servers.Member')f rom the specified JSON properties.
   - **[IsOwner](Member.IsOwner 'Guilded.Base.Servers.Member.IsOwner')** `Property`
-    Gets whether [the member](Member 'Guilded.Base.Servers.Member') is the owner of the server.
+    Gets whether [the member](Member 'Guilded.Base.Servers.Member') is the owner of [the server](Server 'Guilded.Base.Servers.Server').
   - **[JoinedAt](Member.JoinedAt 'Guilded.Base.Servers.Member.JoinedAt')** `Property`
     Gets the date when [the member](Member 'Guilded.Base.Servers.Member') joined.
   - **[Nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname')** `Property`
-    Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in the server.
+    Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in [the server](Server 'Guilded.Base.Servers.Server').
 - **[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')** `Class`
   Represents the information of [user's](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') ban.
   - **[MemberBan(UserSummary, HashId, DateTime, string)](MemberBan.MemberBan(UserSummary,HashId,DateTime,string) 'Guilded.Base.Servers.MemberBan.MemberBan(Guilded.Base.Users.UserSummary, Guilded.Base.HashId, System.DateTime, string)')** `Constructor`
@@ -31,8 +31,12 @@ description: ""
     Gets the reason why the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified.
   - **[User](MemberBan.User 'Guilded.Base.Servers.MemberBan.User')** `Property`
     Gets the banned user.
-- **[MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')** `Class`
+- **[MemberSummary](MemberSummary 'Guilded.Base.Servers.MemberSummary')** `Class`
   Represents the summary of [a member](Member 'Guilded.Base.Servers.Member').
+  - **[MemberSummary(UserSummary, IList&lt;uint&gt;)](MemberSummary.MemberSummary(UserSummary,IList_uint_) 'Guilded.Base.Servers.MemberSummary.MemberSummary(Guilded.Base.Users.UserSummary, System.Collections.Generic.IList<uint>)')** `Constructor`
+    Initializes a new instance of [MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>').
+- **[MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>')** `Class`
+  Represents the base type for [member models](Member 'Guilded.Base.Servers.Member').
   - **[MemberSummary(T, IList&lt;uint&gt;)](MemberSummary_T_.MemberSummary(T,IList_uint_) 'Guilded.Base.Servers.MemberSummary<T>.MemberSummary(T, System.Collections.Generic.IList<uint>)')** `Constructor`
     Initializes a new instance of [MemberSummary&lt;T&gt;](MemberSummary_T_ 'Guilded.Base.Servers.MemberSummary<T>').
   - **[Id](MemberSummary_T_.Id 'Guilded.Base.Servers.MemberSummary<T>.Id')** `Property`
@@ -47,6 +51,34 @@ description: ""
     Gets the type of [the user](User 'Guilded.Base.Users.User') they are.
   - **[User](MemberSummary_T_.User 'Guilded.Base.Servers.MemberSummary<T>.User')** `Property`
     Gets [the user](User 'Guilded.Base.Users.User') they are.
+- **[Server](Server 'Guilded.Base.Servers.Server')** `Class`
+  /// Represents a team or a guild in Guilded.
+  - **[Server(HashId, HashId, string, DateTime, Nullable&lt;ServerType&gt;, string, string, Uri, Uri, string, bool, Nullable&lt;Guid&gt;)](Server.Server(HashId,HashId,string,DateTime,Nullable_ServerType_,string,string,Uri,Uri,string,bool,Nullable_Guid_) 'Guilded.Base.Servers.Server.Server(Guilded.Base.HashId, Guilded.Base.HashId, string, System.DateTime, System.Nullable<Guilded.Base.Servers.ServerType>, string, string, Uri, Uri, string, bool, System.Nullable<Guid>)')** `Constructor`
+    Initializes a new instance of [Server](Server 'Guilded.Base.Servers.Server') from specified JSON properties.
+  - **[About](Server.About 'Guilded.Base.Servers.Server.About')** `Property`
+    Gets the description of [the server](Server 'Guilded.Base.Servers.Server').
+  - **[Avatar](Server.Avatar 'Guilded.Base.Servers.Server.Avatar')** `Property`
+    Gets [the URL](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') to the icon image of [the server](Server 'Guilded.Base.Servers.Server').
+  - **[Banner](Server.Banner 'Guilded.Base.Servers.Server.Banner')** `Property`
+    Gets [the URL](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri') to the banner image of [the server](Server 'Guilded.Base.Servers.Server').
+  - **[CreatedAt](Server.CreatedAt 'Guilded.Base.Servers.Server.CreatedAt')** `Property`
+    Gets the date when [the server](Server 'Guilded.Base.Servers.Server') was created.
+  - **[DefaultChannelId](Server.DefaultChannelId 'Guilded.Base.Servers.Server.DefaultChannelId')** `Property`
+    Gets [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') of [the server](Server 'Guilded.Base.Servers.Server') that is the main channel.
+  - **[Id](Server.Id 'Guilded.Base.Servers.Server.Id')** `Property`
+    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server').
+  - **[IsVerified](Server.IsVerified 'Guilded.Base.Servers.Server.IsVerified')** `Property`
+    Gets whether [the server](Server 'Guilded.Base.Servers.Server') is verified by the Guilded staff team.
+  - **[Name](Server.Name 'Guilded.Base.Servers.Server.Name')** `Property`
+    Gets the displayed name of [the server](Server 'Guilded.Base.Servers.Server').
+  - **[OwnerId](Server.OwnerId 'Guilded.Base.Servers.Server.OwnerId')** `Property`
+    Gets [the user](User 'Guilded.Base.Users.User') that created [the server](Server 'Guilded.Base.Servers.Server').
+  - **[Timezone](Server.Timezone 'Guilded.Base.Servers.Server.Timezone')** `Property`
+    Gets the set timezone of [the server](Server 'Guilded.Base.Servers.Server').
+  - **[Type](Server.Type 'Guilded.Base.Servers.Server.Type')** `Property`
+    Gets the selected [type](ServerType 'Guilded.Base.Servers.ServerType') of [the server](Server 'Guilded.Base.Servers.Server').
+  - **[Url](Server.Url 'Guilded.Base.Servers.Server.Url')** `Property`
+    Gets the part of URL to the [the server](Server 'Guilded.Base.Servers.Server').
 - **[ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel')** `Class`
   Represents a navigatable item that contains content.
   - **[ServerChannel(Guid, HashId, HashId, ChannelType, string, HashId, DateTime, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, string, Nullable&lt;Guid&gt;, Nullable&lt;uint&gt;)](ServerChannel.ServerChannel(Guid,HashId,HashId,ChannelType,string,HashId,DateTime,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,string,Nullable_Guid_,Nullable_uint_) 'Guilded.Base.Servers.ServerChannel.ServerChannel(Guid, Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Servers.ChannelType, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, string, System.Nullable<Guid>, System.Nullable<uint>)')** `Constructor`
@@ -112,7 +144,7 @@ description: ""
   - **[Name](Webhook.Name 'Guilded.Base.Servers.Webhook.Name')** `Property`
     Gets the name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
   - **[ServerId](Webhook.ServerId 'Guilded.Base.Servers.Webhook.ServerId')** `Property`
-    Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is.
+    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is.
   - **[Token](Webhook.Token 'Guilded.Base.Servers.Webhook.Token')** `Property`
     Gets the token of [the webhook](Webhook 'Guilded.Base.Servers.Webhook').
   - **[CreateMessageAsync(MessageContent)](Webhook.CreateMessageAsync(MessageContent) 'Guilded.Base.Servers.Webhook.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
@@ -153,3 +185,21 @@ description: ""
     A [voice channel](ChannelType#Guilded.Base.Servers.ChannelType.Voice 'Guilded.Base.Servers.ChannelType.Voice') without voice rooms and with screensharing and camera capibilities.
   - **[Voice](ChannelType#Guilded.Base.Servers.ChannelType.Voice 'Guilded.Base.Servers.ChannelType.Voice')** `Field`
     A normal [chat channel](ChannelType#Guilded.Base.Servers.ChannelType.Chat 'Guilded.Base.Servers.ChannelType.Chat') with voice chat capibilities.
+- **[ServerType](ServerType 'Guilded.Base.Servers.ServerType')** `Enum`
+  Gets the type of [the server](Server 'Guilded.Base.Servers.Server'). This does not affect anything about the server.
+  - **[Clan](ServerType#Guilded.Base.Servers.ServerType.Clan 'Guilded.Base.Servers.ServerType.Clan')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is a small clan in a video game.
+  - **[Community](ServerType#Guilded.Base.Servers.ServerType.Community 'Guilded.Base.Servers.ServerType.Community')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is any kind of gaming or non-gaming community for a game or anything else.
+  - **[Friends](ServerType#Guilded.Base.Servers.ServerType.Friends 'Guilded.Base.Servers.ServerType.Friends')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is for a friends circle.
+  - **[Guild](ServerType#Guilded.Base.Servers.ServerType.Guild 'Guilded.Base.Servers.ServerType.Guild')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is a big guild in a video game.
+  - **[Organization](ServerType#Guilded.Base.Servers.ServerType.Organization 'Guilded.Base.Servers.ServerType.Organization')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is for some kind of organization.
+  - **[Other](ServerType#Guilded.Base.Servers.ServerType.Other 'Guilded.Base.Servers.ServerType.Other')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is any other type of group.
+  - **[Streaming](ServerType#Guilded.Base.Servers.ServerType.Streaming 'Guilded.Base.Servers.ServerType.Streaming')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is dedicated to live content or streaming.
+  - **[Team](ServerType#Guilded.Base.Servers.ServerType.Team 'Guilded.Base.Servers.ServerType.Team')** `Field`
+    [The server](Server 'Guilded.Base.Servers.Server') is for a team of a certain product or is gaming group.

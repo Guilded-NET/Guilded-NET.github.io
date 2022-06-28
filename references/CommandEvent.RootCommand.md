@@ -16,7 +16,7 @@ Getss the most-top command that was invoked."
 Getss the most-top command that was invoked.
 
 ```csharp
-public Guilded.Commands.RootCommandContext RootCommand { get; }
+public Guilded.Commands.RootCommandEvent RootCommand { get; }
 ```
 
 ### Example
@@ -32,5 +32,5 @@ Let's say we have this command structure:
 Even if we invoke <q>config items add</q> command, the root command will always remain <q>config</q>.
 
 #### Property Value
-[RootCommandContext](RootCommandContext 'Guilded.Commands.RootCommandContext')  
+[RootCommandEvent](RootCommandEvent 'Guilded.Commands.RootCommandEvent')  
 Command context

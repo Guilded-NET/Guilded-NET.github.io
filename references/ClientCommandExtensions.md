@@ -21,13 +21,12 @@ public static class ClientCommandExtensions
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; ClientCommandExtensions
 
-### Remarks
-  
-Adds command-related extensions to clients.
-
 | Methods | |
 | :--- | :--- |
-| [AddCommands(this AbstractGuildedClient, CommandModule)](ClientCommandExtensions.AddCommands(thisAbstractGuildedClient,CommandModule) 'Guilded.Commands.ClientCommandExtensions.AddCommands(this Guilded.AbstractGuildedClient, Guilded.Commands.CommandModule)') | Adds a command module to the client. |
+| [AddCommands(this AbstractGuildedClient, CommandModule, CommandConfiguration)](ClientCommandExtensions.AddCommands(thisAbstractGuildedClient,CommandModule,CommandConfiguration) 'Guilded.Commands.ClientCommandExtensions.AddCommands(this Guilded.AbstractGuildedClient, Guilded.Commands.CommandModule, Guilded.Commands.CommandConfiguration)') | Adds a command module to the client. |
+| [AddCommands(this AbstractGuildedClient, CommandModule, string, char[], StringSplitOptions)](ClientCommandExtensions.AddCommands(thisAbstractGuildedClient,CommandModule,string,char[],StringSplitOptions) 'Guilded.Commands.ClientCommandExtensions.AddCommands(this Guilded.AbstractGuildedClient, Guilded.Commands.CommandModule, string, char[], StringSplitOptions)') | Adds a command module to the client. |
+| [AddCommands(this AbstractGuildedClient, CommandModule, string, StringSplitOptions)](ClientCommandExtensions.AddCommands(thisAbstractGuildedClient,CommandModule,string,StringSplitOptions) 'Guilded.Commands.ClientCommandExtensions.AddCommands(this Guilded.AbstractGuildedClient, Guilded.Commands.CommandModule, string, StringSplitOptions)') | Adds a command module to the client. |
+| [AddCommands(this AbstractGuildedClient, CommandModule, StringSplitOptions)](ClientCommandExtensions.AddCommands(thisAbstractGuildedClient,CommandModule,StringSplitOptions) 'Guilded.Commands.ClientCommandExtensions.AddCommands(this Guilded.AbstractGuildedClient, Guilded.Commands.CommandModule, StringSplitOptions)') | Adds a command module to the client. |
 
 ### See Also
 - [CommandModule](CommandModule 'Guilded.Commands.CommandModule')

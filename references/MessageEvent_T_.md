@@ -16,11 +16,11 @@ Represents the base for message-related events."
 Represents the base for message-related events.
 
 ```csharp
-public abstract class MessageEvent<T> : Guilded.Base.BaseObject
-    where T : Guilded.Base.BaseObject
+public abstract class MessageEvent<T> : Guilded.Base.BaseModel
+    where T : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MessageEvent<T>
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MessageEvent<T>
 
 Derived  
 &#8627; [MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')  
@@ -38,7 +38,7 @@ Derived
 | Properties | |
 | :--- | :--- |
 | [Message](MessageEvent_T_.Message 'Guilded.Base.Events.MessageEvent<T>.Message') | Gets the message received from the event. |
-| [ServerId](MessageEvent_T_.ServerId 'Guilded.Base.Events.MessageEvent<T>.ServerId') | Gets the identifier of the server where the event occurred. |
+| [ServerId](MessageEvent_T_.ServerId 'Guilded.Base.Events.MessageEvent<T>.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred. |
 
 ### See Also
 - [Message](Message 'Guilded.Base.Content.Message')

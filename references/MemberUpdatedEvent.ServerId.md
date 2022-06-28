@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-The identifier of the server where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated."
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated."
 ---
 
 ## MemberUpdatedEvent.ServerId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`MemberUpdatedEvent`](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')
 
-The identifier of the server where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated.
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the [member](MemberUpdatedEvent.UserInfo 'Guilded.Base.Events.MemberUpdatedEvent.UserInfo') has been updated.
 
 ```csharp
 public Guilded.Base.HashId ServerId { get; }

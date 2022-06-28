@@ -1,0 +1,28 @@
+---
+title: ServerId
+layout: references
+section: references
+tags:
+  - references
+  - property
+description: "
+
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred."
+---
+
+## CalendarEventEvent.ServerId Property
+##### **Assembly:** `Guilded.Base`<br/>**Type:** [`CalendarEventEvent`](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent')
+
+Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
+
+```csharp
+public Guilded.Base.HashId ServerId { get; }
+```
+
+#### Property Value
+[HashId](HashId 'Guilded.Base.HashId')  
+Server ID
+
+### See Also
+- [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
+- [ServerId](MessageEvent_T_.ServerId 'Guilded.Base.Events.MessageEvent<T>.ServerId')

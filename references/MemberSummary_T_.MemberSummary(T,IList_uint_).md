@@ -24,7 +24,7 @@ public MemberSummary(T user, System.Collections.Generic.IList<uint> roleIds);
 
 `user` [T](MemberSummary_T_#Guilded.Base.Servers.MemberSummary_T_.T 'Guilded.Base.Servers.MemberSummary<T>.T')
 
-[The user](User 'Guilded.Base.Users.User') who is present in the server
+[The user](User 'Guilded.Base.Users.User') who is present in [the server](Server 'Guilded.Base.Servers.Server')
 
 <a name='Guilded.Base.Servers.MemberSummary_T_.MemberSummary(T,System.Collections.Generic.IList_uint_).roleIds'></a>
 

@@ -18,10 +18,6 @@ Gets the specified [member](BaseGuildedClient.GetSocialLinkAsync(HashId,HashId,S
 ```csharp
 public abstract System.Threading.Tasks.Task<Guilded.Base.Users.SocialLink> GetSocialLinkAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, Guilded.Base.Users.SocialLinkType linkType);
 ```
-
-### Remarks
-  
-This does not require any permissions to be given.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId,Guilded.Base.HashId,Guilded.Base.Users.SocialLinkType).server'></a>
@@ -41,6 +37,10 @@ The identifier of [user](User 'Guilded.Base.Users.User')
 `linkType` [SocialLinkType](SocialLinkType 'Guilded.Base.Users.SocialLinkType')
 
 The social link to get
+
+### Remarks
+  
+This does not require any permissions to be given.
 
 #### Exceptions
 

@@ -21,9 +21,23 @@ public class CommandParamAttribute : System.Attribute
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.Attribute](https://docs.microsoft.com/en-us/dotnet/api/System.Attribute 'System.Attribute') &#129106; CommandParamAttribute
 
-### Remarks
+### Example
   
-Any parameter that does not have this parameter will be seen as a context parameter.
+Here's an example of a parameter being declared as a command parameter:  
+  
+```csharp  
+[Command(Aliases = new string[] { "plus" })]  
+public async Task Add(CommandEvent invokation, [CommandParam] int x, [CommandParam] int y) =>  
+    await invokation.ReplyAsync($"{x} + {y} = {x + y}");  
+```  
+  
+The following showcases a command parameter with an overriden name:  
+  
+```csharp  
+[Command]  
+public async Task Say(CommandEvent invokation, [CommandParam("text to say")] params string[] args) =>  
+    await invokation.ReplyAsync(string.Join(" ", args));  
+```
 
 | Constructors | |
 | :--- | :--- |

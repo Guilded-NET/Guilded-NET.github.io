@@ -42,10 +42,10 @@ The type of the member it uses for commands
 
 | Properties | |
 | :--- | :--- |
-| [Aliases](AbstractCommandInfo_TMember_.Aliases 'Guilded.Commands.AbstractCommandInfo<TMember>.Aliases') | Gets the array of [alternative names](CommandAttribute.Aliases 'Guilded.Commands.CommandAttribute.Aliases') of the command. |
+| [Aliases](AbstractCommandInfo_TMember_.Aliases 'Guilded.Commands.AbstractCommandInfo<TMember>.Aliases') | Gets the alternative names of the command. |
 | [Attribute](AbstractCommandInfo_TMember_.Attribute 'Guilded.Commands.AbstractCommandInfo<TMember>.Attribute') | Gets the [command attribute](CommandAttribute 'Guilded.Commands.CommandAttribute') that was given to the [member](ICommandInfo_TMember_.Member 'Guilded.Commands.ICommandInfo<TMember>.Member'). |
-| [Description](AbstractCommandInfo_TMember_.Description 'Guilded.Commands.AbstractCommandInfo<TMember>.Description') | Gets the description of the command. |
-| [Examples](AbstractCommandInfo_TMember_.Examples 'Guilded.Commands.AbstractCommandInfo<TMember>.Examples') | Gets the examples of how to use the command. |
+| [Description](AbstractCommandInfo_TMember_.Description 'Guilded.Commands.AbstractCommandInfo<TMember>.Description') | Gets the text that represents [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') description. |
+| [Examples](AbstractCommandInfo_TMember_.Examples 'Guilded.Commands.AbstractCommandInfo<TMember>.Examples') | Gets the example of [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') usage. |
 | [Member](AbstractCommandInfo_TMember_.Member 'Guilded.Commands.AbstractCommandInfo<TMember>.Member') | Gets the member who was declared as a command. |
 | [Name](AbstractCommandInfo_TMember_.Name 'Guilded.Commands.AbstractCommandInfo<TMember>.Name') | Gets the [name](CommandAttribute.Name 'Guilded.Commands.CommandAttribute.Name') of the command. |
 

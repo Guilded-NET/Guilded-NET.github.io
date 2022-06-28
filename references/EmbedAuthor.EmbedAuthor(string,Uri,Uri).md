@@ -16,7 +16,7 @@ Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.Emb
 Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri).url').
 
 ```csharp
-public EmbedAuthor(string name, Uri? url=null, Uri? iconUrl=null);
+public EmbedAuthor(string name, Uri? url=null, Uri? icon=null);
 ```
 #### Parameters
 
@@ -32,9 +32,9 @@ The name of the embed author
 
 The URL that author links
 
-<a name='Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).iconUrl'></a>
+<a name='Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).icon'></a>
 
-`iconUrl` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
+`icon` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
 The URL to author's icon
 

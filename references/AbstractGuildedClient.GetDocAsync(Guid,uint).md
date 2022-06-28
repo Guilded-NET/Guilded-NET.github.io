@@ -7,26 +7,30 @@ tags:
   - method
 description: "
 
-Gets the doc."
+Gets the [doc](AbstractGuildedClient.GetDocAsync(Guid,uint)#Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).doc 'Guilded.AbstractGuildedClient.GetDocAsync(Guid, uint).doc')."
 ---
 
 ## AbstractGuildedClient.GetDocAsync(Guid, uint) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets the doc.
+Gets the [doc](AbstractGuildedClient.GetDocAsync(Guid,uint)#Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).doc 'Guilded.AbstractGuildedClient.GetDocAsync(Guid, uint).doc').
 
 ```csharp
-public override System.Threading.Tasks.Task<Guilded.Base.Content.Doc> GetDocAsync(Guid channelId, uint docId);
+public override System.Threading.Tasks.Task<Guilded.Base.Content.Doc> GetDocAsync(Guid channel, uint doc);
 ```
 #### Parameters
 
-<a name='Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).channelId'></a>
+<a name='Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).channel'></a>
 
-`channelId` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
+`channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-<a name='Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).docId'></a>
+The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
-`docId` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
+<a name='Guilded.AbstractGuildedClient.GetDocAsync(Guid,uint).doc'></a>
+
+`doc` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
+
+The identifier of [the document](Doc 'Guilded.Base.Content.Doc') to get
 
 #### Exceptions
 

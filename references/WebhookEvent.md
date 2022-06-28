@@ -5,22 +5,18 @@ section: references
 tags:
   - references
   - class
-description: "
-
-Represents an event with the name `TeamWebhookCreated` or `TeamWebhookUpdated` and opcode `0` that occurs once [webhook](WebhookEvent.Webhook 'Guilded.Base.Events.WebhookEvent.Webhook') gets created or updated."
+description: ""
 ---
 
 ## WebhookEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with the name `TeamWebhookCreated` or `TeamWebhookUpdated` and opcode `0` that occurs once [webhook](WebhookEvent.Webhook 'Guilded.Base.Events.WebhookEvent.Webhook') gets created or updated.
-
 ```csharp
-public class WebhookEvent : Guilded.Base.BaseObject,
+public class WebhookEvent : Guilded.Base.BaseModel,
 Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; WebhookEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; WebhookEvent
 
 Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
@@ -34,7 +30,7 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | [CreatedAt](WebhookEvent.CreatedAt 'Guilded.Base.Events.WebhookEvent.CreatedAt') | Gets the date when [the webhook](Webhook 'Guilded.Base.Servers.Webhook') was created. |
 | [CreatedBy](WebhookEvent.CreatedBy 'Guilded.Base.Events.WebhookEvent.CreatedBy') | Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the webhook](Webhook 'Guilded.Base.Servers.Webhook'). |
 | [Name](WebhookEvent.Name 'Guilded.Base.Events.WebhookEvent.Name') | Gets the name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook'). |
-| [ServerId](WebhookEvent.ServerId 'Guilded.Base.Events.WebhookEvent.ServerId') | Gets the identifier of the server where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') has been created/updated. |
+| [ServerId](WebhookEvent.ServerId 'Guilded.Base.Events.WebhookEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') has been created/updated. |
 | [Token](WebhookEvent.Token 'Guilded.Base.Events.WebhookEvent.Token') | Gets the token of [the webhook](Webhook 'Guilded.Base.Servers.Webhook'). |
 | [Webhook](WebhookEvent.Webhook 'Guilded.Base.Events.WebhookEvent.Webhook') | Gets [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that has been created or updated. |
 

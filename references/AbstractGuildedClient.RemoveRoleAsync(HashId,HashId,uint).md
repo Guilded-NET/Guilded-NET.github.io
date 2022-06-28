@@ -18,10 +18,6 @@ Removes [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint)#Guilded
 ```csharp
 public override System.Threading.Tasks.Task RemoveRoleAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, uint role);
 ```
-
-### Remarks
-  
-If they don't hold the [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint)#Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
 <a name='Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).server'></a>
@@ -41,6 +37,10 @@ The identifier of [the losing member](Member 'Guilded.Base.Servers.Member')
 `role` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the role to remove
+
+### Remarks
+  
+If they don't hold the [role](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint)#Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId,Guilded.Base.HashId,uint).role 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint).role'), then nothing happens.
 
 #### Exceptions
 

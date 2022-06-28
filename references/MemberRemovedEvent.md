@@ -7,20 +7,20 @@ tags:
   - class
 description: "
 
-Represents an event with the name `TeamMemberRemoved` and opcode `0` that occurs once member leaves or gets [kicked](MemberRemovedEvent.IsKick 'Guilded.Base.Events.MemberRemovedEvent.IsKick')."
+Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Member') leaves [a server](Server 'Guilded.Base.Servers.Server') or gets removed from it."
 ---
 
 ## MemberRemovedEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with the name `TeamMemberRemoved` and opcode `0` that occurs once member leaves or gets [kicked](MemberRemovedEvent.IsKick 'Guilded.Base.Events.MemberRemovedEvent.IsKick').
+Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Member') leaves [a server](Server 'Guilded.Base.Servers.Server') or gets removed from it.
 
 ```csharp
-public class MemberRemovedEvent : Guilded.Base.BaseObject,
+public class MemberRemovedEvent : Guilded.Base.BaseModel,
 Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MemberRemovedEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberRemovedEvent
 
 Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
@@ -32,7 +32,7 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | :--- | :--- |
 | [IsBan](MemberRemovedEvent.IsBan 'Guilded.Base.Events.MemberRemovedEvent.IsBan') | Gets whether [the user](User 'Guilded.Base.Users.User') has been banned. |
 | [IsKick](MemberRemovedEvent.IsKick 'Guilded.Base.Events.MemberRemovedEvent.IsKick') | Gets whether [the user](User 'Guilded.Base.Users.User') has been kicked. |
-| [ServerId](MemberRemovedEvent.ServerId 'Guilded.Base.Events.MemberRemovedEvent.ServerId') | Gets the identifier of the server where the member has been kicked or has left. |
+| [ServerId](MemberRemovedEvent.ServerId 'Guilded.Base.Events.MemberRemovedEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the member has been kicked or has left. |
 | [UserId](MemberRemovedEvent.UserId 'Guilded.Base.Events.MemberRemovedEvent.UserId') | Gets the identifier of the member who has been kicked or has left. |
 
 ### See Also

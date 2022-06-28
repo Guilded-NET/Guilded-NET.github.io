@@ -18,10 +18,6 @@ Removes user from [group](AbstractGuildedClient.RemoveMembershipAsync(HashId,Has
 ```csharp
 public override System.Threading.Tasks.Task RemoveMembershipAsync(Guilded.Base.HashId group, Guilded.Base.HashId member);
 ```
-
-### Remarks
-  
-This disallows user to interact or see the specified group.
 #### Parameters
 
 <a name='Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group'></a>
@@ -33,6 +29,10 @@ The identifier of the parent group
 <a name='Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
 `member` [HashId](HashId 'Guilded.Base.HashId')
+
+### Remarks
+  
+This disallows user to interact or see the specified group.
 
 #### Exceptions
 

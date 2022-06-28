@@ -16,13 +16,15 @@ Represents a field with its own [title](EmbedField.Name 'Guilded.Base.Embeds.Emb
 Represents a field with its own [title](EmbedField.Name 'Guilded.Base.Embeds.EmbedField.Name') in an [embed](Embed 'Guilded.Base.Embeds.Embed').
 
 ```csharp
-public class EmbedField : Guilded.Base.BaseObject
+public class EmbedField : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; EmbedField
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; EmbedField
 
 | Constructors | |
 | :--- | :--- |
+| [EmbedField(object, bool)](EmbedField.EmbedField(object,bool) 'Guilded.Base.Embeds.EmbedField.EmbedField(object, bool)') | Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField'), which is optionally inline. |
+| [EmbedField(object, object, bool)](EmbedField.EmbedField(object,object,bool) 'Guilded.Base.Embeds.EmbedField.EmbedField(object, object, bool)') | Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField'), which is optionally inline. |
 | [EmbedField(string, string, bool)](EmbedField.EmbedField(string,string,bool) 'Guilded.Base.Embeds.EmbedField.EmbedField(string, string, bool)') | Initializes a new instance of [EmbedField](EmbedField 'Guilded.Base.Embeds.EmbedField'), which is optionally inline. |
 
 | Properties | |

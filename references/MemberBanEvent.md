@@ -7,20 +7,20 @@ tags:
   - class
 description: "
 
-Represents an event with the name `TeamMemberBanned` or `TeamMemberUnbanned` and opcode `0` that occurs once [member](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') gets banned or unbanned."
+Represents an event that occurs when [a memner](Member 'Guilded.Base.Servers.Member') gets banned or unbanned."
 ---
 
 ## MemberBanEvent Class
 ##### **Assembly:** `Guilded.Base`<br/>**Namespace:** [`Guilded.Base.Events`](Guilded.Base.Events 'Guilded.Base.Events')
 
-Represents an event with the name `TeamMemberBanned` or `TeamMemberUnbanned` and opcode `0` that occurs once [member](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') gets banned or unbanned.
+Represents an event that occurs when [a memner](Member 'Guilded.Base.Servers.Member') gets banned or unbanned.
 
 ```csharp
-public class MemberBanEvent : Guilded.Base.BaseObject,
+public class MemberBanEvent : Guilded.Base.BaseModel,
 Guilded.Base.Events.IServerEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MemberBanEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberBanEvent
 
 Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
@@ -34,7 +34,7 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | [CreatedBy](MemberBanEvent.CreatedBy 'Guilded.Base.Events.MemberBanEvent.CreatedBy') | Gets the identifier of the staff who banned. |
 | [MemberBan](MemberBanEvent.MemberBan 'Guilded.Base.Events.MemberBanEvent.MemberBan') | Gets the information about the member's ban. |
 | [Reason](MemberBanEvent.Reason 'Guilded.Base.Events.MemberBanEvent.Reason') | Gets the reason why the [user](MemberBan.User 'Guilded.Base.Servers.MemberBan.User') has been banned, if the reason was specified. |
-| [ServerId](MemberBanEvent.ServerId 'Guilded.Base.Events.MemberBanEvent.ServerId') | Gets the identifier of the server where member has been banned/unbanned. |
+| [ServerId](MemberBanEvent.ServerId 'Guilded.Base.Events.MemberBanEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where member has been banned/unbanned. |
 | [User](MemberBanEvent.User 'Guilded.Base.Events.MemberBanEvent.User') | Gets the banned user. |
 
 ### See Also

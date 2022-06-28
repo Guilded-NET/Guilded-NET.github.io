@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the enumerable of string arguments that were given to the root-level command in [the message](CommandEvent.Message 'Guilded.Commands.CommandEvent.Message')."
+Gets the enumerable of string arguments that were given to the root-level command in [the message](Message 'Guilded.Base.Content.Message')."
 ---
 
 ## CommandEvent.RootArguments Property
 ##### **Assembly:** `Guilded.Commands`<br/>**Type:** [`CommandEvent`](CommandEvent 'Guilded.Commands.CommandEvent')
 
-Gets the enumerable of string arguments that were given to the root-level command in [the message](CommandEvent.Message 'Guilded.Commands.CommandEvent.Message').
+Gets the enumerable of string arguments that were given to the root-level command in [the message](Message 'Guilded.Base.Content.Message').
 
 ```csharp
 public System.Collections.Generic.IEnumerable<string> RootArguments { get; }

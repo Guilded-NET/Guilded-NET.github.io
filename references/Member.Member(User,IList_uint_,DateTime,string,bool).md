@@ -24,7 +24,7 @@ public Member(Guilded.Base.Users.User user, System.Collections.Generic.IList<uin
 
 `user` [User](User 'Guilded.Base.Users.User')
 
-[the user](User 'Guilded.Base.Users.User') who is a member of the server
+[the user](User 'Guilded.Base.Users.User') who is a member of [the server](Server 'Guilded.Base.Servers.Server')
 
 <a name='Guilded.Base.Servers.Member.Member(Guilded.Base.Users.User,System.Collections.Generic.IList_uint_,System.DateTime,string,bool).roleIds'></a>
 
@@ -48,7 +48,7 @@ The nickname that member has
 
 `isOwner` [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
 
-Whether [the member](Member 'Guilded.Base.Servers.Member') is the owner of the server
+Whether [the member](Member 'Guilded.Base.Servers.Member') is the owner of [the server](Server 'Guilded.Base.Servers.Server')
 
 ### See Also
 - [Member](Member 'Guilded.Base.Servers.Member')

@@ -16,7 +16,7 @@ Gets the currently logged in user."
 Gets the currently logged in user.
 
 ```csharp
-public Guilded.Base.Users.Me User { get; set; }
+public Guilded.Base.Users.Me User { get; }
 ```
 
 #### Property Value

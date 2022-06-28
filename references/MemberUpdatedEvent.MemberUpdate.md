@@ -16,10 +16,10 @@ Represents the properties that have been updated in the member."
 Represents the properties that have been updated in the member.
 
 ```csharp
-public class MemberUpdatedEvent.MemberUpdate : Guilded.Base.BaseObject
+public class MemberUpdatedEvent.MemberUpdate : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MemberUpdate
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberUpdate
 
 | Constructors | |
 | :--- | :--- |
@@ -28,7 +28,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Properties | |
 | :--- | :--- |
 | [Id](MemberUpdatedEvent.MemberUpdate.Id 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Id') | Gets the identifier of [user](User 'Guilded.Base.Users.User'). |
-| [Nickname](MemberUpdatedEvent.MemberUpdate.Nickname 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname') | Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in the server. |
+| [Nickname](MemberUpdatedEvent.MemberUpdate.Nickname 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate.Nickname') | Gets the set nickname of [the member](Member 'Guilded.Base.Servers.Member') in [the server](Server 'Guilded.Base.Servers.Server'). |
 
 ### See Also
 - [UserSummary](UserSummary 'Guilded.Base.Users.UserSummary')

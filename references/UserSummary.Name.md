@@ -16,7 +16,7 @@ Gets the global username of [the user](User 'Guilded.Base.Users.User')."
 Gets the global username of [the user](User 'Guilded.Base.Users.User').
 
 ```csharp
-public string Name { get; set; }
+public string Name { get; }
 ```
 
 #### Property Value

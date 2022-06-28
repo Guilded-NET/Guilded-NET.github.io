@@ -16,7 +16,7 @@ Gets the identifier of the channel where [the webhook](Webhook 'Guilded.Base.Ser
 Gets the identifier of the channel where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is.
 
 ```csharp
-public Guid ChannelId { get; set; }
+public Guid ChannelId { get; }
 ```
 
 #### Property Value

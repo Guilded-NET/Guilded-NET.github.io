@@ -36,13 +36,13 @@ All of the permissions combined.
 
 `InviteMembers` 16
 
-Allows you to directly invite members to the server
+Allows you to directly invite members to [the server](Server 'Guilded.Base.Servers.Server')
 
 <a name='Guilded.Base.Permissions.GeneralPermissions.KickBanMembers'></a>
 
 `KickBanMembers` 32
 
-Allows you to kick or ban members from the server
+Allows you to kick or ban members from [the server](Server 'Guilded.Base.Servers.Server')
 
 <a name='Guilded.Base.Permissions.GeneralPermissions.Manage'></a>
 
@@ -76,7 +76,7 @@ Allows you to create new groups and edit or delete existing ones
 
 `ManageRoles` 16384
 
-Allows you to update the server's roles
+Allows you to update [the server's](Server 'Guilded.Base.Servers.Server') roles
 
 <a name='Guilded.Base.Permissions.GeneralPermissions.ManageWebhooks'></a>
 

@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the document received from the event."
+Gets [the document](Doc 'Guilded.Base.Content.Doc') received from the event."
 ---
 
 ## DocEvent.Doc Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
-Gets the document received from the event.
+Gets [the document](Doc 'Guilded.Base.Content.Doc') received from the event.
 
 ```csharp
 public Guilded.Base.Content.Doc Doc { get; }
@@ -21,7 +21,7 @@ public Guilded.Base.Content.Doc Doc { get; }
 
 #### Property Value
 [Doc](Doc 'Guilded.Base.Content.Doc')  
-Doc
+[Doc](Doc 'Guilded.Base.Content.Doc')
 
 ### See Also
 - [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')

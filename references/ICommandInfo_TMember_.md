@@ -32,8 +32,10 @@ The type of the reflection member
 
 | Properties | |
 | :--- | :--- |
-| [Aliases](ICommandInfo_TMember_.Aliases 'Guilded.Commands.ICommandInfo<TMember>.Aliases') | Gets the array of [alternative names](CommandAttribute.Aliases 'Guilded.Commands.CommandAttribute.Aliases') of the command. |
+| [Aliases](ICommandInfo_TMember_.Aliases 'Guilded.Commands.ICommandInfo<TMember>.Aliases') | Gets the alternative names of the command. |
 | [Attribute](ICommandInfo_TMember_.Attribute 'Guilded.Commands.ICommandInfo<TMember>.Attribute') | Gets the [command attribute](CommandAttribute 'Guilded.Commands.CommandAttribute') that was given to the [member](ICommandInfo_TMember_.Member 'Guilded.Commands.ICommandInfo<TMember>.Member'). |
+| [Description](ICommandInfo_TMember_.Description 'Guilded.Commands.ICommandInfo<TMember>.Description') | Gets the text that represents [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') description. |
+| [Examples](ICommandInfo_TMember_.Examples 'Guilded.Commands.ICommandInfo<TMember>.Examples') | Gets the example of [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') usage. |
 | [Member](ICommandInfo_TMember_.Member 'Guilded.Commands.ICommandInfo<TMember>.Member') | Gets the member who was declared as a command. |
 | [Name](ICommandInfo_TMember_.Name 'Guilded.Commands.ICommandInfo<TMember>.Name') | Gets the [name](CommandAttribute.Name 'Guilded.Commands.CommandAttribute.Name') of the command. |
 

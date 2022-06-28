@@ -16,7 +16,7 @@ Gets the list of roles [member](Member 'Guilded.Base.Servers.Member') holds."
 Gets the list of roles [member](Member 'Guilded.Base.Servers.Member') holds.
 
 ```csharp
-public System.Collections.Generic.IList<uint> RoleIds { get; set; }
+public System.Collections.Generic.IList<uint> RoleIds { get; }
 ```
 
 #### Property Value

@@ -18,10 +18,6 @@ Notifies observers with OnError.
 ```csharp
 void OnError(System.Exception exception);
 ```
-
-### Remarks
-  
-Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')'s observers with an error.
 #### Parameters
 
 <a name='Guilded.IEventInfo_T_.OnError(System.Exception).exception'></a>
@@ -29,3 +25,7 @@ Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observ
 `exception` [System.Exception](https://docs.microsoft.com/en-us/dotnet/api/System.Exception 'System.Exception')
 
 The next received exception/error
+
+### Remarks
+  
+Notifies all [Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')'s observers with an error.

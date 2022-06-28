@@ -18,10 +18,6 @@ Creates [a message](Message 'Guilded.Base.Content.Message') using [webhookUrl](B
 ```csharp
 public System.Threading.Tasks.Task CreateHookMessageAsync(Uri webhookUrl, string content, params Guilded.Base.Embeds.Embed[] embeds);
 ```
-
-### Remarks
-  
-The [content](BaseGuildedClient.CreateHookMessageAsync(Uri,string,Embed[])#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri,string,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string, Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.
 #### Parameters
 
 <a name='Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri,string,Guilded.Base.Embeds.Embed[]).webhookUrl'></a>
@@ -41,6 +37,10 @@ The [text contents](Message.Content 'Guilded.Base.Content.Message.Content') of [
 `embeds` [Embed](Embed 'Guilded.Base.Embeds.Embed')[[]](https://docs.microsoft.com/en-us/dotnet/api/System.Array 'System.Array')
 
 The array of [all custom embeds](Embed 'Guilded.Base.Embeds.Embed') in [the message](Message 'Guilded.Base.Content.Message') (max — `1`)
+
+### Remarks
+  
+The [content](BaseGuildedClient.CreateHookMessageAsync(Uri,string,Embed[])#Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri,string,Guilded.Base.Embeds.Embed[]).content 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Uri, string, Guilded.Base.Embeds.Embed[]).content') will be formatted in Markdown.
 
 #### Exceptions
 

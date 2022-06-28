@@ -7,13 +7,13 @@ tags:
   - constructor
 description: "
 
-Initializes a new instance of [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary') with provided details."
+Initializes a new instance of [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary') from the specified JSON properties."
 ---
 
 ## ListItemNoteSummary(HashId, DateTime, Nullable<HashId>, Nullable<DateTime>) Constructor
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNoteSummary`](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')
 
-Initializes a new instance of [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary') with provided details.
+Initializes a new instance of [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary') from the specified JSON properties.
 
 ```csharp
 public ListItemNoteSummary(Guilded.Base.HashId createdBy, System.DateTime createdAt, System.Nullable<Guilded.Base.HashId> updatedBy=null, System.Nullable<System.DateTime> updatedAt=null);

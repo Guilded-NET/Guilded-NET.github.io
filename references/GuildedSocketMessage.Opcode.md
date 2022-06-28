@@ -16,26 +16,16 @@ Gets an operation code that tells about the message."
 Gets an operation code that tells about the message.
 
 ```csharp
-public byte Opcode { get; }
+public Guilded.Base.Events.SocketOpcode Opcode { get; }
 ```
 
 ### Remarks
   
-Opcodes are defined as following:  
-  
-|Opcode|  
-|-|  
-|An event with data associated.|  
-|An event that occurs once WebSocket connection is established.|  
-|An event that occurs once connection is re-established with passed last event.|  
-|Error|  
-  
-  
 If [Opcode](GuildedSocketMessage.Opcode 'Guilded.Base.Events.GuildedSocketMessage.Opcode') is received as `8`, [GuildedWebsocketException](GuildedWebsocketException 'Guilded.Base.GuildedWebsocketException') will be received instead of a typical event.
 
 #### Property Value
-[System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte 'System.Byte')  
-Opcode
+[SocketOpcode](SocketOpcode 'Guilded.Base.Events.SocketOpcode')  
+[Opcode](SocketOpcode 'Guilded.Base.Events.SocketOpcode')
 
 ### See Also
 - [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')

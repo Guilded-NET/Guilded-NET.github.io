@@ -16,10 +16,10 @@ Represents a message that was recently deleted/removed."
 Represents a message that was recently deleted/removed.
 
 ```csharp
-public class MessageDeletedEvent.MessageDeleted : Guilded.Base.BaseObject
+public class MessageDeletedEvent.MessageDeleted : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; MessageDeleted
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MessageDeleted
 
 | Constructors | |
 | :--- | :--- |
@@ -31,7 +31,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [DeletedAt](MessageDeletedEvent.MessageDeleted.DeletedAt 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.DeletedAt') | Gets the date when the message was deleted. |
 | [Id](MessageDeletedEvent.MessageDeleted.Id 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.Id') | Gets the identifier of the message. |
 | [IsPrivate](MessageDeletedEvent.MessageDeleted.IsPrivate 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.IsPrivate') | Gets whether the deleted message was [private mention](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate') or a [private reply](Message.IsPrivate 'Guilded.Base.Content.Message.IsPrivate'). |
-| [ServerId](MessageDeletedEvent.MessageDeleted.ServerId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ServerId') | Gets the identifier of the server where the message was. |
+| [ServerId](MessageDeletedEvent.MessageDeleted.ServerId 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the message was. |
 
 | Methods | |
 | :--- | :--- |

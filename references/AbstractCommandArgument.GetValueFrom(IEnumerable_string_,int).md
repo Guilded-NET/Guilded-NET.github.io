@@ -16,7 +16,7 @@ Gets the value for [the argument](AbstractCommandArgument 'Guilded.Commands.Abst
 Gets the value for [the argument](AbstractCommandArgument 'Guilded.Commands.AbstractCommandArgument') of [the provided invokation arguments](CommandEvent.Arguments 'Guilded.Commands.CommandEvent.Arguments') and current index.
 
 ```csharp
-public abstract object GetValueFrom(System.Collections.Generic.IEnumerable<string> arguments, int index);
+public abstract object? GetValueFrom(System.Collections.Generic.IEnumerable<string> arguments, int index);
 ```
 #### Parameters
 

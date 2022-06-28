@@ -24,7 +24,7 @@ public MemberRemovedEvent(Guilded.Base.HashId serverId, Guilded.Base.HashId user
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of the server where the member got kicked or left
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the member got kicked or left
 
 <a name='Guilded.Base.Events.MemberRemovedEvent.MemberRemovedEvent(Guilded.Base.HashId,Guilded.Base.HashId,bool,bool).userId'></a>
 

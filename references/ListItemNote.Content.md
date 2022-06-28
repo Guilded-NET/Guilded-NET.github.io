@@ -7,21 +7,17 @@ tags:
   - property
 description: "
 
-The contents of the note in the item."
+Gets the contents of [the note](ListItemNote 'Guilded.Base.Content.ListItemNote') in [the item](ListItem 'Guilded.Base.Content.ListItem')."
 ---
 
 ## ListItemNote.Content Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`ListItemNote`](ListItemNote 'Guilded.Base.Content.ListItemNote')
 
-The contents of the note in the item.
+Gets the contents of [the note](ListItemNote 'Guilded.Base.Content.ListItemNote') in [the item](ListItem 'Guilded.Base.Content.ListItem').
 
 ```csharp
 public string Content { get; set; }
 ```
-
-### Remarks
-  
-The contents of the list item's note formatted in Markdown.
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  

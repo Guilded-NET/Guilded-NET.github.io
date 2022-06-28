@@ -20,6 +20,7 @@ public interface IServerEvent
 ```
 
 Derived  
+&#8627; [CalendarEventEvent](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent')  
 &#8627; [ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')  
 &#8627; [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')  
 &#8627; [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')  
@@ -32,7 +33,7 @@ Derived
 
 | Properties | |
 | :--- | :--- |
-| [ServerId](IServerEvent.ServerId 'Guilded.Base.Events.IServerEvent.ServerId') | Gets the identifier of the server where the event occurred. |
+| [ServerId](IServerEvent.ServerId 'Guilded.Base.Events.IServerEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred. |
 
 ### See Also
 - [MemberJoinedEvent](MemberJoinedEvent 'Guilded.Base.Events.MemberJoinedEvent')

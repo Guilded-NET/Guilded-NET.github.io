@@ -36,7 +36,7 @@ The identifier of the channel where [the content](ChannelContent_TId,TServer_ 'G
 
 `serverId` [TServer](ChannelContent_TId,TServer_#Guilded.Base.Content.ChannelContent_TId,TServer_.TServer 'Guilded.Base.Content.ChannelContent<TId,TServer>.TServer')
 
-The identifier of the server where [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') is
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') is
 
 <a name='Guilded.Base.Content.ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,Guilded.Base.HashId,System.DateTime).createdBy'></a>
 

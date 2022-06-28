@@ -16,7 +16,7 @@ Gets [the user](User 'Guilded.Base.Users.User') they are."
 Gets [the user](User 'Guilded.Base.Users.User') they are.
 
 ```csharp
-public T User { get; set; }
+public T User { get; }
 ```
 
 #### Property Value

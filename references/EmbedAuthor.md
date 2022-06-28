@@ -16,10 +16,10 @@ Represents an author of the content represented in an [embed](Embed 'Guilded.Bas
 Represents an author of the content represented in an [embed](Embed 'Guilded.Base.Embeds.Embed').
 
 ```csharp
-public class EmbedAuthor : Guilded.Base.BaseObject
+public class EmbedAuthor : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseObject](BaseObject 'Guilded.Base.BaseObject') &#129106; EmbedAuthor
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; EmbedAuthor
 
 ### Example
   
@@ -40,6 +40,9 @@ await client.CreateMessageAsync(channelId, embed);
 
 | Constructors | |
 | :--- | :--- |
+| [EmbedAuthor(object, string, string)](EmbedAuthor.EmbedAuthor(object,string,string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object, string, string)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(object,string,string)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object,string,string).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object, string, string).url'). |
+| [EmbedAuthor(object, Uri, Uri)](EmbedAuthor.EmbedAuthor(object,Uri,Uri) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object, Uri, Uri)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(object,Uri,Uri)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object, Uri, Uri).url'). |
+| [EmbedAuthor(object)](EmbedAuthor.EmbedAuthor(object) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(object)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL. |
 | [EmbedAuthor(string, string, string)](EmbedAuthor.EmbedAuthor(string,string,string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,string,string)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,string,string).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, string, string).url'). |
 | [EmbedAuthor(string, Uri, Uri)](EmbedAuthor.EmbedAuthor(string,Uri,Uri) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') with an optional [url](EmbedAuthor.EmbedAuthor(string,Uri,Uri)#Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string,Uri,Uri).url 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string, Uri, Uri).url'). |
 | [EmbedAuthor(string)](EmbedAuthor.EmbedAuthor(string) 'Guilded.Base.Embeds.EmbedAuthor.EmbedAuthor(string)') | Initializes a new instance of [EmbedAuthor](EmbedAuthor 'Guilded.Base.Embeds.EmbedAuthor') without an icon and without a URL. |

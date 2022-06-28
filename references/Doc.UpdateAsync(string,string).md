@@ -18,10 +18,6 @@ Edits [content](Doc.UpdateAsync(string,string)#Guilded.Base.Content.Doc.UpdateAs
 ```csharp
 public System.Threading.Tasks.Task<Guilded.Base.Content.Doc> UpdateAsync(string title, string content);
 ```
-
-### Remarks
-  
-The doc will be bumped to the top.
 #### Parameters
 
 <a name='Guilded.Base.Content.Doc.UpdateAsync(string,string).title'></a>
@@ -35,6 +31,10 @@ The new title of this document
 `content` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
 The new Markdown content of this document
+
+### Remarks
+  
+The doc will be bumped to the top.
 
 #### Exceptions
 

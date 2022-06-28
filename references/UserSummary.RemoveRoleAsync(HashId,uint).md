@@ -18,10 +18,6 @@ Removes [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserS
 ```csharp
 public System.Threading.Tasks.Task RemoveRoleAsync(Guilded.Base.HashId server, uint role);
 ```
-
-### Remarks
-  
-If they don't hold the [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role'), then nothing happens.
 #### Parameters
 
 <a name='Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).server'></a>
@@ -35,6 +31,10 @@ The server to modify [member](Member 'Guilded.Base.Servers.Member') in
 `role` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
 The identifier of the role to remove
+
+### Remarks
+  
+If they don't hold the [role](UserSummary.RemoveRoleAsync(HashId,uint)#Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId,uint).role 'Guilded.Base.Users.UserSummary.RemoveRoleAsync(Guilded.Base.HashId, uint).role'), then nothing happens.
 
 #### Exceptions
 
