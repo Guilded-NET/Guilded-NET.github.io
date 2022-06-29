@@ -230,28 +230,22 @@ public class ServerConfig : CommandBase
 Of course, we will have to list down all the possible commands. We don't really need to write out all commands and we can use `this.Commands` for that. However, as previously stated, multiple commands with the same name are treated differently, so iterating through command list would end up with duplicated command names in the list. For that, we can use `this.CommandLookup`, which groups together all the commands with matching names (it will not group by aliases, however). Here's an example of its usage:
 
 ```csharp
-// NOTE: triple quoting """ is only available in C#11 and above and therefore requiring .NET 7 preview. If you are using .NET 6 or below, you can use normal $"" quotes and changing linebreaks with \n
-
 using System.Linq;
 
 // ...
 
 [CommandFallback(FallbackType.Unspecified)]
 public async Task UnspecifiedSubcommand(CommandEvent invokation) =>
-    await invokation.ReplyAsync(
-        $"""
-        Please specify a sub-command.
-        Here are available sub-commands: `{string.Join("`, `", CommandLookup.Select(group => group.Key))}`
-        """
-    );
+    await invokation.ReplyAsync($"Please specify a sub-command.\nHere are available sub-commands: `{string.Join("`, `", CommandLookup.Select(group => group.Key))}`");
 ```
-{: data-insert="2" }
+{: data-insert="0" }
 
 This is also the reason why class-based commands require extending `CommandBase`: to provide `this.Commands`, `this.CommandLookup` and other properties. If you declare a method as a static method, these properties will not be available in any way, as the command's instance will be somewhat private/hard to dig out.
 
 And now by writing <q>/config</q> the bot should respond with:
 
 > Please specify a sub-command.
+>
 > Here are available sub-commands: `prefix`, `another-subcommand`
 
 We can also detect sub-commands that weren't found:
