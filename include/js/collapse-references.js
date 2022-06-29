@@ -6,13 +6,15 @@ for (let list of document.querySelectorAll(".body-list-items.collapsed-items li 
 
     // Adds |>
     const arrow = Object.assign(document.createElement("i"), {
-        classList: `collapse-arrow fas fa-carret-right`,
+        classList: `collapse-arrow fas fa-caret-right`,
         onclick: () => {
             const containsHide = parentElement.classList.contains(hideChildrenClass);
             const action = containsHide ? "remove" : "add";
             parentElement.classList[action](hideChildrenClass);
         }
     });
+
+    parentElement.classList.add(hideChildrenClass);
 
     // Just so it gets added above the list
     parentElement.insertBefore(new Text(" "), list);

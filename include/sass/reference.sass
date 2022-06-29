@@ -76,8 +76,22 @@
 
 .collapse-arrow
     fill: var(--foreground-level-2)
+    animation: rotationRight 0.3s
+    li:not(.hide-children) > &
+        transform: rotateZ(90deg)
+        animation: rotationDown 0.3s
+
+@keyframes rotationDown
+    from
+        transform: rotateZ(0deg)
+    to
+        transform: rotateZ(90deg)
+
+@keyframes rotationRight
+    from
+        transform: rotateZ(90deg)
+    to
+        transform: rotateZ(0deg)
 
 .hide-children > ul
     display: none
-li:not(.hide-children) > .collapse-arrow
-    transform: rotateZ(90deg)
