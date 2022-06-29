@@ -15,6 +15,6 @@ for (let list of document.querySelectorAll(".body-list-items.collapsed-items li 
     });
 
     // Just so it gets added above the list
-    parentElement.insertBefore(" ", list);
+    parentElement.insertBefore(new Text(" "), list);
     parentElement.insertBefore(arrow, list);
 }
