@@ -21,13 +21,13 @@ Guilded.NET's command system is its own package, which means we will need to ins
 
 And that's about it. Now we need to set it up in the code.
 
-In the place where your client is set up (`using var client = ...`), add `.AddCommands(new BotCommands(prefix))`. This should look something like this:
+In the place where your client is set up (`using var client = ...`{: .language-csharp }), add `.AddCommands(new BotCommands(), prefix)` {: .language-csharp }. This should look something like this:
 
 ```cs
 // static void Main()
 // ...
 
-using var client = new GuildedBotClient(auth).AddCommands(new BotCommands(prefix));
+using var client = new GuildedBotClient(auth).AddCommands(new BotCommands(), prefix);
 ```
 {: data-filename="Program.cs"}
 
