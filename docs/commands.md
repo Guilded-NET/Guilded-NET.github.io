@@ -21,7 +21,7 @@ Guilded.NET's command system is its own package, which means we will need to ins
 
 And that's about it. Now we need to set it up in the code.
 
-In the place where your client is set up (`using var client = ...`{: .language-csharp }), add `.AddCommands(new BotCommands(), prefix)` {: .language-csharp }. This should look something like this:
+In the place where your client is set up (`using var client = ...`{: .language-csharp }), add `.AddCommands(new BotCommands(), prefix)`{: .language-csharp }. This should look something like this:
 
 ```cs
 // static void Main()
@@ -62,7 +62,7 @@ We can do the fun part now. Let's do a ping command.
 
 ## Method-based commands
 
-To declare a method as a command, we will have to always add `[Command]` attribute. This will also be true for class-based commands, but we will go over them later.
+To declare a method as a command, we will have to always add `[Command]`{: .language-csharp } attribute. This will also be true for class-based commands, but we will go over them later.
 
 Method-based commands will also always:
 - need to have `CommandEvent` parameter as its first parameter, no matter if it contains any arguments or not
@@ -84,7 +84,7 @@ As you can see, like with `MessageEvent` (`msgCreated` in the previous code), yo
 
 The name of the command will always automatically be all-lowercase name of the method with `Command` and `Async` removed at the end. `PingCommand`, `PingCommandAsync`, `PingAsync` and `Ping` will all be converted to `ping`.
 
-However, if we don't like the automatically picked name of the command, we can override it by passing a string to `[Command]` attribute:
+However, if we don't like the automatically picked name of the command, we can override it by passing a string to `[Command]`{: .language-csharp } attribute:
 
 ```cs
 public class BotCommands : CommandModule
@@ -128,7 +128,7 @@ Example attribute can have either 1 or 2 arguments. If one argument is passed, t
 [Example("command-alias", "How to use the command")]
 ```
 
-As you can see, we added an example to `Say` command with arguments, so how do commands with arguments? Well, it's relatively easy. We add an argument of any type with `[CommandParam]`. While `[CommandParam]` is optional, it is recommended to use it for readability reasons. You can also pass a string to `[CommandParam]` to change the name of the argument.
+As you can see, we added an example to `Say` command with arguments, so how do commands with arguments? Well, it's relatively easy. We add an argument of any type with `[CommandParam]`{: .language-csharp }. While `[CommandParam]`{: .language-csharp } is optional, it is recommended to use it for readability reasons. You can also pass a string to `[CommandParam]`{: .language-csharp } to change the name of the argument.
 
 ```cs
 [Command]
@@ -211,7 +211,7 @@ public class ServerConfig : CommandBase
 }
 ```
 
-Of course, some people might use <q>/config</q> command and it would lead to the bot not having any response. For that, there are "command fallbacks" for that. It should be declared similar to commands, but we have to use `[CommandFallback(...)]` attribute for that instead:
+Of course, some people might use <q>/config</q> command and it would lead to the bot not having any response. For that, there are "command fallbacks" for that. It should be declared similar to commands, but we have to use `[CommandFallback(...)]`{: .language-csharp } attribute for that instead:
 
 ```csharp
 [Command("config", Aliases = new string[] { "settings", "conf" })]
@@ -275,7 +275,7 @@ public async Task UnknownCommand(CommandEvent invokation)
 
 This should be improved in the future, but for the time being, this is how it looks.
 
-As previously mentioned, `CommandModule` is similar to `CommandBase` (`CommandModule` extends `CommandBase`), so you can use `[CommandFallback(FallbackType.NoCommandFound)]` the same way.
+As previously mentioned, `CommandModule` is similar to `CommandBase` (`CommandModule` extends `CommandBase`), so you can use `[CommandFallback(FallbackType.NoCommandFound)]`{: .language-csharp } the same way.
 
 ## Server-wide prefixes
 
