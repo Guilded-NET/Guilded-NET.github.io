@@ -66,10 +66,11 @@ blockquote
 
     // Misc
     line-height: $spacing-4
-    background-color: rgba(black, 0.15)
+    background-color: rgba(black, 0.10)
+    position: relative
 
-    // Side bar
-    border-left: solid $small-radius $gilded-full
+    // // Side bar
+    // border-left: solid $small-radius $gilded-full
     // For log blocks
     &.note, &.tip, &.warning, &.caution, &.important, &.implement, &.inherit, &.security-note,
     &.caller, &.language-csharp, &.language-fsharp, &.language-vbnet
@@ -81,6 +82,19 @@ blockquote
             margin: $spacing-1 0
             display: block
             line-height: 1
+        // Add yellow glow for normal quote blocks
+        blockquote:not(&)::before
+            content: ""
+
+            position: absolute
+            left: 0
+            top: 0
+            bottom: 0
+
+            width: $spacing-0
+            border-radius: $tiny-radius
+
+            background-color: $gilded-full
     // Basic blockquote types
     &.note
         @include blockquote-type('\f138', 'Note', $event-green)
