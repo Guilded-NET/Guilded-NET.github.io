@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task DeleteDocAsync(Guid channel, uint do
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.DeleteDocAsync(Guid,uint).doc'></a>
 

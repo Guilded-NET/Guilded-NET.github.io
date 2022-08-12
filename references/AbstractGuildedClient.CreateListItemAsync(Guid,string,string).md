@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a [new list item](ListItem 'Guilded.Base.Content.ListItem')."
+Creates a new [list item](ListItem 'Guilded.Base.Content.ListItem')."
 ---
 
 ## AbstractGuildedClient.CreateListItemAsync(Guid, string, string) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Creates a [new list item](ListItem 'Guilded.Base.Content.ListItem').
+Creates a new [list item](ListItem 'Guilded.Base.Content.ListItem').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Content.ListItem> CreateListItemAsync(Guid channel, string message, string? note=null);
@@ -24,19 +24,19 @@ public override System.Threading.Tasks.Task<Guilded.Base.Content.ListItem> Creat
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.CreateListItemAsync(Guid,string,string).message'></a>
 
 `message` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The text content of [the list item](ListItem 'Guilded.Base.Content.ListItem')
+The text content of the [list item](ListItem 'Guilded.Base.Content.ListItem')
 
 <a name='Guilded.AbstractGuildedClient.CreateListItemAsync(Guid,string,string).note'></a>
 
 `note` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The text content of an [optional note](ListItemNote 'Guilded.Base.Content.ListItemNote') in [the list item](ListItem 'Guilded.Base.Content.ListItem')
+The text content of an [optional note](ListItemNote 'Guilded.Base.Content.ListItemNote') in the [list item](ListItem 'Guilded.Base.Content.ListItem')
 
 #### Exceptions
 

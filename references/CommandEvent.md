@@ -16,10 +16,13 @@ Represents an event that occurs once someone invokes a command."
 Represents an event that occurs once someone invokes a command.
 
 ```csharp
-public class CommandEvent : Guilded.Base.Events.MessageEvent
+public class CommandEvent : Guilded.Base.Events.MessageEvent,
+Guilded.Base.IHasParentClient
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1')[Message](Message 'Guilded.Base.Content.Message')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1') &#129106; [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent') &#129106; CommandEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1')[Message](Message 'Guilded.Base.Content.Message')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1') &#129106; [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent') &#129106; CommandEvent
+
+Implements [IHasParentClient](IHasParentClient 'Guilded.Base.IHasParentClient')
 
 Derived  
 &#8627; [FailedCommandEvent](FailedCommandEvent 'Guilded.Commands.FailedCommandEvent')

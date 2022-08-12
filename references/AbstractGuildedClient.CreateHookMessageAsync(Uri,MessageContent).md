@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates [a message](Message 'Guilded.Base.Content.Message') using [webhookUrl](AbstractGuildedClient.CreateHookMessageAsync(Uri,MessageContent)#Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri,Guilded.Base.Content.MessageContent).webhookUrl 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent).webhookUrl')."
+Creates a [message](Message 'Guilded.Base.Content.Message') using the specified [webhookUrl](AbstractGuildedClient.CreateHookMessageAsync(Uri,MessageContent)#Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri,Guilded.Base.Content.MessageContent).webhookUrl 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent).webhookUrl')."
 ---
 
 ## AbstractGuildedClient.CreateHookMessageAsync(Uri, MessageContent) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Creates [a message](Message 'Guilded.Base.Content.Message') using [webhookUrl](AbstractGuildedClient.CreateHookMessageAsync(Uri,MessageContent)#Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri,Guilded.Base.Content.MessageContent).webhookUrl 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent).webhookUrl').
+Creates a [message](Message 'Guilded.Base.Content.Message') using the specified [webhookUrl](AbstractGuildedClient.CreateHookMessageAsync(Uri,MessageContent)#Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri,Guilded.Base.Content.MessageContent).webhookUrl 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent).webhookUrl').
 
 ```csharp
 public override System.Threading.Tasks.Task CreateHookMessageAsync(Uri webhookUrl, Guilded.Base.Content.MessageContent message);
@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task CreateHookMessageAsync(Uri webhookUr
 
 `webhookUrl` [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/System.Uri 'System.Uri')
 
-The URL of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')
+The URL of the [webhook](Webhook 'Guilded.Base.Servers.Webhook')
 
 <a name='Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri,Guilded.Base.Content.MessageContent).message'></a>
 

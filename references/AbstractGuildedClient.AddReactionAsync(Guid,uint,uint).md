@@ -24,19 +24,19 @@ public override System.Threading.Tasks.Task AddReactionAsync(Guid channel, uint 
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.AddReactionAsync(Guid,uint,uint).content'></a>
 
 `content` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
-The identifier of [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent`2') to add [a reaction](Reaction 'Guilded.Base.Content.Reaction') to
+The identifier of the [content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent`2') to add a [reaction](Reaction 'Guilded.Base.Content.Reaction') to
 
 <a name='Guilded.AbstractGuildedClient.AddReactionAsync(Guid,uint,uint).emote'></a>
 
 `emote` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
-The identifier of the emote to add
+The identifier of the [emote](Emote 'Guilded.Base.Content.Emote') to add
 
 #### Exceptions
 

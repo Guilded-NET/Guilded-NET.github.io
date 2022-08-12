@@ -25,4 +25,4 @@ The raw string that makes up [HashId](HashId 'Guilded.Base.HashId') will be retu
 
 #### Returns
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-[HashId](HashId 'Guilded.Base.HashId') as string
+[HashId](HashId 'Guilded.Base.HashId') as a [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')

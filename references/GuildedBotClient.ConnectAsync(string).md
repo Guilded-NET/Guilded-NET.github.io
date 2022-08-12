@@ -30,7 +30,7 @@ The token to be used for authorization
   
 Creates a new connection to Guilded using argument [auth](GuildedBotClient.ConnectAsync(string)#Guilded.GuildedBotClient.ConnectAsync(string).auth 'Guilded.GuildedBotClient.ConnectAsync(string).auth'). This does not use [AuthToken](GuildedBotClient.AuthToken 'Guilded.GuildedBotClient.AuthToken').  
   
-To disconnect from Guilded, use [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.AbstractGuildedClient.DisconnectAsync()')
+To disconnect from Guilded, use [DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.Base.BaseGuildedClient.DisconnectAsync')
 
 #### Exceptions
 
@@ -43,4 +43,3 @@ When passed argument [auth](GuildedBotClient.ConnectAsync(string)#Guilded.Guilde
 ### See Also
 - [ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()')
 - [GuildedBotClient()](GuildedBotClient.GuildedBotClient() 'Guilded.GuildedBotClient.GuildedBotClient()')
-- [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.AbstractGuildedClient.DisconnectAsync()')

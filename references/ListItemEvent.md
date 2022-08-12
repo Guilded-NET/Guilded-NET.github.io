@@ -16,13 +16,10 @@ Represents an event that occurs when someone creates, updates, completes, uncomp
 Represents an event that occurs when someone creates, updates, completes, uncompletes or deletes [a list item](ListItem 'Guilded.Base.Content.ListItem').
 
 ```csharp
-public class ListItemEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class ListItemEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; ListItemEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |
@@ -38,10 +35,10 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | [CreatedByWebhook](ListItemEvent.CreatedByWebhook 'Guilded.Base.Events.ListItemEvent.CreatedByWebhook') | Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created the list item. |
 | [IsCompleted](ListItemEvent.IsCompleted 'Guilded.Base.Events.ListItemEvent.IsCompleted') | Gets whether [the list item](ListItem 'Guilded.Base.Content.ListItem') was ticked off |
 | [ListItem](ListItemEvent.ListItem 'Guilded.Base.Events.ListItemEvent.ListItem') | Gets the list item received from the event. |
+| [Mentions](ListItemEvent.Mentions 'Guilded.Base.Events.ListItemEvent.Mentions') | Gets [the mentions](ListItemBase_T_.Mentions 'Guilded.Base.Content.ListItemBase<T>.Mentions') found in [the content](ListItemBase_T_.Message 'Guilded.Base.Content.ListItemBase<T>.Message'). |
 | [Message](ListItemEvent.Message 'Guilded.Base.Events.ListItemEvent.Message') | Gets the text contents of the message in [the item](ListItem 'Guilded.Base.Content.ListItem'). |
 | [Note](ListItemEvent.Note 'Guilded.Base.Events.ListItemEvent.Note') | Gets the note of [the item](ListItem 'Guilded.Base.Content.ListItem'). |
 | [ParentId](ListItemEvent.ParentId 'Guilded.Base.Events.ListItemEvent.ParentId') | Gets the identifier of [the parent item](ListItem 'Guilded.Base.Content.ListItem') of [the item](ListItem 'Guilded.Base.Content.ListItem'). |
-| [ServerId](ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred. |
 | [UpdatedAt](ListItemEvent.UpdatedAt 'Guilded.Base.Events.ListItemEvent.UpdatedAt') | Gets the date when [the item](ListItem 'Guilded.Base.Content.ListItem') was edited. |
 
 | Methods | |

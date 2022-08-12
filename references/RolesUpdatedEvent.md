@@ -16,13 +16,10 @@ Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Mem
 Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Member') receives a role or loses it.
 
 ```csharp
-public class RolesUpdatedEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class RolesUpdatedEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; RolesUpdatedEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 ### Remarks
   

@@ -19,7 +19,7 @@ Represents an event that occurs once someone invokes a command.
 public class FailedCommandEvent : Guilded.Commands.CommandEvent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1')[Message](Message 'Guilded.Base.Content.Message')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1') &#129106; [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent') &#129106; [CommandEvent](CommandEvent 'Guilded.Commands.CommandEvent') &#129106; FailedCommandEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1')[Message](Message 'Guilded.Base.Content.Message')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent`1') &#129106; [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent') &#129106; [CommandEvent](CommandEvent 'Guilded.Commands.CommandEvent') &#129106; FailedCommandEvent
 
 | Constructors | |
 | :--- | :--- |
@@ -32,5 +32,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 ### See Also
 - [Message](Message 'Guilded.Base.Content.Message')
 - [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')
-- [FailedCommandEvent](FailedCommandEvent 'Guilded.Commands.FailedCommandEvent')
+- [CommandEvent](CommandEvent 'Guilded.Commands.CommandEvent')
 - [CommandAttribute](CommandAttribute 'Guilded.Commands.CommandAttribute')

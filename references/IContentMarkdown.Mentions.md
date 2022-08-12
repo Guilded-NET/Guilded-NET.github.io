@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets [the mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content')."
+Gets the [mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content')."
 ---
 
 ## IContentMarkdown.Mentions Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`IContentMarkdown`](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown')
 
-Gets [the mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content').
+Gets the [mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content').
 
 ```csharp
 Guilded.Base.Content.Mentions? Mentions { get; }
@@ -21,4 +21,4 @@ Guilded.Base.Content.Mentions? Mentions { get; }
 
 #### Property Value
 [Mentions](Mentions 'Guilded.Base.Content.Mentions')  
-[Mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions')?
+[Mentions](Mentions 'Guilded.Base.Content.Mentions')?

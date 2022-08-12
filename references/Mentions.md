@@ -35,3 +35,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Roles](Mentions.Roles 'Guilded.Base.Content.Mentions.Roles') | Gets the list of roles that have been [mentioned](Mentions 'Guilded.Base.Content.Mentions'). |
 | [UserIds](Mentions.UserIds 'Guilded.Base.Content.Mentions.UserIds') | Gets the identifiers of [the users](User 'Guilded.Base.Users.User') that have been [mentioned](Mentions 'Guilded.Base.Content.Mentions'). |
 | [Users](Mentions.Users 'Guilded.Base.Content.Mentions.Users') | Gets the list of [users](User 'Guilded.Base.Users.User') that have been [mentioned](Mentions 'Guilded.Base.Content.Mentions'). |
+
+### See Also
+- [Embed](Embed 'Guilded.Base.Embeds.Embed')

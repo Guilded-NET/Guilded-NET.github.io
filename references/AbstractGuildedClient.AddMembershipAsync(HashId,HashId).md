@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Adds user to [group](AbstractGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group')."
+Adds the user to the [group](AbstractGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group')."
 ---
 
 ## AbstractGuildedClient.AddMembershipAsync(HashId, HashId) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Adds user to [group](AbstractGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
+Adds the user to the [group](AbstractGuildedClient.AddMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
 
 ```csharp
 public override System.Threading.Tasks.Task AddMembershipAsync(Guilded.Base.HashId group, Guilded.Base.HashId member);
@@ -32,7 +32,7 @@ The identifier of the parent group
 
 ### Remarks
   
-This allows user to interact or see the specified group.
+This allows the user to interact or see the specified group.
 
 #### Exceptions
 

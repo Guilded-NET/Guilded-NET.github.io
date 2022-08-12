@@ -18,13 +18,15 @@ Represents the base for channel content.
 ```csharp
 public abstract class ChannelContent<TId,TServer> : Guilded.Base.ContentModel,
 Guilded.Base.IModelHasId<TId>,
-Guilded.Base.Content.ICreatableContent
+Guilded.Base.Content.ICreatableContent,
+Guilded.Base.IChannelBased,
+Guilded.Base.IHasParentClient
     where TId : notnull
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; ChannelContent<TId,TServer>
 
-Implements [Guilded.Base.IModelHasId&lt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>')[TId](ChannelContent_TId,TServer_#Guilded.Base.Content.ChannelContent_TId,TServer_.TId 'Guilded.Base.Content.ChannelContent<TId,TServer>.TId')[&gt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>'), [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+Implements [Guilded.Base.IModelHasId&lt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>')[TId](ChannelContent_TId,TServer_#Guilded.Base.Content.ChannelContent_TId,TServer_.TId 'Guilded.Base.Content.ChannelContent<TId,TServer>.TId')[&gt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>'), [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent'), [IChannelBased](IChannelBased 'Guilded.Base.IChannelBased'), [IHasParentClient](IHasParentClient 'Guilded.Base.IHasParentClient')
 
 Derived  
 &#8627; [CalendarEvent](CalendarEvent 'Guilded.Base.Content.CalendarEvent')  

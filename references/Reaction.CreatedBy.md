@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the reaction](Reaction 'Guilded.Base.Content.Reaction')."
+Gets the identifier of [the user](User 'Guilded.Base.Users.User') that reacted."
 ---
 
 ## Reaction.CreatedBy Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`Reaction`](Reaction 'Guilded.Base.Content.Reaction')
 
-Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the reaction](Reaction 'Guilded.Base.Content.Reaction').
+Gets the identifier of [the user](User 'Guilded.Base.Users.User') that reacted.
 
 ```csharp
 public Guilded.Base.HashId CreatedBy { get; }

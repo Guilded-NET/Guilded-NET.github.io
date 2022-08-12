@@ -29,5 +29,5 @@ An event with the name `ChatMessageDeleted` and opcode `0`.
 ### See Also
 - [MessageCreated](AbstractGuildedClient.MessageCreated 'Guilded.AbstractGuildedClient.MessageCreated')
 - [MessageUpdated](AbstractGuildedClient.MessageUpdated 'Guilded.AbstractGuildedClient.MessageUpdated')
-- [ReactionAdded](AbstractGuildedClient.ReactionAdded 'Guilded.AbstractGuildedClient.ReactionAdded')
-- [ReactionRemoved](AbstractGuildedClient.ReactionRemoved 'Guilded.AbstractGuildedClient.ReactionRemoved')
+- [MessageReactionAdded](AbstractGuildedClient.MessageReactionAdded 'Guilded.AbstractGuildedClient.MessageReactionAdded')
+- [MessageReactionRemoved](AbstractGuildedClient.MessageReactionRemoved 'Guilded.AbstractGuildedClient.MessageReactionRemoved')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel')."
+Deletes the specified [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel')."
 ---
 
 ## AbstractGuildedClient.DeleteChannelAsync(Guid) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Deletes the [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel').
+Deletes the specified [channel](AbstractGuildedClient.DeleteChannelAsync(Guid)#Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.DeleteChannelAsync(Guid).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task DeleteChannelAsync(Guid channel);

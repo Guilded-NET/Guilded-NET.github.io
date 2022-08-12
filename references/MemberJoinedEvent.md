@@ -16,13 +16,10 @@ Represents an event that occurs once [a member](Member 'Guilded.Base.Servers.Mem
 Represents an event that occurs once [a member](Member 'Guilded.Base.Servers.Member') joins [a server](Server 'Guilded.Base.Servers.Server').
 
 ```csharp
-public class MemberJoinedEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class MemberJoinedEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberJoinedEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |

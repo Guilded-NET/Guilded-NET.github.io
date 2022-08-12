@@ -16,13 +16,10 @@ Represents an event that occurs when someone creates, updates or deletes [a docu
 Represents an event that occurs when someone creates, updates or deletes [a document](Doc 'Guilded.Base.Content.Doc').
 
 ```csharp
-public class DocEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class DocEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; DocEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |
@@ -31,11 +28,11 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | Properties | |
 | :--- | :--- |
 | [ChannelId](DocEvent.ChannelId 'Guilded.Base.Events.DocEvent.ChannelId') | Gets the identifier of the channel where [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') are. |
-| [Content](DocEvent.Content 'Guilded.Base.Events.DocEvent.Content') | Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent'). |
+| [Content](DocEvent.Content 'Guilded.Base.Events.DocEvent.Content') | Gets the text contents of the [document](Doc 'Guilded.Base.Content.Doc'). |
 | [CreatedAt](DocEvent.CreatedAt 'Guilded.Base.Events.DocEvent.CreatedAt') | Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created. |
 | [CreatedBy](DocEvent.CreatedBy 'Guilded.Base.Events.DocEvent.CreatedBy') | Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>'). |
 | [Doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc') | Gets [the document](Doc 'Guilded.Base.Content.Doc') received from the event. |
-| [ServerId](DocEvent.ServerId 'Guilded.Base.Events.DocEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred. |
+| [Mentions](DocEvent.Mentions 'Guilded.Base.Events.DocEvent.Mentions') | Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Doc.Content 'Guilded.Base.Content.Doc.Content'). |
 | [Title](DocEvent.Title 'Guilded.Base.Events.DocEvent.Title') | Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent'). |
 | [UpdatedAt](DocEvent.UpdatedAt 'Guilded.Base.Events.DocEvent.UpdatedAt') | Gets the date when [the titled content](TitledContent 'Guilded.Base.Content.TitledContent') were updated. |
 | [UpdatedBy](DocEvent.UpdatedBy 'Guilded.Base.Events.DocEvent.UpdatedBy') | Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who updated [the document](Doc 'Guilded.Base.Content.Doc'). |
@@ -49,6 +46,8 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 ### See Also
 - [Doc](Doc 'Guilded.Base.Content.Doc')
+- [TopicEvent](TopicEvent 'Guilded.Base.Events.TopicEvent')
 - [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')
 - [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
+- [CalendarEventEvent](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent')
 - [ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')

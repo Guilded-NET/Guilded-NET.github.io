@@ -19,13 +19,15 @@ Represents an item in [a list channel](ChannelType#Guilded.Base.Servers.ChannelT
 public abstract class ListItemBase<T> : Guilded.Base.Content.ChannelContent<Guid, Guilded.Base.HashId>,
 Guilded.Base.Content.IUpdatableContent,
 Guilded.Base.Content.IWebhookCreatable,
-Guilded.Base.Content.IContentMarkdown
+Guilded.Base.Content.IContentMarkdown,
+Guilded.Base.IServerBased,
+Guilded.Base.IHasParentClient
     where T : Guilded.Base.Content.ListItemNoteSummary
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [Guilded.Base.Content.ChannelContent&lt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[,](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[HashId](HashId 'Guilded.Base.HashId')[&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') &#129106; ListItemBase<T>
 
-Implements [IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent'), [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown')
+Implements [IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent'), [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown'), [IServerBased](IServerBased 'Guilded.Base.IServerBased'), [IHasParentClient](IHasParentClient 'Guilded.Base.IHasParentClient')
 
 Derived  
 &#8627; [ListItem](ListItem 'Guilded.Base.Content.ListItem')  

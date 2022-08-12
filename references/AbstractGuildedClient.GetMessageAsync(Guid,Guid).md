@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task<Guilded.Base.Content.Message> GetMes
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.GetMessageAsync(Guid,Guid).messageId'></a>
 
@@ -42,4 +42,4 @@ The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.Serve
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[Message](Message 'Guilded.Base.Content.Message')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-message
+Specified [message](Message 'Guilded.Base.Content.Message')

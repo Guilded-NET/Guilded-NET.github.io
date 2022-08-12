@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId)#Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
+Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the specified [member](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId)#Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## AbstractGuildedClient.DeleteNicknameAsync(HashId, HashId) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the [member](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId)#Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
+Removes [the nickname](Member.Nickname 'Guilded.Base.Servers.Member.Nickname') of the specified [member](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId)#Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
 public override System.Threading.Tasks.Task DeleteNicknameAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -30,7 +30,7 @@ The server to modify [member](Member 'Guilded.Base.Servers.Member') in
 
 `member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the member](Member 'Guilded.Base.Servers.Member') to update
+The identifier of the [member](Member 'Guilded.Base.Servers.Member') to update
 
 #### Exceptions
 

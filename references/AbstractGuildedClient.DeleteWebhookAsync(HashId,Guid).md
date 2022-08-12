@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task DeleteWebhookAsync(Guilded.Base.Hash
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') where the [webhook](Webhook 'Guilded.Base.Servers.Webhook') is
 
 <a name='Guilded.AbstractGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId,Guid).webhook'></a>
 
 `webhook` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') to delete
+The identifier of the [webhook](Webhook 'Guilded.Base.Servers.Webhook') to delete
 
 #### Exceptions
 

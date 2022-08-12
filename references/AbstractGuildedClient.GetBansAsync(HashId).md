@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to get bans of
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') to get bans of
 
 #### Exceptions
 
@@ -40,4 +40,4 @@ The server to get bans of
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[MemberBan](MemberBan 'Guilded.Base.Servers.MemberBan')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1 'System.Collections.Generic.IList`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-List of [Member ban information](MemberBan 'Guilded.Base.Servers.MemberBan')
+List of [member bans](MemberBan 'Guilded.Base.Servers.MemberBan')

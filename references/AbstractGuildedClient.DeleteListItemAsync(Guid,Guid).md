@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Deletes the [listItem](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid).listItem')."
+Deletes the specified [listItem](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid).listItem')."
 ---
 
 ## AbstractGuildedClient.DeleteListItemAsync(Guid, Guid) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Deletes the [listItem](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid).listItem').
+Deletes the specified [listItem](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid).listItem').
 
 ```csharp
 public override System.Threading.Tasks.Task DeleteListItemAsync(Guid channel, Guid listItem);
@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task DeleteListItemAsync(Guid channel, Gu
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the list item](ListItem 'Guilded.Base.Content.ListItem') is
+The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where the [list item](ListItem 'Guilded.Base.Content.ListItem') is
 
 <a name='Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid,Guid).listItem'></a>
 
 `listItem` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the list item](ListItem 'Guilded.Base.Content.ListItem') to delete
+The identifier of the [list item](ListItem 'Guilded.Base.Content.ListItem') to delete
 
 #### Exceptions
 

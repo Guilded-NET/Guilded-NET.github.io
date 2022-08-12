@@ -16,13 +16,10 @@ Represents an event that occurs when someone creates, updates or deletes [a chan
 Represents an event that occurs when someone creates, updates or deletes [a channel](ServerChannel 'Guilded.Base.Servers.ServerChannel').
 
 ```csharp
-public class ChannelEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class ChannelEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; ChannelEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |
@@ -43,7 +40,6 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | [IsThread](ChannelEvent.IsThread 'Guilded.Base.Events.ChannelEvent.IsThread') | Gets whether the channel is a thread of [a channel content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>'). |
 | [Name](ChannelEvent.Name 'Guilded.Base.Events.ChannelEvent.Name') | Gets the name of the channel. |
 | [ParentId](ChannelEvent.ParentId 'Guilded.Base.Events.ChannelEvent.ParentId') | Gets the identifier of the parent channel of this channel. |
-| [ServerId](ChannelEvent.ServerId 'Guilded.Base.Events.ChannelEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred. |
 | [Topic](ChannelEvent.Topic 'Guilded.Base.Events.ChannelEvent.Topic') | Gets the topic describing what the channel is about. |
 | [Type](ChannelEvent.Type 'Guilded.Base.Events.ChannelEvent.Type') | Gets the identifier of the parent channel of this channel. |
 | [UpdatedAt](ChannelEvent.UpdatedAt 'Guilded.Base.Events.ChannelEvent.UpdatedAt') | Gets the date when the channel was edited. |

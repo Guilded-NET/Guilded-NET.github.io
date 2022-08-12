@@ -16,11 +16,11 @@ Represents the base for message-related events."
 Represents the base for message-related events.
 
 ```csharp
-public abstract class MessageEvent<T> : Guilded.Base.BaseModel
+public abstract class MessageEvent<T> : Guilded.Base.ContentModel
     where T : Guilded.Base.BaseModel
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MessageEvent<T>
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; MessageEvent<T>
 
 Derived  
 &#8627; [MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')  

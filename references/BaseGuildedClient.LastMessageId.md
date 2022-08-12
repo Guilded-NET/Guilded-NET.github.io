@@ -7,16 +7,16 @@ tags:
   - property
 description: "
 
-The identifier of the last WebSocket message."
+Gets the identifier of the last WebSocket message."
 ---
 
 ## BaseGuildedClient.LastMessageId Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`BaseGuildedClient`](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')
 
-The identifier of the last WebSocket message.
+Gets the identifier of the last WebSocket message.
 
 ```csharp
-public string? LastMessageId { get; set; }
+protected string? LastMessageId { get; set; }
 ```
 
 ### Remarks

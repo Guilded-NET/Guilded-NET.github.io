@@ -16,13 +16,10 @@ Represents an event that occurs when someone creates, updates or deletes [a cale
 Represents an event that occurs when someone creates, updates or deletes [a calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
 
 ```csharp
-public class CalendarEventEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class CalendarEventEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; CalendarEventEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |
@@ -45,7 +42,6 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | [Location](CalendarEventEvent.Location 'Guilded.Base.Events.CalendarEventEvent.Location') | Gets the description of [the calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent'). |
 | [Mentions](CalendarEventEvent.Mentions 'Guilded.Base.Events.CalendarEventEvent.Mentions') | Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the description](CalendarEvent.Description 'Guilded.Base.Content.CalendarEvent.Description'). |
 | [Name](CalendarEventEvent.Name 'Guilded.Base.Events.CalendarEventEvent.Name') | Gets the title of [the titled content](CalendarEvent 'Guilded.Base.Content.CalendarEvent'). |
-| [ServerId](CalendarEventEvent.ServerId 'Guilded.Base.Events.CalendarEventEvent.ServerId') | Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred. |
 | [StartsAt](CalendarEventEvent.StartsAt 'Guilded.Base.Events.CalendarEventEvent.StartsAt') | Gets the date when [the calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') starts. |
 | [Url](CalendarEventEvent.Url 'Guilded.Base.Events.CalendarEventEvent.Url') | Gets the URL to [the calendar event's](CalendarEvent 'Guilded.Base.Content.CalendarEvent') services, place or anything related. |
 
@@ -58,6 +54,7 @@ Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 | [UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](CalendarEventEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.Events.CalendarEventEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<bool>)') | Edits the calendarEvent. |
 
 ### See Also
+- [CalendarRsvpEvent](CalendarRsvpEvent 'Guilded.Base.Events.CalendarRsvpEvent')
 - [CalendarEvent](CalendarEvent 'Guilded.Base.Content.CalendarEvent')
 - [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')
 - [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')

@@ -43,8 +43,6 @@ description: ""
     Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the description](CalendarEvent.Description 'Guilded.Base.Content.CalendarEvent.Description').
   - **[Name](CalendarEventEvent.Name 'Guilded.Base.Events.CalendarEventEvent.Name')** `Property`
     Gets the title of [the titled content](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
-  - **[ServerId](CalendarEventEvent.ServerId 'Guilded.Base.Events.CalendarEventEvent.ServerId')** `Property`
-    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
   - **[StartsAt](CalendarEventEvent.StartsAt 'Guilded.Base.Events.CalendarEventEvent.StartsAt')** `Property`
     Gets the date when [the calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') starts.
   - **[Url](CalendarEventEvent.Url 'Guilded.Base.Events.CalendarEventEvent.Url')** `Property`
@@ -59,6 +57,60 @@ description: ""
     Edits the calendarEvent.
   - **[UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](CalendarEventEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.Events.CalendarEventEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
     Edits the calendarEvent.
+- **[CalendarRsvpEvent](CalendarRsvpEvent 'Guilded.Base.Events.CalendarRsvpEvent')** `Class`
+  Represents an event that occurs when someone adds, removes or edits a [RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') of a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[CalendarRsvpEvent(CalendarRsvp, HashId)](CalendarRsvpEvent.CalendarRsvpEvent(CalendarRsvp,HashId) 'Guilded.Base.Events.CalendarRsvpEvent.CalendarRsvpEvent(Guilded.Base.Content.CalendarRsvp, Guilded.Base.HashId)')** `Constructor`
+    Initializes a new instance of [CalendarEventEvent](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent') from the specified JSON properties.
+  - **[CalendarEventId](CalendarRsvpEvent.CalendarEventId 'Guilded.Base.Events.CalendarRsvpEvent.CalendarEventId')** `Property`
+    Gets the identifier of [the parent calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[CalendarRsvp](CalendarRsvpEvent.CalendarRsvp 'Guilded.Base.Events.CalendarRsvpEvent.CalendarRsvp')** `Property`
+    Gets [RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') of a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') received from the event.
+  - **[ChannelId](CalendarRsvpEvent.ChannelId 'Guilded.Base.Events.CalendarRsvpEvent.ChannelId')** `Property`
+    Gets the identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the calendar event](CalendarRsvp.CalendarEventId 'Guilded.Base.Content.CalendarRsvp.CalendarEventId') is.
+  - **[CreatedAt](CalendarRsvpEvent.CreatedAt 'Guilded.Base.Events.CalendarRsvpEvent.CreatedAt')** `Property`
+    Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created.
+  - **[CreatedBy](CalendarRsvpEvent.CreatedBy 'Guilded.Base.Events.CalendarRsvpEvent.CreatedBy')** `Property`
+    Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
+  - **[Status](CalendarRsvpEvent.Status 'Guilded.Base.Events.CalendarRsvpEvent.Status')** `Property`
+    Gets the status of the [user's](CalendarRsvp.UserId 'Guilded.Base.Content.CalendarRsvp.UserId')[RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[UpdatedAt](CalendarRsvpEvent.UpdatedAt 'Guilded.Base.Events.CalendarRsvpEvent.UpdatedAt')** `Property`
+    Gets the date when [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') was updated.
+  - **[UpdatedBy](CalendarRsvpEvent.UpdatedBy 'Guilded.Base.Events.CalendarRsvpEvent.UpdatedBy')** `Property`
+    Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who updated [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[UserId](CalendarRsvpEvent.UserId 'Guilded.Base.Events.CalendarRsvpEvent.UserId')** `Property`
+    Gets the identifier of [the user](User 'Guilded.Base.Users.User') whose RSVP it is.
+  - **[RemoveAsync()](CalendarRsvpEvent.RemoveAsync() 'Guilded.Base.Events.CalendarRsvpEvent.RemoveAsync()')** `Method`
+    Deletes the specified [calendar event RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[SetAsync(CalendarRsvpStatus)](CalendarRsvpEvent.SetAsync(CalendarRsvpStatus) 'Guilded.Base.Events.CalendarRsvpEvent.SetAsync(Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
+    Creates or edits a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent')[RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+- **[CalendarRsvpManyEvent](CalendarRsvpManyEvent 'Guilded.Base.Events.CalendarRsvpManyEvent')** `Class`
+  Represents an event that occurs when someone adds, removes or edits multiple [RSVPs](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') of a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[CalendarRsvpManyEvent(IList&lt;CalendarRsvp&gt;, HashId)](CalendarRsvpManyEvent.CalendarRsvpManyEvent(IList_CalendarRsvp_,HashId) 'Guilded.Base.Events.CalendarRsvpManyEvent.CalendarRsvpManyEvent(System.Collections.Generic.IList<Guilded.Base.Content.CalendarRsvp>, Guilded.Base.HashId)')** `Constructor`
+    Initializes a new instance of [CalendarEventEvent](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent') from the specified JSON properties.
+  - **[CalendarEventId](CalendarRsvpManyEvent.CalendarEventId 'Guilded.Base.Events.CalendarRsvpManyEvent.CalendarEventId')** `Property`
+    Gets the identifier of [the parent calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[CalendarRsvps](CalendarRsvpManyEvent.CalendarRsvps 'Guilded.Base.Events.CalendarRsvpManyEvent.CalendarRsvps')** `Property`
+    Gets the list of [RSVPs](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') of a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') received from the event.
+  - **[ChannelId](CalendarRsvpManyEvent.ChannelId 'Guilded.Base.Events.CalendarRsvpManyEvent.ChannelId')** `Property`
+    Gets the identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the calendar event](CalendarRsvp.CalendarEventId 'Guilded.Base.Content.CalendarRsvp.CalendarEventId') is.
+  - **[Count](CalendarRsvpManyEvent.Count 'Guilded.Base.Events.CalendarRsvpManyEvent.Count')** `Property`
+    Gets the count of how many [RSVPs](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') have been changed.
+  - **[CreatedAt](CalendarRsvpManyEvent.CreatedAt 'Guilded.Base.Events.CalendarRsvpManyEvent.CreatedAt')** `Property`
+    Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created.
+  - **[CreatedBy](CalendarRsvpManyEvent.CreatedBy 'Guilded.Base.Events.CalendarRsvpManyEvent.CreatedBy')** `Property`
+    Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
+  - **[First](CalendarRsvpManyEvent.First 'Guilded.Base.Events.CalendarRsvpManyEvent.First')** `Property`
+    Gets the first [RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') in a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[Last](CalendarRsvpManyEvent.Last 'Guilded.Base.Events.CalendarRsvpManyEvent.Last')** `Property`
+    Gets the last [RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') in a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[Status](CalendarRsvpManyEvent.Status 'Guilded.Base.Events.CalendarRsvpManyEvent.Status')** `Property`
+    Gets the status of the [user's](CalendarRsvp.UserId 'Guilded.Base.Content.CalendarRsvp.UserId')[RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[UpdatedAt](CalendarRsvpManyEvent.UpdatedAt 'Guilded.Base.Events.CalendarRsvpManyEvent.UpdatedAt')** `Property`
+    Gets the date when [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') was updated.
+  - **[UpdatedBy](CalendarRsvpManyEvent.UpdatedBy 'Guilded.Base.Events.CalendarRsvpManyEvent.UpdatedBy')** `Property`
+    Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who updated [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[UserId](CalendarRsvpManyEvent.UserId 'Guilded.Base.Events.CalendarRsvpManyEvent.UserId')** `Property`
+    Gets the identifier of [the user](User 'Guilded.Base.Users.User') whose RSVP it is.
 - **[ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')** `Class`
   Represents an event that occurs when someone creates, updates or deletes [a channel](ServerChannel 'Guilded.Base.Servers.ServerChannel').
   - **[ChannelEvent(ServerChannel, HashId)](ChannelEvent.ChannelEvent(ServerChannel,HashId) 'Guilded.Base.Events.ChannelEvent.ChannelEvent(Guilded.Base.Servers.ServerChannel, Guilded.Base.HashId)')** `Constructor`
@@ -89,8 +141,6 @@ description: ""
     Gets the name of the channel.
   - **[ParentId](ChannelEvent.ParentId 'Guilded.Base.Events.ChannelEvent.ParentId')** `Property`
     Gets the identifier of the parent channel of this channel.
-  - **[ServerId](ChannelEvent.ServerId 'Guilded.Base.Events.ChannelEvent.ServerId')** `Property`
-    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
   - **[Topic](ChannelEvent.Topic 'Guilded.Base.Events.ChannelEvent.Topic')** `Property`
     Gets the topic describing what the channel is about.
   - **[Type](ChannelEvent.Type 'Guilded.Base.Events.ChannelEvent.Type')** `Property`
@@ -108,15 +158,15 @@ description: ""
   - **[ChannelId](DocEvent.ChannelId 'Guilded.Base.Events.DocEvent.ChannelId')** `Property`
     Gets the identifier of the channel where [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') are.
   - **[Content](DocEvent.Content 'Guilded.Base.Events.DocEvent.Content')** `Property`
-    Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
+    Gets the text contents of the [document](Doc 'Guilded.Base.Content.Doc').
   - **[CreatedAt](DocEvent.CreatedAt 'Guilded.Base.Events.DocEvent.CreatedAt')** `Property`
     Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created.
   - **[CreatedBy](DocEvent.CreatedBy 'Guilded.Base.Events.DocEvent.CreatedBy')** `Property`
     Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
   - **[Doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc')** `Property`
     Gets [the document](Doc 'Guilded.Base.Content.Doc') received from the event.
-  - **[ServerId](DocEvent.ServerId 'Guilded.Base.Events.DocEvent.ServerId')** `Property`
-    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
+  - **[Mentions](DocEvent.Mentions 'Guilded.Base.Events.DocEvent.Mentions')** `Property`
+    Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Doc.Content 'Guilded.Base.Content.Doc.Content').
   - **[Title](DocEvent.Title 'Guilded.Base.Events.DocEvent.Title')** `Property`
     Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
   - **[UpdatedAt](DocEvent.UpdatedAt 'Guilded.Base.Events.DocEvent.UpdatedAt')** `Property`
@@ -143,6 +193,10 @@ description: ""
     Gets an operation code that tells about the message.
   - **[RawData](GuildedSocketMessage.RawData 'Guilded.Base.Events.GuildedSocketMessage.RawData')** `Property`
     Gets the data associated with the event.
+  - **[ToString()](GuildedSocketMessage.ToString() 'Guilded.Base.Events.GuildedSocketMessage.ToString()')** `Method`
+    Returns the string representation of [the socket message](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage').
+  - **[ToString(Formatting)](GuildedSocketMessage.ToString(Formatting) 'Guilded.Base.Events.GuildedSocketMessage.ToString(Newtonsoft.Json.Formatting)')** `Method`
+    Returns the string representation of [the socket message](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage').
 - **[ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')** `Class`
   Represents an event that occurs when someone creates, updates, completes, uncompletes or deletes [a list item](ListItem 'Guilded.Base.Content.ListItem').
   - **[ListItemEvent(ListItem, HashId)](ListItemEvent.ListItemEvent(ListItem,HashId) 'Guilded.Base.Events.ListItemEvent.ListItemEvent(Guilded.Base.Content.ListItem, Guilded.Base.HashId)')** `Constructor`
@@ -163,14 +217,14 @@ description: ""
     Gets whether [the list item](ListItem 'Guilded.Base.Content.ListItem') was ticked off
   - **[ListItem](ListItemEvent.ListItem 'Guilded.Base.Events.ListItemEvent.ListItem')** `Property`
     Gets the list item received from the event.
+  - **[Mentions](ListItemEvent.Mentions 'Guilded.Base.Events.ListItemEvent.Mentions')** `Property`
+    Gets [the mentions](ListItemBase_T_.Mentions 'Guilded.Base.Content.ListItemBase<T>.Mentions') found in [the content](ListItemBase_T_.Message 'Guilded.Base.Content.ListItemBase<T>.Message').
   - **[Message](ListItemEvent.Message 'Guilded.Base.Events.ListItemEvent.Message')** `Property`
     Gets the text contents of the message in [the item](ListItem 'Guilded.Base.Content.ListItem').
   - **[Note](ListItemEvent.Note 'Guilded.Base.Events.ListItemEvent.Note')** `Property`
     Gets the note of [the item](ListItem 'Guilded.Base.Content.ListItem').
   - **[ParentId](ListItemEvent.ParentId 'Guilded.Base.Events.ListItemEvent.ParentId')** `Property`
     Gets the identifier of [the parent item](ListItem 'Guilded.Base.Content.ListItem') of [the item](ListItem 'Guilded.Base.Content.ListItem').
-  - **[ServerId](ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId')** `Property`
-    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
   - **[UpdatedAt](ListItemEvent.UpdatedAt 'Guilded.Base.Events.ListItemEvent.UpdatedAt')** `Property`
     Gets the date when [the item](ListItem 'Guilded.Base.Content.ListItem') was edited.
   - **[CompleteAsync()](ListItemEvent.CompleteAsync() 'Guilded.Base.Events.ListItemEvent.CompleteAsync()')** `Method`
@@ -301,6 +355,8 @@ description: ""
     Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is silent and doesn't ping any user.
   - **[IsSystemMessage](MessageEvent.IsSystemMessage 'Guilded.Base.Events.MessageEvent.IsSystemMessage')** `Property`
     Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a system message](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System').
+  - **[Mentions](MessageEvent.Mentions 'Guilded.Base.Events.MessageEvent.Mentions')** `Property`
+    Gets [the mentions](Message.Mentions 'Guilded.Base.Content.Message.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content').
   - **[ReplyMessageIds](MessageEvent.ReplyMessageIds 'Guilded.Base.Events.MessageEvent.ReplyMessageIds')** `Property`
     Gets the list of [messages](Message 'Guilded.Base.Content.Message') being replied to.
   - **[Type](MessageEvent.Type 'Guilded.Base.Events.MessageEvent.Type')** `Property`
@@ -351,6 +407,50 @@ description: ""
     Gets the message received from the event.
   - **[ServerId](MessageEvent_T_.ServerId 'Guilded.Base.Events.MessageEvent<T>.ServerId')** `Property`
     Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
+- **[MessageReactionEvent](MessageReactionEvent 'Guilded.Base.Events.MessageReactionEvent')** `Class`
+  Represents an event that occurs when someone adds or removes [a reaction](Reaction 'Guilded.Base.Content.Reaction').
+  - **[MessageReactionEvent(EventReaction, Nullable&lt;HashId&gt;)](MessageReactionEvent.MessageReactionEvent(EventReaction,Nullable_HashId_) 'Guilded.Base.Events.MessageReactionEvent.MessageReactionEvent(Guilded.Base.Events.MessageReactionEvent.EventReaction, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
+    Initializes a new instance of [MessageReactionEvent](MessageReactionEvent 'Guilded.Base.Events.MessageReactionEvent') from the specified JSON properties.
+  - **[ChannelId](MessageReactionEvent.ChannelId 'Guilded.Base.Events.MessageReactionEvent.ChannelId')** `Property`
+    Gets the identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the message](Message 'Guilded.Base.Content.Message') is.
+  - **[CreatedBy](MessageReactionEvent.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.CreatedBy')** `Property`
+    Gets the identifier of [the user](User 'Guilded.Base.Users.User') that reacted.
+  - **[Emote](MessageReactionEvent.Emote 'Guilded.Base.Events.MessageReactionEvent.Emote')** `Property`
+    Gets [the emote](Emote 'Guilded.Base.Content.Emote') with which [the user](MessageReactionEvent.EventReaction.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.EventReaction.CreatedBy') reacted.
+  - **[Id](MessageReactionEvent.Id 'Guilded.Base.Events.MessageReactionEvent.Id')** `Property`
+    Gets the identifier of [the emote](Emote 'Guilded.Base.Content.Emote').
+  - **[MessageId](MessageReactionEvent.MessageId 'Guilded.Base.Events.MessageReactionEvent.MessageId')** `Property`
+    Gets the identifier of [the message](Message 'Guilded.Base.Content.Message') that [user](MessageReactionEvent.EventReaction.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.EventReaction.CreatedBy') reacted on.
+  - **[Name](MessageReactionEvent.Name 'Guilded.Base.Events.MessageReactionEvent.Name')** `Property`
+    Gets the name of [the emote](Emote 'Guilded.Base.Content.Emote').
+  - **[Reaction](MessageReactionEvent.Reaction 'Guilded.Base.Events.MessageReactionEvent.Reaction')** `Property`
+    Gets [the received reaction](Reaction 'Guilded.Base.Content.Reaction') from the event.
+  - **[ServerId](MessageReactionEvent.ServerId 'Guilded.Base.Events.MessageReactionEvent.ServerId')** `Property`
+    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
+  - **[AddAsync()](MessageReactionEvent.AddAsync() 'Guilded.Base.Events.MessageReactionEvent.AddAsync()')** `Method`
+    Adds emote to the message.
+  - **[RemoveAsync()](MessageReactionEvent.RemoveAsync() 'Guilded.Base.Events.MessageReactionEvent.RemoveAsync()')** `Method`
+    Removes emote from the message.
+- **[MessageReactionEvent.EventReaction](MessageReactionEvent.EventReaction 'Guilded.Base.Events.MessageReactionEvent.EventReaction')** `Class`
+  Represents [the reaction](Reaction 'Guilded.Base.Content.Reaction') that has been added.
+  - **[EventReaction(Emote, HashId, Guid, Guid)](MessageReactionEvent.EventReaction.EventReaction(Emote,HashId,Guid,Guid) 'Guilded.Base.Events.MessageReactionEvent.EventReaction.EventReaction(Guilded.Base.Content.Emote, Guilded.Base.HashId, Guid, Guid)')** `Constructor`
+    Initializes a new instance of [EventReaction](MessageReactionEvent.EventReaction 'Guilded.Base.Events.MessageReactionEvent.EventReaction') from the specified JSON properties.
+  - **[ChannelId](MessageReactionEvent.EventReaction.ChannelId 'Guilded.Base.Events.MessageReactionEvent.EventReaction.ChannelId')** `Property`
+    Gets the identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the message](Message 'Guilded.Base.Content.Message') is.
+  - **[CreatedBy](MessageReactionEvent.EventReaction.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.EventReaction.CreatedBy')** `Property`
+    Gets the identifier of [the user](User 'Guilded.Base.Users.User') that reacted.
+  - **[Emote](MessageReactionEvent.EventReaction.Emote 'Guilded.Base.Events.MessageReactionEvent.EventReaction.Emote')** `Property`
+    Gets [the emote](Emote 'Guilded.Base.Content.Emote') with which [the user](MessageReactionEvent.EventReaction.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.EventReaction.CreatedBy') reacted.
+  - **[Id](MessageReactionEvent.EventReaction.Id 'Guilded.Base.Events.MessageReactionEvent.EventReaction.Id')** `Property`
+    Gets the identifier of [the emote](Emote 'Guilded.Base.Content.Emote').
+  - **[MessageId](MessageReactionEvent.EventReaction.MessageId 'Guilded.Base.Events.MessageReactionEvent.EventReaction.MessageId')** `Property`
+    Gets the identifier of [the message](Message 'Guilded.Base.Content.Message') that [user](MessageReactionEvent.EventReaction.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.EventReaction.CreatedBy') reacted on.
+  - **[Name](MessageReactionEvent.EventReaction.Name 'Guilded.Base.Events.MessageReactionEvent.EventReaction.Name')** `Property`
+    Gets the name of [the emote](Emote 'Guilded.Base.Content.Emote').
+  - **[AddAsync()](MessageReactionEvent.EventReaction.AddAsync() 'Guilded.Base.Events.MessageReactionEvent.EventReaction.AddAsync()')** `Method`
+    Adds emote to the message.
+  - **[RemoveAsync()](MessageReactionEvent.EventReaction.RemoveAsync() 'Guilded.Base.Events.MessageReactionEvent.EventReaction.RemoveAsync()')** `Method`
+    Removes emote from the message.
 - **[ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent')** `Class`
   Represents an event that occurs once all missed events were [resumed](BaseGuildedClient.LastMessageId 'Guilded.Base.BaseGuildedClient.LastMessageId').
   - **[ResumeEvent(string)](ResumeEvent.ResumeEvent(string) 'Guilded.Base.Events.ResumeEvent.ResumeEvent(string)')** `Constructor`
@@ -375,6 +475,36 @@ description: ""
     Gets the list of roles that [member](RolesUpdatedEvent.RolesUpdated.UserId 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId') is currently holding.
   - **[UserId](RolesUpdatedEvent.RolesUpdated.UserId 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId')** `Property`
     Gets the identifier of [user](User 'Guilded.Base.Users.User') that lost or received [roles](RolesUpdatedEvent.RolesUpdated.RoleIds 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds').
+- **[TopicEvent](TopicEvent 'Guilded.Base.Events.TopicEvent')** `Class`
+  Represents an event that occurs when someone creates, updates or deletes a [forum topic](Topic 'Guilded.Base.Content.Topic').
+  - **[TopicEvent(Topic, HashId)](TopicEvent.TopicEvent(Topic,HashId) 'Guilded.Base.Events.TopicEvent.TopicEvent(Guilded.Base.Content.Topic, Guilded.Base.HashId)')** `Constructor`
+    Initializes a new instance of [TopicEvent](TopicEvent 'Guilded.Base.Events.TopicEvent') from the specified JSON properties.
+  - **[BumpedAt](TopicEvent.BumpedAt 'Guilded.Base.Events.TopicEvent.BumpedAt')** `Property`
+    Gets the date when the [topic](TopicSummary 'Guilded.Base.Content.TopicSummary') was bumped.
+  - **[ChannelId](TopicEvent.ChannelId 'Guilded.Base.Events.TopicEvent.ChannelId')** `Property`
+    Gets the identifier of the channel where [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') are.
+  - **[Content](TopicEvent.Content 'Guilded.Base.Events.TopicEvent.Content')** `Property`
+    Gets the text contents of the [topic](Topic 'Guilded.Base.Content.Topic').
+  - **[CreatedAt](TopicEvent.CreatedAt 'Guilded.Base.Events.TopicEvent.CreatedAt')** `Property`
+    Gets the date when [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') were created.
+  - **[CreatedBy](TopicEvent.CreatedBy 'Guilded.Base.Events.TopicEvent.CreatedBy')** `Property`
+    Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
+  - **[CreatedByWebhook](TopicEvent.CreatedByWebhook 'Guilded.Base.Events.TopicEvent.CreatedByWebhook')** `Property`
+    Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created [the forum thread](TopicSummary 'Guilded.Base.Content.TopicSummary').
+  - **[Title](TopicEvent.Title 'Guilded.Base.Events.TopicEvent.Title')** `Property`
+    Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
+  - **[Topic](TopicEvent.Topic 'Guilded.Base.Events.TopicEvent.Topic')** `Property`
+    Gets the [topic](Topic 'Guilded.Base.Content.Topic') received from the event.
+  - **[UpdatedAt](TopicEvent.UpdatedAt 'Guilded.Base.Events.TopicEvent.UpdatedAt')** `Property`
+    Gets the date when [the titled content](TitledContent 'Guilded.Base.Content.TitledContent') were updated.
+  - **[AddReactionAsync(uint)](TopicEvent.AddReactionAsync(uint) 'Guilded.Base.Events.TopicEvent.AddReactionAsync(uint)')** `Method`
+    Adds emote to the content.
+  - **[DeleteAsync()](TopicEvent.DeleteAsync() 'Guilded.Base.Events.TopicEvent.DeleteAsync()')** `Method`
+    Deletes a [forum post](Topic 'Guilded.Base.Content.Topic').
+  - **[RemoveReactionAsync(uint)](TopicEvent.RemoveReactionAsync(uint) 'Guilded.Base.Events.TopicEvent.RemoveReactionAsync(uint)')** `Method`
+    Removes emote from the content.
+  - **[UpdateAsync(string, string)](TopicEvent.UpdateAsync(string,string) 'Guilded.Base.Events.TopicEvent.UpdateAsync(string, string)')** `Method`
+    Edits [forum post's](Topic 'Guilded.Base.Content.Topic')title and content.
 - **[WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent')** `Class`
   - **[WebhookEvent(HashId, Webhook)](WebhookEvent.WebhookEvent(HashId,Webhook) 'Guilded.Base.Events.WebhookEvent.WebhookEvent(Guilded.Base.HashId, Guilded.Base.Servers.Webhook)')** `Constructor`
     Initializes a new instance of [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent') from the specified JSON properties.
@@ -430,10 +560,6 @@ description: ""
     Gets the last XP receiving [user](XpAddedEvent.Users 'Guilded.Base.Events.XpAddedEvent.Users').
   - **[Users](XpAddedEvent.Users 'Guilded.Base.Events.XpAddedEvent.Users')** `Property`
     Gets the identifiers of [the users](User 'Guilded.Base.Users.User') who received [XP](XpAddedEvent.Amount 'Guilded.Base.Events.XpAddedEvent.Amount').
-- **[IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')** `Interface`
-  Represents the interface for server-based events.
-  - **[ServerId](IServerEvent.ServerId 'Guilded.Base.Events.IServerEvent.ServerId')** `Property`
-    Gets the identifier of [the server](Server 'Guilded.Base.Servers.Server') where the event occurred.
 - **[SocketOpcode](SocketOpcode 'Guilded.Base.Events.SocketOpcode')** `Enum`
   Represents [the opcodes](GuildedSocketMessage.Opcode 'Guilded.Base.Events.GuildedSocketMessage.Opcode') in Guilded's WebSocket.
   - **[Activity](SocketOpcode#Guilded.Base.Events.SocketOpcode.Activity 'Guilded.Base.Events.SocketOpcode.Activity')** `Field`

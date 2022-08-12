@@ -16,10 +16,10 @@ Represents the module that adds [commands](CommandAttribute 'Guilded.Commands.Co
 Represents the module that adds [commands](CommandAttribute 'Guilded.Commands.CommandAttribute') to [Guilded clients](BaseGuildedClient 'Guilded.Base.BaseGuildedClient').
 
 ```csharp
-public class CommandModule : Guilded.Commands.CommandBase
+public abstract class CommandModule : Guilded.Commands.CommandParent
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [CommandBase](CommandBase 'Guilded.Commands.CommandBase') &#129106; CommandModule
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [CommandParent](CommandParent 'Guilded.Commands.CommandParent') &#129106; CommandModule
 
 | Methods | |
 | :--- | :--- |
@@ -28,6 +28,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Remove()](CommandModule.Remove() 'Guilded.Commands.CommandModule.Remove()') | Removes the command module from the subscribed client. |
 
 ### See Also
-- [CommandBase](CommandBase 'Guilded.Commands.CommandBase')
+- [CommandParent](CommandParent 'Guilded.Commands.CommandParent')
 - [CommandAttribute](CommandAttribute 'Guilded.Commands.CommandAttribute')
 - [CommandFallbackAttribute](CommandFallbackAttribute 'Guilded.Commands.CommandFallbackAttribute')

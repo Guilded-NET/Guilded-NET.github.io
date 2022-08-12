@@ -16,7 +16,7 @@ Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.
 Initializes a new instance of [GuildedException](GuildedException 'Guilded.Base.GuildedException') from a [response](GuildedException.GuildedException(string,string,RestResponse)#Guilded.Base.GuildedException.GuildedException(string,string,RestSharp.RestResponse).response 'Guilded.Base.GuildedException.GuildedException(string, string, RestSharp.RestResponse).response').
 
 ```csharp
-public GuildedException(string code, string message, RestSharp.RestResponse response);
+public GuildedException(string code, string message, RestSharp.RestResponse? response);
 ```
 #### Parameters
 

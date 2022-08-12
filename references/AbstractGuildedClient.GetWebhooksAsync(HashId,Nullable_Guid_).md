@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the server](Server 'Guilded.Base.Servers.Server') to get [webhooks](Webhook 'Guilded.Base.Servers.Webhook') from
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') to get [webhooks](Webhook 'Guilded.Base.Servers.Webhook') from
 
 <a name='Guilded.AbstractGuildedClient.GetWebhooksAsync(Guilded.Base.HashId,System.Nullable_Guid_).channel'></a>
 
 `channel` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to get webhooks from
+The identifier of the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to get webhooks from
 
 ### Remarks
   

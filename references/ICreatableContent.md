@@ -20,6 +20,7 @@ public interface ICreatableContent
 ```
 
 Derived  
+&#8627; [CalendarRsvp](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp')  
 &#8627; [ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')  
 &#8627; [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')  
 &#8627; [Reaction](Reaction 'Guilded.Base.Content.Reaction')  

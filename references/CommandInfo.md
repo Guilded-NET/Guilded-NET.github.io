@@ -33,4 +33,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Methods | |
 | :--- | :--- |
-| [InvokeAsync(CommandBase, CommandEvent, IEnumerable&lt;object&gt;)](CommandInfo.InvokeAsync(CommandBase,CommandEvent,IEnumerable_object_) 'Guilded.Commands.CommandInfo.InvokeAsync(Guilded.Commands.CommandBase, Guilded.Commands.CommandEvent, System.Collections.Generic.IEnumerable<object>)') | Invokes the command. |
+| [InvokeAsync(CommandParent, CommandEvent, IEnumerable&lt;object&gt;)](CommandInfo.InvokeAsync(CommandParent,CommandEvent,IEnumerable_object_) 'Guilded.Commands.CommandInfo.InvokeAsync(Guilded.Commands.CommandParent, Guilded.Commands.CommandEvent, System.Collections.Generic.IEnumerable<object>)') | Invokes the command. |

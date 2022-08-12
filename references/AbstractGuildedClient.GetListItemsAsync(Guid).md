@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the [channel](AbstractGuildedClient.GetListItemsAsync(Guid)#Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel')."
+Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the specified [channel](AbstractGuildedClient.GetListItemsAsync(Guid)#Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel')."
 ---
 
 ## AbstractGuildedClient.GetListItemsAsync(Guid) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the [channel](AbstractGuildedClient.GetListItemsAsync(Guid)#Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel').
+Gets a set of [list items](ListItem 'Guilded.Base.Content.ListItem') from the specified [channel](AbstractGuildedClient.GetListItemsAsync(Guid)#Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetListItemsAsync(Guid).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task<System.Collections.Generic.IList<Guilded.Base.Content.ListItemSummary>> GetListItemsAsync(Guid channel);

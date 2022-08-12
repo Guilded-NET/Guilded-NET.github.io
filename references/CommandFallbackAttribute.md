@@ -7,13 +7,13 @@ tags:
   - class
 description: "
 
-Declares a method as a [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') handler."
+Declares a method as a [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') handler."
 ---
 
 ## CommandFallbackAttribute Class
 ##### **Assembly:** `Guilded.Commands`<br/>**Namespace:** [`Guilded.Commands`](Guilded.Commands 'Guilded.Commands')
 
-Declares a method as a [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') handler.
+Declares a method as a [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') handler.
 
 ```csharp
 public sealed class CommandFallbackAttribute : System.Attribute
@@ -41,7 +41,7 @@ public class Config
 
 | Properties | |
 | :--- | :--- |
-| [Type](CommandFallbackAttribute.Type 'Guilded.Commands.CommandFallbackAttribute.Type') | Gets the type of [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') event to handle. |
+| [Type](CommandFallbackAttribute.Type 'Guilded.Commands.CommandFallbackAttribute.Type') | Gets the type of [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') event to handle. |
 
 ### See Also
 - [FallbackType](FallbackType 'Guilded.Commands.FallbackType')

@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.GetEventsAsync(Guid,System.Nullable_uint_,System.Nullable_System.DateTime_).limit'></a>
 
@@ -36,7 +36,7 @@ The limit of how many [calendar events](CalendarEvent 'Guilded.Base.Content.Cale
 
 `before` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.DateTime](https://docs.microsoft.com/en-us/dotnet/api/System.DateTime 'System.DateTime')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The max limit of the creation date of [fetched calendar events](CalendarEvent 'Guilded.Base.Content.CalendarEvent')
+The max limit of the creation date of fetched [calendar events](CalendarEvent 'Guilded.Base.Content.CalendarEvent')
 
 #### Exceptions
 

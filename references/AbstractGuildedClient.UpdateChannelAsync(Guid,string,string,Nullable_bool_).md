@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Updates the [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel')."
+Updates the specified [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel')."
 ---
 
 ## AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, Nullable<bool>) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Updates the [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel').
+Updates the specified [channel](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_)#Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).channel 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> UpdateChannelAsync(Guid channel, string? name=null, string? topic=null, System.Nullable<bool> isPublic=null);
@@ -24,19 +24,19 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> 
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to update
+The identifier of the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to update
 
 <a name='Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-A new name of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') (max — `100`)
+A new name of the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') (max — `100`)
 
 <a name='Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).topic'></a>
 
 `topic` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-A new topic describing what [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') is about (max — `512`)
+A new topic describing what the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') is about (max — `512`)
 
 <a name='Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,System.Nullable_bool_).isPublic'></a>
 

@@ -19,7 +19,7 @@ Represents an event that occurs when someone deletes [a message](Message 'Guilde
 public class MessageDeletedEvent : Guilded.Base.Events.MessageEvent<Guilded.Base.Events.MessageDeletedEvent.MessageDeleted>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')[MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>') &#129106; MessageDeletedEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')[MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>') &#129106; MessageDeletedEvent
 
 | Constructors | |
 | :--- | :--- |

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Creates a [new webhook](Webhook 'Guilded.Base.Servers.Webhook') in the [channel](AbstractGuildedClient.CreateWebhookAsync(HashId,Guid,string)#Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId,Guid,string).channel 'Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string).channel')."
+Creates a new [webhook](Webhook 'Guilded.Base.Servers.Webhook') in the specified [channel](AbstractGuildedClient.CreateWebhookAsync(HashId,Guid,string)#Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId,Guid,string).channel 'Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string).channel')."
 ---
 
 ## AbstractGuildedClient.CreateWebhookAsync(HashId, Guid, string) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Creates a [new webhook](Webhook 'Guilded.Base.Servers.Webhook') in the [channel](AbstractGuildedClient.CreateWebhookAsync(HashId,Guid,string)#Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId,Guid,string).channel 'Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string).channel').
+Creates a new [webhook](Webhook 'Guilded.Base.Servers.Webhook') in the specified [channel](AbstractGuildedClient.CreateWebhookAsync(HashId,Guid,string)#Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId,Guid,string).channel 'Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId, Guid, string).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> CreateWebhookAsync(Guilded.Base.HashId server, Guid channel, string name);
@@ -24,19 +24,19 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> Create
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') will be created
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') where the [webhook](Webhook 'Guilded.Base.Servers.Webhook') will be created
 
 <a name='Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId,Guid,string).channel'></a>
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') will be created
+The identifier of the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where the [webhook](Webhook 'Guilded.Base.Servers.Webhook') will be created
 
 <a name='Guilded.AbstractGuildedClient.CreateWebhookAsync(Guilded.Base.HashId,Guid,string).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')
+The name of the [webhook](Webhook 'Guilded.Base.Servers.Webhook')
 
 #### Exceptions
 

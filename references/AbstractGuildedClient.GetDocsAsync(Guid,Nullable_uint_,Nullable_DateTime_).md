@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.GetDocsAsync(Guid,System.Nullable_uint_,System.Nullable_System.DateTime_).limit'></a>
 

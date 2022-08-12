@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task DeleteMessageAsync(Guid channel, Gui
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.DeleteMessageAsync(Guid,Guid).message'></a>
 
 `message` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the message](Message 'Guilded.Base.Content.Message') to delete
+The identifier of the [message](Message 'Guilded.Base.Content.Message') to delete
 
 #### Exceptions
 

@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the type of [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') event to handle."
+Gets the type of [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') event to handle."
 ---
 
 ## CommandFallbackAttribute.Type Property
 ##### **Assembly:** `Guilded.Commands`<br/>**Type:** [`CommandFallbackAttribute`](CommandFallbackAttribute 'Guilded.Commands.CommandFallbackAttribute')
 
-Gets the type of [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') event to handle.
+Gets the type of [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') event to handle.
 
 ```csharp
 public Guilded.Commands.FallbackType Type { get; set; }

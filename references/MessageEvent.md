@@ -19,7 +19,7 @@ Represents an event that occurs when someone creates or edits [a message](Messag
 public class MessageEvent : Guilded.Base.Events.MessageEvent<Guilded.Base.Content.Message>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')[Message](Message 'Guilded.Base.Content.Message')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>') &#129106; MessageEvent
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [Guilded.Base.Events.MessageEvent&lt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')[Message](Message 'Guilded.Base.Content.Message')[&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>') &#129106; MessageEvent
 
 | Constructors | |
 | :--- | :--- |
@@ -37,6 +37,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [IsReply](MessageEvent.IsReply 'Guilded.Base.Events.MessageEvent.IsReply') | Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a reply](Message.ReplyMessageIds 'Guilded.Base.Content.Message.ReplyMessageIds') to another message. |
 | [IsSilent](MessageEvent.IsSilent 'Guilded.Base.Events.MessageEvent.IsSilent') | Gets whether [the reply](Message.IsReply 'Guilded.Base.Content.Message.IsReply') or mention is silent and doesn't ping any user. |
 | [IsSystemMessage](MessageEvent.IsSystemMessage 'Guilded.Base.Events.MessageEvent.IsSystemMessage') | Gets whether [the message](Message 'Guilded.Base.Content.Message') is [a system message](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System'). |
+| [Mentions](MessageEvent.Mentions 'Guilded.Base.Events.MessageEvent.Mentions') | Gets [the mentions](Message.Mentions 'Guilded.Base.Content.Message.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content'). |
 | [ReplyMessageIds](MessageEvent.ReplyMessageIds 'Guilded.Base.Events.MessageEvent.ReplyMessageIds') | Gets the list of [messages](Message 'Guilded.Base.Content.Message') being replied to. |
 | [Type](MessageEvent.Type 'Guilded.Base.Events.MessageEvent.Type') | Gets the type of [the message](Message 'Guilded.Base.Content.Message'). |
 | [UpdatedAt](MessageEvent.UpdatedAt 'Guilded.Base.Events.MessageEvent.UpdatedAt') | Gets the date when [the message](Message 'Guilded.Base.Content.Message') was edited. |

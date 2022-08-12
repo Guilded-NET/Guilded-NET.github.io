@@ -17,12 +17,15 @@ Represents a channel webhook. This is a bot-like [channel](ServerChannel 'Guilde
 
 ```csharp
 public class Webhook : Guilded.Base.ContentModel,
-Guilded.Base.Content.ICreatableContent
+Guilded.Base.Content.ICreatableContent,
+Guilded.Base.IServerBased,
+Guilded.Base.IHasParentClient,
+Guilded.Base.IChannelBased
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; Webhook
 
-Implements [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')
+Implements [ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent'), [IServerBased](IServerBased 'Guilded.Base.IServerBased'), [IHasParentClient](IHasParentClient 'Guilded.Base.IHasParentClient'), [IChannelBased](IChannelBased 'Guilded.Base.IChannelBased')
 
 | Constructors | |
 | :--- | :--- |

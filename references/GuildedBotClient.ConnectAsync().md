@@ -29,4 +29,3 @@ Creates a new connection to Guilded using set property [AuthToken](GuildedBotCli
 ### See Also
 - [ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.GuildedBotClient.ConnectAsync(string)')
 - [GuildedBotClient(string)](GuildedBotClient.GuildedBotClient(string) 'Guilded.GuildedBotClient.GuildedBotClient(string)')
-- [DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.AbstractGuildedClient.DisconnectAsync()')

@@ -30,4 +30,4 @@ An event with the name `ChannelMessageReactionCreated` and opcode `0`.
 - [MessageCreated](AbstractGuildedClient.MessageCreated 'Guilded.AbstractGuildedClient.MessageCreated')
 - [MessageUpdated](AbstractGuildedClient.MessageUpdated 'Guilded.AbstractGuildedClient.MessageUpdated')
 - [MessageDeleted](AbstractGuildedClient.MessageDeleted 'Guilded.AbstractGuildedClient.MessageDeleted')
-- [ReactionRemoved](AbstractGuildedClient.ReactionRemoved 'Guilded.AbstractGuildedClient.ReactionRemoved')
+- [MessageReactionRemoved](AbstractGuildedClient.MessageReactionRemoved 'Guilded.AbstractGuildedClient.MessageReactionRemoved')

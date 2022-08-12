@@ -18,7 +18,7 @@ description: ""
   - **[Description](CalendarCancellation.Description 'Guilded.Base.Content.CalendarCancellation.Description')** `Property`
     Gets the reason why [the calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') was cancelled.
 - **[CalendarEvent](CalendarEvent 'Guilded.Base.Content.CalendarEvent')** `Class`
-  Represents a document in a document channel.
+  Represents a calendar event in [a calendar channel](ChannelType#Guilded.Base.Servers.ChannelType.Calendar 'Guilded.Base.Servers.ChannelType.Calendar').
   - **[CalendarEvent(uint, Guid, HashId, string, HashId, DateTime, DateTime, string, Mentions, string, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, bool, CalendarCancellation)](CalendarEvent.CalendarEvent(uint,Guid,HashId,string,HashId,DateTime,DateTime,string,Mentions,string,Uri,Nullable_Color_,Nullable_uint_,bool,CalendarCancellation) 'Guilded.Base.Content.CalendarEvent.CalendarEvent(uint, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.DateTime, string, Guilded.Base.Content.Mentions, string, Uri, System.Nullable<Color>, System.Nullable<uint>, bool, Guilded.Base.Content.CalendarCancellation)')** `Constructor`
     Initializes a new instance of [CalendarEvent](CalendarEvent 'Guilded.Base.Content.CalendarEvent') from the specified JSON properties.
   - **[CanceledBy](CalendarEvent.CanceledBy 'Guilded.Base.Content.CalendarEvent.CanceledBy')** `Property`
@@ -43,6 +43,8 @@ description: ""
     Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the description](CalendarEvent.Description 'Guilded.Base.Content.CalendarEvent.Description').
   - **[Name](CalendarEvent.Name 'Guilded.Base.Content.CalendarEvent.Name')** `Property`
     Gets the title of [the titled content](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[RsvpLimit](CalendarEvent.RsvpLimit 'Guilded.Base.Content.CalendarEvent.RsvpLimit')** `Property`
+    Gets the limit of how many [users](User 'Guilded.Base.Users.User') can join [the calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
   - **[StartsAt](CalendarEvent.StartsAt 'Guilded.Base.Content.CalendarEvent.StartsAt')** `Property`
     Gets the date when [the calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') starts.
   - **[Url](CalendarEvent.Url 'Guilded.Base.Content.CalendarEvent.Url')** `Property`
@@ -51,12 +53,46 @@ description: ""
     Adds emote to the content.
   - **[DeleteAsync()](CalendarEvent.DeleteAsync() 'Guilded.Base.Content.CalendarEvent.DeleteAsync()')** `Method`
     Deletes the calendarEvent.
+  - **[GetRsvpAsync(HashId)](CalendarEvent.GetRsvpAsync(HashId) 'Guilded.Base.Content.CalendarEvent.GetRsvpAsync(Guilded.Base.HashId)')** `Method`
+    Gets the calendarEvent.
+  - **[GetRsvpsAsync()](CalendarEvent.GetRsvpsAsync() 'Guilded.Base.Content.CalendarEvent.GetRsvpsAsync()')** `Method`
+    Gets a list of [calendar events](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
   - **[RemoveReactionAsync(uint)](CalendarEvent.RemoveReactionAsync(uint) 'Guilded.Base.Content.CalendarEvent.RemoveReactionAsync(uint)')** `Method`
     Removes emote from the content.
+  - **[RemoveRsvpAsync(HashId)](CalendarEvent.RemoveRsvpAsync(HashId) 'Guilded.Base.Content.CalendarEvent.RemoveRsvpAsync(Guilded.Base.HashId)')** `Method`
+    Deletes the specified [calendar event RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[SetRsvpAsync(HashId, CalendarRsvpStatus)](CalendarEvent.SetRsvpAsync(HashId,CalendarRsvpStatus) 'Guilded.Base.Content.CalendarEvent.SetRsvpAsync(Guilded.Base.HashId, Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
+    Creates or edits a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent')[RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
   - **[UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;bool&gt;)](CalendarEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_TimeSpan_,Nullable_bool_) 'Guilded.Base.Content.CalendarEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<TimeSpan>, System.Nullable<bool>)')** `Method`
     Edits the calendarEvent.
   - **[UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](CalendarEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.Content.CalendarEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
     Edits the calendarEvent.
+- **[CalendarRsvp](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp')** `Class`
+  Represents [user's](User 'Guilded.Base.Users.User') invitation to or [user's](User 'Guilded.Base.Users.User') status on [a calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[CalendarRsvp(uint, HashId, Guid, HashId, CalendarRsvpStatus, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](CalendarRsvp.CalendarRsvp(uint,HashId,Guid,HashId,CalendarRsvpStatus,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_) 'Guilded.Base.Content.CalendarRsvp.CalendarRsvp(uint, Guilded.Base.HashId, Guid, Guilded.Base.HashId, Guilded.Base.Content.CalendarRsvpStatus, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
+    Initializes a new instance of [CalendarRsvp](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') from the specified JSON properties.
+  - **[CalendarEventId](CalendarRsvp.CalendarEventId 'Guilded.Base.Content.CalendarRsvp.CalendarEventId')** `Property`
+    Gets the identifier of [the parent calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[ChannelId](CalendarRsvp.ChannelId 'Guilded.Base.Content.CalendarRsvp.ChannelId')** `Property`
+    Gets the identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the calendar event](CalendarRsvp.CalendarEventId 'Guilded.Base.Content.CalendarRsvp.CalendarEventId') is.
+  - **[CreatedAt](CalendarRsvp.CreatedAt 'Guilded.Base.Content.CalendarRsvp.CreatedAt')** `Property`
+    Gets the date when [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') was created.
+  - **[CreatedBy](CalendarRsvp.CreatedBy 'Guilded.Base.Content.CalendarRsvp.CreatedBy')** `Property`
+    Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who created [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[ServerId](CalendarRsvp.ServerId 'Guilded.Base.Content.CalendarRsvp.ServerId')** `Property`
+    Gets the identifier of [the parent server](Server 'Guilded.Base.Servers.Server') where [the calendar event](CalendarRsvp.CalendarEventId 'Guilded.Base.Content.CalendarRsvp.CalendarEventId') is.
+  - **[Status](CalendarRsvp.Status 'Guilded.Base.Content.CalendarRsvp.Status')** `Property`
+    Gets the status of the [user's](CalendarRsvp.UserId 'Guilded.Base.Content.CalendarRsvp.UserId')[RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[UpdatedAt](CalendarRsvp.UpdatedAt 'Guilded.Base.Content.CalendarRsvp.UpdatedAt')** `Property`
+    Gets the date when [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp') was updated.
+  - **[UpdatedBy](CalendarRsvp.UpdatedBy 'Guilded.Base.Content.CalendarRsvp.UpdatedBy')** `Property`
+    Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who updated [the RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[UserId](CalendarRsvp.UserId 'Guilded.Base.Content.CalendarRsvp.UserId')** `Property`
+    Gets the identifier of [the user](User 'Guilded.Base.Users.User') whose RSVP it is.
+  - **[RemoveAsync()](CalendarRsvp.RemoveAsync() 'Guilded.Base.Content.CalendarRsvp.RemoveAsync()')** `Method`
+    Deletes the specified [calendar event RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[SetAsync(CalendarRsvpStatus)](CalendarRsvp.SetAsync(CalendarRsvpStatus) 'Guilded.Base.Content.CalendarRsvp.SetAsync(Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
+    Creates or edits a [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent')[RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
 - **[ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')** `Class`
   Represents the base for channel content.
   - **[ChannelContent(TId, Guid, TServer, HashId, DateTime)](ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,HashId,DateTime) 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelContent(TId, Guid, TServer, Guilded.Base.HashId, System.DateTime)')** `Constructor`
@@ -81,14 +117,28 @@ description: ""
   Represents a document in [a document channel](ChannelType#Guilded.Base.Servers.ChannelType.Docs 'Guilded.Base.Servers.ChannelType.Docs').
   - **[Doc(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Mentions)](Doc.Doc(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_,Mentions) 'Guilded.Base.Content.Doc.Doc(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, Guilded.Base.Content.Mentions)')** `Constructor`
     Initializes a new instance of [Doc](Doc 'Guilded.Base.Content.Doc') from the specified JSON properties.
+  - **[Content](Doc.Content 'Guilded.Base.Content.Doc.Content')** `Property`
+    Gets the text contents of the [document](Doc 'Guilded.Base.Content.Doc').
   - **[Mentions](Doc.Mentions 'Guilded.Base.Content.Doc.Mentions')** `Property`
-    Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](TitledContent.Content 'Guilded.Base.Content.TitledContent.Content').
+    Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Doc.Content 'Guilded.Base.Content.Doc.Content').
   - **[UpdatedBy](Doc.UpdatedBy 'Guilded.Base.Content.Doc.UpdatedBy')** `Property`
     Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who updated [the document](Doc 'Guilded.Base.Content.Doc').
   - **[DeleteAsync()](Doc.DeleteAsync() 'Guilded.Base.Content.Doc.DeleteAsync()')** `Method`
     Deletes the doc.
   - **[UpdateAsync(string, string)](Doc.UpdateAsync(string,string) 'Guilded.Base.Content.Doc.UpdateAsync(string, string)')** `Method`
     Edits content or title of the doc.
+- **[Emote](Emote 'Guilded.Base.Content.Emote')** `Class`
+  Represents an emoticon on Guilded. Either placed in [some kind of content](Message 'Guilded.Base.Content.Message') or as [a reaction](Reaction 'Guilded.Base.Content.Reaction').
+  - **[Emote(uint, string, Uri)](Emote.Emote(uint,string,Uri) 'Guilded.Base.Content.Emote.Emote(uint, string, Uri)')** `Constructor`
+    Initializes a new instance of [Emote](Emote 'Guilded.Base.Content.Emote') from the specified JSON properties.
+  - **[Id](Emote.Id 'Guilded.Base.Content.Emote.Id')** `Property`
+    Gets the identifier of [the emote](Emote 'Guilded.Base.Content.Emote').
+  - **[Name](Emote.Name 'Guilded.Base.Content.Emote.Name')** `Property`
+    Gets the name of [the emote](Emote 'Guilded.Base.Content.Emote').
+  - **[Url](Emote.Url 'Guilded.Base.Content.Emote.Url')** `Property`
+    Gets the URL to [the emote's](Emote 'Guilded.Base.Content.Emote') image.
+  - **[ToString()](Emote.ToString() 'Guilded.Base.Content.Emote.ToString()')** `Method`
+    Gets the string representation of [the emote](Emote 'Guilded.Base.Content.Emote').
 - **[ListItem](ListItem 'Guilded.Base.Content.ListItem')** `Class`
   Represents an item in a list channel.
   - **[ListItem(Guid, Guid, HashId, string, HashId, DateTime, Nullable&lt;Guid&gt;, Mentions, ListItemNote, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;Guid&gt;)](ListItem.ListItem(Guid,Guid,HashId,string,HashId,DateTime,Nullable_Guid_,Mentions,ListItemNote,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,Nullable_HashId_,Nullable_Guid_) 'Guilded.Base.Content.ListItem.ListItem(Guid, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, Guilded.Base.Content.Mentions, Guilded.Base.Content.ListItemNote, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<Guid>)')** `Constructor`
@@ -288,9 +338,9 @@ description: ""
   - **[CreatedAt](Reaction.CreatedAt 'Guilded.Base.Content.Reaction.CreatedAt')** `Property`
     Gets the date when [the reaction](Reaction 'Guilded.Base.Content.Reaction') was created.
   - **[CreatedBy](Reaction.CreatedBy 'Guilded.Base.Content.Reaction.CreatedBy')** `Property`
-    Gets the identifier of [user](User 'Guilded.Base.Users.User') that created [the reaction](Reaction 'Guilded.Base.Content.Reaction').
+    Gets the identifier of [the user](User 'Guilded.Base.Users.User') that reacted.
   - **[CreatedByWebhook](Reaction.CreatedByWebhook 'Guilded.Base.Content.Reaction.CreatedByWebhook')** `Property`
-    Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created [the reaction](Reaction 'Guilded.Base.Content.Reaction').
+    Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that reacted.
   - **[Id](Reaction.Id 'Guilded.Base.Content.Reaction.Id')** `Property`
     Gets the identifier of the emote that was reacted with.
   - **[ServerId](Reaction.ServerId 'Guilded.Base.Content.Reaction.ServerId')** `Property`
@@ -301,10 +351,8 @@ description: ""
     Gets a hashcode of this object.
 - **[TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')** `Class`
   Represents a document in a document channel.
-  - **[TitledContent(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;DateTime&gt;)](TitledContent.TitledContent(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_DateTime_) 'Guilded.Base.Content.TitledContent.TitledContent(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>)')** `Constructor`
+  - **[TitledContent(uint, Guid, HashId, string, HashId, DateTime, Nullable&lt;DateTime&gt;)](TitledContent.TitledContent(uint,Guid,HashId,string,HashId,DateTime,Nullable_DateTime_) 'Guilded.Base.Content.TitledContent.TitledContent(uint, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>)')** `Constructor`
     Initializes a new instance of [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent') from the specified JSON properties.
-  - **[Content](TitledContent.Content 'Guilded.Base.Content.TitledContent.Content')** `Property`
-    Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
   - **[Title](TitledContent.Title 'Guilded.Base.Content.TitledContent.Title')** `Property`
     Gets the title of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
   - **[UpdatedAt](TitledContent.UpdatedAt 'Guilded.Base.Content.TitledContent.UpdatedAt')** `Property`
@@ -314,11 +362,25 @@ description: ""
   - **[RemoveReactionAsync(uint)](TitledContent.RemoveReactionAsync(uint) 'Guilded.Base.Content.TitledContent.RemoveReactionAsync(uint)')** `Method`
     Removes emote from the content.
 - **[Topic](Topic 'Guilded.Base.Content.Topic')** `Class`
-  Represents a topic in [a forum channel](ChannelType#Guilded.Base.Servers.ChannelType.Forums 'Guilded.Base.Servers.ChannelType.Forums').
-  - **[Topic(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](Topic.Topic(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.Topic.Topic(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, System.Nullable<System.DateTime>)')** `Constructor`
+  Represents the full information of a topic/post/thread in a [forum channel](ChannelType#Guilded.Base.Servers.ChannelType.Forums 'Guilded.Base.Servers.ChannelType.Forums').
+  - **[Topic(uint, Guid, HashId, string, string, HashId, DateTime, DateTime, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](Topic.Topic(uint,Guid,HashId,string,string,HashId,DateTime,DateTime,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.Topic.Topic(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.DateTime, System.Nullable<Guid>, System.Nullable<System.DateTime>)')** `Constructor`
     Initializes a new instance of [Topic](Topic 'Guilded.Base.Content.Topic') from the specified JSON properties.
-  - **[CreatedByWebhook](Topic.CreatedByWebhook 'Guilded.Base.Content.Topic.CreatedByWebhook')** `Property`
-    Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created [the forum thread](Topic 'Guilded.Base.Content.Topic').
+  - **[Content](Topic.Content 'Guilded.Base.Content.Topic.Content')** `Property`
+    Gets the text contents of the [topic](Topic 'Guilded.Base.Content.Topic').
+- **[TopicSummary](TopicSummary 'Guilded.Base.Content.TopicSummary')** `Class`
+  Represents a summary of a [topic](Topic 'Guilded.Base.Content.Topic') in a [forum channel](ChannelType#Guilded.Base.Servers.ChannelType.Forums 'Guilded.Base.Servers.ChannelType.Forums').
+  - **[TopicSummary(uint, Guid, HashId, string, HashId, DateTime, DateTime, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;, Mentions)](TopicSummary.TopicSummary(uint,Guid,HashId,string,HashId,DateTime,DateTime,Nullable_Guid_,Nullable_DateTime_,Mentions) 'Guilded.Base.Content.TopicSummary.TopicSummary(uint, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.DateTime, System.Nullable<Guid>, System.Nullable<System.DateTime>, Guilded.Base.Content.Mentions)')** `Constructor`
+    Initializes a new instance of [TopicSummary](TopicSummary 'Guilded.Base.Content.TopicSummary') from the specified JSON properties.
+  - **[BumpedAt](TopicSummary.BumpedAt 'Guilded.Base.Content.TopicSummary.BumpedAt')** `Property`
+    Gets the date when the [topic](TopicSummary 'Guilded.Base.Content.TopicSummary') was bumped.
+  - **[CreatedByWebhook](TopicSummary.CreatedByWebhook 'Guilded.Base.Content.TopicSummary.CreatedByWebhook')** `Property`
+    Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created [the forum thread](TopicSummary 'Guilded.Base.Content.TopicSummary').
+  - **[Mentions](TopicSummary.Mentions 'Guilded.Base.Content.TopicSummary.Mentions')** `Property`
+    Gets the [mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content').
+  - **[DeleteAsync()](TopicSummary.DeleteAsync() 'Guilded.Base.Content.TopicSummary.DeleteAsync()')** `Method`
+    Deletes a [forum post](Topic 'Guilded.Base.Content.Topic').
+  - **[UpdateAsync(string, string)](TopicSummary.UpdateAsync(string,string) 'Guilded.Base.Content.TopicSummary.UpdateAsync(string, string)')** `Method`
+    Edits [forum post's](Topic 'Guilded.Base.Content.Topic')title and content.
 - **[IContentBlockMarkdown](IContentBlockMarkdown 'Guilded.Base.Content.IContentBlockMarkdown')** `Interface`
   Represents [the channel content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that allow block formatting.
   - **[Embeds](IContentBlockMarkdown.Embeds 'Guilded.Base.Content.IContentBlockMarkdown.Embeds')** `Property`
@@ -326,7 +388,7 @@ description: ""
 - **[IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown')** `Interface`
   Represents [the channel content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that allow inline formatting.
   - **[Mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions')** `Property`
-    Gets [the mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content').
+    Gets the [mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content').
 - **[ICreatableContent](ICreatableContent 'Guilded.Base.Content.ICreatableContent')** `Interface`
   Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that can be created.
   - **[CreatedAt](ICreatableContent.CreatedAt 'Guilded.Base.Content.ICreatableContent.CreatedAt')** `Property`
@@ -347,6 +409,18 @@ description: ""
   Represents [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') that can be created by [a webhook](Webhook 'Guilded.Base.Servers.Webhook').
   - **[CreatedByWebhook](IWebhookCreatable.CreatedByWebhook 'Guilded.Base.Content.IWebhookCreatable.CreatedByWebhook')** `Property`
     Gets the identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') that created [the content](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>').
+- **[CalendarRsvpStatus](CalendarRsvpStatus 'Guilded.Base.Content.CalendarRsvpStatus')** `Enum`
+  Represents the status of [event RSVP](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp').
+  - **[Declined](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Declined 'Guilded.Base.Content.CalendarRsvpStatus.Declined')** `Field`
+    The [user](User 'Guilded.Base.Users.User') will not attend the [event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[Going](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Going 'Guilded.Base.Content.CalendarRsvpStatus.Going')** `Field`
+    The [user](User 'Guilded.Base.Users.User') will attend the [event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[Invited](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Invited 'Guilded.Base.Content.CalendarRsvpStatus.Invited')** `Field`
+    The [user](User 'Guilded.Base.Users.User') has been invited to attend the [event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') by [someone else](CalendarRsvp.CreatedBy 'Guilded.Base.Content.CalendarRsvp.CreatedBy').
+  - **[Maybe](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Maybe 'Guilded.Base.Content.CalendarRsvpStatus.Maybe')** `Field`
+    The [user](User 'Guilded.Base.Users.User') has not decided if they will attend the [event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
+  - **[Waitlisted](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Waitlisted 'Guilded.Base.Content.CalendarRsvpStatus.Waitlisted')** `Field`
+    The [user](User 'Guilded.Base.Users.User') is asked for a response on attending the [event](CalendarEvent 'Guilded.Base.Content.CalendarEvent').
 - **[MessageType](MessageType 'Guilded.Base.Content.MessageType')** `Enum`
   Represents the type of a [message](Message 'Guilded.Base.Content.Message') that was created or updated.
   - **[Default](MessageType#Guilded.Base.Content.MessageType.Default 'Guilded.Base.Content.MessageType.Default')** `Field`

@@ -26,4 +26,4 @@ public Guilded.Base.Content.Doc Doc { get; }
 ### See Also
 - [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')
 - [Title](DocEvent.Title 'Guilded.Base.Events.DocEvent.Title')
-- [ServerId](DocEvent.ServerId 'Guilded.Base.Events.DocEvent.ServerId')
+- [Guilded.Base.Events.DocEvent.ServerId](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.DocEvent.ServerId 'Guilded.Base.Events.DocEvent.ServerId')

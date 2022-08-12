@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task AddReactionAsync(Guid channel, Guid 
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.AddReactionAsync(Guid,Guid,uint).message'></a>
 
 `message` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the message](Message 'Guilded.Base.Content.Message') to add [a reaction](Reaction 'Guilded.Base.Content.Reaction') to
+The identifier of the [message](Message 'Guilded.Base.Content.Message') to add a [reaction](Reaction 'Guilded.Base.Content.Reaction') to
 
 <a name='Guilded.AbstractGuildedClient.AddReactionAsync(Guid,Guid,uint).emote'></a>
 

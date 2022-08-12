@@ -24,25 +24,25 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> Update
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') is
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') where the [webhook](Webhook 'Guilded.Base.Servers.Webhook') is
 
 <a name='Guilded.AbstractGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId,Guid,string,System.Nullable_Guid_).webhook'></a>
 
 `webhook` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') to update
+The identifier of the [webhook](Webhook 'Guilded.Base.Servers.Webhook') to update
 
 <a name='Guilded.AbstractGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId,Guid,string,System.Nullable_Guid_).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The new name of [the webhook](Webhook 'Guilded.Base.Servers.Webhook')
+The new name of the [webhook](Webhook 'Guilded.Base.Servers.Webhook')
 
 <a name='Guilded.AbstractGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId,Guid,string,System.Nullable_Guid_).newChannel'></a>
 
 `newChannel` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where [the webhook](Webhook 'Guilded.Base.Servers.Webhook') will be moved to
+The identifier of the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') where the [webhook](Webhook 'Guilded.Base.Servers.Webhook') will be moved to
 
 ### Remarks
   

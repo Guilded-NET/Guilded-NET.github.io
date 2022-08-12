@@ -19,7 +19,7 @@ Represents the client type for Guilded bots.
 public class GuildedBotClient : Guilded.AbstractGuildedClient
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') &#129106; [AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient') &#129106; GuildedBotClient
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Guilded.Base.BaseGuildedService](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.BaseGuildedService 'Guilded.Base.BaseGuildedService') &#129106; [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient') &#129106; [AbstractGuildedClient](AbstractGuildedClient 'Guilded.AbstractGuildedClient') &#129106; GuildedBotClient
 
 ### Remarks
   

@@ -26,4 +26,4 @@ public Guilded.Base.Content.CalendarEvent CalendarEvent { get; }
 ### See Also
 - [CalendarEventEvent](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent')
 - [ChannelId](CalendarEventEvent.ChannelId 'Guilded.Base.Events.CalendarEventEvent.ChannelId')
-- [ServerId](CalendarEventEvent.ServerId 'Guilded.Base.Events.CalendarEventEvent.ServerId')
+- [Guilded.Base.Events.CalendarEventEvent.ServerId](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.CalendarEventEvent.ServerId 'Guilded.Base.Events.CalendarEventEvent.ServerId')

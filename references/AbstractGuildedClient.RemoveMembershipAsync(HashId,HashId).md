@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Removes user from [group](AbstractGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group')."
+Removes the user from the [group](AbstractGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group')."
 ---
 
 ## AbstractGuildedClient.RemoveMembershipAsync(HashId, HashId) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Removes user from [group](AbstractGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
+Removes the user from the [group](AbstractGuildedClient.RemoveMembershipAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId,Guilded.Base.HashId).group 'Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId).group').
 
 ```csharp
 public override System.Threading.Tasks.Task RemoveMembershipAsync(Guilded.Base.HashId group, Guilded.Base.HashId member);
@@ -32,7 +32,7 @@ The identifier of the parent group
 
 ### Remarks
   
-This disallows user to interact or see the specified group.
+This disallows the user to interact or see the specified group.
 
 #### Exceptions
 

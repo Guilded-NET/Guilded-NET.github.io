@@ -26,28 +26,36 @@
     - **[MemberUpdated](AbstractGuildedClient.MemberUpdated 'Guilded.AbstractGuildedClient.MemberUpdated')** `Property`
     - **[MessageCreated](AbstractGuildedClient.MessageCreated 'Guilded.AbstractGuildedClient.MessageCreated')** `Property`
     - **[MessageDeleted](AbstractGuildedClient.MessageDeleted 'Guilded.AbstractGuildedClient.MessageDeleted')** `Property`
+    - **[MessageReactionAdded](AbstractGuildedClient.MessageReactionAdded 'Guilded.AbstractGuildedClient.MessageReactionAdded')** `Property`
+    - **[MessageReactionRemoved](AbstractGuildedClient.MessageReactionRemoved 'Guilded.AbstractGuildedClient.MessageReactionRemoved')** `Property`
     - **[MessageUpdated](AbstractGuildedClient.MessageUpdated 'Guilded.AbstractGuildedClient.MessageUpdated')** `Property`
     - **[Prepared](AbstractGuildedClient.Prepared 'Guilded.AbstractGuildedClient.Prepared')** `Property`
     - **[ReactionAdded](AbstractGuildedClient.ReactionAdded 'Guilded.AbstractGuildedClient.ReactionAdded')** `Property`
     - **[ReactionRemoved](AbstractGuildedClient.ReactionRemoved 'Guilded.AbstractGuildedClient.ReactionRemoved')** `Property`
     - **[Resume](AbstractGuildedClient.Resume 'Guilded.AbstractGuildedClient.Resume')** `Property`
     - **[RolesUpdated](AbstractGuildedClient.RolesUpdated 'Guilded.AbstractGuildedClient.RolesUpdated')** `Property`
+    - **[RsvpDeleted](AbstractGuildedClient.RsvpDeleted 'Guilded.AbstractGuildedClient.RsvpDeleted')** `Property`
+    - **[RsvpManyUpdated](AbstractGuildedClient.RsvpManyUpdated 'Guilded.AbstractGuildedClient.RsvpManyUpdated')** `Property`
+    - **[RsvpUpdated](AbstractGuildedClient.RsvpUpdated 'Guilded.AbstractGuildedClient.RsvpUpdated')** `Property`
+    - **[TopicCreated](AbstractGuildedClient.TopicCreated 'Guilded.AbstractGuildedClient.TopicCreated')** `Property`
+    - **[TopicDeleted](AbstractGuildedClient.TopicDeleted 'Guilded.AbstractGuildedClient.TopicDeleted')** `Property`
+    - **[TopicUpdated](AbstractGuildedClient.TopicUpdated 'Guilded.AbstractGuildedClient.TopicUpdated')** `Property`
     - **[WebhookCreated](AbstractGuildedClient.WebhookCreated 'Guilded.AbstractGuildedClient.WebhookCreated')** `Property`
     - **[WebhookUpdated](AbstractGuildedClient.WebhookUpdated 'Guilded.AbstractGuildedClient.WebhookUpdated')** `Property`
     - **[Welcome](AbstractGuildedClient.Welcome 'Guilded.AbstractGuildedClient.Welcome')** `Property`
     - **[XpAdded](AbstractGuildedClient.XpAdded 'Guilded.AbstractGuildedClient.XpAdded')** `Property`
     - **[AddMemberBanAsync(HashId, HashId, string)](AbstractGuildedClient.AddMemberBanAsync(HashId,HashId,string) 'Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    - **[AddMemberRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.AddMemberRoleAsync(HashId,HashId,uint) 'Guilded.AbstractGuildedClient.AddMemberRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
     - **[AddMembershipAsync(HashId, HashId)](AbstractGuildedClient.AddMembershipAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.AddMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     - **[AddReactionAsync(Guid, Guid, uint)](AbstractGuildedClient.AddReactionAsync(Guid,Guid,uint) 'Guilded.AbstractGuildedClient.AddReactionAsync(Guid, Guid, uint)')** `Method`
     - **[AddReactionAsync(Guid, uint, uint)](AbstractGuildedClient.AddReactionAsync(Guid,uint,uint) 'Guilded.AbstractGuildedClient.AddReactionAsync(Guid, uint, uint)')** `Method`
-    - **[AddRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.AddRoleAsync(HashId,HashId,uint) 'Guilded.AbstractGuildedClient.AddRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
-    - **[AddXpAsync(HashId, HashId, long)](AbstractGuildedClient.AddXpAsync(HashId,HashId,long) 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, long)')** `Method`
-    - **[AddXpAsync(HashId, uint, long)](AbstractGuildedClient.AddXpAsync(HashId,uint,long) 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, long)')** `Method`
+    - **[AddXpAsync(HashId, HashId, short)](AbstractGuildedClient.AddXpAsync(HashId,HashId,short) 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, Guilded.Base.HashId, short)')** `Method`
+    - **[AddXpAsync(HashId, uint, short)](AbstractGuildedClient.AddXpAsync(HashId,uint,short) 'Guilded.AbstractGuildedClient.AddXpAsync(Guilded.Base.HashId, uint, short)')** `Method`
     - **[CompleteListItemAsync(Guid, Guid)](AbstractGuildedClient.CompleteListItemAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.CompleteListItemAsync(Guid, Guid)')** `Method`
     - **[ConnectAsync()](AbstractGuildedClient.ConnectAsync() 'Guilded.AbstractGuildedClient.ConnectAsync()')** `Method`
     - **[CreateChannelAsync(HashId, string, ChannelType, string, Nullable&lt;HashId&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](AbstractGuildedClient.CreateChannelAsync(HashId,string,ChannelType,string,Nullable_HashId_,Nullable_uint_,Nullable_bool_) 'Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId, string, Guilded.Base.Servers.ChannelType, string, System.Nullable<Guilded.Base.HashId>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
     - **[CreateDocAsync(Guid, string, string)](AbstractGuildedClient.CreateDocAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
-    - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, bool)](AbstractGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,bool) 'Guilded.AbstractGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, bool)')** `Method`
+    - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;, bool)](AbstractGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_uint_,bool) 'Guilded.AbstractGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<uint>, bool)')** `Method`
     - **[CreateHookMessageAsync(Uri, MessageContent)](AbstractGuildedClient.CreateHookMessageAsync(Uri,MessageContent) 'Guilded.AbstractGuildedClient.CreateHookMessageAsync(Uri, Guilded.Base.Content.MessageContent)')** `Method`
     - **[CreateListItemAsync(Guid, string, string)](AbstractGuildedClient.CreateListItemAsync(Guid,string,string) 'Guilded.AbstractGuildedClient.CreateListItemAsync(Guid, string, string)')** `Method`
     - **[CreateMessageAsync(Guid, MessageContent)](AbstractGuildedClient.CreateMessageAsync(Guid,MessageContent) 'Guilded.AbstractGuildedClient.CreateMessageAsync(Guid, Guilded.Base.Content.MessageContent)')** `Method`
@@ -59,9 +67,8 @@
     - **[DeleteListItemAsync(Guid, Guid)](AbstractGuildedClient.DeleteListItemAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.DeleteListItemAsync(Guid, Guid)')** `Method`
     - **[DeleteMessageAsync(Guid, Guid)](AbstractGuildedClient.DeleteMessageAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.DeleteMessageAsync(Guid, Guid)')** `Method`
     - **[DeleteNicknameAsync(HashId, HashId)](AbstractGuildedClient.DeleteNicknameAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[DeleteTopicAsync(Guid, uint)](AbstractGuildedClient.DeleteTopicAsync(Guid,uint) 'Guilded.AbstractGuildedClient.DeleteTopicAsync(Guid, uint)')** `Method`
     - **[DeleteWebhookAsync(HashId, Guid)](AbstractGuildedClient.DeleteWebhookAsync(HashId,Guid) 'Guilded.AbstractGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
-    - **[DisconnectAsync()](AbstractGuildedClient.DisconnectAsync() 'Guilded.AbstractGuildedClient.DisconnectAsync()')** `Method`
-    - **[DisposeAsync()](AbstractGuildedClient.DisposeAsync() 'Guilded.AbstractGuildedClient.DisposeAsync()')** `Method`
     - **[GetBanAsync(HashId, HashId)](AbstractGuildedClient.GetBanAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     - **[GetBansAsync(HashId)](AbstractGuildedClient.GetBansAsync(HashId) 'Guilded.AbstractGuildedClient.GetBansAsync(Guilded.Base.HashId)')** `Method`
     - **[GetChannelAsync(Guid)](AbstractGuildedClient.GetChannelAsync(Guid) 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid)')** `Method`
@@ -76,16 +83,23 @@
     - **[GetMembersAsync(HashId)](AbstractGuildedClient.GetMembersAsync(HashId) 'Guilded.AbstractGuildedClient.GetMembersAsync(Guilded.Base.HashId)')** `Method`
     - **[GetMessageAsync(Guid, Guid)](AbstractGuildedClient.GetMessageAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.GetMessageAsync(Guid, Guid)')** `Method`
     - **[GetMessagesAsync(Guid, bool, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)](AbstractGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_) 'Guilded.AbstractGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>)')** `Method`
+    - **[GetRsvpAsync(Guid, uint, HashId)](AbstractGuildedClient.GetRsvpAsync(Guid,uint,HashId) 'Guilded.AbstractGuildedClient.GetRsvpAsync(Guid, uint, Guilded.Base.HashId)')** `Method`
+    - **[GetRsvpsAsync(Guid, uint)](AbstractGuildedClient.GetRsvpsAsync(Guid,uint) 'Guilded.AbstractGuildedClient.GetRsvpsAsync(Guid, uint)')** `Method`
+    - **[GetServerAsync(HashId)](AbstractGuildedClient.GetServerAsync(HashId) 'Guilded.AbstractGuildedClient.GetServerAsync(Guilded.Base.HashId)')** `Method`
     - **[GetSocialLinkAsync(HashId, HashId, SocialLinkType)](AbstractGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType) 'Guilded.AbstractGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
+    - **[GetTopicAsync(Guid, uint)](AbstractGuildedClient.GetTopicAsync(Guid,uint) 'Guilded.AbstractGuildedClient.GetTopicAsync(Guid, uint)')** `Method`
+    - **[GetTopicsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](AbstractGuildedClient.GetTopicsAsync(Guid,Nullable_uint_,Nullable_DateTime_) 'Guilded.AbstractGuildedClient.GetTopicsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
     - **[GetWebhookAsync(HashId, Guid)](AbstractGuildedClient.GetWebhookAsync(HashId,Guid) 'Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
     - **[GetWebhooksAsync(HashId, Nullable&lt;Guid&gt;)](AbstractGuildedClient.GetWebhooksAsync(HashId,Nullable_Guid_) 'Guilded.AbstractGuildedClient.GetWebhooksAsync(Guilded.Base.HashId, System.Nullable<Guid>)')** `Method`
     - **[OnSocketMessage(GuildedSocketMessage)](AbstractGuildedClient.OnSocketMessage(GuildedSocketMessage) 'Guilded.AbstractGuildedClient.OnSocketMessage(Guilded.Base.Events.GuildedSocketMessage)')** `Method`
     - **[RemoveMemberAsync(HashId, HashId)](AbstractGuildedClient.RemoveMemberAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.RemoveMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     - **[RemoveMemberBanAsync(HashId, HashId)](AbstractGuildedClient.RemoveMemberBanAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[RemoveMemberRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.RemoveMemberRoleAsync(HashId,HashId,uint) 'Guilded.AbstractGuildedClient.RemoveMemberRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
     - **[RemoveMembershipAsync(HashId, HashId)](AbstractGuildedClient.RemoveMembershipAsync(HashId,HashId) 'Guilded.AbstractGuildedClient.RemoveMembershipAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     - **[RemoveReactionAsync(Guid, Guid, uint)](AbstractGuildedClient.RemoveReactionAsync(Guid,Guid,uint) 'Guilded.AbstractGuildedClient.RemoveReactionAsync(Guid, Guid, uint)')** `Method`
     - **[RemoveReactionAsync(Guid, uint, uint)](AbstractGuildedClient.RemoveReactionAsync(Guid,uint,uint) 'Guilded.AbstractGuildedClient.RemoveReactionAsync(Guid, uint, uint)')** `Method`
-    - **[RemoveRoleAsync(HashId, HashId, uint)](AbstractGuildedClient.RemoveRoleAsync(HashId,HashId,uint) 'Guilded.AbstractGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
+    - **[RemoveRsvpAsync(Guid, uint, HashId)](AbstractGuildedClient.RemoveRsvpAsync(Guid,uint,HashId) 'Guilded.AbstractGuildedClient.RemoveRsvpAsync(Guid, uint, Guilded.Base.HashId)')** `Method`
+    - **[SetRsvpAsync(Guid, uint, HashId, CalendarRsvpStatus)](AbstractGuildedClient.SetRsvpAsync(Guid,uint,HashId,CalendarRsvpStatus) 'Guilded.AbstractGuildedClient.SetRsvpAsync(Guid, uint, Guilded.Base.HashId, Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
     - **[UncompleteListItemAsync(Guid, Guid)](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid) 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid)')** `Method`
     - **[UpdateChannelAsync(Guid, string, string, Nullable&lt;bool&gt;)](AbstractGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_) 'Guilded.AbstractGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>)')** `Method`
     - **[UpdateDocAsync(Guid, uint, string, string)](AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string) 'Guilded.AbstractGuildedClient.UpdateDocAsync(Guid, uint, string, string)')** `Method`
@@ -93,6 +107,7 @@
     - **[UpdateListItemAsync(Guid, Guid, string, string)](AbstractGuildedClient.UpdateListItemAsync(Guid,Guid,string,string) 'Guilded.AbstractGuildedClient.UpdateListItemAsync(Guid, Guid, string, string)')** `Method`
     - **[UpdateMessageAsync(Guid, Guid, MessageContent)](AbstractGuildedClient.UpdateMessageAsync(Guid,Guid,MessageContent) 'Guilded.AbstractGuildedClient.UpdateMessageAsync(Guid, Guid, Guilded.Base.Content.MessageContent)')** `Method`
     - **[UpdateNicknameAsync(HashId, HashId, string)](AbstractGuildedClient.UpdateNicknameAsync(HashId,HashId,string) 'Guilded.AbstractGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    - **[UpdateTopicAsync(Guid, uint, string, string)](AbstractGuildedClient.UpdateTopicAsync(Guid,uint,string,string) 'Guilded.AbstractGuildedClient.UpdateTopicAsync(Guid, uint, string, string)')** `Method`
     - **[UpdateWebhookAsync(HashId, Guid, string, Nullable&lt;Guid&gt;)](AbstractGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_) 'Guilded.AbstractGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>)')** `Method`
   - **[EventInfo&lt;T&gt;](EventInfo_T_ 'Guilded.EventInfo<T>')** `Class`
     - **[EventInfo()](EventInfo_T_.EventInfo() 'Guilded.EventInfo<T>.EventInfo()')** `Constructor`
@@ -107,6 +122,25 @@
     - **[AuthToken](GuildedBotClient.AuthToken 'Guilded.GuildedBotClient.AuthToken')** `Property`
     - **[ConnectAsync()](GuildedBotClient.ConnectAsync() 'Guilded.GuildedBotClient.ConnectAsync()')** `Method`
     - **[ConnectAsync(string)](GuildedBotClient.ConnectAsync(string) 'Guilded.GuildedBotClient.ConnectAsync(string)')** `Method`
+  - **[GuildedWebhookClient](GuildedWebhookClient 'Guilded.GuildedWebhookClient')** `Class`
+    - **[GuildedWebhookClient(Guid, string)](GuildedWebhookClient.GuildedWebhookClient(Guid,string) 'Guilded.GuildedWebhookClient.GuildedWebhookClient(Guid, string)')** `Constructor`
+    - **[GuildedWebhookClient(IWebhook[])](GuildedWebhookClient.GuildedWebhookClient(IWebhook[]) 'Guilded.GuildedWebhookClient.GuildedWebhookClient(Guilded.Base.Servers.IWebhook[])')** `Constructor`
+    - **[GuildedWebhookClient(string[])](GuildedWebhookClient.GuildedWebhookClient(string[]) 'Guilded.GuildedWebhookClient.GuildedWebhookClient(string[])')** `Constructor`
+    - **[GuildedWebhookClient(IList&lt;IWebhook&gt;)](GuildedWebhookClient.GuildedWebhookClient(IList_IWebhook_) 'Guilded.GuildedWebhookClient.GuildedWebhookClient(System.Collections.Generic.IList<Guilded.Base.Servers.IWebhook>)')** `Constructor`
+    - **[GuildedWebhookClient(Uri[])](GuildedWebhookClient.GuildedWebhookClient(Uri[]) 'Guilded.GuildedWebhookClient.GuildedWebhookClient(Uri[])')** `Constructor`
+    - **[Webhooks](GuildedWebhookClient.Webhooks 'Guilded.GuildedWebhookClient.Webhooks')** `Property`
+    - **[CreateMessageAsync(MessageContent)](GuildedWebhookClient.CreateMessageAsync(MessageContent) 'Guilded.GuildedWebhookClient.CreateMessageAsync(Guilded.Base.Content.MessageContent)')** `Method`
+    - **[CreateMessageAsync(Embed[])](GuildedWebhookClient.CreateMessageAsync(Embed[]) 'Guilded.GuildedWebhookClient.CreateMessageAsync(Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, Embed[])](GuildedWebhookClient.CreateMessageAsync(string,Embed[]) 'Guilded.GuildedWebhookClient.CreateMessageAsync(string, Guilded.Base.Embeds.Embed[])')** `Method`
+    - **[CreateMessageAsync(string, IList&lt;Embed&gt;)](GuildedWebhookClient.CreateMessageAsync(string,IList_Embed_) 'Guilded.GuildedWebhookClient.CreateMessageAsync(string, System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+    - **[CreateMessageAsync(string)](GuildedWebhookClient.CreateMessageAsync(string) 'Guilded.GuildedWebhookClient.CreateMessageAsync(string)')** `Method`
+    - **[CreateMessageAsync(IList&lt;Embed&gt;)](GuildedWebhookClient.CreateMessageAsync(IList_Embed_) 'Guilded.GuildedWebhookClient.CreateMessageAsync(System.Collections.Generic.IList<Guilded.Base.Embeds.Embed>)')** `Method`
+  - **[WebhookSkeleton](WebhookSkeleton 'Guilded.WebhookSkeleton')** `Class`
+    - **[WebhookSkeleton(Guid, string)](WebhookSkeleton.WebhookSkeleton(Guid,string) 'Guilded.WebhookSkeleton.WebhookSkeleton(Guid, string)')** `Constructor`
+    - **[WebhookSkeleton(string, string)](WebhookSkeleton.WebhookSkeleton(string,string) 'Guilded.WebhookSkeleton.WebhookSkeleton(string, string)')** `Constructor`
+    - **[WebhookSkeleton(string)](WebhookSkeleton.WebhookSkeleton(string) 'Guilded.WebhookSkeleton.WebhookSkeleton(string)')** `Constructor`
+    - **[WebhookSkeleton(Uri)](WebhookSkeleton.WebhookSkeleton(Uri) 'Guilded.WebhookSkeleton.WebhookSkeleton(Uri)')** `Constructor`
+    - **[Url](WebhookSkeleton.Url 'Guilded.WebhookSkeleton.Url')** `Property`
   - **[IEventInfo&lt;T&gt;](IEventInfo_T_ 'Guilded.IEventInfo<T>')** `Interface`
     - **[ArgumentType](IEventInfo_T_.ArgumentType 'Guilded.IEventInfo<T>.ArgumentType')** `Property`
     - **[Observable](IEventInfo_T_.Observable 'Guilded.IEventInfo<T>.Observable')** `Property`
@@ -143,14 +177,11 @@
     - **[Name](CommandAttribute.Name 'Guilded.Commands.CommandAttribute.Name')** `Property`
   - **[CommandBase](CommandBase 'Guilded.Commands.CommandBase')** `Class`
     - **[CommandBase()](CommandBase.CommandBase() 'Guilded.Commands.CommandBase.CommandBase()')** `Constructor`
-    - **[CommandLookup](CommandBase.CommandLookup 'Guilded.Commands.CommandBase.CommandLookup')** `Property`
-    - **[Commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands')** `Property`
-    - **[FailedCommand](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand')** `Property`
-    - **[FilterCommandsByName(string)](CommandBase.FilterCommandsByName(string) 'Guilded.Commands.CommandBase.FilterCommandsByName(string)')** `Method`
-    - **[InvokeAsync(string, RootCommandEvent, IEnumerable&lt;string&gt;)](CommandBase.InvokeAsync(string,RootCommandEvent,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeAsync(string, Guilded.Commands.RootCommandEvent, System.Collections.Generic.IEnumerable<string>)')** `Method`
-    - **[InvokeCommandAsync(CommandContainerInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandBase.InvokeCommandAsync(CommandContainerInfo,RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeCommandAsync(Guilded.Commands.CommandContainerInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
-    - **[InvokeCommandAsync(CommandInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;, IEnumerable&lt;object&gt;)](CommandBase.InvokeCommandAsync(CommandInfo,RootCommandEvent,string,IEnumerable_string_,IEnumerable_object_) 'Guilded.Commands.CommandBase.InvokeCommandAsync(Guilded.Commands.CommandInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<object>)')** `Method`
-    - **[InvokeCommandByNameAsync(RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandBase.InvokeCommandByNameAsync(RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeCommandByNameAsync(Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
+    - **[Aliases](CommandBase.Aliases 'Guilded.Commands.CommandBase.Aliases')** `Property`
+    - **[Description](CommandBase.Description 'Guilded.Commands.CommandBase.Description')** `Property`
+    - **[Examples](CommandBase.Examples 'Guilded.Commands.CommandBase.Examples')** `Property`
+    - **[InstanceInfo](CommandBase.InstanceInfo 'Guilded.Commands.CommandBase.InstanceInfo')** `Property`
+    - **[Name](CommandBase.Name 'Guilded.Commands.CommandBase.Name')** `Property`
   - **[CommandConfiguration](CommandConfiguration 'Guilded.Commands.CommandConfiguration')** `Class`
     - **[CommandConfiguration()](CommandConfiguration.CommandConfiguration() 'Guilded.Commands.CommandConfiguration.CommandConfiguration()')** `Constructor`
     - **[CommandConfiguration(string, char[], StringSplitOptions)](CommandConfiguration.CommandConfiguration(string,char[],StringSplitOptions) 'Guilded.Commands.CommandConfiguration.CommandConfiguration(string, char[], StringSplitOptions)')** `Constructor`
@@ -163,7 +194,7 @@
     - **[Separators](CommandConfiguration.Separators 'Guilded.Commands.CommandConfiguration.Separators')** `Property`
     - **[SplitOptions](CommandConfiguration.SplitOptions 'Guilded.Commands.CommandConfiguration.SplitOptions')** `Property`
   - **[CommandContainerInfo](CommandContainerInfo 'Guilded.Commands.CommandContainerInfo')** `Class`
-    - **[CommandContainerInfo(Type, CommandAttribute, CommandBase)](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandBase) 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandBase)')** `Constructor`
+    - **[CommandContainerInfo(Type, CommandAttribute, CommandParent)](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandParent) 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandParent)')** `Constructor`
     - **[Instance](CommandContainerInfo.Instance 'Guilded.Commands.CommandContainerInfo.Instance')** `Property`
     - **[SubCommands](CommandContainerInfo.SubCommands 'Guilded.Commands.CommandContainerInfo.SubCommands')** `Property`
   - **[CommandEvent](CommandEvent 'Guilded.Commands.CommandEvent')** `Class`
@@ -182,7 +213,7 @@
     - **[Arguments](CommandInfo.Arguments 'Guilded.Commands.CommandInfo.Arguments')** `Property`
     - **[HasRestArgument](CommandInfo.HasRestArgument 'Guilded.Commands.CommandInfo.HasRestArgument')** `Property`
     - **[RequiredCount](CommandInfo.RequiredCount 'Guilded.Commands.CommandInfo.RequiredCount')** `Property`
-    - **[InvokeAsync(CommandBase, CommandEvent, IEnumerable&lt;object&gt;)](CommandInfo.InvokeAsync(CommandBase,CommandEvent,IEnumerable_object_) 'Guilded.Commands.CommandInfo.InvokeAsync(Guilded.Commands.CommandBase, Guilded.Commands.CommandEvent, System.Collections.Generic.IEnumerable<object>)')** `Method`
+    - **[InvokeAsync(CommandParent, CommandEvent, IEnumerable&lt;object&gt;)](CommandInfo.InvokeAsync(CommandParent,CommandEvent,IEnumerable_object_) 'Guilded.Commands.CommandInfo.InvokeAsync(Guilded.Commands.CommandParent, Guilded.Commands.CommandEvent, System.Collections.Generic.IEnumerable<object>)')** `Method`
   - **[CommandModule](CommandModule 'Guilded.Commands.CommandModule')** `Class`
     - **[AddTo(AbstractGuildedClient, CommandConfiguration)](CommandModule.AddTo(AbstractGuildedClient,CommandConfiguration) 'Guilded.Commands.CommandModule.AddTo(Guilded.AbstractGuildedClient, Guilded.Commands.CommandConfiguration)')** `Method`
     - **[DoCommandsAsync(MessageEvent, string, CommandConfiguration)](CommandModule.DoCommandsAsync(MessageEvent,string,CommandConfiguration) 'Guilded.Commands.CommandModule.DoCommandsAsync(Guilded.Base.Events.MessageEvent, string, Guilded.Commands.CommandConfiguration)')** `Method`
@@ -194,6 +225,19 @@
     - **[CommandParamAttribute()](CommandParamAttribute.CommandParamAttribute() 'Guilded.Commands.CommandParamAttribute.CommandParamAttribute()')** `Constructor`
     - **[CommandParamAttribute(string)](CommandParamAttribute.CommandParamAttribute(string) 'Guilded.Commands.CommandParamAttribute.CommandParamAttribute(string)')** `Constructor`
     - **[Name](CommandParamAttribute.Name 'Guilded.Commands.CommandParamAttribute.Name')** `Property`
+  - **[CommandParent](CommandParent 'Guilded.Commands.CommandParent')** `Class`
+    - **[CommandParent()](CommandParent.CommandParent() 'Guilded.Commands.CommandParent.CommandParent()')** `Constructor`
+    - **[CommandLookup](CommandParent.CommandLookup 'Guilded.Commands.CommandParent.CommandLookup')** `Property`
+    - **[CommandNames](CommandParent.CommandNames 'Guilded.Commands.CommandParent.CommandNames')** `Property`
+    - **[Commands](CommandParent.Commands 'Guilded.Commands.CommandParent.Commands')** `Property`
+    - **[FailedCommand](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand')** `Property`
+    - **[FilterCommandsByName(string)](CommandParent.FilterCommandsByName(string) 'Guilded.Commands.CommandParent.FilterCommandsByName(string)')** `Method`
+    - **[InvokeAsync(string, RootCommandEvent, IEnumerable&lt;string&gt;)](CommandParent.InvokeAsync(string,RootCommandEvent,IEnumerable_string_) 'Guilded.Commands.CommandParent.InvokeAsync(string, Guilded.Commands.RootCommandEvent, System.Collections.Generic.IEnumerable<string>)')** `Method`
+    - **[InvokeCommandAsync(CommandContainerInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandParent.InvokeCommandAsync(CommandContainerInfo,RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandParent.InvokeCommandAsync(Guilded.Commands.CommandContainerInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
+    - **[InvokeCommandAsync(CommandInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;, IEnumerable&lt;object&gt;)](CommandParent.InvokeCommandAsync(CommandInfo,RootCommandEvent,string,IEnumerable_string_,IEnumerable_object_) 'Guilded.Commands.CommandParent.InvokeCommandAsync(Guilded.Commands.CommandInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<object>)')** `Method`
+    - **[InvokeCommandByNameAsync(RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandParent.InvokeCommandByNameAsync(RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandParent.InvokeCommandByNameAsync(Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
+  - **[CommandRestAttribute](CommandRestAttribute 'Guilded.Commands.CommandRestAttribute')** `Class`
+    - **[CommandRestAttribute()](CommandRestAttribute.CommandRestAttribute() 'Guilded.Commands.CommandRestAttribute.CommandRestAttribute()')** `Constructor`
   - **[CommandRestInfo](CommandRestInfo 'Guilded.Commands.CommandRestInfo')** `Class`
     - **[CommandRestInfo(ParameterInfo)](CommandRestInfo.CommandRestInfo(ParameterInfo) 'Guilded.Commands.CommandRestInfo.CommandRestInfo(ParameterInfo)')** `Constructor`
     - **[GetValueFrom(IEnumerable&lt;string&gt;, int)](CommandRestInfo.GetValueFrom(IEnumerable_string_,int) 'Guilded.Commands.CommandRestInfo.GetValueFrom(System.Collections.Generic.IEnumerable<string>, int)')** `Method`
@@ -230,6 +274,7 @@
     - **[Dms](CommandArea#Guilded.Commands.CommandArea.Dms 'Guilded.Commands.CommandArea.Dms')** `Field`
     - **[Servers](CommandArea#Guilded.Commands.CommandArea.Servers 'Guilded.Commands.CommandArea.Servers')** `Field`
   - **[FallbackType](FallbackType 'Guilded.Commands.FallbackType')** `Enum`
+    - **[BadArguments](FallbackType#Guilded.Commands.FallbackType.BadArguments 'Guilded.Commands.FallbackType.BadArguments')** `Field`
     - **[NoCommandFound](FallbackType#Guilded.Commands.FallbackType.NoCommandFound 'Guilded.Commands.FallbackType.NoCommandFound')** `Field`
     - **[Unspecified](FallbackType#Guilded.Commands.FallbackType.Unspecified 'Guilded.Commands.FallbackType.Unspecified')** `Field`
 - **[Guilded.Base](Guilded.Base 'Guilded.Base')** `Namespace`
@@ -243,6 +288,7 @@
     - **[GuildedSerializer](BaseGuildedClient.GuildedSerializer 'Guilded.Base.BaseGuildedClient.GuildedSerializer')** `Property`
     - **[LastMessageId](BaseGuildedClient.LastMessageId 'Guilded.Base.BaseGuildedClient.LastMessageId')** `Property`
     - **[Reconnected](BaseGuildedClient.Reconnected 'Guilded.Base.BaseGuildedClient.Reconnected')** `Property`
+    - **[ResponseReceived](BaseGuildedClient.ResponseReceived 'Guilded.Base.BaseGuildedClient.ResponseReceived')** `Property`
     - **[Rest](BaseGuildedClient.Rest 'Guilded.Base.BaseGuildedClient.Rest')** `Property`
     - **[SerializerSettings](BaseGuildedClient.SerializerSettings 'Guilded.Base.BaseGuildedClient.SerializerSettings')** `Property`
     - **[Websocket](BaseGuildedClient.Websocket 'Guilded.Base.BaseGuildedClient.Websocket')** `Property`
@@ -259,8 +305,8 @@
     - **[ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.Base.BaseGuildedClient.ConnectAsync()')** `Method`
     - **[CreateChannelAsync(HashId, string, ChannelType, string, Nullable&lt;HashId&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](BaseGuildedClient.CreateChannelAsync(HashId,string,ChannelType,string,Nullable_HashId_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.BaseGuildedClient.CreateChannelAsync(Guilded.Base.HashId, string, Guilded.Base.Servers.ChannelType, string, System.Nullable<Guilded.Base.HashId>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
     - **[CreateDocAsync(Guid, string, string)](BaseGuildedClient.CreateDocAsync(Guid,string,string) 'Guilded.Base.BaseGuildedClient.CreateDocAsync(Guid, string, string)')** `Method`
-    - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;TimeSpan&gt;, bool)](BaseGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_TimeSpan_,bool) 'Guilded.Base.BaseGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<TimeSpan>, bool)')** `Method`
-    - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, bool)](BaseGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,bool) 'Guilded.Base.BaseGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, bool)')** `Method`
+    - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;uint&gt;, bool)](BaseGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_TimeSpan_,Nullable_uint_,bool) 'Guilded.Base.BaseGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<TimeSpan>, System.Nullable<uint>, bool)')** `Method`
+    - **[CreateEventAsync(Guid, string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;uint&gt;, bool)](BaseGuildedClient.CreateEventAsync(Guid,string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_uint_,bool) 'Guilded.Base.BaseGuildedClient.CreateEventAsync(Guid, string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<uint>, bool)')** `Method`
     - **[CreateHookMessageAsync(Guid, string, MessageContent)](BaseGuildedClient.CreateHookMessageAsync(Guid,string,MessageContent) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Content.MessageContent)')** `Method`
     - **[CreateHookMessageAsync(Guid, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Guid,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
     - **[CreateHookMessageAsync(Guid, string, string, Embed[])](BaseGuildedClient.CreateHookMessageAsync(Guid,string,string,Embed[]) 'Guilded.Base.BaseGuildedClient.CreateHookMessageAsync(Guid, string, string, Guilded.Base.Embeds.Embed[])')** `Method`
@@ -291,12 +337,13 @@
     - **[DeleteListItemAsync(Guid, Guid)](BaseGuildedClient.DeleteListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.DeleteListItemAsync(Guid, Guid)')** `Method`
     - **[DeleteMessageAsync(Guid, Guid)](BaseGuildedClient.DeleteMessageAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.DeleteMessageAsync(Guid, Guid)')** `Method`
     - **[DeleteNicknameAsync(HashId, HashId)](BaseGuildedClient.DeleteNicknameAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.DeleteNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
+    - **[DeleteTopicAsync(Guid, uint)](BaseGuildedClient.DeleteTopicAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.DeleteTopicAsync(Guid, uint)')** `Method`
     - **[DeleteWebhookAsync(HashId, Guid)](BaseGuildedClient.DeleteWebhookAsync(HashId,Guid) 'Guilded.Base.BaseGuildedClient.DeleteWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
     - **[Deserialize&lt;T&gt;(string)](BaseGuildedClient.Deserialize_T_(string) 'Guilded.Base.BaseGuildedClient.Deserialize<T>(string)')** `Method`
     - **[DisconnectAsync()](BaseGuildedClient.DisconnectAsync() 'Guilded.Base.BaseGuildedClient.DisconnectAsync()')** `Method`
-    - **[Dispose()](BaseGuildedClient.Dispose() 'Guilded.Base.BaseGuildedClient.Dispose()')** `Method`
     - **[DisposeAsync()](BaseGuildedClient.DisposeAsync() 'Guilded.Base.BaseGuildedClient.DisposeAsync()')** `Method`
     - **[ExecuteRequestAsync(RestRequest)](BaseGuildedClient.ExecuteRequestAsync(RestRequest) 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync(RestSharp.RestRequest)')** `Method`
+    - **[ExecuteRequestAsync&lt;T&gt;(RestRequest, Guid)](BaseGuildedClient.ExecuteRequestAsync_T_(RestRequest,Guid) 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync<T>(RestSharp.RestRequest, Guid)')** `Method`
     - **[ExecuteRequestAsync&lt;T&gt;(RestRequest)](BaseGuildedClient.ExecuteRequestAsync_T_(RestRequest) 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync<T>(RestSharp.RestRequest)')** `Method`
     - **[GetBanAsync(HashId, HashId)](BaseGuildedClient.GetBanAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.GetBanAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     - **[GetBansAsync(HashId)](BaseGuildedClient.GetBansAsync(HashId) 'Guilded.Base.BaseGuildedClient.GetBansAsync(Guilded.Base.HashId)')** `Method`
@@ -312,7 +359,12 @@
     - **[GetMembersAsync(HashId)](BaseGuildedClient.GetMembersAsync(HashId) 'Guilded.Base.BaseGuildedClient.GetMembersAsync(Guilded.Base.HashId)')** `Method`
     - **[GetMessageAsync(Guid, Guid)](BaseGuildedClient.GetMessageAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.GetMessageAsync(Guid, Guid)')** `Method`
     - **[GetMessagesAsync(Guid, bool, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_) 'Guilded.Base.BaseGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>)')** `Method`
+    - **[GetRsvpAsync(Guid, uint, HashId)](BaseGuildedClient.GetRsvpAsync(Guid,uint,HashId) 'Guilded.Base.BaseGuildedClient.GetRsvpAsync(Guid, uint, Guilded.Base.HashId)')** `Method`
+    - **[GetRsvpsAsync(Guid, uint)](BaseGuildedClient.GetRsvpsAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.GetRsvpsAsync(Guid, uint)')** `Method`
+    - **[GetServerAsync(HashId)](BaseGuildedClient.GetServerAsync(HashId) 'Guilded.Base.BaseGuildedClient.GetServerAsync(Guilded.Base.HashId)')** `Method`
     - **[GetSocialLinkAsync(HashId, HashId, SocialLinkType)](BaseGuildedClient.GetSocialLinkAsync(HashId,HashId,SocialLinkType) 'Guilded.Base.BaseGuildedClient.GetSocialLinkAsync(Guilded.Base.HashId, Guilded.Base.HashId, Guilded.Base.Users.SocialLinkType)')** `Method`
+    - **[GetTopicAsync(Guid, uint)](BaseGuildedClient.GetTopicAsync(Guid,uint) 'Guilded.Base.BaseGuildedClient.GetTopicAsync(Guid, uint)')** `Method`
+    - **[GetTopicsAsync(Guid, Nullable&lt;uint&gt;, Nullable&lt;DateTime&gt;)](BaseGuildedClient.GetTopicsAsync(Guid,Nullable_uint_,Nullable_DateTime_) 'Guilded.Base.BaseGuildedClient.GetTopicsAsync(Guid, System.Nullable<uint>, System.Nullable<System.DateTime>)')** `Method`
     - **[GetWebhookAsync(HashId, Guid)](BaseGuildedClient.GetWebhookAsync(HashId,Guid) 'Guilded.Base.BaseGuildedClient.GetWebhookAsync(Guilded.Base.HashId, Guid)')** `Method`
     - **[GetWebhooksAsync(HashId, Nullable&lt;Guid&gt;)](BaseGuildedClient.GetWebhooksAsync(HashId,Nullable_Guid_) 'Guilded.Base.BaseGuildedClient.GetWebhooksAsync(Guilded.Base.HashId, System.Nullable<Guid>)')** `Method`
     - **[KickMemberAsync(HashId, HashId)](BaseGuildedClient.KickMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.KickMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
@@ -323,7 +375,9 @@
     - **[RemoveReactionAsync(Guid, Guid, uint)](BaseGuildedClient.RemoveReactionAsync(Guid,Guid,uint) 'Guilded.Base.BaseGuildedClient.RemoveReactionAsync(Guid, Guid, uint)')** `Method`
     - **[RemoveReactionAsync(Guid, uint, uint)](BaseGuildedClient.RemoveReactionAsync(Guid,uint,uint) 'Guilded.Base.BaseGuildedClient.RemoveReactionAsync(Guid, uint, uint)')** `Method`
     - **[RemoveRoleAsync(HashId, HashId, uint)](BaseGuildedClient.RemoveRoleAsync(HashId,HashId,uint) 'Guilded.Base.BaseGuildedClient.RemoveRoleAsync(Guilded.Base.HashId, Guilded.Base.HashId, uint)')** `Method`
+    - **[RemoveRsvpAsync(Guid, uint, HashId)](BaseGuildedClient.RemoveRsvpAsync(Guid,uint,HashId) 'Guilded.Base.BaseGuildedClient.RemoveRsvpAsync(Guid, uint, Guilded.Base.HashId)')** `Method`
     - **[Serialize(object)](BaseGuildedClient.Serialize(object) 'Guilded.Base.BaseGuildedClient.Serialize(object)')** `Method`
+    - **[SetRsvpAsync(Guid, uint, HashId, CalendarRsvpStatus)](BaseGuildedClient.SetRsvpAsync(Guid,uint,HashId,CalendarRsvpStatus) 'Guilded.Base.BaseGuildedClient.SetRsvpAsync(Guid, uint, Guilded.Base.HashId, Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
     - **[UnbanMemberAsync(HashId, HashId)](BaseGuildedClient.UnbanMemberAsync(HashId,HashId) 'Guilded.Base.BaseGuildedClient.UnbanMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId)')** `Method`
     - **[UncompleteListItemAsync(Guid, Guid)](BaseGuildedClient.UncompleteListItemAsync(Guid,Guid) 'Guilded.Base.BaseGuildedClient.UncompleteListItemAsync(Guid, Guid)')** `Method`
     - **[UpdateChannelAsync(Guid, string, string, Nullable&lt;bool&gt;)](BaseGuildedClient.UpdateChannelAsync(Guid,string,string,Nullable_bool_) 'Guilded.Base.BaseGuildedClient.UpdateChannelAsync(Guid, string, string, System.Nullable<bool>)')** `Method`
@@ -336,6 +390,7 @@
     - **[UpdateMessageAsync(Guid, Guid, string, Embed[])](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string,Embed[]) 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string, Guilded.Base.Embeds.Embed[])')** `Method`
     - **[UpdateMessageAsync(Guid, Guid, string)](BaseGuildedClient.UpdateMessageAsync(Guid,Guid,string) 'Guilded.Base.BaseGuildedClient.UpdateMessageAsync(Guid, Guid, string)')** `Method`
     - **[UpdateNicknameAsync(HashId, HashId, string)](BaseGuildedClient.UpdateNicknameAsync(HashId,HashId,string) 'Guilded.Base.BaseGuildedClient.UpdateNicknameAsync(Guilded.Base.HashId, Guilded.Base.HashId, string)')** `Method`
+    - **[UpdateTopicAsync(Guid, uint, string, string)](BaseGuildedClient.UpdateTopicAsync(Guid,uint,string,string) 'Guilded.Base.BaseGuildedClient.UpdateTopicAsync(Guid, uint, string, string)')** `Method`
     - **[UpdateWebhookAsync(HashId, Guid, string, Nullable&lt;Guid&gt;)](BaseGuildedClient.UpdateWebhookAsync(HashId,Guid,string,Nullable_Guid_) 'Guilded.Base.BaseGuildedClient.UpdateWebhookAsync(Guilded.Base.HashId, Guid, string, System.Nullable<Guid>)')** `Method`
     - **[UploadFileAsync(string, byte[], string)](BaseGuildedClient.UploadFileAsync(string,byte[],string) 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[], string)')** `Method`
     - **[UploadFileAsync(string, byte[])](BaseGuildedClient.UploadFileAsync(string,byte[]) 'Guilded.Base.BaseGuildedClient.UploadFileAsync(string, byte[])')** `Method`
@@ -382,6 +437,14 @@
     - **[GuildedResourceException(string, string, RestResponse)](GuildedResourceException.GuildedResourceException(string,string,RestResponse) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, string, RestSharp.RestResponse)')** `Constructor`
     - **[GuildedResourceException(string, Exception)](GuildedResourceException.GuildedResourceException(string,Exception) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string, System.Exception)')** `Constructor`
     - **[GuildedResourceException(string)](GuildedResourceException.GuildedResourceException(string) 'Guilded.Base.GuildedResourceException.GuildedResourceException(string)')** `Constructor`
+  - **[GuildedTooManyRequestsException](GuildedTooManyRequestsException 'Guilded.Base.GuildedTooManyRequestsException')** `Class`
+    - **[GuildedTooManyRequestsException()](GuildedTooManyRequestsException.GuildedTooManyRequestsException() 'Guilded.Base.GuildedTooManyRequestsException.GuildedTooManyRequestsException()')** `Constructor`
+    - **[GuildedTooManyRequestsException(string, string, RestResponse, TimeSpan, bool)](GuildedTooManyRequestsException.GuildedTooManyRequestsException(string,string,RestResponse,TimeSpan,bool) 'Guilded.Base.GuildedTooManyRequestsException.GuildedTooManyRequestsException(string, string, RestSharp.RestResponse, TimeSpan, bool)')** `Constructor`
+    - **[GuildedTooManyRequestsException(string, Exception)](GuildedTooManyRequestsException.GuildedTooManyRequestsException(string,Exception) 'Guilded.Base.GuildedTooManyRequestsException.GuildedTooManyRequestsException(string, System.Exception)')** `Constructor`
+    - **[GuildedTooManyRequestsException(string, TimeSpan, bool)](GuildedTooManyRequestsException.GuildedTooManyRequestsException(string,TimeSpan,bool) 'Guilded.Base.GuildedTooManyRequestsException.GuildedTooManyRequestsException(string, TimeSpan, bool)')** `Constructor`
+    - **[GuildedTooManyRequestsException(string)](GuildedTooManyRequestsException.GuildedTooManyRequestsException(string) 'Guilded.Base.GuildedTooManyRequestsException.GuildedTooManyRequestsException(string)')** `Constructor`
+    - **[IsFromSlowmode](GuildedTooManyRequestsException.IsFromSlowmode 'Guilded.Base.GuildedTooManyRequestsException.IsFromSlowmode')** `Property`
+    - **[TimeLeft](GuildedTooManyRequestsException.TimeLeft 'Guilded.Base.GuildedTooManyRequestsException.TimeLeft')** `Property`
   - **[GuildedUrl](GuildedUrl 'Guilded.Base.GuildedUrl')** `Class`
     - **[Api](GuildedUrl.Api 'Guilded.Base.GuildedUrl.Api')** `Field`
     - **[ImageCdn](GuildedUrl.ImageCdn 'Guilded.Base.GuildedUrl.ImageCdn')** `Field`
@@ -426,8 +489,21 @@
     - **[operator !=(HashId, HashId)](HashId.operator!(HashId,HashId) 'Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId, Guilded.Base.HashId)')** `Operator`
     - **[operator !=(HashId, string)](HashId.operator!(HashId,string) 'Guilded.Base.HashId.op_Inequality(Guilded.Base.HashId, string)')** `Operator`
     - **[operator !=(string, HashId)](HashId.operator!(string,HashId) 'Guilded.Base.HashId.op_Inequality(string, Guilded.Base.HashId)')** `Operator`
+  - **[IChannelBased](IChannelBased 'Guilded.Base.IChannelBased')** `Interface`
+    - **[ChannelId](IChannelBased.ChannelId 'Guilded.Base.IChannelBased.ChannelId')** `Property`
+    - **[DeleteChannelAsync()](IChannelBased.DeleteChannelAsync() 'Guilded.Base.IChannelBased.DeleteChannelAsync()')** `Method`
+    - **[GetChannelAsync()](IChannelBased.GetChannelAsync() 'Guilded.Base.IChannelBased.GetChannelAsync()')** `Method`
+    - **[UpdateChannelAsync(string, string, Nullable&lt;bool&gt;)](IChannelBased.UpdateChannelAsync(string,string,Nullable_bool_) 'Guilded.Base.IChannelBased.UpdateChannelAsync(string, string, System.Nullable<bool>)')** `Method`
+  - **[IGlobalContent](IGlobalContent 'Guilded.Base.IGlobalContent')** `Interface`
+    - **[ServerId](IGlobalContent.ServerId 'Guilded.Base.IGlobalContent.ServerId')** `Property`
+    - **[GetServerAsync()](IGlobalContent.GetServerAsync() 'Guilded.Base.IGlobalContent.GetServerAsync()')** `Method`
+  - **[IHasParentClient](IHasParentClient 'Guilded.Base.IHasParentClient')** `Interface`
+    - **[ParentClient](IHasParentClient.ParentClient 'Guilded.Base.IHasParentClient.ParentClient')** `Property`
   - **[IModelHasId&lt;T&gt;](IModelHasId_T_ 'Guilded.Base.IModelHasId<T>')** `Interface`
     - **[Id](IModelHasId_T_.Id 'Guilded.Base.IModelHasId<T>.Id')** `Property`
+  - **[IServerBased](IServerBased 'Guilded.Base.IServerBased')** `Interface`
+    - **[ServerId](IServerBased.ServerId 'Guilded.Base.IServerBased.ServerId')** `Property`
+    - **[GetServerAsync()](IServerBased.GetServerAsync() 'Guilded.Base.IServerBased.GetServerAsync()')** `Method`
 - **[Guilded.Base.Content](Guilded.Base.Content 'Guilded.Base.Content')** `Namespace`
   - **[CalendarCancellation](CalendarCancellation 'Guilded.Base.Content.CalendarCancellation')** `Class`
     - **[CalendarCancellation(string, HashId)](CalendarCancellation.CalendarCancellation(string,HashId) 'Guilded.Base.Content.CalendarCancellation.CalendarCancellation(string, Guilded.Base.HashId)')** `Constructor`
@@ -446,13 +522,31 @@
     - **[Location](CalendarEvent.Location 'Guilded.Base.Content.CalendarEvent.Location')** `Property`
     - **[Mentions](CalendarEvent.Mentions 'Guilded.Base.Content.CalendarEvent.Mentions')** `Property`
     - **[Name](CalendarEvent.Name 'Guilded.Base.Content.CalendarEvent.Name')** `Property`
+    - **[RsvpLimit](CalendarEvent.RsvpLimit 'Guilded.Base.Content.CalendarEvent.RsvpLimit')** `Property`
     - **[StartsAt](CalendarEvent.StartsAt 'Guilded.Base.Content.CalendarEvent.StartsAt')** `Property`
     - **[Url](CalendarEvent.Url 'Guilded.Base.Content.CalendarEvent.Url')** `Property`
     - **[AddReactionAsync(uint)](CalendarEvent.AddReactionAsync(uint) 'Guilded.Base.Content.CalendarEvent.AddReactionAsync(uint)')** `Method`
     - **[DeleteAsync()](CalendarEvent.DeleteAsync() 'Guilded.Base.Content.CalendarEvent.DeleteAsync()')** `Method`
+    - **[GetRsvpAsync(HashId)](CalendarEvent.GetRsvpAsync(HashId) 'Guilded.Base.Content.CalendarEvent.GetRsvpAsync(Guilded.Base.HashId)')** `Method`
+    - **[GetRsvpsAsync()](CalendarEvent.GetRsvpsAsync() 'Guilded.Base.Content.CalendarEvent.GetRsvpsAsync()')** `Method`
     - **[RemoveReactionAsync(uint)](CalendarEvent.RemoveReactionAsync(uint) 'Guilded.Base.Content.CalendarEvent.RemoveReactionAsync(uint)')** `Method`
+    - **[RemoveRsvpAsync(HashId)](CalendarEvent.RemoveRsvpAsync(HashId) 'Guilded.Base.Content.CalendarEvent.RemoveRsvpAsync(Guilded.Base.HashId)')** `Method`
+    - **[SetRsvpAsync(HashId, CalendarRsvpStatus)](CalendarEvent.SetRsvpAsync(HashId,CalendarRsvpStatus) 'Guilded.Base.Content.CalendarEvent.SetRsvpAsync(Guilded.Base.HashId, Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
     - **[UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;bool&gt;)](CalendarEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_TimeSpan_,Nullable_bool_) 'Guilded.Base.Content.CalendarEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<TimeSpan>, System.Nullable<bool>)')** `Method`
     - **[UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](CalendarEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.Content.CalendarEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
+  - **[CalendarRsvp](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp')** `Class`
+    - **[CalendarRsvp(uint, HashId, Guid, HashId, CalendarRsvpStatus, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;)](CalendarRsvp.CalendarRsvp(uint,HashId,Guid,HashId,CalendarRsvpStatus,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_) 'Guilded.Base.Content.CalendarRsvp.CalendarRsvp(uint, Guilded.Base.HashId, Guid, Guilded.Base.HashId, Guilded.Base.Content.CalendarRsvpStatus, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[CalendarEventId](CalendarRsvp.CalendarEventId 'Guilded.Base.Content.CalendarRsvp.CalendarEventId')** `Property`
+    - **[ChannelId](CalendarRsvp.ChannelId 'Guilded.Base.Content.CalendarRsvp.ChannelId')** `Property`
+    - **[CreatedAt](CalendarRsvp.CreatedAt 'Guilded.Base.Content.CalendarRsvp.CreatedAt')** `Property`
+    - **[CreatedBy](CalendarRsvp.CreatedBy 'Guilded.Base.Content.CalendarRsvp.CreatedBy')** `Property`
+    - **[ServerId](CalendarRsvp.ServerId 'Guilded.Base.Content.CalendarRsvp.ServerId')** `Property`
+    - **[Status](CalendarRsvp.Status 'Guilded.Base.Content.CalendarRsvp.Status')** `Property`
+    - **[UpdatedAt](CalendarRsvp.UpdatedAt 'Guilded.Base.Content.CalendarRsvp.UpdatedAt')** `Property`
+    - **[UpdatedBy](CalendarRsvp.UpdatedBy 'Guilded.Base.Content.CalendarRsvp.UpdatedBy')** `Property`
+    - **[UserId](CalendarRsvp.UserId 'Guilded.Base.Content.CalendarRsvp.UserId')** `Property`
+    - **[RemoveAsync()](CalendarRsvp.RemoveAsync() 'Guilded.Base.Content.CalendarRsvp.RemoveAsync()')** `Method`
+    - **[SetAsync(CalendarRsvpStatus)](CalendarRsvp.SetAsync(CalendarRsvpStatus) 'Guilded.Base.Content.CalendarRsvp.SetAsync(Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
   - **[ChannelContent&lt;TId,TServer&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')** `Class`
     - **[ChannelContent(TId, Guid, TServer, HashId, DateTime)](ChannelContent_TId,TServer_.ChannelContent(TId,Guid,TServer,HashId,DateTime) 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelContent(TId, Guid, TServer, Guilded.Base.HashId, System.DateTime)')** `Constructor`
     - **[ChannelId](ChannelContent_TId,TServer_.ChannelId 'Guilded.Base.Content.ChannelContent<TId,TServer>.ChannelId')** `Property`
@@ -465,10 +559,17 @@
     - **[ToString()](ChannelContent_TId,TServer_.ToString() 'Guilded.Base.Content.ChannelContent<TId,TServer>.ToString()')** `Method`
   - **[Doc](Doc 'Guilded.Base.Content.Doc')** `Class`
     - **[Doc(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Mentions)](Doc.Doc(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_HashId_,Nullable_DateTime_,Mentions) 'Guilded.Base.Content.Doc.Doc(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, Guilded.Base.Content.Mentions)')** `Constructor`
+    - **[Content](Doc.Content 'Guilded.Base.Content.Doc.Content')** `Property`
     - **[Mentions](Doc.Mentions 'Guilded.Base.Content.Doc.Mentions')** `Property`
     - **[UpdatedBy](Doc.UpdatedBy 'Guilded.Base.Content.Doc.UpdatedBy')** `Property`
     - **[DeleteAsync()](Doc.DeleteAsync() 'Guilded.Base.Content.Doc.DeleteAsync()')** `Method`
     - **[UpdateAsync(string, string)](Doc.UpdateAsync(string,string) 'Guilded.Base.Content.Doc.UpdateAsync(string, string)')** `Method`
+  - **[Emote](Emote 'Guilded.Base.Content.Emote')** `Class`
+    - **[Emote(uint, string, Uri)](Emote.Emote(uint,string,Uri) 'Guilded.Base.Content.Emote.Emote(uint, string, Uri)')** `Constructor`
+    - **[Id](Emote.Id 'Guilded.Base.Content.Emote.Id')** `Property`
+    - **[Name](Emote.Name 'Guilded.Base.Content.Emote.Name')** `Property`
+    - **[Url](Emote.Url 'Guilded.Base.Content.Emote.Url')** `Property`
+    - **[ToString()](Emote.ToString() 'Guilded.Base.Content.Emote.ToString()')** `Method`
   - **[ListItem](ListItem 'Guilded.Base.Content.ListItem')** `Class`
     - **[ListItem(Guid, Guid, HashId, string, HashId, DateTime, Nullable&lt;Guid&gt;, Mentions, ListItemNote, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;DateTime&gt;, Nullable&lt;HashId&gt;, Nullable&lt;Guid&gt;)](ListItem.ListItem(Guid,Guid,HashId,string,HashId,DateTime,Nullable_Guid_,Mentions,ListItemNote,Nullable_DateTime_,Nullable_HashId_,Nullable_DateTime_,Nullable_HashId_,Nullable_Guid_) 'Guilded.Base.Content.ListItem.ListItem(Guid, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, Guilded.Base.Content.Mentions, Guilded.Base.Content.ListItemNote, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<System.DateTime>, System.Nullable<Guilded.Base.HashId>, System.Nullable<Guid>)')** `Constructor`
   - **[ListItemBase&lt;T&gt;](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')** `Class`
@@ -575,15 +676,21 @@
     - **[Equals(object)](Reaction.Equals(object) 'Guilded.Base.Content.Reaction.Equals(object)')** `Method`
     - **[GetHashCode()](Reaction.GetHashCode() 'Guilded.Base.Content.Reaction.GetHashCode()')** `Method`
   - **[TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')** `Class`
-    - **[TitledContent(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;DateTime&gt;)](TitledContent.TitledContent(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_DateTime_) 'Guilded.Base.Content.TitledContent.TitledContent(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[Content](TitledContent.Content 'Guilded.Base.Content.TitledContent.Content')** `Property`
+    - **[TitledContent(uint, Guid, HashId, string, HashId, DateTime, Nullable&lt;DateTime&gt;)](TitledContent.TitledContent(uint,Guid,HashId,string,HashId,DateTime,Nullable_DateTime_) 'Guilded.Base.Content.TitledContent.TitledContent(uint, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.Nullable<System.DateTime>)')** `Constructor`
     - **[Title](TitledContent.Title 'Guilded.Base.Content.TitledContent.Title')** `Property`
     - **[UpdatedAt](TitledContent.UpdatedAt 'Guilded.Base.Content.TitledContent.UpdatedAt')** `Property`
     - **[AddReactionAsync(uint)](TitledContent.AddReactionAsync(uint) 'Guilded.Base.Content.TitledContent.AddReactionAsync(uint)')** `Method`
     - **[RemoveReactionAsync(uint)](TitledContent.RemoveReactionAsync(uint) 'Guilded.Base.Content.TitledContent.RemoveReactionAsync(uint)')** `Method`
   - **[Topic](Topic 'Guilded.Base.Content.Topic')** `Class`
-    - **[Topic(uint, Guid, HashId, string, string, HashId, DateTime, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](Topic.Topic(uint,Guid,HashId,string,string,HashId,DateTime,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.Topic.Topic(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.Nullable<Guid>, System.Nullable<System.DateTime>)')** `Constructor`
-    - **[CreatedByWebhook](Topic.CreatedByWebhook 'Guilded.Base.Content.Topic.CreatedByWebhook')** `Property`
+    - **[Topic(uint, Guid, HashId, string, string, HashId, DateTime, DateTime, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;)](Topic.Topic(uint,Guid,HashId,string,string,HashId,DateTime,DateTime,Nullable_Guid_,Nullable_DateTime_) 'Guilded.Base.Content.Topic.Topic(uint, Guid, Guilded.Base.HashId, string, string, Guilded.Base.HashId, System.DateTime, System.DateTime, System.Nullable<Guid>, System.Nullable<System.DateTime>)')** `Constructor`
+    - **[Content](Topic.Content 'Guilded.Base.Content.Topic.Content')** `Property`
+  - **[TopicSummary](TopicSummary 'Guilded.Base.Content.TopicSummary')** `Class`
+    - **[TopicSummary(uint, Guid, HashId, string, HashId, DateTime, DateTime, Nullable&lt;Guid&gt;, Nullable&lt;DateTime&gt;, Mentions)](TopicSummary.TopicSummary(uint,Guid,HashId,string,HashId,DateTime,DateTime,Nullable_Guid_,Nullable_DateTime_,Mentions) 'Guilded.Base.Content.TopicSummary.TopicSummary(uint, Guid, Guilded.Base.HashId, string, Guilded.Base.HashId, System.DateTime, System.DateTime, System.Nullable<Guid>, System.Nullable<System.DateTime>, Guilded.Base.Content.Mentions)')** `Constructor`
+    - **[BumpedAt](TopicSummary.BumpedAt 'Guilded.Base.Content.TopicSummary.BumpedAt')** `Property`
+    - **[CreatedByWebhook](TopicSummary.CreatedByWebhook 'Guilded.Base.Content.TopicSummary.CreatedByWebhook')** `Property`
+    - **[Mentions](TopicSummary.Mentions 'Guilded.Base.Content.TopicSummary.Mentions')** `Property`
+    - **[DeleteAsync()](TopicSummary.DeleteAsync() 'Guilded.Base.Content.TopicSummary.DeleteAsync()')** `Method`
+    - **[UpdateAsync(string, string)](TopicSummary.UpdateAsync(string,string) 'Guilded.Base.Content.TopicSummary.UpdateAsync(string, string)')** `Method`
   - **[IContentBlockMarkdown](IContentBlockMarkdown 'Guilded.Base.Content.IContentBlockMarkdown')** `Interface`
     - **[Embeds](IContentBlockMarkdown.Embeds 'Guilded.Base.Content.IContentBlockMarkdown.Embeds')** `Property`
   - **[IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown')** `Interface`
@@ -598,6 +705,12 @@
     - **[UpdatedAt](IUpdatableContent.UpdatedAt 'Guilded.Base.Content.IUpdatableContent.UpdatedAt')** `Property`
   - **[IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable')** `Interface`
     - **[CreatedByWebhook](IWebhookCreatable.CreatedByWebhook 'Guilded.Base.Content.IWebhookCreatable.CreatedByWebhook')** `Property`
+  - **[CalendarRsvpStatus](CalendarRsvpStatus 'Guilded.Base.Content.CalendarRsvpStatus')** `Enum`
+    - **[Declined](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Declined 'Guilded.Base.Content.CalendarRsvpStatus.Declined')** `Field`
+    - **[Going](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Going 'Guilded.Base.Content.CalendarRsvpStatus.Going')** `Field`
+    - **[Invited](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Invited 'Guilded.Base.Content.CalendarRsvpStatus.Invited')** `Field`
+    - **[Maybe](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Maybe 'Guilded.Base.Content.CalendarRsvpStatus.Maybe')** `Field`
+    - **[Waitlisted](CalendarRsvpStatus#Guilded.Base.Content.CalendarRsvpStatus.Waitlisted 'Guilded.Base.Content.CalendarRsvpStatus.Waitlisted')** `Field`
   - **[MessageType](MessageType 'Guilded.Base.Content.MessageType')** `Enum`
     - **[Default](MessageType#Guilded.Base.Content.MessageType.Default 'Guilded.Base.Content.MessageType.Default')** `Field`
     - **[System](MessageType#Guilded.Base.Content.MessageType.System 'Guilded.Base.Content.MessageType.System')** `Field`
@@ -719,7 +832,6 @@
     - **[Location](CalendarEventEvent.Location 'Guilded.Base.Events.CalendarEventEvent.Location')** `Property`
     - **[Mentions](CalendarEventEvent.Mentions 'Guilded.Base.Events.CalendarEventEvent.Mentions')** `Property`
     - **[Name](CalendarEventEvent.Name 'Guilded.Base.Events.CalendarEventEvent.Name')** `Property`
-    - **[ServerId](CalendarEventEvent.ServerId 'Guilded.Base.Events.CalendarEventEvent.ServerId')** `Property`
     - **[StartsAt](CalendarEventEvent.StartsAt 'Guilded.Base.Events.CalendarEventEvent.StartsAt')** `Property`
     - **[Url](CalendarEventEvent.Url 'Guilded.Base.Events.CalendarEventEvent.Url')** `Property`
     - **[AddReactionAsync(uint)](CalendarEventEvent.AddReactionAsync(uint) 'Guilded.Base.Events.CalendarEventEvent.AddReactionAsync(uint)')** `Method`
@@ -727,6 +839,33 @@
     - **[RemoveReactionAsync(uint)](CalendarEventEvent.RemoveReactionAsync(uint) 'Guilded.Base.Events.CalendarEventEvent.RemoveReactionAsync(uint)')** `Method`
     - **[UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;bool&gt;)](CalendarEventEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_TimeSpan_,Nullable_bool_) 'Guilded.Base.Events.CalendarEventEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<TimeSpan>, System.Nullable<bool>)')** `Method`
     - **[UpdateAsync(string, string, string, Nullable&lt;DateTime&gt;, Uri, Nullable&lt;Color&gt;, Nullable&lt;uint&gt;, Nullable&lt;bool&gt;)](CalendarEventEvent.UpdateAsync(string,string,string,Nullable_DateTime_,Uri,Nullable_Color_,Nullable_uint_,Nullable_bool_) 'Guilded.Base.Events.CalendarEventEvent.UpdateAsync(string, string, string, System.Nullable<System.DateTime>, Uri, System.Nullable<Color>, System.Nullable<uint>, System.Nullable<bool>)')** `Method`
+  - **[CalendarRsvpEvent](CalendarRsvpEvent 'Guilded.Base.Events.CalendarRsvpEvent')** `Class`
+    - **[CalendarRsvpEvent(CalendarRsvp, HashId)](CalendarRsvpEvent.CalendarRsvpEvent(CalendarRsvp,HashId) 'Guilded.Base.Events.CalendarRsvpEvent.CalendarRsvpEvent(Guilded.Base.Content.CalendarRsvp, Guilded.Base.HashId)')** `Constructor`
+    - **[CalendarEventId](CalendarRsvpEvent.CalendarEventId 'Guilded.Base.Events.CalendarRsvpEvent.CalendarEventId')** `Property`
+    - **[CalendarRsvp](CalendarRsvpEvent.CalendarRsvp 'Guilded.Base.Events.CalendarRsvpEvent.CalendarRsvp')** `Property`
+    - **[ChannelId](CalendarRsvpEvent.ChannelId 'Guilded.Base.Events.CalendarRsvpEvent.ChannelId')** `Property`
+    - **[CreatedAt](CalendarRsvpEvent.CreatedAt 'Guilded.Base.Events.CalendarRsvpEvent.CreatedAt')** `Property`
+    - **[CreatedBy](CalendarRsvpEvent.CreatedBy 'Guilded.Base.Events.CalendarRsvpEvent.CreatedBy')** `Property`
+    - **[Status](CalendarRsvpEvent.Status 'Guilded.Base.Events.CalendarRsvpEvent.Status')** `Property`
+    - **[UpdatedAt](CalendarRsvpEvent.UpdatedAt 'Guilded.Base.Events.CalendarRsvpEvent.UpdatedAt')** `Property`
+    - **[UpdatedBy](CalendarRsvpEvent.UpdatedBy 'Guilded.Base.Events.CalendarRsvpEvent.UpdatedBy')** `Property`
+    - **[UserId](CalendarRsvpEvent.UserId 'Guilded.Base.Events.CalendarRsvpEvent.UserId')** `Property`
+    - **[RemoveAsync()](CalendarRsvpEvent.RemoveAsync() 'Guilded.Base.Events.CalendarRsvpEvent.RemoveAsync()')** `Method`
+    - **[SetAsync(CalendarRsvpStatus)](CalendarRsvpEvent.SetAsync(CalendarRsvpStatus) 'Guilded.Base.Events.CalendarRsvpEvent.SetAsync(Guilded.Base.Content.CalendarRsvpStatus)')** `Method`
+  - **[CalendarRsvpManyEvent](CalendarRsvpManyEvent 'Guilded.Base.Events.CalendarRsvpManyEvent')** `Class`
+    - **[CalendarRsvpManyEvent(IList&lt;CalendarRsvp&gt;, HashId)](CalendarRsvpManyEvent.CalendarRsvpManyEvent(IList_CalendarRsvp_,HashId) 'Guilded.Base.Events.CalendarRsvpManyEvent.CalendarRsvpManyEvent(System.Collections.Generic.IList<Guilded.Base.Content.CalendarRsvp>, Guilded.Base.HashId)')** `Constructor`
+    - **[CalendarEventId](CalendarRsvpManyEvent.CalendarEventId 'Guilded.Base.Events.CalendarRsvpManyEvent.CalendarEventId')** `Property`
+    - **[CalendarRsvps](CalendarRsvpManyEvent.CalendarRsvps 'Guilded.Base.Events.CalendarRsvpManyEvent.CalendarRsvps')** `Property`
+    - **[ChannelId](CalendarRsvpManyEvent.ChannelId 'Guilded.Base.Events.CalendarRsvpManyEvent.ChannelId')** `Property`
+    - **[Count](CalendarRsvpManyEvent.Count 'Guilded.Base.Events.CalendarRsvpManyEvent.Count')** `Property`
+    - **[CreatedAt](CalendarRsvpManyEvent.CreatedAt 'Guilded.Base.Events.CalendarRsvpManyEvent.CreatedAt')** `Property`
+    - **[CreatedBy](CalendarRsvpManyEvent.CreatedBy 'Guilded.Base.Events.CalendarRsvpManyEvent.CreatedBy')** `Property`
+    - **[First](CalendarRsvpManyEvent.First 'Guilded.Base.Events.CalendarRsvpManyEvent.First')** `Property`
+    - **[Last](CalendarRsvpManyEvent.Last 'Guilded.Base.Events.CalendarRsvpManyEvent.Last')** `Property`
+    - **[Status](CalendarRsvpManyEvent.Status 'Guilded.Base.Events.CalendarRsvpManyEvent.Status')** `Property`
+    - **[UpdatedAt](CalendarRsvpManyEvent.UpdatedAt 'Guilded.Base.Events.CalendarRsvpManyEvent.UpdatedAt')** `Property`
+    - **[UpdatedBy](CalendarRsvpManyEvent.UpdatedBy 'Guilded.Base.Events.CalendarRsvpManyEvent.UpdatedBy')** `Property`
+    - **[UserId](CalendarRsvpManyEvent.UserId 'Guilded.Base.Events.CalendarRsvpManyEvent.UserId')** `Property`
   - **[ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')** `Class`
     - **[ChannelEvent(ServerChannel, HashId)](ChannelEvent.ChannelEvent(ServerChannel,HashId) 'Guilded.Base.Events.ChannelEvent.ChannelEvent(Guilded.Base.Servers.ServerChannel, Guilded.Base.HashId)')** `Constructor`
     - **[ArchivedAt](ChannelEvent.ArchivedAt 'Guilded.Base.Events.ChannelEvent.ArchivedAt')** `Property`
@@ -742,7 +881,6 @@
     - **[IsThread](ChannelEvent.IsThread 'Guilded.Base.Events.ChannelEvent.IsThread')** `Property`
     - **[Name](ChannelEvent.Name 'Guilded.Base.Events.ChannelEvent.Name')** `Property`
     - **[ParentId](ChannelEvent.ParentId 'Guilded.Base.Events.ChannelEvent.ParentId')** `Property`
-    - **[ServerId](ChannelEvent.ServerId 'Guilded.Base.Events.ChannelEvent.ServerId')** `Property`
     - **[Topic](ChannelEvent.Topic 'Guilded.Base.Events.ChannelEvent.Topic')** `Property`
     - **[Type](ChannelEvent.Type 'Guilded.Base.Events.ChannelEvent.Type')** `Property`
     - **[UpdatedAt](ChannelEvent.UpdatedAt 'Guilded.Base.Events.ChannelEvent.UpdatedAt')** `Property`
@@ -755,7 +893,7 @@
     - **[CreatedAt](DocEvent.CreatedAt 'Guilded.Base.Events.DocEvent.CreatedAt')** `Property`
     - **[CreatedBy](DocEvent.CreatedBy 'Guilded.Base.Events.DocEvent.CreatedBy')** `Property`
     - **[Doc](DocEvent.Doc 'Guilded.Base.Events.DocEvent.Doc')** `Property`
-    - **[ServerId](DocEvent.ServerId 'Guilded.Base.Events.DocEvent.ServerId')** `Property`
+    - **[Mentions](DocEvent.Mentions 'Guilded.Base.Events.DocEvent.Mentions')** `Property`
     - **[Title](DocEvent.Title 'Guilded.Base.Events.DocEvent.Title')** `Property`
     - **[UpdatedAt](DocEvent.UpdatedAt 'Guilded.Base.Events.DocEvent.UpdatedAt')** `Property`
     - **[UpdatedBy](DocEvent.UpdatedBy 'Guilded.Base.Events.DocEvent.UpdatedBy')** `Property`
@@ -769,6 +907,8 @@
     - **[MessageId](GuildedSocketMessage.MessageId 'Guilded.Base.Events.GuildedSocketMessage.MessageId')** `Property`
     - **[Opcode](GuildedSocketMessage.Opcode 'Guilded.Base.Events.GuildedSocketMessage.Opcode')** `Property`
     - **[RawData](GuildedSocketMessage.RawData 'Guilded.Base.Events.GuildedSocketMessage.RawData')** `Property`
+    - **[ToString()](GuildedSocketMessage.ToString() 'Guilded.Base.Events.GuildedSocketMessage.ToString()')** `Method`
+    - **[ToString(Formatting)](GuildedSocketMessage.ToString(Formatting) 'Guilded.Base.Events.GuildedSocketMessage.ToString(Newtonsoft.Json.Formatting)')** `Method`
   - **[ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')** `Class`
     - **[ListItemEvent(ListItem, HashId)](ListItemEvent.ListItemEvent(ListItem,HashId) 'Guilded.Base.Events.ListItemEvent.ListItemEvent(Guilded.Base.Content.ListItem, Guilded.Base.HashId)')** `Constructor`
     - **[ChannelId](ListItemEvent.ChannelId 'Guilded.Base.Events.ListItemEvent.ChannelId')** `Property`
@@ -779,10 +919,10 @@
     - **[CreatedByWebhook](ListItemEvent.CreatedByWebhook 'Guilded.Base.Events.ListItemEvent.CreatedByWebhook')** `Property`
     - **[IsCompleted](ListItemEvent.IsCompleted 'Guilded.Base.Events.ListItemEvent.IsCompleted')** `Property`
     - **[ListItem](ListItemEvent.ListItem 'Guilded.Base.Events.ListItemEvent.ListItem')** `Property`
+    - **[Mentions](ListItemEvent.Mentions 'Guilded.Base.Events.ListItemEvent.Mentions')** `Property`
     - **[Message](ListItemEvent.Message 'Guilded.Base.Events.ListItemEvent.Message')** `Property`
     - **[Note](ListItemEvent.Note 'Guilded.Base.Events.ListItemEvent.Note')** `Property`
     - **[ParentId](ListItemEvent.ParentId 'Guilded.Base.Events.ListItemEvent.ParentId')** `Property`
-    - **[ServerId](ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId')** `Property`
     - **[UpdatedAt](ListItemEvent.UpdatedAt 'Guilded.Base.Events.ListItemEvent.UpdatedAt')** `Property`
     - **[CompleteAsync()](ListItemEvent.CompleteAsync() 'Guilded.Base.Events.ListItemEvent.CompleteAsync()')** `Method`
     - **[DeleteAsync()](ListItemEvent.DeleteAsync() 'Guilded.Base.Events.ListItemEvent.DeleteAsync()')** `Method`
@@ -848,6 +988,7 @@
     - **[IsReply](MessageEvent.IsReply 'Guilded.Base.Events.MessageEvent.IsReply')** `Property`
     - **[IsSilent](MessageEvent.IsSilent 'Guilded.Base.Events.MessageEvent.IsSilent')** `Property`
     - **[IsSystemMessage](MessageEvent.IsSystemMessage 'Guilded.Base.Events.MessageEvent.IsSystemMessage')** `Property`
+    - **[Mentions](MessageEvent.Mentions 'Guilded.Base.Events.MessageEvent.Mentions')** `Property`
     - **[ReplyMessageIds](MessageEvent.ReplyMessageIds 'Guilded.Base.Events.MessageEvent.ReplyMessageIds')** `Property`
     - **[Type](MessageEvent.Type 'Guilded.Base.Events.MessageEvent.Type')** `Property`
     - **[UpdatedAt](MessageEvent.UpdatedAt 'Guilded.Base.Events.MessageEvent.UpdatedAt')** `Property`
@@ -873,6 +1014,28 @@
     - **[MessageEvent(Nullable&lt;HashId&gt;, T)](MessageEvent_T_.MessageEvent(Nullable_HashId_,T) 'Guilded.Base.Events.MessageEvent<T>.MessageEvent(System.Nullable<Guilded.Base.HashId>, T)')** `Constructor`
     - **[Message](MessageEvent_T_.Message 'Guilded.Base.Events.MessageEvent<T>.Message')** `Property`
     - **[ServerId](MessageEvent_T_.ServerId 'Guilded.Base.Events.MessageEvent<T>.ServerId')** `Property`
+  - **[MessageReactionEvent](MessageReactionEvent 'Guilded.Base.Events.MessageReactionEvent')** `Class`
+    - **[MessageReactionEvent(EventReaction, Nullable&lt;HashId&gt;)](MessageReactionEvent.MessageReactionEvent(EventReaction,Nullable_HashId_) 'Guilded.Base.Events.MessageReactionEvent.MessageReactionEvent(Guilded.Base.Events.MessageReactionEvent.EventReaction, System.Nullable<Guilded.Base.HashId>)')** `Constructor`
+    - **[ChannelId](MessageReactionEvent.ChannelId 'Guilded.Base.Events.MessageReactionEvent.ChannelId')** `Property`
+    - **[CreatedBy](MessageReactionEvent.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.CreatedBy')** `Property`
+    - **[Emote](MessageReactionEvent.Emote 'Guilded.Base.Events.MessageReactionEvent.Emote')** `Property`
+    - **[Id](MessageReactionEvent.Id 'Guilded.Base.Events.MessageReactionEvent.Id')** `Property`
+    - **[MessageId](MessageReactionEvent.MessageId 'Guilded.Base.Events.MessageReactionEvent.MessageId')** `Property`
+    - **[Name](MessageReactionEvent.Name 'Guilded.Base.Events.MessageReactionEvent.Name')** `Property`
+    - **[Reaction](MessageReactionEvent.Reaction 'Guilded.Base.Events.MessageReactionEvent.Reaction')** `Property`
+    - **[ServerId](MessageReactionEvent.ServerId 'Guilded.Base.Events.MessageReactionEvent.ServerId')** `Property`
+    - **[AddAsync()](MessageReactionEvent.AddAsync() 'Guilded.Base.Events.MessageReactionEvent.AddAsync()')** `Method`
+    - **[RemoveAsync()](MessageReactionEvent.RemoveAsync() 'Guilded.Base.Events.MessageReactionEvent.RemoveAsync()')** `Method`
+  - **[MessageReactionEvent.EventReaction](MessageReactionEvent.EventReaction 'Guilded.Base.Events.MessageReactionEvent.EventReaction')** `Class`
+    - **[EventReaction(Emote, HashId, Guid, Guid)](MessageReactionEvent.EventReaction.EventReaction(Emote,HashId,Guid,Guid) 'Guilded.Base.Events.MessageReactionEvent.EventReaction.EventReaction(Guilded.Base.Content.Emote, Guilded.Base.HashId, Guid, Guid)')** `Constructor`
+    - **[ChannelId](MessageReactionEvent.EventReaction.ChannelId 'Guilded.Base.Events.MessageReactionEvent.EventReaction.ChannelId')** `Property`
+    - **[CreatedBy](MessageReactionEvent.EventReaction.CreatedBy 'Guilded.Base.Events.MessageReactionEvent.EventReaction.CreatedBy')** `Property`
+    - **[Emote](MessageReactionEvent.EventReaction.Emote 'Guilded.Base.Events.MessageReactionEvent.EventReaction.Emote')** `Property`
+    - **[Id](MessageReactionEvent.EventReaction.Id 'Guilded.Base.Events.MessageReactionEvent.EventReaction.Id')** `Property`
+    - **[MessageId](MessageReactionEvent.EventReaction.MessageId 'Guilded.Base.Events.MessageReactionEvent.EventReaction.MessageId')** `Property`
+    - **[Name](MessageReactionEvent.EventReaction.Name 'Guilded.Base.Events.MessageReactionEvent.EventReaction.Name')** `Property`
+    - **[AddAsync()](MessageReactionEvent.EventReaction.AddAsync() 'Guilded.Base.Events.MessageReactionEvent.EventReaction.AddAsync()')** `Method`
+    - **[RemoveAsync()](MessageReactionEvent.EventReaction.RemoveAsync() 'Guilded.Base.Events.MessageReactionEvent.EventReaction.RemoveAsync()')** `Method`
   - **[ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent')** `Class`
     - **[ResumeEvent(string)](ResumeEvent.ResumeEvent(string) 'Guilded.Base.Events.ResumeEvent.ResumeEvent(string)')** `Constructor`
     - **[MessageId](ResumeEvent.MessageId 'Guilded.Base.Events.ResumeEvent.MessageId')** `Property`
@@ -885,6 +1048,21 @@
     - **[RolesUpdated(HashId, IList&lt;uint&gt;)](RolesUpdatedEvent.RolesUpdated.RolesUpdated(HashId,IList_uint_) 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RolesUpdated(Guilded.Base.HashId, System.Collections.Generic.IList<uint>)')** `Constructor`
     - **[RoleIds](RolesUpdatedEvent.RolesUpdated.RoleIds 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.RoleIds')** `Property`
     - **[UserId](RolesUpdatedEvent.RolesUpdated.UserId 'Guilded.Base.Events.RolesUpdatedEvent.RolesUpdated.UserId')** `Property`
+  - **[TopicEvent](TopicEvent 'Guilded.Base.Events.TopicEvent')** `Class`
+    - **[TopicEvent(Topic, HashId)](TopicEvent.TopicEvent(Topic,HashId) 'Guilded.Base.Events.TopicEvent.TopicEvent(Guilded.Base.Content.Topic, Guilded.Base.HashId)')** `Constructor`
+    - **[BumpedAt](TopicEvent.BumpedAt 'Guilded.Base.Events.TopicEvent.BumpedAt')** `Property`
+    - **[ChannelId](TopicEvent.ChannelId 'Guilded.Base.Events.TopicEvent.ChannelId')** `Property`
+    - **[Content](TopicEvent.Content 'Guilded.Base.Events.TopicEvent.Content')** `Property`
+    - **[CreatedAt](TopicEvent.CreatedAt 'Guilded.Base.Events.TopicEvent.CreatedAt')** `Property`
+    - **[CreatedBy](TopicEvent.CreatedBy 'Guilded.Base.Events.TopicEvent.CreatedBy')** `Property`
+    - **[CreatedByWebhook](TopicEvent.CreatedByWebhook 'Guilded.Base.Events.TopicEvent.CreatedByWebhook')** `Property`
+    - **[Title](TopicEvent.Title 'Guilded.Base.Events.TopicEvent.Title')** `Property`
+    - **[Topic](TopicEvent.Topic 'Guilded.Base.Events.TopicEvent.Topic')** `Property`
+    - **[UpdatedAt](TopicEvent.UpdatedAt 'Guilded.Base.Events.TopicEvent.UpdatedAt')** `Property`
+    - **[AddReactionAsync(uint)](TopicEvent.AddReactionAsync(uint) 'Guilded.Base.Events.TopicEvent.AddReactionAsync(uint)')** `Method`
+    - **[DeleteAsync()](TopicEvent.DeleteAsync() 'Guilded.Base.Events.TopicEvent.DeleteAsync()')** `Method`
+    - **[RemoveReactionAsync(uint)](TopicEvent.RemoveReactionAsync(uint) 'Guilded.Base.Events.TopicEvent.RemoveReactionAsync(uint)')** `Method`
+    - **[UpdateAsync(string, string)](TopicEvent.UpdateAsync(string,string) 'Guilded.Base.Events.TopicEvent.UpdateAsync(string, string)')** `Method`
   - **[WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent')** `Class`
     - **[WebhookEvent(HashId, Webhook)](WebhookEvent.WebhookEvent(HashId,Webhook) 'Guilded.Base.Events.WebhookEvent.WebhookEvent(Guilded.Base.HashId, Guilded.Base.Servers.Webhook)')** `Constructor`
     - **[ChannelId](WebhookEvent.ChannelId 'Guilded.Base.Events.WebhookEvent.ChannelId')** `Property`
@@ -913,8 +1091,6 @@
     - **[FirstUser](XpAddedEvent.FirstUser 'Guilded.Base.Events.XpAddedEvent.FirstUser')** `Property`
     - **[LastUser](XpAddedEvent.LastUser 'Guilded.Base.Events.XpAddedEvent.LastUser')** `Property`
     - **[Users](XpAddedEvent.Users 'Guilded.Base.Events.XpAddedEvent.Users')** `Property`
-  - **[IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')** `Interface`
-    - **[ServerId](IServerEvent.ServerId 'Guilded.Base.Events.IServerEvent.ServerId')** `Property`
   - **[SocketOpcode](SocketOpcode 'Guilded.Base.Events.SocketOpcode')** `Enum`
     - **[Activity](SocketOpcode#Guilded.Base.Events.SocketOpcode.Activity 'Guilded.Base.Events.SocketOpcode.Activity')** `Field`
     - **[InternalError](SocketOpcode#Guilded.Base.Events.SocketOpcode.InternalError 'Guilded.Base.Events.SocketOpcode.InternalError')** `Field`

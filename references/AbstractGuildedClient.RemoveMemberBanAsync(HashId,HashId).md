@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Unbans the [member](AbstractGuildedClient.RemoveMemberBanAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
+Unbans the specified [member](AbstractGuildedClient.RemoveMemberBanAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## AbstractGuildedClient.RemoveMemberBanAsync(HashId, HashId) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Unbans the [member](AbstractGuildedClient.RemoveMemberBanAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
+Unbans the specified [member](AbstractGuildedClient.RemoveMemberBanAsync(HashId,HashId)#Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
 public override System.Threading.Tasks.Task RemoveMemberBanAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -24,17 +24,17 @@ public override System.Threading.Tasks.Task RemoveMemberBanAsync(Guilded.Base.Ha
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to unban [member](Member 'Guilded.Base.Servers.Member') in
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') to unban [member](Member 'Guilded.Base.Servers.Member') in
 
 <a name='Guilded.AbstractGuildedClient.RemoveMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
 `member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the member](Member 'Guilded.Base.Servers.Member') to unban
+The identifier of the [member](Member 'Guilded.Base.Servers.Member') to unban
 
 ### Remarks
   
-Allows them to join [the server](Server 'Guilded.Base.Servers.Server') again.
+Allows them to join the [server](Server 'Guilded.Base.Servers.Server') again.
 
 #### Exceptions
 

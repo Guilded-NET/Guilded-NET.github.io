@@ -25,7 +25,8 @@ Derived
 &#8627; [GuildedAuthorizationException](GuildedAuthorizationException 'Guilded.Base.GuildedAuthorizationException')  
 &#8627; [GuildedPermissionException](GuildedPermissionException 'Guilded.Base.GuildedPermissionException')  
 &#8627; [GuildedRequestException](GuildedRequestException 'Guilded.Base.GuildedRequestException')  
-&#8627; [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')
+&#8627; [GuildedResourceException](GuildedResourceException 'Guilded.Base.GuildedResourceException')  
+&#8627; [GuildedTooManyRequestsException](GuildedTooManyRequestsException 'Guilded.Base.GuildedTooManyRequestsException')
 
 ### Remarks
   

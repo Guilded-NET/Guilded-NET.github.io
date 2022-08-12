@@ -23,8 +23,9 @@ Derived
 &#8627; [Doc](Doc 'Guilded.Base.Content.Doc')  
 &#8627; [IContentBlockMarkdown](IContentBlockMarkdown 'Guilded.Base.Content.IContentBlockMarkdown')  
 &#8627; [ListItemBase&lt;T&gt;](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')  
-&#8627; [Message](Message 'Guilded.Base.Content.Message')
+&#8627; [Message](Message 'Guilded.Base.Content.Message')  
+&#8627; [TopicSummary](TopicSummary 'Guilded.Base.Content.TopicSummary')
 
 | Properties | |
 | :--- | :--- |
-| [Mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions') | Gets [the mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content'). |
+| [Mentions](IContentMarkdown.Mentions 'Guilded.Base.Content.IContentMarkdown.Mentions') | Gets the [mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Message.Content 'Guilded.Base.Content.Message.Content'). |

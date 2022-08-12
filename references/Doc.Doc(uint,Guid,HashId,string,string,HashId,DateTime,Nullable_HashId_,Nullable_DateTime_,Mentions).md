@@ -78,7 +78,7 @@ the date when the document was recently updated
 
 `mentions` [Mentions](Mentions 'Guilded.Base.Content.Mentions')
 
-[The mentions](Doc.Mentions 'Guilded.Base.Content.Doc.Mentions') found in [the content](TitledContent.Content 'Guilded.Base.Content.TitledContent.Content')
+[The mentions](Doc.Mentions 'Guilded.Base.Content.Doc.Mentions') found in [the content](Doc.Content 'Guilded.Base.Content.Doc.Content')
 
 ### See Also
 - [Doc](Doc 'Guilded.Base.Content.Doc')

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets the [calendarEvent](AbstractGuildedClient.GetEventAsync(Guid,uint)#Guilded.AbstractGuildedClient.GetEventAsync(Guid,uint).calendarEvent 'Guilded.AbstractGuildedClient.GetEventAsync(Guid, uint).calendarEvent')."
+Gets the specified [calendarEvent](AbstractGuildedClient.GetEventAsync(Guid,uint)#Guilded.AbstractGuildedClient.GetEventAsync(Guid,uint).calendarEvent 'Guilded.AbstractGuildedClient.GetEventAsync(Guid, uint).calendarEvent')."
 ---
 
 ## AbstractGuildedClient.GetEventAsync(Guid, uint) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets the [calendarEvent](AbstractGuildedClient.GetEventAsync(Guid,uint)#Guilded.AbstractGuildedClient.GetEventAsync(Guid,uint).calendarEvent 'Guilded.AbstractGuildedClient.GetEventAsync(Guid, uint).calendarEvent').
+Gets the specified [calendarEvent](AbstractGuildedClient.GetEventAsync(Guid,uint)#Guilded.AbstractGuildedClient.GetEventAsync(Guid,uint).calendarEvent 'Guilded.AbstractGuildedClient.GetEventAsync(Guid, uint).calendarEvent').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Content.CalendarEvent> GetEventAsync(Guid channel, uint calendarEvent);
@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task<Guilded.Base.Content.CalendarEvent> 
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.GetEventAsync(Guid,uint).calendarEvent'></a>
 
 `calendarEvent` [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')
 
-The identifier of [the calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') to get
+The identifier of the [calendar event](CalendarEvent 'Guilded.Base.Content.CalendarEvent') to get
 
 #### Exceptions
 

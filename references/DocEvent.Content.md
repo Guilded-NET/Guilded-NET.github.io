@@ -7,13 +7,13 @@ tags:
   - property
 description: "
 
-Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent')."
+Gets the text contents of the [document](Doc 'Guilded.Base.Content.Doc')."
 ---
 
 ## DocEvent.Content Property
 ##### **Assembly:** `Guilded.Base`<br/>**Type:** [`DocEvent`](DocEvent 'Guilded.Base.Events.DocEvent')
 
-Gets the text contents of [the titled content](TitledContent 'Guilded.Base.Content.TitledContent').
+Gets the text contents of the [document](Doc 'Guilded.Base.Content.Doc').
 
 ```csharp
 public string Content { get; }
@@ -28,5 +28,5 @@ The contents are formatted in Markdown. This includes images and videos, which a
 Markdown string
 
 ### See Also
-- [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')
+- [Doc](Doc 'Guilded.Base.Content.Doc')
 - [Title](TitledContent.Title 'Guilded.Base.Content.TitledContent.Title')

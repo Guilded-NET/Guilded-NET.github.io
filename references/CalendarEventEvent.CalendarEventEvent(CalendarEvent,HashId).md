@@ -30,7 +30,7 @@ public CalendarEventEvent(Guilded.Base.Content.CalendarEvent calendarEvent, Guil
 
 `serverId` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the doc event occurred
+The identifier of [the server](Server 'Guilded.Base.Servers.Server') where the [calendar event event](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent') occurred
 
 ### See Also
 - [CalendarEventEvent](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent')

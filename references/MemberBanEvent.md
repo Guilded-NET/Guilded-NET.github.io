@@ -16,13 +16,10 @@ Represents an event that occurs when [a memner](Member 'Guilded.Base.Servers.Mem
 Represents an event that occurs when [a memner](Member 'Guilded.Base.Servers.Member') gets banned or unbanned.
 
 ```csharp
-public class MemberBanEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class MemberBanEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberBanEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |

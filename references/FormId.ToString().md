@@ -21,4 +21,4 @@ public override string ToString();
 
 #### Returns
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-[FormId](FormId 'Guilded.Base.FormId') as string
+[FormId](FormId 'Guilded.Base.FormId') as [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')

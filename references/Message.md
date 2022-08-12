@@ -21,12 +21,14 @@ Guilded.Base.Content.IUpdatableContent,
 Guilded.Base.Content.IWebhookCreatable,
 Guilded.Base.Content.IReactibleContent,
 Guilded.Base.Content.IContentBlockMarkdown,
-Guilded.Base.Content.IContentMarkdown
+Guilded.Base.Content.IContentMarkdown,
+Guilded.Base.IGlobalContent,
+Guilded.Base.IHasParentClient
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; [ContentModel](ContentModel 'Guilded.Base.ContentModel') &#129106; [Guilded.Base.Content.ChannelContent&lt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')[,](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>')[System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[&gt;](ChannelContent_TId,TServer_ 'Guilded.Base.Content.ChannelContent<TId,TServer>') &#129106; Message
 
-Implements [IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent'), [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [IReactibleContent](IReactibleContent 'Guilded.Base.Content.IReactibleContent'), [IContentBlockMarkdown](IContentBlockMarkdown 'Guilded.Base.Content.IContentBlockMarkdown'), [IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown')
+Implements [IUpdatableContent](IUpdatableContent 'Guilded.Base.Content.IUpdatableContent'), [IWebhookCreatable](IWebhookCreatable 'Guilded.Base.Content.IWebhookCreatable'), [IReactibleContent](IReactibleContent 'Guilded.Base.Content.IReactibleContent'), [IContentBlockMarkdown](IContentBlockMarkdown 'Guilded.Base.Content.IContentBlockMarkdown'), [IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMarkdown'), [IGlobalContent](IGlobalContent 'Guilded.Base.IGlobalContent'), [IHasParentClient](IHasParentClient 'Guilded.Base.IHasParentClient')
 
 ### Remarks
   

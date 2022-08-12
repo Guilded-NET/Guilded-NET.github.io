@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Bans the [member](AbstractGuildedClient.AddMemberBanAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member')."
+Bans the specified [member](AbstractGuildedClient.AddMemberBanAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member')."
 ---
 
 ## AbstractGuildedClient.AddMemberBanAsync(HashId, HashId, string) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Bans the [member](AbstractGuildedClient.AddMemberBanAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
+Bans the specified [member](AbstractGuildedClient.AddMemberBanAsync(HashId,HashId,string)#Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member 'Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId, Guilded.Base.HashId, string).member').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Servers.MemberBan> AddMemberBanAsync(Guilded.Base.HashId server, Guilded.Base.HashId member, string? reason=null);
@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.MemberBan> AddM
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server to ban member from
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') to ban member from
 
 <a name='Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).member'></a>
 
 `member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the member](Member 'Guilded.Base.Servers.Member') to ban
+The identifier of the [member](Member 'Guilded.Base.Servers.Member') to ban
 
 <a name='Guilded.AbstractGuildedClient.AddMemberBanAsync(Guilded.Base.HashId,Guilded.Base.HashId,string).reason'></a>
 

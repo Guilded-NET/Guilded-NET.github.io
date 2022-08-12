@@ -44,4 +44,4 @@ When [request](BaseGuildedClient.ExecuteRequestAsync_T_(RestRequest)#Guilded.Bas
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[RestSharp.RestResponse&lt;](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.RestResponse-1 'RestSharp.RestResponse`1')[T](BaseGuildedClient.ExecuteRequestAsync_T_(RestRequest)#Guilded.Base.BaseGuildedClient.ExecuteRequestAsync_T_(RestSharp.RestRequest).T 'Guilded.Base.BaseGuildedClient.ExecuteRequestAsync<T>(RestSharp.RestRequest).T')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/RestSharp.RestResponse-1 'RestSharp.RestResponse`1')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-Guilded request response
+Guilded API's request's response

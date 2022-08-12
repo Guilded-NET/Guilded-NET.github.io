@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the [channel](AbstractGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.AbstractGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.AbstractGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel')."
+Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the specified [channel](AbstractGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.AbstractGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.AbstractGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel')."
 ---
 
 ## AbstractGuildedClient.GetMessagesAsync(Guid, bool, Nullable<uint>, Nullable<DateTime>, Nullable<DateTime>) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the [channel](AbstractGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.AbstractGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.AbstractGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel').
+Gets a list of [messages](Message 'Guilded.Base.Content.Message') from the specified [channel](AbstractGuildedClient.GetMessagesAsync(Guid,bool,Nullable_uint_,Nullable_DateTime_,Nullable_DateTime_)#Guilded.AbstractGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).channel 'Guilded.AbstractGuildedClient.GetMessagesAsync(Guid, bool, System.Nullable<uint>, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>).channel').
 
 ```csharp
 public override System.Threading.Tasks.Task<System.Collections.Generic.IList<Guilded.Base.Content.Message>> GetMessagesAsync(Guid channel, bool includePrivate=false, System.Nullable<uint> limit=null, System.Nullable<System.DateTime> before=null, System.Nullable<System.DateTime> after=null);
@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task<System.Collections.Generic.IList<Gui
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.GetMessagesAsync(Guid,bool,System.Nullable_uint_,System.Nullable_System.DateTime_,System.Nullable_System.DateTime_).includePrivate'></a>
 

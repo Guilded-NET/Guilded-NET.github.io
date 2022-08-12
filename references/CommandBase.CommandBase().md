@@ -18,3 +18,6 @@ Initializes a new instance of [CommandBase](CommandBase 'Guilded.Commands.Comman
 ```csharp
 public CommandBase();
 ```
+
+### See Also
+- [CommandBase](CommandBase 'Guilded.Commands.CommandBase')

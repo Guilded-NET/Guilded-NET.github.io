@@ -23,6 +23,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 Derived  
 &#8627; [CalendarCancellation](CalendarCancellation 'Guilded.Base.Content.CalendarCancellation')  
+&#8627; [Emote](Emote 'Guilded.Base.Content.Emote')  
 &#8627; [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')  
 &#8627; [Mentions](Mentions 'Guilded.Base.Content.Mentions')  
 &#8627; [ChannelMention](Mentions.ChannelMention 'Guilded.Base.Content.Mentions.ChannelMention')  
@@ -36,6 +37,8 @@ Derived
 &#8627; [EmbedFooter](EmbedFooter 'Guilded.Base.Embeds.EmbedFooter')  
 &#8627; [EmbedMedia](EmbedMedia 'Guilded.Base.Embeds.EmbedMedia')  
 &#8627; [CalendarEventEvent](CalendarEventEvent 'Guilded.Base.Events.CalendarEventEvent')  
+&#8627; [CalendarRsvpEvent](CalendarRsvpEvent 'Guilded.Base.Events.CalendarRsvpEvent')  
+&#8627; [CalendarRsvpManyEvent](CalendarRsvpManyEvent 'Guilded.Base.Events.CalendarRsvpManyEvent')  
 &#8627; [ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')  
 &#8627; [DocEvent](DocEvent 'Guilded.Base.Events.DocEvent')  
 &#8627; [GuildedSocketMessage](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage')  
@@ -46,9 +49,10 @@ Derived
 &#8627; [MemberUpdatedEvent](MemberUpdatedEvent 'Guilded.Base.Events.MemberUpdatedEvent')  
 &#8627; [MemberUpdate](MemberUpdatedEvent.MemberUpdate 'Guilded.Base.Events.MemberUpdatedEvent.MemberUpdate')  
 &#8627; [MessageDeleted](MessageDeletedEvent.MessageDeleted 'Guilded.Base.Events.MessageDeletedEvent.MessageDeleted')  
-&#8627; [MessageEvent&lt;T&gt;](MessageEvent_T_ 'Guilded.Base.Events.MessageEvent<T>')  
+&#8627; [MessageReactionEvent](MessageReactionEvent 'Guilded.Base.Events.MessageReactionEvent')  
 &#8627; [ResumeEvent](ResumeEvent 'Guilded.Base.Events.ResumeEvent')  
 &#8627; [RolesUpdatedEvent](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent')  
+&#8627; [TopicEvent](TopicEvent 'Guilded.Base.Events.TopicEvent')  
 &#8627; [WebhookEvent](WebhookEvent 'Guilded.Base.Events.WebhookEvent')  
 &#8627; [WelcomeEvent](WelcomeEvent 'Guilded.Base.Events.WelcomeEvent')  
 &#8627; [XpAddedEvent](XpAddedEvent 'Guilded.Base.Events.XpAddedEvent')  

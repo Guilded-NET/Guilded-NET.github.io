@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task<Guilded.Base.Content.Doc> UpdateDocA
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.UpdateDocAsync(Guid,uint,string,string).doc'></a>
 

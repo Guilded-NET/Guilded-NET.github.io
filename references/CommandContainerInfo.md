@@ -23,7 +23,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [CommandContainerInfo(Type, CommandAttribute, CommandBase)](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandBase) 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandBase)') | Initializes a new instance of [CommandContainerInfo](CommandContainerInfo 'Guilded.Commands.CommandContainerInfo') from the [type](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandBase)#Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type,Guilded.Commands.CommandAttribute,Guilded.Commands.CommandBase).type 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandBase).type'). |
+| [CommandContainerInfo(Type, CommandAttribute, CommandParent)](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandParent) 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandParent)') | Initializes a new instance of [CommandContainerInfo](CommandContainerInfo 'Guilded.Commands.CommandContainerInfo') from the [type](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandParent)#Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type,Guilded.Commands.CommandAttribute,Guilded.Commands.CommandParent).type 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandParent).type'). |
 
 | Properties | |
 | :--- | :--- |

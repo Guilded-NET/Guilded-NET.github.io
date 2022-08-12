@@ -24,7 +24,7 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> 
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to get
+The identifier of the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') to get
 
 #### Exceptions
 
@@ -40,4 +40,4 @@ The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChanne
 
 #### Returns
 [System.Threading.Tasks.Task&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')[ServerChannel](ServerChannel 'Guilded.Base.Servers.ServerChannel')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task`1')  
-[channel](AbstractGuildedClient.GetChannelAsync(Guid)#Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel 'Guilded.AbstractGuildedClient.GetChannelAsync(Guid).channel')
+Specified [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')

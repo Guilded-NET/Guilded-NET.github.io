@@ -20,6 +20,12 @@ public enum FallbackType
 ```
 ### Fields
 
+<a name='Guilded.Commands.FallbackType.BadArguments'></a>
+
+`BadArguments` 2
+
+The [sub-command/command](FailedCommandEvent 'Guilded.Commands.FailedCommandEvent') was being invoked with bad arguments.
+
 <a name='Guilded.Commands.FallbackType.NoCommandFound'></a>
 
 `NoCommandFound` 1

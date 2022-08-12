@@ -24,37 +24,37 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.ServerChannel> 
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the server](Server 'Guilded.Base.Servers.Server') where [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') where the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
 
 <a name='Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).name'></a>
 
 `name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') (max — `100`)
+The name of the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') (max — `100`)
 
 <a name='Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).type'></a>
 
 `type` [ChannelType](ChannelType 'Guilded.Base.Servers.ChannelType')
 
-The type of the content that [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will hold
+The type of the content that the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will hold
 
 <a name='Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).topic'></a>
 
 `topic` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The topic describing what [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') is about (max — `512`)
+The topic describing what the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') is about (max — `512`)
 
 <a name='Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).group'></a>
 
 `group` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[HashId](HashId 'Guilded.Base.HashId')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of the group where [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
+The identifier of the group where the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
 
 <a name='Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).category'></a>
 
 `category` [System.Nullable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')[System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1 'System.Nullable`1')
 
-The identifier of the category where [the channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
+The identifier of the category where the [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel') will be created
 
 <a name='Guilded.AbstractGuildedClient.CreateChannelAsync(Guilded.Base.HashId,string,Guilded.Base.Servers.ChannelType,string,System.Nullable_Guilded.Base.HashId_,System.Nullable_uint_,System.Nullable_bool_).isPublic'></a>
 

@@ -16,13 +16,10 @@ Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Mem
 Represents an event that occurs when [a member](Member 'Guilded.Base.Servers.Member') leaves [a server](Server 'Guilded.Base.Servers.Server') or gets removed from it.
 
 ```csharp
-public class MemberRemovedEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class MemberRemovedEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberRemovedEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |

@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Gets full information about the [member](AbstractGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
+Gets full information about the specified [member](AbstractGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member')."
 ---
 
 ## AbstractGuildedClient.GetMemberAsync(HashId, HashId) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Gets full information about the [member](AbstractGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
+Gets full information about the specified [member](AbstractGuildedClient.GetMemberAsync(HashId,HashId)#Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member 'Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId, Guilded.Base.HashId).member').
 
 ```csharp
 public override System.Threading.Tasks.Task<Guilded.Base.Servers.Member> GetMemberAsync(Guilded.Base.HashId server, Guilded.Base.HashId member);
@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.Member> GetMemb
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The server where [the member](Member 'Guilded.Base.Servers.Member') is
+The server where the [member](Member 'Guilded.Base.Servers.Member') is
 
 <a name='Guilded.AbstractGuildedClient.GetMemberAsync(Guilded.Base.HashId,Guilded.Base.HashId).member'></a>
 
 `member` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the member](Member 'Guilded.Base.Servers.Member') to get
+The identifier of the [member](Member 'Guilded.Base.Servers.Member') to get
 
 #### Exceptions
 

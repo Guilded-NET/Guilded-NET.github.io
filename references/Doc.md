@@ -30,7 +30,8 @@ Implements [IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMar
 
 | Properties | |
 | :--- | :--- |
-| [Mentions](Doc.Mentions 'Guilded.Base.Content.Doc.Mentions') | Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](TitledContent.Content 'Guilded.Base.Content.TitledContent.Content'). |
+| [Content](Doc.Content 'Guilded.Base.Content.Doc.Content') | Gets the text contents of the [document](Doc 'Guilded.Base.Content.Doc'). |
+| [Mentions](Doc.Mentions 'Guilded.Base.Content.Doc.Mentions') | Gets [the mentions](Mentions 'Guilded.Base.Content.Mentions') found in [the content](Doc.Content 'Guilded.Base.Content.Doc.Content'). |
 | [UpdatedBy](Doc.UpdatedBy 'Guilded.Base.Content.Doc.UpdatedBy') | Gets the identifier of [the member](Member 'Guilded.Base.Servers.Member') who updated [the document](Doc 'Guilded.Base.Content.Doc'). |
 
 | Methods | |
@@ -40,5 +41,6 @@ Implements [IContentMarkdown](IContentMarkdown 'Guilded.Base.Content.IContentMar
 
 ### See Also
 - [Topic](Topic 'Guilded.Base.Content.Topic')
+- [CalendarEvent](CalendarEvent 'Guilded.Base.Content.CalendarEvent')
 - [ListItem](ListItem 'Guilded.Base.Content.ListItem')
 - [Message](Message 'Guilded.Base.Content.Message')

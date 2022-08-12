@@ -16,9 +16,9 @@ Gets the created instance of [the command](CommandAttribute 'Guilded.Commands.Co
 Gets the created instance of [the command](CommandAttribute 'Guilded.Commands.CommandAttribute') type for this command.
 
 ```csharp
-public Guilded.Commands.CommandBase Instance { get; }
+public Guilded.Commands.CommandParent Instance { get; }
 ```
 
 #### Property Value
-[CommandBase](CommandBase 'Guilded.Commands.CommandBase')  
+[CommandParent](CommandParent 'Guilded.Commands.CommandParent')  
 Command instance

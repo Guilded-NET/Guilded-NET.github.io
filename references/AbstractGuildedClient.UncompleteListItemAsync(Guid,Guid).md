@@ -7,13 +7,13 @@ tags:
   - method
 description: "
 
-Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted')."
+Marks the specified [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted')."
 ---
 
 ## AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid) Method
 ##### **Assembly:** `Guilded`<br/>**Type:** [`AbstractGuildedClient`](AbstractGuildedClient 'Guilded.AbstractGuildedClient')
 
-Marks the [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted').
+Marks the specified [listItem](AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid)#Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid,Guid).listItem 'Guilded.AbstractGuildedClient.UncompleteListItemAsync(Guid, Guid).listItem') as [not completed](ListItemBase_T_.IsCompleted 'Guilded.Base.Content.ListItemBase`1.IsCompleted').
 
 ```csharp
 public override System.Threading.Tasks.Task UncompleteListItemAsync(Guid channel, Guid listItem);
@@ -30,7 +30,7 @@ The identifier of [the channel](ServerChannel 'Guilded.Base.Servers.ServerChanne
 
 `listItem` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the list item](ListItem 'Guilded.Base.Content.ListItem') to complete
+The identifier of the [list item](ListItem 'Guilded.Base.Content.ListItem') to complete
 
 #### Exceptions
 

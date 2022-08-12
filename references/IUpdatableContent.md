@@ -20,6 +20,7 @@ public interface IUpdatableContent
 ```
 
 Derived  
+&#8627; [CalendarRsvp](CalendarRsvp 'Guilded.Base.Content.CalendarRsvp')  
 &#8627; [ListItemBase&lt;T&gt;](ListItemBase_T_ 'Guilded.Base.Content.ListItemBase<T>')  
 &#8627; [ListItemNoteSummary](ListItemNoteSummary 'Guilded.Base.Content.ListItemNoteSummary')  
 &#8627; [Message](Message 'Guilded.Base.Content.Message')  

@@ -36,6 +36,11 @@ Any message that can be received the Guilded WebSocket, including Guilded events
 | [Opcode](GuildedSocketMessage.Opcode 'Guilded.Base.Events.GuildedSocketMessage.Opcode') | Gets an operation code that tells about the message. |
 | [RawData](GuildedSocketMessage.RawData 'Guilded.Base.Events.GuildedSocketMessage.RawData') | Gets the data associated with the event. |
 
+| Methods | |
+| :--- | :--- |
+| [ToString()](GuildedSocketMessage.ToString() 'Guilded.Base.Events.GuildedSocketMessage.ToString()') | Returns the string representation of [the socket message](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage'). |
+| [ToString(Formatting)](GuildedSocketMessage.ToString(Formatting) 'Guilded.Base.Events.GuildedSocketMessage.ToString(Newtonsoft.Json.Formatting)') | Returns the string representation of [the socket message](GuildedSocketMessage 'Guilded.Base.Events.GuildedSocketMessage'). |
+
 ### See Also
 - [MessageDeletedEvent](MessageDeletedEvent 'Guilded.Base.Events.MessageDeletedEvent')
 - [MessageEvent](MessageEvent 'Guilded.Base.Events.MessageEvent')

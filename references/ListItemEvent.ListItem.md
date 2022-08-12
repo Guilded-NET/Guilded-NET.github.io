@@ -26,4 +26,4 @@ List item
 ### See Also
 - [ListItemEvent](ListItemEvent 'Guilded.Base.Events.ListItemEvent')
 - [Message](ListItemEvent.Message 'Guilded.Base.Events.ListItemEvent.Message')
-- [ServerId](ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId')
+- [Guilded.Base.Events.ListItemEvent.ServerId](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.ListItemEvent.ServerId 'Guilded.Base.Events.ListItemEvent.ServerId')

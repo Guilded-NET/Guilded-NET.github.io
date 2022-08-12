@@ -16,13 +16,10 @@ Represents an event that occurs when member's server profile receives any kind o
 Represents an event that occurs when member's server profile receives any kind of change, besides [change in their role list](RolesUpdatedEvent 'Guilded.Base.Events.RolesUpdatedEvent').
 
 ```csharp
-public class MemberUpdatedEvent : Guilded.Base.BaseModel,
-Guilded.Base.Events.IServerEvent
+public class MemberUpdatedEvent : Guilded.Base.BaseModel
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseModel](BaseModel 'Guilded.Base.BaseModel') &#129106; MemberUpdatedEvent
-
-Implements [IServerEvent](IServerEvent 'Guilded.Base.Events.IServerEvent')
 
 | Constructors | |
 | :--- | :--- |

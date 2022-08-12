@@ -69,22 +69,16 @@ description: ""
   Represents the base for all [command types](CommandAttribute 'Guilded.Commands.CommandAttribute').
   - **[CommandBase()](CommandBase.CommandBase() 'Guilded.Commands.CommandBase.CommandBase()')** `Constructor`
     Initializes a new instance of [CommandBase](CommandBase 'Guilded.Commands.CommandBase').
-  - **[CommandLookup](CommandBase.CommandLookup 'Guilded.Commands.CommandBase.CommandLookup')** `Property`
-    Gets the lookup of [commands or sub-commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands') based on their [name](ICommandInfo_TMember_.Name 'Guilded.Commands.ICommandInfo<TMember>.Name').
-  - **[Commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands')** `Property`
-    Gets the list of commands or sub-commands of this command.
-  - **[FailedCommand](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand')** `Property`
-    Gets the event for failed command invokation.
-  - **[FilterCommandsByName(string)](CommandBase.FilterCommandsByName(string) 'Guilded.Commands.CommandBase.FilterCommandsByName(string)')** `Method`
-    Filters out [commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands') that do not have name.
-  - **[InvokeAsync(string, RootCommandEvent, IEnumerable&lt;string&gt;)](CommandBase.InvokeAsync(string,RootCommandEvent,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeAsync(string, Guilded.Commands.RootCommandEvent, System.Collections.Generic.IEnumerable<string>)')** `Method`
-    Invokes any of the command's [sub-commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands').
-  - **[InvokeCommandAsync(CommandContainerInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandBase.InvokeCommandAsync(CommandContainerInfo,RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeCommandAsync(Guilded.Commands.CommandContainerInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
-    Invokes command as a child of [this command base](CommandBase 'Guilded.Commands.CommandBase').
-  - **[InvokeCommandAsync(CommandInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;, IEnumerable&lt;object&gt;)](CommandBase.InvokeCommandAsync(CommandInfo,RootCommandEvent,string,IEnumerable_string_,IEnumerable_object_) 'Guilded.Commands.CommandBase.InvokeCommandAsync(Guilded.Commands.CommandInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<object>)')** `Method`
-    Invokes command as a child of [this command base](CommandBase 'Guilded.Commands.CommandBase').
-  - **[InvokeCommandByNameAsync(RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandBase.InvokeCommandByNameAsync(RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandBase.InvokeCommandByNameAsync(Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
-    Filters [commands](CommandBase.Commands 'Guilded.Commands.CommandBase.Commands') and invokes any commands that were found. If none are found, [failed command event](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') is invoked.
+  - **[Aliases](CommandBase.Aliases 'Guilded.Commands.CommandBase.Aliases')** `Property`
+    Gets the alternative names of the command.
+  - **[Description](CommandBase.Description 'Guilded.Commands.CommandBase.Description')** `Property`
+    Gets the text that represents [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') description.
+  - **[Examples](CommandBase.Examples 'Guilded.Commands.CommandBase.Examples')** `Property`
+    Gets the example of [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') usage.
+  - **[InstanceInfo](CommandBase.InstanceInfo 'Guilded.Commands.CommandBase.InstanceInfo')** `Property`
+    Gets the information about the [command](CommandBase 'Guilded.Commands.CommandBase').
+  - **[Name](CommandBase.Name 'Guilded.Commands.CommandBase.Name')** `Property`
+    Gets the [name](CommandAttribute.Name 'Guilded.Commands.CommandAttribute.Name') of the command.
 - **[CommandConfiguration](CommandConfiguration 'Guilded.Commands.CommandConfiguration')** `Class`
   Represents the module that adds [commands](CommandAttribute 'Guilded.Commands.CommandAttribute') to [Guilded clients](BaseGuildedClient 'Guilded.Base.BaseGuildedClient').
   - **[CommandConfiguration()](CommandConfiguration.CommandConfiguration() 'Guilded.Commands.CommandConfiguration.CommandConfiguration()')** `Constructor`
@@ -109,7 +103,7 @@ description: ""
     Gets the splitting options that will be used while splitting command arguments.
 - **[CommandContainerInfo](CommandContainerInfo 'Guilded.Commands.CommandContainerInfo')** `Class`
   Represents the information about types that were declared as [commands](CommandAttribute 'Guilded.Commands.CommandAttribute').
-  - **[CommandContainerInfo(Type, CommandAttribute, CommandBase)](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandBase) 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandBase)')** `Constructor`
+  - **[CommandContainerInfo(Type, CommandAttribute, CommandParent)](CommandContainerInfo.CommandContainerInfo(Type,CommandAttribute,CommandParent) 'Guilded.Commands.CommandContainerInfo.CommandContainerInfo(System.Type, Guilded.Commands.CommandAttribute, Guilded.Commands.CommandParent)')** `Constructor`
     Initializes a new instance of [CommandContainerInfo](CommandContainerInfo 'Guilded.Commands.CommandContainerInfo') from the type.
   - **[Instance](CommandContainerInfo.Instance 'Guilded.Commands.CommandContainerInfo.Instance')** `Property`
     Gets the created instance of [the command](CommandAttribute 'Guilded.Commands.CommandAttribute') type for this command.
@@ -132,11 +126,11 @@ description: ""
   - **[RootCommandName](CommandEvent.RootCommandName 'Guilded.Commands.CommandEvent.RootCommandName')** `Property`
     Gets the name of the root-level command that was used in [the message](Message 'Guilded.Base.Content.Message').
 - **[CommandFallbackAttribute](CommandFallbackAttribute 'Guilded.Commands.CommandFallbackAttribute')** `Class`
-  Declares a method as a [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') handler.
+  Declares a method as a [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') handler.
   - **[CommandFallbackAttribute(FallbackType)](CommandFallbackAttribute.CommandFallbackAttribute(FallbackType) 'Guilded.Commands.CommandFallbackAttribute.CommandFallbackAttribute(Guilded.Commands.FallbackType)')** `Constructor`
     Declares a method as a failed command handler based on type.
   - **[Type](CommandFallbackAttribute.Type 'Guilded.Commands.CommandFallbackAttribute.Type')** `Property`
-    Gets the type of [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') event to handle.
+    Gets the type of [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') event to handle.
 - **[CommandInfo](CommandInfo 'Guilded.Commands.CommandInfo')** `Class`
   Represents the information about methods that were declared as [commands](CommandAttribute 'Guilded.Commands.CommandAttribute').
   - **[CommandInfo(MethodInfo, CommandAttribute, IEnumerable&lt;ParameterInfo&gt;)](CommandInfo.CommandInfo(MethodInfo,CommandAttribute,IEnumerable_ParameterInfo_) 'Guilded.Commands.CommandInfo.CommandInfo(MethodInfo, Guilded.Commands.CommandAttribute, System.Collections.Generic.IEnumerable<ParameterInfo>)')** `Constructor`
@@ -147,7 +141,7 @@ description: ""
     Gets whether there is a rest argument for the command.
   - **[RequiredCount](CommandInfo.RequiredCount 'Guilded.Commands.CommandInfo.RequiredCount')** `Property`
     Gets whether there is a rest argument for the command.
-  - **[InvokeAsync(CommandBase, CommandEvent, IEnumerable&lt;object&gt;)](CommandInfo.InvokeAsync(CommandBase,CommandEvent,IEnumerable_object_) 'Guilded.Commands.CommandInfo.InvokeAsync(Guilded.Commands.CommandBase, Guilded.Commands.CommandEvent, System.Collections.Generic.IEnumerable<object>)')** `Method`
+  - **[InvokeAsync(CommandParent, CommandEvent, IEnumerable&lt;object&gt;)](CommandInfo.InvokeAsync(CommandParent,CommandEvent,IEnumerable_object_) 'Guilded.Commands.CommandInfo.InvokeAsync(Guilded.Commands.CommandParent, Guilded.Commands.CommandEvent, System.Collections.Generic.IEnumerable<object>)')** `Method`
     Invokes the command.
 - **[CommandModule](CommandModule 'Guilded.Commands.CommandModule')** `Class`
   Represents the module that adds [commands](CommandAttribute 'Guilded.Commands.CommandAttribute') to [Guilded clients](BaseGuildedClient 'Guilded.Base.BaseGuildedClient').
@@ -171,6 +165,32 @@ description: ""
     Declares a command parameter with the specified name.
   - **[Name](CommandParamAttribute.Name 'Guilded.Commands.CommandParamAttribute.Name')** `Property`
     Gets the displayed name of the parameter.
+- **[CommandParent](CommandParent 'Guilded.Commands.CommandParent')** `Class`
+  Represents an abstract type that holds commands.
+  - **[CommandParent()](CommandParent.CommandParent() 'Guilded.Commands.CommandParent.CommandParent()')** `Constructor`
+    Initializes a new instance of [CommandParent](CommandParent 'Guilded.Commands.CommandParent').
+  - **[CommandLookup](CommandParent.CommandLookup 'Guilded.Commands.CommandParent.CommandLookup')** `Property`
+    Gets the lookup of [commands or sub-commands](CommandParent.Commands 'Guilded.Commands.CommandParent.Commands') based on their [name](ICommandInfo_TMember_.Name 'Guilded.Commands.ICommandInfo<TMember>.Name').
+  - **[CommandNames](CommandParent.CommandNames 'Guilded.Commands.CommandParent.CommandNames')** `Property`
+    Gets the list of the [names](CommandAttribute.Name 'Guilded.Commands.CommandAttribute.Name') of all [commands or sub-commands](CommandParent.Commands 'Guilded.Commands.CommandParent.Commands') .
+  - **[Commands](CommandParent.Commands 'Guilded.Commands.CommandParent.Commands')** `Property`
+    Gets the list of commands or sub-commands of this command.
+  - **[FailedCommand](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand')** `Property`
+    Gets the event for failed command invokation.
+  - **[FilterCommandsByName(string)](CommandParent.FilterCommandsByName(string) 'Guilded.Commands.CommandParent.FilterCommandsByName(string)')** `Method`
+    Filters out [commands](CommandParent.Commands 'Guilded.Commands.CommandParent.Commands') that do not have name.
+  - **[InvokeAsync(string, RootCommandEvent, IEnumerable&lt;string&gt;)](CommandParent.InvokeAsync(string,RootCommandEvent,IEnumerable_string_) 'Guilded.Commands.CommandParent.InvokeAsync(string, Guilded.Commands.RootCommandEvent, System.Collections.Generic.IEnumerable<string>)')** `Method`
+    Invokes any of the command's [sub-commands](CommandParent.Commands 'Guilded.Commands.CommandParent.Commands').
+  - **[InvokeCommandAsync(CommandContainerInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandParent.InvokeCommandAsync(CommandContainerInfo,RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandParent.InvokeCommandAsync(Guilded.Commands.CommandContainerInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
+    Invokes command as a child of [this command base](CommandParent 'Guilded.Commands.CommandParent').
+  - **[InvokeCommandAsync(CommandInfo, RootCommandEvent, string, IEnumerable&lt;string&gt;, IEnumerable&lt;object&gt;)](CommandParent.InvokeCommandAsync(CommandInfo,RootCommandEvent,string,IEnumerable_string_,IEnumerable_object_) 'Guilded.Commands.CommandParent.InvokeCommandAsync(Guilded.Commands.CommandInfo, Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<object>)')** `Method`
+    Invokes command as a child of [this command base](CommandParent 'Guilded.Commands.CommandParent').
+  - **[InvokeCommandByNameAsync(RootCommandEvent, string, IEnumerable&lt;string&gt;)](CommandParent.InvokeCommandByNameAsync(RootCommandEvent,string,IEnumerable_string_) 'Guilded.Commands.CommandParent.InvokeCommandByNameAsync(Guilded.Commands.RootCommandEvent, string, System.Collections.Generic.IEnumerable<string>)')** `Method`
+    Filters [commands](CommandParent.Commands 'Guilded.Commands.CommandParent.Commands') and invokes any commands that were found. If none are found, [failed command event](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') is invoked.
+- **[CommandRestAttribute](CommandRestAttribute 'Guilded.Commands.CommandRestAttribute')** `Class`
+  Declares a string parameter as a [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') rest argument.
+  - **[CommandRestAttribute()](CommandRestAttribute.CommandRestAttribute() 'Guilded.Commands.CommandRestAttribute.CommandRestAttribute()')** `Constructor`
+    Declares a string parameter as a [command's](CommandAttribute 'Guilded.Commands.CommandAttribute') rest argument.
 - **[CommandRestInfo](CommandRestInfo 'Guilded.Commands.CommandRestInfo')** `Class`
   Represents the information about array command argument in .
   - **[CommandRestInfo(ParameterInfo)](CommandRestInfo.CommandRestInfo(ParameterInfo) 'Guilded.Commands.CommandRestInfo.CommandRestInfo(ParameterInfo)')** `Constructor`
@@ -243,6 +263,8 @@ description: ""
     [The commands](CommandAttribute 'Guilded.Commands.CommandAttribute') can be used only in servers.
 - **[FallbackType](FallbackType 'Guilded.Commands.FallbackType')** `Enum`
   Represents the type of [sub command failure](FailedCommandEvent 'Guilded.Commands.FailedCommandEvent').
+  - **[BadArguments](FallbackType#Guilded.Commands.FallbackType.BadArguments 'Guilded.Commands.FallbackType.BadArguments')** `Field`
+    The [sub-command/command](FailedCommandEvent 'Guilded.Commands.FailedCommandEvent') was being invoked with bad arguments.
   - **[NoCommandFound](FallbackType#Guilded.Commands.FallbackType.NoCommandFound 'Guilded.Commands.FallbackType.NoCommandFound')** `Field`
     The [sub-command/command](FailedCommandEvent 'Guilded.Commands.FailedCommandEvent') with the specified name or arguments does not exist.
   - **[Unspecified](FallbackType#Guilded.Commands.FallbackType.Unspecified 'Guilded.Commands.FallbackType.Unspecified')** `Field`

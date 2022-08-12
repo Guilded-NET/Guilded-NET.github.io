@@ -41,6 +41,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [SplitOptions](CommandConfiguration.SplitOptions 'Guilded.Commands.CommandConfiguration.SplitOptions') | Gets the splitting options that will be used while splitting command arguments. |
 
 ### See Also
-- [CommandBase](CommandBase 'Guilded.Commands.CommandBase')
+- [CommandParent](CommandParent 'Guilded.Commands.CommandParent')
 - [CommandAttribute](CommandAttribute 'Guilded.Commands.CommandAttribute')
 - [CommandFallbackAttribute](CommandFallbackAttribute 'Guilded.Commands.CommandFallbackAttribute')

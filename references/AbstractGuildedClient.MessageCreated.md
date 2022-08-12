@@ -21,7 +21,7 @@ public IObservable<Guilded.Base.Events.MessageEvent> MessageCreated { get; }
 
 ### Remarks
   
-An event with the name `ChatMessageUpdated` and opcode `0`.
+An event with the name `ChatMessageCreated` and opcode `0`.
 
 #### Property Value
 [System.IObservable](https://docs.microsoft.com/en-us/dotnet/api/System.IObservable 'System.IObservable')
@@ -29,5 +29,5 @@ An event with the name `ChatMessageUpdated` and opcode `0`.
 ### See Also
 - [MessageUpdated](AbstractGuildedClient.MessageUpdated 'Guilded.AbstractGuildedClient.MessageUpdated')
 - [MessageDeleted](AbstractGuildedClient.MessageDeleted 'Guilded.AbstractGuildedClient.MessageDeleted')
-- [ReactionAdded](AbstractGuildedClient.ReactionAdded 'Guilded.AbstractGuildedClient.ReactionAdded')
-- [ReactionRemoved](AbstractGuildedClient.ReactionRemoved 'Guilded.AbstractGuildedClient.ReactionRemoved')
+- [MessageReactionAdded](AbstractGuildedClient.MessageReactionAdded 'Guilded.AbstractGuildedClient.MessageReactionAdded')
+- [MessageReactionRemoved](AbstractGuildedClient.MessageReactionRemoved 'Guilded.AbstractGuildedClient.MessageReactionRemoved')

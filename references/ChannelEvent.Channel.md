@@ -27,4 +27,4 @@ public Guilded.Base.Servers.ServerChannel Channel { get; }
 - [ChannelEvent](ChannelEvent 'Guilded.Base.Events.ChannelEvent')
 - [Name](ChannelEvent.Name 'Guilded.Base.Events.ChannelEvent.Name')
 - [Type](ChannelEvent.Type 'Guilded.Base.Events.ChannelEvent.Type')
-- [ServerId](ChannelEvent.ServerId 'Guilded.Base.Events.ChannelEvent.ServerId')
+- [Guilded.Base.Events.ChannelEvent.ServerId](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.Events.ChannelEvent.ServerId 'Guilded.Base.Events.ChannelEvent.ServerId')

@@ -16,12 +16,10 @@ An event when WebSocket receives a message."
 An event when WebSocket receives a message.
 
 ```csharp
-protected IObservable<Guilded.Base.Events.GuildedSocketMessage> WebsocketMessage { get; }
+public IObservable<Guilded.Base.Events.GuildedSocketMessage> WebsocketMessage { get; }
 ```
 
 ### Remarks
-  
-An event when WebSocket receives any kind of message from Guilded.  
   
 If event with opcode `8` is received, it is given as an exception instead.
 

@@ -24,4 +24,4 @@ public CommandFallbackAttribute(Guilded.Commands.FallbackType type);
 
 `type` [FallbackType](FallbackType 'Guilded.Commands.FallbackType')
 
-The type of [failed command](CommandBase.FailedCommand 'Guilded.Commands.CommandBase.FailedCommand') event to handle
+The type of [failed command](CommandParent.FailedCommand 'Guilded.Commands.CommandParent.FailedCommand') event to handle

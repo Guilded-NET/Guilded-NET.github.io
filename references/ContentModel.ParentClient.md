@@ -24,5 +24,5 @@ public Guilded.Base.BaseGuildedClient ParentClient { get; set; }
 Client
 
 ### See Also
-- [Guilded.Base.ContentModel.OnDeserialized(System.Runtime.Serialization.StreamingContext)](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.ContentModel.OnDeserialized#Guilded_Base_ContentModel_OnDeserialized_System_Runtime_Serialization_StreamingContext_ 'Guilded.Base.ContentModel.OnDeserialized(System.Runtime.Serialization.StreamingContext)')
+- [Guilded.Base.ContentModel.OnDeserializing(System.Runtime.Serialization.StreamingContext)](https://docs.microsoft.com/en-us/dotnet/api/Guilded.Base.ContentModel.OnDeserializing#Guilded_Base_ContentModel_OnDeserializing_System_Runtime_Serialization_StreamingContext_ 'Guilded.Base.ContentModel.OnDeserializing(System.Runtime.Serialization.StreamingContext)')
 - [BaseGuildedClient](BaseGuildedClient 'Guilded.Base.BaseGuildedClient')

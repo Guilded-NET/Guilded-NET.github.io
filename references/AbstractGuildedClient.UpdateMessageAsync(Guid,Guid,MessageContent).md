@@ -24,19 +24,19 @@ public override System.Threading.Tasks.Task<Guilded.Base.Content.Message> Update
 
 `channel` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the parent channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
+The identifier of the parent [channel](ServerChannel 'Guilded.Base.Servers.ServerChannel')
 
 <a name='Guilded.AbstractGuildedClient.UpdateMessageAsync(Guid,Guid,Guilded.Base.Content.MessageContent).message'></a>
 
 `message` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the message](Message 'Guilded.Base.Content.Message') to edit
+The identifier of the [message](Message 'Guilded.Base.Content.Message') to edit
 
 <a name='Guilded.AbstractGuildedClient.UpdateMessageAsync(Guid,Guid,Guilded.Base.Content.MessageContent).content'></a>
 
 `content` [MessageContent](MessageContent 'Guilded.Base.Content.MessageContent')
 
-The [new contents](MessageContent 'Guilded.Base.Content.MessageContent') of [the message](Message 'Guilded.Base.Content.Message')
+The [new contents](MessageContent 'Guilded.Base.Content.MessageContent') of the [message](Message 'Guilded.Base.Content.Message')
 
 #### Exceptions
 

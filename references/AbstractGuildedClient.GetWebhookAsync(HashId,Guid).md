@@ -24,13 +24,13 @@ public override System.Threading.Tasks.Task<Guilded.Base.Servers.Webhook> GetWeb
 
 `server` [HashId](HashId 'Guilded.Base.HashId')
 
-The identifier of [the server](Server 'Guilded.Base.Servers.Server')[the webhook](Webhook 'Guilded.Base.Servers.Webhook') is
+The identifier of the [server](Server 'Guilded.Base.Servers.Server') the [webhook](Webhook 'Guilded.Base.Servers.Webhook') is
 
 <a name='Guilded.AbstractGuildedClient.GetWebhookAsync(Guilded.Base.HashId,Guid).webhook'></a>
 
 `webhook` [System.Guid](https://docs.microsoft.com/en-us/dotnet/api/System.Guid 'System.Guid')
 
-The identifier of [the webhook](Webhook 'Guilded.Base.Servers.Webhook') to get
+The identifier of the [webhook](Webhook 'Guilded.Base.Servers.Webhook') to get
 
 #### Exceptions
 

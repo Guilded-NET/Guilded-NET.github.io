@@ -30,4 +30,4 @@ Stops any connections this client has with Guilded.
 
 ### See Also
 - [ConnectAsync()](BaseGuildedClient.ConnectAsync() 'Guilded.Base.BaseGuildedClient.ConnectAsync()')
-- [Dispose()](BaseGuildedClient.Dispose() 'Guilded.Base.BaseGuildedClient.Dispose()')
+- [DisposeAsync()](BaseGuildedClient.DisposeAsync() 'Guilded.Base.BaseGuildedClient.DisposeAsync()')

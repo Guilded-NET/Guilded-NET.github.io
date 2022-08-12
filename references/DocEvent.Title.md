@@ -29,4 +29,4 @@ Single-line string
 
 ### See Also
 - [TitledContent](TitledContent 'Guilded.Base.Content.TitledContent')
-- [Content](TitledContent.Content 'Guilded.Base.Content.TitledContent.Content')
+- [Guilded.Base.Content](Guilded.Base.Content 'Guilded.Base.Content')
