@@ -1,0 +1,130 @@
+@import "../../base/variables"
+
+@font-face
+    font-family: 'Fira Code'
+    src: url(/include/webfonts/FiraCode-Bold.ttf)
+    src: url(/include/webfonts/FiraCode-Bold.woff2) format('woff2'), url(/include/webfonts/FiraCode-Bold.woff) format('woff'), url(/include/webfonts/FiraCode-Bold.ttf) format('truetype')
+
+    font-weight: bolder
+@font-face
+    font-family: 'Fira Code'
+    src: url(/include/webfonts/FiraCode-SemiBold.ttf)
+    src: url(/include/webfonts/FiraCode-SemiBold.woff2) format('woff2'), url(/include/webfonts/FiraCode-SemiBold.woff) format('woff'), url(/include/webfonts/FiraCode-SemiBold.ttf) format('truetype')
+
+    font-weight: bold
+@font-face
+    font-family: 'Fira Code'
+    src: url(/include/webfonts/FiraCode-Regular.ttf)
+    src: url(/include/webfonts/FiraCode-Regular.woff2) format('woff2'), url(/include/webfonts/FiraCode-Regular.woff) format('woff'), url(/include/webfonts/FiraCode-Regular.ttf) format('truetype')
+
+    font-weight: normal
+
+code
+    font-family: 'Fira Code', monospace
+
+    // Code block
+    pre > &
+        // Content
+        color: var(--foreground-level-1)
+        // Font and text
+        white-space: pre
+        word-spacing: normal
+        word-break: normal
+        word-wrap: normal
+
+        font-size: 0.8rem
+        text-align: left
+        // Spacing
+        padding: $spacing-2 0
+        line-height: 1.5
+        // Make tab same as 4 spaces
+        -moz-tab-size: 4
+        -o-tab-size: 4
+        tab-size: 4
+        // Misc
+        display: block
+        overflow-x: auto
+        -webkit-hyphens: none
+        -moz-hyphens: none
+        -ms-hyphens: none
+        hyphens: none
+
+        // Each line in code block
+        & > codeline
+            display: block
+            padding-right: $spacing-2
+            // Add index before each line
+            &:not(.deleted)
+                counter-increment: linenum
+            &::before
+                content: counter(linenum)
+                color: var(--foreground-level-4)
+
+                // Make sure additional digit doesn't push the text to the side a little
+                width: 1rem
+                text-align: right
+                display: inline-block
+
+                margin-right: $spacing-3
+                padding-left: $spacing-2 + 2px
+            // Change colours based on highlight
+            &.highlighted
+                background-color: rgba($highlighted, 0.1)
+                border-left: 2px solid $highlighted
+                &::before
+                    color: $highlighted
+                    // Add a line to the left side
+                    padding-left: $spacing-2
+            &.inserted
+                background-color: rgba($inserted, 0.1)
+                &::before
+                    content: '+'
+                    color: $inserted
+            &.deleted
+                background-color: rgba($deleted, 0.1)
+                &::before
+                    content: '-'
+                    color: $deleted
+        // Shell stuff
+        &.language-bash > codeline::before
+            content: '$'
+
+// Code block wrapper
+codeblock
+    // Add rounding to all of the content, including header/caption
+    display: block
+    overflow: hidden
+    border-radius: $small-radius
+    background-color: var(--background-code)
+    border: solid 1px var(--background-document-highlight)
+    margin: $spacing-0 0
+
+    // Language name label at the top of the codeblock
+    .code-lang
+        // Fix content
+        display: block
+        width: fit-content
+        // Display
+        background-color: var(--background-label)
+        border-radius: $small-radius
+        font-weight: bolder
+        font-size: 0.8em
+        color: var(--foreground-level-0)
+        // Misc
+        user-select: none
+        padding: $spacing-0 $spacing-1 - 1px $spacing-0 - 1px $spacing-1 - 1px
+        // There is more
+        &:not(:last-child)
+            margin-bottom: $spacing-1
+    .code-header
+        background-color: var(--background-level-1)
+        padding: $spacing-2 - 2px $spacing-3
+        // Add default text styling
+        color: var(--foreground-level-2)
+        font-size: 0.9em
+        // Data in the header
+        .code-data-label
+            color: var(--foreground-level-4)
+            user-select: none
+        .code-data-value
+            color: var(--foreground-level-2)

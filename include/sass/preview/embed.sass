@@ -1,0 +1,96 @@
+@use "sass:math"
+
+@import "../../base/variables"
+
+// Top level
+.guildedEmbed
+    &--main
+        // Display
+        display: inline-block
+        overflow: hidden
+        margin: $spacing-0 0
+
+        // Borders
+        border: 1px solid
+        border-color: rgba(white, 0.1)
+        border-radius: $tiny-radius
+
+        // Content
+        background-color: $background-guilded-dark
+
+        // Embed colours
+        border-left: 3px solid
+        border-left-color: #ececec
+    // The footer and author of the embed
+    &--author, &--footer
+        display: flex
+        overflow: auto
+        line-height: 1.5em
+        padding: $spacing-1
+        flex-direction: row
+
+        &-icon
+            margin-right: $spacing-1
+
+    &--footer
+        background-color: $background-guilded-darker
+        color: $foreground-guilded-dim
+
+    &--thumbnail
+        flex: 1 1 auto
+        padding: $spacing-3
+        // Make sure it's always square
+        img
+            width: 150px
+            height: 150px
+    // Small icons
+    &--author-icon, &--footer-icon
+        width: 22px
+        height: 22px
+        & .guildedEmbed--img
+            width: 22px
+            height: 22px
+    &--footer-icon &--img
+        border-radius: 50%
+    // Content area
+    &--content-wrapper
+        display: flex
+        flex-direction: row
+        flex-wrap: column wrap
+        box-sizing: border-box
+    // Titles
+    &--content-header
+        color: $foreground-guilded-bold
+        font-weight: bolder
+        margin-bottom: $spacing-0
+    &--author-text, &--title, &--field-title
+        font-weight: bolder
+        margin-top: 0
+    // Title and description
+    &--body
+        padding: $spacing-2 - 2px
+    // Fields
+    &--field
+        width: 100%
+        padding-top: $spacing-1
+        padding-bottom: $spacing-1
+        flex: 0 0 auto
+        // Field container
+        &s
+            display: inline-flex
+            flex-wrap: wrap
+            flex-direction: row
+            justify-content: space-between
+            padding-top: $spacing-1
+            padding-bottom: $spacing-1
+        // Inline field
+        &-inline
+            width: 33%
+            flex: auto
+        // Content
+        &-title, &-body
+            display: block
+    // Image
+    &--image-block img
+        max-width: 480px
+        max-height: 160px

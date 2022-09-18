@@ -29,7 +29,7 @@ Custom embeds are similar to content website embeds in terms of how they look, b
 To create an embed, you need to create a new instance of [Embed](/references/Embed). From that point, you can use embed constructor parameters, object initializers or methods to generate content for the embed. As an example:
 
 ```csharp
-using Guilded.NET.Base.Embeds;
+using Guilded.Base.Embeds;
 ```
 {: data-insert="0"}
 
@@ -51,12 +51,12 @@ await msgCreated.ReplyAsync(embed);
 This produces:
 
 {% capture embeds0 %}
-    {% include c_embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
+    {% include chat-embed.html title="This is the title of the embed" description="Description" footer_text="The footer of the embed" %}
 {% endcapture %}
 {% capture messages0 %}
-    {% include c_message.html other=embeds0 %}
+    {% include chat-message.html other=embeds0 %}
 {% endcapture %}
-{% include c_preview.html content=messages0 %}
+{% include chat-preview.html content=messages0 %}
 
 Due to design choices, embeds don't need to be built. This may be subject to change.
 
@@ -74,17 +74,17 @@ Embed embed = new Embed { Title = "Title", Description = "Description. This is n
 ```
 
 {% capture fields1 %}
-    {% include c_field.html name="Field #1" value="The value of the field" %}
-    {% include c_field.html name="Field #2" value="This field is inline" inline="1" %}
-    {% include c_field.html name="Field #3" value="This field is inline too" inline="1" %}
+    {% include chat-embed-field.html name="Field #1" value="The value of the field" %}
+    {% include chat-embed-field.html name="Field #2" value="This field is inline" inline="1" %}
+    {% include chat-embed-field.html name="Field #3" value="This field is inline too" inline="1" %}
 {% endcapture %}
 {% capture embeds1 %}
-    {% include c_embed.html title="Title" description="Description. This is not a field" fields=fields1 %}
+    {% include chat-embed.html title="Title" description="Description. This is not a field" fields=fields1 %}
 {% endcapture %}
 {% capture messages1 %}
-    {% include c_message.html other=embeds1 %}
+    {% include chat-message.html other=embeds1 %}
 {% endcapture %}
-{% include c_preview.html content=messages1 %}
+{% include chat-preview.html content=messages1 %}
 
 It is not mandatory to have either the name or the value of the field. Empty string can be passed to either of them and it will not be visible in the embed. Although passing a null will result in an error by Guilded.NET (because Guilded API does it as well).
 
@@ -95,8 +95,7 @@ Embeds have more than descriptions, titles and fields. They can also have an aut
 ```csharp
 using System;
 
-using Guilded.NET.Base.Chat;
-using Guilded.NET.Base.Embeds;
+using Guilded.Base.Embeds;
 ```
 {: data-insert="0"}
 
@@ -129,8 +128,7 @@ An example using [Color.Red](https://docs.microsoft.com/en-us/dotnet/api/system.
 using System;
 using System.Drawing;
 
-using Guilded.NET.Base.Chat;
-using Guilded.NET.Base.Embeds;
+using Guilded.Base.Embeds;
 ```
 {: data-insert="1"}
 

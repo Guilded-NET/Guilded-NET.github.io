@@ -1,0 +1,44 @@
+@import "../../base/variables"
+
+// Page navigation
+.nav
+    &--main
+        color: var(--foreground-level-1)
+        vertical-align: top
+        width: 100%
+        font-size: 1.1rem
+    // Inner area of the navigation
+    &--inner
+        padding: $spacing-2
+    // Image display area
+    &--display
+        img
+            cursor: pointer
+            width: 10%
+    // Navigation button list
+    &--button
+        margin-left: $spacing-1
+        list-style-position: inside
+
+        &:first-child
+            margin-left: 0
+            list-style-type: none
+        // A button
+        a
+            margin-top: auto
+            margin-bottom: auto
+            // The button states
+            &, &[href], &[href]:visited, &[href]:active
+                color: var(--foreground-level-2)
+                fill: var(--foreground-level-2)
+            &:hover, &[href]:hover
+                color: var(--foreground-level-0)
+                fill: var(--foreground-level-0)
+        &s
+            display: flex
+            flex-direction: row
+            align-items: end
+
+            float: right
+            padding: $spacing-0
+            margin: 0

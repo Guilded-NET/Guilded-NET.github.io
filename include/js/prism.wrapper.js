@@ -94,24 +94,20 @@ Prism.hooks.add("codewrapper", e => {
 
     const base = elem.parentElement;
 
-    const wrapper = document.createElement("codeblock");
-
-    if (!namelessLangs.includes(e.language)) {
-        // Lang name display
-        const lang = document.createElement("span");
-        lang.classList.add("code-lang");
-        lang.innerHTML = langNames[e.language];
-
-        wrapper.prepend(lang);
-    }
-
-    // Content wrapper
-    const content = document.createElement("div");
-    content.classList.add("code-content");
+    const content = document.createElement("codeblock");
 
     // Data header
     const header = document.createElement("div");
     header.classList.add("code-header");
+
+    if (!namelessLangs.includes(e.language)) {
+        // Lang name display
+        const lang = document.createElement("div");
+        lang.classList.add("code-lang");
+        lang.innerHTML = langNames[e.language];
+
+        header.prepend(lang);
+    }
 
     const filename = getAttribute(elem, "data-filename");
     if (filename) {
@@ -121,12 +117,11 @@ Prism.hooks.add("codewrapper", e => {
         file.innerHTML = `<span class="code-data-label">File:</span> <span class="code-data-value">${filename}</span>`;
 
         header.appendChild(file);
-        content.appendChild(header);
     }
-    wrapper.appendChild(content);
+    content.appendChild(header);
 
     // Wrap around the code
-    base.parentElement.insertBefore(wrapper, base);
+    base.parentElement.insertBefore(content, base);
     content.appendChild(base);
 });
 

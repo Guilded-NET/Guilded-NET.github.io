@@ -3,3 +3,9 @@ vendor
 *.sh
 package-lock.json
 node_modules
+
+# Local Jekyll stuff
+Gemfile.lock
+_site
+_site/*
+.jekyll-cache

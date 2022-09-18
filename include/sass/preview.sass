@@ -1,84 +1,18 @@
 @use "sass:math"
 
 @import "../base/variables"
-
-/*
- * --- Input ---
- */
-
-form
-    padding: 12px 18px
-    background-color: var(--background-level-3)
-    border-radius: 7px
-    border: solid 1px $border-light-0
-    // Form areas
-    h1, h2, h3, h4, h5, h6
-        color: var(--foreground-level-2)
-        margin: 10px 0
-        &:first-child
-            margin-top: 0
-    section
-        padding: 8px 0
-        margin: 6px 0
-    section:first-child
-        padding-top: 0
-        margin-top: 0
-    section:last-child
-        padding-bottom: 0
-        margin-top: 0
-    section:not(section:first-child)
-        border-top: solid 1px $border-light-0
-    fieldset
-        display: flex
-        flex-direction: row
-        padding: 0
-        margin: 3px 0
-        border: none
-        input, textarea
-            flex: 1
-    // Fields
-    textarea
-        resize: vertical
-
-        outline: none
-        padding: 8px
-        border: solid 1px var(--foreground-level-1)
-            radius: 5px
-
-        background-color: transparent
-        color: var(--foreground-level-1)
-        &:hover
-            border-color: $gilded-bright
-        &:focus
-            border-color: $gilded-full
-        &::placeholder
-            color: var(--foreground-level-2)
-    input[type="text"]
-        outline: none
-        padding: 5px
-        border: solid 1px var(--foreground-level-1)
-            radius: 5px
-
-        background-color: transparent
-        color: var(--foreground-level-1)
-        &:hover
-            border-color: $gilded-bright
-        &:focus
-            border-color: $gilded-full
-        &::placeholder
-            color: var(--foreground-level-2)
-    // Field attributes
-    .form-inline
-        flex: 0
-    .form-list &
-        margin: 9px 0
+@import "../base/guilded"
+@import "./preview/messages"
+@import "./preview/embed"
 
 /*
  * --- Preview ---
  */
 
-.chat-preview
+.chatPreview--main
     border: 1px solid rgba(white, 0.1)
+    background-color: $background-guilded
+    color: $foreground-guilded
     // Spacing
     margin: $spacing-5 0
     padding: $spacing-3 0
@@ -86,137 +20,10 @@ form
     // Scrollbar
     max-height: 400px
     overflow-y: auto
-    // A message in a chat
-    &-message
-        display: flex
-        flex-direction: row
 
-        padding: $spacing-1 $spacing-3
+    .body--content & img
+        max-width: 100%
 
-        cursor: pointer
-        // Make it darker on hover
-        &:hover
-            background-color: var(--background-level-3)
-
-.preview
-    // The icon of the user
-    &-avatar
-        margin-right: $spacing-2
-        user-select: none
-    &-icon
-        width: 40px
-        height: 40px
-        border-radius: 100%
-    // Name, message, etc.
-    &-content
-        flex: 1
-    // The name and timestamp
-    &-header
-        user-select: none
-        display: flex
-        flex-direction: row
-        align-items: center
-        // Space after each item
-        span
-            margin-right: $spacing-1
-        .preview-name
-            font-weight: bolder
-            &:hover
-                text-decoration: underline solid 1px
-        .preview-timestamp
-            font-size: 0.8em
-            color: var(--foreground-level-2)
-
-/*
- * --- Embeds ---
- */
-
-// Top level
-.gembed
-    // Display
-    display: inline-block
-    overflow: hidden
-    margin: $spacing-0 0
-
-    // Borders
-    border: 1px solid
-    border-color: rgba(white, 0.1)
-    border-radius: $tiny-radius
-
-    // Content
-    background-color: var(--background-level-3)
-
-    // Embed colours
-    border-left: 3px solid
-    border-left-color: #ececec
-    // The footer and author of the embed
-    &-author, &-footer
-        display: flex
-        overflow: auto
-        line-height: 1.5em
-        padding: $spacing-1
-        flex-direction: row
-
-        &-icon
-            margin-right: $spacing-1
-
-    &-footer
-        background-color: var(--background-level-2)
-        color: var(--foreground-level-2)
-
-    &-thumbnail
-        flex: 1 1 auto
-        padding: $spacing-3
-        // Make sure it's always square
-        img
-            width: 150px
-            height: 150px
-    // Small icons
-    &-author-icon, &-footer-icon
-        width: 22px
-        height: 22px
-        & .gembed-img
-            width: 22px
-            height: 22px
-    &-footer-icon &-img
-        border-radius: 50%
-    // Content area
-    &-wrapper
-        display: flex
-        flex-direction: row
-        flex-wrap: column wrap
-        box-sizing: border-box
-    // Titles
-    &-title, &-field-title
-        margin-bottom: $spacing-0
-    &-author-text, &-title, &-field-title
-        font-weight: bolder
-        margin-top: 0
-    // Title and description
-    &-body
-        padding: $spacing-1
-    // Fields
-    &-field
-        width: 100%
-        padding-top: $spacing-1
-        padding-bottom: $spacing-1
-        flex: 0 0 auto
-        // Field container
-        &s
-            display: inline-flex
-            flex-wrap: wrap
-            flex-direction: row
-            justify-content: space-between
-            padding-top: $spacing-1
-            padding-bottom: $spacing-1
-        // Inline field
-        &-inline
-            width: 33%
-            flex: auto
-        // Content
-        &-title, &-body
-            display: block
-    // Image
-    &-image-block img
-        max-width: 480px
-        max-height: 160px
+    ::selection
+        background-color: rgba(#1e78ff, 0.7)
+        color: white

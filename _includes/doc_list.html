@@ -1,12 +1,20 @@
+{% assign currentPath = page.url | remove: ".html" %}
 {% for category in site.data.docs %}
-<div class="list-category">
-    <header class="list-header">
-        <h5>{{ category.name }}</h5>
+<li class="entryList--category">
+    <header class="entryList--header">
+        <h5 class="entryList--header-text">{{ category.name }}</h5>
     </header>
-    <div class="list-body">
+    <ul class="entryList--category-body">
         {% for doc in category.docs %}
-        <a class="list-item" href="{{ doc.url }}"><i class="{{ doc.icon }}"></i> {{ doc.name }}</a>
+        {% if doc.url == currentPath %}
+            {% assign activeUrlClass = " entryList--item-active" %}
+        {% else %}
+            {% assign activeUrlClass = "" %}
+        {% endif %}
+        <li class="entryList--item{{ activeUrlClass }}">
+            <a class="entryList--item-link" href="{{ doc.url }}"><i class="{{ doc.icon }}"></i> <span>{{ doc.name }}</span></a>
+        </li>
         {% endfor %}
-    </div>
-</div>
+    </ul>
+</li>
 {% endfor %}

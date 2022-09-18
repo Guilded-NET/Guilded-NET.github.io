@@ -14,10 +14,12 @@ Commands are one of the most basic ways to interact with a bot on Guilded. Most 
 
 ## Setting it up
 
-Guilded.NET's command system is its own package, which means we will need to install it first.
+Guilded.NET's command system is its own package, which means we will need to install it first.  Open up your terminal or console. This is either PowerShell, CMD, Windows Terminal (Windows really has endless terminals, huh?), Git Bash, Terminal or anything similar. Then type the following:
 
-1. Open up your terminal or console. This is either PowerShell, CMD, Windows Terminal (Windows really has endless terminals, huh?), Git Bash, Terminal or anything similar. Make sure to open it up either in your Guilded.NET bot or type `cd "/path/to/Guilded-NET/bot"`{: .language-bash }.
-2. Type `dotnet add package Guilded.Commands`
+```bash
+cd "/path/to/Guilded-NET/bot"
+dotnet add package Guilded.Commands
+```
 
 And that's about it. Now we need to set it up in the code.
 

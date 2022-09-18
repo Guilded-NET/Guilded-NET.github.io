@@ -1,8 +1,9 @@
-// TODO: More advanced search with nesting
-
 // Store search bar and searchable types
-const search = document.getElementById("list-search");
-const items = document.querySelectorAll(".body-list-items .list-category .list-item");
+const search = document.getElementById("entry-list-search");
+const items = document.querySelectorAll(".entryList--items .entryList--item");
+const categories = document.querySelectorAll(".entryList--items .entryList--category");
+const displayNone = "display: none;";
+
 // Prepare lowercase version of the items instead of doing it over and over again
 // Doesn't influence performance much, but eh
 items.forEach(item => (item.lower = item.innerHTML.toLowerCase()));
@@ -13,11 +14,18 @@ search.addEventListener("keydown", e => {
         // The value of the searchbar
         const value = e.target.value.toLowerCase();
         // Filter out all items
-        items.forEach(item => {
-            // If the item contains search value, display it
-            if (item.lower.includes(value)) item.style = "";
-            // Otherwise, don't show it
-            else item.style = "display: none;";
-        });
-    }, 0);
+        for (const item of items) {
+            // Whether to show it based on it containing the search text
+            const style = item.lower.includes(value) ? "" : displayNone;
+
+            item.style = style;
+        }
+        for (const category of categories) {
+            const categoryItems = [...category.querySelectorAll(".entryList--item")];
+
+            // Whether to display it or not
+            if (categoryItems.every(x => x.style.display === "none")) category.style = displayNone;
+            else category.style = "";
+        }
+    }, 1);
 });

@@ -54,22 +54,19 @@ We are now going to get the configuration and use it in our bot:
 ```csharp
 using System.IO;
 
-using Guilded.NET;
+using Guilded;
 
 using Newtonsoft.Json.Linq;
 ```
 {: data-insert="0,2,4"}
 
 ```csharp
-// static void Main()
-// ...
-
 JObject config = JObject.Parse(File.ReadAllText("./config/config.json"));
 
 string auth   = config.Value<string>("auth"),
        prefix = config.Value<string>("prefix");
 
-using var client = new GuildedBotClient(auth);
+await using var client = new GuildedBotClient(auth);
 ```
 {: data-filename="Program.cs"}
 
@@ -83,7 +80,7 @@ Method [ConnectAsync](/references/BaseGuildedClient_ConnectAsync()) is used to c
 using System.IO;
 using System.Threading.Tasks;
 
-using Guilded.NET;
+using Guilded;
 
 using Newtonsoft.Json;
 ```
@@ -114,14 +111,14 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
-using Guilded.NET;
+using Guilded;
 
 using Newtonsoft.Json;
 ```
 {: data-insert="0"}
 
 ```csharp
-// Below `using GuildedBotClient client = ...;`
+// Below `await using GuildedBotClient client = ...;`
 client.Prepared
       .Subscribe(me =>
           Console.WriteLine("The bot is prepared.\nLogged in as \"{0}\" with the ID \"{1}\"", me.Name, me.Id)

@@ -1,0 +1,95 @@
+@import "../../base/variables"
+@import "../../base/fa"
+
+// The list of types and namespaces
+.entryList
+    &--main
+        width: 23%
+        z-index: 9
+        padding: $spacing-2 $spacing-3
+
+        display: flex
+        flex-direction: column
+        align-items: stretch
+
+    // Search
+    &--search-wrapper
+        display: flex
+        flex-direction: row
+        .entryList--search-icon
+            display: flex
+            flex-direction: row
+            align-items: center
+            color: var(--foreground-level-3)
+            margin-right: $spacing-1
+        .entryList--search
+            flex: 1
+            background-color: transparent
+            border: 0
+            outline: none
+            border-bottom: solid 1px var(--foreground-level-4)
+            color: var(--foreground-level-1)
+            &::placeholder
+                color: var(--foreground-level-4)
+
+    // All items
+    &--items
+        margin: 0
+        padding: 0
+
+        &-wrapper
+            padding: $spacing-4 0
+            overflow-y: auto
+
+        ul
+            padding-left: $spacing-3
+    &--item
+        list-style-type: none
+        color: var(--foreground-level-2)
+        &:not(&:last-child)
+            margin-bottom: $spacing-0
+
+    // ./references
+    &--hide-sub-list &--item-sub-list
+        display: none
+    &--collapse-arrow
+        transform: rotateZ(90deg)
+        cursor: pointer
+    &--hide-sub-list &--collapse-arrow
+        transform: rotateZ(0deg)
+
+    // ./docs
+    &--category
+        margin-bottom: $spacing-3
+        list-style-type: none
+
+    &--category &--header
+        margin-bottom: $spacing-1
+        &-text
+            margin: 0
+    &--item-link
+        display: block
+        padding: $spacing-1 - 2px $spacing-2
+        border: solid 1px transparent
+        border-radius: $tiny-radius
+
+        i
+            width: 1em
+            text-align: center
+            margin-right: $spacing-0
+
+        &[href], &[href]:visited, &[href]:focus, &[href]:active
+            color: var(--foreground-level-3)
+
+            .entryList--item:hover &
+                color: var(--foreground-level-2)
+                background-color: var(--background-page-highlight-0)
+
+            .entryList--item-active &
+                background-color: var(--background-page-highlight-1)
+                border: solid 1px var(--panel-border)
+                color: var(--foreground-level-0)
+
+            .entryList--item-active:hover &
+                color: var(--foreground-level-0)
+                background-color: var(--background-page-highlight-2)

@@ -1,12 +1,12 @@
 // MEGA W.I.P.
-const hideChildrenClass = `hide-children`;
+const hideChildrenClass = `entryList--hide-sub-list`;
 
-for (let list of document.querySelectorAll(".body-list-items.collapsed-items li ul")) {
+for (let list of document.querySelectorAll(".entryList--items-collapse li ul")) {
     const { parentElement } = list;
 
     // Adds |>
     const arrow = Object.assign(document.createElement("i"), {
-        classList: `collapse-arrow fas fa-caret-right`,
+        classList: `entryList--collapse-arrow fas fa-caret-right`,
         onclick: () => {
             const containsHide = parentElement.classList.contains(hideChildrenClass);
             const action = containsHide ? "remove" : "add";
@@ -17,6 +17,6 @@ for (let list of document.querySelectorAll(".body-list-items.collapsed-items li 
     parentElement.classList.add(hideChildrenClass);
 
     // Just so it gets added above the list
-    parentElement.insertBefore(new Text(" "), list);
-    parentElement.insertBefore(arrow, list);
+    parentElement.prepend(new Text(" "));
+    parentElement.prepend(arrow);
 }
