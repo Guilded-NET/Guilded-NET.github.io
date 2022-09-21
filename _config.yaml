@@ -9,6 +9,7 @@ plugins:
     - jekyll-toc
 
 # Local + GitHub
+markdown: kramdown
 toc:
     list_id: tableOfContents
     list_class: toc--list
