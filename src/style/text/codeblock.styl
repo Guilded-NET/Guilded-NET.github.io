@@ -1,0 +1,115 @@
+@import "../variables"
+
+code
+    font-family: 'Fira Code', monospace
+
+    // Code block
+    &.code-block.code-container
+        // Content
+        color: var(--foreground-1)
+        // Font and text
+        white-space: pre
+        word-spacing: normal
+        word-break: normal
+        word-wrap: normal
+
+        font-size: 0.8rem
+        text-align: left
+        // Spacing
+        padding: spacing-2 0
+        line-height: 1.5
+        // Make tab same as 4 spaces
+        -moz-tab-size: 4
+        -o-tab-size: 4
+        tab-size: 4
+        // Misc
+        display: block
+        overflow-x: auto
+        -webkit-hyphens: none
+        -moz-hyphens: none
+        -ms-hyphens: none
+        hyphens: none
+
+.code-block
+    // Each line in code block
+    &.line
+        display: block
+        padding-right: spacing-2
+        // Add index before each line
+        &:not(.deleted)
+            counter-increment: linenum
+        &::before
+            content: counter(linenum)
+            color: var(--foreground-4)
+
+            // Make sure additional digit doesn't push the text to the side a little
+            width: 1rem
+            text-align: right
+            display: inline-block
+
+            margin-right: spacing-3
+            padding-left: spacing-2 + 2px
+        // Change colours based on highlight
+        &.highlighted
+            background-color: rgba(highlighted, 0.1)
+            border-left: 2px solid highlighted
+            &::before
+                color: highlighted
+                // Add a line to the left side
+                padding-left: spacing-2
+        &.inserted
+            background-color: rgba(inserted, 0.1)
+            &::before
+                content: '+'
+                color: inserted
+        &.deleted
+            background-color: rgba(deleted, 0.1)
+            &::before
+                content: '-'
+                color: deleted
+    // Shell stuff
+    &.code-container.language-bash > &.line::before
+        content: '$'
+
+    // Code block wrapper
+    &.container
+        // Add rounding to all of the content, including header/caption
+        display: block
+        overflow: hidden
+        border-radius: small-radius
+        background-color: var(--background-0)
+        border: solid 1px var(--background-5)
+        margin: spacing-2 0
+
+    // Language name label at the top of the codeblock
+    &.lang
+        // Fix content
+        display: block
+        width: fit-content
+        // Display
+        background-color: var(--background-4)
+        border-radius: small-radius
+        font-weight: bolder
+        font-size: 0.8em
+        text-transform: uppercase
+        color: var(--foreground-0)
+        // Misc
+        user-select: none
+        padding: spacing-0 spacing-1 - 1px spacing-0 - 1px spacing-1 - 1px
+        // There is more
+        &:not(:last-child)
+            margin-bottom: spacing-1
+    &.header
+        background-color: var(--background-0)
+        padding: spacing-2 - 2px spacing-3
+        // Add default text styling
+        color: var(--foreground-2)
+        font-size: 0.9em
+// Data in the header
+.code-block-meta-prop
+    &.key
+        color: var(--foreground-4)
+        user-select: none
+    &.value
+        color: var(--foreground-2)
+        font-weight: bolder

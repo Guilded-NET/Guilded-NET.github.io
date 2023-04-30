@@ -1,0 +1,1 @@
+const e=!0,s={name:"Message builder",icon:"pencil",priority:20,category:"Resources",description:"Build Guilded embeds and messages.",tags:["embeds","rich content","docs","C#","JSON"]};export{s as metadata,e as prerender};

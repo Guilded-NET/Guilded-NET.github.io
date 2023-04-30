@@ -1,0 +1,1 @@
+import{d as t}from"./search.8832ace6.js";const a=!0,o=!1;async function r(){return{allDocs:(await t()).map(e=>({...e,active:e.url===""}))}}const l=Object.freeze(Object.defineProperty({__proto__:null,prerender:a,csr:o,load:r},Symbol.toStringTag,{value:"Module"}));export{l as _,o as c,r as l,a as p};

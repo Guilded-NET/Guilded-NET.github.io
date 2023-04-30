@@ -1,0 +1,1 @@
+export const GuildedNetLogo = "https://raw.githubusercontent.com/Guilded-NET/Guilded.NET/early-access/assets/Icon.png";
