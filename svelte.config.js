@@ -10,7 +10,7 @@ const config = {
     preprocess: [vitePreprocess(), mdsvex(mdxConfig)],
 
     kit: {
-        adapter: adapter({ pages: "./build", assets: "./build" }),
+        adapter: adapter({ pages: "./docs", assets: "./docs" }),
         paths: {
             base: dev ? "" : process.env.BASE_PATH,
         },
