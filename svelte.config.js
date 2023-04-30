@@ -14,6 +14,7 @@ const config = {
         paths: {
             base: dev ? "" : process.env.BASE_PATH,
         },
+        appDir: "app",
     },
     compilerOptions: {
         hydratable: true,
