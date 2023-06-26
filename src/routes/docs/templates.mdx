@@ -1,0 +1,50 @@
+---
+name: .NET Templates
+icon: play
+priority: 5
+category: How to Use
+tags:
+    - .NET Templates
+    - Docs
+    - C#
+---
+
+# Getting Started: .NET templates
+
+> WARNING: If you haven't created a Guilded.NET bot yet, it's recommended to check out [Getting Started: Developing a bot](/docs/develop-bot) document instead. While you can start with a template right off the bat, there might be some parts of the code that you will not understand at all. Therefore, it's overall better to develop a bot from scratch for any complete beginners.
+
+To get started with templates, you need to first install the Guilded.NET templates package in your preferred terminal/console:
+
+```bash
+dotnet new -i Guilded.Templates
+```
+
+`Guilded.Templates` package should offer all the default and maintained Guilded.NET templates. Any user-created template packages for Guilded.NET may exist and can be installed, but they are not officially supported by Guilded.NET. It's recommended to know what code of non-official Guilded.NET templates do before you run them.
+
+Knowing that, we can now get to create a new project from a template. But first, we need to create a directory where our Guilded.NET bot project is going to be in. In this tutorial, path to the directory will be called `/path/to/guilded/net/bot/project`, but on your end it may be called `C:\\Users\\Josh\\Desktop\\AmazingBot` or `/home/greg/Desktop/AmazingBot`. Then, after we create a directory, in the preferred terminal/console, go to the project's directory and create a new Guilded.NET project:
+
+```bash
+cd "/path/to/guilded/net/bot/project"
+dotnet new guilded.bot
+```
+
+Note that while we are using `guilded.bot` template, there are more than one template for Guilded.NET projects. You can find a list of them by doing `dotnet new list guilded`.
+
+Once you have created a project, you are mostly good to go, apart from configuration. In the Guilded.NET bot project's directory, open up `config/config.json` and edit the `auth` property and insert the token of your Guilded bot. It should look something like this:
+
+```json {"file": "config/config.json"}
+{
+    "auth": "token of your Guilded bot",
+    "prefix": "/"
+}
+```
+
+You can of course change the prefix of your bot to any you would like. Now you are good to go.
+
+## Getting bot's token.
+
+If you need a Guilded bot's token, make sure you have a server that you own or which you are admin of and can manage bots in. Click on the top left arrow next to the server's name on Guilded and press "Manage bots". There, below the list of bots, you should be able to see "Create bot". Change the name of the bot and then navigate to "API" tab and press on "Create token" button below. You should be presented with the token of your bot. Press `COPY` next to the token and it should be copied to your clipboard. You can paste the code wherever you would like to (in this case, it's `config/config.json` file).
+
+## There is more
+
+Now that you have built your Guilded.NET bot, you can navigate over [to this document](/docs/commands), which will cover how to make commands in your Guilded.NET bot.

@@ -54,50 +54,6 @@ blockquote-type(icon, title, colour)
 
             background-color: var(--foreground-4)
 
-        // // Side bar
-        // border-left: solid small-radius gilded-full
-        // For log blocks
-        &.note, &.tip, &.warning, &.caution, &.important, &.implement, &.inherit, &.security-note,
-        &.caller, &.language-csharp, &.language-fsharp, &.language-vbnet
-            // border: solid 1px
-            // // Add an icon
-            &::after
-                include-fa('\f059')
-
-                margin: 0 0 spacing-2 0
-                display: block
-                line-height: 1
-
-                // To the start; second ::before
-                order: -1
-        // Basic blockquote types
-        &.note
-            blockquote-type('\f138', 'Note', event-green)
-        &.tip
-            blockquote-type('\f0eb', 'Tip', event-cyan)
-        &.warning
-            blockquote-type('\f06a', 'Warning', event-yellow)
-        &.caution
-            blockquote-type('\f057', 'Caution', event-red)
-        &.important
-            blockquote-type('\f05a', 'Important', event-red)
-        // Other
-        &.implement
-            blockquote-type('\f101', 'Implementing', event-cyan)
-        &.inherit
-            blockquote-type('\f35a', 'Inheriting', event-sky)
-        &.security-note
-            blockquote-type('\f3ed', 'Security note', event-purple)
-        &.caller
-            blockquote-type('\f0e7', 'Calling', event-purple)
-        // Language
-        &.language-csharp
-            blockquote-type('\f02d', 'C# only', event-green)
-        &.language-fsharp
-            blockquote-type('\f02d', 'F# only', event-purple)
-        &.language-vbnet
-            blockquote-type('\f02d', 'VB.NET only', event-sky)
-
     // Remove code block spacing
     pre
         margin: 0
@@ -178,9 +134,9 @@ blockquote-type(icon, title, colour)
         .fa-check
             color: condition-good
         .fa-question
-            color: event-sky
+            color: highlight-colour.sky
         .fa-slash
-            color: event-yellow
+            color: highlight-colour.yellow
             transform: rotate(15deg)
         .fa-times
             color: condition-bad

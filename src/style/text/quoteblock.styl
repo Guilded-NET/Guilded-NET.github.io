@@ -1,0 +1,28 @@
+@import "../variables"
+
+define-quote-type(name, colour-name)
+    colour = highlight-colour[colour-name]
+    .quote-block.container.type-{name}
+        border-color: alpha(colour, 0.5)
+        box-shadow: 0 0 10px alpha(colour, 0.5)
+        .quote-block.header
+            color: highlight-colour[colour-name]
+
+.quote-block
+    &.container
+        border-radius: small-radius
+        background-color: var(--background-1)
+        border: solid 1px alpha(white, 0.15)
+        padding: spacing-3 spacing-5
+        margin: spacing-2 0
+    &.header
+        margin-bottom: spacing-2
+        font-weight: bolder
+        text-transform: uppercase
+        &-text
+            margin-left: spacing-1
+
+define-quote-type("note", "purple")
+define-quote-type("caution", "red")
+define-quote-type("warning", "orange")
+define-quote-type("important", "sky")

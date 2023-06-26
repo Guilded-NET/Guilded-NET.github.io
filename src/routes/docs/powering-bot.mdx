@@ -1,13 +1,19 @@
----
-name: Powering up bot
-icon: bolt
-priority: 2
-category: Getting Started
-description: "Well, to no surprise, Guilded bots scan do more than connect to Guilded. They can update, delete messages, forum threads, etc. and receive various events that Guilded API exposes."
-tags:
-    - Functions
-    - C#
----
+<script context="module" lang="ts">
+    import ExampleBlock from "$lib/markdown/ExampleBlock.svelte";
+    import MessageBlock from "$lib/markdown/MessageBlock.svelte";
+    import UserMessages from "$lib/markdown/UserMessages.svelte";
+    import MarkdownContent from "$lib/markdown/MarkdownContent.svelte";
+    import { MaintainerAvatar } from "$lib/util/images";
+
+    export let metadata = {
+        name: "Powering up bot",
+        icon: "bolt",
+        category: "Getting Started",
+        priority: 3,
+        description: "Well, to no surprise, Guilded bots scan do more than connect to Guilded. They can update, delete messages, forum threads, etc. and receive various events that Guilded API exposes.",
+        tags: ["Functions", "C#"]
+    };
+</script>
 
 # Getting Started: Powering up the bot
 
@@ -25,9 +31,9 @@ client.MessageCreated
 
 Now anytime any user, bot or webhook posts a message, our client will write <q>Received message with content: message here</q> in the console. We can now reply to the message using [`ReplyAsync(string)`](/) method:
 
-```csharp
+```csharp {"file": "Program.cs"}
 client.MessageCreated
-    .Subscribe(async msgCreated => await msgCreated.ReplyAsync("Pong!").ConfigureAwait(false));
+    .Subscribe(async msgCreated => await msgCreated.ReplyAsync("Pong!"));
 ```
 
 Write <q>Hi!</q> in your server and... the bot replies with <q>Pong!</q> and then spams it while replying to itself.
@@ -38,16 +44,51 @@ The bot saw a message with <q>Hi!</q> which we wrote and replied to it with <q>P
 
 As such, we should check whether it is <q>!ping</q> and not any other message:
 
-```csharp
+```csharp {"file": "Program.cs", "insert": [2]}
+using System;
+using System.IO;
 using System.Reactive.Linq;
+using System.Threading.Tasks;
 
-// ... Where we subscribed to Connected and Prepared events
-client.MessageCreated
-    .Where(msgCreated => msgCreated.Content == "!ping")
-    .Subscribe(async msgCreated => await msgCreated.ReplyAsync("Pong!").ConfigureAwait(false));
+using Guilded;
+
+using Newtonsoft.Json;
 ```
 
-Writing <q>Hi!</q> should give you no response from your bot. Now write <q>!ping</q> and the bot should respond with <q>Pong!</q>. We have now set up the most basic command we could make.
+```csharp {"file": "Program.cs"}
+// ... Where we subscribed to Connected and Prepared events
+client.MessageCreated
+    .Where(msgCreated => msgCreated.Content == "/ping")
+    .Subscribe(async msgCreated => await msgCreated.ReplyAsync("Pong!"));
+```
+
+<ExampleBlock>
+    <UserMessages>
+        <MessageBlock
+            name="Random Developer"
+            avatar={MaintainerAvatar}
+            badge=""
+        >
+            <MarkdownContent>
+                <p>Hi! (No response)</p>
+            </MarkdownContent>
+        </MessageBlock>
+        <MessageBlock continuation={true}>
+            <MarkdownContent>
+                <p>/ping</p>
+            </MarkdownContent>
+        </MessageBlock>
+    </UserMessages>
+    <UserMessages>
+        <MessageBlock>
+            <MarkdownContent>
+                <p>Pong!</p>
+            </MarkdownContent>
+        </MessageBlock>
+    </UserMessages>
+</ExampleBlock>
+
+And now it works! We have now set up the most basic command we could make.
 
 At this time, there is no way to detect whether the author of the message is a bot. You can, however, it's possible to check if they are a webhook by checking if [CreatedByWebhook](/).
 
@@ -55,7 +96,7 @@ This only allows us to use ping command though, but we definitely want to have m
 
 ## Commands
 
-While you can build your own, it's recommended to use Guilded.NET's command system. This will be covered [in this document](/docs/commands).
+While you can build your own, it's recommended to use Guilded.NET's command system. Anything that you have may created during this tutorial may need to be deleted, as this tutorial covers how to handle Guilded events in general, not only message creation. If you want to create actual commands with Guilded.NET follow [Getting Started: Commands](/docs/commands) document.
 
 ## Other events
 

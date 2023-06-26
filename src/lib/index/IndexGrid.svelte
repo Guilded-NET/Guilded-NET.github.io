@@ -16,7 +16,11 @@
     padding: spacing-7 0
     &.columns-2
         grid-template-columns: 1fr 1fr
+// Mobile sizing
 @media only screen and (max-width: 850px)
+    .container
+        grid-template-columns: 1fr 1fr
+@media only screen and (max-width: 650px)
     .container
         &, &.columns-2
             grid-template-columns: 1fr

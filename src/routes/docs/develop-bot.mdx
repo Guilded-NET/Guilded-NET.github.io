@@ -11,13 +11,24 @@ tags:
 
 # Getting Started: Developing the bot
 
+> NOTE: Guilded.NET offers project templates that can create a skeleton of a bot. HOWEVER(!!!), if you are getting started with Guilded.NET, it's recommended to continue reading this tutorial, as you may not understand parts of template's code. If you want to use templates, check out [Getting Started: .NET templates](/docs/templates) document.
+
 ## Installing Guilded.NET
 
-First of all, create a new project. Guilded.NET works with any template.
+First of all, we need to create a .NET project for the bot. The preferred .NET project type is `console`, however, it's not necessarily restricted to any .NET project type, so you can choose any that you prefer.
 
-> Guilded.NET offers installable MSBuild templates, which can be found [here](https://www.nuget.org/packages/Guilded.NET.Templates/). Just be sure to edit the <q>config/config.json</q> file and insert your token.
+```bash
+cd "/path/to/the/dotnet/project"
+dotnet new console
+```
 
-Install Guilded.NET by typing [`dotnet add package Guilded.NET`](https://github.com/Guilded-NET/Guilded.NET.Templates) and Guilded.NET dependency should be added to your project. Now we'll need to run your bot.
+When we have a new .NET project, we can then add Guilded.NET, which in itself is one simple command:
+
+```bash
+dotnet add package Guilded
+```
+
+While this adds Guilded.NET to the project, it doesn't connect Guilded, let alone create a Guilded bot. Which means we need to create and configure a bot for it.
 
 ## Configuring your bot
 
@@ -30,9 +41,11 @@ In your config file, create a property `auth` and property `prefix`, where your 
 ```json {"file":"config/config.json"}
 {
     "auth": "authentication_credentials_here",
-    "prefix": "!"
+    "prefix": "/"
 }
 ```
+
+> NOTE: If you don't have an auth token, [Getting token](/docs/getting-bot-auth) document covers how to get one.
 
 Be sure to make MSBuild not ignore your config folder in your project file:
 
@@ -50,7 +63,8 @@ We now have a configuration file that we can safely reference in our code and us
 
 We are now going to get the configuration and use it in our bot:
 
-```csharp {"insert":[0,2,4]}
+```csharp {"file": "Program.cs", "insert":[1,3,5]}
+// At the very top of the file
 using System.IO;
 
 using Guilded;
@@ -73,7 +87,7 @@ You can now run your project, but as we can see, it doesn't really do anything. 
 
 Method [ConnectAsync](/) is used to connect the client to Guilded. But once you use it, the bot will connect to Guilded and program will close seeing that it's done. One of the ways to stop it from closing is to use `await Task.Delay(-1)`:
 
-```csharp {"insert":[1]}
+```csharp {"file": "Program.cs", "insert":[1]}
 using System.IO;
 using System.Threading.Tasks;
 
@@ -83,25 +97,17 @@ using Newtonsoft.Json;
 ```
 
 ```csharp {"file":"Program.cs"}
-// Below static void Main()
-static async Task RunAsync(GuildedBotClient client)
-{
-    await client.ConnectAsync().ConfigureAwait(false);
-    // Stop program from closing
-    await Task.Delay(-1);
-}
+await client.ConnectAsync();
+
+// Stop program from closing
+await Task.Delay(-1);
 ```
 
-Now we can reference it in Main method:
-
-```csharp
-// static void Main()
-RunAsync(client).GetAwaiter().GetResult();
-```
+> CAUTION: Make sure that everything you put goes above `await Task.Delay(-1);`, as anything below it may never be run at all.
 
 To see if connection between Guilded and the client are initiated, we can subscribe to [Prepared](/) or [Connected](/) events:
 
-```csharp {"insert": [0]}
+```csharp {"file": "Program.cs", "insert": [0]}
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -111,7 +117,7 @@ using Guilded;
 using Newtonsoft.Json;
 ```
 
-```csharp
+```csharp {"file": "Program.cs"}
 // Below `await using GuildedBotClient client = ...;`
 client.Prepared
       .Subscribe(me =>

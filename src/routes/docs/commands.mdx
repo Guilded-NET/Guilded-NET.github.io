@@ -1,14 +1,19 @@
----
-name: Commands
-icon: bolt
-priority: 3
-category: Getting Started
-description: "Commands are one of the most basic ways to interact with a bot on Guilded. Most bots, if not all, have at least one command."
-tags:
-    - Functions
-    - Commands
-    - C#
----
+<script context="module" lang="ts">
+    import ExampleBlock from "$lib/markdown/ExampleBlock.svelte";
+    import MessageBlock from "$lib/markdown/MessageBlock.svelte";
+    import UserMessages from "$lib/markdown/UserMessages.svelte";
+    import MarkdownContent from "$lib/markdown/MarkdownContent.svelte";
+    import { MaintainerAvatar } from "$lib/util/images";
+
+    export let metadata = {
+        name: "Commands",
+        icon: "bolt",
+        category: "Getting Started",
+        priority: 4,
+        description: "Commands are one of the most basic ways to interact with a bot on Guilded. Most bots, if not all, have at least one command.",
+        tags: ["Functions", "Commands", "C#"]
+    };
+</script>
 
 # Getting Started: Commands
 
@@ -16,10 +21,10 @@ Commands are one of the most basic ways to interact with a bot on Guilded. Most 
 
 ## Setting it up
 
-Guilded.NET's command system is its own package, which means we will need to install it first. Open up your terminal or console. This is either PowerShell, CMD, Windows Terminal (Windows really has endless terminals, huh?), Git Bash, Terminal or anything similar. Then type the following:
+Guilded.NET's command system is its own package, which means we will need to install it first. Open up terminal/console of your choice and then type the following:
 
 ```bash
-cd "/path/to/Guilded-NET/bot"
+cd "/path/to/the/dotnet/project"
 dotnet add package Guilded.Commands
 ```
 
@@ -27,10 +32,19 @@ And that's about it. Now we need to set it up in the code.
 
 In the place where your client is set up (`using var client = ...`), add `.AddCommands(new BotCommands(), prefix)`. This should look something like this:
 
-```cs {"file": "Program.cs"}
-// static void Main()
-// ...
+```csharp {"file": "Program.cs", "insert": [6]}
+using System;
+using System.IO;
+using System.Reactive.Linq;
+using System.Threading.Tasks;
 
+using Guilded;
+using Guilded.Commands;
+
+using Newtonsoft.Json;
+```
+
+```csharp {"file": "Program.cs"}
 using var client = new GuildedBotClient(auth).AddCommands(new BotCommands(), prefix);
 ```
 
@@ -39,20 +53,40 @@ This will show an error that `BotCommands` does not exist, so we will have to cr
 Create a new file with `.cs` extension and create a class in it:
 
 ```cs {"file": "BotCommands.cs"}
+using System.Linq;
+using System.Threading.Tasks;
+
+using Guilded;
 using Guilded.Commands;
 
 // Can be whatever you want to name it. It is recommended to use the name of your .csproj file without `.csproj` part
 namespace ProjectNamespace;
 
-public class BotCommands : CommandModule
+public class BotCommands
 {
     // ...
 }
 ```
 
+Make sure that `Program.cs` file imports the namespace name we specified (`ProjectNamespace` in this case):
+
+```csharp {"file": "Program.cs", "insert": [10]}
+using System;
+using System.IO;
+using System.Reactive.Linq;
+using System.Threading.Tasks;
+
+using Guilded;
+using Guilded.Commands;
+
+using Newtonsoft.Json;
+
+using ProjectNamespace;
+```
+
 Any type that will be considered as a command list/command module will always have to extend `Guilded.Commands.CommandModule` like so:
 
-```cs {"file": "BotCommands.cs"}
+```cs {"file": "BotCommands.cs", "highlight": [0]}
 public class BotCommands : CommandModule
 {
     // ... Commands here ...
@@ -75,10 +109,13 @@ All declared commands should be inside `BotCommands` class. Otherwise, they will
 
 So let's do a quick ping command:
 
-```cs {"file": "BotCommands.cs"}
-[Command]
-public async Task Ping(CommandEvent invokation) =>
-    await invokation.ReplyAsync("Pong!");
+```cs {"file": "BotCommands.cs", "insert": [2,3,4]}
+public class BotCommands : CommandModule
+{
+    [Command]
+    public async Task Ping(CommandEvent invokation) =>
+        await invokation.ReplyAsync("Pong!");
+}
 ```
 
 As you can see, like with `MessageEvent` (`msgCreated` in the previous code), you can use `ReplyAsync` on `CommandEvent` instances. `CommandEvent` extends `MessageEvent`, so anything that works with `MessageEvent` should work with `CommandEvent`.
@@ -87,7 +124,7 @@ The name of the command will always automatically be all-lowercase name of the m
 
 However, if we don't like the automatically picked name of the command, we can override it by passing a string to `[Command]` attribute:
 
-```cs
+```csharp {"file": "BotCommands.cs", "highlight": [2]}
 public class BotCommands : CommandModule
 {
     [Command("online")]
@@ -98,7 +135,7 @@ public class BotCommands : CommandModule
 
 And we can also add aliases to them:
 
-```cs
+```csharp {"file": "BotCommands.cs", "highlight": [0, 6]}
 [Command(Aliases = new string[] { "pong", "p" })]
 public async Task Ping(CommandEvent invokation)
 {
@@ -114,7 +151,7 @@ public async Task IsOnlineCommand(CommandEvent invokation)
 
 Besides that, there are non-functional `DescriptionAttribute` and `ExampleAttribute`. These won't do anything by themselves, but it can be used in your `help` command:
 
-```cs
+```csharp
 [Description("Says whatever you give it")]
 [Command(Aliases = new string[] { "talk" } )]
 [ Example("Hello there!"), Example("talk", "Hello there!") ]
@@ -124,14 +161,14 @@ public async Task Say(CommandEvent invokation, .....) =>
 
 Example attribute can have either 1 or 2 arguments. If one argument is passed, then it's the use of the command. If 2 arguments are passed, then 1st argument is the used name or alias of the command in the example and second one is the use of the command:
 
-```cs
+```csharp
 [Example("How to use the command")]
 [Example("command-alias", "How to use the command")]
 ```
 
 As you can see, we added an example to `Say` command with arguments, so how do commands with arguments? Well, it's relatively easy. We add an argument of any type with `[CommandParam]`. While `[CommandParam]` is optional, it is recommended to use it for readability reasons. You can also pass a string to `[CommandParam]` to change the name of the argument.
 
-```cs
+```csharp
 [Command]
 public async Task Add(CommandEvent invokation, [CommandParam] int x, [CommandParam] int y) =>
     await invokation.ReplyAsync($"{x} + {y} = {x + y}");
@@ -143,7 +180,7 @@ However, if we write <q>/add a 10</q>, the bot will not respond. This is to be e
 
 One of the ways to fix this is to make multiple methods with the same name, but different arguments:
 
-```cs
+```csharp
 [Command(Aliases = new string[] { "plus" })]
 public async Task Add(CommandEvent invokation, [CommandParam] int x, [CommandParam] int y) =>
     await invokation.ReplyAsync($"{x} + {y} = {x + y}");
@@ -155,7 +192,7 @@ public async Task Add(CommandEvent invokation, [CommandParam] int x, [CommandPar
 
 And we can go on and on and on with it. This can be difficult to scale if you want to accept potentially even hundreds of arguments. For that, we can use "rest argument". It allows us to get one or more arguments in a command:
 
-```cs
+```csharp
 [Command]
 public async Task Words(CommandEvent invokation, [CommandParam] params string[] words) =>
     await invokation.ReplyAsync($"I got these words: {string.Join(", ", words)}");
@@ -165,7 +202,7 @@ Writing <q>/words a b c d e f</q> will make the bot respond with <q>I got these 
 
 Another cool thing you can use is "defautable" arguments, which allow argument count to be at a certain range and have default values for unspecified arguments. These are declared like so:
 
-```cs
+```csharp
 [Command]
 public async Task Say(CommandEvent invokation, [CommandParam] string word, [CommandParam] uint times = 1) =>
     await invokation.ReplyAsync(string.Join(" ", Enumerable.Repeat(word, times)));
@@ -177,9 +214,9 @@ So now, we can either do <q>/say Word</q> that would result in <q>Word</q> respo
 
 While doing some commands, we will eventually come to realization that we need sub-commands as well. And while you can do it the hard-way, Guilded.NET also covers that. This changes from using methods as commands to using classes. The class-based commands will always have to extend `Guilded.Commands.CommandBase` as well.
 
-> Class-based commands still need to be declared in `CommandModule`, however.
+> IMPORTANT: Class-based commands still need to be declared in `CommandModule`, however.
 
-```csharp
+```csharp {"file": "BotCommands.cs", "insert": [3, 4, 5, 6, 7]}
 public class BotCommands : CommandModule
 {
     // ...
@@ -193,7 +230,7 @@ public class BotCommands : CommandModule
 
 Commands with sub-commands act similar to `CommandModule` — it's actually the opposite — so we should be able to declare sub-commands the same way we declare commands:
 
-```csharp
+```csharp {"file": "BotCommands.cs", "insert": [3, 4, 5, 6, 7, 9, 10, 11, 12, 13]}
 [Command("config", Aliases = new string[] { "settings", "conf" })]
 public class ServerConfig : CommandBase
 {
@@ -213,7 +250,7 @@ public class ServerConfig : CommandBase
 
 Of course, some people might use <q>/config</q> command and it would lead to the bot not having any response. For that, there are "command fallbacks" for that. It should be declared similar to commands, but we have to use `[CommandFallback(...)]` attribute for that instead:
 
-```csharp
+```csharp {"file": "BotCommands.cs", "insert": [5, 6, 7, 8, 9]}
 [Command("config", Aliases = new string[] { "settings", "conf" })]
 public class ServerConfig : CommandBase
 {
@@ -229,11 +266,15 @@ public class ServerConfig : CommandBase
 
 Of course, we will have to list down all the possible commands. We don't really need to write out all commands and we can use `this.Commands` for that. However, as previously stated, multiple commands with the same name are treated differently, so iterating through command list would end up with duplicated command names in the list. For that, we can use `this.CommandLookup`, which groups together all the commands with matching names (it will not group by aliases, however). Here's an example of its usage:
 
-```csharp {"insert": [0]}
+```csharp {"file": "BotCommands.cs"}
 using System.Linq;
+using System.Threading.Tasks;
 
-// ...
+using Guilded;
+using Guilded.Commands;
+```
 
+```csharp {"file": "BotCommands.cs"}
 [CommandFallback(FallbackType.Unspecified)]
 public async Task UnspecifiedSubcommand(CommandEvent invokation) =>
     await invokation.ReplyAsync($"Please specify a sub-command.\nHere are available sub-commands: `{string.Join("`, `", CommandLookup.Select(group => group.Key))}`");
@@ -241,11 +282,30 @@ public async Task UnspecifiedSubcommand(CommandEvent invokation) =>
 
 This is also the reason why class-based commands require extending `CommandBase`: to provide `this.Commands`, `this.CommandLookup` and other properties. If you declare a method as a static method, these properties will not be available in any way, as the command's instance will be somewhat private/hard to dig out.
 
-And now by writing <q>/config</q> the bot should respond with:
-
-> Please specify a sub-command.
->
-> Here are available sub-commands: `prefix`, `another-subcommand`
+<ExampleBlock>
+    <UserMessages>
+        <MessageBlock
+            name="Random Developer"
+            avatar={MaintainerAvatar}
+            badge=""
+        >
+            <MarkdownContent>
+                <p>/config</p>
+            </MarkdownContent>
+        </MessageBlock>
+    </UserMessages>
+    <UserMessages>
+        <MessageBlock>
+            <MarkdownContent>
+                <p>Pleasse specify a sub-command.</p>
+                <p>
+                    Here are available sub-commands: <code>prefix</code>,{" "}
+                    <code>another-subcommand</code>
+                </p>
+            </MarkdownContent>
+        </MessageBlock>
+    </UserMessages>
+</ExampleBlock>
 
 We can also detect sub-commands that weren't found:
 
@@ -255,32 +315,44 @@ public async Task UnknownCommand(CommandEvent invokation) =>
     await invokation.ReplyAsync($"Unknown sub-command `{invokation.CommandName}`");
 ```
 
-The name of the command will not be given as an argument, but you can get the used name in `CommandEvent`. Once again, commands are unique and aren't fully based on command names, bla bla. So the command won't really be seen as an existing command if bad arguments are given. We can, however, use `CommandLookup` to check if any command by that name exists. The problem with it is that we aliases may be ignored. So, if you have command `blabla` with alias `b` and someone does <q>/config b</q>, it will say that <q>b</q> doesn't exist. In this case, it is better to use `Commands`.
+The name of the command will not be given as an argument, but you can get the used name in `CommandEvent`.
+
+We can also get when bad arguments are given to a command:
 
 ```csharp
-[CommandFallback(FallbackType.NoCommandFound)]
-public async Task UnknownCommand(CommandEvent invokation)
+[CommandFallback(FallbackType.BadArguments)]
+public async Task BadArguments(BadCommandArgumentEvent invokation)
 {
-    if (Commands.Any(command => command.HasName(invokation.CommandName)))
-    {
-        // ... Bad arguments ...
-    }
-    else
-    {
-        // ... No such command ...
-    }
+
 }
 ```
 
-This should be improved in the future, but for the time being, this is how it looks.
+Note that bad argument fallback uses `BadCommandArgumentEvent` instead of `CommandEvent`. `BadCommandArgumentEvent` has additional property called `BadArguments`, which contains the list of bad arguments throughout commands. This will contain the first bad argument of all commands under the same name, which means if you have 2 `DoStuff` commands with different arguments, there will be 2 items in `.BadArguments` property from both of those commands with differing arguments.
+
+## CommandFallback in CommandModule
 
 As previously mentioned, `CommandModule` is similar to `CommandBase` (`CommandModule` extends `CommandBase`), so you can use `[CommandFallback(FallbackType.NoCommandFound)]` the same way.
+
+This would look something like this:
+
+```csharp {"file": "BotCommands.cs", "insert": [4, 5, 6, 7, 8]}
+public class BotCommands : CommandModule
+{
+    // ...
+
+    [CommandFallback(FallbackType.BadArguments)]
+    public async Task BadArguments(BadCommandArgumentEvent invokation)
+    {
+        // ...
+    }
+}
+```
 
 ## Server-wide prefixes
 
 Server-wide prefixes are also available for commands. For that, you need to override `DoCommandsAsync` method. Here's an example:
 
-```csharp
+```csharp {"file": "BotCommands.cs", "insert": [4, 5, 6, 7, 8, 9, 10]}
 public class BotCommands : CommandModule
 {
     // ...
@@ -297,6 +369,57 @@ public class BotCommands : CommandModule
 
 I should also note that the code behind fetching commands is not magic and it will invoke `DoCommandsAsync` on any message created. If you want to check if any command has been invoked at all, you can get `bool` value from `base.DoCommandsAsync`.
 
+## Expanding commands to other files
+
+If you want to move commands to other files, `partial` modifier on `BotCommands` class can be used:
+
+```csharp {"file": "BotCommands.cs", "highlight": [2]}
+namespace ProjectNamespace;
+
+public partial class BotCommands : CommandModule
+{
+    // ...
+}
+```
+
+`partial` allows `BotCommands` code to be distributed across different files, which means you can now use commands in different files:
+
+```csharp {"file": "BotCommands.cs"}
+using System.Linq;
+using System.Threading.Tasks;
+
+using Guilded;
+using Guilded.Commands;
+
+namespace ProjectNamespace;
+
+public partial class BotCommands : CommandModule
+{
+    [Command]
+    public Task PingCommandAsync(CommandEvent invokation) =>
+        await invokation.ReplyAsync("Pong!");
+}
+```
+
+```csharp {"file": "ConfigCommand.cs"}
+using System.Linq;
+using System.Threading.Tasks;
+
+using Guilded;
+using Guilded.Commands;
+
+namespace ProjectNamespace;
+
+public partial class BotCommands
+{
+    [Command]
+    public class Config : CommandBase
+    {
+        // ...
+    }
+}
+```
+
 ## That's it
 
-We are done with the commands for now. Happy coding!
+We are done with the commands for now. You can also check out [how to use embeds](/docs/embeds) in Guilded.NET. Happy coding!
